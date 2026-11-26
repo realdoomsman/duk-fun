@@ -33,6 +33,9 @@ PAGES = {
         ('obj_rent.png', (790, 40, 260, 210), -10, False),
         ('ducking.png', (600, 260, 560, 340), 0, False)]),
     'manual': ('the manual.', 'the long version, with the faq.', [('ducking.png', (620, 200, 540, 330), 0, False)]),
+    'buy': ('how to buy.', 'wallet, sol, the real ca. then duk.', [
+        ('obj_rent.png', (690, 50, 220, 180), -8, False),
+        ('stand.png', (840, 90, 320, 500), 0, False)]),
 }
 
 

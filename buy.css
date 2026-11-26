@@ -1,0 +1,31 @@
+/* how to buy: numbered steps on paper cards, then the rules */
+.buy-steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px; counter-reset: none; }
+.buy-step { position: relative; border: 3px solid #111; border-radius: 4px 1px 7px 3px; background: #fff9e7; padding: 26px 30px 30px 84px; min-width: 0; }
+.buy-step:nth-child(even) { border-radius: 2px 8px 3px 6px; }
+.buy-step:last-child { grid-column: 1 / -1; }
+.buy-number { position: absolute; top: 18px; left: 22px; width: 44px; height: 44px; display: grid; place-items: center; border: 3px solid #111; border-radius: 50% 46% 52% 48%; background: #ff7f27; font-size: 24px; font-weight: bold; transform: rotate(-6deg); }
+.buy-step h3 { font-size: 30px; letter-spacing: -1px; line-height: 1.1; }
+.buy-step p { margin-top: 12px; font-size: 16px; line-height: 1.55; }
+.buy-step .buy-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.buy-warn { border-left: 4px solid #ff7f27; padding-left: 12px; }
+.buy-phone { font-size: 15px; }
+.buy-ca { margin-top: 16px; transform: rotate(-.6deg); }
+.buy-ca #ca-soon { font-size: 13px; overflow-wrap: anywhere; }
+.buy-next { list-style: none; padding: 0; margin: 16px 0 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.buy-next a { display: inline-block; border: 2px solid #111; padding: 8px 17px; background: white; font-weight: bold; font-size: 15px; text-decoration: none; border-radius: 3px 1px 5px 2px; }
+.buy-next a:hover, .buy-next a:focus-visible { background: #ff7f27; }
+.buy-rules { border: 3px solid #111; border-radius: 3px 7px 2px 5px; background: white; padding: 30px 34px 32px; max-width: 860px; transform: rotate(-.4deg); }
+.buy-rules h2 { font-size: clamp(34px, 4vw, 52px); letter-spacing: -2px; }
+.buy-rules ul { margin: 16px 0 0; padding-left: 22px; }
+.buy-rules li { margin-top: 10px; font-size: 16px; line-height: 1.5; }
+.buy-rules > p { margin-top: 18px; font-size: 15px; }
+
+@media (max-width: 760px) {
+  .buy-steps { grid-template-columns: 1fr; gap: 18px; }
+  .buy-step { padding: 22px 20px 24px 70px; }
+  .buy-number { top: 16px; left: 14px; width: 40px; height: 40px; font-size: 21px; }
+  .buy-step h3 { font-size: 25px; }
+  .buy-step p, .buy-rules li { font-size: 15px; }
+  .buy-ca { margin-inline: 0; }
+  .buy-rules { padding: 22px 20px 24px; }
+}
