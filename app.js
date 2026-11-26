@@ -83,6 +83,21 @@
   window.dukLastVisit = Number.isFinite(lastVisit) ? lastVisit : null;
   window.dukNewSince = Math.min(Date.now() - 86400000, window.dukLastVisit ?? Infinity);
 
+  // Streak: utc days in a row this browser opened the site (localStorage 'duk-streak' = {last, days, best}).
+  // daily.html shows it. window.dukStreak = { days, best } or null without storage.
+  window.dukStreak = null;
+  try {
+    const dayOf = (ms) => new Date(ms).toISOString().slice(0, 10);
+    const today = dayOf(Date.now());
+    const saved = JSON.parse(localStorage.getItem('duk-streak') || 'null') || {};
+    let days = Number(saved.days) || 0;
+    if (saved.last !== today) days = saved.last === dayOf(Date.now() - 86400000) ? days + 1 : 1;
+    days = Math.max(days, 1);
+    const best = Math.max(Number(saved.best) || 0, days);
+    localStorage.setItem('duk-streak', JSON.stringify({ last: today, days, best }));
+    window.dukStreak = { days, best };
+  } catch { /* private mode: no streak. */ }
+
   const $ = (id) => document.getElementById(id);
   const externalURL = (value) => {
     if (!value) return null;

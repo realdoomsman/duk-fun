@@ -18,6 +18,20 @@
   countdown();
   window.setInterval(countdown, 30000);
 
+  // Your streak (window.dukStreak from app.js): utc days in a row on the site, with a post link to brag.
+  const streak = window.dukStreak;
+  const streakBox = $('[data-daily-streak]');
+  if (streak && streakBox) {
+    const { days, best } = streak;
+    $('[data-streak-days]').textContent = days === 1 ? 'day 1.' : `day ${days} in a row.`;
+    $('[data-streak-note]').textContent = days === 1
+      ? `come back tomorrow and it's two.${best > 1 ? ` best so far: ${best}.` : ''}`
+      : `he's been on the floor the whole time.${best > days ? ` best so far: ${best}.` : ''}`;
+    const text = `${days === 1 ? 'day 1 of ducking.' : `day ${days} of ducking in a row.`} duk.\n\njust duk. $DUK\nhttps://duk.fun/daily.html`;
+    $('[data-streak-post]').href = `https://x.com/intent/post?text=${encodeURIComponent(text)}`;
+    streakBox.hidden = false;
+  }
+
   const el = (tag, props = {}, ...children) => {
     const node = document.createElement(tag);
     if ('loading' in props) node.loading = props.loading;

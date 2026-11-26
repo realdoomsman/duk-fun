@@ -3,6 +3,9 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **streak** on duk of the day: app.js counts utc days in a row this browser opened the site (localStorage `duk-streak`
+  {last, days, best}); daily.html shows "day N in a row." (best so far when it's higher) and a "post your streak" x link
+  ("day N of ducking in a row. duk." + daily.html).
 - **since you were here**: app.js keeps the last visit per browser (localStorage `duk-last-visit`; a session holds the one before
   it in sessionStorage `duk-since`). Returning visitors get an orange "welcome back. since you were here: N memes, N clips and N
   reaction gifs." bar on home (each count links its page; memes -> memes.html?tag=new&since=<ms>). The archive's "new" filter and
