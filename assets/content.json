@@ -1,6 +1,51 @@
 {
-  "updated": "2026-11-26T15:46:06Z",
+  "updated": "2026-11-26T16:31:03Z",
   "memes": [
+    {
+      "file": "099_no_resistance.png",
+      "src": "assets/memes4/099_no_resistance.png",
+      "thumb": "assets/memes4/thumbs/099_no_resistance.webp",
+      "title": "ct drew lines all over the chart this week. he is not a line. he is a duck. $duk",
+      "alt": "duk reacting to ct drawing support and resistance lines all over the chart. ct drew lines all over the chart this week. he is not a line. he is a duck. $duk",
+      "tag": "market",
+      "created": "2026-11-26T16:15:12Z"
+    },
+    {
+      "file": "098_cold_spot.png",
+      "src": "assets/memes4/098_cold_spot.png",
+      "thumb": "assets/memes4/thumbs/098_cold_spot.webp",
+      "title": "everyone is watching the liquidation heatmap. he stays where it is cool. $duk",
+      "alt": "duk reacting to ct staring at liquidation heatmaps all week. everyone is watching the liquidation heatmap. he stays where it is cool. $duk",
+      "tag": "market",
+      "created": "2026-11-26T16:15:12Z"
+    },
+    {
+      "file": "097_zoom_out.png",
+      "src": "assets/memes4/097_zoom_out.png",
+      "thumb": "assets/memes4/thumbs/097_zoom_out.webp",
+      "title": "ct says just zoom out. he looks the same from any distance.",
+      "alt": "duk reacting to ct telling everyone to \"just zoom out\" on the red month. ct says just zoom out. he looks the same from any distance.",
+      "tag": "market",
+      "created": "2026-11-26T16:15:12Z"
+    },
+    {
+      "file": "096_maintenance.png",
+      "src": "assets/memes4/096_maintenance.png",
+      "thumb": "assets/memes4/thumbs/096_maintenance.webp",
+      "title": "an exchange went down for maintenance. he has been in maintenance mode since launch. $duk",
+      "alt": "duk reacting to exchanges and apps going down for maintenance. an exchange went down for maintenance. he has been in maintenance mode since launch. $duk",
+      "tag": "market",
+      "created": "2026-11-26T16:15:12Z"
+    },
+    {
+      "file": "095_wen.png",
+      "src": "assets/memes4/095_wen.png",
+      "thumb": "assets/memes4/thumbs/095_wen.webp",
+      "title": "ct keeps asking wen. he has one answer. $duk",
+      "alt": "duk reacting to ct replies full of \"wen\" questions during the red month. ct keeps asking wen. he has one answer. $duk",
+      "tag": "market",
+      "created": "2026-11-26T16:15:12Z"
+    },
     {
       "file": "094_hopium_empty.png",
       "src": "assets/memes4/094_hopium_empty.png",
@@ -807,6 +852,51 @@
   ],
   "gifs": [
     {
+      "title": "unbothered.",
+      "alt": "DUK gets up off the floor after a dump and just stands there, blank: \"unbothered.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/062_unbothered.mp4",
+      "gif": "assets/gifs2/062_unbothered.gif",
+      "poster": "assets/gifs2/posters/062_unbothered.webp",
+      "created": "2026-11-26T16:15:15Z"
+    },
+    {
+      "title": "over. back. same duk.",
+      "alt": "Two newspapers alternate: \"it's so over.\" / \"we're so back.\" DUK lies under both in THE DUK pose: \"same duk.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/061_over_back_same.mp4",
+      "gif": "assets/gifs2/061_over_back_same.gif",
+      "poster": "assets/gifs2/posters/061_over_back_same.webp",
+      "created": "2026-11-26T16:15:15Z"
+    },
+    {
+      "title": "can't hear you.",
+      "alt": "DUK flat in THE DUK pose, wings pressed over his head, staring: \"can't hear you.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/060_cant_hear_you.mp4",
+      "gif": "assets/gifs2/060_cant_hear_you.gif",
+      "poster": "assets/gifs2/posters/060_cant_hear_you.webp",
+      "created": "2026-11-26T16:15:15Z"
+    },
+    {
+      "title": "duk season.",
+      "alt": "Red candles rain down past DUK lying flat in THE DUK pose: \"duk season.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/059_duk_season.mp4",
+      "gif": "assets/gifs2/059_duk_season.gif",
+      "poster": "assets/gifs2/posters/059_duk_season.webp",
+      "created": "2026-11-26T16:15:15Z"
+    },
+    {
+      "title": "still here.",
+      "alt": "still here.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/074_still_here.mp4",
+      "gif": "assets/gifs2/074_still_here.gif",
+      "poster": "assets/gifs2/posters/074_still_here.webp",
+      "created": "2026-11-26T15:45:29Z"
+    },
+    {
       "title": "not up.",
       "alt": "Night. A phone buzzes next to DUK lying flat in THE DUK pose: \"not up.\"",
       "tag": "reaction",
@@ -985,42 +1075,6 @@
       "gif": "assets/gifs2/063_how_low.gif",
       "poster": "assets/gifs2/posters/063_how_low.webp",
       "created": "2026-11-26T15:22:29Z"
-    },
-    {
-      "title": "season.",
-      "alt": "season.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/059_duk_season.mp4",
-      "gif": "assets/gifs2/059_duk_season.gif",
-      "poster": "assets/gifs2/posters/059_duk_season.webp",
-      "created": "2026-11-26T15:20:46Z"
-    },
-    {
-      "title": "unbothered.",
-      "alt": "unbothered.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/062_unbothered.mp4",
-      "gif": "assets/gifs2/062_unbothered.gif",
-      "poster": "assets/gifs2/posters/062_unbothered.webp",
-      "created": "2026-11-26T15:20:09Z"
-    },
-    {
-      "title": "over back same.",
-      "alt": "over back same.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/061_over_back_same.mp4",
-      "gif": "assets/gifs2/061_over_back_same.gif",
-      "poster": "assets/gifs2/posters/061_over_back_same.webp",
-      "created": "2026-11-26T15:20:09Z"
-    },
-    {
-      "title": "cant hear you.",
-      "alt": "cant hear you.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/060_cant_hear_you.mp4",
-      "gif": "assets/gifs2/060_cant_hear_you.gif",
-      "poster": "assets/gifs2/posters/060_cant_hear_you.webp",
-      "created": "2026-11-26T15:20:08Z"
     },
     {
       "title": "pattern confirmed.",
@@ -1502,6 +1556,36 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/048_over_and_back.mp4",
+      "poster": "assets/clips2/048_over_and_back.webp",
+      "title": "it's over. we're back. he ducks both. $duk",
+      "alt": "Wide shot. A newspaper spins in: \"it's so over.\" DUK drops into THE DUK pose and it flies over. Then a second newspaper: \"we're so back.\" He stays down. That one flies over too. \"he ducks both.\"",
+      "created": "2026-11-26T16:15:15Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/047_gm_from_the_seller.mp4",
+      "poster": "assets/clips2/047_gm_from_the_seller.webp",
+      "title": "gm from the guy who sold on you. duk.",
+      "alt": "Posts from a big account fly at DUK one after another: \"gm frens.\" \"still holding.\" \"bullish.\" He ducks every one. The last card flips over: \"sold.\" DUK, still flat, staring: \"duk.\"",
+      "created": "2026-11-26T16:15:15Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/046_rent_is_due.mp4",
+      "poster": "assets/clips2/046_rent_is_due.webp",
+      "title": "rent is due. duk.",
+      "alt": "A doorbell. A bill slides under the door, then flies straight at DUK: \"rent due.\" He drops into THE DUK pose. More follow: \"late fee.\" \"final notice.\" All sail over him. He stays down, staring at you: \"duk.\"",
+      "created": "2026-11-26T16:15:15Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/045_u_up.mp4",
       "poster": "assets/clips2/045_u_up.webp",
       "title": "u up? no. ducking. $duk",
@@ -1667,36 +1751,6 @@
       "title": "uncle asks.",
       "alt": "uncle asks.",
       "created": "2026-11-26T15:22:50Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/048_over_and_back.mp4",
-      "poster": "assets/clips2/048_over_and_back.webp",
-      "title": "over and back.",
-      "alt": "over and back.",
-      "created": "2026-11-26T15:21:06Z",
-      "duration": 12.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/047_gm_from_the_seller.mp4",
-      "poster": "assets/clips2/047_gm_from_the_seller.webp",
-      "title": "gm from the seller.",
-      "alt": "gm from the seller.",
-      "created": "2026-11-26T15:20:44Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/046_rent_is_due.mp4",
-      "poster": "assets/clips2/046_rent_is_due.webp",
-      "title": "rent is due.",
-      "alt": "rent is due.",
-      "created": "2026-11-26T15:20:05Z",
       "duration": 11.0,
       "width": 1080,
       "height": 1080
