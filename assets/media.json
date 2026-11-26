@@ -1682,6 +1682,106 @@
         "tag": "banner"
       }
     ],
+    "formats": [
+      {
+        "file": "formats/007_horizontal.png",
+        "src": "assets/kit/formats/007_horizontal.png",
+        "title": "two signs, one floor",
+        "alt": "Two stick figures throw their arms up under two empty signs flying in from each side. DUK lies flat between them.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/018_own_research.png",
+        "src": "assets/kit/formats/018_own_research.png",
+        "title": "the research board",
+        "alt": "A brown corkboard of empty sticky notes joined by red string. DUK stands next to it, staring at you.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/022_puts_stacked.png",
+        "src": "assets/kit/formats/022_puts_stacked.png",
+        "title": "the pile on",
+        "alt": "Four empty white cards stacked down the left like stairs, landing on DUK, who lies flat at the bottom.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/034_worst_month.png",
+        "src": "assets/kit/formats/034_worst_month.png",
+        "title": "the calendar",
+        "alt": "A wall calendar with every day crossed out in red, and an empty red header. DUK lies flat under it.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/043_poll.png",
+        "src": "assets/kit/formats/043_poll.png",
+        "title": "the poll",
+        "alt": "An empty poll card with four blank options, the last one picked. Small DUK lies flat in the corner.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/044_friday_pileup.png",
+        "src": "assets/kit/formats/044_friday_pileup.png",
+        "title": "the to-do list",
+        "alt": "Four empty sticky notes and a blank calendar page pile up above DUK, who lies flat on the floor.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/047_not_dead.png",
+        "src": "assets/kit/formats/047_not_dead.png",
+        "title": "here lies",
+        "alt": "A blank grey tombstone with an empty speech bubble coming from behind it. DUK lies flat at its foot; two stick figures stare.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/057_bottom_checklist.png",
+        "src": "assets/kit/formats/057_bottom_checklist.png",
+        "title": "the checklist",
+        "alt": "A clipboard with five ticks and crosses and empty lines next to each. Tiny DUK lies flat at the bottom of the page.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/060_is_this_it.png",
+        "src": "assets/kit/formats/060_is_this_it.png",
+        "title": "four panels, four calls",
+        "alt": "Four panels: a stick figure in a red cap with an empty speech bubble each time while a red line drops. In the last panel DUK lies flat under an empty bubble.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/064_matching.png",
+        "src": "assets/kit/formats/064_matching.png",
+        "title": "the long banner",
+        "alt": "One wide empty banner across the top. DUK lies flat, stretched out under it.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/071_long_weekend.png",
+        "src": "assets/kit/formats/071_long_weekend.png",
+        "title": "four days",
+        "alt": "Four empty calendar pages in a row, DUK ducking on every one, and DUK ducking on the floor below.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/073_not_for_sale.png",
+        "src": "assets/kit/formats/073_not_for_sale.png",
+        "title": "three signs",
+        "alt": "Three empty yellow signs on a shelf, and one small empty sign stuck in the floor next to DUK, who lies flat.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/074_streak.png",
+        "src": "assets/kit/formats/074_streak.png",
+        "title": "the streak",
+        "alt": "Five red crosses and one green tick in a row, a tiny ducking DUK under each. Big DUK lies flat below.",
+        "tag": "template"
+      },
+      {
+        "file": "formats/075_wrong_animal.png",
+        "src": "assets/kit/formats/075_wrong_animal.png",
+        "title": "pick one",
+        "alt": "An empty card with three checkboxes, the last one crossed. DUK lies flat underneath.",
+        "tag": "template"
+      }
+    ],
     "pfp": [
       {
         "file": "pfp/01_blue_stare.png",

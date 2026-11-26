@@ -173,6 +173,11 @@
       howto: 'put whatever is coming at him in the empty space.',
       empty: 'no templates yet.'
     },
+    formats: {
+      title: 'the new formats.', label: 'new formats', eyebrow: 'blank', size: [1200, 1200],
+      howto: 'this week\u2019s memes with the words taken out. fill in your own.',
+      empty: 'no new formats yet.'
+    },
     pfp: {
       title: 'pfps.', eyebrow: 'faces', size: [1000, 1000],
       howto: 'shown round, the way x crops them.',
@@ -218,11 +223,15 @@
         image.addEventListener('load', measure, { once: true });
         thumb = el('a', { class: 'kit-thumb', href: item.src, target: '_blank', rel: 'noopener', 'aria-label': `open ${item.title} full size` }, [image]);
       }
+      const save = el('a', { class: 'button kit-save', href: item.src, download: `duk-${slug(group)}-${baseName(item.src)}`, text: 'download', 'aria-label': `download ${item.title}` });
+      const fill = group === 'templates' || group === 'formats'
+        ? el('a', { class: 'button kit-save', href: `maker.html?base=${encodeURIComponent(item.src)}#maker`, text: 'fill it in', 'aria-label': `fill in ${item.title} in the maker` })
+        : null;
       return el('li', { class: 'kit-card' }, [
         thumb,
         el('h3', { text: item.title }),
         meta,
-        el('a', { class: 'button kit-save', href: item.src, download: `duk-${slug(group)}-${baseName(item.src)}`, text: 'download', 'aria-label': `download ${item.title}` })
+        fill ? el('div', { class: 'kit-actions' }, [save, fill]) : save
       ]);
     }
 

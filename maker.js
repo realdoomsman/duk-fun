@@ -842,7 +842,9 @@
   window.dukMedia()
     .then(data => {
       const memes = Array.isArray(data && data.memes) ? data.memes : [];
-      const templates = Array.isArray(data && data.kit && data.kit.templates) ? data.kit.templates : [];
+      const kit = (data && data.kit) || {};
+      // kit/templates (blank scenes) then kit/formats (this week's memes with the words taken out).
+      const templates = [kit.templates, kit.formats].flatMap(list => (Array.isArray(list) ? list : []));
       const tags = new Set();
       const addBase = (item, kind) => {
         if (!item || typeof item.src !== 'string' || bases.some(base => base.src === item.src)) return;

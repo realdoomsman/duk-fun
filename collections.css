@@ -90,11 +90,13 @@
 .kit-page .kit-card p { font-size: 14px; margin-top: 6px; }
 .kit-page .kit-card .kit-meta { font-size: 12px; text-decoration: underline; text-underline-offset: 3px; margin-bottom: 14px; }
 .kit-page .kit-save { margin-top: auto; align-self: start; min-height: 44px; }
+.kit-page .kit-actions { margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px; }
+.kit-page .kit-actions .kit-save { margin-top: 0; }
 .kit-page .kit-empty { border: 2px dashed #111; padding: 26px; font-size: 17px; }
 
 /* thumbs sized by what they're for */
-.kit-page .kit-group-templates .kit-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.kit-page .kit-group-templates .kit-thumb img { height: 300px; }
+.kit-page .kit-group-templates .kit-grid, .kit-page .kit-group-formats .kit-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.kit-page .kit-group-templates .kit-thumb img, .kit-page .kit-group-formats .kit-thumb img { height: 300px; }
 .kit-page .kit-group-pfp .kit-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .kit-page .kit-group-pfp .kit-thumb { border: 0; background: transparent; }
 .kit-page .kit-group-pfp .kit-thumb img { height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 3px solid #111; background: #00a2e8; }
@@ -133,7 +135,7 @@
   .comics-page .comics-colophon { display: block; }
   .comics-page .comics-colophon dl { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-bottom: 24px; }
   .kit-page .kit-basics-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .kit-page .kit-group-templates .kit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .kit-page .kit-group-templates .kit-grid, .kit-page .kit-group-formats .kit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .kit-page .kit-group-pfp .kit-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .kit-page .kit-group-other .kit-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .kit-page .kit-group-replies .kit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -178,7 +180,7 @@
   .kit-page .kit-card h3 { font-size: 18px; }
   .kit-page .kit-card p { font-size: 13px; }
   .kit-page .kit-save { padding: 8px 10px; font-size: 13px; }
-  .kit-page .kit-group-templates .kit-thumb img { height: 170px; }
+  .kit-page .kit-group-templates .kit-thumb img, .kit-page .kit-group-formats .kit-thumb img { height: 170px; }
   .kit-page .kit-group-pfp .kit-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .kit-page .kit-group-pfp .kit-thumb img { height: auto; }
   .kit-page .kit-group-pfp .kit-card h3 { font-size: 14px; }
