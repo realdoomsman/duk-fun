@@ -217,7 +217,8 @@ def sync() -> tuple[dict, set, list]:
         path = Path(rel)
         ids = {rel, path.name, path.stem}
         # the file name is public too (urls, share pages, downloads), so it has to pass the rule like the words do.
-        text = ' '.join(str(entry.get(key) or '') for key in ('caption', 'topic', 'alt')) + f' {title} {path.stem}'
+        # '_' and '-' become spaces so word-bounded rules (\beth\b) see the words in names like 021_eth_flip.
+        text = ' '.join(str(entry.get(key) or '') for key in ('caption', 'topic', 'alt')) + f" {title} {re.sub(r'[_-]+', ' ', path.stem)}"
         if ids & names or entry.get('retracted') or (OFF_RULE.search(text) and not ids & allowed):
             blocked.append(rel)
             return True

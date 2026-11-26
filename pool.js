@@ -300,9 +300,12 @@
     const index = Math.min(rows.length - 1, Math.max(0, Math.floor(((at - left) / (width - left - 16)) * rows.length)));
     if (index !== chartState.pick) { chartState.pick = index; drawChart(); }
   };
-  chartSvg.addEventListener('pointermove', (event) => pickAt(event.clientX));
-  chartSvg.addEventListener('pointerdown', (event) => pickAt(event.clientX));
+  // the readout only speaks (aria-live) for a key press or a tap; hovering and the two-minute refresh stay quiet.
+  const speak = (on) => $('pp-chart-readout').setAttribute('aria-live', on ? 'polite' : 'off');
+  chartSvg.addEventListener('pointermove', (event) => { if (event.pointerType === 'mouse') speak(false); pickAt(event.clientX); });
+  chartSvg.addEventListener('pointerdown', (event) => { speak(true); pickAt(event.clientX); });
   chartSvg.addEventListener('keydown', (event) => {
+    speak(true);
     const rows = chartRows();
     if (!rows.length) return;
     const from = chartState.pick >= 0 ? chartState.pick : rows.length - 1;
