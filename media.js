@@ -342,30 +342,55 @@
     }));
   };
 
-  // one poster card that swaps itself for an inline player on tap.
+  // one poster card that swaps itself for an inline player on tap. Each card has an id for deep links
+  // (watch.html#clip-<file>), a post-it link, and an "up next" button once its clip ends.
   const videoCard = (clip, i, { kind, width, height }) => {
     const title = clip.title || `${kind} ${i + 1}.`;
     const length = clock(clip.duration);
     const titleId = `${kind}-${i}-title`;
+    const id = `${kind}-${fileName(clip.src).replace(/\.[^.]+$/, '').replace(/[^\w-]+/g, '-')}`;
     const stage = el('div', { class: 'clip-stage' });
     const play = el('button', { type: 'button', class: 'clip-play', 'aria-describedby': titleId, 'aria-label': `play ${title}` },
       clip.poster
         ? el('img', { src: clip.poster, alt: '', width, height, loading: 'lazy', decoding: 'async' })
         : el('img', { class: 'clip-placeholder', src: 'assets/ducking.png', alt: '', width: 1000, height: 600, loading: 'lazy' }),
       el('span', { class: 'clip-play-label', text: 'play' }));
-    play.addEventListener('click', () => {
-      const video = el('video', { class: 'clip-video', controls: true, playsInline: true, preload: 'auto', poster: clip.poster, width, height, 'aria-label': clip.alt || title, src: clip.src });
-      play.replaceWith(video);
-      video.focus();
+    const next = el('button', { type: 'button', class: 'clip-next', hidden: true });
+    let video = null;
+    const start = () => {
+      if (!video) {
+        video = el('video', { class: 'clip-video', controls: true, playsInline: true, preload: 'auto', poster: clip.poster, width, height, 'aria-label': clip.alt || title, src: clip.src });
+        video.addEventListener('play', () => { next.hidden = true; });
+        video.addEventListener('ended', () => {
+          if (!card.duk_next) return;
+          next.textContent = `up next: ${card.duk_next.duk_title}`;
+          next.hidden = false;
+        });
+        play.replaceWith(video);
+      }
+      video.focus({ preventScroll: true });
       video.play().catch(() => { /* controls are right there. */ });
+    };
+    play.addEventListener('click', start);
+    next.addEventListener('click', () => {
+      const upcoming = card.duk_next;
+      upcoming.scrollIntoView({ behavior: reducedMotion.matches ? 'auto' : 'smooth', block: 'center' });
+      upcoming.duk_start();
     });
     stage.append(play);
-    return el('li', { class: 'clip-card' },
+    const share = `${title}\n\njust duk. $duk\n${site}watch.html#${id}`;
+    const card = el('li', { class: 'clip-card', id },
       stage,
       el('div', { class: 'clip-info' },
         el('h3', { id: titleId, text: title }),
         length ? el('time', { class: 'clip-length', dateTime: `PT${Math.round(clip.duration)}S`, 'aria-label': spokenLength(clip.duration), text: length }) : null),
-      el('a', { class: 'clip-download', href: clip.src, download: fileName(clip.src), 'aria-label': `download ${title} (${extension(clip.src)})`, text: `download ${extension(clip.src)}` }));
+      el('div', { class: 'clip-actions' },
+        el('a', { class: 'clip-download', href: clip.src, download: fileName(clip.src), 'aria-label': `download ${title} (${extension(clip.src)})`, text: `download ${extension(clip.src)}` }),
+        el('a', { class: 'clip-download', href: `https://x.com/intent/post?text=${encodeURIComponent(share)}`, target: '_blank', rel: 'noopener', 'aria-label': `post ${title} on x`, text: 'post it' }),
+        next));
+    card.duk_start = start;
+    card.duk_title = title;
+    return card;
   };
 
   const renderClips = (clips) => {
@@ -376,8 +401,27 @@
       $('clip-empty').hidden = false;
       return;
     }
-    grid.replaceChildren(...clips.map((clip, i) => videoCard(clip, i, { kind: 'clip', width: clip.width || 1080, height: clip.height || 1080 })));
+    const cards = clips.map((clip, i) => videoCard(clip, i, { kind: 'clip', width: clip.width || 1080, height: clip.height || 1080 }));
+    cards.forEach((card, i) => { card.duk_next = cards[i + 1] || null; });
+    grid.replaceChildren(...cards);
+    // The cards arrive after the browser tried the hash, so honour deep links by hand.
+    let wanted = '';
+    try { wanted = decodeURIComponent(window.location.hash.slice(1)); } catch { /* not ours. */ }
+    const linked = wanted && cards.find((card) => card.id === wanted);
+    if (linked) {
+      linked.classList.add('is-linked');
+      linked.scrollIntoView({ block: 'center' });
+      linked.querySelector('.clip-play').focus({ preventScroll: true });
+    }
   };
+
+  // One clip with sound at a time: starting one pauses the others (muted loops keep going).
+  document.addEventListener('play', ({ target }) => {
+    if (!(target instanceof HTMLVideoElement) || target.muted) return;
+    document.querySelectorAll('video').forEach((other) => {
+      if (other !== target && !other.paused && !other.muted) other.pause();
+    });
+  }, true);
 
   const renderWatch = (media) => {
     const videos = media.videos || {};

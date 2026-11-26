@@ -124,6 +124,11 @@ button.storyboard-frame:focus-visible { outline: 3px dashed #fff9e7; outline-off
 .clip-length { flex: none; font-size: 13px; border: 2px solid #111; padding: 0 8px; background: white; transform: rotate(3deg); }
 .clip-download { display: inline-flex; align-items: center; min-height: 36px; font-size: 13px; text-underline-offset: 4px; }
 .clip-download:hover { background: #ff7f27; }
+.clip-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 16px; }
+.clip-next { flex-basis: 100%; margin-top: 4px; border: 2px solid #111; border-radius: 3px 1px 5px 2px; background: #ff7f27; padding: 6px 12px; font-size: 14px; font-weight: 700; text-align: left; overflow-wrap: anywhere; }
+.clip-next::after { content: " \2192"; }
+.clip-next:hover { background: white; }
+.clip-card.is-linked .clip-stage { outline: 4px dashed #ff7f27; outline-offset: 6px; }
 
 /* watch: credits, rolled by hand */
 .watch-credits { margin-top: 80px; padding: 34px 0 10px; border-top: 3px solid #111; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 20px 50px; }
