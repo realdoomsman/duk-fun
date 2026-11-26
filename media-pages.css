@@ -177,8 +177,10 @@ button.storyboard-frame:focus-visible { outline: 3px dashed #fff9e7; outline-off
   .watch-credits { grid-template-columns: 1fr; margin-top: 56px; }
   .watch-credits dl > div { grid-template-columns: 82px minmax(0, 1fr); gap: 10px; font-size: 15px; }
 }
+/* clips keep two columns on phones: the list grows every day and a tap opens the full player. */
 @media (max-width: 420px) {
-  .clip-grid { grid-template-columns: 1fr; }
+  .clip-grid { gap: 22px 10px; }
+  .clip-play-label { padding: 3px 8px 3px 7px; font-size: 12px; gap: 6px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .storyboard-strip { scroll-behavior: auto; }
