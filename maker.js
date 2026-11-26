@@ -861,6 +861,7 @@
       for (const tag of [...tags].sort()) showSelect.append(new Option(`memes: ${tag}`, `tag:${tag}`));
       libraryNote = memes.length ? '' : 'no memes yet. the sprites still work.';
       applyFilter();
+      pickRequestedBase();
 
       const packs = Array.isArray(data && data.stickerPacks) ? data.stickerPacks : [];
       for (const pack of packs) {
@@ -875,4 +876,18 @@
       libraryNote = 'memes didn\'t load. the sprites still work.';
       applyFilter();
     });
+
+  // maker.html?base=assets/memes/x.png (the archive's "remix it" link) opens with that base picked.
+  function pickRequestedBase() {
+    const requested = new URLSearchParams(window.location.search).get('base');
+    const index = requested ? bases.findIndex(base => base.src === requested) : -1;
+    if (index < 0 || (index === state.base && !state.combo)) return;
+    const input = basePicker.querySelector(`input[value="${index}"]`);
+    if (!input) return;
+    input.checked = true;
+    state.base = index;
+    const card = input.closest('.maker-choice');
+    basePicker.scrollTop = card.offsetTop - basePicker.offsetTop - 8;
+    loadSelection();
+  }
 })();

@@ -18,6 +18,7 @@
   const next = document.getElementById('archive-next');
   const download = document.getElementById('archive-download');
   const post = document.getElementById('archive-post');
+  const remix = document.getElementById('archive-remix');
   const items = [];
   const bySource = new Map();
   const byKey = new Map();
@@ -157,6 +158,7 @@
     download.download = item.file;
     const text = `${item.caption}\n\njust duk. $DUK\n${site}/memes.html`;
     post.href = `https://x.com/intent/post?text=${encodeURIComponent(text)}`;
+    remix.href = `maker.html?base=${encodeURIComponent(`assets/${decodeURIComponent(item.src.slice(assetBase.href.length))}`)}#maker`;
     previous.disabled = next.disabled = visible.length < 2;
     setUrl(item.key);
   }
