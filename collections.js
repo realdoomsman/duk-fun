@@ -230,14 +230,23 @@
         thumb = el('a', { class: 'kit-thumb', href: item.src, target: '_blank', rel: 'noopener', 'aria-label': `open ${item.title} full size` }, [image]);
       }
       const save = el('a', { class: 'button kit-save', href: item.src, download: `duk-${slug(group)}-${baseName(item.src)}`, text: 'download', 'aria-label': `download ${item.title}` });
-      const fill = group === 'templates' || group === 'formats'
-        ? el('a', { class: 'button kit-save', href: `maker.html?base=${encodeURIComponent(item.src)}#maker`, text: 'fill it in', 'aria-label': `fill in ${item.title} in the maker` })
-        : null;
+      const titleId = `kit-${slug(group)}-${slug(baseName(item.src))}`;
+      const actions = [save];
+      if (group === 'templates' || group === 'formats') {
+        actions.push(el('a', { class: 'button kit-save', href: `maker.html?base=${encodeURIComponent(item.src)}#maker`, text: 'fill it in', 'aria-label': `fill in ${item.title} in the maker` }));
+      } else if (group === 'replies' && kind === 'image') {
+        // a reply picture goes straight into the reply: copied on a computer, the share sheet on a phone.
+        const share = el('button', { type: 'button', class: 'button kit-save', text: 'share', hidden: true, 'aria-describedby': titleId });
+        const copy = el('button', { type: 'button', class: 'button kit-save', text: 'copy image', hidden: true, 'aria-describedby': titleId });
+        const prepare = window.dukPictureButtons(share, copy, () => ({ src: item.src, name: `duk-${slug(baseName(item.src))}`, text: 'duk.' }));
+        share.addEventListener('pointerdown', () => prepare(item.src));
+        actions.push(share, copy);
+      }
       return el('li', { class: 'kit-card' }, [
         thumb,
-        el('h3', { text: item.title }),
+        el('h3', { id: titleId, text: item.title }),
         meta,
-        fill ? el('div', { class: 'kit-actions' }, [save, fill]) : save
+        actions.length > 1 ? el('div', { class: 'kit-actions' }, actions) : save
       ]);
     }
 
