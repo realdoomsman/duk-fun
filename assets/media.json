@@ -3278,6 +3278,150 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/094_hopium_empty.webp"
+      },
+      {
+        "file": "formats/095_wen.png",
+        "src": "assets/kit/formats/095_wen.png",
+        "title": "the replies",
+        "alt": "Four stick figures down the left, each with an empty reply box, and DUK lying flat at the bottom right with an empty speech bubble. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.32,
+            0.027,
+            0.36,
+            0.08
+          ],
+          [
+            0.167,
+            0.147,
+            0.28,
+            0.047
+          ],
+          [
+            0.167,
+            0.273,
+            0.2,
+            0.047
+          ],
+          [
+            0.167,
+            0.4,
+            0.247,
+            0.053
+          ],
+          [
+            0.673,
+            0.42,
+            0.153,
+            0.073
+          ],
+          [
+            0.167,
+            0.527,
+            0.307,
+            0.053
+          ],
+          [
+            0.08,
+            0.833,
+            0.333,
+            0.06
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/095_wen.webp"
+      },
+      {
+        "file": "formats/096_maintenance.png",
+        "src": "assets/kit/formats/096_maintenance.png",
+        "title": "the closed sign",
+        "alt": "A big empty grey sign over two orange traffic cones, DUK lying flat on the dark road between them. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.3,
+            0.093,
+            0.22,
+            0.08
+          ],
+          [
+            0.553,
+            0.093,
+            0.14,
+            0.08
+          ],
+          [
+            0.233,
+            0.207,
+            0.533,
+            0.08
+          ],
+          [
+            0.273,
+            0.36,
+            0.453,
+            0.053
+          ],
+          [
+            0.14,
+            0.84,
+            0.313,
+            0.06
+          ],
+          [
+            0.493,
+            0.84,
+            0.36,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/096_maintenance.webp"
+      },
+      {
+        "file": "formats/097_zoom_out.png",
+        "src": "assets/kit/formats/097_zoom_out.png",
+        "title": "the zoom out",
+        "alt": "Three stacked panels with an empty label in each, DUK lying flat on the ground and getting smaller in every one until he is a dot. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.213,
+            0.013,
+            0.573,
+            0.073
+          ],
+          [
+            0.073,
+            0.113,
+            0.16,
+            0.047
+          ],
+          [
+            0.073,
+            0.387,
+            0.18,
+            0.033
+          ],
+          [
+            0.073,
+            0.66,
+            0.413,
+            0.053
+          ],
+          [
+            0.28,
+            0.927,
+            0.433,
+            0.047
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/097_zoom_out.webp"
       }
     ],
     "pfp": [
