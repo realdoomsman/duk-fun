@@ -468,6 +468,37 @@
     }).catch(() => { /* no strip. */ });
   }
 
+  // Home pool card: today's add count (utc) and how long ago the newest one landed, from the keeper's /log
+  // (limit=0 = summaries only, a few kb). Hidden when the keeper isn't set, isn't adding or is restarting (zeros).
+  const poolToday = document.querySelector('[data-pool-today]');
+  const keeper = typeof config.KEEPER_URL === 'string' ? config.KEEPER_URL.trim().replace(/\/+$/, '') : '';
+  if (poolToday && /^https?:\/\//.test(keeper)) {
+    const ago = (seconds) => {
+      const minutes = Math.floor(Math.max(0, Date.now() / 1000 - seconds) / 60);
+      if (minutes < 1) return 'just now';
+      if (minutes < 60) return `${minutes} min ago`;
+      const hours = Math.floor(minutes / 60);
+      return hours < 48 ? `${hours} h ago` : `${Math.floor(hours / 24)} days ago`;
+    };
+    const showPoolToday = () => fetch(`${keeper}/log?limit=0`, { cache: 'no-store' })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((log) => {
+        if (!log || log.state !== 'active' || !log.last_run) return;
+        const newest = list(log.recent).reduce((max, add) => Math.max(max, Number(add && add.timestamp) || 0), 0);
+        if (!newest) return;
+        const today = new Date().toISOString().slice(0, 10);
+        const row = list(log.daily).find((day) => day && day.day === today);
+        const adds = row && Number.isInteger(row.adds) ? row.adds : 0;
+        poolToday.textContent = adds
+          ? `${adds} ${adds === 1 ? 'add' : 'adds'} today (utc). newest ${ago(newest)}.`
+          : `no adds yet today (utc). newest ${ago(newest)}.`;
+        poolToday.hidden = false;
+      })
+      .catch(() => { /* the card keeps its last line. */ });
+    showPoolToday();
+    window.setInterval(() => { if (!document.hidden) showPoolToday(); }, 120000);
+  }
+
   // "put duk on your home screen": shown only when the browser offers an install (manifest.webmanifest).
   const installButtons = document.querySelectorAll('[data-install]');
   if (installButtons.length) {
