@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-26T18:01:02Z",
+  "updated": "2026-11-26T18:46:03Z",
   "memes": [
+    {
+      "file": "113_early_bird.png",
+      "src": "assets/memes4/113_early_bird.png",
+      "thumb": "assets/memes4/thumbs/113_early_bird.webp",
+      "title": "ct keeps saying get in early. he is a different kind of bird.",
+      "alt": "duk reacting to ct telling everyone to \"get in early\" on the next thing. ct keeps saying get in early. he is a different kind of bird.",
+      "tag": "market",
+      "created": "2026-11-26T18:30:01Z"
+    },
+    {
+      "file": "112_built_this.png",
+      "src": "assets/memes4/112_built_this.png",
+      "thumb": "assets/memes4/thumbs/112_built_this.webp",
+      "title": "they say bear markets are for building. he built this.",
+      "alt": "duk reacting to ct: \"bear markets are for building\". they say bear markets are for building. he built this.",
+      "tag": "market",
+      "created": "2026-11-26T18:30:01Z"
+    },
+    {
+      "file": "111_reserved.png",
+      "src": "assets/memes4/111_reserved.png",
+      "thumb": "assets/memes4/thumbs/111_reserved.webp",
+      "title": "exchanges keep publishing proof of reserves. he passed his audit.",
+      "alt": "duk reacting to exchanges publishing proof of reserves after a rough month. exchanges keep publishing proof of reserves. he passed his audit.",
+      "tag": "market",
+      "created": "2026-11-26T18:30:01Z"
+    },
+    {
+      "file": "110_taking_up_space.png",
+      "src": "assets/memes4/110_taking_up_space.png",
+      "thumb": "assets/memes4/thumbs/110_taking_up_space.webp",
+      "title": "everyone is hosting a space about the market. he joined one. $duk",
+      "alt": "duk reacting to everyone on ct hosting live audio spaces about the market. everyone is hosting a space about the market. he joined one. $duk",
+      "tag": "market",
+      "created": "2026-11-26T18:30:01Z"
+    },
     {
       "file": "109_stop_hunt.png",
       "src": "assets/memes4/109_stop_hunt.png",
@@ -942,6 +978,51 @@
   ],
   "gifs": [
     {
+      "title": "not picking a side.",
+      "alt": "A rope yanks left and right just over DUK lying in THE DUK pose: \"not picking a side.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/079_no_side.mp4",
+      "gif": "assets/gifs2/079_no_side.gif",
+      "poster": "assets/gifs2/posters/079_no_side.webp",
+      "created": "2026-11-26T18:45:01Z"
+    },
+    {
+      "title": "it'll blow over.",
+      "alt": "A storm of autumn leaves blows over DUK lying in THE DUK pose: \"it'll blow over.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/078_it_will_blow_over.mp4",
+      "gif": "assets/gifs2/078_it_will_blow_over.gif",
+      "poster": "assets/gifs2/posters/078_it_will_blow_over.webp",
+      "created": "2026-11-26T18:45:01Z"
+    },
+    {
+      "title": "sat this one out.",
+      "alt": "Fans on both sides throw their arms up for the wave; DUK lies in the middle in THE DUK pose: \"sat this one out.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/077_sat_this_one_out.mp4",
+      "gif": "assets/gifs2/077_sat_this_one_out.gif",
+      "poster": "assets/gifs2/posters/077_sat_this_one_out.webp",
+      "created": "2026-11-26T18:15:14Z"
+    },
+    {
+      "title": "left hanging.",
+      "alt": "A hand swings for a high five and DUK ducks under it. The hand just hangs there: \"left hanging.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/076_left_hanging.mp4",
+      "gif": "assets/gifs2/076_left_hanging.gif",
+      "poster": "assets/gifs2/posters/076_left_hanging.webp",
+      "created": "2026-11-26T18:15:14Z"
+    },
+    {
+      "title": "he ducked. you didn't.",
+      "alt": "A pumpkin pie flies over DUK in THE DUK pose and splats on the camera: \"you didn't.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/075_you_didnt.mp4",
+      "gif": "assets/gifs2/075_you_didnt.gif",
+      "poster": "assets/gifs2/posters/075_you_didnt.webp",
+      "created": "2026-11-26T18:15:14Z"
+    },
+    {
       "title": "still here.",
       "alt": "Red candles lie scattered on the floor. DUK gets up from THE DUK pose among them and stares: \"still here.\"",
       "tag": "reaction",
@@ -1120,51 +1201,6 @@
       "gif": "assets/gifs2/055_absolutely_not.gif",
       "poster": "assets/gifs2/posters/055_absolutely_not.webp",
       "created": "2026-11-26T15:45:03Z"
-    },
-    {
-      "title": "no side.",
-      "alt": "no side.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/079_no_side.mp4",
-      "gif": "assets/gifs2/079_no_side.gif",
-      "poster": "assets/gifs2/posters/079_no_side.webp",
-      "created": "2026-11-26T15:38:34Z"
-    },
-    {
-      "title": "it will blow over.",
-      "alt": "it will blow over.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/078_it_will_blow_over.mp4",
-      "gif": "assets/gifs2/078_it_will_blow_over.gif",
-      "poster": "assets/gifs2/posters/078_it_will_blow_over.webp",
-      "created": "2026-11-26T15:38:34Z"
-    },
-    {
-      "title": "sat this one out.",
-      "alt": "sat this one out.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/077_sat_this_one_out.mp4",
-      "gif": "assets/gifs2/077_sat_this_one_out.gif",
-      "poster": "assets/gifs2/posters/077_sat_this_one_out.webp",
-      "created": "2026-11-26T15:32:34Z"
-    },
-    {
-      "title": "left hanging.",
-      "alt": "left hanging.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/076_left_hanging.mp4",
-      "gif": "assets/gifs2/076_left_hanging.gif",
-      "poster": "assets/gifs2/posters/076_left_hanging.webp",
-      "created": "2026-11-26T15:32:34Z"
-    },
-    {
-      "title": "you didnt.",
-      "alt": "you didnt.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/075_you_didnt.mp4",
-      "gif": "assets/gifs2/075_you_didnt.gif",
-      "poster": "assets/gifs2/posters/075_you_didnt.webp",
-      "created": "2026-11-26T15:32:34Z"
     },
     {
       "title": "pattern confirmed.",
@@ -1646,6 +1682,56 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/062_tug_of_war.mp4",
+      "poster": "assets/clips2/062_tug_of_war.webp",
+      "title": "bulls vs bears tug of war. he is lying under the rope. $duk",
+      "alt": "Wide shot. A rope stretches across the frame: a green \"bulls.\" flag on the left, a red \"bears.\" flag on the right. The rope yanks left, then right. DUK lies flat in THE DUK pose right under the middle. The rope snaps; both ends whip away. \"he didn't pick a side.\"",
+      "created": "2026-11-26T18:45:01Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/061_leaf_blower.mp4",
+      "poster": "assets/clips2/061_leaf_blower.webp",
+      "title": "neighbor's leaf blower is on again. duk.",
+      "alt": "A leaf blower nozzle pokes in from the right and roars. A storm of red, orange and yellow leaves blasts across the frame. DUK drops into THE DUK pose and the whole storm blows over him. It stops. Not a single leaf on him: \"it'll blow over.\"",
+      "created": "2026-11-26T18:45:01Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/060_stadium_wave.mp4",
+      "poster": "assets/clips2/060_stadium_wave.webp",
+      "title": "stadium wave. he sat this one out. lying down. $duk",
+      "alt": "Wide shot of a paint stadium crowd: rows of simple heads. The wave rolls across, every fan jumps up with their arms in the air... except one spot in the middle where DUK lies in THE DUK pose. The wave rolls right past him. \"he sat this one out.\"",
+      "created": "2026-11-26T18:15:14Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/059_the_high_five.mp4",
+      "poster": "assets/clips2/059_the_high_five.webp",
+      "title": "went in for a high five. duk.",
+      "alt": "A hand comes in from the side: \"up top.\" It swings for a high five. DUK drops into THE DUK pose and it whooshes over his head. It tries again: \"come on.\" Duk. The hand hangs there, left hanging: \"...ok.\"",
+      "created": "2026-11-26T18:15:14Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/058_pie_incoming.mp4",
+      "poster": "assets/clips2/058_pie_incoming.webp",
+      "title": "pumpkin pie incoming. he ducked. you didn't.",
+      "alt": "A pumpkin pie is launched from off-screen straight at DUK: \"pie incoming.\" He drops into THE DUK pose, the pie sails over him, grows huge and splats right on the camera. Orange everywhere. Through it: \"he ducked. you didn't.\"",
+      "created": "2026-11-26T18:15:14Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/057_market_hide_and_seek.mp4",
       "poster": "assets/clips2/057_market_hide_and_seek.webp",
       "title": "the market looked everywhere for him. $duk",
@@ -1792,56 +1878,6 @@
       "alt": "A ceremony banner: \"official turkey pardon.\" A turkey gets a big \"pardoned.\" stamp. Next to it DUK stands there with no paperwork. A roasting pan and a carving fork fly at him; he drops into THE DUK pose and they sail over. He stays down, staring: \"never needed a pardon.\"",
       "created": "2026-11-26T15:45:03Z",
       "duration": 12.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/062_tug_of_war.mp4",
-      "poster": "assets/clips2/062_tug_of_war.webp",
-      "title": "tug of war.",
-      "alt": "tug of war.",
-      "created": "2026-11-26T15:38:33Z",
-      "duration": 12.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/061_leaf_blower.mp4",
-      "poster": "assets/clips2/061_leaf_blower.webp",
-      "title": "leaf blower.",
-      "alt": "leaf blower.",
-      "created": "2026-11-26T15:38:32Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/060_stadium_wave.mp4",
-      "poster": "assets/clips2/060_stadium_wave.webp",
-      "title": "stadium wave.",
-      "alt": "stadium wave.",
-      "created": "2026-11-26T15:33:04Z",
-      "duration": 11.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/059_the_high_five.mp4",
-      "poster": "assets/clips2/059_the_high_five.webp",
-      "title": "the high five.",
-      "alt": "the high five.",
-      "created": "2026-11-26T15:32:31Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/058_pie_incoming.mp4",
-      "poster": "assets/clips2/058_pie_incoming.webp",
-      "title": "pie incoming.",
-      "alt": "pie incoming.",
-      "created": "2026-11-26T15:32:29Z",
-      "duration": 10.0,
       "width": 1080,
       "height": 1080
     },
