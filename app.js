@@ -68,6 +68,21 @@
     return daily;
   };
 
+  // Last visit, per browser (localStorage): a session keeps the time of the one before it, so "new" on the site means
+  // "since you were here" for anyone back after more than a day. window.dukNewSince (ms) is that cutoff.
+  let previousVisit = '';
+  try {
+    previousVisit = sessionStorage.getItem('duk-since');
+    if (previousVisit === null) {
+      previousVisit = localStorage.getItem('duk-last-visit') || '';
+      sessionStorage.setItem('duk-since', previousVisit);
+    }
+    localStorage.setItem('duk-last-visit', new Date().toISOString());
+  } catch { previousVisit = ''; }
+  const lastVisit = Date.parse(previousVisit);
+  window.dukLastVisit = Number.isFinite(lastVisit) ? lastVisit : null;
+  window.dukNewSince = Math.min(Date.now() - 86400000, window.dukLastVisit ?? Infinity);
+
   const $ = (id) => document.getElementById(id);
   const externalURL = (value) => {
     if (!value) return null;
@@ -339,5 +354,30 @@
         wall.hidden = false;
       })
       .catch(() => { /* No wall; the directory below still links everything. */ });
+  }
+
+  // Home: "since you were here" for people coming back, counted from content.json 'created'.
+  const since = document.querySelector('[data-since]');
+  if (since && window.dukLastVisit) {
+    window.dukMedia().then((media) => {
+      const after = (item) => item && typeof item.created === 'string' && Date.parse(item.created) > window.dukLastVisit;
+      const counts = [
+        [list(media.memes).filter(after).length, 'meme', `memes.html?tag=new&since=${window.dukLastVisit}`],
+        [list(media.videos && media.videos.clips).filter(after).length, 'clip', 'watch.html'],
+        [list(media.gifs).filter(after).length, 'reaction gif', 'stickers.html#gifs'],
+        [list(media.comics).filter(after).length, 'comic', 'comics.html'],
+      ].filter(([n]) => n > 0);
+      if (!counts.length) return;
+      const links = counts.map(([n, word, href]) => {
+        const link = document.createElement('a');
+        link.href = href;
+        link.textContent = `${n} ${word}${n === 1 ? '' : 's'}`;
+        return link;
+      });
+      const parts = [];
+      links.forEach((link, i) => parts.push(i === 0 ? '' : i === links.length - 1 ? ' and ' : ', ', link));
+      since.querySelector('[data-since-list]').replaceChildren(...parts, '.');
+      since.hidden = false;
+    }).catch(() => { /* no note. */ });
   }
 })();

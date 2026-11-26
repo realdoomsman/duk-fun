@@ -23,8 +23,11 @@
   const bySource = new Map();
   const byKey = new Map();
   const requestedTag = new URLSearchParams(window.location.search).get('tag');
-  // 'new' is a filter, not a tag: memes the sync script published in the last day (content.json 'created').
-  const FRESH_MS = 24 * 60 * 60 * 1000;
+  // 'new' is a filter, not a tag: memes the sync script published (content.json 'created') since the visitor's last
+  // visit or in the last day, whichever is longer (window.dukNewSince from app.js); ?since=<ms> (home's "since you
+  // were here" link) pins the cutoff to that visit.
+  const sinceParam = Number(new URLSearchParams(window.location.search).get('since'));
+  const NEW_SINCE = sinceParam > 0 ? sinceParam : window.dukNewSince || Date.now() - 24 * 60 * 60 * 1000;
   let filter = tags.has(requestedTag) || requestedTag === 'new' ? requestedTag : 'all';
   let visible = [];
   let current = 0;
@@ -67,7 +70,7 @@
       caption,
       alt: typeof entry.alt === 'string' && entry.alt.trim() ? entry.alt : caption,
       tag,
-      fresh: typeof entry.created === 'string' && Date.now() - Date.parse(entry.created) < FRESH_MS,
+      fresh: typeof entry.created === 'string' && Date.parse(entry.created) > NEW_SINCE,
       asset: relative,
       card: null,
       button: null

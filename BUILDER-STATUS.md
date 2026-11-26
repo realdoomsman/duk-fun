@@ -3,6 +3,10 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **since you were here**: app.js keeps the last visit per browser (localStorage `duk-last-visit`; a session holds the one before
+  it in sessionStorage `duk-since`). Returning visitors get an orange "welcome back. since you were here: N memes, N clips and N
+  reaction gifs." bar on home (each count links its page; memes -> memes.html?tag=new&since=<ms>). The archive's "new" filter and
+  stamps now cover since-your-last-visit or the last day, whichever is longer (window.dukNewSince).
 - **a11y + speed pass**: axe-core on all 14 pages: the only violations were nested `<aside>` landmarks (home greeting card, manual
   margin notes) -> now a plain div / `role="note"`; axe is clean everywhere. Trailer poster: copy-assets.py publishes a webp copy
   (assets/videos/thumbs/duk-trailer-poster.webp, 153KB -> 24KB) for watch + the home card; the jpg stays for the og card.
