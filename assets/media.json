@@ -5065,7 +5065,7 @@
   "videos": {
     "trailer": {
       "src": "assets/videos/duk-trailer.mp4",
-      "poster": "assets/videos/duk-trailer-poster.jpg",
+      "poster": "assets/videos/thumbs/duk-trailer-poster.webp",
       "title": "duk. the trailer.",
       "duration": 29.0,
       "frames": [

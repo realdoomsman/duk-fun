@@ -244,9 +244,11 @@ trailer = PROJECT / 'videos' / 'duk-trailer.mp4'
 if trailer.is_file():
     poster = next((PROJECT / 'videos' / f'duk-trailer-poster.{suffix}' for suffix in ('jpg', 'png')
                    if (PROJECT / 'videos' / f'duk-trailer-poster.{suffix}').is_file()), None)
+    # The page and the home card use a webp copy (jpg ~150KB -> webp); the jpg stays for the og card (make-og.py).
+    poster_src = publish(poster, VIDEOS / poster.name) if poster else None
     media['videos']['trailer'] = {
         'src': publish(trailer, VIDEOS / trailer.name),
-        'poster': publish(poster, VIDEOS / poster.name) if poster else None,
+        'poster': thumbnail(poster_src, 1080) if poster_src else None,
         'title': 'duk. the trailer.',
         'duration': durations.get(trailer.name),
         'frames': [publish(frame, VIDEOS / 'frames' / frame.name)

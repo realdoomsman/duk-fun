@@ -3,6 +3,9 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **a11y + speed pass**: axe-core on all 14 pages: the only violations were nested `<aside>` landmarks (home greeting card, manual
+  margin notes) -> now a plain div / `role="note"`; axe is clean everywhere. Trailer poster: copy-assets.py publishes a webp copy
+  (assets/videos/thumbs/duk-trailer-poster.webp, 153KB -> 24KB) for watch + the home card; the jpg stays for the og card.
 - **duk of the day** (daily.html, daily.js, daily.css): today's pick big (post it / remix it / download, countdown to the next one),
   then every day so far (daily.html#day-YYYY-MM-DD). `scripts/daily.py` writes each utc day's pick into assets/daily.json once
   (sync-content.py runs it every pass and publishes daily.json), so past days never change. Pick = curated media.json memes minus
