@@ -2,7 +2,7 @@
   'use strict';
   const config = window.DUK_CONFIG || {};
   const $ = (id) => document.getElementById(id);
-  const REFRESH_MS = 60000;
+  const REFRESH_MS = 120000; // /log carries the keeper's ledger; every two minutes is plenty (it adds every ~5 min)
   const TIMEOUT_MS = 8000;
 
   const keeperURL = (() => {
@@ -129,9 +129,9 @@
      (quote = lamports, base = duk at 6 decimals, lp at 9, the same decimals the keeper uses for its totals).
      The chart is a running total, one step per add, with each add's own size as a bar along the bottom. */
   const CHART = {
-    sol: { field: 'quote', decimals: 9, unit: 'sol', format: new Intl.NumberFormat('en-US', { maximumFractionDigits: 3 }) },
-    duk: { field: 'base', decimals: 6, unit: 'duk', format: wholeNumbers },
-    lp: { field: 'lp', decimals: 9, unit: 'lp burned', format: new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }) },
+    sol: { field: 'quote', decimals: 9, total: 'solAdded', unit: 'sol', format: new Intl.NumberFormat('en-US', { maximumFractionDigits: 3 }) },
+    duk: { field: 'base', decimals: 6, total: 'dukAdded', unit: 'duk', format: wholeNumbers },
+    lp: { field: 'lp', decimals: 9, total: 'lpBurned', unit: 'lp burned', format: new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }) },
   };
   // axis labels stay short: 40m, 2.5k, 20.
   const compactNumbers = new Intl.NumberFormat('en-US', { notation: 'compact', maximumFractionDigits: 1 });
@@ -216,12 +216,13 @@
       const h = Math.max(3, Math.round(Math.sqrt(add[key] / biggest) * strip));
       parts.push(svgNode('rect', { class: 'chart-bar', x: Math.round(x(add.t)) - 1, y: stripBase - h, width: 3, height: h }));
     });
-    // running total: a step up at every add, flat until now.
-    let path = `M${Math.round(x(start))} ${Math.round(floor)}`;
-    adds.forEach((add) => { path += `H${Math.round(x(add.t))}V${Math.round(y(add.total[key]))}`; });
-    path += `H${Math.round(x(end))}`;
-    parts.push(svgNode('path', { class: 'chart-water', d: `${path}V${Math.round(floor)}Z` }));
-    parts.push(svgNode('path', { class: 'chart-line', d: path }));
+    // running total: a step up at every add, flat until now. It starts above zero when /log only lists the later adds.
+    const first = adds[0];
+    const left = Math.round(x(start));
+    const startY = Math.round(y(first.total[key] - first[key]));
+    const steps = adds.map((add) => `H${Math.round(x(add.t))}V${Math.round(y(add.total[key]))}`).join('') + `H${Math.round(x(end))}`;
+    parts.push(svgNode('path', { class: 'chart-water', d: `M${left} ${floor}V${startY}${steps}V${floor}Z` }));
+    parts.push(svgNode('path', { class: 'chart-line', d: `M${left} ${startY}${steps}` }));
     parts.push(svgNode('line', { class: 'chart-axis', x1: pad.left, x2: width - pad.right, y1: Math.round(floor), y2: Math.round(floor) }));
     if (pick >= 0) {
       const add = adds[pick];
@@ -233,17 +234,26 @@
     chartReadout();
   };
 
-  // Returns how many adds the ledger has (0 when it has none or isn't there).
-  const drawAdds = (transactions) => {
+  // Returns how many adds the ledger lists (0 when it has none or isn't there). If /log ever lists only the later adds,
+  // the totals cover what's missing: the running total starts at the difference, so it still ends at the real total.
+  const drawAdds = (transactions, totals = {}) => {
     const raw = (Array.isArray(transactions) ? transactions : [])
       .filter((entry) => entry && entry.kind === 'deposit' && typeof entry.signature === 'string' && isAmount(entry.timestamp))
       .sort((a, b) => a.timestamp - b.timestamp);
-    const running = { sol: 0, duk: 0, lp: 0 };
+    const amountOf = (entry, { field, decimals }) => {
+      const value = Number(entry[field]) / 10 ** decimals;
+      return Number.isFinite(value) && value > 0 ? value : 0;
+    };
+    const running = {};
+    Object.entries(CHART).forEach(([key, spec]) => {
+      const listed = raw.reduce((sum, entry) => sum + amountOf(entry, spec), 0);
+      const missing = isAmount(totals[spec.total]) ? totals[spec.total] - listed : 0;
+      running[key] = missing > listed * 0.001 ? missing : 0;
+    });
     const adds = raw.map((entry) => {
       const add = { t: entry.timestamp, signature: entry.signature };
-      Object.entries(CHART).forEach(([key, { field, decimals }]) => {
-        const value = Number(entry[field]) / 10 ** decimals;
-        add[key] = Number.isFinite(value) && value > 0 ? value : 0;
+      Object.entries(CHART).forEach(([key, spec]) => {
+        add[key] = amountOf(entry, spec);
         running[key] += add[key];
       });
       add.total = { ...running };
@@ -307,7 +317,7 @@
     const level = Math.min(64, 18 + Math.log10(1 + sol) * 22);
     setLevel(level, sol > 0 ? `${amount(sol)} sol added so far.` : 'pool found. no adds yet.');
     const recent = newestFirst(data.recent);
-    const adds = drawAdds(data.transactions);
+    const adds = drawAdds(data.transactions, totals);
     $('pp-state-text').textContent = recent.length
       ? `running. last checked ${clock(new Date())}.`
       : `running. waiting for enough fees for the first add. last checked ${clock(new Date())}.`;
