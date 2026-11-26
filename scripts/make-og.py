@@ -36,6 +36,9 @@ PAGES = {
     'buy': ('how to buy.', 'wallet, sol, the real ca. then duk.', [
         ('obj_rent.png', (690, 50, 220, 180), -8, False),
         ('stand.png', (840, 90, 320, 500), 0, False)]),
+    'fame': ('the wall of fame.', 'stuff the cult made.', [
+        ('memes/pfp.png', (690, 60, 250, 250), -6, True),
+        ('stand.png', (900, 110, 270, 470), 0, False)]),
 }
 
 

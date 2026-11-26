@@ -101,7 +101,7 @@
             <button class="maker-download" type="button" disabled>download png.</button>
             <a class="maker-post" href="https://x.com/intent/post" target="_blank" rel="noopener noreferrer" aria-describedby="maker-post-note">post on x<span class="sr-only"> (opens in a new tab)</span></a>
           </div>
-          <p id="maker-post-note" class="maker-help">x can't attach the image from here. download the png first, then add it to your post.</p>
+          <p id="maker-post-note" class="maker-help">x can't attach the image from here. download the png first, then add it to your post. tag @justdukfun: the good ones go on <a href="fame.html">the wall of fame</a>.</p>
           <p class="maker-export-status" role="status" aria-live="polite" aria-atomic="true"></p>
         </div>
         <figure class="maker-preview">

@@ -317,10 +317,11 @@ def git(*args: str) -> subprocess.CompletedProcess:
     return subprocess.run(['git', '-C', str(SITE), *args], capture_output=True, text=True)
 
 
-def push(summary: str) -> None:
+def push(summary: str, published: list = PUBLISHED) -> None:
+    """Commit and push only `published` (site-relative paths); add-fame.py passes its own list."""
     if (SITE / '.git' / 'rebase-merge').exists() or (SITE / '.git' / 'rebase-apply').exists():
         raise SystemExit('a rebase is in progress in site/; skipping this push')
-    paths = [path for path in PUBLISHED if (SITE / path).exists() or git('ls-files', '--', path).stdout.strip()]
+    paths = [path for path in published if (SITE / path).exists() or git('ls-files', '--', path).stdout.strip()]
     git('add', '-A', '--', *paths)
     if not git('diff', '--cached', '--quiet', '--', *paths).returncode:
         print('nothing new to push')

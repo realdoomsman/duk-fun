@@ -1,0 +1,42 @@
+/* the wall of fame: credited holder pieces pinned to the wall, then how to get on it */
+.fame-wall .inline-heading > p { white-space: pre-line; }
+.fame-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 30px 26px; align-items: start; }
+.fame-grid:empty { display: none; }
+.fame-card { position: relative; min-width: 0; border: 3px solid #111; border-radius: 3px 8px 2px 6px; background: #fff9e7; padding: 12px 12px 16px; transform: rotate(-.8deg); scroll-margin: 40px; }
+.fame-card:nth-child(3n + 2) { transform: rotate(.7deg); border-radius: 7px 2px 6px 3px; }
+.fame-card:nth-child(3n) { transform: rotate(-.3deg); }
+.fame-card::before { content: ''; position: absolute; top: -12px; left: 50%; width: 70px; height: 22px; margin-left: -35px; background: rgba(255, 249, 231, .85); border: 2px solid #111; transform: rotate(-4deg); }
+.fame-card.is-linked { outline: 4px dashed #ff7f27; outline-offset: 6px; }
+.fame-number { position: absolute; top: -13px; left: -8px; z-index: 1; border: 2px solid #111; background: #ff7f27; padding: 2px 9px; font-size: 13px; font-weight: bold; border-radius: 2px 5px 3px 4px; transform: rotate(-5deg); }
+.fame-art { display: block; border: 2px solid #111; background: #00a2e8; }
+.fame-art img, .fame-video { display: block; width: 100%; height: auto; max-height: 520px; object-fit: contain; background: #00a2e8; }
+.fame-body { padding: 12px 4px 0; }
+.fame-caption { font-size: 18px; line-height: 1.35; font-weight: bold; overflow-wrap: anywhere; }
+.fame-by { margin-top: 6px; font-size: 14px; }
+.fame-by a { font-weight: bold; text-underline-offset: 3px; }
+.fame-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.fame-links a { display: inline-block; border: 2px solid #111; padding: 5px 12px; background: white; font-size: 14px; font-weight: bold; text-decoration: none; border-radius: 3px 1px 5px 2px; }
+.fame-links a:hover, .fame-links a:focus-visible { background: #ff7f27; }
+.fame-empty { border: 2px dashed #111; border-radius: 3px 8px 2px 6px; padding: 26px 28px; font-size: 18px; }
+.fame-empty p + p { margin-top: 16px; }
+.fame-howto { border: 3px solid #111; border-radius: 4px 1px 7px 3px; background: white; padding: 30px 34px 32px; max-width: 900px; transform: rotate(-.4deg); }
+.fame-howto h2 { font-size: clamp(34px, 4vw, 52px); letter-spacing: -2px; }
+.fame-steps { list-style: none; margin: 20px 0 0; padding: 0; display: grid; gap: 14px; counter-reset: fame-step; }
+.fame-steps li { position: relative; padding: 3px 0 0 50px; min-height: 36px; counter-increment: fame-step; font-size: 17px; line-height: 1.5; }
+.fame-steps li::before { content: counter(fame-step); position: absolute; left: 0; top: 0; width: 34px; height: 34px; display: grid; place-items: center; border: 2px solid #111; border-radius: 50% 44% 52% 47%; background: #ff7f27; font-weight: bold; }
+.fame-note { margin-top: 18px; font-size: 14px; }
+
+@media (max-width: 760px) {
+  .fame-grid { grid-template-columns: 1fr 1fr; gap: 22px 14px; }
+  .fame-card { padding: 8px 8px 12px; }
+  .fame-caption { font-size: 15px; }
+  .fame-by, .fame-links a { font-size: 12px; }
+  .fame-links a { padding: 4px 8px; }
+  .fame-number { top: -11px; left: -6px; font-size: 11px; }
+  .fame-howto { padding: 22px 20px 24px; }
+  .fame-steps li { font-size: 15px; }
+  .fame-empty { padding: 20px; font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fame-card, .fame-card:nth-child(3n + 2), .fame-card:nth-child(3n) { transform: none; }
+}

@@ -3,6 +3,15 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **wall of fame** (fame.html, fame.js, fame.css): holders' pieces from assets/fame.json, credited (@handle, their post, "post it"
+  with a share card s/fame-<id>.html that lands on fame.html#fame-<id>). Add one by hand:
+  `python scripts/add-fame.py <png|jpg|webp|gif|mp4> --by <handle> --post <x status url> --caption "..." [--alt "..."] --push`
+  (copies to assets/fame/, webp thumb, gif -> looping mp4, refuses prices/%/other coins; `--remove <id>`, `--list`).
+  Empty for now, with "how to get on it". Linked from the footer, a home directory card, the cult closing and the maker's post note.
+  Home directory also got a "how to buy" card; the last card spans the row so no gaps at any count.
+- **how to buy** (buy.html): wallet (phantom/solflare), sol, the real ca with copy, jupiter (sol -> duk filled in) and pump.fun,
+  open-in-wallet links for phones, then "then duk." links; the rules (no dms, ca never changes). no prices. linked from every nav,
+  the home hero and the faq; og card assets/og/buy.png; in the sitemap.
 - **today's duk** in the home duk hour clock: one archive meme a day (same for everyone); during duk hour "post duk. on x" links its
   share page, so every duk hour post shows that meme.
 - **speed**: lazy images are really lazy now (loading set before src) and gif posters load near the viewport only.

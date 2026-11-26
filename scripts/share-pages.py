@@ -1,14 +1,14 @@
 """Share pages: python site/scripts/share-pages.py -> site/s/<slug>.html + site/s/img/<slug>.jpg
 
-One tiny page per meme (archive), clip (watch), reaction gif (stickers) and comic strip with its own 1200x630 card,
-so a link posted on x shows that piece instead of the generic page card. People who open the link land on
-memes.html#<folder/file>, watch.html#clip-<file>, stickers.html#gif-<file> or comics.html#strip-<file>. The slug is
-the asset path under assets/ without its extension, '/' and anything outside [A-Za-z0-9_-] turned into '-'
-(archive.js, media.js and collections.js build the same slug for their post links).
+One tiny page per meme (archive), clip (watch), reaction gif (stickers), comic strip and wall of fame entry with its own
+1200x630 card, so a link posted on x shows that piece instead of the generic page card. People who open the link land on
+memes.html#<folder/file>, watch.html#clip-<file>, stickers.html#gif-<file>, comics.html#strip-<file> or fame.html#fame-<id>.
+The slug is the asset path under assets/ without its extension, '/' and anything outside [A-Za-z0-9_-] turned into '-'
+(window.dukSharePage in app.js builds the same slug for every post link).
 
-Reads assets/media.json, assets/content.json and the memes in assets/config.js; run after copy-assets.py and
-sync-content.py (both call it). Cards are only redrawn when the art or caption changes; pages and cards for items
-that left the site are removed.
+Reads assets/media.json, assets/content.json, assets/fame.json and the memes in assets/config.js; run after copy-assets.py,
+sync-content.py and add-fame.py (all call it). Cards are only redrawn when the art or caption changes; pages and cards for
+items that left the site are removed.
 """
 from html import escape
 from io import BytesIO
@@ -196,6 +196,12 @@ def items() -> list:
         # collections.js strip id: 'strip-' + file name lowercased, extension dropped, [^a-z0-9]+ -> '-'.
         name = re.sub(r'\.[a-z0-9]+$', '', str(entry.get('file') or src.split('/')[-1]).strip().lower())
         add(src, entry, src, False, f"comics.html#strip-{re.sub(r'[^a-z0-9]+', '-', name).strip('-')}")
+    # Wall of fame (scripts/add-fame.py): credited on the card; fame.js builds the same 'fame-<id>' anchor.
+    fame_file = ASSETS / 'fame.json'
+    for entry in json.loads(fame_file.read_text(encoding='utf-8')).get('entries', []) if fame_file.is_file() else []:
+        credit = f"{entry.get('caption') or 'on the wall of fame.'} by @{entry['by']}"
+        art = entry['thumb'] if entry.get('kind') == 'gif' else entry['src']
+        add(entry['src'], {'title': credit, 'alt': entry.get('alt')}, art, entry.get('kind') != 'image', f"fame.html#fame-{entry['id']}")
     return found
 
 
