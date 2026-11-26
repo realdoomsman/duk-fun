@@ -24,7 +24,8 @@
 .fame-steps { list-style: none; margin: 20px 0 0; padding: 0; display: grid; gap: 14px; counter-reset: fame-step; }
 .fame-steps li { position: relative; padding: 3px 0 0 50px; min-height: 36px; counter-increment: fame-step; font-size: 17px; line-height: 1.5; }
 .fame-steps li::before { content: counter(fame-step); position: absolute; left: 0; top: 0; width: 34px; height: 34px; display: grid; place-items: center; border: 2px solid #111; border-radius: 50% 44% 52% 47%; background: #ff7f27; font-weight: bold; }
-.fame-note { margin-top: 18px; font-size: 14px; }
+.fame-post { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.fame-note { margin-top: 14px; font-size: 14px; }
 
 @media (max-width: 760px) {
   .fame-grid { grid-template-columns: 1fr 1fr; gap: 22px 14px; }

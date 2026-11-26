@@ -3,6 +3,8 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **wall submissions**: maker posts now tag @justdukfun (`just duk. $duk @justdukfun https://duk.fun/maker.html`) so made duks
+  land in the account's mentions; fame.html has "post yours for the wall" (x intent: "my duk for the wall of fame. @justdukfun").
 - **duk hour in your calendar**: assets/duk-hour.ics (daily 21:00-21:10 utc, alarm at start; CRLF kept by .gitattributes
   `*.ics -text`) linked from the home clock, cult #duk-hour (plus a google calendar template link) and daily.html.
 - **streak** on duk of the day: app.js counts utc days in a row this browser opened the site (localStorage `duk-streak`

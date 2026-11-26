@@ -8,7 +8,7 @@
   const TEXT_WIDTH = 872;
   const TEXT_MAX_HEIGHT = 220;
   const MAX_STICKERS = 12;
-  const SHARE_TAIL = 'just duk. $duk https://duk.fun/maker.html';
+  const SHARE_TAIL = 'just duk. $duk @justdukfun https://duk.fun/maker.html';
 
   const sprite = (label, file, group) => ({ label, src: `assets/${file}`, kind: 'sprite', group, tag: null, number: '', alt: '' });
   const quickMeme = (label, file, number, tag) => ({ label, src: `assets/memes/${file}`, kind: 'meme', group: 'meme', tag, number, alt: '' });
@@ -101,7 +101,7 @@
             <button class="maker-download" type="button" disabled>download png.</button>
             <a class="maker-post" href="https://x.com/intent/post" target="_blank" rel="noopener noreferrer" aria-describedby="maker-post-note">post on x<span class="sr-only"> (opens in a new tab)</span></a>
           </div>
-          <p id="maker-post-note" class="maker-help">x can't attach the image from here. download the png first, then add it to your post. tag @justdukfun: the good ones go on <a href="fame.html">the wall of fame</a>.</p>
+          <p id="maker-post-note" class="maker-help">x can't attach the image from here. download the png first, then add it to your post. the post tags @justdukfun: the good ones go on <a href="fame.html">the wall of fame</a>.</p>
           <p class="maker-export-status" role="status" aria-live="polite" aria-atomic="true"></p>
         </div>
         <figure class="maker-preview">
