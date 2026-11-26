@@ -10,6 +10,8 @@ from pathlib import Path
 from shutil import copy2, rmtree
 import json
 
+from PIL import Image
+
 SITE = Path(__file__).resolve().parent
 PROJECT = SITE.parent
 ASSETS = SITE / 'assets'
@@ -105,11 +107,24 @@ for name in ('duk.png', 'pfp.png'):
     else:
         missing.append(f'style2/paint/{name}')
 
+def thumbnail(src: str) -> str:
+    """480px webp next to a published meme (assets/memes/thumbs/x.webp) for the grids; downloads keep the png."""
+    source = SITE / src
+    target = source.parent / 'thumbs' / f'{source.stem}.webp'
+    target.parent.mkdir(exist_ok=True)
+    with Image.open(source) as image:
+        frame = image.convert('RGBA' if image.mode in ('RGBA', 'LA', 'P') else 'RGB')
+        frame.thumbnail((480, 480), Image.LANCZOS)
+        frame.save(target, 'WEBP', quality=72, method=6)
+    return target.relative_to(SITE).as_posix()
+
+
 # The archive is one list: memes/, memes2/ (101-150, quote cards), memes3/ (151-180, 'season').
 for folder_name in ('memes', 'memes2', 'memes3'):
     for meme in collection(folder_name):
         if meme['tag'] not in TAGS:
             meme['tag'] = None
+        meme['thumb'] = thumbnail(meme['src'])
         media['memes'].append(meme)
 media['comics'] = collection('comics')
 

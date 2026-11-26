@@ -1,14 +1,149 @@
 {
-  "updated": "2026-11-26T12:00:59Z",
+  "updated": "2026-11-26T12:06:18Z",
   "memes": [
     {
-      "file": "011_june_lows.png",
-      "src": "assets/memes4/011_june_lows.png",
-      "thumb": "assets/memes4/thumbs/011_june_lows.webp",
-      "title": "everyone is watching the june lows. he is lying on them. $duk",
-      "alt": "duk reacting to analysts watching whether btc holds the june lows (58,525 daily close). everyone is watching the june lows. he is lying on them. $duk",
+      "file": "029_macro_expert.png",
+      "src": "assets/memes4/029_macro_expert.png",
+      "thumb": "assets/memes4/thumbs/029_macro_expert.webp",
+      "title": "everyone became a macro expert this week. he stayed a floor expert.",
+      "alt": "duk reacting to everyone on ct became a macro analyst this week: rates, tariffs, chips, inflation. everyone became a macro expert this week. he stayed a floor expert.",
       "tag": "market",
-      "created": "2026-11-26T11:57:44Z"
+      "created": "2026-11-26T12:03:44Z"
+    },
+    {
+      "file": "028_in_the_dip.png",
+      "src": "assets/memes4/028_in_the_dip.png",
+      "thumb": "assets/memes4/thumbs/028_in_the_dip.webp",
+      "title": "they said buy the dip. he is in the dip.",
+      "alt": "duk reacting to ct: \"buy the dip\" posts everywhere during the red week. they said buy the dip. he is in the dip.",
+      "tag": "market",
+      "created": "2026-11-26T12:03:44Z"
+    },
+    {
+      "file": "027_not_riding.png",
+      "src": "assets/memes4/027_not_riding.png",
+      "thumb": "assets/memes4/thumbs/027_not_riding.webp",
+      "title": "volatility is back. he is not riding.",
+      "alt": "duk reacting to volatility is back: implied vol jumped, wild swings both ways. volatility is back. he is not riding.",
+      "tag": "market",
+      "created": "2026-11-26T12:03:44Z"
+    },
+    {
+      "file": "026_min_effort.png",
+      "src": "assets/memes4/026_min_effort.png",
+      "thumb": "assets/memes4/thumbs/026_min_effort.webp",
+      "title": "everyone is talking about max pain. he is going for minimum effort. $duk",
+      "alt": "duk reacting to friday options expiry: ct talking about \"max pain\". everyone is talking about max pain. he is going for minimum effort. $duk",
+      "tag": "market",
+      "created": "2026-11-26T12:03:44Z"
+    },
+    {
+      "file": "025_does_it_free.png",
+      "src": "assets/memes4/025_does_it_free.png",
+      "thumb": "assets/memes4/thumbs/025_does_it_free.webp",
+      "title": "kols get paid to post. he does this for free.",
+      "alt": "duk reacting to reports of influencers being paid monthly to promote tokens. kols get paid to post. he does this for free.",
+      "tag": "market",
+      "created": "2026-11-26T12:02:26Z"
+    },
+    {
+      "file": "024_june_lows.png",
+      "src": "assets/memes4/024_june_lows.png",
+      "thumb": "assets/memes4/thumbs/024_june_lows.webp",
+      "title": "everyone is watching the june lows. he is lying on them. $duk",
+      "alt": "duk reacting to analysts watching whether the market holds the june lows. everyone is watching the june lows. he is lying on them. $duk",
+      "tag": "market",
+      "created": "2026-11-26T12:02:26Z"
+    },
+    {
+      "file": "023_nobody_tricks_him.png",
+      "src": "assets/memes4/023_nobody_tricks_him.png",
+      "thumb": "assets/memes4/thumbs/023_nobody_tricks_him.webp",
+      "title": "miners got tricked into working for a thief. nobody has ever tricked him into working.",
+      "alt": "duk reacting to miners tricked into working for a thief via a fake internet route. miners got tricked into working for a thief. nobody has ever tricked him into working.",
+      "tag": "market",
+      "created": "2026-11-26T12:02:26Z"
+    },
+    {
+      "file": "022_puts_stacked.png",
+      "src": "assets/memes4/022_puts_stacked.png",
+      "thumb": "assets/memes4/thumbs/022_puts_stacked.webp",
+      "title": "options expire friday. everyone bought protection. he is under all of it.",
+      "alt": "duk reacting to friday options expiry, everyone buying downside protection. options expire friday. everyone bought protection. he is under all of it.",
+      "tag": "market",
+      "created": "2026-11-26T12:02:26Z"
+    },
+    {
+      "file": "021_longs_pay_shorts.png",
+      "src": "assets/memes4/021_longs_pay_shorts.png",
+      "thumb": "assets/memes4/thumbs/021_longs_pay_shorts.webp",
+      "title": "longs pay shorts. shorts pay longs. nobody pays him. he is lying down anyway. $duk",
+      "alt": "duk reacting to funding positive: longs paying shorts to hold positions. longs pay shorts. shorts pay longs. nobody pays him. he is lying down anyway. $duk",
+      "tag": "market",
+      "created": "2026-11-26T12:02:26Z"
+    },
+    {
+      "file": "020_ninth_bottom.png",
+      "src": "assets/memes4/020_ninth_bottom.png",
+      "thumb": "assets/memes4/thumbs/020_ninth_bottom.webp",
+      "title": "reading \"this is the bottom\" for the 9th time this month.",
+      "alt": "duk reacting to \"this is the bottom\" calls all month while btc keeps making new lows. reading \"this is the bottom\" for the 9th time this month.",
+      "tag": "market",
+      "created": "2026-11-26T12:02:26Z"
+    },
+    {
+      "file": "019_pre_flattened.png",
+      "src": "assets/memes4/019_pre_flattened.png",
+      "thumb": "assets/memes4/thumbs/019_pre_flattened.webp",
+      "title": "short squeeze. he came pre-flattened.",
+      "alt": "duk reacting to short squeeze liquidations fuel the rebound. short squeeze. he came pre-flattened.",
+      "tag": "market",
+      "created": "2026-11-26T12:02:26Z"
+    },
+    {
+      "file": "018_own_research.png",
+      "src": "assets/memes4/018_own_research.png",
+      "thumb": "assets/memes4/thumbs/018_own_research.webp",
+      "title": "did his own research. $duk",
+      "alt": "duk reacting to ct telling everyone to dyor through etf outflows, puts, rate hikes. did his own research. $duk",
+      "tag": "market",
+      "created": "2026-11-26T12:02:26Z"
+    },
+    {
+      "file": "017_rally_faded.png",
+      "src": "assets/memes4/017_rally_faded.png",
+      "thumb": "assets/memes4/thumbs/017_rally_faded.webp",
+      "title": "there was a rally. it ended before he finished getting up.",
+      "alt": "duk reacting to chip-news rally faded fast, market back under macro pressure. there was a rally. it ended before he finished getting up.",
+      "tag": "market",
+      "created": "2026-11-26T12:02:26Z"
+    },
+    {
+      "file": "015_touch_grass.png",
+      "src": "assets/memes4/015_touch_grass.png",
+      "thumb": "assets/memes4/thumbs/015_touch_grass.webp",
+      "title": "they told him to touch grass. full body contact. $duk",
+      "alt": "duk reacting to ct: \"log off and touch grass\" during the dump. they told him to touch grass. full body contact. $duk",
+      "tag": "market",
+      "created": "2026-11-26T11:59:35Z"
+    },
+    {
+      "file": "013_snipers.png",
+      "src": "assets/memes4/013_snipers.png",
+      "thumb": "assets/memes4/thumbs/013_snipers.webp",
+      "title": "snipers are everywhere. hard to hit something this flat. $duk",
+      "alt": "duk reacting to sniping fees: launchpads adding block-0 fees to curb snipers. snipers are everywhere. hard to hit something this flat. $duk",
+      "tag": "market",
+      "created": "2026-11-26T11:59:35Z"
+    },
+    {
+      "file": "012_seed_phrase.png",
+      "src": "assets/memes4/012_seed_phrase.png",
+      "thumb": "assets/memes4/thumbs/012_seed_phrase.webp",
+      "title": "someone asked for his seed phrase. he lay down until they left.",
+      "alt": "duk reacting to login migrations asking users to import private keys; seed phrase scams. someone asked for his seed phrase. he lay down until they left.",
+      "tag": "market",
+      "created": "2026-11-26T11:59:35Z"
     },
     {
       "file": "010_markets_closed.png",
@@ -16,15 +151,6 @@
       "thumb": "assets/memes4/thumbs/010_markets_closed.webp",
       "title": "stock market closed for thanksgiving. crypto never closes. he never opened.",
       "alt": "duk reacting to us stock markets closed for thanksgiving, crypto trades 24/7. stock market closed for thanksgiving. crypto never closes. he never opened.",
-      "tag": "market",
-      "created": "2026-11-26T11:57:44Z"
-    },
-    {
-      "file": "009_nobody_tricks_him.png",
-      "src": "assets/memes4/009_nobody_tricks_him.png",
-      "thumb": "assets/memes4/thumbs/009_nobody_tricks_him.webp",
-      "title": "1,000 bitcoin miners got tricked into working for a thief. nobody has ever tricked him into working.",
-      "alt": "duk reacting to 1,000+ bitcoin miners tricked into working for a thief via a fake internet route. 1,000 bitcoin miners got tricked into working for a thief. nobody has ever tricked him into working.",
       "tag": "market",
       "created": "2026-11-26T11:57:44Z"
     },
@@ -81,18 +207,27 @@
       "alt": "duk reacting to record bitcoin etf outflows in november. record etf outflows. $duk",
       "tag": "market",
       "created": "2026-11-26T11:51:17Z"
-    },
-    {
-      "file": "001_puts_stacked.png",
-      "src": "assets/memes4/001_puts_stacked.png",
-      "thumb": "assets/memes4/thumbs/001_puts_stacked.webp",
-      "title": "options expire friday. everyone bought insurance at 60k, 58k, 50k, 40k. he is under all of it.",
-      "alt": "duk reacting to btc $7b options expiry friday, puts stacked at 60k and below. options expire friday. everyone bought insurance at 60k, 58k, 50k, 40k. he is under all of it.",
-      "tag": "market",
-      "created": "2026-11-26T11:51:17Z"
     }
   ],
   "comics": [
+    {
+      "file": "duk4_030_origin_story.png",
+      "src": "assets/comics2/duk4_030_origin_story.png",
+      "thumb": "assets/comics2/thumbs/duk4_030_origin_story.webp",
+      "title": "origin story. he traded once. $duk",
+      "alt": "duk reacting to evergreen: why he ducks (red week origin story). origin story. he traded once. $duk",
+      "tag": null,
+      "created": "2026-11-26T12:03:44Z"
+    },
+    {
+      "file": "duk4_016_thanksgiving_schedule.png",
+      "src": "assets/comics2/duk4_016_thanksgiving_schedule.png",
+      "thumb": "assets/comics2/thumbs/duk4_016_thanksgiving_schedule.webp",
+      "title": "thanksgiving schedule. same as every day.",
+      "alt": "duk reacting to thanksgiving day while the market chops before friday expiry. thanksgiving schedule. same as every day.",
+      "tag": null,
+      "created": "2026-11-26T11:59:35Z"
+    },
     {
       "file": "duk4_006_bounce_comic.png",
       "src": "assets/comics2/duk4_006_bounce_comic.png",
@@ -104,6 +239,114 @@
     }
   ],
   "gifs": [
+    {
+      "title": "not today.",
+      "alt": "not today.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/017_not_today.mp4",
+      "gif": "assets/gifs2/017_not_today.gif",
+      "poster": "assets/gifs2/posters/017_not_today.webp",
+      "created": "2026-11-26T12:04:03Z"
+    },
+    {
+      "title": "black friday cart.",
+      "alt": "black friday cart.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/020_black_friday_cart.mp4",
+      "gif": "assets/gifs2/020_black_friday_cart.gif",
+      "poster": "assets/gifs2/posters/020_black_friday_cart.webp",
+      "created": "2026-11-26T12:03:42Z"
+    },
+    {
+      "title": "is it over.",
+      "alt": "is it over.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/019_is_it_over.mp4",
+      "gif": "assets/gifs2/019_is_it_over.gif",
+      "poster": "assets/gifs2/posters/019_is_it_over.webp",
+      "created": "2026-11-26T12:03:42Z"
+    },
+    {
+      "title": "true.",
+      "alt": "true.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/018_true.mp4",
+      "gif": "assets/gifs2/018_true.gif",
+      "poster": "assets/gifs2/posters/018_true.webp",
+      "created": "2026-11-26T12:03:42Z"
+    },
+    {
+      "title": "thank you.",
+      "alt": "DUK bows so deeply he ends up flat on the floor in THE DUK pose: \"thank you.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/016_thank_you.mp4",
+      "gif": "assets/gifs2/016_thank_you.gif",
+      "poster": "assets/gifs2/posters/016_thank_you.webp",
+      "created": "2026-11-26T12:02:36Z"
+    },
+    {
+      "title": "liquidated. anyway. $duk",
+      "alt": "DUK lying flat staring. A big red LIQUIDATED stamp slams onto the screen next to him. He does not move.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/015_liquidated_stamp.mp4",
+      "gif": "assets/gifs2/015_liquidated_stamp.gif",
+      "poster": "assets/gifs2/posters/015_liquidated_stamp.webp",
+      "created": "2026-11-26T12:02:36Z"
+    },
+    {
+      "title": "...",
+      "alt": "Three hard punch-ins on DUK's blank face: full body, face, eyes. Nothing else happens.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/014_dramatic_zoom.mp4",
+      "gif": "assets/gifs2/014_dramatic_zoom.gif",
+      "poster": "assets/gifs2/posters/014_dramatic_zoom.webp",
+      "created": "2026-11-26T12:02:36Z"
+    },
+    {
+      "title": "wake me up when it's over. $duk",
+      "alt": "DUK flat on the floor in THE DUK pose, eyes open, staring: \"wake me up when it's over.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/013_wake_me_up.mp4",
+      "gif": "assets/gifs2/013_wake_me_up.gif",
+      "poster": "assets/gifs2/posters/013_wake_me_up.webp",
+      "created": "2026-11-26T12:02:36Z"
+    },
+    {
+      "title": "bearish.",
+      "alt": "Close-up of DUK staring. A tiny red candle drops onto his head and bounces off. He does not react: \"bearish.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/012_bearish.mp4",
+      "gif": "assets/gifs2/012_bearish.gif",
+      "poster": "assets/gifs2/posters/012_bearish.webp",
+      "created": "2026-11-26T12:00:19Z"
+    },
+    {
+      "title": "happy thanksgiving. $duk",
+      "alt": "A turkey drumstick spins in at head height; DUK drops flat, it flies over, he stands back up: \"happy thanksgiving.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/011_happy_thanksgiving.mp4",
+      "gif": "assets/gifs2/011_happy_thanksgiving.gif",
+      "poster": "assets/gifs2/posters/011_happy_thanksgiving.webp",
+      "created": "2026-11-26T12:00:19Z"
+    },
+    {
+      "title": "duk. duk.",
+      "alt": "Two DUKs facing each other. Left says \"duk.\" Right says \"duk.\" They both lie down at the same time.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/010_duk_duk.mp4",
+      "gif": "assets/gifs2/010_duk_duk.gif",
+      "poster": "assets/gifs2/posters/010_duk_duk.webp",
+      "created": "2026-11-26T12:00:19Z"
+    },
+    {
+      "title": "i'm out.",
+      "alt": "DUK flat on his belly in THE DUK pose slides sideways right out of the frame, still staring. \"i'm out.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/009_im_out.mp4",
+      "gif": "assets/gifs2/009_im_out.gif",
+      "poster": "assets/gifs2/posters/009_im_out.webp",
+      "created": "2026-11-26T12:00:19Z"
+    },
     {
       "title": "same. $duk",
       "alt": "Two DUKs flat on the floor in THE DUK pose, facing each other, staring. \"same.\"",
@@ -179,8 +422,88 @@
   ],
   "clips": [
     {
-      "src": "assets/videos/clips2/006_pov_youre_the_candle.mp4",
-      "poster": "assets/videos/clips2/006_pov_youre_the_candle.webp",
+      "src": "assets/clips2/014_black_friday.mp4",
+      "poster": "assets/clips2/014_black_friday.webp",
+      "title": "black friday.",
+      "alt": "black friday.",
+      "created": "2026-11-26T12:04:03Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/015_morning_routine.mp4",
+      "poster": "assets/clips2/015_morning_routine.webp",
+      "title": "morning routine.",
+      "alt": "morning routine.",
+      "created": "2026-11-26T12:03:41Z",
+      "duration": 13.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/012_duk_drill.mp4",
+      "poster": "assets/clips2/012_duk_drill.webp",
+      "title": "duk drill. when you hear \"final capitulation\", assume the position. $duk",
+      "alt": "Training video. Three DUKs stand in a row. \"duk drill.\" A flash card flies in: \"final capitulation.\" All three slam flat at once. \"good.\" Card: \"this is the bottom.\" Flat again. Card: \"gm.\" Flat again. \"practice daily.\"",
+      "created": "2026-11-26T12:02:36Z",
+      "duration": 15.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/011_duk_season_forecast.mp4",
+      "poster": "assets/clips2/011_duk_season_forecast.webp",
+      "title": "today's forecast: duk season. 94% chance it's longs.",
+      "alt": "Weather report. DUK stands by a paint map covered in red candle icons. Forecast cards: \"today: red.\" \"94% chance it's longs.\" (most of the last day's sol liquidations were longs.) \"stocks are closed. this is not.\" Then red candles start raining inside the studio and he lies down: \"back to you.\"",
+      "created": "2026-11-26T12:02:36Z",
+      "duration": 15.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/010_stocks_closed_crypto_open.mp4",
+      "poster": "assets/clips2/010_stocks_closed_crypto_open.webp",
+      "title": "stocks took thanksgiving off. crypto didn't. $duk",
+      "alt": "Two signs. Left: \"stocks: closed for thanksgiving.\" DUK looks at it, relieved stare. The right sign flips over: \"crypto: open 24/7/365.\" Red candles immediately start raining on him; he drops flat for the rest of the day. \"crypto doesn't do holidays.\"",
+      "created": "2026-11-26T12:02:36Z",
+      "duration": 14.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/009_pov_portfolio_question.mp4",
+      "poster": "assets/clips2/009_pov_portfolio_question.webp",
+      "title": "pov: you asked him how the portfolio is doing. $duk",
+      "alt": "POV: you just asked DUK how his portfolio is doing. Close-up of his blank stare. He slowly sinks straight down out of frame without a word. Empty blue frame. After a while just his eyes peek back up over the bottom edge. \"he'll get back to you.\"",
+      "created": "2026-11-26T12:00:19Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/008_monthly_candle.mp4",
+      "poster": "assets/clips2/008_monthly_candle.webp",
+      "title": "the november candle has arrived.",
+      "alt": "A shadow grows on the floor around DUK. He looks up. Drops flat. A giant red candle slams into the ground right behind him with a crash and screen shake. Dust settles; DUK stands back up in front of it like it is nothing: \"the monthly candle.\" \"he's fine.\"",
+      "created": "2026-11-26T12:00:19Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/007_ducking_montage.mp4",
+      "poster": "assets/clips2/007_ducking_montage.webp",
+      "title": "everything that came at him today. he ducked all of it. $duk",
+      "alt": "Fast smash-cut montage: monday, rent, options expiry, your uncle's opinion, a gm from a kol who sold, the group chat. Each one flies at DUK and he hits the floor every time. End card: \"he ducks everything.\" \"just duk.\"",
+      "created": "2026-11-26T12:00:19Z",
+      "duration": 15.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/006_pov_youre_the_candle.mp4",
+      "poster": "assets/clips2/006_pov_youre_the_candle.webp",
       "title": "pov: you're the red candle. he saw you coming. $duk",
       "alt": "POV shot from a red candle flying at DUK: he grows closer and closer, staring, then drops flat at the last second; we fly right over him. Cut back: the candle lies snapped on the floor, DUK standing next to it. \"pov: you're the red candle.\"",
       "created": "2026-11-26T11:58:00Z",
@@ -189,8 +512,8 @@
       "height": 1080
     },
     {
-      "src": "assets/videos/clips2/005_slow_zoom_stare.mp4",
-      "poster": "assets/videos/clips2/005_slow_zoom_stare.webp",
+      "src": "assets/clips2/005_slow_zoom_stare.mp4",
+      "poster": "assets/clips2/005_slow_zoom_stare.webp",
       "title": "bitcoin had its worst month in a while. he has been informed.",
       "alt": "Very slow dramatic zoom into DUK's blank face while a low drone builds and the facts appear: \"bitcoin. down 28% this month.\" \"extreme fear.\" Extreme close-up on his eyes. Silence. He blinks once. \"duk.\" Then cut to him flat on the floor.",
       "created": "2026-11-26T11:58:00Z",
@@ -199,8 +522,8 @@
       "height": 1080
     },
     {
-      "src": "assets/videos/clips2/004_duk_hour.mp4",
-      "poster": "assets/videos/clips2/004_duk_hour.webp",
+      "src": "assets/clips2/004_duk_hour.mp4",
+      "poster": "assets/clips2/004_duk_hour.webp",
       "title": "it's duk hour. everybody down.",
       "alt": "Night. Five DUKs stand in a row on a hill under the moon. A clock chimes five times; with each chime one more DUK drops flat into THE DUK. All five lie there staring. \"duk hour.\" \"every day. same time.\"",
       "created": "2026-11-26T11:58:00Z",
@@ -209,8 +532,8 @@
       "height": 1080
     },
     {
-      "src": "assets/videos/clips2/003_thanksgiving_dinner.mp4",
-      "poster": "assets/videos/clips2/003_thanksgiving_dinner.webp",
+      "src": "assets/clips2/003_thanksgiving_dinner.mp4",
+      "poster": "assets/clips2/003_thanksgiving_dinner.webp",
       "title": "thanksgiving dinner. they asked about the portfolio. $duk",
       "alt": "Thanksgiving table. Relatives' speech bubbles fly at DUK one after another (\"so are you still doing the crypto\", \"how much did you lose\", \"your cousin bought a house\"...). He goes flat on the table in THE DUK pose until it is over, sits back up: \"happy thanksgiving. pass the pie.\"",
       "created": "2026-11-26T11:55:47Z",
@@ -219,8 +542,8 @@
       "height": 1080
     },
     {
-      "src": "assets/videos/clips2/002_duk_news_extreme_fear.mp4",
-      "poster": "assets/videos/clips2/002_duk_news_extreme_fear.webp",
+      "src": "assets/clips2/002_duk_news_extreme_fear.mp4",
+      "poster": "assets/clips2/002_duk_news_extreme_fear.webp",
       "title": "tonight on duk news: extreme fear. our anchor has a statement. $duk",
       "alt": "Fake news broadcast. DUK anchors \"duk news\" in silence under a \"breaking: extreme fear\" banner. A red chart crashes through the studio, he flattens onto the desk in THE DUK pose, an \"etf outflows\" memo flies over, he sits back up: \"back to you.\" Ticker: fear & greed 13, $7b options expire friday.",
       "created": "2026-11-26T11:55:47Z",
@@ -229,8 +552,8 @@
       "height": 720
     },
     {
-      "src": "assets/videos/clips2/001_market_opened.mp4",
-      "poster": "assets/videos/clips2/001_market_opened.webp",
+      "src": "assets/clips2/001_market_opened.mp4",
+      "poster": "assets/clips2/001_market_opened.webp",
       "title": "market opened. duk.",
       "alt": "Bell rings: \"market opened.\" Red candles start flying in at head height, DUK drops flat in THE DUK pose, eight candles whoosh over him, he gets back up and stares: \"same time tomorrow.\"",
       "created": "2026-11-26T11:55:47Z",

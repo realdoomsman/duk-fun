@@ -192,7 +192,7 @@
     link.target = '_blank';
     link.rel = 'noopener';
     const image = document.createElement('img');
-    image.src = meme.src;
+    image.src = meme.thumb || meme.src;
     image.alt = meme.alt || meme.title || 'duk in the pool.';
     image.width = 1200;
     image.height = 1200;

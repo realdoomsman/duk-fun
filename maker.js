@@ -171,7 +171,7 @@
     image.height = 64;
     image.decoding = 'async';
     if (lazy) image.loading = 'lazy';
-    image.src = item.src;
+    image.src = item.thumb || item.src;
     const title = document.createElement('span');
     title.className = 'maker-card-title';
     title.textContent = item.label;
@@ -850,6 +850,7 @@
           tag,
           number,
           alt: typeof item.alt === 'string' ? item.alt : '',
+          thumb: typeof item.thumb === 'string' ? item.thumb : null,
           quick: kind === 'template' && number === '01'
         });
         addBaseCard(bases.length - 1);

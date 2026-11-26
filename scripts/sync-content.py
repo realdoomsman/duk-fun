@@ -27,12 +27,12 @@ MANIFEST = ASSETS / 'content.json'
 THUMB = 480
 SETTLE_SECONDS = 120
 IMAGES = {'.png', '.jpg', '.jpeg', '.webp'}
-# source folder -> published folder
+# source folder -> published folder. Never inside a folder copy-assets.py rebuilds (memes, gifs, videos, ...).
 FOLDERS = {
     'memes4': ASSETS / 'memes4',
     'comics2': ASSETS / 'comics2',
     'gifs2': ASSETS / 'gifs2',
-    'videos/clips2': ASSETS / 'videos' / 'clips2',
+    'videos/clips2': ASSETS / 'clips2',
 }
 PUBLISHED = [MANIFEST.relative_to(SITE).as_posix()] + [path.relative_to(SITE).as_posix() for path in FOLDERS.values()]
 
@@ -119,7 +119,7 @@ def thumbnail(source: Path, target: Path) -> str:
             image.seek(0)
             frame = image.convert('RGBA' if image.mode in ('RGBA', 'LA', 'P') else 'RGB')
             frame.thumbnail((THUMB, THUMB), Image.LANCZOS)
-            frame.save(target, 'WEBP', quality=82, method=6)
+            frame.save(target, 'WEBP', quality=72, method=6)
     return target.relative_to(SITE).as_posix()
 
 

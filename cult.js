@@ -60,7 +60,7 @@
   } catch { /* no list yet. the box stays hidden. */ }
 
   const memeItem = (meme, caption) => el('a', { className: 'meme-item', href: meme.src }, [
-    el('img', { src: meme.src, alt: meme.alt || meme.title || 'a duk meme', width: 1200, height: 1200, loading: 'lazy', decoding: 'async' }),
+    el('img', { src: meme.thumb || meme.src, alt: meme.alt || meme.title || 'a duk meme', width: 1200, height: 1200, loading: 'lazy', decoding: 'async' }),
     el('span', {}, [caption || meme.title || 'duk.', el('b', { text: 'full size' })])
   ]);
 

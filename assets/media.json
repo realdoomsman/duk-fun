@@ -5,1190 +5,1360 @@
       "src": "assets/memes/01_liquidation.png",
       "title": "just duk.",
       "alt": "A liquidation notice arrives from the right while the duck hugs the floor in side profile, looking blankly out at you.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/01_liquidation.webp"
     },
     {
       "file": "02_rent.png",
       "src": "assets/memes/02_rent.png",
       "title": "rent's due. duk.",
       "alt": "Outside a crude apartment door, a RENT DUE bill passes over DUK seen from behind, with his rump up and face peeking back.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/02_rent.webp"
     },
     {
       "file": "03_the_bottom.png",
       "src": "assets/memes/03_the_bottom.png",
       "title": "they said this was the bottom.",
       "alt": "A bottom-call tweet passes above an enormous duck face squashed against the floor, wings over the head.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/03_the_bottom.webp"
     },
     {
       "file": "04_the_ex.png",
       "src": "assets/memes/04_the_ex.png",
       "title": "new number. same duk.",
       "alt": "A u up? phone arrives from the left above a bed; a huge duck shelters with his body and bill running off the frame.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/04_the_ex.webp"
     },
     {
       "file": "05_monday.png",
       "src": "assets/memes/05_monday.png",
       "title": "monday. duk.",
       "alt": "A Monday alarm clock rings beside a bed seen from above; DUK spreads his feathered wings over his head on the mattress.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/05_monday.webp"
     },
     {
       "file": "06_tax_letter.png",
       "src": "assets/memes/06_tax_letter.png",
       "title": "income: none. duk.",
       "alt": "A tax letter demands payment despite income of zero; DUK takes cover on the floor.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/06_tax_letter.webp"
     },
     {
       "file": "07_whale_sold.png",
       "src": "assets/memes/07_whale_sold.png",
       "title": "whale sold. duk.",
       "alt": "A whale selling market order looms over a small top-down duck hiding under his feather fans.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/07_whale_sold.webp"
     },
     {
       "file": "08_capitulation.png",
       "src": "assets/memes/08_capitulation.png",
       "title": "final final capitulation.",
       "alt": "Final capitulation is announced again while a huge, separately drawn duck runs off both edges of the frame.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/08_capitulation.webp"
     },
     {
       "file": "09_unlock_schedule.png",
       "src": "assets/memes/09_unlock_schedule.png",
       "title": "supply unlocked. duk locked in.",
       "alt": "A token unlock calendar says today 100%; DUK stays locked into his ducking pose.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/09_unlock_schedule.webp"
     },
     {
       "file": "10_fud_article.png",
       "src": "assets/memes/10_fud_article.png",
       "title": "read enough. duk.",
       "alt": "A giant source trust me article passes over a small rear-view duck, whose face peeks back around his raised rump.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/10_fud_article.webp"
     },
     {
       "file": "11_ducked.png",
       "src": "assets/memes/11_ducked.png",
       "title": "ducked.",
       "alt": "Two panels: the dump finds DUK flat on the floor; the bounce finds him standing with the exact same blank stare.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/11_ducked.webp"
     },
     {
       "file": "12_forecast.png",
       "src": "assets/memes/12_forecast.png",
       "title": "forecast: duk.",
       "alt": "A crude weather forecast for duk season: red candles rain down while DUK shelters on the floor.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/12_forecast.webp"
     },
     {
       "file": "13_consistent.png",
       "src": "assets/memes/13_consistent.png",
       "title": "consistent.",
       "alt": "How it started and how it is going show the identical duck taking cover on the floor.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/13_consistent.webp"
     },
     {
       "file": "14_duk_stare.png",
       "src": "assets/memes/14_duk_stare.png",
       "title": "duk.",
       "alt": "A close-up of the duck's enormous crooked orange bill and mismatched vacant eyes against blue, captioned duk.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/14_duk_stare.webp"
     },
     {
       "file": "15_duk_green.png",
       "src": "assets/memes/15_duk_green.png",
       "title": "duk.",
       "alt": "The dumb duck stands alone on a flat yellow-green background with a tiny blank stare. Caption: duk.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/15_duk_green.webp"
     },
     {
       "file": "16_noted.png",
       "src": "assets/memes/16_noted.png",
       "title": "noted. duk.",
       "alt": "An absurdly close crop of the duck's droopy eyes and huge orange bill on flat yellow. Caption: noted. duk.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/16_noted.webp"
     },
     {
       "file": "17_floor_strategy.png",
       "src": "assets/memes/17_floor_strategy.png",
       "title": "you can't liquidate what's on the floor.",
       "alt": "A LIQUIDATED notice floats above DUK lying safely on the floor. You cannot liquidate what is on the floor.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/17_floor_strategy.webp"
     },
     {
       "file": "18_greeting.png",
       "src": "assets/memes/18_greeting.png",
       "title": "duk. duk.",
       "alt": "Two dumb ducks stand side by side staring at you. One says duk.; the other replies duk.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/18_greeting.webp"
     },
     {
       "file": "19_duk_drill.png",
       "src": "assets/memes/19_duk_drill.png",
       "title": "when you hear \"this is the bottom\", assume the position.",
       "alt": "A crude duk drill safety poster tells you to assume the floor pose whenever you hear this is the bottom.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/19_duk_drill.webp"
     },
     {
       "file": "20_meeting.png",
       "src": "assets/memes/20_meeting.png",
       "title": "on mute.",
       "alt": "DUK lies completely under a crude desk while the monitor above him says quick sync. Caption: on mute.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes/thumbs/20_meeting.webp"
     },
     {
       "file": "21_bedtime.png",
       "src": "assets/memes/21_bedtime.png",
       "title": "already down.",
       "alt": "DUK is in bed beneath a lumpy blue blanket with his face exposed while a u up? phone buzzes overhead.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes/thumbs/21_bedtime.webp"
     },
     {
       "file": "22_rug_dodge.png",
       "src": "assets/memes/22_rug_dodge.png",
       "title": "rug dodge.",
       "alt": "No caption: a ridiculous purple rug flies over DUK, who has ducked beneath it.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/22_rug_dodge.webp"
     },
     {
       "file": "23_candle_rain.png",
       "src": "assets/memes/23_candle_rain.png",
       "title": "candle rain.",
       "alt": "No caption: five enormous red candles rain from the sky while DUK stays extremely flat beneath them.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/23_candle_rain.webp"
     },
     {
       "file": "24_missed_the_alarm.png",
       "src": "assets/memes/24_missed_the_alarm.png",
       "title": "missed the alarm.",
       "alt": "No caption: the Monday alarm clock has hit the duck, leaving him flattened with X eyes and two feathers floating away.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes/thumbs/24_missed_the_alarm.webp"
     },
     {
       "file": "25_trading_desk.png",
       "src": "assets/memes/25_trading_desk.png",
       "title": "risk management.",
       "alt": "Six trading monitors all show crashing red charts. DUK hides on the floor beneath the entire desk, seen from above.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/25_trading_desk.webp"
     },
     {
       "file": "26_street_candle.png",
       "src": "assets/memes/26_street_candle.png",
       "title": "still here.",
       "alt": "On a crude city street, a giant red candle crashes into the road inches from the duck lying safely in side profile.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/26_street_candle.webp"
     },
     {
       "file": "27_gm_rain.png",
       "src": "assets/memes/27_gm_rain.png",
       "title": "good morning.",
       "alt": "Three huge gm tweets rain down from different sides while an enormous duck shelters half outside the frame.",
-      "tag": "dodge"
+      "tag": "dodge",
+      "thumb": "assets/memes/thumbs/27_gm_rain.webp"
     },
     {
       "file": "28_panic_crowd.png",
       "src": "assets/memes/28_panic_crowd.png",
       "title": "panic is optional.",
       "alt": "Four panicking stick-figure traders run with their arms in the air while DUK calmly presses his face flat to the floor beneath them.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/28_panic_crowd.webp"
     },
     {
       "file": "29_casino.png",
       "src": "assets/memes/29_casino.png",
       "title": "house always wins. duk.",
       "alt": "A green casino table marked leverage has dice and red chips on it. The duck takes cover underneath instead of gambling.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/29_casino.webp"
     },
     {
       "file": "30_cold_front.png",
       "src": "assets/memes/30_cold_front.png",
       "title": "stay low.",
       "alt": "A crude green weather map has a red cold front made of crashing candles. The forecast says 100% chance of duk; the duck shelters in the southeast.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/30_cold_front.webp"
     },
     {
       "file": "31_screenshot_liquid.png",
       "src": "assets/memes/31_screenshot_liquid.png",
       "title": "the screenshot was liquid.",
       "alt": "A paper balance says 40k, but a tiny puddle sits beside a much larger blue pool where DUK floats.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/31_screenshot_liquid.webp"
     },
     {
       "file": "32_exit_liquidity.png",
       "src": "assets/memes/32_exit_liquidity.png",
       "title": "i'm just in the pool.",
       "alt": "An exit liquidity sign points down into the pool; DUK ignores the drama and floats blankly on a pink ring.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/32_exit_liquidity.webp"
     },
     {
       "file": "33_slippage.png",
       "src": "assets/memes/33_slippage.png",
       "title": "the quote was optimistic.",
       "alt": "A huge warning reads slippage 40 percent while DUK floats on his inflatable ring in a pool.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/33_slippage.webp"
     },
     {
       "file": "34_lp_gets_burned.png",
       "src": "assets/memes/34_lp_gets_burned.png",
       "title": "the lp gets burned.",
       "alt": "A large LP receipt burns beside the pool while DUK floats in the water.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/34_lp_gets_burned.webp"
     },
     {
       "file": "35_many_wallets.png",
       "src": "assets/memes/35_many_wallets.png",
       "title": "many wallets. one guy.",
       "alt": "Nine wallet windows all have strings leading to one stick-figure guy; DUK stays flat in front of the whole operation.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/35_many_wallets.webp"
     },
     {
       "file": "36_pool_before_price.png",
       "src": "assets/memes/36_pool_before_price.png",
       "title": "look at the pool before the price.",
       "alt": "A sign asks where the liquidity is. A ladder and arrow point down to DUK floating in a blue pool.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/36_pool_before_price.webp"
     },
     {
       "file": "37_checked_liquidity.png",
       "src": "assets/memes/37_checked_liquidity.png",
       "title": "i got so mad i checked the liquidity.",
       "alt": "A yellow measuring stick checks the depth of the pool while DUK floats nearby with no expression.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/37_checked_liquidity.webp"
     },
     {
       "file": "38_pool_day.png",
       "src": "assets/memes/38_pool_day.png",
       "title": "pool day.",
       "alt": "A huge blank-faced duck floats on a badly drawn pink inflatable ring in blue pool water.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/38_pool_day.webp"
     },
     {
       "file": "39_locked_not_deep.png",
       "src": "assets/memes/39_locked_not_deep.png",
       "title": "locked. not deep.",
       "alt": "A gigantic LOCKED padlock sits above a tiny puddle; the duck stares from the floor beside it.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/39_locked_not_deep.webp"
     },
     {
       "file": "40_receipts_not_adjectives.png",
       "src": "assets/memes/40_receipts_not_adjectives.png",
       "title": "receipts, not adjectives.",
       "alt": "Three LP receipts burn in an orange pile beside the pool; the duck watches with the same vacant expression.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/40_receipts_not_adjectives.webp"
     },
     {
       "file": "41_deeper_same_face.png",
       "src": "assets/memes/41_deeper_same_face.png",
       "title": "deeper pool. same face.",
       "alt": "Two pool cutaways show the water deeper after fees while the duck has exactly the same blank face.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/41_deeper_same_face.webp"
     },
     {
       "file": "42_fees_in_pool.png",
       "src": "assets/memes/42_fees_in_pool.png",
       "title": "fees go in the pool.",
       "alt": "A crude diagram shows creator fees buying DUK, pairing DUK with SOL into the pool, and burning the LP receipt; the duck floats below.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/42_fees_in_pool.webp"
     },
     {
       "file": "43_not_a_price_floor.png",
       "src": "assets/memes/43_not_a_price_floor.png",
       "title": "deeper pool. not a price floor.",
       "alt": "A red price chart still crashes above a deeper pool. DUK floats in the pool; the caption explicitly says this is not a price floor.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/43_not_a_price_floor.webp"
     },
     {
       "file": "44_pool_meeting.png",
       "src": "assets/memes/44_pool_meeting.png",
       "title": "meeting adjourned.",
       "alt": "Three blank ducks float in a pool beneath a meeting agenda with no items.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/44_pool_meeting.webp"
     },
     {
       "file": "45_pool_rules.png",
       "src": "assets/memes/45_pool_rules.png",
       "title": "pool rules.",
       "alt": "A no-chasing sign stands beside a burning LP receipt while DUK floats calmly in the pool.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes/thumbs/45_pool_rules.webp"
     },
     {
       "file": "46_duk_conversation.png",
       "src": "assets/memes/46_duk_conversation.png",
       "title": "conversation complete.",
       "alt": "Three ducks of different sizes greet each other with duk. That is the entire conversation.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/46_duk_conversation.webp"
     },
     {
       "file": "47_floor_congregation.png",
       "src": "assets/memes/47_floor_congregation.png",
       "title": "attendance: horizontal.",
       "alt": "Sixteen ducks lie flat in rows like a floor congregation, in varied feathered ducking poses.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/47_floor_congregation.webp"
     },
     {
       "file": "48_initiation.png",
       "src": "assets/memes/48_initiation.png",
       "title": "initiation complete.",
       "alt": "An upright duck becomes a rear-view duck flattened into the position. Before becomes one of us.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/48_initiation.webp"
     },
     {
       "file": "49_lesson_one.png",
       "src": "assets/memes/49_lesson_one.png",
       "title": "there is no lesson 2.",
       "alt": "A crude lesson-one poster demonstrates the face-pressed-to-floor ducking pose. There is no lesson two.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/49_lesson_one.webp"
     },
     {
       "file": "50_not_gm.png",
       "src": "assets/memes/50_not_gm.png",
       "title": "we don't say gm.",
       "alt": "The word gm is crossed out. A standing duck replies duk. Caption: we do not say gm.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/50_not_gm.webp"
     },
     {
       "file": "51_floor_ritual.png",
       "src": "assets/memes/51_floor_ritual.png",
       "title": "no thoughts required.",
       "alt": "Four differently posed ducks gather around a plain blue pond for floor time. The ritual is only lying flat.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/51_floor_ritual.webp"
     },
     {
       "file": "52_pfp_wall.png",
       "src": "assets/memes/52_pfp_wall.png",
       "title": "one face. no thoughts.",
       "alt": "A shaky four-by-four wall of DUK profile pictures repeats the same vacant face on different flat Paint-palette backgrounds.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/52_pfp_wall.webp"
     },
     {
       "file": "53_one_of_us.png",
       "src": "assets/memes/53_one_of_us.png",
       "title": "one of us.",
       "alt": "Five blank ducks stand behind two ducks taking the floor position. The new member fits right in.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/53_one_of_us.webp"
     },
     {
       "file": "54_duk_sighting.png",
       "src": "assets/memes/54_duk_sighting.png",
       "title": "duk confirmed.",
       "alt": "A duck is spotted lying under a park bench; four crude red viewfinder corners mark the sighting.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/54_duk_sighting.webp"
     },
     {
       "file": "55_membership_card.png",
       "src": "assets/memes/55_membership_card.png",
       "title": "proof of duk.",
       "alt": "A crude DUK club membership card lists member since first candle and status flat beside a duck in the protective floor pose.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/55_membership_card.webp"
     },
     {
       "file": "56_floor_assembly.png",
       "src": "assets/memes/56_floor_assembly.png",
       "title": "everyone is here.",
       "alt": "Three empty chairs appear to have no attendees, until you notice all three ducks are flat on the floor beneath them.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/56_floor_assembly.webp"
     },
     {
       "file": "57_roll_call.png",
       "src": "assets/memes/57_roll_call.png",
       "title": "present.",
       "alt": "A roll call shows three different floor poses, each answered with duk. All are present.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/57_roll_call.webp"
     },
     {
       "file": "58_floor_leader.png",
       "src": "assets/memes/58_floor_leader.png",
       "title": "the floor.",
       "alt": "A sign asks who is in charge; six ducks all lie flat. The answer is the floor.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/58_floor_leader.webp"
     },
     {
       "file": "59_getting_started.png",
       "src": "assets/memes/59_getting_started.png",
       "title": "welcome. get down.",
       "alt": "A three-step welcome guide shows an upright duck, a side-view duck lowering himself, and a top-down duck settled on the floor.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/59_getting_started.webp"
     },
     {
       "file": "60_night_ritual.png",
       "src": "assets/memes/60_night_ritual.png",
       "title": "same time tomorrow.",
       "alt": "Three ducks meet for their nightly floor ritual under a few badly drawn yellow stars; everyone remains horizontal.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes/thumbs/60_night_ritual.webp"
     },
     {
       "file": "61_noted_reply.png",
       "src": "assets/memes/61_noted_reply.png",
       "title": "noted.",
       "alt": "A large mismatched blank duck face on flat pink, captioned noted.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/61_noted_reply.webp"
     },
     {
       "file": "62_ok_reply.png",
       "src": "assets/memes/62_ok_reply.png",
       "title": "ok.",
       "alt": "An enormous sleepy duck eye, wing and crooked orange bill run off the edges of a yellow reply image. Caption: ok.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/62_ok_reply.webp"
     },
     {
       "file": "63_duk_corner.png",
       "src": "assets/memes/63_duk_corner.png",
       "title": "corner duk.",
       "alt": "A small blank duck stands awkwardly in the bottom-right corner of a mostly empty flat purple image. Caption: corner duk.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/63_duk_corner.webp"
     },
     {
       "file": "64_no_thoughts.png",
       "src": "assets/memes/64_no_thoughts.png",
       "title": "no thoughts.",
       "alt": "A completely empty white thought bubble floats over a blank duck. Caption: no thoughts.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/64_no_thoughts.webp"
     },
     {
       "file": "65_still_in_frame.png",
       "src": "assets/memes/65_still_in_frame.png",
       "title": "still in frame.",
       "alt": "A huge blank duck peeks into the frame below a distant tiny red candle. Caption: still in frame.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/65_still_in_frame.webp"
     },
     {
       "file": "66_mood_reply.png",
       "src": "assets/memes/66_mood_reply.png",
       "title": "mood.",
       "alt": "The duck has his rump in the air and face tucked near the floor on an ugly lime background. Caption: mood.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/66_mood_reply.webp"
     },
     {
       "file": "67_silent_flat_face.png",
       "src": "assets/memes/67_silent_flat_face.png",
       "title": "silent flat face.",
       "alt": "A text-free close-up of the duck face squashed flat to the floor, with two feathered wings over its head, on flat mustard yellow.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/67_silent_flat_face.webp"
     },
     {
       "file": "68_silent_tiny_duk.png",
       "src": "assets/memes/68_silent_tiny_duk.png",
       "title": "silent tiny duk.",
       "alt": "A tiny awkward white duck stands in the middle of a huge empty lavender field. No text.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/68_silent_tiny_duk.webp"
     },
     {
       "file": "69_understood.png",
       "src": "assets/memes/69_understood.png",
       "title": "understood.",
       "alt": "A ridiculously enlarged crop of the duck's mismatched eyes and the top of its bill on flat pale blue. Caption: understood.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/69_understood.webp"
     },
     {
       "file": "70_anyway.png",
       "src": "assets/memes/70_anyway.png",
       "title": "anyway.",
       "alt": "A vacant duck sits on a pink inflatable ring, ignoring everything. Caption: anyway.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes/thumbs/70_anyway.webp"
     },
     {
       "file": "71_margin_call.png",
       "src": "assets/memes/71_margin_call.png",
       "title": "declined.",
       "alt": "A huge phone screen says MARGIN CALL while DUK stays rear-up on the floor and declines to answer.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/71_margin_call.webp"
     },
     {
       "file": "72_gas_spike.png",
       "src": "assets/memes/72_gas_spike.png",
       "title": "too expensive to panic.",
       "alt": "A crude red gas pump shows a 999 fee. Seen from above, DUK stays down instead of paying it.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/72_gas_spike.webp"
     },
     {
       "file": "73_airdrop_not_eligible.png",
       "src": "assets/memes/73_airdrop_not_eligible.png",
       "title": "eligible for duk.",
       "alt": "An airdrop checker says not eligible; an enormous duck lies off both edges of the frame below it.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/73_airdrop_not_eligible.webp"
     },
     {
       "file": "74_group_chat_panic.png",
       "src": "assets/memes/74_group_chat_panic.png",
       "title": "muted.",
       "alt": "A crowded group chat fills with guys?, it is over, sell???, wake up and why is duk lying down. DUK has muted it from the floor.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes/thumbs/74_group_chat_panic.webp"
     },
     {
       "file": "75_landlord.png",
       "src": "assets/memes/75_landlord.png",
       "title": "nobody home.",
       "alt": "The landlord knocks at a brown apartment door while DUK lies motionless on the floor beside it.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes/thumbs/75_landlord.webp"
     },
     {
       "file": "76_boss_email.png",
       "src": "assets/memes/76_boss_email.png",
       "title": "out of office.",
       "alt": "An urgent boss email fills the top of the image. Beneath the desk, DUK is out of office.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes/thumbs/76_boss_email.webp"
     },
     {
       "file": "77_quick_question.png",
       "src": "assets/memes/77_quick_question.png",
       "title": "left on read.",
       "alt": "A giant DM bubble says quick question. DUK lies rear-up on the floor and leaves it on read.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes/thumbs/77_quick_question.webp"
     },
     {
       "file": "78_course_ad.png",
       "src": "assets/memes/78_course_ad.png",
       "title": "skipped the ad.",
       "alt": "A loud yellow get-rich course ad costs 999 dollars; two stick-figure gurus wave their arms while DUK lies flat beneath it.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes/thumbs/78_course_ad.webp"
     },
     {
       "file": "79_withdrawals_paused.png",
       "src": "assets/memes/79_withdrawals_paused.png",
       "title": "already paused.",
       "alt": "A crude exchange-style warning says withdrawals paused. DUK has already paused, face pressed to the floor.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes/thumbs/79_withdrawals_paused.webp"
     },
     {
       "file": "80_4am_alarm.png",
       "src": "assets/memes/80_4am_alarm.png",
       "title": "too early to stand.",
       "alt": "A red 4:00 am alarm clock rings over a dark bedroom; DUK stays flattened in bed, mostly outside the frame.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes/thumbs/80_4am_alarm.webp"
     },
     {
       "file": "101_risk_department.png",
       "src": "assets/memes2/101_risk_department.png",
       "title": "duk has been cast as the risk department.",
       "alt": "A glossy casting announcement with a signed studio headshot of DUK staring blankly: duk has been cast as the risk department, in the upcoming bear market. no lines, mostly floor work.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/101_risk_department.webp"
     },
     {
       "file": "102_so_mad_liquidity.png",
       "src": "assets/memes2/102_so_mad_liquidity.png",
       "title": "i got so mad i checked the liquidity.",
       "alt": "I got so mad format: DUK stands blank on the floor holding a huge magnifying glass over a small blue puddle labelled pool.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes2/thumbs/102_so_mad_liquidity.webp"
     },
     {
       "file": "103_town_trading.png",
       "src": "assets/memes2/103_town_trading.png",
       "title": "in this town everybody goes out trading except me.",
       "alt": "In this town format: a night city full of lit windows showing red charts, stick figures run down the street staring at phones, and DUK lies alone on the pavement.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes2/thumbs/103_town_trading.webp"
     },
     {
       "file": "104_two_buttons.png",
       "src": "assets/memes2/104_two_buttons.png",
       "title": "neither.",
       "alt": "Two buttons format: a control panel offers panic sell and panic buy. Under the desk, DUK has already chosen the floor.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/104_two_buttons.webp"
     },
     {
       "file": "105_expanding_brain.png",
       "src": "assets/memes2/105_expanding_brain.png",
       "title": "become the floor.",
       "alt": "Expanding brain format, four rows: lower your risk, lower your expectations, lower your body, become the floor. Each picture shows DUK lower, until he is a glowing flat pancake.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/105_expanding_brain.webp"
     },
     {
       "file": "106_tier_list.png",
       "src": "assets/memes2/106_tier_list.png",
       "title": "market events, ranked.",
       "alt": "A tier list of market and life events where every single tier label just says duk: candles, liquidations, rent, alarms, texts, taxes, rugs, unlocks, and DUK himself in the bottom row.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/106_tier_list.webp"
     },
     {
       "file": "107_starter_pack.png",
       "src": "assets/memes2/107_starter_pack.png",
       "title": "the duk trader starter pack.",
       "alt": "Starter pack format: a floor, one strategy (lying down), notifications off, the stare, a chart he will not open, and receipts instead of adjectives.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/107_starter_pack.webp"
     },
     {
       "file": "108_nobody_green.png",
       "src": "assets/memes2/108_nobody_green.png",
       "title": "nobody: / the chart: goes up 4% / duk:",
       "alt": "Nobody format: nobody, the chart goes up 4 percent, and DUK is already flat on the floor under a green arrow, just in case.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes2/thumbs/108_nobody_green.webp"
     },
     {
       "file": "109_tweet_exit_strategy.png",
       "src": "assets/memes2/109_tweet_exit_strategy.png",
       "title": "they asked for my exit strategy so i lay down.",
       "alt": "A crude paint tweet from @justdukfun: they asked for my exit strategy so i lay down. The attached photo shows DUK flat on the floor.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes2/thumbs/109_tweet_exit_strategy.webp"
     },
     {
       "file": "110_news_refuses.png",
       "src": "assets/memes2/110_news_refuses.png",
       "title": "local duck refuses to panic.",
       "alt": "A newspaper front page, The Daily Pond: LOCAL DUCK REFUSES TO PANIC, with a photo of DUK standing blankly while red candles fall behind him.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes2/thumbs/110_news_refuses.webp"
     },
     {
       "file": "111_museum_painting.png",
       "src": "assets/memes2/111_museum_painting.png",
       "title": "he did not get up for the opening.",
       "alt": "A museum gallery: DUK lying flat hangs in a gold frame behind velvet ropes, stick-figure visitors stare at it, and the placard reads the duk, 2017 to present, duck on floor.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/111_museum_painting.webp"
     },
     {
       "file": "112_wanted.png",
       "src": "assets/memes2/112_wanted.png",
       "title": "wanted: for not panicking.",
       "alt": "An old west wanted poster nailed up on the blue wall: DUK's blank portrait, wanted for not panicking during the dump. reward: duk.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/112_wanted.webp"
     },
     {
       "file": "113_poster_patience.png",
       "src": "assets/memes2/113_poster_patience.png",
       "title": "patience. the floor isn't going anywhere. neither am i.",
       "alt": "A motivational poster parody on black: red candles fly over DUK lying flat. PATIENCE: the floor isn't going anywhere. neither am i.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes2/thumbs/113_poster_patience.webp"
     },
     {
       "file": "114_receipt_pool.png",
       "src": "assets/memes2/114_receipt_pool.png",
       "title": "receipts, not adjectives.",
       "alt": "A long till receipt from the DUK pool keeper, after graduation: creator fees claimed, duk bought, paired with sol, added to pool, lp burned, each with a tx line. receipts on duk.fun. not a price floor.",
-      "tag": "pool"
+      "tag": "pool",
+      "thumb": "assets/memes2/thumbs/114_receipt_pool.webp"
     },
     {
       "file": "115_horoscope.png",
       "src": "assets/memes2/115_horoscope.png",
       "title": "your duk season horoscope.",
       "alt": "A starry horoscope page for duk season: every sign gets duk, except gemini (duk twice), scorpio (duk, tell no one) and pisces (in the pool). A crystal ball at the bottom shows a tiny DUK lying flat.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes2/thumbs/115_horoscope.webp"
     },
     {
       "file": "116_forecast_5day.png",
       "src": "assets/memes2/116_forecast_5day.png",
       "title": "conditions remain duckable.",
       "alt": "A TV five-day forecast: monday red candle showers, tuesday liquidation storms, wednesday heavy candles, thursday flying rugs, friday a tiny DUK icon. conditions remain duckable.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes2/thumbs/116_forecast_5day.webp"
     },
     {
       "file": "117_sports_scoreboard.png",
       "src": "assets/memes2/117_sports_scoreboard.png",
       "title": "undefeated. technically.",
       "alt": "A stadium scoreboard reads thrown at him 1,204, hits 0, seasons survived 9. Below, DUK lies flat in the middle of a green pitch. undefeated. technically.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes2/thumbs/117_sports_scoreboard.webp"
     },
     {
       "file": "118_nature_senses.png",
       "src": "assets/memes2/118_nature_senses.png",
       "title": "the duk senses danger. he will stay like this until it passes.",
       "alt": "Nature documentary still with yellow subtitles: a red candle circles in the sky like a hawk while DUK lies flat in the grass. the duk senses danger. he will stay like this until it passes.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/118_nature_senses.webp"
     },
     {
       "file": "119_manual_assembly.png",
       "src": "assets/memes2/119_manual_assembly.png",
       "title": "duk assembly instructions.",
       "alt": "A flat-pack style instruction sheet in four steps: see the thing coming, lower the head, duk, get up. tools required: none. parts: 1 duck.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/119_manual_assembly.webp"
     },
     {
       "file": "120_so_mad_face.png",
       "src": "assets/memes2/120_so_mad_face.png",
       "title": "i got so mad my face did nothing.",
       "alt": "I got so mad format: a giant close-up of DUK in front of furious red rays, his expression completely unchanged. i got so mad my face did nothing.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes2/thumbs/120_so_mad_face.webp"
     },
     {
       "file": "121_full_cast.png",
       "src": "assets/memes2/121_full_cast.png",
       "title": "full cast announced.",
       "alt": "A movie credits card for the dump (2026): the guy who ducked, the floor, the risk department and the stunt double are all played by duk; the chart plays comic relief. DUK lies on the bottom edge.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/121_full_cast.webp"
     },
     {
       "file": "122_tweet_greeting.png",
       "src": "assets/memes2/122_tweet_greeting.png",
       "title": "duk. / duk. / duk. / duk.",
       "alt": "A crude tweet thread: @justdukfun posts duk. and three egg accounts reply duk., duk. and duk. The whole conversation is the greeting.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes2/thumbs/122_tweet_greeting.webp"
     },
     {
       "file": "123_news_tv.png",
       "src": "assets/memes2/123_news_tv.png",
       "title": "duck asked about the dump. says 'duk.'",
       "alt": "A crude TV news broadcast: a stick-figure reporter holds a microphone up to DUK. The red BREAKING lower third reads duck asked about the dump, says 'duk.'",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes2/thumbs/123_news_tv.webp"
     },
     {
       "file": "124_missing.png",
       "src": "assets/memes2/124_missing.png",
       "title": "have you seen this duck? he's on the floor.",
       "alt": "A missing poster with tear-off tabs: have you seen this duck? Photo of DUK lying flat. last seen on the floor, answers to duk, if found do not wake.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes2/thumbs/124_missing.webp"
     },
     {
       "file": "125_poster_leadership.png",
       "src": "assets/memes2/125_poster_leadership.png",
       "title": "leadership. lie down first.",
       "alt": "A motivational poster parody: DUK lies flat at the front, and a single-file line of smaller and smaller ducks behind him all copy the pose. LEADERSHIP: lie down first.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes2/thumbs/125_poster_leadership.webp"
     },
     {
       "file": "126_receipt_day.png",
       "src": "assets/memes2/126_receipt_day.png",
       "title": "total: still here.",
       "alt": "DUK stands next to a receipt as tall as the image: red candles, liquidation notice, rent, an ex texting u up, monday and a kol gm, all DUCKED. unduckable: 0. total: still here.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes2/thumbs/126_receipt_day.webp"
     },
     {
       "file": "127_retrograde.png",
       "src": "assets/memes2/127_retrograde.png",
       "title": "mercury is in retrograde. duk is in position.",
       "alt": "A night sky with crude planets; DUK lies flat inside a yellow crescent moon. mercury is in retrograde. duk is in position.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes2/thumbs/127_retrograde.webp"
     },
     {
       "file": "128_weather_lows.png",
       "src": "assets/memes2/128_weather_lows.png",
       "title": "lows expected. stay low.",
       "alt": "DUK presents the weather in front of a crude green map covered in red L for low pressure, one wing raised toward it. lows expected. stay low.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes2/thumbs/128_weather_lows.webp"
     },
     {
       "file": "129_sports_replay.png",
       "src": "assets/memes2/129_sports_replay.png",
       "title": "look at the form on that.",
       "alt": "An instant replay with telestrator scribbles: a yellow dashed arc shows a red candle flying right over DUK, who is circled on the floor. look at the form on that.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes2/thumbs/129_sports_replay.webp"
     },
     {
       "file": "130_nature_herd.png",
       "src": "assets/memes2/130_nature_herd.png",
       "title": "the herd panics. the duk does not.",
       "alt": "Nature documentary still: a stampede of stick figures kicks up dust as it runs past, and in the foreground DUK lies completely still. the herd panics. the duk does not.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes2/thumbs/130_nature_herd.webp"
     },
     {
       "file": "131_safety_card.png",
       "src": "assets/memes2/131_safety_card.png",
       "title": "in case of turbulence: assume the duk position.",
       "alt": "An airplane safety card: red candles drop from the ceiling like oxygen masks, a diagram shows the duk position with numbered arrows, a crossed-out chart says do not open, and DUK gets up afterwards.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/131_safety_card.webp"
     },
     {
       "file": "132_exam.png",
       "src": "assets/memes2/132_exam.png",
       "title": "q7: the market drops 40% overnight. what do you do?",
       "alt": "A marked test paper: the market drops 40% overnight, what do you do? sell everything, buy more, draw lines on the chart, or duk. The answer duk is circled in red with an A+ and a little DUK doodle in the margin.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/132_exam.webp"
     },
     {
       "file": "133_tweet_since_2017.png",
       "src": "assets/memes2/133_tweet_since_2017.png",
       "title": "been ducking since 2017. still here.",
       "alt": "A pinned tweet from @justdukfun: been ducking since 2017. still here. The attached old photo, with an orange 2017 date stamp, shows DUK in the same position.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes2/thumbs/133_tweet_since_2017.webp"
     },
     {
       "file": "134_news_baffled.png",
       "src": "assets/memes2/134_news_baffled.png",
       "title": "scientists baffled: duck still on floor.",
       "alt": "A screaming tabloid front page: SCIENTISTS BAFFLED, DUCK STILL ON FLOOR, 'he's fine,' says floor, with DUK lying flat inside a red tabloid circle.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes2/thumbs/134_news_baffled.webp"
     },
     {
       "file": "135_museum_fossil.png",
       "src": "assets/memes2/135_museum_fossil.png",
       "title": "found exactly where he lay down.",
       "alt": "A natural history museum display: a stone slab holds a fossil of a duck in THE DUK pose. The label reads ducktus flooris, late bear market, found exactly where he lay down.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/135_museum_fossil.webp"
     },
     {
       "file": "136_poster_teamwork.png",
       "src": "assets/memes2/136_poster_teamwork.png",
       "title": "teamwork. nobody gets hit if nobody stands up.",
       "alt": "A motivational poster parody: a whole crowd of DUKs, all in THE DUK pose at different sizes. TEAMWORK: nobody gets hit if nobody stands up.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes2/thumbs/136_poster_teamwork.webp"
     },
     {
       "file": "137_troubleshooting.png",
       "src": "assets/memes2/137_troubleshooting.png",
       "title": "troubleshooting.",
       "alt": "A manual troubleshooting table: market dumps, rent is due, ex texts u up, kol says gm, the solution is always duk. duk will not get up: wait for the bounce. duk is staring at you: this is normal.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/137_troubleshooting.webp"
     },
     {
       "file": "138_nature_rare.png",
       "src": "assets/memes2/138_nature_rare.png",
       "title": "extremely rare footage: a standing duk.",
       "alt": "Camcorder footage through the bushes, with REC in the corner: DUK standing upright. extremely rare footage. a standing duk, seen only after the dump.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes2/thumbs/138_nature_rare.webp"
     },
     {
       "file": "139_trail_map.png",
       "src": "assets/memes2/139_trail_map.png",
       "title": "you are here.",
       "alt": "A park trail map shaped like a price chart: the peak is labelled the top (you bought here) and the bottom has a red you are here dot right where DUK is lying.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes2/thumbs/139_trail_map.webp"
     },
     {
       "file": "140_job_application.png",
       "src": "assets/memes2/140_job_application.png",
       "title": "application for employment.",
       "alt": "A job application on a clipboard with a stapled photo of DUK: position applying for: risk department. experience: ducking since 2017. skills: lying down, staring. references: the floor. why should we hire you: duk.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/140_job_application.webp"
     },
     {
       "file": "141_dating_profile.png",
       "src": "assets/memes2/141_dating_profile.png",
       "title": "duk, 9. looking for someone who won't panic.",
       "alt": "A dating app profile card: DUK's blank portrait, duk, 9. into: lying down, staring. looking for: someone who won't panic. red flags: none. red candles: many. Buttons for no and yes.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes2/thumbs/141_dating_profile.webp"
     },
     {
       "file": "142_road_sign.png",
       "src": "assets/memes2/142_road_sign.png",
       "title": "caution: duck ducking. next 9 cycles.",
       "alt": "A yellow diamond road sign with a black pictogram of a duck lying flat, wings over its head. The plate underneath reads duck ducking, next 9 cycles.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes2/thumbs/142_road_sign.webp"
     },
     {
       "file": "143_not_responding.png",
       "src": "assets/memes2/143_not_responding.png",
       "title": "duk.exe is not responding.",
       "alt": "A Windows 98 error dialog: duk.exe is not responding. it is lying on the floor on purpose. The buttons are wait and wait. DUK lies under the dialog.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes2/thumbs/143_not_responding.webp"
     },
     {
       "file": "144_venn.png",
       "src": "assets/memes2/144_venn.png",
       "title": "venn diagram.",
       "alt": "A venn diagram: one circle is market problems, the other is life problems, and the overlap in the middle just says duk.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/144_venn.webp"
     },
     {
       "file": "145_calendar.png",
       "src": "assets/memes2/145_calendar.png",
       "title": "busy month.",
       "alt": "A wall calendar for the month: almost every square just says duk. One square says get up. busy month.",
-      "tag": "life"
+      "tag": "life",
+      "thumb": "assets/memes2/thumbs/145_calendar.webp"
     },
     {
       "file": "146_certificate.png",
       "src": "assets/memes2/146_certificate.png",
       "title": "certificate of survival.",
       "alt": "An official certificate with a gold seal: awarded to duk for ducking every single cycle since 2017. signed by the floor.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes2/thumbs/146_certificate.webp"
     },
     {
       "file": "147_evolution.png",
       "src": "assets/memes2/147_evolution.png",
       "title": "peak evolution.",
       "alt": "The march of progress, redrawn: a hunched stick figure stands up taller and taller, a man checks his phone, then the final, most evolved form is DUK lying flat on the floor.",
-      "tag": "cult"
+      "tag": "cult",
+      "thumb": "assets/memes2/thumbs/147_evolution.webp"
     },
     {
       "file": "148_no_yes.png",
       "src": "assets/memes2/148_no_yes.png",
       "title": "fight the market: no. lie down: yes.",
       "alt": "The two-panel no / yes format: DUK rejects fighting the market and approves lying down on the floor. His face is identical in both panels.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes2/thumbs/148_no_yes.webp"
     },
     {
       "file": "149_this_is_fine.png",
       "src": "assets/memes2/149_this_is_fine.png",
       "title": "this is fine. smoke rises. i do not.",
       "alt": "A room full of fire made of red candles, smoke along the ceiling. DUK lies flat on the floor below the smoke line. this is fine. smoke rises. i do not.",
-      "tag": "market"
+      "tag": "market",
+      "thumb": "assets/memes2/thumbs/149_this_is_fine.webp"
     },
     {
       "file": "150_tweet_quote_bottom.png",
       "src": "assets/memes2/150_tweet_quote_bottom.png",
       "title": "duk.",
       "alt": "A crude quote tweet: @definitelyearly says this is the bottom, loading here. @justdukfun quotes it with one word: duk.",
-      "tag": "reaction"
+      "tag": "reaction",
+      "thumb": "assets/memes2/thumbs/150_tweet_quote_bottom.webp"
     },
     {
       "file": "151_q_just_duk.png",
       "src": "assets/memes2/151_q_just_duk.png",
       "title": "just duk.",
       "alt": "Quote card: just duk. in huge lowercase letters, with DUK peeking up from the bottom edge.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/151_q_just_duk.webp"
     },
     {
       "file": "152_q_market_opened.png",
       "src": "assets/memes2/152_q_market_opened.png",
       "title": "market opened. duk.",
       "alt": "Quote card: market opened. duk. A small DUK lies flat in the bottom corner.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/152_q_market_opened.webp"
     },
     {
       "file": "153_q_liquidate.png",
       "src": "assets/memes2/153_q_liquidate.png",
       "title": "you can't liquidate what's on the floor.",
       "alt": "Quote card: you can't liquidate what's on the floor. DUK lies flattened along the bottom edge.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/153_q_liquidate.webp"
     },
     {
       "file": "154_q_same_position.png",
       "src": "assets/memes2/154_q_same_position.png",
       "title": "different problems. same position.",
       "alt": "Quote card: different problems. same position. Three small DUKs lie in the same pose along the bottom.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/154_q_same_position.webp"
     },
     {
       "file": "155_q_get_up.png",
       "src": "assets/memes2/155_q_get_up.png",
       "title": "down. duk. get up.",
       "alt": "Quote card: down. duk. get up. A tiny strip shows DUK standing, flat, and standing again.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/155_q_get_up.webp"
     },
     {
       "file": "156_q_pool.png",
       "src": "assets/memes2/156_q_pool.png",
       "title": "fees go in the pool.",
       "alt": "Quote card: fees go in the pool. DUK stands knee-deep in a blue pool in the corner, blank as ever.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/156_q_pool.webp"
     },
     {
       "file": "157_q_greeting.png",
       "src": "assets/memes2/157_q_greeting.png",
       "title": "duk. / duk.",
       "alt": "Quote card: two DUKs face each other. One says duk. The other says duk.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/157_q_greeting.webp"
     },
     {
       "file": "158_q_coming_at_you.png",
       "src": "assets/memes2/158_q_coming_at_you.png",
       "title": "everything's coming at you. just duk.",
       "alt": "Quote card: everything's coming at you. just duk. Red candles, a rent bill and a phone fly toward a small ducking DUK.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/158_q_coming_at_you.webp"
     },
     {
       "file": "159_q_duk_season.png",
       "src": "assets/memes2/159_q_duk_season.png",
       "title": "it's duk season.",
       "alt": "Quote card: it's duk season. Red candles rain down over a small DUK lying flat.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/159_q_duk_season.webp"
     },
     {
       "file": "160_q_ducked.png",
       "src": "assets/memes2/160_q_ducked.png",
       "title": "ducked.",
       "alt": "Quote card: ducked. A small DUK stands back up in the corner, completely unbothered.",
-      "tag": null
+      "tag": null,
+      "thumb": "assets/memes2/thumbs/160_q_ducked.webp"
     },
     {
       "file": "151_not_a_turkey.png",
       "src": "assets/memes3/151_not_a_turkey.png",
       "title": "not a turkey.",
       "alt": "Thanksgiving dinner table: DUK lies flat on the serving platter in the duk pose, wings over his head, while a carving knife whooshes just over him. Caption: not a turkey.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/151_not_a_turkey.webp"
     },
     {
       "file": "152_one_of_us_sweating.png",
       "src": "assets/memes3/152_one_of_us_sweating.png",
       "title": "only one of us is sweating.",
       "alt": "Thanksgiving morning on the farm. A turkey sweats buckets, eyes darting, next to a fence calendar circled on nov 26. DUK stands beside him with the usual blank stare.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/152_one_of_us_sweating.webp"
     },
     {
       "file": "153_thankful_worksheet.png",
       "src": "assets/memes3/153_thankful_worksheet.png",
       "title": "i am thankful for: the floor.",
       "alt": "A school Thanksgiving worksheet filled in by DUK: name duk, i am thankful for: the floor, in big orange crayon, with a crayon drawing of himself lying flat. The teacher wrote see me in red.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/153_thankful_worksheet.webp"
     },
     {
       "file": "154_what_do_you_do.png",
       "src": "assets/memes3/154_what_do_you_do.png",
       "title": "so what do you do for work?",
       "alt": "Two panels at Thanksgiving dinner. An aunt asks DUK: so what do you do for work? Next panel, DUK is flat on the floor beside the table in the duk pose and says: this.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/154_what_do_you_do.webp"
     },
     {
       "file": "155_uncle_crypto.png",
       "src": "assets/memes3/155_uncle_crypto.png",
       "title": "uncle asked about crypto.",
       "alt": "Thanksgiving dinner: an uncle in a red cap leans over the table asking so is the crypto thing still going? DUK's chair is empty. DUK is lying flat under the table, peeking out from below the tablecloth.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/155_uncle_crypto.webp"
     },
     {
       "file": "156_found_my_seat.png",
       "src": "assets/memes3/156_found_my_seat.png",
       "title": "found my seat.",
       "alt": "Thanksgiving table seen up close: folded place cards read mom, uncle and grandma. Down on the wooden floor below the table, DUK lies flat next to his own place card: duk.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/156_found_my_seat.webp"
     },
     {
       "file": "157_pie_chart.png",
       "src": "assets/memes3/157_pie_chart.png",
       "title": "where my 2026 went.",
       "alt": "A pumpkin pie drawn as a pie chart, top view: one huge slice labelled ducking 96%, a thin slice labelled getting up 3% and a sliver labelled staring at you 1%. DUK stands beside it.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/157_pie_chart.webp"
     },
     {
       "file": "158_leftovers.png",
       "src": "assets/memes3/158_leftovers.png",
       "title": "thanksgiving leftovers.",
       "alt": "An open fridge the day after thanksgiving: leftover turkey, half a pie, cranberry sauce, and on the bottom shelf DUK lying flat with a sticky note: leftover from 2017. still here.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/158_leftovers.webp"
     },
     {
       "file": "159_first_in_line.png",
       "src": "assets/memes3/159_first_in_line.png",
       "title": "first in line for black friday.",
       "alt": "Night outside a closed store with a sign reading opens 6am. A line of shoppers waits behind DUK, who lies flat at the very front next to a cardboard sign: in line since 2017.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/159_first_in_line.webp"
     },
     {
       "file": "160_doorbusters.png",
       "src": "assets/memes3/160_doorbusters.png",
       "title": "doorbusters.",
       "alt": "Black friday at 5:00 am: the store doors burst open and a stampede of panicking stick-figure shoppers runs and leaps right over DUK, who lies flat on the pavement in the duk pose.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/160_doorbusters.webp"
     },
     {
       "file": "161_black_friday_90.png",
       "src": "assets/memes3/161_black_friday_90.png",
       "title": "black friday: everything 90% off. so is the portfolio.",
       "alt": "A screaming red black friday banner: everything 90% off. Below it DUK stands blankly next to a giant phone showing his portfolio at -90% with a red line falling off the screen.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/161_black_friday_90.webp"
     },
     {
       "file": "162_cyber_cart.png",
       "src": "assets/memes3/162_cyber_cart.png",
       "title": "cyber monday. items: 0. ducked.",
       "alt": "A crude 2006 shopping cart window for cyber monday: your cart, items: 0, status: ducked, with a greyed-out checkout button. DUK lies flat underneath the window.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/162_cyber_cart.webp"
     },
     {
       "file": "163_cyber_popups.png",
       "src": "assets/memes3/163_cyber_popups.png",
       "title": "cyber monday popups. duk.",
       "alt": "Cyber monday pop-up windows fly at DUK with speed lines: 70% OFF, LAST CHANCE, your cart misses you, sale ends in 3:59, wait! 10% off. DUK lies flat underneath them, staring.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/163_cyber_popups.webp"
     },
     {
       "file": "164_december_forecast.png",
       "src": "assets/memes3/164_december_forecast.png",
       "title": "december forecast: duk season.",
       "alt": "A crude TV weather card for december: four weekly forecast tiles show red candles falling with snow, each labelled duk. DUK stands below as the presenter. outlook: duk season, light snow.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/164_december_forecast.webp"
     },
     {
       "file": "165_advent_calendar.png",
       "src": "assets/memes3/165_advent_calendar.png",
       "title": "advent calendar. no spoilers.",
       "alt": "A red advent calendar with 24 numbered doors. The first four doors are open and every one has DUK lying flat inside. Caption: day 4. no spoilers.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/165_advent_calendar.webp"
     },
     {
       "file": "166_snow_duk.png",
       "src": "assets/memes3/166_snow_duk.png",
       "title": "snow angel. snow duk.",
       "alt": "First snow. On the left a stick-figure kid proudly stands next to a classic snow angel imprint labelled snow angel. On the right DUK lies flat in the snow in the duk pose, labelled snow duk.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/166_snow_duk.webp"
     },
     {
       "file": "167_holiday_sweater.png",
       "src": "assets/memes3/167_holiday_sweater.png",
       "title": "dressed up for the holidays.",
       "alt": "DUK stands blankly in front of falling snow wearing a red knitted holiday sweater with a green zigzag band, tiny snowflakes and DUK knitted across the chest. His face has not changed.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/167_holiday_sweater.webp"
     },
     {
       "file": "168_dear_santa.png",
       "src": "assets/memes3/168_dear_santa.png",
       "title": "all i want for christmas is liquidity.",
       "alt": "A letter to santa in crayon on lined paper: dear santa, all i want for christmas is liquidity. i've been lying down all year. love, duk. p.s. after graduation, creator fees help add to the pool. DUK lies flat at the bottom corner.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/168_dear_santa.webp"
     },
     {
       "file": "169_the_list.png",
       "src": "assets/memes3/169_the_list.png",
       "title": "naughty. nice. on the floor.",
       "alt": "Santa's list on a long parchment scroll. naughty: panic sold the bottom, said gm then sold, checked the chart 400 times a day. nice: (blank). on the floor: duk. DUK lies flat below the scroll.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/169_the_list.webp"
     },
     {
       "file": "170_secret_santa_mirror.png",
       "src": "assets/memes3/170_secret_santa_mirror.png",
       "title": "secret santa got me a mirror.",
       "alt": "DUK stands next to an opened gift box with torn wrapping paper, holding up a big gold-framed mirror. The reflection is DUK, staring back with the exact same blank face.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/170_secret_santa_mirror.webp"
     },
     {
       "file": "171_under_the_tree.png",
       "src": "assets/memes3/171_under_the_tree.png",
       "title": "found under the tree.",
       "alt": "A living room christmas tree decorated with little red candles. Under it, between wrapped presents, DUK lies flat with a gift tag on him: to: you. from: the floor.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/171_under_the_tree.webp"
     },
     {
       "file": "172_family_card.png",
       "src": "assets/memes3/172_family_card.png",
       "title": "season's greetings from the family.",
       "alt": "A holiday card with a red and green border: season's greetings from the family. Three smiling stick-figure relatives stand with arms up for the photo while DUK lies flat on the floor in front of them. (duk is fine.)",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/172_family_card.webp"
     },
     {
       "file": "173_year_in_review.png",
       "src": "assets/memes3/173_year_in_review.png",
       "title": "year in review: ducked 365 times.",
       "alt": "A big year in review card: 2026. times ducked: 365. times unduckable: 0. times got back up: 365. face changed: no. DUK lies flat underneath it.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/173_year_in_review.webp"
     },
     {
       "file": "174_wrapped_top_move.png",
       "src": "assets/memes3/174_wrapped_top_move.png",
       "title": "your top move: the position.",
       "alt": "A loud year-end wrapped style story card in pink and lime: your 2026, wrapped. your top move: the position. DUK lies flat across the bottom in the duk pose.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/174_wrapped_top_move.webp"
     },
     {
       "file": "175_photo_dump.png",
       "src": "assets/memes3/175_photo_dump.png",
       "title": "2026 photo dump.",
       "alt": "A 2026 photo dump of twelve polaroids, one per month, from snowy january to summer beach to red candles in the fall. In every single photo DUK is lying flat in the duk pose.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/175_photo_dump.webp"
     },
     {
       "file": "176_resolution_same.png",
       "src": "assets/memes3/176_resolution_same.png",
       "title": "new year's resolution: same.",
       "alt": "A notebook page titled 2027 resolutions. 1. stop ducking, crossed out. 1. duck less, crossed out. Then in big letters: 1. same. DUK lies flat in the corner of the page.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/176_resolution_same.webp"
     },
     {
       "file": "177_duk_hour.png",
       "src": "assets/memes3/177_duk_hour.png",
       "title": "new year's eve: 11:59 pm. duk hour.",
       "alt": "A navy and gold new year's eve party schedule: 10:00 pm snacks, 11:00 pm small talk, 11:59 pm duk hour (highlighted), 12:00 am get up. DUK stands beside it, blank.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/177_duk_hour.webp"
     },
     {
       "file": "178_ball_drop.png",
       "src": "assets/memes3/178_ball_drop.png",
       "title": "the ball is dropping. duk.",
       "alt": "New year's eve at midnight: a giant glittering ball drops down its pole toward the crowd with a countdown board reading 00:00:03. Stick-figure crowd cheers with arms up. DUK lies flat in the front row.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/178_ball_drop.webp"
     },
     {
       "file": "179_midnight_fireworks.png",
       "src": "assets/memes3/179_midnight_fireworks.png",
       "title": "midnight. loud things in the sky. duk.",
       "alt": "Midnight on a rooftop: fireworks explode in red, yellow, green and white across the night sky while DUK lies flat on the roof in the duk pose, staring. Caption: 12:00 am. duk.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/179_midnight_fireworks.webp"
     },
     {
       "file": "180_new_year_new_me.png",
       "src": "assets/memes3/180_new_year_new_me.png",
       "title": "new year. new me.",
       "alt": "Two side by side photos labelled 2026 me and 2027 me. In both, DUK is lying flat on the floor in the exact same duk pose with the exact same face. Caption: new year. new me.",
-      "tag": "season"
+      "tag": "season",
+      "thumb": "assets/memes3/thumbs/180_new_year_new_me.webp"
     }
   ],
   "comics": [
