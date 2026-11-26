@@ -3,6 +3,9 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **3 more blank formats** (30): everyone moved (082), the settings menu (083), the stampede (086). Skipped 084 (menu board with a
+  price column) and 085 (a board of green candles). **home wall of fame strip**: the 4 newest fame.json entries between the
+  fresh wall and the clock; stays hidden while the wall is empty.
 - **wall submissions**: maker posts now tag @justdukfun (`just duk. $duk @justdukfun https://duk.fun/maker.html`) so made duks
   land in the account's mentions; fame.html has "post yours for the wall" (x intent: "my duk for the wall of fame. @justdukfun").
 - **duk hour in your calendar**: assets/duk-hour.ics (daily 21:00-21:10 utc, alarm at start; CRLF kept by .gitattributes

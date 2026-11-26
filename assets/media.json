@@ -2858,6 +2858,126 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/081_down_stay.webp"
+      },
+      {
+        "file": "formats/082_perpetual.png",
+        "src": "assets/kit/formats/082_perpetual.png",
+        "title": "everyone moved",
+        "alt": "Four stick figures throw their arms up next to a red building with an empty sign over a dark doorway. DUK lies flat on the grey street in front.",
+        "tag": "template",
+        "spots": [
+          [
+            0.24,
+            0.027,
+            0.52,
+            0.06
+          ],
+          [
+            0.707,
+            0.153,
+            0.167,
+            0.06
+          ],
+          [
+            0.66,
+            0.273,
+            0.267,
+            0.053
+          ],
+          [
+            0.127,
+            0.88,
+            0.74,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/082_perpetual.webp"
+      },
+      {
+        "file": "formats/083_easy_mode.png",
+        "src": "assets/kit/formats/083_easy_mode.png",
+        "title": "the settings menu",
+        "alt": "A blue game menu with an empty title and four empty options, the yellow cursor on the last one. DUK lies flat underneath.",
+        "tag": "template",
+        "spots": [
+          [
+            0.253,
+            0.073,
+            0.487,
+            0.06
+          ],
+          [
+            0.347,
+            0.193,
+            0.127,
+            0.06
+          ],
+          [
+            0.353,
+            0.287,
+            0.24,
+            0.067
+          ],
+          [
+            0.353,
+            0.38,
+            0.3,
+            0.053
+          ],
+          [
+            0.353,
+            0.48,
+            0.233,
+            0.053
+          ],
+          [
+            0.247,
+            0.84,
+            0.5,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/083_easy_mode.webp"
+      },
+      {
+        "file": "formats/086_stampede.png",
+        "src": "assets/kit/formats/086_stampede.png",
+        "title": "the stampede",
+        "alt": "Three brown bulls leap over DUK, who lies flat on the brown dirt. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.16,
+            0.027,
+            0.673,
+            0.08
+          ],
+          [
+            0.427,
+            0.8,
+            0.273,
+            0.06
+          ],
+          [
+            0.1,
+            0.8,
+            0.287,
+            0.073
+          ],
+          [
+            0.733,
+            0.813,
+            0.16,
+            0.06
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/086_stampede.webp"
       }
     ],
     "pfp": [

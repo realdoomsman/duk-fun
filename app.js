@@ -395,4 +395,32 @@
       since.hidden = false;
     }).catch(() => { /* no note. */ });
   }
+
+  // Home: the four newest wall of fame pieces (assets/fame.json, hand-fed by scripts/add-fame.py); hidden while empty.
+  const fameStrip = document.querySelector('[data-fame-strip]');
+  if (fameStrip) {
+    getJSON('assets/fame.json').then((fame) => {
+      const entries = list(fame && fame.entries)
+        .filter((entry) => entry && entry.id && entry.src && /^[A-Za-z0-9_]{1,15}$/.test(entry.by || '')).slice(0, 4);
+      if (!entries.length) return;
+      fameStrip.querySelector('[data-fame-strip-grid]').replaceChildren(...entries.map((entry) => {
+        const tile = document.createElement('li');
+        tile.className = 'fresh-tile';
+        const link = document.createElement('a');
+        link.className = 'fresh-frame';
+        link.href = `fame.html#fame-${entry.id}`;
+        link.setAttribute('aria-label', `${entry.caption || 'a duk'} by @${entry.by}`);
+        const image = document.createElement('img');
+        image.loading = 'lazy';
+        Object.assign(image, { src: entry.thumb || entry.src, alt: '', width: 480, height: 480, decoding: 'async' });
+        link.append(image);
+        const caption = document.createElement('p');
+        caption.className = 'fresh-cap';
+        caption.textContent = `${entry.caption ? `${entry.caption} ` : ''}by @${entry.by}`;
+        tile.append(link, caption);
+        return tile;
+      }));
+      fameStrip.hidden = false;
+    }).catch(() => { /* no strip. */ });
+  }
 })();
