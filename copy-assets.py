@@ -64,7 +64,7 @@ def label(path: Path) -> str:
 
 
 def collection(folder_name: str) -> list:
-    """Publish PROJECT/<folder> to assets/<folder> from its manifest.json [{file,title|caption,alt,tag}].
+    """Publish PROJECT/<folder> to assets/<folder> from its manifest.json [{file,title|caption,alt,tag[,spots]}].
     A folder without a manifest is still being made and is skipped."""
     folder = PROJECT / folder_name
     manifest = folder / 'manifest.json'
@@ -86,6 +86,8 @@ def collection(folder_name: str) -> list:
             'title': title,
             'alt': entry.get('alt') or title,
             'tag': tag if isinstance(tag, str) and tag else None,
+            # kit/formats: where the words go, [x, y, w, h] fractions (kit/make_formats.py) for the maker.
+            **({'spots': entry['spots']} if isinstance(entry.get('spots'), list) and entry['spots'] else {}),
         })
     return published
 

@@ -11,6 +11,8 @@ Owner: DukSiteBuilder. Newest first.
   kit page section "the new formats." and every template/format card has "fill it in" (opens it in the maker).
 - **watch**: each clip has an id (watch.html#clip-<file>), a "post it" link and an "up next" button when it ends; one clip with sound at a time.
 - **cache busting**: `python scripts/stamp-assets.py` stamps css/js references with ?v=<content hash>; run it before pushing css/js.
+- **more words** in the maker: type, add, and a draggable block of words drops onto the picture. new formats carry `spots` (where the
+  original meme had words, found by diffing the worded and blank renders in kit/make_formats.py), so each block lands on the next sign/note.
 - **kit thumbs**: templates, formats and pfps get 480px webp thumbs (kit cards + maker base cards); the card still shows the real size.
 - **remix it**: archive dialog button opens maker.html?base=<meme src>#maker with that meme picked as the base.
 - **404.html** (paint style, links home/memes/maker), robots.txt, sitemap.xml. reaction gifs got first-frame webp posters.

@@ -67,7 +67,7 @@
 #maker-tool .maker-toggle input { flex: none; width: 20px; height: 20px; margin: 1px 0 0; accent-color: #111; cursor: pointer; }
 #maker-tool .maker-filters { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 10px; }
 #maker-tool .maker-field { min-width: 0; margin-bottom: 12px; }
-#maker-tool input[type="search"], #maker-tool select, #maker-tool textarea {
+#maker-tool input[type="search"], #maker-tool input[type="text"], #maker-tool select, #maker-tool textarea {
   display: block;
   width: 100%;
   min-height: 44px;
@@ -83,6 +83,9 @@
 #maker-tool select { cursor: pointer; }
 #maker-tool textarea { min-height: 76px; resize: vertical; }
 #maker-tool input::placeholder, #maker-tool textarea::placeholder { color: #626262; opacity: 1; }
+#maker-tool .maker-more { display: flex; gap: 8px; }
+#maker-tool .maker-more input { flex: 1; min-width: 0; }
+#maker-tool .maker-more .maker-small { flex: none; min-height: 44px; padding-inline: 16px; font-weight: bold; }
 #maker-tool .maker-library-status { min-height: 20px; margin: 0 0 10px; font-size: 12px; line-height: 1.5; }
 #maker-tool .maker-bases {
   display: grid;
@@ -168,6 +171,7 @@
 #maker-tool .maker-choice > input:focus-visible + span { outline: 3px dashed #111; outline-offset: 2px; }
 #maker-tool .maker-toggle:has(input:focus-visible) { outline: 3px dashed #111; outline-offset: 3px; }
 #maker-tool input[type="search"]:focus-visible,
+#maker-tool input[type="text"]:focus-visible,
 #maker-tool select:focus-visible,
 #maker-tool textarea:focus-visible,
 #maker-tool button:focus-visible,

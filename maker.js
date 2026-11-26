@@ -86,6 +86,8 @@
             <h3 id="maker-step-words" class="maker-step-title">3. add words.</h3>
             <div class="maker-field"><label for="maker-top">top text</label><textarea id="maker-top" rows="2" maxlength="120" placeholder="rent is due." aria-describedby="maker-caption-help"></textarea></div>
             <div class="maker-field"><label for="maker-bottom">bottom text</label><textarea id="maker-bottom" rows="2" maxlength="120" placeholder="just duk." aria-describedby="maker-caption-help"></textarea></div>
+            <div class="maker-field"><label for="maker-more">more words</label><div class="maker-more"><input id="maker-more" type="text" maxlength="60" placeholder="for signs, notes, boxes…" enterkeyhint="done" aria-describedby="maker-more-help"><button class="maker-small" type="button" data-add-words>add</button></div></div>
+            <p id="maker-more-help" class="maker-help">adds a block of words you can drag. on the new formats each one lands in the next empty spot.</p>
             <div class="maker-field"><label for="maker-ink">text color</label><select id="maker-ink"><option value="auto">auto</option><option value="#111111">black</option><option value="#ffffff">white</option><option value="outline">white with black outline</option><option value="#ed1c24">red</option></select></div>
             <p id="maker-caption-help" class="maker-help">it gets lowercased, like everything duk says. drag the words on the picture to move them.</p>
           </section>
@@ -154,6 +156,8 @@
   const removeButton = $('[data-layer-action="remove"]');
   const loadStatus = $('#maker-load-status');
   const retry = $('.maker-retry');
+  const moreWords = $('#maker-more');
+  const addWordsButton = $('[data-add-words]');
 
   function makeChoice(name, value, item, checked, lazy) {
     const label = document.createElement('label');
@@ -662,6 +666,112 @@
     if (selected) removeLayer(selected);
   });
 
+  // "more words": a block of words rendered once into an image, then handled like a sticker (drag, resize, remove).
+  // Bases with spots (kit/formats) put each new block where the original meme had words, signs and notes first.
+  let wordCount = 0;
+  function wordImage(text, ink) {
+    const block = document.createElement('canvas');
+    const pen = block.getContext('2d');
+    const size = 96;
+    const font = `bold ${size}px "Comic Sans MS", "Comic Sans", "duk paint", Arial, sans-serif`;
+    pen.font = font;
+    const lines = [];
+    let line = '';
+    for (const word of text.split(' ')) {
+      const candidate = line ? `${line} ${word}` : word;
+      if (line && pen.measureText(candidate).width > size * 9) {
+        lines.push(line);
+        line = word;
+      } else {
+        line = candidate;
+      }
+    }
+    lines.push(line);
+    const pad = ink === 'outline' ? 16 : 6;
+    const lineHeight = Math.round(size * 1.15);
+    block.width = Math.ceil(Math.max(...lines.map(part => pen.measureText(part).width))) + pad * 2;
+    block.height = lines.length * lineHeight + pad * 2;
+    pen.font = font;
+    pen.textAlign = 'center';
+    pen.textBaseline = 'middle';
+    pen.lineJoin = 'round';
+    lines.forEach((part, index) => {
+      const y = pad + (index + 0.5) * lineHeight;
+      if (ink === 'outline') {
+        pen.lineWidth = 14;
+        pen.strokeStyle = '#111111';
+        pen.strokeText(part, block.width / 2, y);
+        pen.fillStyle = '#ffffff';
+      } else {
+        pen.fillStyle = ink;
+      }
+      pen.fillText(part, block.width / 2, y);
+    });
+    // Not through loadImage: its cache would keep every block's data url for the whole visit.
+    return new Promise((resolve, reject) => {
+      const image = new Image();
+      image.onload = () => resolve(image);
+      image.onerror = reject;
+      image.src = block.toDataURL('image/png');
+    });
+  }
+
+  function wordSpots() {
+    const base = !state.combo && bases[state.base];
+    const spots = base && Array.isArray(base.spots) ? base.spots.filter(spot => Array.isArray(spot) && spot.length === 4) : [];
+    // The top and bottom text boxes already cover captions; the signs and notes inside the picture come first.
+    const edge = ([, y, , h]) => y < 0.1 || y + h > 0.85;
+    return [...spots.filter(spot => !edge(spot)), ...spots.filter(edge)];
+  }
+
+  async function addWords() {
+    const text = normalizeCaption(moreWords.value).replace(/\n/g, ' ');
+    if (!text) {
+      exportStatus.textContent = 'type some words first.';
+      moreWords.focus();
+      return;
+    }
+    if (stickers.length >= MAX_STICKERS) {
+      exportStatus.textContent = `that's ${MAX_STICKERS} stickers and word blocks. remove one first.`;
+      return;
+    }
+    const spots = wordSpots();
+    const ink = state.ink !== 'auto' ? state.ink : spots.length ? '#111111' : isTemplate() ? 'outline' : textColor(state.background);
+    await fontReady;
+    let image;
+    try {
+      image = await wordImage(text, ink);
+    } catch {
+      exportStatus.textContent = 'could not draw those words. try again.';
+      return;
+    }
+    const ratio = image.naturalHeight / image.naturalWidth;
+    const placed = stickers.filter(sticker => sticker.words).length;
+    let x = SIZE / 2 + ((placed % 5) - 2) * 40;
+    let y = SIZE / 2 + ((placed % 5) - 2) * 40;
+    let width = Math.min(SIZE * 0.6, image.naturalWidth);
+    if (spots.length) {
+      const [sx, sy, sw, sh] = spots[placed % spots.length].map(value => value * SIZE);
+      x = sx + sw / 2;
+      y = sy + sh / 2;
+      width = Math.max(60, Math.min(sw, (sh * 1.4) / ratio));
+    }
+    wordCount += 1;
+    const block = { id: `words-${wordCount}`, kind: 'sticker', words: true, name: `words: ${text}`, image, x, y, width, scale: 1, box: null };
+    stickers.push(block);
+    selected = block;
+    moreWords.value = '';
+    exportStatus.textContent = `added "${text}". drag it where you want it.`;
+    if (canvas.getBoundingClientRect().bottom < 80) stage.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    render();
+  }
+  addWordsButton.addEventListener('click', addWords);
+  moreWords.addEventListener('keydown', event => {
+    if (event.key !== 'Enter') return;
+    event.preventDefault();
+    addWords();
+  });
+
   stickerSet.addEventListener('change', renderStickerTray);
   stickerTray.addEventListener('click', event => {
     const button = event.target.closest('.maker-sticker');
@@ -859,6 +969,7 @@
           number,
           alt: typeof item.alt === 'string' ? item.alt : '',
           thumb: typeof item.thumb === 'string' ? item.thumb : null,
+          spots: Array.isArray(item.spots) ? item.spots : null,
           quick: kind === 'template' && number === '01'
         });
         addBaseCard(bases.length - 1);
