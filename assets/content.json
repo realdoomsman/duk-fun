@@ -1,6 +1,51 @@
 {
-  "updated": "2026-11-26T16:31:03Z",
+  "updated": "2026-11-26T17:16:02Z",
   "memes": [
+    {
+      "file": "104_falling_knives.png",
+      "src": "assets/memes4/104_falling_knives.png",
+      "thumb": "assets/memes4/thumbs/104_falling_knives.webp",
+      "title": "ct keeps saying don't catch a falling knife. he was never going to.",
+      "alt": "duk reacting to ct warning not to catch a falling knife in the red month. ct keeps saying don't catch a falling knife. he was never going to.",
+      "tag": "market",
+      "created": "2026-11-26T17:00:09Z"
+    },
+    {
+      "file": "103_tripwire.png",
+      "src": "assets/memes4/103_tripwire.png",
+      "thumb": "assets/memes4/thumbs/103_tripwire.webp",
+      "title": "ct cannot agree if this is a bull trap or a bear trap. both are set. he is fine.",
+      "alt": "duk reacting to ct arguing whether the bounce is a bull trap or a bear trap. ct cannot agree if this is a bull trap or a bear trap. both are set. he is fine.",
+      "tag": "market",
+      "created": "2026-11-26T17:00:09Z"
+    },
+    {
+      "file": "102_doji.png",
+      "src": "assets/memes4/102_doji.png",
+      "thumb": "assets/memes4/thumbs/102_doji.webp",
+      "title": "ct is hunting for candle patterns. he opens and closes in the same place every day.",
+      "alt": "duk reacting to ct hunting for reversal candle patterns. ct is hunting for candle patterns. he opens and closes in the same place every day.",
+      "tag": "market",
+      "created": "2026-11-26T17:00:09Z"
+    },
+    {
+      "file": "101_lay_out.png",
+      "src": "assets/memes4/101_lay_out.png",
+      "thumb": "assets/memes4/thumbs/101_lay_out.webp",
+      "title": "breakout or fakeout. ct cannot decide. he went with option three. $duk",
+      "alt": "duk reacting to ct cannot decide if the move is a breakout or a fakeout. breakout or fakeout. ct cannot decide. he went with option three. $duk",
+      "tag": "market",
+      "created": "2026-11-26T17:00:09Z"
+    },
+    {
+      "file": "100_disclaimer.png",
+      "src": "assets/memes4/100_disclaimer.png",
+      "thumb": "assets/memes4/thumbs/100_disclaimer.webp",
+      "title": "every ct post ends with \"not financial advice\". his whole account is.",
+      "alt": "duk reacting to every ct post ending with \"not financial advice\". every ct post ends with \"not financial advice\". his whole account is.",
+      "tag": "market",
+      "created": "2026-11-26T17:00:09Z"
+    },
     {
       "file": "099_no_resistance.png",
       "src": "assets/memes4/099_no_resistance.png",
@@ -852,6 +897,78 @@
   ],
   "gifs": [
     {
+      "title": "no thoughts. just duk.",
+      "alt": "Close on DUK's blank stare. Then he drops into THE DUK pose: \"no thoughts. just duk.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/070_no_thoughts.mp4",
+      "gif": "assets/gifs2/070_no_thoughts.gif",
+      "poster": "assets/gifs2/posters/070_no_thoughts.webp",
+      "created": "2026-11-26T17:15:13Z"
+    },
+    {
+      "title": "lovely parade.",
+      "alt": "A giant red candle balloon drifts low over DUK lying in THE DUK pose: \"lovely parade.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/069_lovely_parade.mp4",
+      "gif": "assets/gifs2/069_lovely_parade.gif",
+      "poster": "assets/gifs2/posters/069_lovely_parade.webp",
+      "created": "2026-11-26T17:15:13Z"
+    },
+    {
+      "title": "we don't talk about it.",
+      "alt": "DUK lying on a therapist's couch in THE DUK pose, staring: \"we don't talk about it.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/068_we_dont_talk_about_it.mp4",
+      "gif": "assets/gifs2/068_we_dont_talk_about_it.gif",
+      "poster": "assets/gifs2/posters/068_we_dont_talk_about_it.webp",
+      "created": "2026-11-26T17:15:13Z"
+    },
+    {
+      "title": "not my bag.",
+      "alt": "A heavy sack labelled \"bag.\" flies over DUK lying in THE DUK pose: \"not my bag.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/067_not_my_bag.mp4",
+      "gif": "assets/gifs2/067_not_my_bag.gif",
+      "poster": "assets/gifs2/posters/067_not_my_bag.webp",
+      "created": "2026-11-26T17:15:13Z"
+    },
+    {
+      "title": "not here.",
+      "alt": "Dinner table. A speech bubble asks \"so what's crypto doing?\" DUK is flat under the table in THE DUK pose.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/066_under_the_table.mp4",
+      "gif": "assets/gifs2/066_under_the_table.gif",
+      "poster": "assets/gifs2/posters/066_under_the_table.webp",
+      "created": "2026-11-26T16:45:15Z"
+    },
+    {
+      "title": "return to sender.",
+      "alt": "An envelope flies over DUK lying in THE DUK pose. A red stamp: \"return to sender.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/065_return_to_sender.mp4",
+      "gif": "assets/gifs2/065_return_to_sender.gif",
+      "poster": "assets/gifs2/posters/065_return_to_sender.webp",
+      "created": "2026-11-26T16:45:15Z"
+    },
+    {
+      "title": "no comment.",
+      "alt": "DUK flat in THE DUK pose, wings over his head, staring at you: \"no comment.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/064_no_comment.mp4",
+      "gif": "assets/gifs2/064_no_comment.gif",
+      "poster": "assets/gifs2/posters/064_no_comment.webp",
+      "created": "2026-11-26T16:45:15Z"
+    },
+    {
+      "title": "how low can you go.",
+      "alt": "A limbo bar comes down and rests on DUK's back. He does not move: \"how low can you go.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/063_how_low.mp4",
+      "gif": "assets/gifs2/063_how_low.gif",
+      "poster": "assets/gifs2/posters/063_how_low.webp",
+      "created": "2026-11-26T16:45:15Z"
+    },
+    {
       "title": "unbothered.",
       "alt": "DUK gets up off the floor after a dump and just stands there, blank: \"unbothered.\"",
       "tag": "reaction",
@@ -1003,78 +1120,6 @@
       "gif": "assets/gifs2/073_cant_find_me.gif",
       "poster": "assets/gifs2/posters/073_cant_find_me.webp",
       "created": "2026-11-26T15:26:11Z"
-    },
-    {
-      "title": "no thoughts.",
-      "alt": "no thoughts.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/070_no_thoughts.mp4",
-      "gif": "assets/gifs2/070_no_thoughts.gif",
-      "poster": "assets/gifs2/posters/070_no_thoughts.webp",
-      "created": "2026-11-26T15:24:24Z"
-    },
-    {
-      "title": "lovely parade.",
-      "alt": "lovely parade.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/069_lovely_parade.mp4",
-      "gif": "assets/gifs2/069_lovely_parade.gif",
-      "poster": "assets/gifs2/posters/069_lovely_parade.webp",
-      "created": "2026-11-26T15:24:24Z"
-    },
-    {
-      "title": "we dont talk about it.",
-      "alt": "we dont talk about it.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/068_we_dont_talk_about_it.mp4",
-      "gif": "assets/gifs2/068_we_dont_talk_about_it.gif",
-      "poster": "assets/gifs2/posters/068_we_dont_talk_about_it.webp",
-      "created": "2026-11-26T15:24:23Z"
-    },
-    {
-      "title": "not my bag.",
-      "alt": "not my bag.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/067_not_my_bag.mp4",
-      "gif": "assets/gifs2/067_not_my_bag.gif",
-      "poster": "assets/gifs2/posters/067_not_my_bag.webp",
-      "created": "2026-11-26T15:24:23Z"
-    },
-    {
-      "title": "return to sender.",
-      "alt": "return to sender.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/065_return_to_sender.mp4",
-      "gif": "assets/gifs2/065_return_to_sender.gif",
-      "poster": "assets/gifs2/posters/065_return_to_sender.webp",
-      "created": "2026-11-26T15:22:54Z"
-    },
-    {
-      "title": "under the table.",
-      "alt": "under the table.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/066_under_the_table.mp4",
-      "gif": "assets/gifs2/066_under_the_table.gif",
-      "poster": "assets/gifs2/posters/066_under_the_table.webp",
-      "created": "2026-11-26T15:22:29Z"
-    },
-    {
-      "title": "no comment.",
-      "alt": "no comment.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/064_no_comment.mp4",
-      "gif": "assets/gifs2/064_no_comment.gif",
-      "poster": "assets/gifs2/posters/064_no_comment.webp",
-      "created": "2026-11-26T15:22:29Z"
-    },
-    {
-      "title": "how low.",
-      "alt": "how low.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/063_how_low.mp4",
-      "gif": "assets/gifs2/063_how_low.gif",
-      "poster": "assets/gifs2/posters/063_how_low.webp",
-      "created": "2026-11-26T15:22:29Z"
     },
     {
       "title": "pattern confirmed.",
@@ -1556,6 +1601,66 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/054_parade_balloon.mp4",
+      "poster": "assets/clips2/054_parade_balloon.webp",
+      "title": "the big red candle balloon was huge this year. $duk",
+      "alt": "Wide shot, a street parade. Bunting overhead, a crowd rail. A giant red candle balloon drifts in on ropes, low and huge, filling the street. DUK drops into THE DUK pose as it scrapes over him. It drifts away. He stays down: \"lovely parade.\"",
+      "created": "2026-11-26T17:15:13Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/053_the_therapist.mp4",
+      "poster": "assets/clips2/053_the_therapist.webp",
+      "title": "therapist asked how the market makes me feel. duk.",
+      "alt": "A therapist's couch. DUK lies on it in THE DUK pose. A notepad on the side. Speech bubbles from off-screen: \"and how does the market make you feel?\" A long pause. \"...take your time.\" DUK does not move: \"duk.\" The notepad: \"patient ducked.\"",
+      "created": "2026-11-26T17:15:13Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/052_not_my_bag.mp4",
+      "poster": "assets/clips2/052_not_my_bag.webp",
+      "title": "someone left a bag. not mine. duk.",
+      "alt": "Someone off-screen tosses a heavy sack labelled \"bag.\" at DUK. He drops into THE DUK pose and it sails over. Another: \"your bag.\" Same. A third, bigger one lands right behind him with a thud. DUK, still flat: \"not my bag.\"",
+      "created": "2026-11-26T17:15:13Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/051_the_tax_letter.mp4",
+      "poster": "assets/clips2/051_the_tax_letter.webp",
+      "title": "the tax letter came. duk.",
+      "alt": "A mailbox flag pops up. An envelope marked \"tax letter.\" flies at DUK; he drops into THE DUK pose and it sails over. A second one: \"second notice.\" Same. He stays down: \"return to sender.\"",
+      "created": "2026-11-26T16:45:15Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/050_limbo_night.mp4",
+      "poster": "assets/clips2/050_limbo_night.webp",
+      "title": "limbo champion. he was already down there. $duk",
+      "alt": "Wide shot. Limbo night: a bar between two poles. DUK lies flat in THE DUK pose under it. The bar drops: \"lower.\" \"lower.\" Finally \"lowest.\" and it comes to rest right on his back. He does not move. A trophy: \"limbo champion.\" \"he was already down there.\"",
+      "created": "2026-11-26T16:45:15Z",
+      "duration": 13.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/049_uncle_asks.mp4",
+      "poster": "assets/clips2/049_uncle_asks.webp",
+      "title": "uncle asked what crypto is doing. duk.",
+      "alt": "Thanksgiving table. DUK sits behind his plate. A speech bubble comes in from off-screen: \"so... what's crypto doing?\" DUK drops under the table into THE DUK pose. A second bubble: \"...hello?\" DUK stays down, staring at you from under the table: \"duk.\"",
+      "created": "2026-11-26T16:45:15Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/048_over_and_back.mp4",
       "poster": "assets/clips2/048_over_and_back.webp",
       "title": "it's over. we're back. he ducks both. $duk",
@@ -1694,66 +1799,6 @@
       "duration": 12.0,
       "width": 1280,
       "height": 720
-    },
-    {
-      "src": "assets/clips2/052_not_my_bag.mp4",
-      "poster": "assets/clips2/052_not_my_bag.webp",
-      "title": "not my bag.",
-      "alt": "not my bag.",
-      "created": "2026-11-26T15:24:46Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/054_parade_balloon.mp4",
-      "poster": "assets/clips2/054_parade_balloon.webp",
-      "title": "parade balloon.",
-      "alt": "parade balloon.",
-      "created": "2026-11-26T15:24:23Z",
-      "duration": 12.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/053_the_therapist.mp4",
-      "poster": "assets/clips2/053_the_therapist.webp",
-      "title": "the therapist.",
-      "alt": "the therapist.",
-      "created": "2026-11-26T15:24:20Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/050_limbo_night.mp4",
-      "poster": "assets/clips2/050_limbo_night.webp",
-      "title": "limbo night.",
-      "alt": "limbo night.",
-      "created": "2026-11-26T15:23:04Z",
-      "duration": 13.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/051_the_tax_letter.mp4",
-      "poster": "assets/clips2/051_the_tax_letter.webp",
-      "title": "the tax letter.",
-      "alt": "the tax letter.",
-      "created": "2026-11-26T15:22:53Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/049_uncle_asks.mp4",
-      "poster": "assets/clips2/049_uncle_asks.webp",
-      "title": "uncle asks.",
-      "alt": "uncle asks.",
-      "created": "2026-11-26T15:22:50Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
     },
     {
       "src": "assets/clips2/042_plenty_of_floor.mp4",
