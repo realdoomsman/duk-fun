@@ -55,6 +55,21 @@
     setLevel(18, 'no adds yet.');
     $('pp-count').textContent = 'each add and burn will link to its transaction. none yet.';
     $('pp-rows').replaceChildren(emptyRow('— no receipts to show yet.'));
+    $('pp-post').hidden = true;
+  };
+
+  // "post the receipts": an x post with today's add count (utc; the total when today has none yet) and this page.
+  const postReceipts = (data, adds) => {
+    const today = new Date().toISOString().slice(0, 10);
+    const row = (Array.isArray(data.daily) ? data.daily : []).find((day) => day && day.day === today);
+    const todays = row && Number.isInteger(row.adds) ? row.adds : 0;
+    const count = todays
+      ? `${todays} ${todays === 1 ? 'add' : 'adds'} today.`
+      : `${adds} ${adds === 1 ? 'add' : 'adds'} so far.`;
+    const page = `${(typeof config.SITE === 'string' && /^https:\/\//.test(config.SITE) ? config.SITE : 'https://duk.fun').replace(/\/+$/, '')}/pool.html`;
+    $('pp-post').href = `https://x.com/intent/post?text=${encodeURIComponent(
+      `fees go in the pool.\n${count} the lp from each one gets burned.\nreceipts: ${page}\n\njust duk. $DUK`)}`;
+    $('pp-post').hidden = !adds;
   };
 
   const timeCell = (timestamp) => {
@@ -343,6 +358,7 @@
         ? `${adds} adds so far. the newest ${recent.length} are here, newest first.`
         : `${recent.length} ${recent.length === 1 ? 'receipt' : 'receipts'} on file. newest first.`;
     $('pp-rows').replaceChildren(...(recent.length ? recent.map(receiptRow) : [emptyRow('— no adds yet. the keeper is waiting for enough fees.')]));
+    postReceipts(data, Math.max(adds, recent.length));
   };
 
   let busy = false;

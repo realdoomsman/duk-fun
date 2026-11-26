@@ -26,10 +26,10 @@
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="style.css?v=397a36d4">
-  <link rel="stylesheet" href="pool.css?v=545cfbe9">
+  <link rel="stylesheet" href="pool.css?v=a837597c">
   <script src="assets/config.js?v=686d2449" defer></script>
   <script src="app.js?v=5e44c78e" defer></script>
-  <script src="pool.js?v=406a8b80" defer></script>
+  <script src="pool.js?v=0b0e5409" defer></script>
 </head>
 <body class="pool-page">
   <a class="skip-link" href="#main">skip to the page</a>
@@ -134,7 +134,7 @@
       </div>
       <div class="pool-status">
         <p id="pp-state" role="status" aria-live="polite"><b>keeper:</b> <span id="pp-state-text">checking.</span></p>
-        <button type="button" class="button" id="pp-refresh">check again</button>
+        <div class="pool-status-actions"><button type="button" class="button" id="pp-refresh">check again</button> <a class="button" id="pp-post" href="https://x.com/intent/post" target="_blank" rel="noopener noreferrer" hidden>post the receipts</a></div>
       </div>
       <p class="pool-note">a deeper pool can mean less slippage. not a price floor.<br><span>totals are what the keeper added. they aren't the current pool balance. other people's lp comes and goes. the waterline is just an illustration on a squashed scale.</span></p>
 

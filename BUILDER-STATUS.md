@@ -3,6 +3,9 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **post the receipts** (pool.html, next to "check again"): x intent "fees go in the pool. N adds today. the lp from each
+  one gets burned. receipts: https://duk.fun/pool.html" (total adds when today has none yet), shown once there are adds.
+  Phones (<=480px): the pool counters stack as rows so long numbers stop wrapping mid-number.
 - **sitemap dates**: scripts/sitemap.py writes sitemap.xml with a `<lastmod>` per page (newest of the page's last commit,
   incl. the css/js it loads, and the newest drop it shows: content.json kinds, daily.json, fame.json); every sync runs it
   after feed.py and publishes sitemap.xml. Written only on change.
