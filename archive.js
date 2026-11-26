@@ -19,6 +19,36 @@
   const download = document.getElementById('archive-download');
   const post = document.getElementById('archive-post');
   const remix = document.getElementById('archive-remix');
+  const shareButton = document.getElementById('archive-share');
+  const copyButton = document.getElementById('archive-copy');
+  // The picture itself into a post: touch screens hand it to the share sheet (x, telegram, messages) with the post
+  // words; mouse screens copy it to paste into the post. One of the two shows, whichever this browser can do.
+  const canShareFiles = (() => {
+    try { return Boolean(navigator.canShare && navigator.canShare({ files: [new File([''], 'duk.png', { type: 'image/png' })] })); } catch { return false; }
+  })();
+  const canCopyImage = Boolean(window.isSecureContext && navigator.clipboard && navigator.clipboard.write && window.ClipboardItem);
+  const touch = window.matchMedia('(pointer: coarse)').matches;
+  shareButton.hidden = !canShareFiles || (!touch && canCopyImage);
+  copyButton.hidden = !canCopyImage || !shareButton.hidden;
+  // The meme as a png blob (clipboards only take png; other formats are redrawn).
+  const pngOf = (src) => fetch(src).then((response) => {
+    if (!response.ok) throw new Error(`${src} ${response.status}`);
+    return response.blob();
+  }).then(async (blob) => {
+    if (blob.type === 'image/png') return blob;
+    const bitmap = await createImageBitmap(blob);
+    const canvas = Object.assign(document.createElement('canvas'), { width: bitmap.width, height: bitmap.height });
+    canvas.getContext('2d').drawImage(bitmap, 0, 0);
+    return new Promise((resolve, reject) => canvas.toBlob((png) => (png ? resolve(png) : reject(new Error('no png'))), 'image/png'));
+  });
+  // The share sheet needs the file right after the tap, so the open meme's png is fetched when it opens (cached).
+  let prepared = { src: '', png: null };
+  const say = (button, text) => {
+    button.dataset.label = button.dataset.label || button.textContent;
+    button.textContent = text;
+    window.clearTimeout(Number(button.dataset.timer));
+    button.dataset.timer = String(window.setTimeout(() => { button.textContent = button.dataset.label; }, 2600));
+  };
   const items = [];
   const bySource = new Map();
   const byKey = new Map();
@@ -172,6 +202,7 @@
     post.href = window.dukPostHref(item.caption, item.asset);
     remix.href = `maker.html?base=${encodeURIComponent(`assets/${decodeURIComponent(item.src.slice(assetBase.href.length))}`)}#maker`;
     previous.disabled = next.disabled = visible.length < 2;
+    if (canShareFiles && prepared.src !== item.src) prepared = { src: item.src, png: pngOf(item.src).catch(() => null) };
     setUrl(item.key);
   }
 
@@ -214,6 +245,31 @@
   });
   previous.addEventListener('click', () => move(-1));
   next.addEventListener('click', () => move(1));
+  shareButton.addEventListener('click', async () => {
+    const item = visible[current];
+    if (!item) return;
+    const png = await (prepared.src === item.src ? prepared.png : pngOf(item.src).catch(() => null));
+    if (!png) { say(shareButton, "couldn't load it. try download"); return; }
+    try {
+      await navigator.share({
+        files: [new File([png], `${item.file.replace(/\.[^.]+$/, '')}.png`, { type: 'image/png' })],
+        text: window.dukPostText(item.caption, item.asset),
+      });
+    } catch (error) {
+      if (error && error.name !== 'AbortError') say(shareButton, "couldn't share. try download");
+    }
+  });
+  copyButton.addEventListener('click', async () => {
+    const item = visible[current];
+    if (!item) return;
+    try {
+      // a promise inside the ClipboardItem keeps safari's tap permission while the png loads.
+      await navigator.clipboard.write([new window.ClipboardItem({ 'image/png': pngOf(item.src) })]);
+      say(copyButton, 'copied. paste it in your post');
+    } catch {
+      say(copyButton, "couldn't copy. try download");
+    }
+  });
   document.getElementById('archive-close').addEventListener('click', () => dialog.close());
   dialog.addEventListener('keydown', event => {
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;

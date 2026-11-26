@@ -42,7 +42,6 @@
 .pool-page .pool-counters h3 { grid-column: 1 / -1; padding: 14px 25px; font-size: 18px; border-bottom: 2px solid #111; background: #fff9e7; }
 .pool-status { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 24px; margin-top: 22px; }
 .pool-status-actions { display: flex; flex-wrap: wrap; gap: 10px; }
-.pool-status-actions [hidden] { display: none; }
 #pp-state { font-size: 16px; line-height: 1.5; }
 #pp-refresh:disabled { cursor: progress; opacity: .6; }
 /* every add, over time (pool.js drawChart): paint-flat svg, crisp edges, blue water under a black line */

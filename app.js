@@ -111,9 +111,10 @@
   // s/<path under assets/ without the extension, '/' -> '-'>.html. Post links point there so x shows that piece.
   window.dukSharePage = (src) => `${site.replace(/\/+$/, '')}/s/${String(src).replace(/^assets\//, '').replace(/\.[^./]+$/, '')
     .replace(/\//g, '-').replace(/[^\w-]/g, '-')}.html`;
-  // The x post for one piece: its caption (without a trailing $duk, the tail adds it), the tail, its share page.
-  window.dukPostHref = (caption, src) => `https://x.com/intent/post?text=${encodeURIComponent(
-    `${String(caption || 'just duk.').replace(/\s*\$duk\s*$/i, '')}\n\njust duk. $DUK\n${window.dukSharePage(src)}`)}`;
+  // The post for one piece: its caption (without a trailing $duk, the tail adds it), the tail, its share page.
+  // dukPostText is the words (the share sheet takes them with the picture); dukPostHref is the x draft.
+  window.dukPostText = (caption, src) => `${String(caption || 'just duk.').replace(/\s*\$duk\s*$/i, '')}\n\njust duk. $DUK\n${window.dukSharePage(src)}`;
+  window.dukPostHref = (caption, src) => `https://x.com/intent/post?text=${encodeURIComponent(window.dukPostText(caption, src))}`;
   // A recorded duk of the day has its own card (s/daily-<date>.html); one not recorded yet uses its meme's.
   window.dukDailyShare = (day) => (day.recorded ? `${site.replace(/\/+$/, '')}/s/daily-${day.date}.html` : window.dukSharePage(day.src));
 

@@ -3,6 +3,9 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **picture into the post** (memes dialog): mouse screens get "copy image" (png to the clipboard, paste into the x
+  draft), touch screens get "share" (the png + the post words to the share sheet: x app, telegram, messages). One shows,
+  whichever the browser supports. app.js `dukPostText` is the post words; `dukPostHref` wraps it as the x draft.
 - **post the receipts** (pool.html, next to "check again"): x intent "fees go in the pool. N adds today. the lp from each
   one gets burned. receipts: https://duk.fun/pool.html" (total adds when today has none yet), shown once there are adds.
   Phones (<=480px): the pool counters stack as rows so long numbers stop wrapping mid-number.
