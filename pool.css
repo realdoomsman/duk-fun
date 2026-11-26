@@ -52,6 +52,7 @@
 .pool-now > h3 { font-size: 26px; }
 .pool-now-lead { margin: 8px 0 22px; font-size: 16px; max-width: 760px; }
 .pool-dev-supply { display: block; margin: 18px 0 30px; font-size: 15px; max-width: 760px; }
+.pool-reserve { margin: 0 0 18px; font-size: 18px; font-weight: 700; overflow-wrap: anywhere; }
 .pool-now-table-title { margin: 0; font-size: 20px; }
 .pool-table-wrap { margin-top: 18px; overflow-x: auto; border: 2px solid #111; border-radius: 3px 7px 2px 5px; background: #fff9e7; }
 .pool-table-wrap:focus-visible { outline: 3px dashed #111; outline-offset: 5px; }

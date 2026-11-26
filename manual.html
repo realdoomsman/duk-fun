@@ -213,16 +213,16 @@
           <div class="chapter-body">
             <div class="chapter-text">
               <p class="chapter-lead">the creator fees don't go to the dev. they go back into the pool.</p>
-              <p>after the coin graduates to pumpswap, a bot we call the keeper is set up to do this:</p>
-              <ol class="pool-flow" aria-label="what happens to creator fees after graduation">
+              <p>duk graduated to pumpswap on nov 26. every batch, a bot we call the keeper does this:</p>
+              <ol class="pool-flow" aria-label="what happens to creator fees every batch">
                 <li><b>claim.</b> the creator fees go to a separate wallet that only the keeper uses. it claims them.</li>
-                <li><b>buy duk.</b> it uses about half the sol to buy duk.</li>
-                <li><b>pair with sol.</b> it pairs that duk with the rest of the sol.</li>
+                <li><b>buy duk.</b> a slice of the sol buys duk on the pool.</li>
+                <li><b>pair with sol.</b> it pairs that duk with the sol it didn't spend.</li>
                 <li><b>add.</b> both go into the duk/sol pumpswap pool.</li>
                 <li><b>burn the lp from that add.</b> it burns the lp tokens it gets back. burned lp can't be redeemed, so nobody can withdraw that liquidity, us included.</li>
               </ol>
-              <h3>when</h3>
-              <p>the pool steps start at graduation. before that the coin is on the pump.fun bonding curve and there's no pumpswap pool to add to, so the keeper claims the creator fees and saves them as sol. it already holds about 59m duk: the dev supply (51,095,238 duk, sent to the bot wallet) plus two curve buys it made on launch day. adding liquidity takes both duk and sol, and it has far more duk than sol, so now it saves sol. at graduation it pairs the saved sol with that duk, adds it to the pool in batches and burns the lp. it never sells duk. <a href="pool.html#pool-now">the pool page</a> shows the numbers.</p>
+              <h3>the 4% reserve</h3>
+              <p>the bot keeps 4% of supply (40m duk) in its wallet. it never sells it and never puts it in the pool. when it's below that, a quarter of each batch buys duk back toward 4% and the rest goes in the pool. at 4% the refill stops and all of it goes in the pool. the dev supply (51,095,238 duk) and two launch-day curve buys went to the bot wallet. part of that has already gone into the pool, with the lp burned. the rest is the reserve. <a href="pool.html#pool-now">the pool page</a> shows the numbers.</p>
               <h3>the small print, at normal size</h3>
               <ul class="plain-list">
                 <li>it only adds anything if there are creator fees to claim, the keeper is running and the transactions go through. running costs come out first.</li>
@@ -365,11 +365,11 @@
                 </div>
                 <div>
                   <dt>who's the dev? what does the dev do?</dt>
-                  <dd>the creator fees go to a separate wallet that only the keeper, a small bot, uses. before graduation it claims the fees and saves them as sol, and it holds the dev supply plus the duk from two launch-day curve buys. at graduation it pairs that sol and duk, adds both to the pool and burns the lp it gets back, then keeps doing the same with new fees. it never sells duk. every add and burn shows up on <a href="pool.html">the pool page</a> with the transaction. the wallet's keys stay private.</dd>
+                  <dd>the creator fees go to a separate wallet that only the keeper, a small bot, uses. every batch it claims the fees, buys a slice of duk, adds duk and sol to the pool and burns the lp it gets back. it keeps 4% of supply (40m duk) in that wallet as a reserve and never sells duk. every add and burn shows up on <a href="pool.html">the pool page</a> with the transaction. the wallet's keys stay private.</dd>
                 </div>
                 <div>
                   <dt>what about liquidity?</dt>
-                  <dd>before graduation the bot saves creator fees as sol. at graduation it pairs that sol with the duk it holds and adds both to the pool, and the lp from each of the keeper's adds gets burned. a deeper pool can mean less slippage. not a price floor. selling can still take sol out of the pool. the counter shows what's been added so far, which isn't what's in the pool now. more in <a href="#the-pool">chapter 4</a>.</dd>
+                  <dd>every batch the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool, and the lp from each of the keeper's adds gets burned. a deeper pool can mean less slippage. not a price floor. selling can still take sol out of the pool. the counter shows what's been added so far, which isn't what's in the pool now. more in <a href="#the-pool">chapter 4</a>.</dd>
                 </div>
                 <div>
                   <dt>where's the ca?</dt>

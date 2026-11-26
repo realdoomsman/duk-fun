@@ -18,17 +18,18 @@
   const amount = (value) => isAmount(value) ? numbers.format(value) : '—';
   const clock = (date) => date.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
 
-  const DEV_SUPPLY_DUK = 51095238;
   const wholeNumbers = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 });
+  const whole = (value) => isAmount(value) ? wholeNumbers.format(value) : '—';
 
-  const waitingLabel = (data) => {
-    if (data && data.state === 'no_mint') return 'running, but no coin to watch yet.';
-    if (data && data.state === 'waiting_for_pool') {
-      return data.pregrad_buy === true
-        ? 'running. buying on the curve and holding until graduation.'
-        : 'running. claiming fees and saving them as sol until graduation.';
-    }
-    return 'not active yet.';
+  const waitingLabel = (data) => (data && data.state === 'no_mint'
+    ? 'running, but no coin to watch yet.'
+    : 'running, but not adding right now.');
+
+  // Share of each batch that refills the reserve, in words.
+  const refillShare = (bps) => {
+    if (bps === 2500) return 'a quarter';
+    if (bps === 5000) return 'half';
+    return isAmount(bps) ? `${bps / 100}%` : 'part';
   };
 
   const setLevel = (level, caption) => {
@@ -97,16 +98,23 @@
     .sort((a, b) => (isAmount(b.timestamp) ? b.timestamp : 0) - (isAmount(a.timestamp) ? a.timestamp : 0));
   const receiptRow = (entry) => txRow(entry, [['solAdded', 'sol'], ['dukAdded', 'duk'], ['lpBurned', 'lp burned']]);
 
-  // Before graduation: fees claimed, sol saved for the pool, and duk held (dev supply + launch-day curve buys).
-  // Missing fields show '—'.
-  const showCurve = (data) => {
+  // Fees claimed, the 4% duk reserve the bot keeps in its wallet, and the launch-day curve buys. Missing fields show '—'.
+  const showWallet = (data) => {
     const totals = (data && data.totals) || {};
     $('pp-claimed').textContent = amount(totals.solClaimed);
-    $('pp-saved').textContent = amount(data && data.pending_sol);
-    // duk still waiting to go in: dev supply + launch-day curve buys, minus what's already been added.
-    const bought = isAmount(totals.dukBoughtOnCurve) ? totals.dukBoughtOnCurve : 0;
-    const added = isAmount(totals.dukAdded) ? totals.dukAdded : 0;
-    $('pp-held').textContent = data ? wholeNumbers.format(Math.max(0, DEV_SUPPLY_DUK + bought - added)) : '—';
+    $('pp-held').textContent = whole(data && data.wallet_duk);
+    $('pp-refilled').textContent = whole(totals.dukBoughtForReserve);
+    if (data && isAmount(data.wallet_duk) && isAmount(data.duk_reserve)) {
+      const pct = isAmount(data.reserve_pct) ? ` (${data.reserve_pct}%)` : '';
+      $('pp-reserve').textContent = `reserve: ${whole(data.wallet_duk)} / ${whole(data.duk_reserve)} duk${pct}${data.reserve_refilling === true ? ' · refilling' : ''}`;
+    } else {
+      $('pp-reserve').textContent = 'reserve: — / 40,000,000 duk';
+    }
+    if (data && data.reserve_refilling === true) {
+      $('pp-reserve-status').textContent = `it's below that right now, so ${refillShare(data.reserve_refill_bps)} of each batch buys duk back toward 4%. the rest goes in the pool every time.`;
+    } else if (data && data.reserve_refilling === false) {
+      $('pp-reserve-status').textContent = "it's at 4% now, so the refill is off and all of each batch goes in the pool.";
+    }
     const buys = newestFirst(data && data.curve_buys).slice(0, 20);
     $('pp-curve-count').textContent = buys.length
       ? `${buys.length} ${buys.length === 1 ? 'buy' : 'buys'} on launch day, newest first. the bot doesn't buy on the curve anymore.`
@@ -119,7 +127,7 @@
   const showActive = (data) => {
     const totals = data.totals || {};
     $('pp-sol').textContent = amount(totals.solAdded);
-    $('pp-duk').textContent = amount(totals.dukAdded);
+    $('pp-duk').textContent = whole(totals.dukAdded);
     $('pp-lp').textContent = amount(totals.lpBurned);
     const sol = isAmount(totals.solAdded) ? totals.solAdded : 0;
     // Illustrative log scale, capped at 64% so the floating duck's head stays above the frame edge.
@@ -137,7 +145,7 @@
 
   let busy = false;
   const update = async () => {
-    if (!keeperURL) { showPending('not connected yet.'); showCurve(null); return; }
+    if (!keeperURL) { showPending('not connected yet.'); showWallet(null); return; }
     if (busy) return;
     busy = true;
     $('pp-refresh').disabled = true;
@@ -147,11 +155,11 @@
       const response = await fetch(keeperURL, { signal: controller.signal, cache: 'no-store' });
       if (!response.ok) throw new Error('keeper unavailable');
       const data = await response.json();
-      showCurve(data);
+      showWallet(data);
       if (data && data.state === 'active') showActive(data);
       else showPending(waitingLabel(data));
     } catch {
-      showCurve(null);
+      showWallet(null);
       showPending("didn't answer this time. counters stay blank until it does.");
     } finally {
       window.clearTimeout(timer);
