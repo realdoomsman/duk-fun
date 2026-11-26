@@ -230,6 +230,8 @@
 
   // The cards arrive after the browser tried the hash, so deep links (#gif-<file>, #clip-<file>) are honoured by hand.
   const stemId = (prefix, path) => `${prefix}-${fileName(path).replace(/\.[^.]+$/, '').replace(/[^\w-]+/g, '-')}`;
+  // Each clip has a share page with its own card (scripts/share-pages.py): s/<path under assets/, '/' -> '-'>.html
+  const sharePage = (src) => `${site}s/${src.replace(/^assets\//, '').replace(/\.[^./]+$/, '').replace(/\//g, '-').replace(/[^\w-]/g, '-')}.html`;
   const showLinked = (cards) => {
     let wanted = '';
     try { wanted = decodeURIComponent(window.location.hash.slice(1)); } catch { /* not ours. */ }
@@ -392,7 +394,7 @@
       upcoming.duk_start();
     });
     stage.append(play);
-    const share = `${title}\n\njust duk. $duk\n${site}watch.html#${id}`;
+    const share = `${title}\n\njust duk. $duk\n${sharePage(clip.src)}`;
     const card = el('li', { class: 'clip-card', id },
       stage,
       el('div', { class: 'clip-info' },

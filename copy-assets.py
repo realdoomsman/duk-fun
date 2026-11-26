@@ -9,6 +9,8 @@ The published site needs no build step; re-run this whenever new art lands.
 from pathlib import Path
 from shutil import copy2, rmtree
 import json
+import subprocess
+import sys
 
 from PIL import Image
 
@@ -268,6 +270,8 @@ print(f"media.json: {len(media['memes'])} memes, {len(media['comics'])} comics, 
       f"{kit_count} kit files, {len(media['stickerPacks'])} sticker packs ({sticker_count} stickers), "
       f"trailer {'ready' if media['videos']['trailer'] else 'missing'}, {len(media['videos']['clips'])} clips, "
       f"pool sprite {'ready' if media['poolSprite'] else 'missing'}")
+# Share pages + cards for every meme and clip (s/), from the media.json just written.
+subprocess.run([sys.executable, str(SITE / 'scripts' / 'share-pages.py')], check=True)
 if missing:
     print('awaiting art: ' + ', '.join(missing))
     raise SystemExit(1)

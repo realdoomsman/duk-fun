@@ -23,6 +23,8 @@
   const bySource = new Map();
   const byKey = new Map();
   const site = (typeof config.SITE === 'string' && config.SITE.trim() ? config.SITE : 'https://duk.fun').replace(/\/+$/, '');
+  // Every meme has a share page with its own card (scripts/share-pages.py): s/<path under assets/, '/' -> '-'>.html
+  const sharePage = (relative) => `${site}/s/${relative.replace(/\.[^./]+$/, '').replace(/\//g, '-').replace(/[^\w-]/g, '-')}.html`;
   const requestedTag = new URLSearchParams(window.location.search).get('tag');
   // 'new' is a filter, not a tag: memes the sync script published in the last day (content.json 'created').
   const FRESH_MS = 24 * 60 * 60 * 1000;
@@ -69,6 +71,7 @@
       alt: typeof entry.alt === 'string' && entry.alt.trim() ? entry.alt : caption,
       tag,
       fresh: typeof entry.created === 'string' && Date.now() - Date.parse(entry.created) < FRESH_MS,
+      share: sharePage(relative),
       card: null,
       button: null
     };
@@ -166,7 +169,7 @@
     position.textContent = `${current + 1} / ${visible.length} in ${filter}`;
     download.href = item.src;
     download.download = item.file;
-    const text = `${item.caption}\n\njust duk. $DUK\n${site}/memes.html`;
+    const text = `${item.caption}\n\njust duk. $DUK\n${item.share}`;
     post.href = `https://x.com/intent/post?text=${encodeURIComponent(text)}`;
     remix.href = `maker.html?base=${encodeURIComponent(`assets/${decodeURIComponent(item.src.slice(assetBase.href.length))}`)}#maker`;
     previous.disabled = next.disabled = visible.length < 2;
@@ -191,7 +194,7 @@
     if (!raw) return;
     let key;
     try { key = decodeURIComponent(raw); } catch { return; }
-    const item = byKey.get(key);
+    const item = byKey.get(key) || bySource.get(new URL(key, assetBase).href);
     if (item) openItem(item, item.button);
   }
 

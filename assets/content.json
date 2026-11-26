@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-26T13:12:25Z",
+  "updated": "2026-11-26T13:24:24Z",
   "memes": [
+    {
+      "file": "081_down_stay.png",
+      "src": "assets/memes4/081_down_stay.png",
+      "thumb": "assets/memes4/thumbs/081_down_stay.webp",
+      "title": "thanksgiving dog show. he has been practicing the down-stay all year.",
+      "alt": "duk reacting to thanksgiving dog show airs after the parade. thanksgiving dog show. he has been practicing the down-stay all year.",
+      "tag": "market",
+      "created": "2026-11-26T13:14:48Z"
+    },
+    {
+      "file": "080_never_hid.png",
+      "src": "assets/memes4/080_never_hid.png",
+      "thumb": "assets/memes4/thumbs/080_never_hid.webp",
+      "title": "first green day in a while. people are peeking out. he never went anywhere. $duk",
+      "alt": "duk reacting to first green day in a while; traders cautiously peeking back in. first green day in a while. people are peeking out. he never went anywhere. $duk",
+      "tag": "market",
+      "created": "2026-11-26T13:14:48Z"
+    },
+    {
+      "file": "079_muted.png",
+      "src": "assets/memes4/079_muted.png",
+      "thumb": "assets/memes4/thumbs/079_muted.webp",
+      "title": "volume came back. he kept his down. $duk",
+      "alt": "duk reacting to trading volume jumps as the market rebounds. volume came back. he kept his down. $duk",
+      "tag": "market",
+      "created": "2026-11-26T13:14:48Z"
+    },
+    {
+      "file": "078_well_rested.png",
+      "src": "assets/memes4/078_well_rested.png",
+      "thumb": "assets/memes4/thumbs/078_well_rested.webp",
+      "title": "trader fatigue is setting in across ct. he has never felt better.",
+      "alt": "duk reacting to ct trader fatigue: volumes down, everyone exhausted after a brutal month. trader fatigue is setting in across ct. he has never felt better.",
+      "tag": "market",
+      "created": "2026-11-26T13:14:48Z"
+    },
     {
       "file": "077_still_on_it.png",
       "src": "assets/memes4/077_still_on_it.png",
@@ -654,6 +690,42 @@
   ],
   "gifs": [
     {
+      "title": "cascade. $duk",
+      "alt": "A row of dominoes falls one into the next and the last one lands on DUK, who is already flat: \"cascade.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/040_cascade.mp4",
+      "gif": "assets/gifs2/040_cascade.gif",
+      "poster": "assets/gifs2/posters/040_cascade.webp",
+      "created": "2026-11-26T13:15:02Z"
+    },
+    {
+      "title": "say duk.",
+      "alt": "A photo countdown, flash, and the snapshot shows DUK flat on the floor staring: \"say duk.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/039_say_duk.mp4",
+      "gif": "assets/gifs2/039_say_duk.gif",
+      "poster": "assets/gifs2/posters/039_say_duk.webp",
+      "created": "2026-11-26T13:15:02Z"
+    },
+    {
+      "title": "stay down. $duk",
+      "alt": "DUK flat in THE DUK pose; a big hand-drawn arrow above him keeps pointing down: \"stay down.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/038_stay_down.mp4",
+      "gif": "assets/gifs2/038_stay_down.gif",
+      "poster": "assets/gifs2/posters/038_stay_down.webp",
+      "created": "2026-11-26T13:15:02Z"
+    },
+    {
+      "title": "heard.",
+      "alt": "Close-up of DUK; his eyes slide to the side, then back to you: \"heard.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/037_heard.mp4",
+      "gif": "assets/gifs2/037_heard.gif",
+      "poster": "assets/gifs2/posters/037_heard.webp",
+      "created": "2026-11-26T13:15:02Z"
+    },
+    {
       "title": "pattern confirmed.",
       "alt": "pattern confirmed.",
       "tag": "reaction",
@@ -814,42 +886,6 @@
       "gif": "assets/gifs2/042_undefeated.gif",
       "poster": "assets/gifs2/posters/042_undefeated.webp",
       "created": "2026-11-26T12:25:50Z"
-    },
-    {
-      "title": "cascade.",
-      "alt": "cascade.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/040_cascade.mp4",
-      "gif": "assets/gifs2/040_cascade.gif",
-      "poster": "assets/gifs2/posters/040_cascade.webp",
-      "created": "2026-11-26T12:23:54Z"
-    },
-    {
-      "title": "say.",
-      "alt": "say.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/039_say_duk.mp4",
-      "gif": "assets/gifs2/039_say_duk.gif",
-      "poster": "assets/gifs2/posters/039_say_duk.webp",
-      "created": "2026-11-26T12:23:54Z"
-    },
-    {
-      "title": "stay down.",
-      "alt": "stay down.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/038_stay_down.mp4",
-      "gif": "assets/gifs2/038_stay_down.gif",
-      "poster": "assets/gifs2/posters/038_stay_down.webp",
-      "created": "2026-11-26T12:23:53Z"
-    },
-    {
-      "title": "heard.",
-      "alt": "heard.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/037_heard.mp4",
-      "gif": "assets/gifs2/037_heard.gif",
-      "poster": "assets/gifs2/posters/037_heard.webp",
-      "created": "2026-11-26T12:23:53Z"
     },
     {
       "title": "gn. duk. $duk",
@@ -1133,21 +1169,11 @@
   ],
   "clips": [
     {
-      "src": "assets/clips2/032_duk_vs_the_market.mp4",
-      "poster": "assets/clips2/032_duk_vs_the_market.webp",
-      "title": "vs the market.",
-      "alt": "vs the market.",
-      "created": "2026-11-26T12:54:29Z",
-      "duration": 15.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
       "src": "assets/clips2/030_family_photo.mp4",
       "poster": "assets/clips2/030_family_photo.webp",
-      "title": "family photo.",
-      "alt": "family photo.",
-      "created": "2026-11-26T12:54:27Z",
+      "title": "thanksgiving family photo. he ducked the flash.",
+      "alt": "A camera on a tripod counts down \"3, 2, 1\" in front of DUK and two relatives (paint blobs). Flash. Cut to the printed photo pinned on the fridge: everyone smiling, DUK flat on the floor in THE DUK pose, staring. \"every year.\"",
+      "created": "2026-11-26T13:15:02Z",
       "duration": 11.0,
       "width": 1080,
       "height": 1080
@@ -1155,10 +1181,30 @@
     {
       "src": "assets/clips2/029_liquidation_cascade.mp4",
       "poster": "assets/clips2/029_liquidation_cascade.webp",
-      "title": "liquidation cascade.",
-      "alt": "liquidation cascade.",
-      "created": "2026-11-26T12:54:25Z",
+      "title": "the liquidation cascade stopped at the floor. he lives there.",
+      "alt": "Wide shot. A row of white dominoes labelled \"longs\" stands next to DUK, who is already flat at the end of the line. Someone taps the first one; they fall one by one, and the last domino lands on top of him... and just lies there. He keeps staring. \"cascade over.\" \"he was already down there.\"",
+      "created": "2026-11-26T13:15:02Z",
       "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/028_someone_called_the_top.mp4",
+      "poster": "assets/clips2/028_someone_called_the_top.webp",
+      "title": "someone called the top. he heard. $duk",
+      "alt": "Green day. DUK stands there, almost relaxed. A phone pops up with a notification: \"top is in.\" He reads it, and drops flat instantly, no questions. \"he heard.\" Then a second notification: \"jk.\" He does not move.",
+      "created": "2026-11-26T13:15:02Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/032_duk_vs_the_market.mp4",
+      "poster": "assets/clips2/032_duk_vs_the_market.webp",
+      "title": "vs the market.",
+      "alt": "vs the market.",
+      "created": "2026-11-26T12:54:29Z",
+      "duration": 15.0,
       "width": 1280,
       "height": 720
     },
@@ -1299,16 +1345,6 @@
       "alt": "unduckable roomba.",
       "created": "2026-11-26T12:26:33Z",
       "duration": 12.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/028_someone_called_the_top.mp4",
-      "poster": "assets/clips2/028_someone_called_the_top.webp",
-      "title": "someone called the top.",
-      "alt": "someone called the top.",
-      "created": "2026-11-26T12:24:32Z",
-      "duration": 11.0,
       "width": 1080,
       "height": 1080
     },

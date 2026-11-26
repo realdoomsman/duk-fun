@@ -1,0 +1,175 @@
+"""Share pages: python site/scripts/share-pages.py -> site/s/<slug>.html + site/s/img/<slug>.jpg
+
+One tiny page per meme (archive) and clip (watch) with its own 1200x630 card, so a link posted on x shows that
+meme or clip instead of the generic page card. People who open the link land on memes.html#<file> or
+watch.html#clip-<file>. The slug is the asset path under assets/ without its extension, '/' and anything outside
+[A-Za-z0-9_-] turned into '-' (archive.js and media.js build the same slug for their post links).
+
+Reads assets/media.json, assets/content.json and the memes in assets/config.js; run after copy-assets.py and
+sync-content.py (both call it). Cards are only redrawn when the art or caption changes; pages and cards for items
+that left the site are removed.
+"""
+from html import escape
+from pathlib import Path
+import json
+import re
+
+from PIL import Image, ImageDraw, ImageFont
+
+SITE = Path(__file__).resolve().parents[1]
+ASSETS = SITE / 'assets'
+OUT = SITE / 's'
+CARDS = OUT / 'img'
+ORIGIN = 'https://duk.fun/'
+W, H = 1200, 630
+BLUE, INK, ORANGE, CREAM = (0, 162, 232), (17, 17, 17), (255, 127, 39), (255, 249, 231)
+FONTS = Path('C:/Windows/Fonts')
+ART_BOX = (560, 36, 600, 558)  # x, y, w, h
+TEXT_W = 460
+CARD_VERSION = 2  # bump when card() changes: every card is redrawn on the next run
+
+
+def slug(src: str) -> str:
+    rel = re.sub(r'^assets/', '', src)
+    return re.sub(r'[^\w-]', '-', re.sub(r'\.[^./]+$', '', rel).replace('/', '-'), flags=re.ASCII)
+
+
+def stem_id(prefix: str, src: str) -> str:
+    """media.js stemId(): '<prefix>-<file name without extension>'."""
+    return f"{prefix}-{re.sub(r'[^\w-]+', '-', re.sub(r'\.[^.]+$', '', src.split('/')[-1]), flags=re.ASCII)}"
+
+
+def font(name: str, size: int) -> ImageFont.FreeTypeFont:
+    return ImageFont.truetype(str(FONTS / name), size)
+
+
+def wrap(draw: ImageDraw.ImageDraw, text: str, face: ImageFont.FreeTypeFont) -> list:
+    lines, line = [], ''
+    for word in text.split():
+        candidate = f'{line} {word}'.strip()
+        if line and draw.textlength(candidate, font=face) > TEXT_W:
+            lines.append(line)
+            line = word
+        else:
+            line = candidate
+    return lines + [line] if line else lines
+
+
+def card(art_path: Path, caption: str, video: bool) -> Image.Image:
+    image = Image.new('RGB', (W, H), BLUE)
+    x, y, w, h = ART_BOX
+    with Image.open(art_path) as source:
+        art = source.convert('RGB')
+    art.thumbnail((w - 12, h - 12), Image.LANCZOS)
+    framed = Image.new('RGB', (art.width + 12, art.height + 12), INK)
+    framed.paste(art, (6, 6))
+    left, top = x + (w - framed.width) // 2, y + (h - framed.height) // 2
+    image.paste(framed, (left, top))
+    draw = ImageDraw.Draw(image)
+    if video:
+        # Play badge in the art's bottom-left corner, clear of his face.
+        cx, cy, r = left + 64, top + framed.height - 64, 44
+        draw.ellipse((cx - r, cy - r, cx + r, cy + r), fill=CREAM, outline=INK, width=6)
+        draw.polygon([(cx - 13, cy - 23), (cx - 13, cy + 23), (cx + 25, cy)], fill=INK)
+    draw.text((56, 40), 'duk.', font=font('comicbd.ttf', 56), fill=CREAM, stroke_width=4, stroke_fill=INK)
+    caption = re.sub(r'\s*\$duk\s*$', '', caption, flags=re.I) or 'just duk.'
+    size, lines = 64, []
+    while size >= 34:
+        lines = wrap(draw, caption, font('comicbd.ttf', size))
+        if len(lines) * size * 1.2 <= 330:
+            break
+        size -= 4
+    face = font('comicbd.ttf', size)
+    for i, line in enumerate(lines[:6]):
+        draw.text((56, 140 + i * size * 1.2), line, font=face, fill=INK)
+    tag = font('comicbd.ttf', 34)
+    label = 'duk.fun  /  $DUK'
+    width = draw.textlength(label, font=tag)
+    draw.rounded_rectangle((48, 520, 48 + width + 40, 584), radius=6, fill=ORANGE, outline=INK, width=4)
+    draw.text((68, 528), label, font=tag, fill=INK)
+    return image
+
+
+def page(name: str, title: str, alt: str, target: str) -> str:
+    t, a = escape(title), escape(alt)
+    image = f'{ORIGIN}s/img/{name}.jpg'
+    return f'''<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{t} / duk.</title>
+  <meta name="robots" content="noindex">
+  <meta name="duk-card" content="{CARD_VERSION}">
+  <meta name="description" content="{a}">
+  <meta property="og:title" content="{t}">
+  <meta property="og:description" content="just duk. $DUK">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{ORIGIN}s/{name}.html">
+  <meta property="og:image" content="{image}">
+  <meta property="og:image:width" content="{W}">
+  <meta property="og:image:height" content="{H}">
+  <meta property="og:image:alt" content="{a}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{t}">
+  <meta name="twitter:description" content="just duk. $DUK">
+  <meta name="twitter:image" content="{image}">
+  <meta name="twitter:image:alt" content="{a}">
+  <meta http-equiv="refresh" content="0; url=../{escape(target)}">
+  <script>location.replace({json.dumps('../' + target)});</script>
+</head>
+<body><p><a href="../{escape(target)}">{t}</a></p></body>
+</html>
+'''
+
+
+def items() -> list:
+    """(slug, caption, alt, art path, video, target) for every meme and clip the site shows."""
+    media = json.loads((ASSETS / 'media.json').read_text(encoding='utf-8'))
+    content_file = ASSETS / 'content.json'
+    fresh = json.loads(content_file.read_text(encoding='utf-8')) if content_file.is_file() else {}
+    config = (ASSETS / 'config.js').read_text(encoding='utf-8')
+    block = re.search(r'memes:\s*\[(.*?)\]', config, re.S)
+    config_memes = [{'src': src, 'title': title, 'alt': alt} for src, title, alt in re.findall(
+        r"src:\s*'([^']+)',\s*title:\s*'([^']*)',\s*alt:\s*'([^']*)'", block.group(1) if block else '')]
+    found, seen = [], set()
+
+    def add(entry: dict, art: str, video: bool, target: str) -> None:
+        src = entry.get('src')
+        if not src or src in seen or not art or not (SITE / art).is_file():
+            return
+        seen.add(src)
+        title = str(entry.get('title') or 'just duk.').strip()
+        found.append((slug(src), title, str(entry.get('alt') or title).strip(), SITE / art, video, target))
+
+    for entry in config_memes + list(fresh.get('memes', [])) + list(media.get('memes', [])):
+        add(entry, entry.get('src'), False, f"memes.html#{re.sub(r'^assets/', '', entry.get('src') or '')}")
+    clips = list(fresh.get('clips', [])) + list((media.get('videos') or {}).get('clips', []))
+    for entry in clips:
+        add(entry, entry.get('poster'), True, f"watch.html#{stem_id('clip', entry.get('src') or '')}")
+    return found
+
+
+def main() -> None:
+    CARDS.mkdir(parents=True, exist_ok=True)
+    keep, drawn, written = set(), 0, 0
+    for name, title, alt, art, video, target in items():
+        html_path, jpg_path = OUT / f'{name}.html', CARDS / f'{name}.jpg'
+        html = page(name, title, alt, target)
+        old = html_path.read_text(encoding='utf-8') if html_path.is_file() else ''
+        stale_card = not jpg_path.is_file() or jpg_path.stat().st_mtime < art.stat().st_mtime
+        if stale_card or f'<title>{escape(title)} / duk.</title>' not in old or f'"duk-card" content="{CARD_VERSION}"' not in old:
+            card(art, title, video).save(jpg_path, quality=82, optimize=True, progressive=True)
+            drawn += 1
+        if old != html:
+            html_path.write_text(html, encoding='utf-8', newline='\n')
+            written += 1
+        keep.update({html_path, jpg_path})
+    removed = [path for path in list(OUT.glob('*.html')) + list(CARDS.glob('*.jpg')) if path not in keep]
+    for path in removed:
+        path.unlink()
+    print(f'share pages: {len(keep) // 2} ({written} written, {drawn} cards drawn, {len(removed)} removed)')
+
+
+if __name__ == '__main__':
+    main()
