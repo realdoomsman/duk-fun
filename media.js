@@ -250,8 +250,6 @@
 
   // The cards arrive after the browser tried the hash, so deep links (#gif-<file>, #clip-<file>) are honoured by hand.
   const stemId = (prefix, path) => `${prefix}-${fileName(path).replace(/\.[^.]+$/, '').replace(/[^\w-]+/g, '-')}`;
-  // Each clip and gif has a share page with its own card (scripts/share-pages.py): s/<path under assets/, '/' -> '-'>.html
-  const sharePage = (src) => `${site}s/${src.replace(/^assets\//, '').replace(/\.[^./]+$/, '').replace(/\//g, '-').replace(/[^\w-]/g, '-')}.html`;
   const showLinked = (cards) => {
     let wanted = '';
     try { wanted = decodeURIComponent(window.location.hash.slice(1)); } catch { /* not ours. */ }
@@ -279,7 +277,7 @@
       const share = gif.gif || gif.mp4;
       const copy = el('button', { type: 'button', class: 'gif-copy', text: 'copy link', 'aria-describedby': titleId });
       copy.addEventListener('click', () => copyText(absolute(share), status, 'link copied.'));
-      const post = `${title}\n\njust duk. $duk\n${sharePage(share)}`;
+      const post = `${title}\n\njust duk. $duk\n${window.dukSharePage(share)}`;
       const buttons = el('div', { class: 'gif-actions' },
         gif.gif ? el('a', { href: gif.gif, download: fileName(gif.gif), text: 'gif', 'aria-label': `download ${title} as gif` }) : null,
         gif.mp4 ? el('a', { href: gif.mp4, download: fileName(gif.mp4), text: extension(gif.mp4), 'aria-label': `download ${title} as ${extension(gif.mp4)}` }) : null,
@@ -416,7 +414,7 @@
       upcoming.duk_start();
     });
     stage.append(play);
-    const share = `${title}\n\njust duk. $duk\n${sharePage(clip.src)}`;
+    const share = `${title}\n\njust duk. $duk\n${window.dukSharePage(clip.src)}`;
     const card = el('li', { class: 'clip-card', id },
       stage,
       el('div', { class: 'clip-info' },

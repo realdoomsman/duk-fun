@@ -1,8 +1,6 @@
 // comics.html and kit.html: both render whatever assets/media.json lists right now.
 (() => {
   'use strict';
-  const config = window.DUK_CONFIG || {};
-  const site = (typeof config.SITE === 'string' && config.SITE ? config.SITE : 'https://duk.fun').replace(/\/+$/, '');
   const $ = (id) => document.getElementById(id);
   const page = document.body.dataset.collection;
 
@@ -39,9 +37,7 @@
     let current = 0;
     let backdropPress = false;
 
-    // Each strip has a share page with its own card (scripts/share-pages.py): s/<path under assets/, '/' -> '-'>.html
-    const linkFor = (strip) => `${site}/s/${strip.src.replace(/^assets\//, '').replace(/\.[^./]+$/, '').replace(/\//g, '-').replace(/[^\w-]/g, '-')}.html`;
-    const postFor = (strip) => postURL(`${strip.title}\njust duk. $DUK\n${linkFor(strip)}`);
+    const postFor = (strip) => postURL(`${strip.title}\njust duk. $DUK\n${window.dukSharePage(strip.src)}`);
     const downloadName = (strip) => `duk-comic-${strip.number}-${baseName(strip.src)}`;
 
     function renderStrip(strip, position) {

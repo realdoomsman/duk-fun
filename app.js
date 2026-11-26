@@ -49,6 +49,10 @@
     } catch { return null; }
   };
   const site = externalURL(config.SITE) || 'https://duk.fun/';
+  // Every meme, clip, reaction gif and comic has a share page with its own card (scripts/share-pages.py):
+  // s/<path under assets/ without the extension, '/' -> '-'>.html. Post links point there so x shows that piece.
+  window.dukSharePage = (src) => `${site.replace(/\/+$/, '')}/s/${String(src).replace(/^assets\//, '').replace(/\.[^./]+$/, '')
+    .replace(/\//g, '-').replace(/[^\w-]/g, '-')}.html`;
 
   const links = [['PUMP', 'pump.fun'], ['DEX', 'dexscreener'], ['X', 'x / twitter'], ['X_LIST', 'the list (x)']];
   document.querySelectorAll('[data-links]').forEach((container) => {
@@ -111,7 +115,9 @@
   const dukMinute = Number(minuteText) || 0;
   if ((hourSlots.length || clocks.length) && Number.isInteger(dukHour) && dukHour >= 0 && dukHour < 24) {
     const windowMs = 10 * 60 * 1000;
-    const postHref = `https://x.com/intent/post?text=${encodeURIComponent(`duk.\n${site}`)}`;
+    const postIntent = (text) => `https://x.com/intent/post?text=${encodeURIComponent(text)}`;
+    // Becomes today's duk share page once the home clock has picked one (below).
+    let postHref = postIntent(`duk.\n${site}`);
     const pad = (value) => String(value).padStart(2, '0');
     const utcLabel = `${pad(dukHour)}:${pad(dukMinute)} utc`;
     const moment = () => {
@@ -130,6 +136,7 @@
           slot.dataset.state = 'live';
           const link = document.createElement('a');
           link.href = postHref;
+          link.dataset.dukPost = '';
           link.target = '_blank';
           link.rel = 'noopener noreferrer';
           link.textContent = 'post duk. on x';
@@ -158,6 +165,7 @@
           const action = clock.querySelector('[data-duk-clock-action]');
           action.textContent = live ? 'post duk. on x' : 'make a duk for it';
           action.href = live ? postHref : 'maker.html';
+          action.toggleAttribute('data-duk-post', live);
           action.target = live ? '_blank' : '';
           action.rel = live ? 'noopener noreferrer' : '';
         }
@@ -177,6 +185,25 @@
     if (clocks.length) {
       tick();
       window.setInterval(tick, 1000);
+      // Today's duk: one meme a day, the same for everyone, picked from the curated archive (media.json, not the
+      // fresh drops, so the pick holds all day) by utc date. "post duk. on x" links its share page during duk hour.
+      window.dukMedia().then((media) => {
+        const memes = (media.memes || []).filter((meme) => meme && meme.src && !meme.created)
+          .sort((a, b) => (a.src < b.src ? -1 : a.src > b.src ? 1 : 0));
+        if (!memes.length) return;
+        const pick = memes[(Math.floor(Date.now() / 86400000) * 7919) % memes.length];
+        postHref = postIntent(`duk.\n${window.dukSharePage(pick.src)}`);
+        document.querySelectorAll('[data-duk-post]').forEach((link) => { link.href = postHref; });
+        clocks.forEach((clock) => {
+          const today = clock.querySelector('[data-duk-today]');
+          if (!today) return;
+          const image = today.querySelector('img');
+          Object.assign(image, { src: pick.thumb || pick.src, width: 480, height: 480, alt: '' });
+          today.href = `memes.html#${pick.src.replace(/^assets\//, '')}`;
+          today.setAttribute('aria-label', `today's duk: ${pick.title || 'just duk.'}`);
+          today.classList.add('is-picked');
+        });
+      }).catch(() => { /* the plain duk stays. */ });
     }
   }
 

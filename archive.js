@@ -22,9 +22,6 @@
   const items = [];
   const bySource = new Map();
   const byKey = new Map();
-  const site = (typeof config.SITE === 'string' && config.SITE.trim() ? config.SITE : 'https://duk.fun').replace(/\/+$/, '');
-  // Every meme has a share page with its own card (scripts/share-pages.py): s/<path under assets/, '/' -> '-'>.html
-  const sharePage = (relative) => `${site}/s/${relative.replace(/\.[^./]+$/, '').replace(/\//g, '-').replace(/[^\w-]/g, '-')}.html`;
   const requestedTag = new URLSearchParams(window.location.search).get('tag');
   // 'new' is a filter, not a tag: memes the sync script published in the last day (content.json 'created').
   const FRESH_MS = 24 * 60 * 60 * 1000;
@@ -71,7 +68,7 @@
       alt: typeof entry.alt === 'string' && entry.alt.trim() ? entry.alt : caption,
       tag,
       fresh: typeof entry.created === 'string' && Date.now() - Date.parse(entry.created) < FRESH_MS,
-      share: sharePage(relative),
+      share: window.dukSharePage(relative),
       card: null,
       button: null
     };

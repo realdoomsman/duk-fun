@@ -213,6 +213,9 @@ h1, h2, h3 { font-weight: 700; line-height: 1.12; }
 .duk-clock-face { margin-top: 4px; font-size: clamp(46px, 6.5vw, 92px); font-weight: bold; letter-spacing: -2px; line-height: 1.05; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .duk-clock-side { display: flex; flex-direction: column; align-items: center; gap: 12px; }
 .duk-clock-side img { width: 170px; height: auto; }
+.duk-clock-today { display: grid; justify-items: center; gap: 6px; color: inherit; font-size: 14px; font-weight: bold; text-decoration: none; }
+.duk-clock-today:hover span, .duk-clock-today:focus-visible span { text-decoration: underline; }
+.duk-clock-today.is-picked img { width: 150px; aspect-ratio: 1; border: 3px solid #111; border-radius: 3px 7px 2px 5px; background: #fff; transform: rotate(2deg); }
 .directory { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 3px solid #111; border-left: 3px solid #111; }
 .directory-card { display: flex; flex-direction: column; min-width: 0; padding: 22px 24px 26px; border-right: 3px solid #111; border-bottom: 3px solid #111; text-decoration: none; position: relative; }
 .directory-card:nth-child(3n + 2) { background: #fff9e7; }
@@ -352,7 +355,7 @@ dialog::backdrop { background: rgb(0 0 0 / 75%); }
   .pitch { gap: 35px; }
   .duk-clock { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
   .duk-clock-side { grid-column: 1 / -1; flex-direction: row; justify-content: center; }
-  .duk-clock-side img { width: 120px; }
+  .duk-clock-side img, .duk-clock-today.is-picked img { width: 120px; }
   .directory { grid-template-columns: repeat(2, 1fr); }
   .directory-card:nth-child(3n + 2) { background: transparent; }
   .directory-card:nth-child(4n + 2), .directory-card:nth-child(4n + 3) { background: #fff9e7; }
