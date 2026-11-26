@@ -277,12 +277,11 @@
       const share = gif.gif || gif.mp4;
       const copy = el('button', { type: 'button', class: 'gif-copy', text: 'copy link', 'aria-describedby': titleId });
       copy.addEventListener('click', () => copyText(absolute(share), status, 'link copied.'));
-      const post = `${title}\n\njust duk. $duk\n${window.dukSharePage(share)}`;
       const buttons = el('div', { class: 'gif-actions' },
         gif.gif ? el('a', { href: gif.gif, download: fileName(gif.gif), text: 'gif', 'aria-label': `download ${title} as gif` }) : null,
         gif.mp4 ? el('a', { href: gif.mp4, download: fileName(gif.mp4), text: extension(gif.mp4), 'aria-label': `download ${title} as ${extension(gif.mp4)}` }) : null,
         copy,
-        el('a', { href: `https://x.com/intent/post?text=${encodeURIComponent(post)}`, target: '_blank', rel: 'noopener', 'aria-label': `post ${title} on x`, text: 'post it' }));
+        el('a', { href: window.dukPostHref(title, share), target: '_blank', rel: 'noopener', 'aria-label': `post ${title} on x`, text: 'post it' }));
       return el('li', { class: 'gif-card', id: stemId('gif', gif.gif || gif.mp4) },
         el('div', { class: 'gif-frame' }, art, toggle),
         el('h3', { id: titleId, text: title }),
@@ -414,7 +413,6 @@
       upcoming.duk_start();
     });
     stage.append(play);
-    const share = `${title}\n\njust duk. $duk\n${window.dukSharePage(clip.src)}`;
     const card = el('li', { class: 'clip-card', id },
       stage,
       el('div', { class: 'clip-info' },
@@ -422,7 +420,7 @@
         length ? el('time', { class: 'clip-length', dateTime: `PT${Math.round(clip.duration)}S`, 'aria-label': spokenLength(clip.duration), text: length }) : null),
       el('div', { class: 'clip-actions' },
         el('a', { class: 'clip-download', href: clip.src, download: fileName(clip.src), 'aria-label': `download ${title} (${extension(clip.src)})`, text: `download ${extension(clip.src)}` }),
-        el('a', { class: 'clip-download', href: `https://x.com/intent/post?text=${encodeURIComponent(share)}`, target: '_blank', rel: 'noopener', 'aria-label': `post ${title} on x`, text: 'post it' }),
+        el('a', { class: 'clip-download', href: window.dukPostHref(title, clip.src), target: '_blank', rel: 'noopener', 'aria-label': `post ${title} on x`, text: 'post it' }),
         next));
     card.duk_start = start;
     card.duk_title = title;

@@ -53,6 +53,9 @@
   // s/<path under assets/ without the extension, '/' -> '-'>.html. Post links point there so x shows that piece.
   window.dukSharePage = (src) => `${site.replace(/\/+$/, '')}/s/${String(src).replace(/^assets\//, '').replace(/\.[^./]+$/, '')
     .replace(/\//g, '-').replace(/[^\w-]/g, '-')}.html`;
+  // The x post for one piece: its caption (without a trailing $duk, the tail adds it), the tail, its share page.
+  window.dukPostHref = (caption, src) => `https://x.com/intent/post?text=${encodeURIComponent(
+    `${String(caption || 'just duk.').replace(/\s*\$duk\s*$/i, '')}\n\njust duk. $DUK\n${window.dukSharePage(src)}`)}`;
 
   const links = [['PUMP', 'pump.fun'], ['DEX', 'dexscreener'], ['X', 'x / twitter'], ['X_LIST', 'the list (x)']];
   document.querySelectorAll('[data-links]').forEach((container) => {

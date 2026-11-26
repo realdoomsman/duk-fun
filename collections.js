@@ -23,7 +23,6 @@
   const isVideo = (src) => ['mp4', 'webm'].includes(extension(src));
   const slug = (value) => value.toLowerCase().replace(/\.[a-z0-9]+$/, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   const pad = (n) => String(n).padStart(2, '0');
-  const postURL = (message) => `https://x.com/intent/post?text=${encodeURIComponent(message)}`;
 
   function comicsPage() {
     const list = $('comics-list');
@@ -37,7 +36,7 @@
     let current = 0;
     let backdropPress = false;
 
-    const postFor = (strip) => postURL(`${strip.title}\njust duk. $DUK\n${window.dukSharePage(strip.src)}`);
+    const postFor = (strip) => window.dukPostHref(strip.title, strip.src);
     const downloadName = (strip) => `duk-comic-${strip.number}-${baseName(strip.src)}`;
 
     function renderStrip(strip, position) {

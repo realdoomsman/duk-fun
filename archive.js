@@ -68,7 +68,7 @@
       alt: typeof entry.alt === 'string' && entry.alt.trim() ? entry.alt : caption,
       tag,
       fresh: typeof entry.created === 'string' && Date.now() - Date.parse(entry.created) < FRESH_MS,
-      share: window.dukSharePage(relative),
+      asset: relative,
       card: null,
       button: null
     };
@@ -166,8 +166,7 @@
     position.textContent = `${current + 1} / ${visible.length} in ${filter}`;
     download.href = item.src;
     download.download = item.file;
-    const text = `${item.caption}\n\njust duk. $DUK\n${item.share}`;
-    post.href = `https://x.com/intent/post?text=${encodeURIComponent(text)}`;
+    post.href = window.dukPostHref(item.caption, item.asset);
     remix.href = `maker.html?base=${encodeURIComponent(`assets/${decodeURIComponent(item.src.slice(assetBase.href.length))}`)}#maker`;
     previous.disabled = next.disabled = visible.length < 2;
     setUrl(item.key);
