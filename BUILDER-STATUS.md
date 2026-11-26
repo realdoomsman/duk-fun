@@ -3,6 +3,10 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **today's duk** in the home duk hour clock: one archive meme a day (same for everyone); during duk hour "post duk. on x" links its
+  share page, so every duk hour post shows that meme.
+- **speed**: lazy images are really lazy now (loading set before src) and gif posters load near the viewport only.
+  stickers page on a phone: 202 requests -> 34.
 - **share pages**: `python scripts/share-pages.py` (run by copy-assets.py and every sync) writes s/<item>.html + s/img/<item>.jpg,
   a 1200x630 card for every meme, clip, reaction gif and comic strip. The "post on x" / "post it" links on memes, watch, stickers and
   comics point there, so a posted link shows that piece; opening it lands on the item (memes.html#<folder/file>, watch.html#clip-…,
