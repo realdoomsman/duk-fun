@@ -197,4 +197,88 @@
       })
       .catch(() => { /* Static fallback numbers stay in place. */ });
   }
+
+  // Home wall: the newest drops (memes, reaction gifs, clips) in one grid. The first clip is the big tile;
+  // gifs loop muted only while on screen; clips swap their poster for a player on tap.
+  const wall = document.querySelector('[data-fresh-wall]');
+  if (wall) {
+    const make = (tag, attrs = {}, ...children) => {
+      const node = document.createElement(tag);
+      for (const [key, value] of Object.entries(attrs)) {
+        if (value === null || value === undefined || value === false) continue;
+        if (key === 'text') node.textContent = value;
+        else if (key in node && typeof value === 'boolean') node[key] = value;
+        else node.setAttribute(key, value);
+      }
+      node.append(...children.filter(Boolean));
+      return node;
+    };
+    const still = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const looping = 'IntersectionObserver' in window && new IntersectionObserver((entries) => {
+      for (const { target, isIntersecting } of entries) {
+        if (isIntersecting && !still.matches) target.play().catch(() => { /* poster stays up. */ });
+        else target.pause();
+      }
+    }, { threshold: 0.4 });
+    const caption = (kind, text) => make('p', { class: 'fresh-cap' }, make('span', { class: 'fresh-kind', text: kind }), text || '');
+
+    const memeTile = (meme) => make('li', { class: 'fresh-tile is-meme' },
+      make('a', { class: 'fresh-frame', href: `memes.html#${encodeURIComponent(meme.file || meme.src.split('/').pop())}`, 'aria-label': `open ${meme.title || 'meme'} in the archive` },
+        make('img', { src: meme.thumb || meme.src, alt: meme.alt || meme.title || '', width: 480, height: 480, loading: 'lazy', decoding: 'async' })),
+      caption('meme', meme.title));
+
+    const gifTile = (gif) => {
+      const art = gif.mp4
+        ? make('video', { muted: true, loop: true, playsInline: true, preload: 'none', poster: gif.poster, src: gif.mp4, width: 480, height: 480, 'aria-label': gif.alt || gif.title })
+        : make('img', { src: gif.gif, alt: gif.alt || gif.title || '', width: 480, height: 480, loading: 'lazy', decoding: 'async' });
+      if (gif.mp4) {
+        art.defaultMuted = true;
+        if (looping) looping.observe(art);
+      }
+      return make('li', { class: 'fresh-tile is-gif' },
+        make('a', { class: 'fresh-frame', href: 'stickers.html#gifs', 'aria-label': `${gif.title || 'reaction gif'}: get it with the other gifs` }, art),
+        caption('gif', gif.title));
+    };
+
+    const clipTile = (clip, big) => {
+      const title = clip.title || 'clip.';
+      const play = make('button', { type: 'button', class: 'fresh-frame fresh-play', 'aria-label': `play ${title}` },
+        make('img', { src: clip.poster || 'assets/ducking.png', alt: '', width: 480, height: 480, loading: big ? 'eager' : 'lazy', decoding: 'async' }),
+        make('span', { class: 'fresh-play-label', text: 'play' }));
+      play.addEventListener('click', () => {
+        const video = make('video', { class: 'fresh-frame fresh-video', controls: true, playsInline: true, preload: 'auto', poster: clip.poster, src: clip.src, width: clip.width || 1080, height: clip.height || 1080, 'aria-label': clip.alt || title });
+        play.replaceWith(video);
+        video.focus();
+        video.play().catch(() => { /* controls are right there. */ });
+      });
+      return make('li', { class: `fresh-tile is-clip${big ? ' is-big' : ''}` }, play, caption('clip', title));
+    };
+
+    const ago = (stamp) => {
+      const minutes = Math.round((Date.now() - Date.parse(stamp)) / 60000);
+      if (!Number.isFinite(minutes) || minutes < 0) return '';
+      if (minutes < 2) return 'updated just now.';
+      if (minutes < 60) return `updated ${minutes} min ago.`;
+      const hours = Math.round(minutes / 60);
+      return hours < 48 ? `updated ${hours} ${hours === 1 ? 'hour' : 'hours'} ago.` : `updated ${new Date(stamp).toLocaleDateString()}.`;
+    };
+
+    window.dukMedia()
+      .then((media) => {
+        const memes = list(media.memes).filter((item) => item.src).slice(0, 7);
+        const gifs = list(media.gifs).filter((item) => item.mp4 || item.gif).slice(0, 3);
+        const clips = list(media.videos?.clips).filter((item) => item.src).slice(0, 3);
+        if (!memes.length) return;
+        const pools = { m: memes.map(memeTile), g: gifs.map(gifTile), c: clips.slice(1).map((clip) => clipTile(clip)) };
+        const tiles = clips.length ? [clipTile(clips[0], true)] : [];
+        for (const key of 'mgmmcmgmmgcm') {
+          const tile = pools[key].shift() || pools.m.shift() || pools.g.shift() || pools.c.shift();
+          if (tile) tiles.push(tile);
+        }
+        wall.querySelector('[data-fresh-grid]').replaceChildren(...tiles);
+        wall.querySelector('[data-fresh-updated]').textContent = media.updated ? ago(media.updated) : '';
+        wall.hidden = false;
+      })
+      .catch(() => { /* No wall; the directory below still links everything. */ });
+  }
 })();
