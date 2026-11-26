@@ -48,6 +48,11 @@
 .pool-receipts-count { margin-top: 8px; font-size: 14px; }
 .pool-receipts-wallet { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-top: 6px; font-size: 14px; }
 .pool-receipts-wallet code { min-width: 0; max-width: 16ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; user-select: all; }
+.pool-now { margin-bottom: 50px; }
+.pool-now > h3 { font-size: 26px; }
+.pool-now-lead { margin: 8px 0 22px; font-size: 16px; max-width: 760px; }
+.pool-dev-supply { display: block; margin: 18px 0 30px; font-size: 15px; max-width: 760px; }
+.pool-now-table-title { margin: 0; font-size: 20px; }
 .pool-table-wrap { margin-top: 18px; overflow-x: auto; border: 2px solid #111; border-radius: 3px 7px 2px 5px; background: #fff9e7; }
 .pool-table-wrap:focus-visible { outline: 3px dashed #111; outline-offset: 5px; }
 .pool-table { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -129,6 +134,10 @@
   #pp-state { font-size: 14px; }
   .pool-receipts { margin-top: 36px; }
   .pool-receipts h3 { font-size: 21px; }
+  .pool-now { margin-bottom: 36px; }
+  .pool-now > h3 { font-size: 21px; }
+  .pool-now-lead, .pool-dev-supply { font-size: 14px; }
+  .pool-page .pool-now .pool-counters strong { font-size: 16px; }
   .pool-table-wrap { overflow-x: visible; }
   .pool-table, .pool-table tbody, .pool-table tr, .pool-table td { display: block; }
   .pool-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

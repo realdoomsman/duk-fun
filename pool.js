@@ -18,9 +18,15 @@
   const amount = (value) => isAmount(value) ? numbers.format(value) : '—';
   const clock = (date) => date.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
 
-  const waitingLabels = {
-    no_mint: 'running, but no coin to watch yet. starts after graduation.',
-    waiting_for_pool: 'coin found. waiting for graduation and the pumpswap pool.'
+  // waiting_for_pool only means "buying on the curve" when the keeper reports pregrad_buy: true.
+  const waitingLabel = (data) => {
+    if (data && data.state === 'no_mint') return 'running, but no coin to watch yet.';
+    if (data && data.state === 'waiting_for_pool') {
+      return data.pregrad_buy === true
+        ? 'running. buying on the curve and holding until graduation.'
+        : 'coin found. waiting for graduation and the pumpswap pool.';
+    }
+    return 'not active yet.';
   };
 
   const setLevel = (level, caption) => {
@@ -29,11 +35,11 @@
     $('pp-illustration').setAttribute('aria-label', `illustration of the pool. ${caption}`);
   };
 
-  const emptyRow = (text) => {
+  const emptyRow = (text, columns = 5) => {
     const row = document.createElement('tr');
     row.className = 'pool-empty-row';
     const cell = document.createElement('td');
-    cell.colSpan = 5;
+    cell.colSpan = columns;
     cell.textContent = text;
     row.append(cell);
     return row;
@@ -47,11 +53,10 @@
     $('pp-rows').replaceChildren(emptyRow('— no receipts to show yet.'));
   };
 
-  const receiptRow = (entry) => {
-    const row = document.createElement('tr');
+  const timeCell = (timestamp) => {
     const when = document.createElement('td');
     const time = document.createElement('time');
-    const date = isAmount(entry.timestamp) ? new Date(entry.timestamp * 1000) : null;
+    const date = isAmount(timestamp) ? new Date(timestamp * 1000) : null;
     if (date && !Number.isNaN(date.getTime())) {
       time.dateTime = date.toISOString();
       time.textContent = date.toLocaleString(undefined, { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
@@ -60,8 +65,14 @@
     }
     when.dataset.label = 'time';
     when.append(time);
-    row.append(when);
-    for (const [key, label] of [['solAdded', 'sol'], ['dukAdded', 'duk'], ['lpBurned', 'lp burned']]) {
+    return when;
+  };
+
+  // One table row: time, the given amount columns, then the solscan link.
+  const txRow = (entry, columns) => {
+    const row = document.createElement('tr');
+    row.append(timeCell(entry.timestamp));
+    for (const [key, label] of columns) {
       const cell = document.createElement('td');
       cell.dataset.label = label;
       cell.textContent = amount(entry[key]);
@@ -79,6 +90,28 @@
     row.append(receipt);
     return row;
   };
+  const newestFirst = (list) => (Array.isArray(list) ? list : [])
+    .filter((entry) => entry && typeof entry.signature === 'string' && entry.signature)
+    .sort((a, b) => (isAmount(b.timestamp) ? b.timestamp : 0) - (isAmount(a.timestamp) ? a.timestamp : 0));
+  const receiptRow = (entry) => txRow(entry, [['solAdded', 'sol'], ['dukAdded', 'duk'], ['lpBurned', 'lp burned']]);
+
+  // Pre-graduation: fees claimed and duk bought on the bonding curve. Missing fields show '—'.
+  const showCurve = (data) => {
+    const totals = (data && data.totals) || {};
+    $('pp-claimed').textContent = amount(totals.solClaimed);
+    $('pp-curve-sol').textContent = amount(totals.solSpentOnCurveBuys);
+    $('pp-curve-duk').textContent = amount(totals.dukBoughtOnCurve);
+    const buys = newestFirst(data && data.curve_buys).slice(0, 20);
+    const curveOn = Boolean(data && data.pregrad_buy === true);
+    $('pp-curve-count').textContent = buys.length
+      ? `the last ${buys.length} ${buys.length === 1 ? 'buy' : 'buys'}, newest first.`
+      : 'each buy links to its transaction on solscan.';
+    let emptyText = "— the keeper didn't answer. try again in a minute.";
+    if (data) emptyText = curveOn ? '— no curve buys yet.' : "— pre-graduation buying isn't on yet.";
+    $('pp-curve-rows').replaceChildren(...(buys.length
+      ? buys.map((entry) => txRow(entry, [['solIn', 'sol in'], ['dukOut', 'duk out']]))
+      : [emptyRow(emptyText, 4)]));
+  };
 
   const showActive = (data) => {
     const totals = data.totals || {};
@@ -89,9 +122,7 @@
     // Illustrative log scale, capped at 64% so the floating duck's head stays above the frame edge.
     const level = Math.min(64, 18 + Math.log10(1 + sol) * 22);
     setLevel(level, sol > 0 ? `${amount(sol)} sol added so far.` : 'pool found. no adds yet.');
-    const recent = (Array.isArray(data.recent) ? data.recent : [])
-      .filter((entry) => entry && typeof entry.signature === 'string' && entry.signature)
-      .sort((a, b) => (isAmount(b.timestamp) ? b.timestamp : 0) - (isAmount(a.timestamp) ? a.timestamp : 0));
+    const recent = newestFirst(data.recent);
     $('pp-state-text').textContent = recent.length
       ? `running. last checked ${clock(new Date())}.`
       : `running. waiting for enough fees for the first add. last checked ${clock(new Date())}.`;
@@ -103,7 +134,7 @@
 
   let busy = false;
   const update = async () => {
-    if (!keeperURL) { showPending('not connected yet. starts after graduation.'); return; }
+    if (!keeperURL) { showPending('not connected yet.'); showCurve(null); return; }
     if (busy) return;
     busy = true;
     $('pp-refresh').disabled = true;
@@ -113,9 +144,11 @@
       const response = await fetch(keeperURL, { signal: controller.signal, cache: 'no-store' });
       if (!response.ok) throw new Error('keeper unavailable');
       const data = await response.json();
+      showCurve(data);
       if (data && data.state === 'active') showActive(data);
-      else showPending(waitingLabels[data && data.state] || 'not active yet. starts after graduation.');
+      else showPending(waitingLabel(data));
     } catch {
+      showCurve(null);
       showPending("didn't answer this time. counters stay blank until it does.");
     } finally {
       window.clearTimeout(timer);

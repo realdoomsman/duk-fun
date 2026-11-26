@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#00a2e8">
   <title>the pool / duk.</title>
-  <meta name="description" content="fees go in the pool. after graduation, creator fees help add duk + sol to the pool and the lp from each add gets burned. receipts here. not a price floor. $DUK">
+  <meta name="description" content="fees go in the pool. before graduation the bot buys duk on the bonding curve with creator fees and holds it. at graduation it adds it to the pool and burns the lp. receipts here. not a price floor. $DUK">
   <link rel="canonical" href="https://duk.fun/pool.html">
   <meta property="og:title" content="the pool / duk.">
-  <meta property="og:description" content="creator fees help add duk + sol to the pool. the lp from each add gets burned. every add links to its transaction. $DUK">
+  <meta property="og:description" content="creator fees buy duk on the curve now and go into the pool at graduation, with the lp burned. every buy and add links to its transaction. $DUK">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://duk.fun/pool.html">
   <meta property="og:image" content="https://duk.fun/assets/og-1200x630.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="the pool / duk.">
-  <meta name="twitter:description" content="creator fees help add duk + sol to the pool. the lp from each add gets burned. every add links to its transaction. $DUK">
+  <meta name="twitter:description" content="creator fees buy duk on the curve now and go into the pool at graduation, with the lp burned. every buy and add links to its transaction. $DUK">
   <meta name="twitter:image" content="https://duk.fun/assets/og-1200x630.png">
   <link rel="icon" type="image/png" href="assets/memes/pfp.png">
   <link rel="stylesheet" href="style.css">
@@ -34,7 +34,7 @@
       <div>
         <p class="eyebrow">the pool / where the fees go</p>
         <h1 id="pool-title">fees go<br>in the pool.</h1>
-        <p class="lead">after graduation, creator fees help add duk + sol to the pool. the lp from each add gets burned. receipts below.<br><strong class="pool-hero-flat">a deeper pool can mean less slippage. not a price floor.</strong></p>
+        <p class="lead">until graduation, the bot claims creator fees, buys duk on the bonding curve and holds it. at graduation it adds that duk and sol to the pool and burns the lp. receipts below.<br><strong class="pool-hero-flat">a deeper pool can mean less slippage. not a price floor.</strong></p>
         <p class="pool-hero-jump"><a class="button" href="#pool-live">see the water</a> <a class="text-link" href="#pool-receipts">skip to the receipts <span aria-hidden="true">↓</span></a></p>
       </div>
       <img class="page-hero-art" id="pool-hero-art" src="assets/stand.png" width="800" height="1000" alt="duk. standing at the edge of the pool.">
@@ -73,7 +73,7 @@
       <div class="pool-fineprint">
         <h3>the fine print, in big letters.</h3>
         <ul>
-          <li><strong>runs after graduation.</strong> before that there's no pumpswap pool to feed. the keeper waits.</li>
+          <li><strong>before graduation it buys and holds.</strong> there's no pumpswap pool yet, so the bot claims creator fees, buys duk on the bonding curve and keeps it in the bot wallet, together with the dev supply. at graduation it adds all of it to the pool and burns the lp. after that it runs the five steps above.</li>
           <li><strong>a keeper does it.</strong> a small bot on a server. it checks on a timer and works in batches. thresholds and a small sol reserve apply.</li>
           <li><strong>operating costs come out before the split.</strong> network fees and running costs first. then half buys duk.</li>
           <li><strong>additions depend on fees, the keeper and execution.</strong> no trades means no fees, and no fees means nothing to add. if the keeper is down, nothing gets added either.</li>
@@ -87,6 +87,28 @@
         <div><p class="eyebrow">03 / live from the pool</p><h2 id="pool-live-title">the water.</h2></div>
         <p>checks the keeper log<br>every minute.</p>
       </div>
+
+      <div class="pool-now" id="pool-now" aria-labelledby="pp-now-title">
+        <h3 id="pp-now-title">what the bot is doing now</h3>
+        <p class="pool-now-lead">before graduation the bot buys duk on the bonding curve with the creator fees it claims, and holds it until the pumpswap pool exists.</p>
+        <div class="pool-counters" role="group" aria-labelledby="pp-now-counter-title">
+          <h3 id="pp-now-counter-title">so far</h3>
+          <div><span>fees claimed (sol)</span><strong id="pp-claimed">—</strong></div>
+          <div><span>sol spent on curve buys</span><strong id="pp-curve-sol">—</strong></div>
+          <div><span>duk bought on the curve</span><strong id="pp-curve-duk">—</strong></div>
+        </div>
+        <p class="pool-receipts-wallet pool-dev-supply">the dev supply, 51,095,238 duk, was sent to the bot wallet. it goes into the pool at graduation with everything the bot bought. <a class="text-link" href="https://solscan.io/tx/53YStF5M7mo3BoS9rPB6Jn8Ma9e8DQY5XQWPSaufNFo1Nd4ccgyngHQ6kuBgMDndBmarweroReeP7u7n6WpmkUHA" target="_blank" rel="noopener noreferrer">see the transfer ↗</a></p>
+        <h4 class="pool-now-table-title" id="pp-curve-title">curve buys</h4>
+        <p class="pool-receipts-count" id="pp-curve-count">each buy links to its transaction on solscan.</p>
+        <div class="pool-table-wrap" tabindex="0" role="region" aria-labelledby="pp-curve-title">
+          <table class="pool-table">
+            <caption class="sr-only">the bot's duk buys on the bonding curve, newest first, with solscan links</caption>
+            <thead><tr><th scope="col">time</th><th scope="col">sol in</th><th scope="col">duk out</th><th scope="col">receipt</th></tr></thead>
+            <tbody id="pp-curve-rows"><tr class="pool-empty-row"><td colspan="4">— checking the keeper.</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+
       <div class="pool-illustration" id="pp-illustration" style="--pool-level:18%" role="img" aria-label="illustration of the pool. no adds yet.">
         <div class="pool-ruler" aria-hidden="true"><span>deeper ↑</span><i></i><i></i><i></i><i></i></div>
         <img id="pool-duck" src="assets/stand.png" alt="" width="800" height="1000" loading="lazy">
@@ -100,7 +122,7 @@
         <div><span>lp burned</span><strong id="pp-lp">—</strong></div>
       </div>
       <div class="pool-status">
-        <p id="pp-state" role="status" aria-live="polite"><b>keeper:</b> <span id="pp-state-text">checking. starts after graduation.</span></p>
+        <p id="pp-state" role="status" aria-live="polite"><b>keeper:</b> <span id="pp-state-text">checking.</span></p>
         <button type="button" class="button" id="pp-refresh">check again</button>
       </div>
       <p class="pool-note">a deeper pool can mean less slippage. not a price floor.<br><span>totals are what the keeper added. they aren't the current pool balance. other people's lp comes and goes. the waterline is just an illustration on a squashed scale.</span></p>
@@ -113,7 +135,7 @@
           <table class="pool-table">
             <caption class="sr-only">keeper adds to the duk/sol pool, newest first, with solscan links</caption>
             <thead><tr><th scope="col">time</th><th scope="col">sol</th><th scope="col">duk</th><th scope="col">lp burned</th><th scope="col">receipt</th></tr></thead>
-            <tbody id="pp-rows"><tr class="pool-empty-row"><td colspan="5">— no receipts yet. starts after graduation.</td></tr></tbody>
+            <tbody id="pp-rows"><tr class="pool-empty-row"><td colspan="5">— no adds yet. they start at graduation.</td></tr></tbody>
           </table>
         </div>
       </div>
