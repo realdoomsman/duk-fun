@@ -3422,6 +3422,174 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/097_zoom_out.webp"
+      },
+      {
+        "file": "formats/100_disclaimer.png",
+        "src": "assets/kit/formats/100_disclaimer.png",
+        "title": "the note",
+        "alt": "A big empty pale yellow note over DUK, who lies flat on the ground. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.333,
+            0.027,
+            0.333,
+            0.06
+          ],
+          [
+            0.14,
+            0.16,
+            0.56,
+            0.34
+          ],
+          [
+            0.42,
+            0.827,
+            0.153,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/100_disclaimer.webp"
+      },
+      {
+        "file": "formats/103_tripwire.png",
+        "src": "assets/kit/formats/103_tripwire.png",
+        "title": "the two traps",
+        "alt": "Two empty signs on posts over two spiked traps joined by a wire, DUK lying flat on the grass under the wire. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.307,
+            0.027,
+            0.38,
+            0.073
+          ],
+          [
+            0.053,
+            0.167,
+            0.227,
+            0.067
+          ],
+          [
+            0.707,
+            0.167,
+            0.253,
+            0.067
+          ],
+          [
+            0.433,
+            0.447,
+            0.14,
+            0.047
+          ],
+          [
+            0.253,
+            0.8,
+            0.08,
+            0.06
+          ],
+          [
+            0.367,
+            0.8,
+            0.267,
+            0.06
+          ],
+          [
+            0.667,
+            0.807,
+            0.073,
+            0.053
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/103_tripwire.webp"
+      },
+      {
+        "file": "formats/106_nothing_happens.png",
+        "src": "assets/kit/formats/106_nothing_happens.png",
+        "title": "the front page",
+        "alt": "An old newspaper front page with an empty name and an empty headline over a photo of DUK lying flat. An empty line under the photo.",
+        "tag": "template",
+        "spots": [
+          [
+            0.287,
+            0.06,
+            0.427,
+            0.06
+          ],
+          [
+            0.313,
+            0.173,
+            0.373,
+            0.093
+          ],
+          [
+            0.287,
+            0.3,
+            0.427,
+            0.093
+          ],
+          [
+            0.213,
+            0.807,
+            0.573,
+            0.12
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/106_nothing_happens.webp"
+      },
+      {
+        "file": "formats/107_fomo_fud.png",
+        "src": "assets/kit/formats/107_fomo_fud.png",
+        "title": "the incoming",
+        "alt": "Two empty tags fly past from both sides, one red going left and one green going right, over DUK lying flat on the ground. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.367,
+            0.027,
+            0.273,
+            0.073
+          ],
+          [
+            0.427,
+            0.247,
+            0.08,
+            0.047
+          ],
+          [
+            0.473,
+            0.46,
+            0.12,
+            0.053
+          ],
+          [
+            0.133,
+            0.833,
+            0.107,
+            0.04
+          ],
+          [
+            0.273,
+            0.833,
+            0.387,
+            0.047
+          ],
+          [
+            0.693,
+            0.813,
+            0.167,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/107_fomo_fud.webp"
       }
     ],
     "pfp": [
