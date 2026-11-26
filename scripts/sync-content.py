@@ -360,8 +360,9 @@ def main() -> None:
     if missing:
         raise SystemExit(f'broken entries: {missing}')
     summary = ', '.join(f'{len(items)} {kind}' for kind, items in content.items())
-    subprocess.run([sys.executable, str(SITE / 'scripts' / 'share-pages.py')], check=True)
+    # daily.py first: share-pages.py draws a card for each recorded duk of the day.
     subprocess.run([sys.executable, str(SITE / 'scripts' / 'daily.py')], check=True)
+    subprocess.run([sys.executable, str(SITE / 'scripts' / 'share-pages.py')], check=True)
     print(f"content.json: {summary}{' (updated)' if changed else ' (no change)'}"
           + (f"; pruned {len(removed)} files" if removed else '')
           + (f"; blocked {len(blocked)}: {' '.join(blocked)}" if blocked else ''))

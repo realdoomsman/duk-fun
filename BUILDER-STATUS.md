@@ -3,6 +3,9 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **duk of the day cards**: every recorded day gets s/daily-<date>.html + a card ("duk of the day, nov 26. <caption>") that lands
+  on daily.html#day-<date>; the daily page's "post it" and the duk hour "post duk. on x" link it (window.dukDailyShare; a day the
+  sync hasn't recorded yet falls back to the meme's own card). The sync now runs daily.py before share-pages.py.
 - **3 more blank formats** (30): everyone moved (082), the settings menu (083), the stampede (086). Skipped 084 (menu board with a
   price column) and 085 (a board of green candles). **home wall of fame strip**: the 4 newest fame.json entries between the
   fresh wall and the clock; stays hidden while the wall is empty.

@@ -48,7 +48,7 @@
   let daily = null;
   window.dukDaily = () => {
     daily = daily || Promise.all([window.dukMedia(), getJSON('assets/daily.json').catch(() => null)]).then(([index, record]) => {
-      const days = list(record && record.days).filter((day) => day && day.date && day.src);
+      const days = list(record && record.days).filter((day) => day && day.date && day.src).map((day) => ({ ...day, recorded: true }));
       const now = Date.now();
       const date = new Date(now).toISOString().slice(0, 10);
       let today = days.find((day) => day.date === date) || null;
@@ -58,7 +58,7 @@
           .sort((a, b) => (a.src < b.src ? -1 : a.src > b.src ? 1 : 0));
         if (pool.length) {
           const pick = pool[(Math.floor(now / 86400000) * 7919) % pool.length];
-          today = { date, src: pick.src, thumb: pick.thumb || pick.src, title: pick.title || 'just duk.', alt: pick.alt || '' };
+          today = { date, src: pick.src, thumb: pick.thumb || pick.src, title: pick.title || 'just duk.', alt: pick.alt || '', recorded: false };
           days.push(today);
         }
       }
@@ -114,6 +114,8 @@
   // The x post for one piece: its caption (without a trailing $duk, the tail adds it), the tail, its share page.
   window.dukPostHref = (caption, src) => `https://x.com/intent/post?text=${encodeURIComponent(
     `${String(caption || 'just duk.').replace(/\s*\$duk\s*$/i, '')}\n\njust duk. $DUK\n${window.dukSharePage(src)}`)}`;
+  // A recorded duk of the day has its own card (s/daily-<date>.html); one not recorded yet uses its meme's.
+  window.dukDailyShare = (day) => (day.recorded ? `${site.replace(/\/+$/, '')}/s/daily-${day.date}.html` : window.dukSharePage(day.src));
 
   const links = [['PUMP', 'pump.fun'], ['DEX', 'dexscreener'], ['X', 'x / twitter'], ['X_LIST', 'the list (x)']];
   document.querySelectorAll('[data-links]').forEach((container) => {
@@ -250,7 +252,7 @@
       // "post duk. on x" links its share page during duk hour.
       window.dukDaily().then(({ today: pick }) => {
         if (!pick) return;
-        postHref = postIntent(`duk.\n${window.dukSharePage(pick.src)}`);
+        postHref = postIntent(`duk.\n${window.dukDailyShare(pick)}`);
         document.querySelectorAll('[data-duk-post]').forEach((link) => { link.href = postHref; });
         clocks.forEach((clock) => {
           const today = clock.querySelector('[data-duk-today]');

@@ -1,15 +1,17 @@
 """Share pages: python site/scripts/share-pages.py -> site/s/<slug>.html + site/s/img/<slug>.jpg
 
-One tiny page per meme (archive), clip (watch), reaction gif (stickers), comic strip and wall of fame entry with its own
-1200x630 card, so a link posted on x shows that piece instead of the generic page card. People who open the link land on
-memes.html#<folder/file>, watch.html#clip-<file>, stickers.html#gif-<file>, comics.html#strip-<file> or fame.html#fame-<id>.
-The slug is the asset path under assets/ without its extension, '/' and anything outside [A-Za-z0-9_-] turned into '-'
-(window.dukSharePage in app.js builds the same slug for every post link).
+One tiny page per meme (archive), clip (watch), reaction gif (stickers), comic strip, wall of fame entry and recorded duk of
+the day with its own 1200x630 card, so a link posted on x shows that piece instead of the generic page card. People who open
+the link land on memes.html#<folder/file>, watch.html#clip-<file>, stickers.html#gif-<file>, comics.html#strip-<file>,
+fame.html#fame-<id> or daily.html#day-<date>. The slug is the asset path under assets/ without its extension, '/' and
+anything outside [A-Za-z0-9_-] turned into '-' (window.dukSharePage in app.js builds the same slug for every post link);
+a duk of the day is s/daily-<date>.html.
 
-Reads assets/media.json, assets/content.json, assets/fame.json and the memes in assets/config.js; run after copy-assets.py,
-sync-content.py and add-fame.py (all call it). Cards are only redrawn when the art or caption changes; pages and cards for
-items that left the site are removed.
+Reads assets/media.json, assets/content.json, assets/fame.json, assets/daily.json and the memes in assets/config.js; run
+after copy-assets.py, sync-content.py and add-fame.py (all call it). Cards are only redrawn when the art or caption changes;
+pages and cards for items that left the site are removed.
 """
+from datetime import datetime
 from html import escape
 from io import BytesIO
 import hashlib
@@ -202,6 +204,12 @@ def items() -> list:
         credit = f"{entry.get('caption') or 'on the wall of fame.'} by @{entry['by']}"
         art = entry['thumb'] if entry.get('kind') == 'gif' else entry['src']
         add(entry['src'], {'title': credit, 'alt': entry.get('alt')}, art, entry.get('kind') != 'image', f"fame.html#fame-{entry['id']}")
+    # Duk of the day (scripts/daily.py): one card per recorded day, s/daily-<date>.html -> daily.html#day-<date>.
+    daily_file = ASSETS / 'daily.json'
+    for day in json.loads(daily_file.read_text(encoding='utf-8')).get('days', []) if daily_file.is_file() else []:
+        date = datetime.strptime(day['date'], '%Y-%m-%d')
+        title = f"duk of the day, {date:%b} {date.day}. {day.get('title') or 'just duk.'}".lower()
+        add(f"daily/{day['date']}", {'title': title, 'alt': day.get('alt')}, day['src'], False, f"daily.html#day-{day['date']}")
     return found
 
 
