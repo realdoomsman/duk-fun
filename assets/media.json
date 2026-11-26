@@ -3152,6 +3152,132 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/090_diversified.webp"
+      },
+      {
+        "file": "formats/091_one_post.png",
+        "src": "assets/kit/formats/091_one_post.png",
+        "title": "the thread",
+        "alt": "Five empty white post cards stacked down the left, one short empty post card at the top right. DUK lies flat under it. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.153,
+            0.027,
+            0.693,
+            0.08
+          ],
+          [
+            0.06,
+            0.147,
+            0.433,
+            0.087
+          ],
+          [
+            0.607,
+            0.147,
+            0.213,
+            0.087
+          ],
+          [
+            0.06,
+            0.287,
+            0.247,
+            0.08
+          ],
+          [
+            0.06,
+            0.427,
+            0.28,
+            0.087
+          ],
+          [
+            0.06,
+            0.573,
+            0.347,
+            0.08
+          ],
+          [
+            0.06,
+            0.713,
+            0.32,
+            0.087
+          ],
+          [
+            0.16,
+            0.84,
+            0.247,
+            0.047
+          ],
+          [
+            0.627,
+            0.773,
+            0.287,
+            0.12
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/091_one_post.webp"
+      },
+      {
+        "file": "formats/093_stables.png",
+        "src": "assets/kit/formats/093_stables.png",
+        "title": "the barn",
+        "alt": "A brown barn wall with an empty pale yellow sign over a crossed wooden door. DUK lies flat on a bed of hay. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.367,
+            0.06,
+            0.267,
+            0.067
+          ],
+          [
+            0.193,
+            0.847,
+            0.607,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/093_stables.webp"
+      },
+      {
+        "file": "formats/094_hopium_empty.png",
+        "src": "assets/kit/formats/094_hopium_empty.png",
+        "title": "the empty station",
+        "alt": "Two red pumps with empty screens under a yellow roof, three stick figures queueing with red cans. DUK lies flat on the grey ground in front. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.26,
+            0.027,
+            0.48,
+            0.08
+          ],
+          [
+            0.147,
+            0.387,
+            0.127,
+            0.087
+          ],
+          [
+            0.433,
+            0.387,
+            0.127,
+            0.087
+          ],
+          [
+            0.36,
+            0.86,
+            0.54,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/094_hopium_empty.webp"
       }
     ],
     "pfp": [
