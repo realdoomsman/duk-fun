@@ -12,6 +12,7 @@ that left the site are removed.
 """
 from html import escape
 from io import BytesIO
+import hashlib
 from pathlib import Path
 import json
 import re
@@ -130,9 +131,9 @@ def card(art_path: Path, caption: str, video: bool) -> Image.Image:
     return image
 
 
-def page(name: str, title: str, alt: str, target: str) -> str:
+def page(name: str, title: str, alt: str, target: str, version: str) -> str:
     t, a = escape(title), escape(alt)
-    image = f'{ORIGIN}s/img/{name}.jpg'
+    image = f'{ORIGIN}s/img/{name}.jpg?v={version}'
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -203,12 +204,19 @@ def main() -> None:
     keep, drawn, written = set(), 0, 0
     for name, title, alt, art, video, target in items():
         html_path, jpg_path = OUT / f'{name}.html', CARDS / f'{name}.jpg'
-        html = page(name, title, alt, target)
         old = html_path.read_text(encoding='utf-8') if html_path.is_file() else ''
         stale_card = not jpg_path.is_file() or jpg_path.stat().st_mtime < art.stat().st_mtime
         if stale_card or f'<title>{escape(title)} / duk.</title>' not in old or f'"duk-card" content="{CARD_VERSION}"' not in old:
-            card(art, title, video).save(jpg_path, quality=82, optimize=True, progressive=True)
-            drawn += 1
+            try:
+                card(art, title, video).save(jpg_path, quality=82, optimize=True, progressive=True)
+                drawn += 1
+            except (OSError, subprocess.CalledProcessError) as error:
+                # One unreadable clip (still being written, too short) must not stop the sync: skip it this run.
+                print(f'share pages: skipped {name}: {error}')
+                if not jpg_path.is_file():
+                    continue
+        # The card's hash rides on its url: x caches card images by url, so a redrawn card gets a new one.
+        html = page(name, title, alt, target, hashlib.sha1(jpg_path.read_bytes()).hexdigest()[:8])
         if old != html:
             html_path.write_text(html, encoding='utf-8', newline='\n')
             written += 1
