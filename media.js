@@ -389,6 +389,9 @@
       upcoming.duk_start();
     });
     stage.append(play);
+    // phones: the clip file itself to the share sheet (x posts it as a video), with the post words.
+    const shareClip = /\.mp4$/i.test(clip.src) ? el('button', { type: 'button', class: 'clip-download', hidden: true, 'aria-label': `share ${title}`, text: 'share' }) : null;
+    if (shareClip) window.dukPictureButtons(shareClip, null, () => ({ src: clip.src, name: fileName(clip.src).replace(/\.[^.]+$/, ''), text: window.dukPostText(title, clip.src) }), 'video/mp4');
     const card = el('li', { class: 'clip-card', id },
       stage,
       el('div', { class: 'clip-info' },
@@ -397,6 +400,7 @@
       el('div', { class: 'clip-actions' },
         el('a', { class: 'clip-download', href: clip.src, download: fileName(clip.src), 'aria-label': `download ${title} (${extension(clip.src)})`, text: `download ${extension(clip.src)}` }),
         el('a', { class: 'clip-download', href: window.dukPostHref(title, clip.src), target: '_blank', rel: 'noopener', 'aria-label': `post ${title} on x`, text: 'post it' }),
+        shareClip,
         next));
     card.duk_start = start;
     card.duk_title = title;

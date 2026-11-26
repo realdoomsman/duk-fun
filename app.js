@@ -119,7 +119,7 @@
   // words; mouse screens copy it to paste into the post. One of the two buttons shows, whichever this browser can do.
   // piece() returns { src, name (file name, no extension), text } for what's on screen; the returned prepare(src)
   // fetches that file ahead (the share sheet wants it right after the tap). Stills go out as png (all a clipboard
-  // takes). type 'image/gif' shares the file as it is and has no copy button (copyButton null): touch screens only.
+  // takes). Another type ('image/gif', 'video/mp4') shares the file as it is, without a copy button (null): touch only.
   window.dukPictureButtons = (shareButton, copyButton, piece, type = 'image/png') => {
     const extension = type.split('/')[1];
     const canShareFiles = (() => {
