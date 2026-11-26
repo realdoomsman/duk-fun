@@ -545,9 +545,10 @@
     const showPoolToday = () => fetch(`${keeper}/log?limit=0`, { cache: 'no-store' })
       .then((response) => (response.ok ? response.json() : null))
       .then((log) => {
-        if (!log || log.state !== 'active' || !log.last_run) return;
-        const newest = list(log.recent).reduce((max, add) => Math.max(max, Number(add && add.timestamp) || 0), 0);
-        if (!newest) return;
+        const newest = log && log.state === 'active' && log.last_run
+          ? list(log.recent).reduce((max, add) => Math.max(max, Number(add && add.timestamp) || 0), 0) : 0;
+        // not adding, restarting or no adds yet: no line (a stale "newest 2 min ago" would lie).
+        if (!newest) { poolToday.hidden = true; return; }
         const today = new Date().toISOString().slice(0, 10);
         const row = list(log.daily).find((day) => day && day.day === today);
         const adds = row && Number.isInteger(row.adds) ? row.adds : 0;
