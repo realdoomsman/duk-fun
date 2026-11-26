@@ -1,5 +1,6 @@
 // The wall of fame: assets/fame.json (hand-fed by scripts/add-fame.py) -> one credited card per piece, newest first.
-// Cards carry id 'fame-<entry id>' (share pages land there); gifs loop only on screen and never with reduced motion.
+// Cards carry id 'fame-<entry id>' (share pages land there); gifs loop only on screen, never with reduced motion,
+// and carry a play/pause button (app.js dukWatchLoop / dukLoopToggle).
 (() => {
   const grid = document.querySelector('[data-fame]');
   if (!grid) return;
@@ -24,13 +25,6 @@
   const postOk = (url) => /^https:\/\/(x|twitter)\.com\/[A-Za-z0-9_]{1,15}\/status\/\d+/i.test(url || '');
   const external = { target: '_blank', rel: 'noopener noreferrer' };
 
-  const loops = 'IntersectionObserver' in window ? new IntersectionObserver((seen) => {
-    seen.forEach(({ target, isIntersecting }) => {
-      if (isIntersecting && !still.matches) target.play().catch(() => {});
-      else target.pause();
-    });
-  }, { threshold: 0.4 }) : null;
-
   const art = (entry) => {
     const size = { width: entry.width, height: entry.height };
     if (entry.kind === 'image') {
@@ -44,10 +38,11 @@
     if (entry.kind === 'gif') {
       video.muted = true;
       video.loop = true;
-      if (loops) loops.observe(video); else video.controls = true;
-    } else {
-      video.controls = true;
+      if (window.dukWatchLoop(video)) {
+        return el('div', { className: 'fame-art' }, video, window.dukLoopToggle(video, `the gif by @${entry.by}`));
+      }
     }
+    video.controls = true;
     return el('div', { className: 'fame-art' }, video);
   };
 

@@ -35,8 +35,8 @@
   };
   const plural = (count, word) => `${count} ${word}${count === 1 ? '' : 's'}`;
 
-  // Looping previews only load and play while on screen. Reduced motion: loaded, never autoplayed.
-  const loops = new Set();
+  // Looping previews only load and play while on screen. Reduced motion: loaded, never autoplayed (app.js pauses
+  // every looping video when reduced motion turns on, and makes their play/pause buttons: dukLoopToggle).
   const loadVideo = (video) => {
     if (video.dataset.loaded) return;
     video.dataset.loaded = 'true';
@@ -45,18 +45,11 @@
     video.load();
   };
   const shouldPlay = (video) => !reducedMotion.matches && video.dataset.userPaused !== 'true';
-  const syncToggle = (video) => {
-    const toggle = video.duk_toggle;
-    if (!toggle) return;
-    const action = video.paused ? 'play' : 'pause';
-    toggle.textContent = action;
-    toggle.setAttribute('aria-label', `${action} ${toggle.dataset.label}`);
-  };
   const loopObserver = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => {
     entries.forEach(({ target, isIntersecting }) => {
       if (isIntersecting) {
         loadVideo(target);
-        if (shouldPlay(target)) target.play().catch(() => syncToggle(target));
+        if (shouldPlay(target)) target.play().catch(() => { /* the button still says play. */ });
       } else if (!target.paused) {
         target.pause();
       }
@@ -81,7 +74,6 @@
     posterObserver.observe(video);
   };
   const watchLoop = (video) => {
-    loops.add(video);
     // attributes as well as properties: iOS Safari only autoplays inline when both are there.
     video.muted = true;
     video.setAttribute('muted', '');
@@ -89,32 +81,13 @@
     video.playsInline = true;
     video.setAttribute('playsinline', '');
     video.preload = 'none';
-    video.addEventListener('play', () => syncToggle(video));
-    video.addEventListener('pause', () => syncToggle(video));
     if (loopObserver) loopObserver.observe(video);
     else {
       loadVideo(video);
-      if (shouldPlay(video)) video.play().catch(() => syncToggle(video));
+      if (shouldPlay(video)) video.play().catch(() => { /* the button still says play. */ });
     }
   };
-  const loopToggle = (video, label) => {
-    const toggle = el('button', { type: 'button', class: 'loop-toggle', 'data-label': label, 'aria-label': `play ${label}`, text: 'play' });
-    video.duk_toggle = toggle;
-    toggle.addEventListener('click', () => {
-      loadVideo(video);
-      if (video.paused) {
-        video.dataset.userPaused = 'false';
-        video.play().catch(() => syncToggle(video));
-      } else {
-        video.dataset.userPaused = 'true';
-        video.pause();
-      }
-    });
-    return toggle;
-  };
-  reducedMotion.addEventListener?.('change', () => {
-    loops.forEach((video) => { if (reducedMotion.matches) video.pause(); });
-  });
+  const loopToggle = (video, label) => window.dukLoopToggle(video, label, () => loadVideo(video));
 
   const copyText = async (text, status, done) => {
     try {
@@ -140,7 +113,6 @@
         if (!video.getAttribute('src')) return;
         video.removeEventListener('error', fallBack);
         loopObserver?.unobserve(video);
-        loops.delete(video);
         video.replaceWith(gifImage());
         toggle.remove();
       };

@@ -117,6 +117,51 @@
   // A recorded duk of the day has its own card (s/daily-<date>.html); one not recorded yet uses its meme's.
   window.dukDailyShare = (day) => (day.recorded ? `${site.replace(/\/+$/, '')}/s/daily-${day.date}.html` : window.dukSharePage(day.src));
 
+  // Play/pause for a muted looping video (gifs as mp4): looping motion needs a way to stop it (WCAG 2.2.2).
+  // A pause by hand sticks: data-user-paused='true' keeps the on-screen observers from restarting it.
+  // beforePlay runs before a play by hand (media.js loads its lazy src there).
+  window.dukLoopToggle = (video, label, beforePlay) => {
+    const toggle = document.createElement('button');
+    toggle.type = 'button';
+    toggle.className = 'loop-toggle';
+    const sync = () => {
+      const action = video.paused ? 'play' : 'pause';
+      toggle.textContent = action;
+      toggle.setAttribute('aria-label', `${action} ${label}`);
+    };
+    sync();
+    video.addEventListener('play', sync);
+    video.addEventListener('pause', sync);
+    toggle.addEventListener('click', () => {
+      if (video.paused) {
+        video.dataset.userPaused = 'false';
+        if (beforePlay) beforePlay();
+        video.play().catch(sync);
+      } else {
+        video.dataset.userPaused = 'true';
+        video.pause();
+      }
+    });
+    return toggle;
+  };
+  // Muted loops play while mostly on screen, never with reduced motion or after a pause by hand.
+  const loopStill = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const loopWatch = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => {
+    for (const { target, isIntersecting } of entries) {
+      if (isIntersecting && !loopStill.matches && target.dataset.userPaused !== 'true') target.play().catch(() => { /* poster stays up. */ });
+      else if (!target.paused) target.pause();
+    }
+  }, { threshold: 0.4 }) : null;
+  // Returns false when there's no observer (the caller shows controls instead).
+  window.dukWatchLoop = (video) => {
+    if (!loopWatch) return false;
+    loopWatch.observe(video);
+    return true;
+  };
+  loopStill.addEventListener?.('change', () => {
+    if (loopStill.matches) document.querySelectorAll('video[loop]').forEach((video) => video.pause());
+  });
+
   const links = [['PUMP', 'pump.fun'], ['DEX', 'dexscreener'], ['X', 'x / twitter'], ['X_LIST', 'the list (x)']];
   document.querySelectorAll('[data-links]').forEach((container) => {
     links.forEach(([key, label]) => {
@@ -286,7 +331,7 @@
   }
 
   // Home wall: the newest drops (memes, reaction gifs, clips) in one grid. The first clip is the big tile;
-  // gifs loop muted only while on screen; clips swap their poster for a player on tap.
+  // gifs loop muted only while on screen (with a play/pause button); clips swap their poster for a player on tap.
   const wall = document.querySelector('[data-fresh-wall]');
   if (wall) {
     const make = (tag, attrs = {}, ...children) => {
@@ -301,13 +346,6 @@
       node.append(...children.filter(Boolean));
       return node;
     };
-    const still = window.matchMedia('(prefers-reduced-motion: reduce)');
-    const looping = 'IntersectionObserver' in window && new IntersectionObserver((entries) => {
-      for (const { target, isIntersecting } of entries) {
-        if (isIntersecting && !still.matches) target.play().catch(() => { /* poster stays up. */ });
-        else target.pause();
-      }
-    }, { threshold: 0.4 });
     const caption = (kind, text) => make('p', { class: 'fresh-cap' }, make('span', { class: 'fresh-kind', text: kind }), text || '');
 
     const memeTile = (meme) => make('li', { class: 'fresh-tile is-meme' },
@@ -319,12 +357,16 @@
       const art = gif.mp4
         ? make('video', { muted: true, loop: true, playsInline: true, preload: 'none', poster: gif.poster, src: gif.mp4, width: 480, height: 480, 'aria-label': gif.alt || gif.title })
         : make('img', { src: gif.gif, alt: gif.alt || gif.title || '', width: 480, height: 480, loading: 'lazy', decoding: 'async' });
+      let toggle = null;
       if (gif.mp4) {
         art.defaultMuted = true;
-        if (looping) looping.observe(art);
+        if (window.dukWatchLoop(art)) toggle = window.dukLoopToggle(art, gif.title || 'reaction gif');
       }
+      // The button sits beside the link (a button inside a link is invalid), over the frame's corner.
       return make('li', { class: 'fresh-tile is-gif' },
-        make('a', { class: 'fresh-frame', href: `stickers.html#gif-${(gif.gif || gif.mp4).split('/').pop().replace(/\.[^.]+$/, '').replace(/[^\w-]+/g, '-')}`, 'aria-label': `${gif.title || 'reaction gif'}: get it with the other gifs` }, art),
+        make('div', { class: 'fresh-hold' },
+          make('a', { class: 'fresh-frame', href: `stickers.html#gif-${(gif.gif || gif.mp4).split('/').pop().replace(/\.[^.]+$/, '').replace(/[^\w-]+/g, '-')}`, 'aria-label': `${gif.title || 'reaction gif'}: get it with the other gifs` }, art),
+          toggle),
         caption('gif', gif.title));
     };
 

@@ -10,8 +10,6 @@
 .media-outro { display: flex; align-items: center; gap: 22px; border-top: 3px solid #111; margin-block: 30px 70px; padding-top: 26px; }
 .media-outro img { width: 150px; height: auto; flex: none; object-fit: contain; transform: rotate(-3deg); }
 .media-outro p { font-size: 24px; letter-spacing: -.7px; flex: 1; }
-.loop-toggle { position: absolute; right: 6px; bottom: 6px; min-width: 44px; min-height: 30px; padding: 2px 9px; border: 2px solid #111; border-radius: 2px 5px 2px 4px; background: white; font-size: 12px; line-height: 1; }
-.loop-toggle:hover { background: #ff7f27; }
 
 /* stickers: the how-to card */
 .sticker-howto { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 18px 50px; align-items: start; margin-block: 58px 10px; padding: 28px 32px; border: 3px solid #111; border-radius: 4px 9px 3px 7px; background: #fff9e7; transform: rotate(-.4deg); }

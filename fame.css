@@ -8,7 +8,7 @@
 .fame-card::before { content: ''; position: absolute; top: -12px; left: 50%; width: 70px; height: 22px; margin-left: -35px; background: rgba(255, 249, 231, .85); border: 2px solid #111; transform: rotate(-4deg); }
 .fame-card.is-linked { outline: 4px dashed #ff7f27; outline-offset: 6px; }
 .fame-number { position: absolute; top: -13px; left: -8px; z-index: 1; border: 2px solid #111; background: #ff7f27; padding: 2px 9px; font-size: 13px; font-weight: bold; border-radius: 2px 5px 3px 4px; transform: rotate(-5deg); }
-.fame-art { display: block; border: 2px solid #111; background: #00a2e8; }
+.fame-art { position: relative; display: block; border: 2px solid #111; background: #00a2e8; }
 .fame-art img, .fame-video { display: block; width: 100%; height: auto; max-height: 520px; object-fit: contain; background: #00a2e8; }
 .fame-body { padding: 12px 4px 0; }
 .fame-caption { font-size: 18px; line-height: 1.35; font-weight: bold; overflow-wrap: anywhere; }
