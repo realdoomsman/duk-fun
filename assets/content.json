@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T14:56:40Z",
+  "updated": "2026-11-26T15:15:50Z",
   "memes": [
     {
       "file": "090_diversified.png",
@@ -771,6 +771,33 @@
   ],
   "gifs": [
     {
+      "title": "pattern confirmed.",
+      "alt": "A chart line traces the outline of a ducking duck: \"pattern confirmed.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/054_pattern_confirmed.mp4",
+      "gif": "assets/gifs2/054_pattern_confirmed.gif",
+      "poster": "assets/gifs2/posters/054_pattern_confirmed.webp",
+      "created": "2026-11-26T15:15:14Z"
+    },
+    {
+      "title": "there's room down here.",
+      "alt": "DUK flat in THE DUK pose next to an empty chalk outline of another ducking duck: \"there's room down here.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/053_room_down_here.mp4",
+      "gif": "assets/gifs2/053_room_down_here.gif",
+      "poster": "assets/gifs2/posters/053_room_down_here.webp",
+      "created": "2026-11-26T15:15:14Z"
+    },
+    {
+      "title": "gm. i mean duk.",
+      "alt": "A phone screen: \"gm\" gets deleted and replaced with \"duk.\": the proper greeting.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/052_gm_duk_typed.mp4",
+      "gif": "assets/gifs2/052_gm_duk_typed.gif",
+      "poster": "assets/gifs2/posters/052_gm_duk_typed.webp",
+      "created": "2026-11-26T15:15:14Z"
+    },
+    {
       "title": "food coma.",
       "alt": "DUK, very full, lies flat in THE DUK pose while little z's float up: \"food coma.\"",
       "tag": "reaction",
@@ -904,33 +931,6 @@
       "gif": "assets/gifs2/037_heard.gif",
       "poster": "assets/gifs2/posters/037_heard.webp",
       "created": "2026-11-26T13:15:02Z"
-    },
-    {
-      "title": "pattern confirmed.",
-      "alt": "pattern confirmed.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/054_pattern_confirmed.mp4",
-      "gif": "assets/gifs2/054_pattern_confirmed.gif",
-      "poster": "assets/gifs2/posters/054_pattern_confirmed.webp",
-      "created": "2026-11-26T12:49:20Z"
-    },
-    {
-      "title": "room down here.",
-      "alt": "room down here.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/053_room_down_here.mp4",
-      "gif": "assets/gifs2/053_room_down_here.gif",
-      "poster": "assets/gifs2/posters/053_room_down_here.webp",
-      "created": "2026-11-26T12:48:43Z"
-    },
-    {
-      "title": "gm typed.",
-      "alt": "gm typed.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/052_gm_duk_typed.mp4",
-      "gif": "assets/gifs2/052_gm_duk_typed.gif",
-      "poster": "assets/gifs2/posters/052_gm_duk_typed.webp",
-      "created": "2026-11-26T12:48:42Z"
     },
     {
       "title": "hotter than expected.",
@@ -1250,6 +1250,36 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/042_plenty_of_floor.mp4",
+      "poster": "assets/clips2/042_plenty_of_floor.webp",
+      "title": "there's plenty of floor down here. pull up a spot. $duk",
+      "alt": "Wide shot. DUK lies in THE DUK pose at one end of a very long, very empty floor. Paint chalk outlines of more ducking ducks appear one by one along the floor, all empty spots. \"reserved.\" \"reserved.\" \"yours.\" \"plenty of floor down here.\"",
+      "created": "2026-11-26T15:15:14Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/041_how_we_say_gm.mp4",
+      "poster": "assets/clips2/041_how_we_say_gm.webp",
+      "title": "how we say gm here.",
+      "alt": "Close-up of a phone. Someone types \"gm\", stops, deletes it, and types \"duk.\" Send. Replies roll in: \"duk.\" \"duk.\" \"duk.\" DUK stares at you over the phone: \"how we say gm here.\"",
+      "created": "2026-11-26T15:15:14Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/040_the_duk_pattern.mp4",
+      "poster": "assets/clips2/040_the_duk_pattern.webp",
+      "title": "new chart pattern just dropped. technical analysts call it the duk. $duk",
+      "alt": "A chalk-style chart on a board: \"technical analysis.\" The price line draws itself slowly... and it traces the exact outline of DUK lying flat in THE DUK pose. Label appears: \"the duk.\" DUK himself lies under the board in the same pose: \"pattern confirmed.\"",
+      "created": "2026-11-26T15:15:14Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/039_food_coma.mp4",
       "poster": "assets/clips2/039_food_coma.webp",
       "title": "food coma or market coma. from down here it looks the same.",
@@ -1370,36 +1400,6 @@
       "height": 1080
     },
     {
-      "src": "assets/clips2/042_plenty_of_floor.mp4",
-      "poster": "assets/clips2/042_plenty_of_floor.webp",
-      "title": "plenty of floor.",
-      "alt": "plenty of floor.",
-      "created": "2026-11-26T12:49:20Z",
-      "duration": 12.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/041_how_we_say_gm.mp4",
-      "poster": "assets/clips2/041_how_we_say_gm.webp",
-      "title": "how we say gm.",
-      "alt": "how we say gm.",
-      "created": "2026-11-26T12:49:18Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/040_the_duk_pattern.mp4",
-      "poster": "assets/clips2/040_the_duk_pattern.webp",
-      "title": "the pattern.",
-      "alt": "the pattern.",
-      "created": "2026-11-26T12:49:16Z",
-      "duration": 12.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
       "src": "assets/clips2/027_green_muscle_memory.mp4",
       "poster": "assets/clips2/027_green_muscle_memory.webp",
       "title": "almost everything was green today. he ducked the green candle anyway. $duk",
@@ -1444,6 +1444,16 @@
       "poster": "assets/clips2/023_bottoms_in_chorus.webp",
       "title": "everyone says the bottom is in. he's checking from down here. $duk",
       "alt": "DUK lies flat while speech bubbles pile up all over the screen: \"bottom's in\", \"generational\", \"final flush\", \"it's so over\", \"we are so back\". They all vanish at once. Silence. \"he'll get up when he gets up.\"",
+      "created": "2026-11-26T12:15:11Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/022_market_got_back_up.mp4",
+      "poster": "assets/clips2/022_market_got_back_up.webp",
+      "title": "the market got back up. he got up too. briefly.",
+      "alt": "DUK lies flat under a green \"the market got back up.\" sign. He gets up slowly, in three awkward steps, stands, looks around... and lies straight back down: \"just in case.\"",
       "created": "2026-11-26T12:15:11Z",
       "duration": 12.0,
       "width": 1080,
