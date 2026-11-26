@@ -262,17 +262,22 @@ def git(*args: str) -> subprocess.CompletedProcess:
 
 
 def push(summary: str) -> None:
-    git('add', '-A', '--', *PUBLISHED)
-    if not git('diff', '--cached', '--quiet', '--', *PUBLISHED).returncode:
+    if (SITE / '.git' / 'rebase-merge').exists() or (SITE / '.git' / 'rebase-apply').exists():
+        raise SystemExit('a rebase is in progress in site/; skipping this push')
+    paths = [path for path in PUBLISHED if (SITE / path).exists() or git('ls-files', '--', path).stdout.strip()]
+    git('add', '-A', '--', *paths)
+    if not git('diff', '--cached', '--quiet', '--', *paths).returncode:
         print('nothing new to push')
         return
     # Commit only the synced paths, whatever else is staged or edited in the worktree.
-    result = git('commit', '-m', f'content: {summary}', '--', *PUBLISHED)
+    result = git('commit', '-m', f'content: {summary}', '--', *paths)
     if result.returncode:
         raise SystemExit(f'commit failed: {result.stderr or result.stdout}')
     result = git('pull', '--rebase', '--autostash')
     if result.returncode:
-        raise SystemExit(f'pull failed: {result.stderr or result.stdout}')
+        # Leave the worktree as it was; the commit stays local and goes out with the next run.
+        git('rebase', '--abort')
+        raise SystemExit(f'pull failed, rebase aborted: {result.stderr or result.stdout}')
     result = git('push')
     if result.returncode:
         raise SystemExit(f'push failed: {result.stderr or result.stdout}')

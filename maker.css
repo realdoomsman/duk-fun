@@ -1,4 +1,6 @@
 /* A paint box, not a design app. Everything stays inside the maker. */
+/* Comic Neue bold (SIL OFL, assets/fonts/OFL.txt): the canvas text on devices without Comic Sans. */
+@font-face { font-family: "duk paint"; src: url("assets/fonts/comic-neue-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
 #maker-tool {
   min-width: 0;
   font-family: "Comic Sans MS", "Comic Sans", Arial, sans-serif;

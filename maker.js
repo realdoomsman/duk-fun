@@ -8,7 +8,7 @@
   const TEXT_WIDTH = 872;
   const TEXT_MAX_HEIGHT = 220;
   const MAX_STICKERS = 12;
-  const SHARE_TAIL = 'just duk. $DUK https://duk.fun/maker.html';
+  const SHARE_TAIL = 'just duk. $duk https://duk.fun/maker.html';
 
   const sprite = (label, file, group) => ({ label, src: `assets/${file}`, kind: 'sprite', group, tag: null, number: '', alt: '' });
   const quickMeme = (label, file, number, tag) => ({ label, src: `assets/memes/${file}`, kind: 'meme', group: 'meme', tag, number, alt: '' });
@@ -319,8 +319,14 @@
     return onWhite > onBlack ? '#ffffff' : '#111111';
   }
 
+  // Comic Sans where the system has it (the paint art uses comicbd); everywhere else (android, ios)
+  // the bundled Comic Neue bold, so phones don't fall back to Arial. Canvas never fetches a webfont
+  // by itself, so it is loaded up front and every base load waits for it.
+  const fontReady = document.fonts && document.fonts.load
+    ? document.fonts.load('bold 40px "duk paint"').catch(() => null)
+    : Promise.resolve();
   function setFont(size) {
-    context.font = `bold ${size}px "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", Arial, sans-serif`;
+    context.font = `bold ${size}px "Comic Sans MS", "Comic Sans", "duk paint", Arial, sans-serif`;
   }
 
   // Lowercase, at most four typed lines; extra lines are joined rather than dropped.
@@ -721,7 +727,7 @@
     updateDownload();
     render();
 
-    Promise.all(selection.sources.map(loadImage)).then(images => {
+    Promise.all([Promise.all(selection.sources.map(loadImage)), fontReady]).then(([images]) => {
       if (version !== loadVersion) return;
       state.loaded = { combo: isCombo, images };
       canvas.setAttribute('aria-busy', 'false');

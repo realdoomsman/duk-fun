@@ -167,7 +167,8 @@
     clocks.forEach((clock) => {
       const local = clock.querySelector('[data-duk-clock-local]');
       if (local) {
-        const at = new Date(Date.UTC(2000, 0, 1, dukHour, dukMinute));
+        // Today's (or tomorrow's) actual moment, so daylight saving shifts show correctly.
+        const at = new Date(moment().next);
         local.textContent = `that's ${at.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }).toLowerCase()} where you are.`;
       }
     });
