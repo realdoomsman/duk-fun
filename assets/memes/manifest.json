@@ -2,27 +2,27 @@
   {
     "file": "01_liquidation.png",
     "caption": "just duk.",
-    "alt": "A LIQUIDATED notice flies over DUK, who is flat on the floor staring at you."
+    "alt": "A liquidation notice arrives from the right while the duck hugs the floor in side profile, looking blankly out at you."
   },
   {
     "file": "02_rent.png",
     "caption": "rent's due. duk.",
-    "alt": "A huge RENT DUE bill sails over the duck sheltering under his feathered wing."
+    "alt": "Outside a crude apartment door, a RENT DUE bill passes over DUK seen from behind, with his rump up and face peeking back."
   },
   {
     "file": "03_the_bottom.png",
     "caption": "they said this was the bottom.",
-    "alt": "A tweet claiming this is the bottom flies above the duck already on the floor."
+    "alt": "A bottom-call tweet passes above an enormous duck face squashed against the floor, wings over the head."
   },
   {
     "file": "04_the_ex.png",
     "caption": "new number. same duk.",
-    "alt": "A phone with a u up? message flies over the unbothered duck."
+    "alt": "A u up? phone arrives from the left above a bed; a huge duck shelters with his body and bill running off the frame."
   },
   {
     "file": "05_monday.png",
     "caption": "monday. duk.",
-    "alt": "A Monday 6:00 alarm clock flies over the duck in his protective floor pose."
+    "alt": "A Monday alarm clock rings beside a bed seen from above; DUK spreads his feathered wings over his head on the mattress."
   },
   {
     "file": "06_tax_letter.png",
@@ -30,14 +30,14 @@
     "alt": "A tax letter demands payment despite income of zero; DUK takes cover on the floor."
   },
   {
-    "file": "07_dev_wallet.png",
-    "caption": "dev believed in the project.",
-    "alt": "A dev wallet sold 100% notice passes over the duck, who has already ducked."
+    "file": "07_whale_sold.png",
+    "caption": "whale sold. duk.",
+    "alt": "A whale selling market order looms over a small top-down duck hiding under his feather fans."
   },
   {
     "file": "08_capitulation.png",
     "caption": "final final capitulation.",
-    "alt": "A headline announces final capitulation again while the duck remains on the floor."
+    "alt": "Final capitulation is announced again while a huge, separately drawn duck runs off both edges of the frame."
   },
   {
     "file": "09_unlock_schedule.png",
@@ -47,7 +47,7 @@
   {
     "file": "10_fud_article.png",
     "caption": "read enough. duk.",
-    "alt": "An article saying it is over with source trust me flies above the duck taking cover."
+    "alt": "A giant source trust me article passes over a small rear-view duck, whose face peeks back around his raised rump."
   },
   {
     "file": "11_ducked.png",
@@ -118,5 +118,35 @@
     "file": "24_missed_the_alarm.png",
     "caption": "",
     "alt": "No caption: the Monday alarm clock has hit the duck, leaving him flattened with X eyes and two feathers floating away."
+  },
+  {
+    "file": "25_trading_desk.png",
+    "caption": "risk management.",
+    "alt": "Six trading monitors all show crashing red charts. DUK hides on the floor beneath the entire desk, seen from above."
+  },
+  {
+    "file": "26_street_candle.png",
+    "caption": "still here.",
+    "alt": "On a crude city street, a giant red candle crashes into the road inches from the duck lying safely in side profile."
+  },
+  {
+    "file": "27_gm_rain.png",
+    "caption": "good morning.",
+    "alt": "Three huge gm tweets rain down from different sides while an enormous duck shelters half outside the frame."
+  },
+  {
+    "file": "28_panic_crowd.png",
+    "caption": "panic is optional.",
+    "alt": "Four panicking stick-figure traders run with their arms in the air while DUK calmly presses his face flat to the floor beneath them."
+  },
+  {
+    "file": "29_casino.png",
+    "caption": "house always wins. duk.",
+    "alt": "A green casino table marked leverage has dice and red chips on it. The duck takes cover underneath instead of gambling."
+  },
+  {
+    "file": "30_cold_front.png",
+    "caption": "stay low.",
+    "alt": "A crude green weather map has a red cold front made of crashing candles. The forecast says 100% chance of duk; the duck shelters in the southeast."
   }
 ]

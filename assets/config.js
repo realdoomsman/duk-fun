@@ -6,7 +6,7 @@ window.DUK_CONFIG = {
   TG: '',
   PUMP: '',
   DEX: '',
-  SITE: '',
+  SITE: 'https://duk.fun',
   KEEPER_URL: '', // Public keeper origin; /log supplies floor totals and burn transactions.
   memes: [
     { src: 'assets/memes/duk.png', title: 'just duk.', alt: 'a red chart falls. duk is already on the floor.' },
