@@ -1482,7 +1482,7 @@
       "tag": "cult",
       "mp4": "assets/gifs/01_duk_slam.mp4",
       "gif": "assets/gifs/01_duk_slam.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/01_duk_slam.webp"
     },
     {
       "title": "slow blink",
@@ -1490,7 +1490,7 @@
       "tag": "reaction",
       "mp4": "assets/gifs/02_slow_blink.mp4",
       "gif": "assets/gifs/02_slow_blink.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/02_slow_blink.webp"
     },
     {
       "title": "duk (whoosh)",
@@ -1498,7 +1498,7 @@
       "tag": "dodge",
       "mp4": "assets/gifs/03_whoosh.mp4",
       "gif": "assets/gifs/03_whoosh.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/03_whoosh.webp"
     },
     {
       "title": "get up.",
@@ -1506,7 +1506,7 @@
       "tag": "cult",
       "mp4": "assets/gifs/04_get_up.mp4",
       "gif": "assets/gifs/04_get_up.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/04_get_up.webp"
     },
     {
       "title": "noted.",
@@ -1514,7 +1514,7 @@
       "tag": "reaction",
       "mp4": "assets/gifs/05_noted.mp4",
       "gif": "assets/gifs/05_noted.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/05_noted.webp"
     },
     {
       "title": "no.",
@@ -1522,7 +1522,7 @@
       "tag": "reaction",
       "mp4": "assets/gifs/06_no.mp4",
       "gif": "assets/gifs/06_no.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/06_no.webp"
     },
     {
       "title": "ok.",
@@ -1530,7 +1530,7 @@
       "tag": "reaction",
       "mp4": "assets/gifs/07_ok_sign.mp4",
       "gif": "assets/gifs/07_ok_sign.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/07_ok_sign.webp"
     },
     {
       "title": "sweating",
@@ -1538,7 +1538,7 @@
       "tag": "market",
       "mp4": "assets/gifs/08_sweating.mp4",
       "gif": "assets/gifs/08_sweating.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/08_sweating.webp"
     },
     {
       "title": "timber",
@@ -1546,7 +1546,7 @@
       "tag": "life",
       "mp4": "assets/gifs/09_fall_over.mp4",
       "gif": "assets/gifs/09_fall_over.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/09_fall_over.webp"
     },
     {
       "title": "anyway.",
@@ -1554,7 +1554,7 @@
       "tag": "reaction",
       "mp4": "assets/gifs/10_waddle.mp4",
       "gif": "assets/gifs/10_waddle.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/10_waddle.webp"
     },
     {
       "title": "peek",
@@ -1562,7 +1562,7 @@
       "tag": "reaction",
       "mp4": "assets/gifs/11_peek.mp4",
       "gif": "assets/gifs/11_peek.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/11_peek.webp"
     },
     {
       "title": "duk. duk.",
@@ -1570,7 +1570,7 @@
       "tag": "cult",
       "mp4": "assets/gifs/12_bow.mp4",
       "gif": "assets/gifs/12_bow.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/12_bow.webp"
     },
     {
       "title": "popcorn",
@@ -1578,7 +1578,7 @@
       "tag": "reaction",
       "mp4": "assets/gifs/13_popcorn.mp4",
       "gif": "assets/gifs/13_popcorn.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/13_popcorn.webp"
     },
     {
       "title": "fees go in the pool",
@@ -1586,7 +1586,7 @@
       "tag": "pool",
       "mp4": "assets/gifs/14_pool.mp4",
       "gif": "assets/gifs/14_pool.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/14_pool.webp"
     },
     {
       "title": "typing",
@@ -1594,7 +1594,7 @@
       "tag": "life",
       "mp4": "assets/gifs/15_typing.mp4",
       "gif": "assets/gifs/15_typing.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/15_typing.webp"
     },
     {
       "title": "unbothered",
@@ -1602,7 +1602,7 @@
       "tag": "dodge",
       "mp4": "assets/gifs/16_chaos.mp4",
       "gif": "assets/gifs/16_chaos.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/16_chaos.webp"
     },
     {
       "title": "gm",
@@ -1610,7 +1610,7 @@
       "tag": "cult",
       "mp4": "assets/gifs/17_gm.mp4",
       "gif": "assets/gifs/17_gm.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/17_gm.webp"
     },
     {
       "title": "gn",
@@ -1618,7 +1618,7 @@
       "tag": "cult",
       "mp4": "assets/gifs/18_gn.mp4",
       "gif": "assets/gifs/18_gn.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/18_gn.webp"
     },
     {
       "title": "mind blown",
@@ -1626,7 +1626,7 @@
       "tag": "reaction",
       "mp4": "assets/gifs/19_mind_blown.mp4",
       "gif": "assets/gifs/19_mind_blown.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/19_mind_blown.webp"
     },
     {
       "title": "ha.",
@@ -1634,7 +1634,7 @@
       "tag": "reaction",
       "mp4": "assets/gifs/20_ha.mp4",
       "gif": "assets/gifs/20_ha.gif",
-      "poster": null
+      "poster": "assets/gifs/thumbs/20_ha.webp"
     }
   ],
   "kit": {

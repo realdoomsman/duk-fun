@@ -151,6 +151,10 @@ for stem, entry in gifs.items():
 # packs' webm stickers; they're attached to those stickers instead of listed as reaction gifs.
 sticker_exports = {Path(stem).name: entry for stem, entry in gifs.items() if entry['tag'] == 'sticker'}
 media['gifs'] = [entry for entry in gifs.values() if entry['tag'] != 'sticker' and (entry['mp4'] or entry['gif'])]
+# First-frame posters so the looping mp4s show something before they load.
+for entry in media['gifs']:
+    if not entry['poster'] and entry['gif']:
+        entry['poster'] = thumbnail(entry['gif'])
 
 # The kit is grouped by its first folder: templates/, pfp/, wallpapers/, banners/.
 for item in collection('kit'):
