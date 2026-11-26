@@ -3,6 +3,8 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **remix it**: archive dialog button opens maker.html?base=<meme src>#maker with that meme picked as the base.
+- **404.html** (paint style, links home/memes/maker), robots.txt, sitemap.xml. reaction gifs got first-frame webp posters.
 - **speed**: 480px webp thumbs for every meme grid (archive, cult, pool, maker, home) and 320px webp sticker previews,
   made by copy-assets.py / sync-content.py; downloads keep the original png. Static sticker previews ~5.4MB -> 1.4MB.
 - **mobile**: every page checked at 390px in chromium (no horizontal overflow); watch keeps two clip columns on phones.
