@@ -3,7 +3,7 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
-- **picture into the post** (memes dialog + duk of the day): mouse screens get "copy image" (png to the clipboard, paste
+- **picture into the post** (memes dialog, comics dialog, duk of the day): mouse screens get "copy image" (png to the clipboard, paste
   into the x draft), touch screens get "share" (the png + the post words to the share sheet: x app, telegram, messages).
   One shows, whichever the browser supports. Shared helper app.js `dukPictureButtons(share, copy, piece)`;
   `dukPostText` is the post words, `dukPostHref` wraps it as the x draft.

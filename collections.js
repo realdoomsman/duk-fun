@@ -38,6 +38,11 @@
 
     const postFor = (strip) => window.dukPostHref(strip.title, strip.src);
     const downloadName = (strip) => `duk-comic-${strip.number}-${baseName(strip.src)}`;
+    // copy image (mouse) / share with the strip (touch) in the dialog, from app.js.
+    const preparePicture = window.dukPictureButtons($('comics-dialog-share'), $('comics-dialog-copy'), () => {
+      const strip = strips[current];
+      return strip && { src: strip.src, name: downloadName(strip).replace(/\.[^.]+$/, ''), text: window.dukPostText(strip.title, strip.src) };
+    });
 
     function renderStrip(strip, position) {
       const titleId = `${strip.id}-title`;
@@ -81,6 +86,7 @@
       save.href = strip.src;
       save.download = downloadName(strip);
       $('comics-dialog-post').href = postFor(strip);
+      preparePicture(strip.src);
     }
 
     function openDialog(position) {
