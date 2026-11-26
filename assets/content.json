@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-26T15:15:50Z",
+  "updated": "2026-11-26T15:46:06Z",
   "memes": [
+    {
+      "file": "094_hopium_empty.png",
+      "src": "assets/memes4/094_hopium_empty.png",
+      "thumb": "assets/memes4/thumbs/094_hopium_empty.webp",
+      "title": "the hopium station is empty again. he never queued. $duk",
+      "alt": "duk reacting to ct running low on hopium after the red month. the hopium station is empty again. he never queued. $duk",
+      "tag": "market",
+      "created": "2026-11-26T15:30:05Z"
+    },
+    {
+      "file": "093_stables.png",
+      "src": "assets/memes4/093_stables.png",
+      "thumb": "assets/memes4/thumbs/093_stables.webp",
+      "title": "the whole market is hiding in stables. he picked the one with hay.",
+      "alt": "duk reacting to traders moving into stablecoins to wait out the red month. the whole market is hiding in stables. he picked the one with hay.",
+      "tag": "market",
+      "created": "2026-11-26T15:30:05Z"
+    },
+    {
+      "file": "092_pnl_card.png",
+      "src": "assets/memes4/092_pnl_card.png",
+      "thumb": "assets/memes4/thumbs/092_pnl_card.webp",
+      "title": "nobody is posting pnl cards this month. he still posts his.",
+      "alt": "duk reacting to pnl cards went quiet on ct after the red month. nobody is posting pnl cards this month. he still posts his.",
+      "tag": "market",
+      "created": "2026-11-26T15:30:05Z"
+    },
+    {
+      "file": "091_one_post.png",
+      "src": "assets/memes4/091_one_post.png",
+      "thumb": "assets/memes4/thumbs/091_one_post.webp",
+      "title": "everyone is writing long threads about what went wrong. his is shorter. $duk",
+      "alt": "duk reacting to ct writing long post-mortem threads on what went wrong this month. everyone is writing long threads about what went wrong. his is shorter. $duk",
+      "tag": "market",
+      "created": "2026-11-26T15:30:05Z"
+    },
     {
       "file": "090_diversified.png",
       "src": "assets/memes4/090_diversified.png",
@@ -771,6 +807,222 @@
   ],
   "gifs": [
     {
+      "title": "not up.",
+      "alt": "Night. A phone buzzes next to DUK lying flat in THE DUK pose: \"not up.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/058_not_up.mp4",
+      "gif": "assets/gifs2/058_not_up.gif",
+      "poster": "assets/gifs2/posters/058_not_up.webp",
+      "created": "2026-11-26T15:45:03Z"
+    },
+    {
+      "title": "pardoned.",
+      "alt": "A turkey gets a big red \"pardoned.\" stamp. DUK lies next to it in THE DUK pose, staring.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/057_pardoned.mp4",
+      "gif": "assets/gifs2/057_pardoned.gif",
+      "poster": "assets/gifs2/posters/057_pardoned.webp",
+      "created": "2026-11-26T15:45:03Z"
+    },
+    {
+      "title": "never touched it.",
+      "alt": "A red dodgeball flies over DUK lying in THE DUK pose: \"never touched it.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/056_never_touched_it.mp4",
+      "gif": "assets/gifs2/056_never_touched_it.gif",
+      "poster": "assets/gifs2/posters/056_never_touched_it.webp",
+      "created": "2026-11-26T15:45:03Z"
+    },
+    {
+      "title": "absolutely not.",
+      "alt": "DUK standing, staring. Then instantly flat in THE DUK pose: \"absolutely not.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/055_absolutely_not.mp4",
+      "gif": "assets/gifs2/055_absolutely_not.gif",
+      "poster": "assets/gifs2/posters/055_absolutely_not.webp",
+      "created": "2026-11-26T15:45:03Z"
+    },
+    {
+      "title": "no side.",
+      "alt": "no side.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/079_no_side.mp4",
+      "gif": "assets/gifs2/079_no_side.gif",
+      "poster": "assets/gifs2/posters/079_no_side.webp",
+      "created": "2026-11-26T15:38:34Z"
+    },
+    {
+      "title": "it will blow over.",
+      "alt": "it will blow over.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/078_it_will_blow_over.mp4",
+      "gif": "assets/gifs2/078_it_will_blow_over.gif",
+      "poster": "assets/gifs2/posters/078_it_will_blow_over.webp",
+      "created": "2026-11-26T15:38:34Z"
+    },
+    {
+      "title": "sat this one out.",
+      "alt": "sat this one out.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/077_sat_this_one_out.mp4",
+      "gif": "assets/gifs2/077_sat_this_one_out.gif",
+      "poster": "assets/gifs2/posters/077_sat_this_one_out.webp",
+      "created": "2026-11-26T15:32:34Z"
+    },
+    {
+      "title": "left hanging.",
+      "alt": "left hanging.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/076_left_hanging.mp4",
+      "gif": "assets/gifs2/076_left_hanging.gif",
+      "poster": "assets/gifs2/posters/076_left_hanging.webp",
+      "created": "2026-11-26T15:32:34Z"
+    },
+    {
+      "title": "you didnt.",
+      "alt": "you didnt.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/075_you_didnt.mp4",
+      "gif": "assets/gifs2/075_you_didnt.gif",
+      "poster": "assets/gifs2/posters/075_you_didnt.webp",
+      "created": "2026-11-26T15:32:34Z"
+    },
+    {
+      "title": "to stay down.",
+      "alt": "to stay down.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/072_to_stay_down.mp4",
+      "gif": "assets/gifs2/072_to_stay_down.gif",
+      "poster": "assets/gifs2/posters/072_to_stay_down.webp",
+      "created": "2026-11-26T15:26:39Z"
+    },
+    {
+      "title": "defense.",
+      "alt": "defense.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/071_defense.mp4",
+      "gif": "assets/gifs2/071_defense.gif",
+      "poster": "assets/gifs2/posters/071_defense.webp",
+      "created": "2026-11-26T15:26:39Z"
+    },
+    {
+      "title": "cant find me.",
+      "alt": "cant find me.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/073_cant_find_me.mp4",
+      "gif": "assets/gifs2/073_cant_find_me.gif",
+      "poster": "assets/gifs2/posters/073_cant_find_me.webp",
+      "created": "2026-11-26T15:26:11Z"
+    },
+    {
+      "title": "no thoughts.",
+      "alt": "no thoughts.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/070_no_thoughts.mp4",
+      "gif": "assets/gifs2/070_no_thoughts.gif",
+      "poster": "assets/gifs2/posters/070_no_thoughts.webp",
+      "created": "2026-11-26T15:24:24Z"
+    },
+    {
+      "title": "lovely parade.",
+      "alt": "lovely parade.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/069_lovely_parade.mp4",
+      "gif": "assets/gifs2/069_lovely_parade.gif",
+      "poster": "assets/gifs2/posters/069_lovely_parade.webp",
+      "created": "2026-11-26T15:24:24Z"
+    },
+    {
+      "title": "we dont talk about it.",
+      "alt": "we dont talk about it.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/068_we_dont_talk_about_it.mp4",
+      "gif": "assets/gifs2/068_we_dont_talk_about_it.gif",
+      "poster": "assets/gifs2/posters/068_we_dont_talk_about_it.webp",
+      "created": "2026-11-26T15:24:23Z"
+    },
+    {
+      "title": "not my bag.",
+      "alt": "not my bag.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/067_not_my_bag.mp4",
+      "gif": "assets/gifs2/067_not_my_bag.gif",
+      "poster": "assets/gifs2/posters/067_not_my_bag.webp",
+      "created": "2026-11-26T15:24:23Z"
+    },
+    {
+      "title": "return to sender.",
+      "alt": "return to sender.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/065_return_to_sender.mp4",
+      "gif": "assets/gifs2/065_return_to_sender.gif",
+      "poster": "assets/gifs2/posters/065_return_to_sender.webp",
+      "created": "2026-11-26T15:22:54Z"
+    },
+    {
+      "title": "under the table.",
+      "alt": "under the table.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/066_under_the_table.mp4",
+      "gif": "assets/gifs2/066_under_the_table.gif",
+      "poster": "assets/gifs2/posters/066_under_the_table.webp",
+      "created": "2026-11-26T15:22:29Z"
+    },
+    {
+      "title": "no comment.",
+      "alt": "no comment.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/064_no_comment.mp4",
+      "gif": "assets/gifs2/064_no_comment.gif",
+      "poster": "assets/gifs2/posters/064_no_comment.webp",
+      "created": "2026-11-26T15:22:29Z"
+    },
+    {
+      "title": "how low.",
+      "alt": "how low.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/063_how_low.mp4",
+      "gif": "assets/gifs2/063_how_low.gif",
+      "poster": "assets/gifs2/posters/063_how_low.webp",
+      "created": "2026-11-26T15:22:29Z"
+    },
+    {
+      "title": "season.",
+      "alt": "season.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/059_duk_season.mp4",
+      "gif": "assets/gifs2/059_duk_season.gif",
+      "poster": "assets/gifs2/posters/059_duk_season.webp",
+      "created": "2026-11-26T15:20:46Z"
+    },
+    {
+      "title": "unbothered.",
+      "alt": "unbothered.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/062_unbothered.mp4",
+      "gif": "assets/gifs2/062_unbothered.gif",
+      "poster": "assets/gifs2/posters/062_unbothered.webp",
+      "created": "2026-11-26T15:20:09Z"
+    },
+    {
+      "title": "over back same.",
+      "alt": "over back same.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/061_over_back_same.mp4",
+      "gif": "assets/gifs2/061_over_back_same.gif",
+      "poster": "assets/gifs2/posters/061_over_back_same.webp",
+      "created": "2026-11-26T15:20:09Z"
+    },
+    {
+      "title": "cant hear you.",
+      "alt": "cant hear you.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/060_cant_hear_you.mp4",
+      "gif": "assets/gifs2/060_cant_hear_you.gif",
+      "poster": "assets/gifs2/posters/060_cant_hear_you.webp",
+      "created": "2026-11-26T15:20:08Z"
+    },
+    {
       "title": "pattern confirmed.",
       "alt": "A chart line traces the outline of a ducking duck: \"pattern confirmed.\"",
       "tag": "reaction",
@@ -1249,6 +1501,206 @@
     }
   ],
   "clips": [
+    {
+      "src": "assets/clips2/045_u_up.mp4",
+      "poster": "assets/clips2/045_u_up.webp",
+      "title": "u up? no. ducking. $duk",
+      "alt": "Night. DUK lies in THE DUK pose on the floor next to a phone that keeps buzzing: \"u up?\" \"hello?\" \"??\". He does not move. He just stares at you: \"no. ducking.\"",
+      "created": "2026-11-26T15:45:03Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/044_dodgeball_tryouts.mp4",
+      "poster": "assets/clips2/044_dodgeball_tryouts.webp",
+      "title": "made the dodgeball team. never touched a ball.",
+      "alt": "A paint gym: \"dodgeball tryouts.\" Red balls fly at DUK one after another. He drops into THE DUK pose under every single one, gets back up, drops again. A clipboard on the wall flips to \"starter.\" DUK stands, blank: \"never touched a ball.\"",
+      "created": "2026-11-26T15:45:03Z",
+      "duration": 13.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/043_turkey_pardon.mp4",
+      "poster": "assets/clips2/043_turkey_pardon.webp",
+      "title": "every year they pardon one turkey. he never needed one. $duk",
+      "alt": "A ceremony banner: \"official turkey pardon.\" A turkey gets a big \"pardoned.\" stamp. Next to it DUK stands there with no paperwork. A roasting pan and a carving fork fly at him; he drops into THE DUK pose and they sail over. He stays down, staring: \"never needed a pardon.\"",
+      "created": "2026-11-26T15:45:03Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/062_tug_of_war.mp4",
+      "poster": "assets/clips2/062_tug_of_war.webp",
+      "title": "tug of war.",
+      "alt": "tug of war.",
+      "created": "2026-11-26T15:38:33Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/061_leaf_blower.mp4",
+      "poster": "assets/clips2/061_leaf_blower.webp",
+      "title": "leaf blower.",
+      "alt": "leaf blower.",
+      "created": "2026-11-26T15:38:32Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/060_stadium_wave.mp4",
+      "poster": "assets/clips2/060_stadium_wave.webp",
+      "title": "stadium wave.",
+      "alt": "stadium wave.",
+      "created": "2026-11-26T15:33:04Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/059_the_high_five.mp4",
+      "poster": "assets/clips2/059_the_high_five.webp",
+      "title": "the high five.",
+      "alt": "the high five.",
+      "created": "2026-11-26T15:32:31Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/058_pie_incoming.mp4",
+      "poster": "assets/clips2/058_pie_incoming.webp",
+      "title": "pie incoming.",
+      "alt": "pie incoming.",
+      "created": "2026-11-26T15:32:29Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/056_the_wishbone.mp4",
+      "poster": "assets/clips2/056_the_wishbone.webp",
+      "title": "the wishbone.",
+      "alt": "the wishbone.",
+      "created": "2026-11-26T15:26:53Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/055_thanksgiving_football.mp4",
+      "poster": "assets/clips2/055_thanksgiving_football.webp",
+      "title": "thanksgiving football.",
+      "alt": "thanksgiving football.",
+      "created": "2026-11-26T15:26:37Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/057_market_hide_and_seek.mp4",
+      "poster": "assets/clips2/057_market_hide_and_seek.webp",
+      "title": "market hide and seek.",
+      "alt": "market hide and seek.",
+      "created": "2026-11-26T15:26:10Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/052_not_my_bag.mp4",
+      "poster": "assets/clips2/052_not_my_bag.webp",
+      "title": "not my bag.",
+      "alt": "not my bag.",
+      "created": "2026-11-26T15:24:46Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/054_parade_balloon.mp4",
+      "poster": "assets/clips2/054_parade_balloon.webp",
+      "title": "parade balloon.",
+      "alt": "parade balloon.",
+      "created": "2026-11-26T15:24:23Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/053_the_therapist.mp4",
+      "poster": "assets/clips2/053_the_therapist.webp",
+      "title": "the therapist.",
+      "alt": "the therapist.",
+      "created": "2026-11-26T15:24:20Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/050_limbo_night.mp4",
+      "poster": "assets/clips2/050_limbo_night.webp",
+      "title": "limbo night.",
+      "alt": "limbo night.",
+      "created": "2026-11-26T15:23:04Z",
+      "duration": 13.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/051_the_tax_letter.mp4",
+      "poster": "assets/clips2/051_the_tax_letter.webp",
+      "title": "the tax letter.",
+      "alt": "the tax letter.",
+      "created": "2026-11-26T15:22:53Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/049_uncle_asks.mp4",
+      "poster": "assets/clips2/049_uncle_asks.webp",
+      "title": "uncle asks.",
+      "alt": "uncle asks.",
+      "created": "2026-11-26T15:22:50Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/048_over_and_back.mp4",
+      "poster": "assets/clips2/048_over_and_back.webp",
+      "title": "over and back.",
+      "alt": "over and back.",
+      "created": "2026-11-26T15:21:06Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/047_gm_from_the_seller.mp4",
+      "poster": "assets/clips2/047_gm_from_the_seller.webp",
+      "title": "gm from the seller.",
+      "alt": "gm from the seller.",
+      "created": "2026-11-26T15:20:44Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/046_rent_is_due.mp4",
+      "poster": "assets/clips2/046_rent_is_due.webp",
+      "title": "rent is due.",
+      "alt": "rent is due.",
+      "created": "2026-11-26T15:20:05Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
     {
       "src": "assets/clips2/042_plenty_of_floor.mp4",
       "poster": "assets/clips2/042_plenty_of_floor.webp",
