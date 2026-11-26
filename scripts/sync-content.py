@@ -311,10 +311,12 @@ def push(summary: str) -> None:
     result = git('commit', '-m', f'content: {summary}', '--', *paths)
     if result.returncode:
         raise SystemExit(f'commit failed: {result.stderr or result.stdout}')
-    # Push straight away; only a rejected push (the remote moved) pulls. --autostash touches the whole worktree,
-    # so it must not run while someone is mid-edit or copy-assets.py is rebuilding assets/ unless it has to.
+    # Push straight away; only a rejected push (the remote moved) pulls, and only into a clean worktree: stashing
+    # someone's edits or a copy-assets.py rebuild mid-way and popping it back can lose files.
     if git('push').returncode:
-        result = git('pull', '--rebase', '--autostash')
+        if git('status', '--porcelain').stdout.strip():
+            raise SystemExit('remote is ahead and the worktree is busy; the commit stays local for the next run')
+        result = git('pull', '--rebase')
         if result.returncode:
             # Leave the worktree as it was; the commit stays local and goes out with the next run.
             git('rebase', '--abort')

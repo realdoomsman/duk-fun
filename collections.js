@@ -222,6 +222,8 @@
           describe(w, h);
           image.closest('.kit-card').classList.add(w < h ? 'is-portrait' : 'is-landscape');
         };
+        // Known sizes show straight away; the rest wait for the image (the portrait/landscape class can wait either way).
+        if (sized) describe(item.width, item.height);
         image.addEventListener('load', measure, { once: true });
         thumb = el('a', { class: 'kit-thumb', href: item.src, target: '_blank', rel: 'noopener', 'aria-label': `open ${item.title} full size` }, [image]);
       }

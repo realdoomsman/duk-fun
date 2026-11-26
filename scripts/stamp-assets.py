@@ -29,6 +29,7 @@ def main() -> None:
         if stamped != text:
             page.write_bytes(stamped.encode('utf-8'))
             changed.append(page.name)
+    print(f"stamped: {', '.join(changed) if changed else 'nothing changed'}")
 
 
 if __name__ == '__main__':
