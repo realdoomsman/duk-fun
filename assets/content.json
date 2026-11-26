@@ -1,6 +1,51 @@
 {
-  "updated": "2026-11-26T17:16:02Z",
+  "updated": "2026-11-26T18:01:02Z",
   "memes": [
+    {
+      "file": "109_stop_hunt.png",
+      "src": "assets/memes4/109_stop_hunt.png",
+      "thumb": "assets/memes4/thumbs/109_stop_hunt.webp",
+      "title": "stop hunts all week. he never set one.",
+      "alt": "duk reacting to ct complaining about stop hunts and wicks. stop hunts all week. he never set one.",
+      "tag": "market",
+      "created": "2026-11-26T17:45:07Z"
+    },
+    {
+      "file": "108_ground_bound.png",
+      "src": "assets/memes4/108_ground_bound.png",
+      "thumb": "assets/memes4/thumbs/108_ground_bound.webp",
+      "title": "the market is stuck in a range. he has been stuck to the ground longer. $duk",
+      "alt": "duk reacting to analysts say the market is stuck in a range. the market is stuck in a range. he has been stuck to the ground longer. $duk",
+      "tag": "market",
+      "created": "2026-11-26T17:45:07Z"
+    },
+    {
+      "file": "107_fomo_fud.png",
+      "src": "assets/memes4/107_fomo_fud.png",
+      "thumb": "assets/memes4/thumbs/107_fomo_fud.webp",
+      "title": "fomo from one side. fud from the other. just duk.",
+      "alt": "duk reacting to ct flipping between fomo and fud all week. fomo from one side. fud from the other. just duk.",
+      "tag": "market",
+      "created": "2026-11-26T17:45:07Z"
+    },
+    {
+      "file": "106_nothing_happens.png",
+      "src": "assets/memes4/106_nothing_happens.png",
+      "thumb": "assets/memes4/thumbs/106_nothing_happens.webp",
+      "title": "ct keeps saying nothing ever happens. he is doing his part. $duk",
+      "alt": "duk reacting to ct's \"nothing ever happens\" during the slow holiday market. ct keeps saying nothing ever happens. he is doing his part. $duk",
+      "tag": "market",
+      "created": "2026-11-26T17:45:07Z"
+    },
+    {
+      "file": "105_yields.png",
+      "src": "assets/memes4/105_yields.png",
+      "thumb": "assets/memes4/thumbs/105_yields.webp",
+      "title": "everyone is out chasing yield. he found it right here.",
+      "alt": "duk reacting to everyone chasing yield in a falling market. everyone is out chasing yield. he found it right here.",
+      "tag": "market",
+      "created": "2026-11-26T17:45:07Z"
+    },
     {
       "file": "104_falling_knives.png",
       "src": "assets/memes4/104_falling_knives.png",
@@ -897,6 +942,42 @@
   ],
   "gifs": [
     {
+      "title": "still here.",
+      "alt": "Red candles lie scattered on the floor. DUK gets up from THE DUK pose among them and stares: \"still here.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/074_still_here.mp4",
+      "gif": "assets/gifs2/074_still_here.gif",
+      "poster": "assets/gifs2/posters/074_still_here.webp",
+      "created": "2026-11-26T17:45:09Z"
+    },
+    {
+      "title": "can't find me.",
+      "alt": "Night. A flashlight beam sweeps back and forth just above DUK lying in THE DUK pose: \"can't find me.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/073_cant_find_me.mp4",
+      "gif": "assets/gifs2/073_cant_find_me.gif",
+      "poster": "assets/gifs2/posters/073_cant_find_me.webp",
+      "created": "2026-11-26T17:45:09Z"
+    },
+    {
+      "title": "wished to stay down.",
+      "alt": "Half a wishbone flies over DUK in THE DUK pose: \"wished to stay down.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/072_to_stay_down.mp4",
+      "gif": "assets/gifs2/072_to_stay_down.gif",
+      "poster": "assets/gifs2/posters/072_to_stay_down.webp",
+      "created": "2026-11-26T17:45:09Z"
+    },
+    {
+      "title": "defense.",
+      "alt": "A football spirals over DUK lying in THE DUK pose: \"defense.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/071_defense.mp4",
+      "gif": "assets/gifs2/071_defense.gif",
+      "poster": "assets/gifs2/posters/071_defense.webp",
+      "created": "2026-11-26T17:45:09Z"
+    },
+    {
       "title": "no thoughts. just duk.",
       "alt": "Close on DUK's blank stare. Then he drops into THE DUK pose: \"no thoughts. just duk.\"",
       "tag": "reaction",
@@ -1005,15 +1086,6 @@
       "created": "2026-11-26T16:15:15Z"
     },
     {
-      "title": "still here.",
-      "alt": "still here.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/074_still_here.mp4",
-      "gif": "assets/gifs2/074_still_here.gif",
-      "poster": "assets/gifs2/posters/074_still_here.webp",
-      "created": "2026-11-26T15:45:29Z"
-    },
-    {
       "title": "not up.",
       "alt": "Night. A phone buzzes next to DUK lying flat in THE DUK pose: \"not up.\"",
       "tag": "reaction",
@@ -1093,33 +1165,6 @@
       "gif": "assets/gifs2/075_you_didnt.gif",
       "poster": "assets/gifs2/posters/075_you_didnt.webp",
       "created": "2026-11-26T15:32:34Z"
-    },
-    {
-      "title": "to stay down.",
-      "alt": "to stay down.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/072_to_stay_down.mp4",
-      "gif": "assets/gifs2/072_to_stay_down.gif",
-      "poster": "assets/gifs2/posters/072_to_stay_down.webp",
-      "created": "2026-11-26T15:26:39Z"
-    },
-    {
-      "title": "defense.",
-      "alt": "defense.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/071_defense.mp4",
-      "gif": "assets/gifs2/071_defense.gif",
-      "poster": "assets/gifs2/posters/071_defense.webp",
-      "created": "2026-11-26T15:26:39Z"
-    },
-    {
-      "title": "cant find me.",
-      "alt": "cant find me.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/073_cant_find_me.mp4",
-      "gif": "assets/gifs2/073_cant_find_me.gif",
-      "poster": "assets/gifs2/posters/073_cant_find_me.webp",
-      "created": "2026-11-26T15:26:11Z"
     },
     {
       "title": "pattern confirmed.",
@@ -1601,6 +1646,36 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/057_market_hide_and_seek.mp4",
+      "poster": "assets/clips2/057_market_hide_and_seek.webp",
+      "title": "the market looked everywhere for him. $duk",
+      "alt": "Wide shot, night. DUK lies in THE DUK pose in the middle of an empty room. A red candle with eyes creeps in with a flashlight, beam sweeping the walls at head height. \"come out.\" It sweeps right over DUK, every time, and finally leaves: \"nobody here.\" DUK, still flat: \"the market looked everywhere.\"",
+      "created": "2026-11-26T17:45:09Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/056_the_wishbone.mp4",
+      "poster": "assets/clips2/056_the_wishbone.webp",
+      "title": "pulled the wishbone. wished to stay down. it came true. $duk",
+      "alt": "A hand from off-screen holds out a wishbone to DUK and pulls. A bubble: \"make a wish.\" It snaps; the big half flies back at DUK and he drops into THE DUK pose. Bubble: \"what did you wish for?\" DUK, flat: \"to stay down.\"",
+      "created": "2026-11-26T17:45:09Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/055_thanksgiving_football.mp4",
+      "poster": "assets/clips2/055_thanksgiving_football.webp",
+      "title": "thanksgiving football. he plays defense. lying down.",
+      "alt": "Living room, the game is on TV. A football bursts out of the screen and spirals straight at DUK. He drops into THE DUK pose; it flies over. The TV: \"great defense.\" DUK, still flat: \"he plays defense. lying down.\"",
+      "created": "2026-11-26T17:45:09Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/054_parade_balloon.mp4",
       "poster": "assets/clips2/054_parade_balloon.webp",
       "title": "the big red candle balloon was huge this year. $duk",
@@ -1769,36 +1844,6 @@
       "duration": 10.0,
       "width": 1080,
       "height": 1080
-    },
-    {
-      "src": "assets/clips2/056_the_wishbone.mp4",
-      "poster": "assets/clips2/056_the_wishbone.webp",
-      "title": "the wishbone.",
-      "alt": "the wishbone.",
-      "created": "2026-11-26T15:26:53Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/055_thanksgiving_football.mp4",
-      "poster": "assets/clips2/055_thanksgiving_football.webp",
-      "title": "thanksgiving football.",
-      "alt": "thanksgiving football.",
-      "created": "2026-11-26T15:26:37Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/057_market_hide_and_seek.mp4",
-      "poster": "assets/clips2/057_market_hide_and_seek.webp",
-      "title": "market hide and seek.",
-      "alt": "market hide and seek.",
-      "created": "2026-11-26T15:26:10Z",
-      "duration": 12.0,
-      "width": 1280,
-      "height": 720
     },
     {
       "src": "assets/clips2/042_plenty_of_floor.mp4",
