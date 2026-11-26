@@ -228,6 +228,18 @@
     renderGifs(Array.isArray(media.gifs) ? media.gifs.filter((gif) => gif && (gif.mp4 || gif.gif)) : []);
   };
 
+  // The cards arrive after the browser tried the hash, so deep links (#gif-<file>, #clip-<file>) are honoured by hand.
+  const stemId = (prefix, path) => `${prefix}-${fileName(path).replace(/\.[^.]+$/, '').replace(/[^\w-]+/g, '-')}`;
+  const showLinked = (cards) => {
+    let wanted = '';
+    try { wanted = decodeURIComponent(window.location.hash.slice(1)); } catch { /* not ours. */ }
+    const linked = wanted && cards.find((card) => card.id === wanted);
+    if (!linked) return;
+    linked.classList.add('is-linked');
+    linked.scrollIntoView({ block: 'center' });
+    linked.querySelector('button, a')?.focus({ preventScroll: true });
+  };
+
   const renderGifs = (gifs) => {
     const grid = $('gif-grid');
     $('gif-count').textContent = gifs.length ? plural(gifs.length, 'gif') : '';
@@ -236,7 +248,7 @@
       $('gif-empty').hidden = false;
       return;
     }
-    grid.replaceChildren(...gifs.map((gif, i) => {
+    const cards = gifs.map((gif, i) => {
       const title = gif.title || `reaction ${i + 1}.`;
       const label = gif.alt || `duk reaction: ${title}`;
       const titleId = `gif-${i}-title`;
@@ -249,12 +261,14 @@
         gif.gif ? el('a', { href: gif.gif, download: fileName(gif.gif), text: 'gif', 'aria-label': `download ${title} as gif` }) : null,
         gif.mp4 ? el('a', { href: gif.mp4, download: fileName(gif.mp4), text: extension(gif.mp4), 'aria-label': `download ${title} as ${extension(gif.mp4)}` }) : null,
         copy);
-      return el('li', { class: 'gif-card' },
+      return el('li', { class: 'gif-card', id: stemId('gif', gif.gif || gif.mp4) },
         el('div', { class: 'gif-frame' }, art, toggle),
         el('h3', { id: titleId, text: title }),
         gif.tag ? el('p', { class: 'gif-tag', text: gif.tag }) : null,
         buttons, status);
-    }));
+    });
+    grid.replaceChildren(...cards);
+    showLinked(cards);
   };
 
   /* ---------- watch ---------- */
@@ -348,7 +362,7 @@
     const title = clip.title || `${kind} ${i + 1}.`;
     const length = clock(clip.duration);
     const titleId = `${kind}-${i}-title`;
-    const id = `${kind}-${fileName(clip.src).replace(/\.[^.]+$/, '').replace(/[^\w-]+/g, '-')}`;
+    const id = stemId(kind, clip.src);
     const stage = el('div', { class: 'clip-stage' });
     const play = el('button', { type: 'button', class: 'clip-play', 'aria-describedby': titleId, 'aria-label': `play ${title}` },
       clip.poster
@@ -404,15 +418,7 @@
     const cards = clips.map((clip, i) => videoCard(clip, i, { kind: 'clip', width: clip.width || 1080, height: clip.height || 1080 }));
     cards.forEach((card, i) => { card.duk_next = cards[i + 1] || null; });
     grid.replaceChildren(...cards);
-    // The cards arrive after the browser tried the hash, so honour deep links by hand.
-    let wanted = '';
-    try { wanted = decodeURIComponent(window.location.hash.slice(1)); } catch { /* not ours. */ }
-    const linked = wanted && cards.find((card) => card.id === wanted);
-    if (linked) {
-      linked.classList.add('is-linked');
-      linked.scrollIntoView({ block: 'center' });
-      linked.querySelector('.clip-play').focus({ preventScroll: true });
-    }
+    showLinked(cards);
   };
 
   // One clip with sound at a time: starting one pauses the others (muted loops keep going).

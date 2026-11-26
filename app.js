@@ -236,7 +236,7 @@
         if (looping) looping.observe(art);
       }
       return make('li', { class: 'fresh-tile is-gif' },
-        make('a', { class: 'fresh-frame', href: 'stickers.html#gifs', 'aria-label': `${gif.title || 'reaction gif'}: get it with the other gifs` }, art),
+        make('a', { class: 'fresh-frame', href: `stickers.html#gif-${(gif.gif || gif.mp4).split('/').pop().replace(/\.[^.]+$/, '').replace(/[^\w-]+/g, '-')}`, 'aria-label': `${gif.title || 'reaction gif'}: get it with the other gifs` }, art),
         caption('gif', gif.title));
     };
 
