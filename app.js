@@ -118,20 +118,22 @@
   // The picture itself into a post: touch screens hand it to the share sheet (x, telegram, messages) with the post
   // words; mouse screens copy it to paste into the post. One of the two buttons shows, whichever this browser can do.
   // piece() returns { src, name (file name, no extension), text } for what's on screen; the returned prepare(src)
-  // fetches that png ahead (the share sheet needs the file right after the tap).
-  window.dukPictureButtons = (shareButton, copyButton, piece) => {
+  // fetches that file ahead (the share sheet wants it right after the tap). Stills go out as png (all a clipboard
+  // takes). type 'image/gif' shares the file as it is and has no copy button (copyButton null): touch screens only.
+  window.dukPictureButtons = (shareButton, copyButton, piece, type = 'image/png') => {
+    const extension = type.split('/')[1];
     const canShareFiles = (() => {
-      try { return Boolean(navigator.canShare && navigator.canShare({ files: [new File([''], 'duk.png', { type: 'image/png' })] })); } catch { return false; }
+      try { return Boolean(navigator.canShare && navigator.canShare({ files: [new File([''], `duk.${extension}`, { type })] })); } catch { return false; }
     })();
-    const canCopyImage = Boolean(window.isSecureContext && navigator.clipboard && navigator.clipboard.write && window.ClipboardItem);
-    shareButton.hidden = !canShareFiles || (!window.matchMedia('(pointer: coarse)').matches && canCopyImage);
-    copyButton.hidden = !canCopyImage || !shareButton.hidden;
-    // clipboards only take png; other formats are redrawn.
-    const pngOf = (src) => fetch(src).then((response) => {
+    const canCopyImage = Boolean(copyButton && window.isSecureContext && navigator.clipboard && navigator.clipboard.write && window.ClipboardItem);
+    const touch = window.matchMedia('(pointer: coarse)').matches;
+    shareButton.hidden = !canShareFiles || (!touch && (canCopyImage || !copyButton));
+    if (copyButton) copyButton.hidden = !canCopyImage || !shareButton.hidden;
+    const fileOf = (src) => fetch(src).then((response) => {
       if (!response.ok) throw new Error(`${src} ${response.status}`);
       return response.blob();
     }).then(async (blob) => {
-      if (blob.type === 'image/png') return blob;
+      if (blob.type === type || type !== 'image/png') return blob;
       const bitmap = await createImageBitmap(blob);
       const canvas = Object.assign(document.createElement('canvas'), { width: bitmap.width, height: bitmap.height });
       canvas.getContext('2d').drawImage(bitmap, 0, 0);
@@ -143,28 +145,30 @@
       window.clearTimeout(Number(button.dataset.timer));
       button.dataset.timer = String(window.setTimeout(() => { button.textContent = button.dataset.label; }, 2600));
     };
-    let prepared = { src: '', png: null };
+    let prepared = { src: '', file: null };
     const prepare = (src) => {
-      if (canShareFiles && src && prepared.src !== src) prepared = { src, png: pngOf(src).catch(() => null) };
+      if (canShareFiles && src && prepared.src !== src) prepared = { src, file: fileOf(src).catch(() => null) };
     };
     shareButton.addEventListener('click', async () => {
       const { src, name, text } = piece() || {};
       if (!src) return;
       prepare(src);
-      const png = await prepared.png;
-      if (!png) { say(shareButton, "couldn't load it. try download"); return; }
+      const blob = await prepared.file;
+      if (!blob) { prepared = { src: '', file: null }; say(shareButton, "couldn't load it. try download"); return; }
       try {
-        await navigator.share({ files: [new File([png], `${name || 'duk'}.png`, { type: 'image/png' })], text });
+        await navigator.share({ files: [new File([blob], `${name || 'duk'}.${extension}`, { type })], text });
       } catch (error) {
-        if (error && error.name !== 'AbortError') say(shareButton, "couldn't share. try download");
+        // a slow download can outlast the tap's permission; the file is ready for the next tap.
+        if (error && error.name === 'NotAllowedError') say(shareButton, 'ready. tap share again');
+        else if (error && error.name !== 'AbortError') say(shareButton, "couldn't share. try download");
       }
     });
-    copyButton.addEventListener('click', async () => {
+    if (copyButton) copyButton.addEventListener('click', async () => {
       const { src } = piece() || {};
       if (!src) return;
       try {
         // a promise inside the ClipboardItem keeps safari's tap permission while the png loads.
-        await navigator.clipboard.write([new window.ClipboardItem({ 'image/png': pngOf(src) })]);
+        await navigator.clipboard.write([new window.ClipboardItem({ 'image/png': fileOf(src) })]);
         say(copyButton, 'copied. paste it in your post');
       } catch {
         say(copyButton, "couldn't copy. try download");

@@ -249,11 +249,15 @@
       const share = gif.gif || gif.mp4;
       const copy = el('button', { type: 'button', class: 'gif-copy', text: 'copy link', 'aria-describedby': titleId });
       copy.addEventListener('click', () => copyText(absolute(share), status, 'link copied.'));
+      // phones: the gif itself to the share sheet (x posts it as a gif), with the post words.
+      const shareFile = gif.gif ? el('button', { type: 'button', class: 'gif-copy', text: 'share', hidden: true, 'aria-describedby': titleId }) : null;
+      if (shareFile) window.dukPictureButtons(shareFile, null, () => ({ src: gif.gif, name: fileName(gif.gif).replace(/\.[^.]+$/, ''), text: window.dukPostText(title, share) }), 'image/gif');
       const buttons = el('div', { class: 'gif-actions' },
         gif.gif ? el('a', { href: gif.gif, download: fileName(gif.gif), text: 'gif', 'aria-label': `download ${title} as gif` }) : null,
         gif.mp4 ? el('a', { href: gif.mp4, download: fileName(gif.mp4), text: extension(gif.mp4), 'aria-label': `download ${title} as ${extension(gif.mp4)}` }) : null,
         copy,
-        el('a', { href: window.dukPostHref(title, share), target: '_blank', rel: 'noopener', 'aria-label': `post ${title} on x`, text: 'post it' }));
+        el('a', { href: window.dukPostHref(title, share), target: '_blank', rel: 'noopener', 'aria-label': `post ${title} on x`, text: 'post it' }),
+        shareFile);
       return el('li', { class: 'gif-card', id: stemId('gif', gif.gif || gif.mp4) },
         el('div', { class: 'gif-frame' }, art, toggle),
         el('h3', { id: titleId, text: title }),
