@@ -311,14 +311,17 @@ def push(summary: str) -> None:
     result = git('commit', '-m', f'content: {summary}', '--', *paths)
     if result.returncode:
         raise SystemExit(f'commit failed: {result.stderr or result.stdout}')
-    result = git('pull', '--rebase', '--autostash')
-    if result.returncode:
-        # Leave the worktree as it was; the commit stays local and goes out with the next run.
-        git('rebase', '--abort')
-        raise SystemExit(f'pull failed, rebase aborted: {result.stderr or result.stdout}')
-    result = git('push')
-    if result.returncode:
-        raise SystemExit(f'push failed: {result.stderr or result.stdout}')
+    # Push straight away; only a rejected push (the remote moved) pulls. --autostash touches the whole worktree,
+    # so it must not run while someone is mid-edit or copy-assets.py is rebuilding assets/ unless it has to.
+    if git('push').returncode:
+        result = git('pull', '--rebase', '--autostash')
+        if result.returncode:
+            # Leave the worktree as it was; the commit stays local and goes out with the next run.
+            git('rebase', '--abort')
+            raise SystemExit(f'pull failed, rebase aborted: {result.stderr or result.stdout}')
+        result = git('push')
+        if result.returncode:
+            raise SystemExit(f'push failed: {result.stderr or result.stdout}')
     print(f'pushed: {summary}')
 
 

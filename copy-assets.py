@@ -156,9 +156,15 @@ for entry in media['gifs']:
     if not entry['poster'] and entry['gif']:
         entry['poster'] = thumbnail(entry['gif'])
 
-# The kit is grouped by its first folder: templates/, pfp/, wallpapers/, banners/.
+# The kit is grouped by its first folder: templates/, formats/, pfp/, wallpapers/, banners/.
+# Square art shown small (kit cards, maker base cards) gets a 480px webp thumb; the real size rides along
+# so the kit page can still say what you're downloading.
 for item in collection('kit'):
     group = item['file'].split('/', 1)[0] if '/' in item['file'] else 'extras'
+    if group in ('templates', 'formats', 'pfp'):
+        with Image.open(SITE / item['src']) as image:
+            item['width'], item['height'] = image.size
+        item['thumb'] = thumbnail(item['src'])
     media['kit'].setdefault(group, []).append(item)
 
 # Reply pack: 1200x675 reply images plus the suggested lines from lines.md.

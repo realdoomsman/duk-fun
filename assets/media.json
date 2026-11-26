@@ -1688,98 +1688,140 @@
         "src": "assets/kit/formats/007_horizontal.png",
         "title": "two signs, one floor",
         "alt": "Two stick figures throw their arms up under two empty signs flying in from each side. DUK lies flat between them.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/007_horizontal.webp"
       },
       {
         "file": "formats/018_own_research.png",
         "src": "assets/kit/formats/018_own_research.png",
         "title": "the research board",
         "alt": "A brown corkboard of empty sticky notes joined by red string. DUK stands next to it, staring at you.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/018_own_research.webp"
       },
       {
         "file": "formats/022_puts_stacked.png",
         "src": "assets/kit/formats/022_puts_stacked.png",
         "title": "the pile on",
         "alt": "Four empty white cards stacked down the left like stairs, landing on DUK, who lies flat at the bottom.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/022_puts_stacked.webp"
       },
       {
         "file": "formats/034_worst_month.png",
         "src": "assets/kit/formats/034_worst_month.png",
         "title": "the calendar",
         "alt": "A wall calendar with every day crossed out in red, and an empty red header. DUK lies flat under it.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/034_worst_month.webp"
       },
       {
         "file": "formats/043_poll.png",
         "src": "assets/kit/formats/043_poll.png",
         "title": "the poll",
         "alt": "An empty poll card with four blank options, the last one picked. Small DUK lies flat in the corner.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/043_poll.webp"
       },
       {
         "file": "formats/044_friday_pileup.png",
         "src": "assets/kit/formats/044_friday_pileup.png",
         "title": "the to-do list",
         "alt": "Four empty sticky notes and a blank calendar page pile up above DUK, who lies flat on the floor.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/044_friday_pileup.webp"
       },
       {
         "file": "formats/047_not_dead.png",
         "src": "assets/kit/formats/047_not_dead.png",
         "title": "here lies",
         "alt": "A blank grey tombstone with an empty speech bubble coming from behind it. DUK lies flat at its foot; two stick figures stare.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/047_not_dead.webp"
       },
       {
         "file": "formats/057_bottom_checklist.png",
         "src": "assets/kit/formats/057_bottom_checklist.png",
         "title": "the checklist",
         "alt": "A clipboard with five ticks and crosses and empty lines next to each. Tiny DUK lies flat at the bottom of the page.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/057_bottom_checklist.webp"
       },
       {
         "file": "formats/060_is_this_it.png",
         "src": "assets/kit/formats/060_is_this_it.png",
         "title": "four panels, four calls",
         "alt": "Four panels: a stick figure in a red cap with an empty speech bubble each time while a red line drops. In the last panel DUK lies flat under an empty bubble.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/060_is_this_it.webp"
       },
       {
         "file": "formats/064_matching.png",
         "src": "assets/kit/formats/064_matching.png",
         "title": "the long banner",
         "alt": "One wide empty banner across the top. DUK lies flat, stretched out under it.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/064_matching.webp"
       },
       {
         "file": "formats/071_long_weekend.png",
         "src": "assets/kit/formats/071_long_weekend.png",
         "title": "four days",
         "alt": "Four empty calendar pages in a row, DUK ducking on every one, and DUK ducking on the floor below.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/071_long_weekend.webp"
       },
       {
         "file": "formats/073_not_for_sale.png",
         "src": "assets/kit/formats/073_not_for_sale.png",
         "title": "three signs",
         "alt": "Three empty yellow signs on a shelf, and one small empty sign stuck in the floor next to DUK, who lies flat.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/073_not_for_sale.webp"
       },
       {
         "file": "formats/074_streak.png",
         "src": "assets/kit/formats/074_streak.png",
         "title": "the streak",
         "alt": "Five red crosses and one green tick in a row, a tiny ducking DUK under each. Big DUK lies flat below.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/074_streak.webp"
       },
       {
         "file": "formats/075_wrong_animal.png",
         "src": "assets/kit/formats/075_wrong_animal.png",
         "title": "pick one",
         "alt": "An empty card with three checkboxes, the last one crossed. DUK lies flat underneath.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/075_wrong_animal.webp"
       }
     ],
     "pfp": [
@@ -1788,210 +1830,300 @@
         "src": "assets/kit/pfp/01_blue_stare.png",
         "title": "blue / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat blue MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/01_blue_stare.webp"
       },
       {
         "file": "pfp/02_blue_lid.png",
         "src": "assets/kit/pfp/02_blue_lid.png",
         "title": "blue / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat blue MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/02_blue_lid.webp"
       },
       {
         "file": "pfp/03_red_stare.png",
         "src": "assets/kit/pfp/03_red_stare.png",
         "title": "red / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat red MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/03_red_stare.webp"
       },
       {
         "file": "pfp/04_red_lid.png",
         "src": "assets/kit/pfp/04_red_lid.png",
         "title": "red / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat red MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/04_red_lid.webp"
       },
       {
         "file": "pfp/05_green_stare.png",
         "src": "assets/kit/pfp/05_green_stare.png",
         "title": "green / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat green MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/05_green_stare.webp"
       },
       {
         "file": "pfp/06_green_lid.png",
         "src": "assets/kit/pfp/06_green_lid.png",
         "title": "green / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat green MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/06_green_lid.webp"
       },
       {
         "file": "pfp/07_yellow_stare.png",
         "src": "assets/kit/pfp/07_yellow_stare.png",
         "title": "yellow / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat yellow MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/07_yellow_stare.webp"
       },
       {
         "file": "pfp/08_yellow_lid.png",
         "src": "assets/kit/pfp/08_yellow_lid.png",
         "title": "yellow / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat yellow MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/08_yellow_lid.webp"
       },
       {
         "file": "pfp/09_indigo_stare.png",
         "src": "assets/kit/pfp/09_indigo_stare.png",
         "title": "indigo / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat indigo MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/09_indigo_stare.webp"
       },
       {
         "file": "pfp/10_indigo_lid.png",
         "src": "assets/kit/pfp/10_indigo_lid.png",
         "title": "indigo / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat indigo MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/10_indigo_lid.webp"
       },
       {
         "file": "pfp/11_purple_stare.png",
         "src": "assets/kit/pfp/11_purple_stare.png",
         "title": "purple / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat purple MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/11_purple_stare.webp"
       },
       {
         "file": "pfp/12_purple_lid.png",
         "src": "assets/kit/pfp/12_purple_lid.png",
         "title": "purple / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat purple MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/12_purple_lid.webp"
       },
       {
         "file": "pfp/13_rose_stare.png",
         "src": "assets/kit/pfp/13_rose_stare.png",
         "title": "rose / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat rose MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/13_rose_stare.webp"
       },
       {
         "file": "pfp/14_rose_lid.png",
         "src": "assets/kit/pfp/14_rose_lid.png",
         "title": "rose / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat rose MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/14_rose_lid.webp"
       },
       {
         "file": "pfp/15_lime_stare.png",
         "src": "assets/kit/pfp/15_lime_stare.png",
         "title": "lime / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat lime MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/15_lime_stare.webp"
       },
       {
         "file": "pfp/16_lime_lid.png",
         "src": "assets/kit/pfp/16_lime_lid.png",
         "title": "lime / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat lime MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/16_lime_lid.webp"
       },
       {
         "file": "pfp/17_sky_stare.png",
         "src": "assets/kit/pfp/17_sky_stare.png",
         "title": "sky / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat sky MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/17_sky_stare.webp"
       },
       {
         "file": "pfp/18_sky_lid.png",
         "src": "assets/kit/pfp/18_sky_lid.png",
         "title": "sky / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat sky MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/18_sky_lid.webp"
       },
       {
         "file": "pfp/19_lavender_stare.png",
         "src": "assets/kit/pfp/19_lavender_stare.png",
         "title": "lavender / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat lavender MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/19_lavender_stare.webp"
       },
       {
         "file": "pfp/20_lavender_lid.png",
         "src": "assets/kit/pfp/20_lavender_lid.png",
         "title": "lavender / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat lavender MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/20_lavender_lid.webp"
       },
       {
         "file": "pfp/21_gold_stare.png",
         "src": "assets/kit/pfp/21_gold_stare.png",
         "title": "gold / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat gold MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/21_gold_stare.webp"
       },
       {
         "file": "pfp/22_gold_lid.png",
         "src": "assets/kit/pfp/22_gold_lid.png",
         "title": "gold / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat gold MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/22_gold_lid.webp"
       },
       {
         "file": "pfp/23_grey_stare.png",
         "src": "assets/kit/pfp/23_grey_stare.png",
         "title": "grey / blank stare",
         "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat grey MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/23_grey_stare.webp"
       },
       {
         "file": "pfp/24_grey_lid.png",
         "src": "assets/kit/pfp/24_grey_lid.png",
         "title": "grey / half-lidded",
         "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat grey MS Paint background.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/24_grey_lid.webp"
       },
       {
         "file": "pfp/25_lying_flat.png",
         "src": "assets/kit/pfp/25_lying_flat.png",
         "title": "lying flat",
         "alt": "DUK lying flat on the floor with a wing over his head, bill resting on the ground, staring at you.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/25_lying_flat.webp"
       },
       {
         "file": "pfp/26_peeking.png",
         "src": "assets/kit/pfp/26_peeking.png",
         "title": "peeking",
         "alt": "Only the top of DUK's head, eyes and a strip of bill peek up from the bottom edge, two wingtips hooked over it.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/26_peeking.webp"
       },
       {
         "file": "pfp/27_gn.png",
         "src": "assets/kit/pfp/27_gn.png",
         "title": "gn",
         "alt": "DUK with his eyes closed under a crooked yellow moon and stars. White text says gn.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/27_gn.webp"
       },
       {
         "file": "pfp/28_sweat.png",
         "src": "assets/kit/pfp/28_sweat.png",
         "title": "sweat drop",
         "alt": "The usual blank DUK stare with two pale blue sweat drops sliding off the side of his head.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/28_sweat.webp"
       },
       {
         "file": "pfp/29_tiny_sign.png",
         "src": "assets/kit/pfp/29_tiny_sign.png",
         "title": "tiny sign",
         "alt": "DUK stares blankly, holding up a tiny white card at chest height that says duk.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/29_tiny_sign.webp"
       },
       {
         "file": "pfp/30_upside_down.png",
         "src": "assets/kit/pfp/30_upside_down.png",
         "title": "upside down",
         "alt": "DUK's head and shoulders hang upside down from the top of the frame, still staring.",
-        "tag": "pfp"
+        "tag": "pfp",
+        "width": 1000,
+        "height": 1000,
+        "thumb": "assets/kit/pfp/thumbs/30_upside_down.webp"
       }
     ],
     "templates": [
@@ -2000,140 +2132,200 @@
         "src": "assets/kit/templates/01_sign.png",
         "title": "blank sign",
         "alt": "DUK stands staring at you, holding a big empty white sign in front of his chest with both stubby wings.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/01_sign.webp"
       },
       {
         "file": "templates/02_picket.png",
         "src": "assets/kit/templates/02_picket.png",
         "title": "protest from the floor",
         "alt": "DUK lies flat in the duk position, one wing still holding up an empty protest sign on a stick.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/02_picket.webp"
       },
       {
         "file": "templates/03_billboard.png",
         "src": "assets/kit/templates/03_billboard.png",
         "title": "billboard",
         "alt": "An empty roadside billboard on two wooden posts. Small DUK stands in the grass beside it, staring at you.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/03_billboard.webp"
       },
       {
         "file": "templates/04_speech_bubble.png",
         "src": "assets/kit/templates/04_speech_bubble.png",
         "title": "speech bubble",
         "alt": "DUK stands in the bottom left staring at you with a huge empty speech bubble above him.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/04_speech_bubble.webp"
       },
       {
         "file": "templates/05_reply.png",
         "src": "assets/kit/templates/05_reply.png",
         "title": "reply",
         "alt": "Half-lidded DUK fills the bottom right; an empty speech bubble above him is for the reply.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/05_reply.webp"
       },
       {
         "file": "templates/06_dialog.png",
         "src": "assets/kit/templates/06_dialog.png",
         "title": "two duks talking",
         "alt": "A standing DUK and a ducking DUK face each other, each with an empty speech bubble.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/06_dialog.webp"
       },
       {
         "file": "templates/07_incoming.png",
         "src": "assets/kit/templates/07_incoming.png",
         "title": "incoming",
         "alt": "A big blank sheet of paper flies at DUK, who is already flat on the floor with a wing over his head. Room for a caption underneath.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/07_incoming.webp"
       },
       {
         "file": "templates/08_incoming_post.png",
         "src": "assets/kit/templates/08_incoming_post.png",
         "title": "incoming post",
         "alt": "An empty social media post card flies at DUK, who presses his whole face flat against the floor.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/08_incoming_post.webp"
       },
       {
         "file": "templates/09_raining.png",
         "src": "assets/kit/templates/09_raining.png",
         "title": "raining",
         "alt": "Three empty sheets rain down on DUK, who lies flat across the bottom of the frame, too big to fit.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/09_raining.webp"
       },
       {
         "file": "templates/10_letter.png",
         "src": "assets/kit/templates/10_letter.png",
         "title": "letter",
         "alt": "A giant envelope with an empty address label and a red stamp swoops down at DUK, seen from above, lying flat with wings over his head.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/10_letter.webp"
       },
       {
         "file": "templates/11_unduckable.png",
         "src": "assets/kit/templates/11_unduckable.png",
         "title": "unduckable",
         "alt": "An empty sign has landed on DUK, who lies flattened underneath with x eyes and feathers floating off. Unduckable.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/11_unduckable.webp"
       },
       {
         "file": "templates/12_before_after.png",
         "src": "assets/kit/templates/12_before_after.png",
         "title": "before / after",
         "alt": "Two panels with empty white headers. Left: DUK pressed flat to the floor. Right: DUK standing back up, unbothered.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/12_before_after.webp"
       },
       {
         "file": "templates/13_how_it_started.png",
         "src": "assets/kit/templates/13_how_it_started.png",
         "title": "how it started / how it's going",
         "alt": "Two stacked panels with empty white labels. In both of them DUK is lying flat on the floor.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/13_how_it_started.webp"
       },
       {
         "file": "templates/14_weather.png",
         "src": "assets/kit/templates/14_weather.png",
         "title": "weather report",
         "alt": "DUK the weatherman points a stubby wing at a crude map board with an empty title strip and an empty forecast box.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/14_weather.webp"
       },
       {
         "file": "templates/15_five_day.png",
         "src": "assets/kit/templates/15_five_day.png",
         "title": "5-day forecast",
         "alt": "A crude five-day forecast board with empty day labels and empty temperature boxes, rain in every column. DUK ducks underneath.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/15_five_day.webp"
       },
       {
         "file": "templates/16_duk_drill.png",
         "src": "assets/kit/templates/16_duk_drill.png",
         "title": "duk drill poster",
         "alt": "A safety poster titled duk drill in a red header, with empty ruled lines for the instructions and a framed picture of DUK in position.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/16_duk_drill.webp"
       },
       {
         "file": "templates/17_drill_steps.png",
         "src": "assets/kit/templates/17_drill_steps.png",
         "title": "duk drill: steps",
         "alt": "A three-step duk drill sheet: DUK standing, DUK going down, DUK flat with a wing over his head. Empty lines under each step.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/17_drill_steps.webp"
       },
       {
         "file": "templates/18_news.png",
         "src": "assets/kit/templates/18_news.png",
         "title": "breaking news",
         "alt": "DUK anchors the news behind a desk. The screen behind him and the lower-third banner are empty, with a blank red tag.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/18_news.webp"
       },
       {
         "file": "templates/19_under_desk.png",
         "src": "assets/kit/templates/19_under_desk.png",
         "title": "under the desk",
         "alt": "An empty computer monitor sits on a desk. DUK is underneath it, pressed flat to the floor, staring at you.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/19_under_desk.webp"
       },
       {
         "file": "templates/20_labels.png",
         "src": "assets/kit/templates/20_labels.png",
         "title": "labels",
         "alt": "Two empty label boxes with arrows: one points at a red object flying in, one points at DUK lying flat.",
-        "tag": "template"
+        "tag": "template",
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/templates/thumbs/20_labels.webp"
       }
     ],
     "wallpapers": [

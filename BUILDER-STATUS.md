@@ -3,6 +3,15 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **content rule in the sync**: sync-content.py skips anything in work/state/content-blocklist.txt and anything whose
+  caption/topic/alt names another coin or a price, %, NNk or NNx (`allow <file>` lines let clean art through when only the
+  research topic tripped it). Blocked items are pruned from assets/ on the next run.
+- **the wall** on home: newest clip big, then memes, looping reaction gifs (on screen only, never with reduced motion) and clips that play in place.
+- **new formats**: kit/make_formats.py re-renders memes4 drawings with the words switched off -> kit/formats/ (14 so far);
+  kit page section "the new formats." and every template/format card has "fill it in" (opens it in the maker).
+- **watch**: each clip has an id (watch.html#clip-<file>), a "post it" link and an "up next" button when it ends; one clip with sound at a time.
+- **cache busting**: `python scripts/stamp-assets.py` stamps css/js references with ?v=<content hash>; run it before pushing css/js.
+- **kit thumbs**: templates, formats and pfps get 480px webp thumbs (kit cards + maker base cards); the card still shows the real size.
 - **remix it**: archive dialog button opens maker.html?base=<meme src>#maker with that meme picked as the base.
 - **404.html** (paint style, links home/memes/maker), robots.txt, sitemap.xml. reaction gifs got first-frame webp posters.
 - **speed**: 480px webp thumbs for every meme grid (archive, cult, pool, maker, home) and 320px webp sticker previews,

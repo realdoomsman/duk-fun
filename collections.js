@@ -215,10 +215,12 @@
         video.addEventListener('loadedmetadata', () => describe(video.videoWidth, video.videoHeight), { once: true });
         thumb = el('div', { class: 'kit-thumb' }, [video]);
       } else {
-        const image = el('img', { loading: 'lazy', decoding: 'async', width, height, alt: item.alt, src: item.src });
+        const sized = Number.isInteger(item.width) && Number.isInteger(item.height);
+        const image = el('img', { loading: 'lazy', decoding: 'async', width, height, alt: item.alt, src: item.thumb || item.src });
         const measure = () => {
-          describe(image.naturalWidth, image.naturalHeight);
-          image.closest('.kit-card').classList.add(image.naturalWidth < image.naturalHeight ? 'is-portrait' : 'is-landscape');
+          const [w, h] = sized ? [item.width, item.height] : [image.naturalWidth, image.naturalHeight];
+          describe(w, h);
+          image.closest('.kit-card').classList.add(w < h ? 'is-portrait' : 'is-landscape');
         };
         image.addEventListener('load', measure, { once: true });
         thumb = el('a', { class: 'kit-thumb', href: item.src, target: '_blank', rel: 'noopener', 'aria-label': `open ${item.title} full size` }, [image]);
@@ -285,7 +287,8 @@
           .filter((item) => item && localAsset(item.src))
           .map((item) => {
             const title = text(item.title, baseName(item.src));
-            return { src: item.src, title, alt: text(item.alt, title) };
+            const thumb = localAsset(item.thumb) ? item.thumb : null;
+            return { src: item.src, thumb, width: item.width, height: item.height, title, alt: text(item.alt, title) };
           });
         total += items.length;
         return kitSection(group, items, group === 'replies' ? lines : []);
