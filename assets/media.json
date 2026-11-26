@@ -2236,6 +2236,84 @@
         "thumb": "assets/kit/formats/thumbs/052_deleted_call.webp"
       },
       {
+        "file": "formats/053_prefers_gravity.png",
+        "src": "assets/kit/formats/053_prefers_gravity.png",
+        "title": "the lever",
+        "alt": "A lever with a red knob and an empty sign on the left, an arrow pointing down at DUK, who lies flat on the right.",
+        "tag": "template",
+        "spots": [
+          [
+            0.107,
+            0.027,
+            0.78,
+            0.073
+          ],
+          [
+            0.72,
+            0.3,
+            0.16,
+            0.053
+          ],
+          [
+            0.06,
+            0.333,
+            0.2,
+            0.033
+          ],
+          [
+            0.193,
+            0.8,
+            0.62,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/053_prefers_gravity.webp"
+      },
+      {
+        "file": "formats/055_for_cover.png",
+        "src": "assets/kit/formats/055_for_cover.png",
+        "title": "three panels, hands",
+        "alt": "Three panels: a pale blue hand, a white paper hand, and DUK lying flat in the last one, with empty labels under each.",
+        "tag": "template",
+        "spots": [
+          [
+            0.187,
+            0.027,
+            0.62,
+            0.06
+          ],
+          [
+            0.76,
+            0.613,
+            0.133,
+            0.033
+          ],
+          [
+            0.073,
+            0.613,
+            0.2,
+            0.053
+          ],
+          [
+            0.433,
+            0.613,
+            0.133,
+            0.047
+          ],
+          [
+            0.153,
+            0.8,
+            0.7,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/055_for_cover.webp"
+      },
+      {
         "file": "formats/057_bottom_checklist.png",
         "src": "assets/kit/formats/057_bottom_checklist.png",
         "title": "the checklist",
@@ -2452,6 +2530,54 @@
         "thumb": "assets/kit/formats/thumbs/071_long_weekend.webp"
       },
       {
+        "file": "formats/072_potluck.png",
+        "src": "assets/kit/formats/072_potluck.png",
+        "title": "the potluck",
+        "alt": "A long table with four dishes and four empty place cards. DUK lies flat on the table between the plates.",
+        "tag": "template",
+        "spots": [
+          [
+            0.14,
+            0.027,
+            0.72,
+            0.073
+          ],
+          [
+            0.12,
+            0.513,
+            0.04,
+            0.033
+          ],
+          [
+            0.247,
+            0.513,
+            0.133,
+            0.033
+          ],
+          [
+            0.54,
+            0.513,
+            0.107,
+            0.027
+          ],
+          [
+            0.813,
+            0.513,
+            0.107,
+            0.033
+          ],
+          [
+            0.147,
+            0.833,
+            0.707,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/072_potluck.webp"
+      },
+      {
         "file": "formats/073_not_for_sale.png",
         "src": "assets/kit/formats/073_not_for_sale.png",
         "title": "three signs",
@@ -2630,6 +2756,108 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/076_layer_zero.webp"
+      },
+      {
+        "file": "formats/079_muted.png",
+        "src": "assets/kit/formats/079_muted.png",
+        "title": "two screens",
+        "alt": "Two white panels: a full green volume bar next to a speaker, then an empty bar next to a muted speaker. DUK lies flat below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.247,
+            0.027,
+            0.507,
+            0.08
+          ],
+          [
+            0.127,
+            0.14,
+            0.28,
+            0.047
+          ],
+          [
+            0.693,
+            0.14,
+            0.08,
+            0.047
+          ],
+          [
+            0.38,
+            0.84,
+            0.227,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/079_muted.webp"
+      },
+      {
+        "file": "formats/080_never_hid.png",
+        "src": "assets/kit/formats/080_never_hid.png",
+        "title": "the doorway",
+        "alt": "A stick figure peeks out from behind a dark door with an empty speech bubble. DUK lies flat on the floor in the open.",
+        "tag": "template",
+        "spots": [
+          [
+            0.52,
+            0.127,
+            0.32,
+            0.113
+          ],
+          [
+            0.273,
+            0.84,
+            0.447,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/080_never_hid.webp"
+      },
+      {
+        "file": "formats/081_down_stay.png",
+        "src": "assets/kit/formats/081_down_stay.png",
+        "title": "the show sign",
+        "alt": "An empty white sign on a post over green grass, a stick figure with a blue ribbon, and DUK lying flat in front.",
+        "tag": "template",
+        "spots": [
+          [
+            0.233,
+            0.027,
+            0.533,
+            0.06
+          ],
+          [
+            0.14,
+            0.173,
+            0.3,
+            0.127
+          ],
+          [
+            0.273,
+            0.84,
+            0.147,
+            0.067
+          ],
+          [
+            0.453,
+            0.847,
+            0.053,
+            0.06
+          ],
+          [
+            0.54,
+            0.84,
+            0.18,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/081_down_stay.webp"
       }
     ],
     "pfp": [

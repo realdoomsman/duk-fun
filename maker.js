@@ -86,8 +86,8 @@
             <h3 id="maker-step-words" class="maker-step-title">3. add words.</h3>
             <div class="maker-field"><label for="maker-top">top text</label><textarea id="maker-top" rows="2" maxlength="120" placeholder="rent is due." aria-describedby="maker-caption-help"></textarea></div>
             <div class="maker-field"><label for="maker-bottom">bottom text</label><textarea id="maker-bottom" rows="2" maxlength="120" placeholder="just duk." aria-describedby="maker-caption-help"></textarea></div>
-            <div class="maker-field"><label for="maker-more">more words</label><div class="maker-more"><input id="maker-more" type="text" maxlength="60" placeholder="for signs, notes, boxes…" enterkeyhint="done" aria-describedby="maker-more-help"><button class="maker-small" type="button" data-add-words>add</button></div></div>
-            <p id="maker-more-help" class="maker-help">adds a block of words you can drag. on the new formats each one lands in the next empty spot.</p>
+            <div class="maker-field"><label for="maker-more">more words</label><div class="maker-more"><input id="maker-more" type="text" maxlength="60" placeholder="for signs, notes, boxes…" enterkeyhint="done" aria-describedby="maker-more-help"><button class="maker-small" type="button" data-change-words hidden>change</button><button class="maker-small" type="button" data-add-words>add</button></div></div>
+            <p id="maker-more-help" class="maker-help">adds a block of words you can drag. on the new formats each one lands in the next empty spot. tap a block to change its words.</p>
             <div class="maker-field"><label for="maker-ink">text color</label><select id="maker-ink"><option value="auto">auto</option><option value="#111111">black</option><option value="#ffffff">white</option><option value="outline">white with black outline</option><option value="#ed1c24">red</option></select></div>
             <p id="maker-caption-help" class="maker-help">it gets lowercased, like everything duk says. drag the words on the picture to move them.</p>
           </section>
@@ -158,6 +158,7 @@
   const retry = $('.maker-retry');
   const moreWords = $('#maker-more');
   const addWordsButton = $('[data-add-words]');
+  const changeWordsButton = $('[data-change-words]');
 
   function makeChoice(name, value, item, checked, lazy) {
     const label = document.createElement('label');
@@ -508,8 +509,19 @@
     stage.classList.toggle('has-layers', all.length > 0);
   }
 
+  // Picking a word block (tap, layer list, keys) puts its words in the "more words" field to change them.
+  let editing = null;
+  function syncWordField() {
+    if (editing && editing !== selected) {
+      if (moreWords.value === editing.text) moreWords.value = '';
+      editing = null;
+    }
+    changeWordsButton.hidden = !editing;
+  }
+
   function syncSelection() {
     if (selected && !selected.box) selected = null;
+    syncWordField();
     const box = selected && selected.box;
     selectionBox.hidden = !box;
     if (box) {
@@ -530,6 +542,10 @@
 
   function select(layer) {
     selected = layer;
+    if (layer && layer.words && editing !== layer) {
+      editing = layer;
+      moreWords.value = layer.text;
+    }
     syncSelection();
   }
 
@@ -758,7 +774,7 @@
       width = Math.max(60, Math.min(sw, (sh * 1.4) / ratio));
     }
     wordCount += 1;
-    const block = { id: `words-${wordCount}`, kind: 'sticker', words: true, text, name: `words: ${text}`, image, x, y, width, scale: 1, box: null };
+    const block = { id: `words-${wordCount}`, kind: 'sticker', words: true, text, ink, name: `words: ${text}`, image, x, y, width, scale: 1, box: null };
     stickers.push(block);
     selected = block;
     moreWords.value = '';
@@ -766,11 +782,38 @@
     if (canvas.getBoundingClientRect().bottom < 80) stage.scrollIntoView({ behavior: 'smooth', block: 'start' });
     render();
   }
+
+  async function changeWords() {
+    const block = editing;
+    const text = normalizeCaption(moreWords.value).replace(/\n/g, ' ');
+    if (!block) return;
+    if (!text) {
+      exportStatus.textContent = 'type some words first, or use remove.';
+      moreWords.focus();
+      return;
+    }
+    await fontReady;
+    let image;
+    try {
+      image = await wordImage(text, block.ink);
+    } catch {
+      exportStatus.textContent = 'could not draw those words. try again.';
+      return;
+    }
+    // Same spot, same letter height: the block only gets wider or narrower.
+    const height = block.width * (block.image.naturalHeight / block.image.naturalWidth);
+    block.width = Math.max(60, Math.min(SIZE, height / (image.naturalHeight / image.naturalWidth)));
+    Object.assign(block, { text, image, name: `words: ${text}` });
+    exportStatus.textContent = `changed it to "${text}".`;
+    render();
+  }
   addWordsButton.addEventListener('click', addWords);
+  changeWordsButton.addEventListener('click', changeWords);
   moreWords.addEventListener('keydown', event => {
     if (event.key !== 'Enter') return;
     event.preventDefault();
-    addWords();
+    if (editing) changeWords();
+    else addWords();
   });
 
   stickerSet.addEventListener('change', renderStickerTray);
