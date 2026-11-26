@@ -3,6 +3,11 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **rss feed**: duk.fun/feed.xml (scripts/feed.py, run by every sync after share-pages): the newest 80 drops from
+  content.json plus every duk of the day, each linking its share page with the card as enclosure. Advertised with
+  `<link rel="alternate" type="application/rss+xml">` on home, memes, watch, stickers, comics, daily and press (linked there).
+- **4 more blank formats** (34): the island (087), the roadmap (088), the swing (089), four of him (090), in the kit and
+  the maker with their word spots.
 - **link previews**: every page now carries og:site_name, og:image width/height/alt, twitter:image:alt and twitter:site
   (@justdukfun); stamp-assets.py also stamps the og/twitter image urls with ?v=<hash> so x, discord and telegram fetch a
   redrawn card instead of the cached one. Share pages (s/) get og:site_name + twitter:site on the next sync run.
