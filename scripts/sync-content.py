@@ -91,9 +91,11 @@ def caption(entry: dict, path: Path) -> str:
 
 
 def alt_text(entry: dict, title: str) -> str:
-    if entry.get('alt'):
+    """Producer alt, else 'duk reacting to <topic>'; topics are research notes, so one that names a coin or a
+    number the content rule bans (allowlisted items) falls back to the caption."""
+    if entry.get('alt') and not OFF_RULE.search(str(entry['alt'])):
         return str(entry['alt'])
-    if entry.get('topic'):
+    if entry.get('topic') and not OFF_RULE.search(str(entry['topic'])):
         return f"duk reacting to {entry['topic']}. {title}"
     return title
 
@@ -169,25 +171,33 @@ def ready(path: Path) -> bool:
     return path.is_file() and not path.name.startswith(('_', '.')) and time.time() - path.stat().st_mtime > SETTLE_SECONDS
 
 
-def blocklist() -> set:
-    """Filenames (or stems, or 'folder/name' paths) from work/state/content-blocklist.txt; '#' starts a comment."""
+def blocklist() -> tuple[set, set]:
+    """(blocked, allowed) names from work/state/content-blocklist.txt: one filename (or stem, or 'folder/name')
+    per line; 'allow <name>' lets an item through OFF_RULE when only its research topic tripped it. '#' comments."""
     if not BLOCKLIST.is_file():
-        return set()
-    lines = (line.split('#', 1)[0].strip() for line in BLOCKLIST.read_text(encoding='utf-8').splitlines())
-    return {line.replace('\\', '/') for line in lines if line}
+        return set(), set()
+    blocked, allowed = set(), set()
+    for line in BLOCKLIST.read_text(encoding='utf-8').splitlines():
+        line = line.split('#', 1)[0].strip().replace('\\', '/')
+        if line.startswith('allow '):
+            allowed.add(line[6:].strip())
+        elif line:
+            blocked.add(line)
+    return blocked, allowed
 
 
 def sync() -> tuple[dict, set, list]:
     meta = metadata()
-    names = blocklist()
+    names, allowed = blocklist()
     keep = set()
     blocked = []
     content = {'memes': [], 'comics': [], 'gifs': [], 'clips': []}
 
     def off_rule(rel: str, entry: dict, title: str) -> bool:
         path = Path(rel)
+        ids = {rel, path.name, path.stem}
         text = ' '.join(str(entry.get(key) or '') for key in ('caption', 'topic', 'alt')) + ' ' + title
-        if {rel, path.name, path.stem} & names or entry.get('retracted') or OFF_RULE.search(text):
+        if ids & names or entry.get('retracted') or (OFF_RULE.search(text) and not ids & allowed):
             blocked.append(rel)
             return True
         return False

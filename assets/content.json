@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T12:27:03Z",
+  "updated": "2026-11-26T12:29:15Z",
   "memes": [
     {
       "file": "072_potluck.png",
@@ -416,6 +416,15 @@
       "created": "2026-11-26T12:02:26Z"
     },
     {
+      "file": "020_ninth_bottom.png",
+      "src": "assets/memes4/020_ninth_bottom.png",
+      "thumb": "assets/memes4/thumbs/020_ninth_bottom.webp",
+      "title": "reading \"this is the bottom\" for the 9th time this month.",
+      "alt": "reading \"this is the bottom\" for the 9th time this month.",
+      "tag": "market",
+      "created": "2026-11-26T12:02:26Z"
+    },
+    {
       "file": "019_pre_flattened.png",
       "src": "assets/memes4/019_pre_flattened.png",
       "thumb": "assets/memes4/thumbs/019_pre_flattened.webp",
@@ -488,6 +497,15 @@
       "created": "2026-11-26T11:57:44Z"
     },
     {
+      "file": "007_horizontal.png",
+      "src": "assets/memes4/007_horizontal.png",
+      "thumb": "assets/memes4/thumbs/007_horizontal.webp",
+      "title": "longs got liquidated. shorts got liquidated. he was horizontal. $duk",
+      "alt": "longs got liquidated. shorts got liquidated. he was horizontal. $duk",
+      "tag": "market",
+      "created": "2026-11-26T11:57:44Z"
+    },
+    {
       "file": "005_never_wound_up.png",
       "src": "assets/memes4/005_never_wound_up.png",
       "thumb": "assets/memes4/thumbs/005_never_wound_up.webp",
@@ -511,6 +529,15 @@
       "thumb": "assets/memes4/thumbs/003_this_time_different.webp",
       "title": "veterans say this time actually seems different. he checked.",
       "alt": "duk reacting to \"this time actually seems different\", crypto veterans brace for more pain. veterans say this time actually seems different. he checked.",
+      "tag": "market",
+      "created": "2026-11-26T11:51:17Z"
+    },
+    {
+      "file": "002_etf_outflows.png",
+      "src": "assets/memes4/002_etf_outflows.png",
+      "thumb": "assets/memes4/thumbs/002_etf_outflows.webp",
+      "title": "record etf outflows. $duk",
+      "alt": "record etf outflows. $duk",
       "tag": "market",
       "created": "2026-11-26T11:51:17Z"
     }
@@ -581,6 +608,42 @@
     }
   ],
   "gifs": [
+    {
+      "title": "unduckable.",
+      "alt": "unduckable.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/041_unduckable.mp4",
+      "gif": "assets/gifs2/041_unduckable.gif",
+      "poster": "assets/gifs2/posters/041_unduckable.webp",
+      "created": "2026-11-26T12:26:45Z"
+    },
+    {
+      "title": "round two.",
+      "alt": "round two.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/044_round_two.mp4",
+      "gif": "assets/gifs2/044_round_two.gif",
+      "poster": "assets/gifs2/posters/044_round_two.webp",
+      "created": "2026-11-26T12:25:51Z"
+    },
+    {
+      "title": "not now.",
+      "alt": "not now.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/043_not_now.mp4",
+      "gif": "assets/gifs2/043_not_now.gif",
+      "poster": "assets/gifs2/posters/043_not_now.webp",
+      "created": "2026-11-26T12:25:50Z"
+    },
+    {
+      "title": "undefeated.",
+      "alt": "undefeated.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/042_undefeated.mp4",
+      "gif": "assets/gifs2/042_undefeated.gif",
+      "poster": "assets/gifs2/posters/042_undefeated.webp",
+      "created": "2026-11-26T12:25:50Z"
+    },
     {
       "title": "cascade.",
       "alt": "cascade.",
@@ -926,6 +989,36 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/033_boss_black_friday.mp4",
+      "poster": "assets/clips2/033_boss_black_friday.webp",
+      "title": "boss black friday.",
+      "alt": "boss black friday.",
+      "created": "2026-11-26T12:26:58Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/032_duk_vs_the_market.mp4",
+      "poster": "assets/clips2/032_duk_vs_the_market.webp",
+      "title": "vs the market.",
+      "alt": "vs the market.",
+      "created": "2026-11-26T12:26:35Z",
+      "duration": 15.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/031_unduckable_roomba.mp4",
+      "poster": "assets/clips2/031_unduckable_roomba.webp",
+      "title": "unduckable roomba.",
+      "alt": "unduckable roomba.",
+      "created": "2026-11-26T12:26:33Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/029_liquidation_cascade.mp4",
       "poster": "assets/clips2/029_liquidation_cascade.webp",
       "title": "liquidation cascade.",
@@ -1110,6 +1203,16 @@
       "poster": "assets/clips2/009_pov_portfolio_question.webp",
       "title": "pov: you asked him how the portfolio is doing. $duk",
       "alt": "POV: you just asked DUK how his portfolio is doing. Close-up of his blank stare. He slowly sinks straight down out of frame without a word. Empty blue frame. After a while just his eyes peek back up over the bottom edge. \"he'll get back to you.\"",
+      "created": "2026-11-26T12:00:19Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/008_monthly_candle.mp4",
+      "poster": "assets/clips2/008_monthly_candle.webp",
+      "title": "the november candle has arrived.",
+      "alt": "A shadow grows on the floor around DUK. He looks up. Drops flat. A giant red candle slams into the ground right behind him with a crash and screen shake. Dust settles; DUK stands back up in front of it like it is nothing: \"the monthly candle.\" \"he's fine.\"",
       "created": "2026-11-26T12:00:19Z",
       "duration": 12.0,
       "width": 1080,
