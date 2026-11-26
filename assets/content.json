@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T12:24:02Z",
+  "updated": "2026-11-26T12:27:03Z",
   "memes": [
     {
       "file": "072_potluck.png",
@@ -416,15 +416,6 @@
       "created": "2026-11-26T12:02:26Z"
     },
     {
-      "file": "020_ninth_bottom.png",
-      "src": "assets/memes4/020_ninth_bottom.png",
-      "thumb": "assets/memes4/thumbs/020_ninth_bottom.webp",
-      "title": "reading \"this is the bottom\" for the 9th time this month.",
-      "alt": "duk reacting to \"this is the bottom\" calls all month while btc keeps making new lows. reading \"this is the bottom\" for the 9th time this month.",
-      "tag": "market",
-      "created": "2026-11-26T12:02:26Z"
-    },
-    {
       "file": "019_pre_flattened.png",
       "src": "assets/memes4/019_pre_flattened.png",
       "thumb": "assets/memes4/thumbs/019_pre_flattened.webp",
@@ -497,15 +488,6 @@
       "created": "2026-11-26T11:57:44Z"
     },
     {
-      "file": "007_horizontal.png",
-      "src": "assets/memes4/007_horizontal.png",
-      "thumb": "assets/memes4/thumbs/007_horizontal.webp",
-      "title": "longs got liquidated. shorts got liquidated. he was horizontal. $duk",
-      "alt": "duk reacting to $618m liquidated in 24h, split evenly between longs and shorts. longs got liquidated. shorts got liquidated. he was horizontal. $duk",
-      "tag": "market",
-      "created": "2026-11-26T11:57:44Z"
-    },
-    {
       "file": "005_never_wound_up.png",
       "src": "assets/memes4/005_never_wound_up.png",
       "thumb": "assets/memes4/thumbs/005_never_wound_up.webp",
@@ -529,15 +511,6 @@
       "thumb": "assets/memes4/thumbs/003_this_time_different.webp",
       "title": "veterans say this time actually seems different. he checked.",
       "alt": "duk reacting to \"this time actually seems different\", crypto veterans brace for more pain. veterans say this time actually seems different. he checked.",
-      "tag": "market",
-      "created": "2026-11-26T11:51:17Z"
-    },
-    {
-      "file": "002_etf_outflows.png",
-      "src": "assets/memes4/002_etf_outflows.png",
-      "thumb": "assets/memes4/thumbs/002_etf_outflows.webp",
-      "title": "record etf outflows. $duk",
-      "alt": "duk reacting to record bitcoin etf outflows in november. record etf outflows. $duk",
       "tag": "market",
       "created": "2026-11-26T11:51:17Z"
     }
@@ -605,18 +578,54 @@
       "alt": "duk reacting to thanksgiving day while the market chops before friday expiry. thanksgiving schedule. same as every day.",
       "tag": null,
       "created": "2026-11-26T11:59:35Z"
-    },
-    {
-      "file": "duk4_006_bounce_comic.png",
-      "src": "assets/comics2/duk4_006_bounce_comic.png",
-      "thumb": "assets/comics2/thumbs/duk4_006_bounce_comic.webp",
-      "title": "bitcoin bounced 3% on thanksgiving. he got up. briefly.",
-      "alt": "duk reacting to btc bounces ~3% on thanksgiving, options expiry friday. bitcoin bounced 3% on thanksgiving. he got up. briefly.",
-      "tag": null,
-      "created": "2026-11-26T11:51:17Z"
     }
   ],
   "gifs": [
+    {
+      "title": "cascade.",
+      "alt": "cascade.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/040_cascade.mp4",
+      "gif": "assets/gifs2/040_cascade.gif",
+      "poster": "assets/gifs2/posters/040_cascade.webp",
+      "created": "2026-11-26T12:23:54Z"
+    },
+    {
+      "title": "say.",
+      "alt": "say.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/039_say_duk.mp4",
+      "gif": "assets/gifs2/039_say_duk.gif",
+      "poster": "assets/gifs2/posters/039_say_duk.webp",
+      "created": "2026-11-26T12:23:54Z"
+    },
+    {
+      "title": "stay down.",
+      "alt": "stay down.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/038_stay_down.mp4",
+      "gif": "assets/gifs2/038_stay_down.gif",
+      "poster": "assets/gifs2/posters/038_stay_down.webp",
+      "created": "2026-11-26T12:23:53Z"
+    },
+    {
+      "title": "heard.",
+      "alt": "heard.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/037_heard.mp4",
+      "gif": "assets/gifs2/037_heard.gif",
+      "poster": "assets/gifs2/posters/037_heard.webp",
+      "created": "2026-11-26T12:23:53Z"
+    },
+    {
+      "title": "muscle memory.",
+      "alt": "muscle memory.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/034_muscle_memory.mp4",
+      "gif": "assets/gifs2/034_muscle_memory.gif",
+      "poster": "assets/gifs2/posters/034_muscle_memory.webp",
+      "created": "2026-11-26T12:22:06Z"
+    },
     {
       "title": "hotter than expected.",
       "alt": "hotter than expected.",
@@ -888,30 +897,12 @@
       "created": "2026-11-26T11:58:00Z"
     },
     {
-      "title": "extreme fear. $duk",
-      "alt": "A fear & greed gauge drawn above DUK: the needle swings hard into \"extreme fear\"; DUK is already lying flat under it, staring.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/005_extreme_fear.mp4",
-      "gif": "assets/gifs2/005_extreme_fear.gif",
-      "poster": "assets/gifs2/posters/005_extreme_fear.webp",
-      "created": "2026-11-26T11:58:00Z"
-    },
-    {
       "title": "gobble. $duk",
       "alt": "Close-up of DUK staring, totally blank, opening his bill twice: \"gobble.\" He is not a turkey.",
       "tag": "reaction",
       "mp4": "assets/gifs2/004_gobble.mp4",
       "gif": "assets/gifs2/004_gobble.gif",
       "poster": "assets/gifs2/posters/004_gobble.webp",
-      "created": "2026-11-26T11:55:47Z"
-    },
-    {
-      "title": "no thanks.",
-      "alt": "A note reading \"100x leverage?\" slides in at head height; DUK drops flat, it slides past, he gets back up: \"no thanks.\"",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/003_no_thanks.mp4",
-      "gif": "assets/gifs2/003_no_thanks.gif",
-      "poster": "assets/gifs2/posters/003_no_thanks.webp",
       "created": "2026-11-26T11:55:47Z"
     },
     {
@@ -934,6 +925,56 @@
     }
   ],
   "clips": [
+    {
+      "src": "assets/clips2/029_liquidation_cascade.mp4",
+      "poster": "assets/clips2/029_liquidation_cascade.webp",
+      "title": "liquidation cascade.",
+      "alt": "liquidation cascade.",
+      "created": "2026-11-26T12:24:34Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/028_someone_called_the_top.mp4",
+      "poster": "assets/clips2/028_someone_called_the_top.webp",
+      "title": "someone called the top.",
+      "alt": "someone called the top.",
+      "created": "2026-11-26T12:24:32Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/030_family_photo.mp4",
+      "poster": "assets/clips2/030_family_photo.webp",
+      "title": "family photo.",
+      "alt": "family photo.",
+      "created": "2026-11-26T12:23:53Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/027_green_muscle_memory.mp4",
+      "poster": "assets/clips2/027_green_muscle_memory.webp",
+      "title": "green muscle memory.",
+      "alt": "green muscle memory.",
+      "created": "2026-11-26T12:22:06Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/026_tariffs_everywhere.mp4",
+      "poster": "assets/clips2/026_tariffs_everywhere.webp",
+      "title": "tariffs everywhere.",
+      "alt": "tariffs everywhere.",
+      "created": "2026-11-26T12:22:04Z",
+      "duration": 14.0,
+      "width": 1280,
+      "height": 720
+    },
     {
       "src": "assets/clips2/025_inflation_came_in_hot.mp4",
       "poster": "assets/clips2/025_inflation_came_in_hot.webp",
@@ -959,16 +1000,6 @@
       "poster": "assets/clips2/023_bottoms_in_chorus.webp",
       "title": "everyone says the bottom is in. he's checking from down here. $duk",
       "alt": "DUK lies flat while speech bubbles pile up all over the screen: \"bottom's in\", \"generational\", \"final flush\", \"it's so over\", \"we are so back\". They all vanish at once. Silence. \"he'll get up when he gets up.\"",
-      "created": "2026-11-26T12:15:11Z",
-      "duration": 12.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/022_back_above_60k.mp4",
-      "poster": "assets/clips2/022_back_above_60k.webp",
-      "title": "the market got back up. he got up too. briefly.",
-      "alt": "DUK lies flat under a green \"the market got back up.\" sign. He gets up slowly, in three awkward steps, stands, looks around... and lies straight back down: \"just in case.\"",
       "created": "2026-11-26T12:15:11Z",
       "duration": 12.0,
       "width": 1080,
@@ -1001,16 +1032,6 @@
       "alt": "A red chart line comes down from the top and keeps going, straight into the glass of your screen: a big crack spreads across the whole video with the arrow stuck in it. DUK was already flat underneath. \"the chart entered the chat.\"",
       "created": "2026-11-26T12:15:11Z",
       "duration": 12.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/018_options_expiry.mp4",
-      "poster": "assets/clips2/018_options_expiry.webp",
-      "title": "options expire friday. he has already taken his position.",
-      "alt": "A paint countdown clock: \"options expire friday.\" 5, 4, 3, 2, 1... DUK is already lying flat under it the whole time. At zero it bursts into a cloud of flying \"expired\" papers that sail over him. He keeps staring: \"position: horizontal.\"",
-      "created": "2026-11-26T12:15:04Z",
-      "duration": 13.0,
       "width": 1080,
       "height": 1080
     },
@@ -1075,16 +1096,6 @@
       "height": 1080
     },
     {
-      "src": "assets/clips2/011_duk_season_forecast.mp4",
-      "poster": "assets/clips2/011_duk_season_forecast.webp",
-      "title": "today's forecast: duk season. high chance it's longs.",
-      "alt": "Weather report. DUK stands by a paint map covered in red candle icons. Forecast cards: \"today: red.\" \"high chance it's longs.\" \"stocks are closed. this is not.\" Then red candles start raining inside the studio and he lies down: \"back to you.\"",
-      "created": "2026-11-26T12:02:36Z",
-      "duration": 15.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
       "src": "assets/clips2/010_stocks_closed_crypto_open.mp4",
       "poster": "assets/clips2/010_stocks_closed_crypto_open.webp",
       "title": "stocks took thanksgiving off. crypto didn't. $duk",
@@ -1099,16 +1110,6 @@
       "poster": "assets/clips2/009_pov_portfolio_question.webp",
       "title": "pov: you asked him how the portfolio is doing. $duk",
       "alt": "POV: you just asked DUK how his portfolio is doing. Close-up of his blank stare. He slowly sinks straight down out of frame without a word. Empty blue frame. After a while just his eyes peek back up over the bottom edge. \"he'll get back to you.\"",
-      "created": "2026-11-26T12:00:19Z",
-      "duration": 12.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/008_monthly_candle.mp4",
-      "poster": "assets/clips2/008_monthly_candle.webp",
-      "title": "the november candle has arrived.",
-      "alt": "A shadow grows on the floor around DUK. He looks up. Drops flat. A giant red candle slams into the ground right behind him with a crash and screen shake. Dust settles; DUK stands back up in front of it like it is nothing: \"the monthly candle.\" \"he's fine.\"",
       "created": "2026-11-26T12:00:19Z",
       "duration": 12.0,
       "width": 1080,
@@ -1135,16 +1136,6 @@
       "height": 1080
     },
     {
-      "src": "assets/clips2/005_slow_zoom_stare.mp4",
-      "poster": "assets/clips2/005_slow_zoom_stare.webp",
-      "title": "worst month in a while. he has been informed.",
-      "alt": "Very slow dramatic zoom into DUK's blank face while a low drone builds and the facts appear: \"red month.\" \"worst in a while.\" \"extreme fear.\" Extreme close-up on his eyes. Silence. He blinks once. \"duk.\" Then cut to him flat on the floor.",
-      "created": "2026-11-26T11:58:00Z",
-      "duration": 14.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
       "src": "assets/clips2/004_duk_hour.mp4",
       "poster": "assets/clips2/004_duk_hour.webp",
       "title": "it's duk hour. everybody down.",
@@ -1165,32 +1156,12 @@
       "height": 1080
     },
     {
-      "src": "assets/clips2/002_duk_news_extreme_fear.mp4",
-      "poster": "assets/clips2/002_duk_news_extreme_fear.webp",
-      "title": "tonight on duk news: extreme fear. our anchor has a statement. $duk",
-      "alt": "Fake news broadcast. DUK anchors \"duk news\" in silence under a \"breaking: extreme fear\" banner. A red chart crashes through the studio, he flattens onto the desk in THE DUK pose, an \"etf outflows\" memo flies over, he sits back up: \"back to you.\" Ticker: extreme fear, options expire friday.",
-      "created": "2026-11-26T11:55:47Z",
-      "duration": 14.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
       "src": "assets/clips2/001_market_opened.mp4",
       "poster": "assets/clips2/001_market_opened.webp",
       "title": "market opened. duk.",
       "alt": "Bell rings: \"market opened.\" Red candles start flying in at head height, DUK drops flat in THE DUK pose, eight candles whoosh over him, he gets back up and stares: \"same time tomorrow.\"",
       "created": "2026-11-26T11:55:47Z",
       "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/003_thanksgiving_dinner.mp4",
-      "poster": "assets/clips2/003_thanksgiving_dinner.webp",
-      "title": "thanksgiving dinner.",
-      "alt": "thanksgiving dinner.",
-      "created": "2026-11-26T11:55:33Z",
-      "duration": 12.0,
       "width": 1080,
       "height": 1080
     }

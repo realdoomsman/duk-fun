@@ -35,6 +35,10 @@ FOLDERS = {
     'videos/clips2': ASSETS / 'clips2',
 }
 PUBLISHED = [MANIFEST.relative_to(SITE).as_posix()] + [path.relative_to(SITE).as_posix() for path in FOLDERS.values()]
+# Content rule: no prices, dollar amounts, percentages, leverage multipliers, other coins. Listed files and items
+# whose caption/topic/alt/title trip OFF_RULE (or that the producer marked retracted) are never published.
+BLOCKLIST = PROJECT / 'work' / 'state' / 'content-blocklist.txt'
+OFF_RULE = re.compile(r'bitcoin|\bbtc\b|\beth\b|\$\d|\d+ ?%|\d+k\b|\d+x\b', re.IGNORECASE)
 
 
 def ffmpeg() -> str:
@@ -165,10 +169,28 @@ def ready(path: Path) -> bool:
     return path.is_file() and not path.name.startswith(('_', '.')) and time.time() - path.stat().st_mtime > SETTLE_SECONDS
 
 
-def sync() -> tuple[dict, set]:
+def blocklist() -> set:
+    """Filenames (or stems, or 'folder/name' paths) from work/state/content-blocklist.txt; '#' starts a comment."""
+    if not BLOCKLIST.is_file():
+        return set()
+    lines = (line.split('#', 1)[0].strip() for line in BLOCKLIST.read_text(encoding='utf-8').splitlines())
+    return {line.replace('\\', '/') for line in lines if line}
+
+
+def sync() -> tuple[dict, set, list]:
     meta = metadata()
+    names = blocklist()
     keep = set()
+    blocked = []
     content = {'memes': [], 'comics': [], 'gifs': [], 'clips': []}
+
+    def off_rule(rel: str, entry: dict, title: str) -> bool:
+        path = Path(rel)
+        text = ' '.join(str(entry.get(key) or '') for key in ('caption', 'topic', 'alt')) + ' ' + title
+        if {rel, path.name, path.stem} & names or entry.get('retracted') or OFF_RULE.search(text):
+            blocked.append(rel)
+            return True
+        return False
 
     for folder, kind in (('memes4', 'memes'), ('comics2', 'comics')):
         source_dir = PROJECT / folder
@@ -179,6 +201,8 @@ def sync() -> tuple[dict, set]:
                 continue
             entry = meta.get(f'{folder}/{source.name}', {})
             title = caption(entry, source)
+            if off_rule(f'{folder}/{source.name}', entry, title):
+                continue
             target = FOLDERS[folder] / source.name
             thumb = FOLDERS[folder] / 'thumbs' / f'{source.stem}.webp'
             content[kind].append({
@@ -204,6 +228,8 @@ def sync() -> tuple[dict, set]:
             entry = meta.get(f'gifs2/{gif.name}' if gif else f'gifs2/{stem}.mp4', {})
             any_file = gif or files['mp4']
             title = caption(entry, any_file)
+            if off_rule(f'gifs2/{any_file.name}', entry, title):
+                continue
             item = {'title': title, 'alt': alt_text(entry, title), 'tag': 'reaction',
                     'mp4': None, 'gif': None, 'poster': None, 'created': created(entry, any_file)}
             if gif:
@@ -226,6 +252,8 @@ def sync() -> tuple[dict, set]:
                 continue
             entry = meta.get(f'videos/clips2/{source.name}', {})
             title = caption(entry, source)
+            if off_rule(f'videos/clips2/{source.name}', entry, title):
+                continue
             out = FOLDERS['videos/clips2']
             info = probe(source)
             poster = out / f'{source.stem}.webp'
@@ -242,7 +270,7 @@ def sync() -> tuple[dict, set]:
 
     for items in content.values():
         items.sort(key=lambda item: (item['created'], item.get('src') or item.get('gif') or item.get('mp4')), reverse=True)
-    return content, keep
+    return content, keep, blocked
 
 
 def prune(keep: set) -> list:
@@ -285,7 +313,7 @@ def push(summary: str) -> None:
 
 
 def main() -> None:
-    content, keep = sync()
+    content, keep, blocked = sync()
     removed = prune(keep)
     previous = json.loads(MANIFEST.read_text(encoding='utf-8')) if MANIFEST.is_file() else {}
     changed = {key: previous.get(key) for key in content} != content
@@ -298,7 +326,8 @@ def main() -> None:
         raise SystemExit(f'broken entries: {missing}')
     summary = ', '.join(f'{len(items)} {kind}' for kind, items in content.items())
     print(f"content.json: {summary}{' (updated)' if changed else ' (no change)'}"
-          + (f"; pruned {len(removed)} files" if removed else ''))
+          + (f"; pruned {len(removed)} files" if removed else '')
+          + (f"; blocked {len(blocked)}: {' '.join(blocked)}" if blocked else ''))
     if '--push' in sys.argv:
         push(summary)
 
