@@ -43,6 +43,9 @@ PAGES = {
         ('memes/05_monday.png', (700, 50, 230, 230), -6, True),
         ('memes/08_capitulation.png', (920, 150, 240, 240), 4, True),
         ('memes/21_bedtime.png', (730, 320, 240, 240), -2, True)]),
+    'press': ('press kit.', 'the story, the facts, the art.', [
+        ('logo.png', (700, 60, 440, 200), -4, False),
+        ('ducking.png', (640, 300, 520, 310), 0, False)]),
 }
 
 

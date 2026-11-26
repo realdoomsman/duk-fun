@@ -3,6 +3,16 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **press kit** (press.html, press.css, press.js) for kols, hosts and writers: the story in three lengths with copy buttons
+  (one line / one post / one paragraph), the facts (ticker, chain, ca with copy, the pool in the approved wording, the greeting,
+  duk hour, links), the main art with downloads, the look (colors, style rules) and "please don't" (no prices, no floor talk,
+  no other coins). `python scripts/press-kit.py` builds assets/press/duk-press-kit.zip (the art + story.txt read out of
+  press.html's [data-press-text] blocks): rerun it after changing those words or the art. Linked from every footer and the kit.
+- **pool chart**: pool.html "every add, over time": running total of what the keeper put in (sol / duk / lp burned), one step
+  per add, each add as a bar underneath; point, tap or arrow-key through the adds for time, size, running total and receipt.
+  Built from every `deposit` in the keeper's /log `transactions` (the full ledger; `recent` stops at 20).
+- **pause for looping gifs**: home wall and wall of fame gifs get the same play/pause button the sticker pages have
+  (app.js `dukLoopToggle` + `dukWatchLoop`, shared by media.js); a pause by hand sticks while scrolling.
 - **home screen app**: manifest.webmanifest (standalone, paint-blue, icons in assets/icons/ from the pfp, shortcuts: duk of the
   day / make a duk / memes) + apple-touch-icon on every page; chromium reports it installable with no errors. When the browser
   offers an install, home and daily.html show "put duk on your home screen" (beforeinstallprompt).
