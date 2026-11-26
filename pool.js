@@ -18,13 +18,15 @@
   const amount = (value) => isAmount(value) ? numbers.format(value) : '—';
   const clock = (date) => date.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
 
-  // waiting_for_pool only means "buying on the curve" when the keeper reports pregrad_buy: true.
+  const DEV_SUPPLY_DUK = 51095238;
+  const wholeNumbers = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 });
+
   const waitingLabel = (data) => {
     if (data && data.state === 'no_mint') return 'running, but no coin to watch yet.';
     if (data && data.state === 'waiting_for_pool') {
       return data.pregrad_buy === true
         ? 'running. buying on the curve and holding until graduation.'
-        : 'coin found. waiting for graduation and the pumpswap pool.';
+        : 'running. claiming fees and saving them as sol until graduation.';
     }
     return 'not active yet.';
   };
@@ -95,22 +97,23 @@
     .sort((a, b) => (isAmount(b.timestamp) ? b.timestamp : 0) - (isAmount(a.timestamp) ? a.timestamp : 0));
   const receiptRow = (entry) => txRow(entry, [['solAdded', 'sol'], ['dukAdded', 'duk'], ['lpBurned', 'lp burned']]);
 
-  // Pre-graduation: fees claimed and duk bought on the bonding curve. Missing fields show '—'.
+  // Before graduation: fees claimed, sol saved for the pool, and duk held (dev supply + launch-day curve buys).
+  // Missing fields show '—'.
   const showCurve = (data) => {
     const totals = (data && data.totals) || {};
     $('pp-claimed').textContent = amount(totals.solClaimed);
-    $('pp-curve-sol').textContent = amount(totals.solSpentOnCurveBuys);
-    $('pp-curve-duk').textContent = amount(totals.dukBoughtOnCurve);
+    $('pp-saved').textContent = amount(data && data.pending_sol);
+    // duk still waiting to go in: dev supply + launch-day curve buys, minus what's already been added.
+    const bought = isAmount(totals.dukBoughtOnCurve) ? totals.dukBoughtOnCurve : 0;
+    const added = isAmount(totals.dukAdded) ? totals.dukAdded : 0;
+    $('pp-held').textContent = data ? wholeNumbers.format(Math.max(0, DEV_SUPPLY_DUK + bought - added)) : '—';
     const buys = newestFirst(data && data.curve_buys).slice(0, 20);
-    const curveOn = Boolean(data && data.pregrad_buy === true);
     $('pp-curve-count').textContent = buys.length
-      ? `the last ${buys.length} ${buys.length === 1 ? 'buy' : 'buys'}, newest first.`
+      ? `${buys.length} ${buys.length === 1 ? 'buy' : 'buys'} on launch day, newest first. the bot doesn't buy on the curve anymore.`
       : 'each buy links to its transaction on solscan.';
-    let emptyText = "— the keeper didn't answer. try again in a minute.";
-    if (data) emptyText = curveOn ? '— no curve buys yet.' : "— pre-graduation buying isn't on yet.";
     $('pp-curve-rows').replaceChildren(...(buys.length
       ? buys.map((entry) => txRow(entry, [['solIn', 'sol in'], ['dukOut', 'duk out']]))
-      : [emptyRow(emptyText, 4)]));
+      : [emptyRow(data ? '— no curve buys.' : "— the keeper didn't answer. try again in a minute.", 4)]));
   };
 
   const showActive = (data) => {
