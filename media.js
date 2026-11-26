@@ -145,7 +145,7 @@
       watchLoop(video);
       return { media: video, toggle: loopToggle(video, label) };
     }
-    return { media: el('img', { class: 'sticker-art', src: item.src, alt: label, width: 512, height: 512, loading: 'lazy', decoding: 'async' }) };
+    return { media: el('img', { class: 'sticker-art', src: item.thumb || item.src, alt: label, width: 512, height: 512, loading: 'lazy', decoding: 'async' }) };
   };
   const packUse = (items) => {
     const motion = items.filter(isWebm);

@@ -264,7 +264,7 @@
       image.height = 56;
       image.loading = 'lazy';
       image.decoding = 'async';
-      image.src = item.src;
+      image.src = item.thumb || item.src;
       button.append(image);
       return button;
     }));
@@ -866,7 +866,7 @@
       for (const pack of packs) {
         const items = (pack.items || [])
           .filter(item => item && typeof item.src === 'string' && /\.(png|webp)$/i.test(item.src))
-          .map(item => ({ label: String(item.alt || '').replace(/\.$/, '') || 'sticker', src: item.src }));
+          .map(item => ({ label: String(item.alt || '').replace(/\.$/, '') || 'sticker', src: item.src, thumb: typeof item.thumb === 'string' ? item.thumb : null }));
         if (items.length) stickerSets.push({ id: String(pack.id), name: String(pack.name || pack.id), items });
       }
       renderStickerSets();

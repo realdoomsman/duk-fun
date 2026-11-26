@@ -107,14 +107,14 @@ for name in ('duk.png', 'pfp.png'):
     else:
         missing.append(f'style2/paint/{name}')
 
-def thumbnail(src: str) -> str:
-    """480px webp next to a published meme (assets/memes/thumbs/x.webp) for the grids; downloads keep the png."""
+def thumbnail(src: str, size: int = 480) -> str:
+    """Small webp next to a published image (assets/memes/thumbs/x.webp) for the grids; downloads keep the original."""
     source = SITE / src
     target = source.parent / 'thumbs' / f'{source.stem}.webp'
     target.parent.mkdir(exist_ok=True)
     with Image.open(source) as image:
         frame = image.convert('RGBA' if image.mode in ('RGBA', 'LA', 'P') else 'RGB')
-        frame.thumbnail((480, 480), Image.LANCZOS)
+        frame.thumbnail((size, size), Image.LANCZOS)
         frame.save(target, 'WEBP', quality=72, method=6)
     return target.relative_to(SITE).as_posix()
 
@@ -204,6 +204,8 @@ def sticker_pack(folder: Path, pack_id: str, name: str):
                     sibling = source.with_suffix(f'.{format_name}')
                     item[format_name] = export.get(format_name) or (
                         publish(sibling, target.with_suffix(f'.{format_name}')) if sibling.is_file() else None)
+            else:
+                item['thumb'] = thumbnail(item['src'], 320)
             pack['items'].append(item)
     if pack['items']:
         media['stickerPacks'].append(pack)

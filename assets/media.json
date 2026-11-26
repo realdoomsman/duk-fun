@@ -2459,241 +2459,281 @@
           "src": "assets/stickers/react/01_yes.png",
           "alt": "yes.",
           "emoji": "✅",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/01_yes.webp"
         },
         {
           "src": "assets/stickers/react/02_no.png",
           "alt": "no.",
           "emoji": "🙅",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/02_no.webp"
         },
         {
           "src": "assets/stickers/react/03_ok.png",
           "alt": "ok.",
           "emoji": "👌",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/03_ok.webp"
         },
         {
           "src": "assets/stickers/react/04_ha.png",
           "alt": "ha.",
           "emoji": "😐",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/04_ha.webp"
         },
         {
           "src": "assets/stickers/react/05_cry.png",
           "alt": "cry.",
           "emoji": "🥲",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/05_cry.webp"
         },
         {
           "src": "assets/stickers/react/06_shocked.png",
           "alt": "shocked.",
           "emoji": "😳",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/06_shocked.webp"
         },
         {
           "src": "assets/stickers/react/07_confused.png",
           "alt": "confused.",
           "emoji": "❓",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/07_confused.webp"
         },
         {
           "src": "assets/stickers/react/08_thinking.png",
           "alt": "thinking.",
           "emoji": "🤔",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/08_thinking.webp"
         },
         {
           "src": "assets/stickers/react/09_facepalm.png",
           "alt": "facepalm.",
           "emoji": "🤦",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/09_facepalm.webp"
         },
         {
           "src": "assets/stickers/react/10_thumbs_up.png",
           "alt": "thumbs up.",
           "emoji": "👍",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/10_thumbs_up.webp"
         },
         {
           "src": "assets/stickers/react/11_clapping.png",
           "alt": "clapping.",
           "emoji": "👏",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/11_clapping.webp"
         },
         {
           "src": "assets/stickers/react/12_love.png",
           "alt": "love.",
           "emoji": "❤️",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/12_love.webp"
         },
         {
           "src": "assets/stickers/react/13_angry.png",
           "alt": "angry.",
           "emoji": "😤",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/13_angry.webp"
         },
         {
           "src": "assets/stickers/react/14_scared.png",
           "alt": "scared.",
           "emoji": "😨",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/14_scared.webp"
         },
         {
           "src": "assets/stickers/react/15_shrug.png",
           "alt": "shrug.",
           "emoji": "🤷",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/15_shrug.webp"
         },
         {
           "src": "assets/stickers/react/16_bruh.png",
           "alt": "bruh.",
           "emoji": "😑",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/16_bruh.webp"
         },
         {
           "src": "assets/stickers/react/17_wait_what.png",
           "alt": "wait what.",
           "emoji": "🤨",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/17_wait_what.webp"
         },
         {
           "src": "assets/stickers/react/18_noted.png",
           "alt": "noted.",
           "emoji": "📝",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/18_noted.webp"
         },
         {
           "src": "assets/stickers/react/19_listening.png",
           "alt": "listening.",
           "emoji": "👂",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/19_listening.webp"
         },
         {
           "src": "assets/stickers/react/20_side_eye.png",
           "alt": "side eye.",
           "emoji": "👀",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/20_side_eye.webp"
         },
         {
           "src": "assets/stickers/react/21_nervous.png",
           "alt": "nervous.",
           "emoji": "😅",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/21_nervous.webp"
         },
         {
           "src": "assets/stickers/react/22_dead.png",
           "alt": "dead.",
           "emoji": "💀",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/22_dead.webp"
         },
         {
           "src": "assets/stickers/react/23_sleepy.png",
           "alt": "sleepy.",
           "emoji": "😴",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/23_sleepy.webp"
         },
         {
           "src": "assets/stickers/react/24_mind_blown.png",
           "alt": "mind blown.",
           "emoji": "🤯",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/24_mind_blown.webp"
         },
         {
           "src": "assets/stickers/react/25_respect.png",
           "alt": "respect.",
           "emoji": "🫡",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/25_respect.webp"
         },
         {
           "src": "assets/stickers/react/26_thank_you.png",
           "alt": "thank you.",
           "emoji": "🙏",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/26_thank_you.webp"
         },
         {
           "src": "assets/stickers/react/27_sorry.png",
           "alt": "sorry.",
           "emoji": "🥺",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/27_sorry.webp"
         },
         {
           "src": "assets/stickers/react/28_hello.png",
           "alt": "hello.",
           "emoji": "👋",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/28_hello.webp"
         },
         {
           "src": "assets/stickers/react/29_bye.png",
           "alt": "bye.",
           "emoji": "👋",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/29_bye.webp"
         },
         {
           "src": "assets/stickers/react/30_hug.png",
           "alt": "hug.",
           "emoji": "🫂",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/30_hug.webp"
         },
         {
           "src": "assets/stickers/react/31_judging.png",
           "alt": "judging.",
           "emoji": "🧐",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/31_judging.webp"
         },
         {
           "src": "assets/stickers/react/32_not_my_problem.png",
           "alt": "not my problem.",
           "emoji": "🙈",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/32_not_my_problem.webp"
         },
         {
           "src": "assets/stickers/react/33_please.png",
           "alt": "please.",
           "emoji": "🥺",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/33_please.webp"
         },
         {
           "src": "assets/stickers/react/34_proud.png",
           "alt": "proud.",
           "emoji": "🏅",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/34_proud.webp"
         },
         {
           "src": "assets/stickers/react/35_ok_boomer.png",
           "alt": "ok boomer.",
           "emoji": "😒",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/35_ok_boomer.webp"
         },
         {
           "src": "assets/stickers/react/36_i_see.png",
           "alt": "i see.",
           "emoji": "🧐",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/36_i_see.webp"
         },
         {
           "src": "assets/stickers/react/37_no_comment.png",
           "alt": "no comment.",
           "emoji": "🎤",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/37_no_comment.webp"
         },
         {
           "src": "assets/stickers/react/38_silence.png",
           "alt": "silence.",
           "emoji": "🤐",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/38_silence.webp"
         },
         {
           "src": "assets/stickers/react/39_popcorn.png",
           "alt": "popcorn.",
           "emoji": "🍿",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/39_popcorn.webp"
         },
         {
           "src": "assets/stickers/react/40_overwhelmed.png",
           "alt": "overwhelmed.",
           "emoji": "😵",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/react/thumbs/40_overwhelmed.webp"
         }
       ]
     },
@@ -2708,241 +2748,281 @@
           "src": "assets/stickers/daily/01_gm.png",
           "alt": "gm.",
           "emoji": "☕",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/01_gm.webp"
         },
         {
           "src": "assets/stickers/daily/02_gn.png",
           "alt": "gn.",
           "emoji": "😴",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/02_gn.webp"
         },
         {
           "src": "assets/stickers/daily/03_brb.png",
           "alt": "brb.",
           "emoji": "🚪",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/03_brb.webp"
         },
         {
           "src": "assets/stickers/daily/04_omw.png",
           "alt": "omw.",
           "emoji": "🏃",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/04_omw.webp"
         },
         {
           "src": "assets/stickers/daily/05_here.png",
           "alt": "here.",
           "emoji": "🙋",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/05_here.webp"
         },
         {
           "src": "assets/stickers/daily/06_busy.png",
           "alt": "busy.",
           "emoji": "😵‍💫",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/06_busy.webp"
         },
         {
           "src": "assets/stickers/daily/07_at_work.png",
           "alt": "at work.",
           "emoji": "💼",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/07_at_work.webp"
         },
         {
           "src": "assets/stickers/daily/08_lunch.png",
           "alt": "lunch.",
           "emoji": "🍽️",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/08_lunch.webp"
         },
         {
           "src": "assets/stickers/daily/09_hungry.png",
           "alt": "hungry.",
           "emoji": "🤤",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/09_hungry.webp"
         },
         {
           "src": "assets/stickers/daily/10_eating_bread.png",
           "alt": "eating bread.",
           "emoji": "🍞",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/10_eating_bread.webp"
         },
         {
           "src": "assets/stickers/daily/11_coffee.png",
           "alt": "coffee.",
           "emoji": "☕",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/11_coffee.webp"
         },
         {
           "src": "assets/stickers/daily/12_tired.png",
           "alt": "tired.",
           "emoji": "🥱",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/12_tired.webp"
         },
         {
           "src": "assets/stickers/daily/13_monday.png",
           "alt": "monday.",
           "emoji": "⏰",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/13_monday.webp"
         },
         {
           "src": "assets/stickers/daily/14_friday.png",
           "alt": "friday.",
           "emoji": "🎉",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/14_friday.webp"
         },
         {
           "src": "assets/stickers/daily/15_weekend.png",
           "alt": "weekend.",
           "emoji": "🛋️",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/15_weekend.webp"
         },
         {
           "src": "assets/stickers/daily/16_gaming.png",
           "alt": "gaming.",
           "emoji": "🎮",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/16_gaming.webp"
         },
         {
           "src": "assets/stickers/daily/17_on_the_phone.png",
           "alt": "on the phone.",
           "emoji": "📞",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/17_on_the_phone.webp"
         },
         {
           "src": "assets/stickers/daily/18_typing.png",
           "alt": "typing.",
           "emoji": "⌨️",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/18_typing.webp"
         },
         {
           "src": "assets/stickers/daily/19_reading.png",
           "alt": "reading.",
           "emoji": "📖",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/19_reading.webp"
         },
         {
           "src": "assets/stickers/daily/20_gym.png",
           "alt": "gym.",
           "emoji": "🏋️",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/20_gym.webp"
         },
         {
           "src": "assets/stickers/daily/21_shower.png",
           "alt": "shower.",
           "emoji": "🚿",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/21_shower.webp"
         },
         {
           "src": "assets/stickers/daily/22_sick.png",
           "alt": "sick.",
           "emoji": "🤒",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/22_sick.webp"
         },
         {
           "src": "assets/stickers/daily/23_rain.png",
           "alt": "rain.",
           "emoji": "☔",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/23_rain.webp"
         },
         {
           "src": "assets/stickers/daily/24_cold.png",
           "alt": "cold.",
           "emoji": "🥶",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/24_cold.webp"
         },
         {
           "src": "assets/stickers/daily/25_hot.png",
           "alt": "hot.",
           "emoji": "🥵",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/25_hot.webp"
         },
         {
           "src": "assets/stickers/daily/26_party.png",
           "alt": "party.",
           "emoji": "🥳",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/26_party.webp"
         },
         {
           "src": "assets/stickers/daily/27_birthday.png",
           "alt": "birthday.",
           "emoji": "🎂",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/27_birthday.webp"
         },
         {
           "src": "assets/stickers/daily/28_congrats.png",
           "alt": "congrats.",
           "emoji": "🏆",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/28_congrats.webp"
         },
         {
           "src": "assets/stickers/daily/29_good_luck.png",
           "alt": "good luck.",
           "emoji": "🍀",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/29_good_luck.webp"
         },
         {
           "src": "assets/stickers/daily/30_miss_you.png",
           "alt": "miss you.",
           "emoji": "🥺",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/30_miss_you.webp"
         },
         {
           "src": "assets/stickers/daily/31_call_me.png",
           "alt": "call me.",
           "emoji": "📲",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/31_call_me.webp"
         },
         {
           "src": "assets/stickers/daily/32_where_are_you.png",
           "alt": "where are you.",
           "emoji": "👀",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/32_where_are_you.webp"
         },
         {
           "src": "assets/stickers/daily/33_late.png",
           "alt": "late.",
           "emoji": "⏰",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/33_late.webp"
         },
         {
           "src": "assets/stickers/daily/34_bored.png",
           "alt": "bored.",
           "emoji": "😐",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/34_bored.webp"
         },
         {
           "src": "assets/stickers/daily/35_dancing.png",
           "alt": "dancing.",
           "emoji": "🕺",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/35_dancing.webp"
         },
         {
           "src": "assets/stickers/daily/36_chill.png",
           "alt": "chill.",
           "emoji": "😎",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/36_chill.webp"
         },
         {
           "src": "assets/stickers/daily/37_vacation.png",
           "alt": "vacation.",
           "emoji": "🏖️",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/37_vacation.webp"
         },
         {
           "src": "assets/stickers/daily/38_no_money.png",
           "alt": "no money.",
           "emoji": "💸",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/38_no_money.webp"
         },
         {
           "src": "assets/stickers/daily/39_payday.png",
           "alt": "payday.",
           "emoji": "🤑",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/39_payday.webp"
         },
         {
           "src": "assets/stickers/daily/40_gm_coffee_bath.png",
           "alt": "gm coffee bath.",
           "emoji": "☕",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/daily/thumbs/40_gm_coffee_bath.webp"
         }
       ]
     },
@@ -2957,241 +3037,281 @@
           "src": "assets/stickers/trench/01_buying.png",
           "alt": "buying.",
           "emoji": "🟢",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/01_buying.webp"
         },
         {
           "src": "assets/stickers/trench/02_selling.png",
           "alt": "selling.",
           "emoji": "🔴",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/02_selling.webp"
         },
         {
           "src": "assets/stickers/trench/03_aped.png",
           "alt": "aped.",
           "emoji": "🍌",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/03_aped.webp"
         },
         {
           "src": "assets/stickers/trench/04_rugged.png",
           "alt": "rugged.",
           "emoji": "🧶",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/04_rugged.webp"
         },
         {
           "src": "assets/stickers/trench/05_pumped.png",
           "alt": "pumped.",
           "emoji": "🎈",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/05_pumped.webp"
         },
         {
           "src": "assets/stickers/trench/06_dumping.png",
           "alt": "dumping.",
           "emoji": "🪣",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/06_dumping.webp"
         },
         {
           "src": "assets/stickers/trench/07_bag_holder.png",
           "alt": "bag holder.",
           "emoji": "💰",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/07_bag_holder.webp"
         },
         {
           "src": "assets/stickers/trench/08_ser.png",
           "alt": "ser.",
           "emoji": "🎩",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/08_ser.webp"
         },
         {
           "src": "assets/stickers/trench/09_gm_ser.png",
           "alt": "gm ser.",
           "emoji": "☕",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/09_gm_ser.webp"
         },
         {
           "src": "assets/stickers/trench/10_wagmi.png",
           "alt": "wagmi.",
           "emoji": "🤝",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/10_wagmi.webp"
         },
         {
           "src": "assets/stickers/trench/11_ngmi.png",
           "alt": "ngmi.",
           "emoji": "🗑️",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/11_ngmi.webp"
         },
         {
           "src": "assets/stickers/trench/12_few_understand.png",
           "alt": "few understand.",
           "emoji": "🧠",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/12_few_understand.webp"
         },
         {
           "src": "assets/stickers/trench/13_probably_nothing.png",
           "alt": "probably nothing.",
           "emoji": "👀",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/13_probably_nothing.webp"
         },
         {
           "src": "assets/stickers/trench/14_its_over.png",
           "alt": "its over.",
           "emoji": "🪦",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/14_its_over.webp"
         },
         {
           "src": "assets/stickers/trench/15_were_back.png",
           "alt": "were back.",
           "emoji": "🔥",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/15_were_back.webp"
         },
         {
           "src": "assets/stickers/trench/16_send_it.png",
           "alt": "send it.",
           "emoji": "🚀",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/16_send_it.webp"
         },
         {
           "src": "assets/stickers/trench/17_chart_stare.png",
           "alt": "chart stare.",
           "emoji": "📈",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/17_chart_stare.webp"
         },
         {
           "src": "assets/stickers/trench/18_green_joy.png",
           "alt": "green joy.",
           "emoji": "🟩",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/18_green_joy.webp"
         },
         {
           "src": "assets/stickers/trench/19_red_duck.png",
           "alt": "red duck.",
           "emoji": "🟥",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/19_red_duck.webp"
         },
         {
           "src": "assets/stickers/trench/20_liquidated.png",
           "alt": "liquidated.",
           "emoji": "💀",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/20_liquidated.webp"
         },
         {
           "src": "assets/stickers/trench/21_leverage.png",
           "alt": "leverage.",
           "emoji": "💦",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/21_leverage.webp"
         },
         {
           "src": "assets/stickers/trench/22_diamond_wings.png",
           "alt": "diamond wings.",
           "emoji": "💎",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/22_diamond_wings.webp"
         },
         {
           "src": "assets/stickers/trench/23_paper_wings.png",
           "alt": "paper wings.",
           "emoji": "🧻",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/23_paper_wings.webp"
         },
         {
           "src": "assets/stickers/trench/24_exit_liquidity.png",
           "alt": "exit liquidity.",
           "emoji": "🏧",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/24_exit_liquidity.webp"
         },
         {
           "src": "assets/stickers/trench/25_slippage.png",
           "alt": "slippage.",
           "emoji": "🛝",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/25_slippage.webp"
         },
         {
           "src": "assets/stickers/trench/26_gas_fees.png",
           "alt": "gas fees.",
           "emoji": "⛽",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/26_gas_fees.webp"
         },
         {
           "src": "assets/stickers/trench/27_not_eligible.png",
           "alt": "not eligible.",
           "emoji": "🪂",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/27_not_eligible.webp"
         },
         {
           "src": "assets/stickers/trench/28_wen.png",
           "alt": "wen.",
           "emoji": "⌚",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/28_wen.webp"
         },
         {
           "src": "assets/stickers/trench/29_soon.png",
           "alt": "soon.",
           "emoji": "⌛",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/29_soon.webp"
         },
         {
           "src": "assets/stickers/trench/30_dev_cooking.png",
           "alt": "dev cooking.",
           "emoji": "🍳",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/30_dev_cooking.webp"
         },
         {
           "src": "assets/stickers/trench/31_dev_sold.png",
           "alt": "dev sold.",
           "emoji": "💨",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/31_dev_sold.webp"
         },
         {
           "src": "assets/stickers/trench/32_cope.png",
           "alt": "cope.",
           "emoji": "🫁",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/32_cope.webp"
         },
         {
           "src": "assets/stickers/trench/33_fomo.png",
           "alt": "fomo.",
           "emoji": "🏃",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/33_fomo.webp"
         },
         {
           "src": "assets/stickers/trench/34_touch_grass.png",
           "alt": "touch grass.",
           "emoji": "🌱",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/34_touch_grass.webp"
         },
         {
           "src": "assets/stickers/trench/35_buy_dip.png",
           "alt": "buy dip.",
           "emoji": "🥑",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/35_buy_dip.webp"
         },
         {
           "src": "assets/stickers/trench/36_probably_fine.png",
           "alt": "probably fine.",
           "emoji": "🔥",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/36_probably_fine.webp"
         },
         {
           "src": "assets/stickers/trench/37_bullish.png",
           "alt": "bullish.",
           "emoji": "🐂",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/37_bullish.webp"
         },
         {
           "src": "assets/stickers/trench/38_bearish.png",
           "alt": "bearish.",
           "emoji": "🐻",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/38_bearish.webp"
         },
         {
           "src": "assets/stickers/trench/39_bottom.png",
           "alt": "bottom.",
           "emoji": "🕳️",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/39_bottom.webp"
         },
         {
           "src": "assets/stickers/trench/40_pool.png",
           "alt": "pool.",
           "emoji": "🏊",
-          "type": "png"
+          "type": "png",
+          "thumb": "assets/stickers/trench/thumbs/40_pool.webp"
         }
       ]
     },
