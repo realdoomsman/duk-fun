@@ -7,7 +7,7 @@ window.DUK_CONFIG = {
   PUMP: '',
   DEX: '',
   SITE: 'https://duk.fun',
-  KEEPER_URL: '', // Public keeper origin; /log supplies floor totals and burn transactions.
+  KEEPER_URL: 'https://keeper-production-90ba5543.up.railway.app', // Public keeper origin; /log supplies floor totals and burn transactions.
   memes: [
     { src: 'assets/memes/duk.png', title: 'just duk.', alt: 'a red chart falls. duk is already on the floor.' },
     { src: 'assets/memes/pfp.png', title: 'the face of survival.', alt: 'duk staring blankly. huge orange bill. no thoughts.' }
