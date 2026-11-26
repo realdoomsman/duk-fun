@@ -76,6 +76,22 @@ def metadata() -> dict:
                     found[entry['media']] = entry
         except json.JSONDecodeError:
             pass
+    # Fixed re-renders are re-queued as '<id>-v2' (x/queue-video.jsonl). Latest line per base id wins, so a
+    # corrected caption/topic replaces the original's wherever that base id has a -vN line.
+    latest = {}
+    queue = PROJECT / 'x' / 'queue-video.jsonl'
+    if queue.is_file():
+        for line in queue.read_text(encoding='utf-8').splitlines():
+            try:
+                entry = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if isinstance(entry, dict) and entry.get('media') and entry.get('id'):
+                latest[re.sub(r'-v\d+$', '', str(entry['id']))] = entry
+    for base, entry in latest.items():
+        if entry['id'] != base:
+            old = found.get(entry['media'], {})
+            found[entry['media']] = {**old, **entry, 'created': old.get('created') or entry.get('created')}
     return found
 
 
