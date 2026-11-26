@@ -207,11 +207,7 @@
     return link;
   };
 
-  fetch('assets/media.json')
-    .then((response) => {
-      if (!response.ok) throw new Error('media unavailable');
-      return response.json();
-    })
+  window.dukMedia()
     .then((media) => {
       const sprite = typeof media.poolSprite === 'string' && media.poolSprite.startsWith('assets/') ? media.poolSprite : null;
       if (sprite) {

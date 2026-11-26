@@ -26,10 +26,6 @@
   const slug = (value) => value.toLowerCase().replace(/\.[a-z0-9]+$/, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   const pad = (n) => String(n).padStart(2, '0');
   const postURL = (message) => `https://x.com/intent/post?text=${encodeURIComponent(message)}`;
-  const loadMedia = () => fetch('assets/media.json', { cache: 'no-cache' }).then((response) => {
-    if (!response.ok) throw new Error(`media.json ${response.status}`);
-    return response.json();
-  });
 
   function comicsPage() {
     const list = $('comics-list');
@@ -131,7 +127,7 @@
       backdropPress = false;
     });
 
-    loadMedia().then((media) => {
+    window.dukMedia().then((media) => {
       const ids = new Set();
       for (const item of Array.isArray(media.comics) ? media.comics : []) {
         if (!item || !localAsset(item.src) || isVideo(item.src)) continue;
@@ -269,7 +265,7 @@
       ]);
     }
 
-    loadMedia().then((media) => {
+    window.dukMedia().then((media) => {
       const kit = media.kit && typeof media.kit === 'object' && !Array.isArray(media.kit) ? media.kit : {};
       const lines = (Array.isArray(media.replyLines) ? media.replyLines : [])
         .filter((line) => typeof line === 'string' && line.trim()).map((line) => line.trim());

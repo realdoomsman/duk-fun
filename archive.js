@@ -30,17 +30,23 @@
   let loading = true;
   let backdropPress = false;
 
+  // Only local site assets are shown; manifest data never pulls in third-party images.
+  function localAsset(path) {
+    if (typeof path !== 'string' || !path.trim()) return null;
+    let url;
+    try { url = new URL(path, window.location.href); } catch { return null; }
+    if (url.origin !== assetBase.origin || !url.pathname.startsWith(assetBase.pathname)) return null;
+    url.search = '';
+    url.hash = '';
+    return url;
+  }
+
   function addItem(entry) {
     if (!entry || typeof entry !== 'object') return;
-    const path = typeof entry.src === 'string' && entry.src.trim() ? entry.src
-      : typeof entry.file === 'string' && entry.file.trim() ? `assets/memes/${entry.file}` : '';
-    if (!path) return;
-    let source;
-    try { source = new URL(path, window.location.href); } catch { return; }
-    // Only local site assets are shown; manifest data never pulls in third-party images.
-    if (source.origin !== assetBase.origin || !source.pathname.startsWith(assetBase.pathname)) return;
-    source.search = '';
-    source.hash = '';
+    const source = localAsset(typeof entry.src === 'string' && entry.src.trim() ? entry.src
+      : typeof entry.file === 'string' && entry.file.trim() ? `assets/memes/${entry.file}` : '');
+    if (!source) return;
+    const thumb = localAsset(entry.thumb);
     const tag = tags.has(entry.tag) ? entry.tag : null;
     const existing = bySource.get(source.href);
     if (existing) {
@@ -53,6 +59,7 @@
     const caption = typeof entry.title === 'string' && entry.title.trim() ? entry.title : 'just duk.';
     const item = {
       src: source.href,
+      thumb: thumb ? thumb.href : source.href,
       file,
       key,
       caption,
@@ -79,7 +86,7 @@
     thumbnail.width = 480;
     thumbnail.height = 480;
     thumbnail.alt = item.alt;
-    thumbnail.src = item.src;
+    thumbnail.src = item.thumb;
     const caption = document.createElement('span');
     caption.className = 'archive-card-caption';
     caption.textContent = item.caption;
@@ -231,9 +238,7 @@
 
   async function loadMedia() {
     try {
-      const response = await fetch('assets/media.json');
-      if (!response.ok) throw new Error('media unavailable');
-      const media = await response.json();
+      const media = await window.dukMedia();
       if (!media || !Array.isArray(media.memes)) throw new Error('invalid media');
       for (const entry of media.memes) addItem(entry);
       note.textContent = 'pick a tag or hit random duk.';

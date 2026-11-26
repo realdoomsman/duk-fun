@@ -1,8 +1,45 @@
-// Shared by every page: social links, the CA box, the community tape, the duk hour clock,
+// Shared by every page: the media index, social links, the CA box, the community tape, the duk hour clock,
 // and the home directory counts. Every block checks for its elements first.
 (() => {
   'use strict';
   const config = window.DUK_CONFIG || {};
+
+  // One media index for every page: assets/media.json (copy-assets.py) plus the fresh drops in
+  // assets/content.json (scripts/sync-content.py, newest first). Fresh memes, gifs and clips lead;
+  // fresh comics go after the old strips so strip numbers stay put. content.json is optional.
+  const getJSON = (path) => fetch(path, { cache: 'no-cache' }).then((response) => {
+    if (!response.ok) throw new Error(`${path} ${response.status}`);
+    return response.json();
+  });
+  const list = (value) => (Array.isArray(value) ? value : []);
+  const joined = (first, then) => {
+    const seen = new Set();
+    return [...list(first), ...list(then)].filter((item) => {
+      const key = item && (item.src || item.mp4 || item.gif);
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  };
+  let media = null;
+  window.dukMedia = () => {
+    media = media || Promise.all([getJSON('assets/media.json'), getJSON('assets/content.json').catch(() => null)])
+      .then(([index, fresh]) => {
+        if (!index || typeof index !== 'object') throw new Error('invalid media.json');
+        if (!fresh || typeof fresh !== 'object') return index;
+        const videos = index.videos || { trailer: null, clips: [] };
+        return {
+          ...index,
+          memes: joined(fresh.memes, index.memes),
+          comics: joined(index.comics, [...list(fresh.comics)].reverse()),
+          gifs: joined(fresh.gifs, index.gifs),
+          videos: { ...videos, clips: joined(fresh.clips, videos.clips) },
+          updated: fresh.updated || null,
+        };
+      });
+    return media;
+  };
+
   const $ = (id) => document.getElementById(id);
   const externalURL = (value) => {
     if (!value) return null;
@@ -105,11 +142,10 @@
     window.setInterval(render, 15000);
   }
 
-  // Home directory: live counts of what the copier published.
+  // Home directory: live counts of what the copier and the sync script published.
   const counts = document.querySelectorAll('[data-count]');
   if (counts.length) {
-    fetch('assets/media.json')
-      .then((response) => (response.ok ? response.json() : Promise.reject(new Error('media unavailable'))))
+    window.dukMedia()
       .then((media) => {
         const totals = {
           memes: (media.memes || []).length + (Array.isArray(config.memes) ? config.memes.length : 0),

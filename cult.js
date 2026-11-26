@@ -127,11 +127,7 @@
     ])));
   };
 
-  fetch('assets/media.json')
-    .then((response) => {
-      if (!response.ok) throw new Error(`media ${response.status}`);
-      return response.json();
-    })
+  window.dukMedia()
     .then((media) => {
       renderStares(media);
       renderMemes(media);

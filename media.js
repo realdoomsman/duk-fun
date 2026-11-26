@@ -1,4 +1,4 @@
-// stickers.html + watch.html: everything renders from assets/media.json, so new packs and clips just show up.
+// stickers.html + watch.html: everything renders from the shared media index (app.js), so new packs, gifs and clips just show up.
 (() => {
   'use strict';
   const config = window.DUK_CONFIG || {};
@@ -376,7 +376,7 @@
       $('clip-empty').hidden = false;
       return;
     }
-    grid.replaceChildren(...clips.map((clip, i) => videoCard(clip, i, { kind: 'clip', width: 1080, height: 1080 })));
+    grid.replaceChildren(...clips.map((clip, i) => videoCard(clip, i, { kind: 'clip', width: clip.width || 1080, height: clip.height || 1080 })));
   };
 
   const renderWatch = (media) => {
@@ -389,11 +389,7 @@
 
   const page = document.body.dataset.media;
   if (page !== 'stickers' && page !== 'watch') return;
-  fetch('assets/media.json')
-    .then((response) => {
-      if (!response.ok) throw new Error(String(response.status));
-      return response.json();
-    })
+  window.dukMedia()
     .then((media) => (page === 'stickers' ? renderStickers(media) : renderWatch(media)))
     .catch(() => {
       if (page === 'stickers') {
