@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-26T14:16:02Z",
+  "updated": "2026-11-26T14:52:32Z",
   "memes": [
+    {
+      "file": "090_diversified.png",
+      "src": "assets/memes4/090_diversified.png",
+      "thumb": "assets/memes4/thumbs/090_diversified.webp",
+      "title": "they keep saying diversify. he took it seriously.",
+      "alt": "duk reacting to advisors telling everyone to diversify after the red month. they keep saying diversify. he took it seriously.",
+      "tag": "market",
+      "created": "2026-11-26T14:45:07Z"
+    },
+    {
+      "file": "089_the_swing.png",
+      "src": "assets/memes4/089_the_swing.png",
+      "thumb": "assets/memes4/thumbs/089_the_swing.webp",
+      "title": "ct mood this week. he is under both. $duk",
+      "alt": "duk reacting to ct swinging between \"we're so back\" and \"it's over\" all week. ct mood this week. he is under both. $duk",
+      "tag": "market",
+      "created": "2026-11-26T14:45:07Z"
+    },
+    {
+      "file": "088_roadmap.png",
+      "src": "assets/memes4/088_roadmap.png",
+      "thumb": "assets/memes4/thumbs/088_roadmap.webp",
+      "title": "everyone is shipping upgrades and new roadmaps. his has not changed since launch. $duk",
+      "alt": "duk reacting to projects shipping mainnet upgrades and new roadmaps. everyone is shipping upgrades and new roadmaps. his has not changed since launch. $duk",
+      "tag": "market",
+      "created": "2026-11-26T14:45:07Z"
+    },
+    {
+      "file": "087_no_rescue.png",
+      "src": "assets/memes4/087_no_rescue.png",
+      "thumb": "assets/memes4/thumbs/087_no_rescue.webp",
+      "title": "analysts say the fed is unlikely to help this time. he never asked.",
+      "alt": "duk reacting to analysts: the fed is unlikely to help the market this time. analysts say the fed is unlikely to help this time. he never asked.",
+      "tag": "market",
+      "created": "2026-11-26T14:45:07Z"
+    },
     {
       "file": "086_stampede.png",
       "src": "assets/memes4/086_stampede.png",
@@ -735,6 +771,33 @@
   ],
   "gifs": [
     {
+      "title": "food coma.",
+      "alt": "DUK, very full, lies flat in THE DUK pose while little z's float up: \"food coma.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/051_food_coma.mp4",
+      "gif": "assets/gifs2/051_food_coma.gif",
+      "poster": "assets/gifs2/posters/051_food_coma.webp",
+      "created": "2026-11-26T14:45:03Z"
+    },
+    {
+      "title": "staying down. $duk",
+      "alt": "An elevator rides up and out of frame while DUK stays flat on the ground floor: \"staying down.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/050_staying_down.mp4",
+      "gif": "assets/gifs2/050_staying_down.gif",
+      "poster": "assets/gifs2/posters/050_staying_down.webp",
+      "created": "2026-11-26T14:45:03Z"
+    },
+    {
+      "title": "flat.",
+      "alt": "DUK lies flat in THE DUK pose. Two cards flip past: \"long?\" \"short?\" Then: \"flat.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/049_flat.mp4",
+      "gif": "assets/gifs2/049_flat.gif",
+      "poster": "assets/gifs2/posters/049_flat.webp",
+      "created": "2026-11-26T14:45:03Z"
+    },
+    {
       "title": "travel mode. $duk",
       "alt": "DUK lies flat on a moving conveyor belt in THE DUK pose, staring at you as it carries him along: \"travel mode.\"",
       "tag": "reaction",
@@ -868,33 +931,6 @@
       "gif": "assets/gifs2/052_gm_duk_typed.gif",
       "poster": "assets/gifs2/posters/052_gm_duk_typed.webp",
       "created": "2026-11-26T12:48:42Z"
-    },
-    {
-      "title": "food coma.",
-      "alt": "food coma.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/051_food_coma.mp4",
-      "gif": "assets/gifs2/051_food_coma.gif",
-      "poster": "assets/gifs2/posters/051_food_coma.webp",
-      "created": "2026-11-26T12:46:34Z"
-    },
-    {
-      "title": "staying down.",
-      "alt": "staying down.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/050_staying_down.mp4",
-      "gif": "assets/gifs2/050_staying_down.gif",
-      "poster": "assets/gifs2/posters/050_staying_down.webp",
-      "created": "2026-11-26T12:46:34Z"
-    },
-    {
-      "title": "flat.",
-      "alt": "flat.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/049_flat.mp4",
-      "gif": "assets/gifs2/049_flat.gif",
-      "poster": "assets/gifs2/posters/049_flat.webp",
-      "created": "2026-11-26T12:46:34Z"
     },
     {
       "title": "hotter than expected.",
@@ -1214,6 +1250,36 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/039_food_coma.mp4",
+      "poster": "assets/clips2/039_food_coma.webp",
+      "title": "food coma or market coma. from down here it looks the same.",
+      "alt": "After dinner. DUK, round as a pumpkin, waddles one step and goes flat in THE DUK pose next to an empty plate. Z's float up. \"food coma.\" Red candles drift past in the background. \"or market coma.\" \"same pose.\"",
+      "created": "2026-11-26T14:45:03Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/038_rates_going_up.mp4",
+      "poster": "assets/clips2/038_rates_going_up.webp",
+      "title": "rates might go up next month. he is staying down.",
+      "alt": "An elevator labelled \"rates\" dings and rides up out of the top of the screen. DUK stays on the ground floor in THE DUK pose, staring. \"going up?\" \"no thanks.\" The floor indicator just says \"duk.\"",
+      "created": "2026-11-26T14:45:03Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/037_short_squeeze_flat.mp4",
+      "poster": "assets/clips2/037_short_squeeze_flat.webp",
+      "title": "shorts got squeezed today. longs got squeezed yesterday. he was flat. $duk",
+      "alt": "A pair of red shorts sits in a giant paint press labelled \"short squeeze\". The press comes down and flattens them. DUK lies next to it in THE DUK pose the whole time. Cards: \"not long.\" \"not short.\" \"flat.\"",
+      "created": "2026-11-26T14:45:03Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/036_musical_chairs.mp4",
       "poster": "assets/clips2/036_musical_chairs.webp",
       "title": "musical chairs. he doesn't need a chair. $duk",
@@ -1329,36 +1395,6 @@
       "title": "the pattern.",
       "alt": "the pattern.",
       "created": "2026-11-26T12:49:16Z",
-      "duration": 12.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/039_food_coma.mp4",
-      "poster": "assets/clips2/039_food_coma.webp",
-      "title": "food coma.",
-      "alt": "food coma.",
-      "created": "2026-11-26T12:46:50Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/038_rates_going_up.mp4",
-      "poster": "assets/clips2/038_rates_going_up.webp",
-      "title": "rates going up.",
-      "alt": "rates going up.",
-      "created": "2026-11-26T12:46:31Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/037_short_squeeze_flat.mp4",
-      "poster": "assets/clips2/037_short_squeeze_flat.webp",
-      "title": "short squeeze flat.",
-      "alt": "short squeeze flat.",
-      "created": "2026-11-26T12:46:29Z",
       "duration": 12.0,
       "width": 1080,
       "height": 1080
