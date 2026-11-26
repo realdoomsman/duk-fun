@@ -3,6 +3,13 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **share pages**: `python scripts/share-pages.py` (run by copy-assets.py and every sync) writes s/<item>.html + s/img/<item>.jpg,
+  a 1200x630 card for every meme, clip, reaction gif and comic strip. The "post on x" / "post it" links on memes, watch, stickers and
+  comics point there, so a posted link shows that piece; opening it lands on the item (memes.html#<folder/file>, watch.html#clip-…,
+  stickers.html#gif-…, comics.html#strip-…).
+- **maker**: tap a word block (or pick it in "selected") to change its words in place. formats now 27.
+- **fixed clips back**: clips 002 005 011 018 022 and gif 005 were re-rendered clean and are published again with their -v2 captions
+  (sync reads x/queue-video.jsonl; the latest line per base id wins). original 003 and gif 003 stay blocked.
 - **content rule in the sync**: sync-content.py skips anything in work/state/content-blocklist.txt and anything whose
   caption/topic/alt names another coin or a price, %, NNk or NNx (`allow <file>` lines let clean art through when only the
   research topic tripped it). Blocked items are pruned from assets/ on the next run.
