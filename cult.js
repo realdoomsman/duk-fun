@@ -6,7 +6,8 @@
 
   const el = (tag, props = {}, children = []) => {
     const node = document.createElement(tag);
-    for (const [key, value] of Object.entries(props)) {
+    // 'loading' goes first: an img starts fetching the moment src is set, so a later loading='lazy' is too late.
+    for (const [key, value] of Object.entries(props).sort(([a], [b]) => (b === 'loading') - (a === 'loading'))) {
       if (value === null || value === undefined) continue;
       if (key === 'text') node.textContent = value;
       else if (key in node && key !== 'width' && key !== 'height') node[key] = value;

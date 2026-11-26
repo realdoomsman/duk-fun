@@ -192,12 +192,12 @@
     link.target = '_blank';
     link.rel = 'noopener';
     const image = document.createElement('img');
+    image.loading = 'lazy';
+    image.decoding = 'async';
     image.src = meme.thumb || meme.src;
     image.alt = meme.alt || meme.title || 'duk in the pool.';
     image.width = 1200;
     image.height = 1200;
-    image.loading = 'lazy';
-    image.decoding = 'async';
     const caption = document.createElement('span');
     caption.textContent = meme.title || 'just duk.';
     const action = document.createElement('b');

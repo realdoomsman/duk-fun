@@ -204,7 +204,8 @@
   if (wall) {
     const make = (tag, attrs = {}, ...children) => {
       const node = document.createElement(tag);
-      for (const [key, value] of Object.entries(attrs)) {
+      // 'loading' goes first: an img starts fetching the moment src is set, so a later loading='lazy' is too late.
+      for (const [key, value] of Object.entries(attrs).sort(([a], [b]) => (b === 'loading') - (a === 'loading'))) {
         if (value === null || value === undefined || value === false) continue;
         if (key === 'text') node.textContent = value;
         else if (key in node && typeof value === 'boolean') node[key] = value;

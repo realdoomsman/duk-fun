@@ -8,7 +8,8 @@
 
   const el = (tag, props = {}, ...children) => {
     const node = document.createElement(tag);
-    Object.entries(props).forEach(([key, value]) => {
+    // 'loading' goes first: an img starts fetching the moment src is set, so a later loading='lazy' is too late.
+    Object.entries(props).sort(([a], [b]) => (b === 'loading') - (a === 'loading')).forEach(([key, value]) => {
       if (value === null || value === undefined || value === false) return;
       if (key === 'class') node.className = value;
       else if (key === 'text') node.textContent = value;
@@ -61,6 +62,24 @@
       }
     });
   }, { rootMargin: '200px' }) : null;
+  // A <video poster> is fetched right away, even far below the fold, so posters wait until their video is within
+  // about a screen of the viewport.
+  const posterObserver = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => {
+    entries.forEach(({ target, isIntersecting }) => {
+      if (!isIntersecting) return;
+      posterObserver.unobserve(target);
+      target.poster = target.dataset.poster;
+    });
+  }, { rootMargin: '1000px' }) : null;
+  const lazyPoster = (video, poster) => {
+    if (!poster) return;
+    if (!posterObserver) {
+      video.poster = poster;
+      return;
+    }
+    video.dataset.poster = poster;
+    posterObserver.observe(video);
+  };
   const watchLoop = (video) => {
     loops.add(video);
     // attributes as well as properties: iOS Safari only autoplays inline when both are there.
@@ -112,7 +131,8 @@
     if (!mp4) return { media: gifImage() };
     // src stays in data-src until the video is on screen. a <source> with no src counts as a failed
     // candidate in webkit/chromium, which used to trip the gif fallback before anything loaded.
-    const video = el('video', { class: cls, width: size, height: size, 'aria-label': label, poster, disablePictureInPicture: true, 'data-src': mp4 });
+    const video = el('video', { class: cls, width: size, height: size, 'aria-label': label, disablePictureInPicture: true, 'data-src': mp4 });
+    lazyPoster(video, poster);
     watchLoop(video);
     const toggle = loopToggle(video, toggleLabel);
     if (gif) {
