@@ -425,4 +425,23 @@
       fameStrip.hidden = false;
     }).catch(() => { /* no strip. */ });
   }
+
+  // "put duk on your home screen": shown only when the browser offers an install (manifest.webmanifest).
+  const installButtons = document.querySelectorAll('[data-install]');
+  if (installButtons.length) {
+    let offer = null;
+    window.addEventListener('beforeinstallprompt', (event) => {
+      event.preventDefault();
+      offer = event;
+      installButtons.forEach((button) => { button.hidden = false; });
+    });
+    installButtons.forEach((button) => button.addEventListener('click', async () => {
+      if (!offer) return;
+      offer.prompt();
+      await offer.userChoice.catch(() => null);
+      offer = null;
+      installButtons.forEach((other) => { other.hidden = true; });
+    }));
+    window.addEventListener('appinstalled', () => installButtons.forEach((button) => { button.hidden = true; }));
+  }
 })();

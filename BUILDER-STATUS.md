@@ -3,6 +3,9 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **home screen app**: manifest.webmanifest (standalone, paint-blue, icons in assets/icons/ from the pfp, shortcuts: duk of the
+  day / make a duk / memes) + apple-touch-icon on every page; chromium reports it installable with no errors. When the browser
+  offers an install, home and daily.html show "put duk on your home screen" (beforeinstallprompt).
 - **duk of the day cards**: every recorded day gets s/daily-<date>.html + a card ("duk of the day, nov 26. <caption>") that lands
   on daily.html#day-<date>; the daily page's "post it" and the duk hour "post duk. on x" link it (window.dukDailyShare; a day the
   sync hasn't recorded yet falls back to the meme's own card). The sync now runs daily.py before share-pages.py.

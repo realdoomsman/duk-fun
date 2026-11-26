@@ -10,6 +10,8 @@
 .daily-streak[hidden] { display: none; }
 .daily-streak b { font-size: 20px; }
 .daily-streak a { font-weight: bold; text-underline-offset: 4px; white-space: nowrap; }
+.daily-install { margin-top: 14px; }
+.daily-install:has(> [hidden]) { display: none; }
 .daily-art { display: block; border: 4px solid #111; border-radius: 3px 8px 2px 6px; background: white; transform: rotate(1.5deg); box-shadow: 8px 8px 0 #111; }
 .daily-art img { display: block; width: 100%; height: auto; }
 .daily-art:hover, .daily-art:focus-visible { transform: rotate(-.5deg); }
