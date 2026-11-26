@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00a2e8">
+  <title>the archive / duk.</title>
+  <meta name="description" content="free duk memes. download one and post it. just duk. $DUK">
+  <link rel="canonical" href="https://duk.fun/memes.html">
+  <meta property="og:title" content="the archive / duk.">
+  <meta property="og:description" content="free duk memes. just duk. $DUK">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://duk.fun/memes.html">
+  <meta property="og:image" content="https://duk.fun/assets/og-1200x630.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="the archive / duk.">
+  <meta name="twitter:description" content="free duk memes. just duk. $DUK">
+  <meta name="twitter:image" content="https://duk.fun/assets/og-1200x630.png">
+  <link rel="icon" type="image/png" href="assets/memes/pfp.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="archive.css">
+  <script src="assets/config.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="archive.js" defer></script>
+</head>
+<body class="archive-page">
+  <a class="skip-link" href="#main">skip to the page</a>
+  <header class="site-header page-width">
+    <div class="site-header-top"><a class="wordmark" href="./" aria-label="duk home">duk.</a><p class="duk-hour" data-duk-hour>duk hour: 21:00 utc</p><span class="ticker">$DUK</span></div>
+    <nav class="site-tabs" aria-label="main"><a href="./">home</a><a class="tab-pond" href="#" data-pond hidden>the pond ↗</a><a href="memes.html" aria-current="page">memes</a><a href="comics.html">comics</a><a href="pool.html">the pool</a><a href="cult.html">the cult</a><a href="stickers.html">stickers</a><a href="watch.html">watch</a><a href="kit.html">the kit</a><a href="maker.html">make a duk</a><a href="manual.html">manual</a></nav>
+  </header>
+  <main id="main">
+    <section class="page-hero page-width" aria-labelledby="archive-title">
+      <div><p class="eyebrow">free to use</p><h1 id="archive-title">the archive.</h1><p class="lead">every duk meme so far. download whatever you want.</p></div>
+      <img class="page-hero-art" src="assets/stand.png" width="800" height="1000" alt="duk standing there, staring at you.">
+    </section>
+    <section class="archive-collection page-width" aria-label="duk meme collection">
+      <div class="archive-toolbar">
+        <div class="archive-filters" role="group" aria-label="filter memes by tag">
+          <button type="button" data-archive-filter="all" aria-pressed="true" aria-controls="archive-grid">all <span data-filter-count>0</span></button>
+          <button type="button" data-archive-filter="reaction" aria-pressed="false" aria-controls="archive-grid" hidden>reaction <span data-filter-count>0</span></button>
+          <button type="button" data-archive-filter="dodge" aria-pressed="false" aria-controls="archive-grid" hidden>dodge <span data-filter-count>0</span></button>
+          <button type="button" data-archive-filter="pool" aria-pressed="false" aria-controls="archive-grid" hidden>pool <span data-filter-count>0</span></button>
+          <button type="button" data-archive-filter="cult" aria-pressed="false" aria-controls="archive-grid" hidden>cult <span data-filter-count>0</span></button>
+          <button type="button" data-archive-filter="market" aria-pressed="false" aria-controls="archive-grid" hidden>market <span data-filter-count>0</span></button>
+          <button type="button" data-archive-filter="life" aria-pressed="false" aria-controls="archive-grid" hidden>life <span data-filter-count>0</span></button>
+          <button type="button" data-archive-filter="season" aria-pressed="false" aria-controls="archive-grid" hidden>season <span data-filter-count>0</span></button>
+        </div>
+        <button type="button" class="archive-random" id="archive-random" aria-haspopup="dialog" disabled>random duk</button>
+      </div>
+      <div class="archive-shelf-label"><p id="archive-count" role="status" aria-live="polite" aria-atomic="true">loading memes...</p><p>click one to open it.</p></div>
+      <p class="archive-note" id="archive-note">loading...</p>
+      <ul class="archive-grid" id="archive-grid" aria-busy="true"></ul>
+      <p class="archive-empty" id="archive-empty" hidden>nothing here yet.</p>
+      <noscript><p class="archive-noscript">the archive needs javascript. you can still grab these: <a href="assets/memes/duk.png" download>just duk.</a> / <a href="assets/memes/pfp.png" download>the pfp.</a></p></noscript>
+    </section>
+    <aside class="archive-maker page-width"><p>don't see your problem?</p><a class="button" href="maker.html">make your own.</a></aside>
+  </main>
+  <footer class="site-footer">
+    <div class="page-width footer-top"><div><p>everything's coming at you.</p><a class="footer-duk" href="./">duk.</a></div><img src="assets/ducking.png" alt="duk. still here." loading="lazy" width="1000" height="600"></div>
+    <div class="page-width footer-bottom"><span>$DUK / just duk.</span><nav class="footer-nav" aria-label="footer"><a href="memes.html">memes</a><a href="comics.html">comics</a><a href="pool.html">the pool</a><a href="cult.html">the cult</a><a href="stickers.html">stickers</a><a href="watch.html">watch</a><a href="kit.html">the kit</a><a href="maker.html">make a duk</a><a href="manual.html">manual</a></nav><div class="social-links" data-links></div><p>it's a meme coin.<br>don't spend your rent on it.</p></div>
+  </footer>
+  <dialog class="archive-dialog" id="archive-dialog" aria-labelledby="archive-dialog-title" aria-describedby="archive-dialog-position archive-dialog-hint">
+    <div class="archive-dialog-bar"><h2 id="archive-dialog-title"></h2><button type="button" id="archive-close" autofocus aria-label="close meme viewer">close ×</button></div>
+    <img class="archive-dialog-image" id="archive-dialog-image" alt="" width="1000" height="1000" decoding="async">
+    <div class="archive-dialog-nav"><button type="button" id="archive-prev" aria-label="previous meme in this filter">← prev</button><p id="archive-dialog-position" role="status" aria-live="polite" aria-atomic="true"></p><button type="button" id="archive-next" aria-label="next meme in this filter">next →</button></div>
+    <div class="archive-dialog-actions"><a class="button" id="archive-download" download>download</a><a class="button" id="archive-post" target="_blank" rel="noopener noreferrer">post on x</a><button type="button" id="archive-dialog-random">another random one</button></div>
+    <p class="archive-dialog-hint" id="archive-dialog-hint">left and right arrows to flip through, esc to close. post on x only opens a draft, so download the image and attach it yourself.</p>
+  </dialog>
+</body>
+</html>

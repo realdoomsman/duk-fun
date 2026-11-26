@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00a2e8">
+  <title>duk comics / duk.</title>
+  <meta name="description" content="duk comics. short strips about things coming at a duck. he ducks in every one. just duk. $DUK">
+  <link rel="canonical" href="https://duk.fun/comics.html">
+  <meta property="og:title" content="duk comics / duk.">
+  <meta property="og:description" content="short strips about things coming at a duck. he ducks in every one.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://duk.fun/comics.html">
+  <meta property="og:image" content="https://duk.fun/assets/og-1200x630.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="duk comics / duk.">
+  <meta name="twitter:description" content="short strips about things coming at a duck. he ducks in every one.">
+  <meta name="twitter:image" content="https://duk.fun/assets/og-1200x630.png">
+  <link rel="icon" type="image/png" href="assets/memes/pfp.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="collections.css">
+  <script src="assets/config.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="collections.js" defer></script>
+</head>
+<body class="comics-page" data-collection="comics">
+  <a class="skip-link" href="#main">skip to the page</a>
+  <header class="site-header page-width">
+    <div class="site-header-top"><a class="wordmark" href="./" aria-label="duk home">duk.</a><p class="duk-hour" data-duk-hour>duk hour: 21:00 utc</p><span class="ticker">$DUK</span></div>
+    <nav class="site-tabs" aria-label="main"><a href="./">home</a><a class="tab-pond" href="#" data-pond hidden>the pond ↗</a><a href="memes.html">memes</a><a href="comics.html" aria-current="page">comics</a><a href="pool.html">the pool</a><a href="cult.html">the cult</a><a href="stickers.html">stickers</a><a href="watch.html">watch</a><a href="kit.html">the kit</a><a href="maker.html">make a duk</a><a href="manual.html">manual</a></nav>
+  </header>
+  <main id="main">
+    <section class="page-hero page-width">
+      <div>
+        <p class="eyebrow">the funny pages</p>
+        <h1>duk comics.</h1>
+        <p class="lead">short strips about things coming at a duck.<br>spoiler: he ducks.</p>
+      </div>
+      <img class="page-hero-art comics-hero-art" src="assets/hit.png" width="900" height="700" alt="duk lying flat on the floor.">
+    </section>
+
+    <section class="comics-shelf page-width" aria-labelledby="comics-index-title">
+      <div class="comics-shelf-bar">
+        <h2 id="comics-index-title">the index.</h2>
+        <p id="comics-status" role="status" aria-live="polite">loading the comics...</p>
+      </div>
+      <nav class="comics-index" id="comics-index-nav" aria-labelledby="comics-index-title" hidden>
+        <ol class="comics-index-list" id="comics-index"></ol>
+      </nav>
+      <p class="comics-reading-note" id="comics-reading-note" hidden>click a strip to see it bigger. in there, the arrow keys flip strips.</p>
+    </section>
+
+    <section class="comics-strips page-width" aria-label="all strips, in reading order">
+      <ol class="comics-list" id="comics-list"></ol>
+      <div class="comics-empty" id="comics-empty" hidden>
+        <img src="assets/ducking.png" width="1000" height="600" alt="duk lying flat on the floor." loading="lazy">
+        <div>
+          <p class="comics-empty-line">no comics yet.<br><strong>the artist is a duck, so it's taking a while.</strong></p>
+          <p>the memes are up in the meantime.</p>
+          <a class="button" href="memes.html">see the memes</a>
+        </div>
+      </div>
+      <p class="comics-error" id="comics-error" hidden>the comics didn't load. try reloading the page, or <a href="memes.html">look at the memes</a> for now.</p>
+      <noscript><p class="comics-error">the comics need javascript to load. turn it on and reload, or <a href="memes.html">go to the memes</a>.</p></noscript>
+    </section>
+
+    <aside class="comics-colophon page-width" aria-label="about these comics">
+      <dl>
+        <div><dt>schedule</dt><dd>whenever he gets up.</dd></div>
+        <div><dt>cast</dt><dd>duk. a trader who panics. a kol with a phone. some water.</dd></div>
+        <div><dt>plot twist</dt><dd>none. he ducks.</dd></div>
+        <div><dt>reprints</dt><dd>go ahead. save them and post them wherever.</dd></div>
+      </dl>
+      <a class="button" href="maker.html">make your own</a>
+    </aside>
+  </main>
+  <footer class="site-footer">
+    <div class="page-width footer-top"><div><p>everything's coming at you.</p><a class="footer-duk" href="./">duk.</a></div><img src="assets/ducking.png" alt="duk. still here." loading="lazy" width="1000" height="600"></div>
+    <div class="page-width footer-bottom"><span>$DUK / just duk.</span><nav class="footer-nav" aria-label="footer"><a href="memes.html">memes</a><a href="comics.html">comics</a><a href="pool.html">the pool</a><a href="cult.html">the cult</a><a href="stickers.html">stickers</a><a href="watch.html">watch</a><a href="kit.html">the kit</a><a href="maker.html">make a duk</a><a href="manual.html">manual</a></nav><div class="social-links" data-links></div><p>it's a meme coin.<br>don't spend your rent on it.</p></div>
+  </footer>
+  <dialog class="comics-dialog" id="comics-dialog" aria-labelledby="comics-dialog-title" aria-describedby="comics-dialog-position comics-dialog-hint">
+    <div class="comics-dialog-bar"><h2 id="comics-dialog-title"></h2><button type="button" id="comics-close" autofocus aria-label="close">close ×</button></div>
+    <img class="comics-dialog-image" id="comics-dialog-image" alt="" width="2400" height="800" decoding="async">
+    <div class="comics-dialog-nav"><button type="button" id="comics-prev" aria-label="previous strip">← prev</button><p id="comics-dialog-position" role="status" aria-live="polite" aria-atomic="true"></p><button type="button" id="comics-next" aria-label="next strip">next →</button></div>
+    <div class="comics-dialog-actions"><a class="button" id="comics-dialog-download" download>download</a><a class="button" id="comics-dialog-post" target="_blank" rel="noopener noreferrer">post on x</a></div>
+    <p class="comics-dialog-hint" id="comics-dialog-hint">arrow keys flip strips, esc closes. the x draft only has the link.</p>
+  </dialog>
+</body>
+</html>

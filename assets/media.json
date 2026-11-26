@@ -1,0 +1,3576 @@
+{
+  "memes": [
+    {
+      "file": "01_liquidation.png",
+      "src": "assets/memes/01_liquidation.png",
+      "title": "just duk.",
+      "alt": "A liquidation notice arrives from the right while the duck hugs the floor in side profile, looking blankly out at you.",
+      "tag": "dodge"
+    },
+    {
+      "file": "02_rent.png",
+      "src": "assets/memes/02_rent.png",
+      "title": "rent's due. duk.",
+      "alt": "Outside a crude apartment door, a RENT DUE bill passes over DUK seen from behind, with his rump up and face peeking back.",
+      "tag": "dodge"
+    },
+    {
+      "file": "03_the_bottom.png",
+      "src": "assets/memes/03_the_bottom.png",
+      "title": "they said this was the bottom.",
+      "alt": "A bottom-call tweet passes above an enormous duck face squashed against the floor, wings over the head.",
+      "tag": "dodge"
+    },
+    {
+      "file": "04_the_ex.png",
+      "src": "assets/memes/04_the_ex.png",
+      "title": "new number. same duk.",
+      "alt": "A u up? phone arrives from the left above a bed; a huge duck shelters with his body and bill running off the frame.",
+      "tag": "dodge"
+    },
+    {
+      "file": "05_monday.png",
+      "src": "assets/memes/05_monday.png",
+      "title": "monday. duk.",
+      "alt": "A Monday alarm clock rings beside a bed seen from above; DUK spreads his feathered wings over his head on the mattress.",
+      "tag": "dodge"
+    },
+    {
+      "file": "06_tax_letter.png",
+      "src": "assets/memes/06_tax_letter.png",
+      "title": "income: none. duk.",
+      "alt": "A tax letter demands payment despite income of zero; DUK takes cover on the floor.",
+      "tag": "dodge"
+    },
+    {
+      "file": "07_whale_sold.png",
+      "src": "assets/memes/07_whale_sold.png",
+      "title": "whale sold. duk.",
+      "alt": "A whale selling market order looms over a small top-down duck hiding under his feather fans.",
+      "tag": "dodge"
+    },
+    {
+      "file": "08_capitulation.png",
+      "src": "assets/memes/08_capitulation.png",
+      "title": "final final capitulation.",
+      "alt": "Final capitulation is announced again while a huge, separately drawn duck runs off both edges of the frame.",
+      "tag": "dodge"
+    },
+    {
+      "file": "09_unlock_schedule.png",
+      "src": "assets/memes/09_unlock_schedule.png",
+      "title": "supply unlocked. duk locked in.",
+      "alt": "A token unlock calendar says today 100%; DUK stays locked into his ducking pose.",
+      "tag": "dodge"
+    },
+    {
+      "file": "10_fud_article.png",
+      "src": "assets/memes/10_fud_article.png",
+      "title": "read enough. duk.",
+      "alt": "A giant source trust me article passes over a small rear-view duck, whose face peeks back around his raised rump.",
+      "tag": "dodge"
+    },
+    {
+      "file": "11_ducked.png",
+      "src": "assets/memes/11_ducked.png",
+      "title": "ducked.",
+      "alt": "Two panels: the dump finds DUK flat on the floor; the bounce finds him standing with the exact same blank stare.",
+      "tag": "market"
+    },
+    {
+      "file": "12_forecast.png",
+      "src": "assets/memes/12_forecast.png",
+      "title": "forecast: duk.",
+      "alt": "A crude weather forecast for duk season: red candles rain down while DUK shelters on the floor.",
+      "tag": "market"
+    },
+    {
+      "file": "13_consistent.png",
+      "src": "assets/memes/13_consistent.png",
+      "title": "consistent.",
+      "alt": "How it started and how it is going show the identical duck taking cover on the floor.",
+      "tag": "cult"
+    },
+    {
+      "file": "14_duk_stare.png",
+      "src": "assets/memes/14_duk_stare.png",
+      "title": "duk.",
+      "alt": "A close-up of the duck's enormous crooked orange bill and mismatched vacant eyes against blue, captioned duk.",
+      "tag": "reaction"
+    },
+    {
+      "file": "15_duk_green.png",
+      "src": "assets/memes/15_duk_green.png",
+      "title": "duk.",
+      "alt": "The dumb duck stands alone on a flat yellow-green background with a tiny blank stare. Caption: duk.",
+      "tag": "reaction"
+    },
+    {
+      "file": "16_noted.png",
+      "src": "assets/memes/16_noted.png",
+      "title": "noted. duk.",
+      "alt": "An absurdly close crop of the duck's droopy eyes and huge orange bill on flat yellow. Caption: noted. duk.",
+      "tag": "reaction"
+    },
+    {
+      "file": "17_floor_strategy.png",
+      "src": "assets/memes/17_floor_strategy.png",
+      "title": "you can't liquidate what's on the floor.",
+      "alt": "A LIQUIDATED notice floats above DUK lying safely on the floor. You cannot liquidate what is on the floor.",
+      "tag": "dodge"
+    },
+    {
+      "file": "18_greeting.png",
+      "src": "assets/memes/18_greeting.png",
+      "title": "duk. duk.",
+      "alt": "Two dumb ducks stand side by side staring at you. One says duk.; the other replies duk.",
+      "tag": "cult"
+    },
+    {
+      "file": "19_duk_drill.png",
+      "src": "assets/memes/19_duk_drill.png",
+      "title": "when you hear \"this is the bottom\", assume the position.",
+      "alt": "A crude duk drill safety poster tells you to assume the floor pose whenever you hear this is the bottom.",
+      "tag": "cult"
+    },
+    {
+      "file": "20_meeting.png",
+      "src": "assets/memes/20_meeting.png",
+      "title": "on mute.",
+      "alt": "DUK lies completely under a crude desk while the monitor above him says quick sync. Caption: on mute.",
+      "tag": "life"
+    },
+    {
+      "file": "21_bedtime.png",
+      "src": "assets/memes/21_bedtime.png",
+      "title": "already down.",
+      "alt": "DUK is in bed beneath a lumpy blue blanket with his face exposed while a u up? phone buzzes overhead.",
+      "tag": "life"
+    },
+    {
+      "file": "22_rug_dodge.png",
+      "src": "assets/memes/22_rug_dodge.png",
+      "title": "rug dodge.",
+      "alt": "No caption: a ridiculous purple rug flies over DUK, who has ducked beneath it.",
+      "tag": "dodge"
+    },
+    {
+      "file": "23_candle_rain.png",
+      "src": "assets/memes/23_candle_rain.png",
+      "title": "candle rain.",
+      "alt": "No caption: five enormous red candles rain from the sky while DUK stays extremely flat beneath them.",
+      "tag": "market"
+    },
+    {
+      "file": "24_missed_the_alarm.png",
+      "src": "assets/memes/24_missed_the_alarm.png",
+      "title": "missed the alarm.",
+      "alt": "No caption: the Monday alarm clock has hit the duck, leaving him flattened with X eyes and two feathers floating away.",
+      "tag": "life"
+    },
+    {
+      "file": "25_trading_desk.png",
+      "src": "assets/memes/25_trading_desk.png",
+      "title": "risk management.",
+      "alt": "Six trading monitors all show crashing red charts. DUK hides on the floor beneath the entire desk, seen from above.",
+      "tag": "market"
+    },
+    {
+      "file": "26_street_candle.png",
+      "src": "assets/memes/26_street_candle.png",
+      "title": "still here.",
+      "alt": "On a crude city street, a giant red candle crashes into the road inches from the duck lying safely in side profile.",
+      "tag": "market"
+    },
+    {
+      "file": "27_gm_rain.png",
+      "src": "assets/memes/27_gm_rain.png",
+      "title": "good morning.",
+      "alt": "Three huge gm tweets rain down from different sides while an enormous duck shelters half outside the frame.",
+      "tag": "dodge"
+    },
+    {
+      "file": "28_panic_crowd.png",
+      "src": "assets/memes/28_panic_crowd.png",
+      "title": "panic is optional.",
+      "alt": "Four panicking stick-figure traders run with their arms in the air while DUK calmly presses his face flat to the floor beneath them.",
+      "tag": "market"
+    },
+    {
+      "file": "29_casino.png",
+      "src": "assets/memes/29_casino.png",
+      "title": "house always wins. duk.",
+      "alt": "A green casino table marked leverage has dice and red chips on it. The duck takes cover underneath instead of gambling.",
+      "tag": "market"
+    },
+    {
+      "file": "30_cold_front.png",
+      "src": "assets/memes/30_cold_front.png",
+      "title": "stay low.",
+      "alt": "A crude green weather map has a red cold front made of crashing candles. The forecast says 100% chance of duk; the duck shelters in the southeast.",
+      "tag": "market"
+    },
+    {
+      "file": "31_screenshot_liquid.png",
+      "src": "assets/memes/31_screenshot_liquid.png",
+      "title": "the screenshot was liquid.",
+      "alt": "A paper balance says 40k, but a tiny puddle sits beside a much larger blue pool where DUK floats.",
+      "tag": "pool"
+    },
+    {
+      "file": "32_exit_liquidity.png",
+      "src": "assets/memes/32_exit_liquidity.png",
+      "title": "i'm just in the pool.",
+      "alt": "An exit liquidity sign points down into the pool; DUK ignores the drama and floats blankly on a pink ring.",
+      "tag": "pool"
+    },
+    {
+      "file": "33_slippage.png",
+      "src": "assets/memes/33_slippage.png",
+      "title": "the quote was optimistic.",
+      "alt": "A huge warning reads slippage 40 percent while DUK floats on his inflatable ring in a pool.",
+      "tag": "pool"
+    },
+    {
+      "file": "34_lp_gets_burned.png",
+      "src": "assets/memes/34_lp_gets_burned.png",
+      "title": "the lp gets burned.",
+      "alt": "A large LP receipt burns beside the pool while DUK floats in the water.",
+      "tag": "pool"
+    },
+    {
+      "file": "35_many_wallets.png",
+      "src": "assets/memes/35_many_wallets.png",
+      "title": "many wallets. one guy.",
+      "alt": "Nine wallet windows all have strings leading to one stick-figure guy; DUK stays flat in front of the whole operation.",
+      "tag": "pool"
+    },
+    {
+      "file": "36_pool_before_price.png",
+      "src": "assets/memes/36_pool_before_price.png",
+      "title": "look at the pool before the price.",
+      "alt": "A sign asks where the liquidity is. A ladder and arrow point down to DUK floating in a blue pool.",
+      "tag": "pool"
+    },
+    {
+      "file": "37_checked_liquidity.png",
+      "src": "assets/memes/37_checked_liquidity.png",
+      "title": "i got so mad i checked the liquidity.",
+      "alt": "A yellow measuring stick checks the depth of the pool while DUK floats nearby with no expression.",
+      "tag": "pool"
+    },
+    {
+      "file": "38_pool_day.png",
+      "src": "assets/memes/38_pool_day.png",
+      "title": "pool day.",
+      "alt": "A huge blank-faced duck floats on a badly drawn pink inflatable ring in blue pool water.",
+      "tag": "pool"
+    },
+    {
+      "file": "39_locked_not_deep.png",
+      "src": "assets/memes/39_locked_not_deep.png",
+      "title": "locked. not deep.",
+      "alt": "A gigantic LOCKED padlock sits above a tiny puddle; the duck stares from the floor beside it.",
+      "tag": "pool"
+    },
+    {
+      "file": "40_receipts_not_adjectives.png",
+      "src": "assets/memes/40_receipts_not_adjectives.png",
+      "title": "receipts, not adjectives.",
+      "alt": "Three LP receipts burn in an orange pile beside the pool; the duck watches with the same vacant expression.",
+      "tag": "pool"
+    },
+    {
+      "file": "41_deeper_same_face.png",
+      "src": "assets/memes/41_deeper_same_face.png",
+      "title": "deeper pool. same face.",
+      "alt": "Two pool cutaways show the water deeper after fees while the duck has exactly the same blank face.",
+      "tag": "pool"
+    },
+    {
+      "file": "42_fees_in_pool.png",
+      "src": "assets/memes/42_fees_in_pool.png",
+      "title": "fees go in the pool.",
+      "alt": "A crude diagram shows creator fees buying DUK, pairing DUK with SOL into the pool, and burning the LP receipt; the duck floats below.",
+      "tag": "pool"
+    },
+    {
+      "file": "43_not_a_price_floor.png",
+      "src": "assets/memes/43_not_a_price_floor.png",
+      "title": "deeper pool. not a price floor.",
+      "alt": "A red price chart still crashes above a deeper pool. DUK floats in the pool; the caption explicitly says this is not a price floor.",
+      "tag": "pool"
+    },
+    {
+      "file": "44_pool_meeting.png",
+      "src": "assets/memes/44_pool_meeting.png",
+      "title": "meeting adjourned.",
+      "alt": "Three blank ducks float in a pool beneath a meeting agenda with no items.",
+      "tag": "pool"
+    },
+    {
+      "file": "45_pool_rules.png",
+      "src": "assets/memes/45_pool_rules.png",
+      "title": "pool rules.",
+      "alt": "A no-chasing sign stands beside a burning LP receipt while DUK floats calmly in the pool.",
+      "tag": "pool"
+    },
+    {
+      "file": "46_duk_conversation.png",
+      "src": "assets/memes/46_duk_conversation.png",
+      "title": "conversation complete.",
+      "alt": "Three ducks of different sizes greet each other with duk. That is the entire conversation.",
+      "tag": "cult"
+    },
+    {
+      "file": "47_floor_congregation.png",
+      "src": "assets/memes/47_floor_congregation.png",
+      "title": "attendance: horizontal.",
+      "alt": "Sixteen ducks lie flat in rows like a floor congregation, in varied feathered ducking poses.",
+      "tag": "cult"
+    },
+    {
+      "file": "48_initiation.png",
+      "src": "assets/memes/48_initiation.png",
+      "title": "initiation complete.",
+      "alt": "An upright duck becomes a rear-view duck flattened into the position. Before becomes one of us.",
+      "tag": "cult"
+    },
+    {
+      "file": "49_lesson_one.png",
+      "src": "assets/memes/49_lesson_one.png",
+      "title": "there is no lesson 2.",
+      "alt": "A crude lesson-one poster demonstrates the face-pressed-to-floor ducking pose. There is no lesson two.",
+      "tag": "cult"
+    },
+    {
+      "file": "50_not_gm.png",
+      "src": "assets/memes/50_not_gm.png",
+      "title": "we don't say gm.",
+      "alt": "The word gm is crossed out. A standing duck replies duk. Caption: we do not say gm.",
+      "tag": "cult"
+    },
+    {
+      "file": "51_floor_ritual.png",
+      "src": "assets/memes/51_floor_ritual.png",
+      "title": "no thoughts required.",
+      "alt": "Four differently posed ducks gather around a plain blue pond for floor time. The ritual is only lying flat.",
+      "tag": "cult"
+    },
+    {
+      "file": "52_pfp_wall.png",
+      "src": "assets/memes/52_pfp_wall.png",
+      "title": "one face. no thoughts.",
+      "alt": "A shaky four-by-four wall of DUK profile pictures repeats the same vacant face on different flat Paint-palette backgrounds.",
+      "tag": "cult"
+    },
+    {
+      "file": "53_one_of_us.png",
+      "src": "assets/memes/53_one_of_us.png",
+      "title": "one of us.",
+      "alt": "Five blank ducks stand behind two ducks taking the floor position. The new member fits right in.",
+      "tag": "cult"
+    },
+    {
+      "file": "54_duk_sighting.png",
+      "src": "assets/memes/54_duk_sighting.png",
+      "title": "duk confirmed.",
+      "alt": "A duck is spotted lying under a park bench; four crude red viewfinder corners mark the sighting.",
+      "tag": "cult"
+    },
+    {
+      "file": "55_membership_card.png",
+      "src": "assets/memes/55_membership_card.png",
+      "title": "proof of duk.",
+      "alt": "A crude DUK club membership card lists member since first candle and status flat beside a duck in the protective floor pose.",
+      "tag": "cult"
+    },
+    {
+      "file": "56_floor_assembly.png",
+      "src": "assets/memes/56_floor_assembly.png",
+      "title": "everyone is here.",
+      "alt": "Three empty chairs appear to have no attendees, until you notice all three ducks are flat on the floor beneath them.",
+      "tag": "cult"
+    },
+    {
+      "file": "57_roll_call.png",
+      "src": "assets/memes/57_roll_call.png",
+      "title": "present.",
+      "alt": "A roll call shows three different floor poses, each answered with duk. All are present.",
+      "tag": "cult"
+    },
+    {
+      "file": "58_floor_leader.png",
+      "src": "assets/memes/58_floor_leader.png",
+      "title": "the floor.",
+      "alt": "A sign asks who is in charge; six ducks all lie flat. The answer is the floor.",
+      "tag": "cult"
+    },
+    {
+      "file": "59_getting_started.png",
+      "src": "assets/memes/59_getting_started.png",
+      "title": "welcome. get down.",
+      "alt": "A three-step welcome guide shows an upright duck, a side-view duck lowering himself, and a top-down duck settled on the floor.",
+      "tag": "cult"
+    },
+    {
+      "file": "60_night_ritual.png",
+      "src": "assets/memes/60_night_ritual.png",
+      "title": "same time tomorrow.",
+      "alt": "Three ducks meet for their nightly floor ritual under a few badly drawn yellow stars; everyone remains horizontal.",
+      "tag": "cult"
+    },
+    {
+      "file": "61_noted_reply.png",
+      "src": "assets/memes/61_noted_reply.png",
+      "title": "noted.",
+      "alt": "A large mismatched blank duck face on flat pink, captioned noted.",
+      "tag": "reaction"
+    },
+    {
+      "file": "62_ok_reply.png",
+      "src": "assets/memes/62_ok_reply.png",
+      "title": "ok.",
+      "alt": "An enormous sleepy duck eye, wing and crooked orange bill run off the edges of a yellow reply image. Caption: ok.",
+      "tag": "reaction"
+    },
+    {
+      "file": "63_duk_corner.png",
+      "src": "assets/memes/63_duk_corner.png",
+      "title": "corner duk.",
+      "alt": "A small blank duck stands awkwardly in the bottom-right corner of a mostly empty flat purple image. Caption: corner duk.",
+      "tag": "reaction"
+    },
+    {
+      "file": "64_no_thoughts.png",
+      "src": "assets/memes/64_no_thoughts.png",
+      "title": "no thoughts.",
+      "alt": "A completely empty white thought bubble floats over a blank duck. Caption: no thoughts.",
+      "tag": "reaction"
+    },
+    {
+      "file": "65_still_in_frame.png",
+      "src": "assets/memes/65_still_in_frame.png",
+      "title": "still in frame.",
+      "alt": "A huge blank duck peeks into the frame below a distant tiny red candle. Caption: still in frame.",
+      "tag": "reaction"
+    },
+    {
+      "file": "66_mood_reply.png",
+      "src": "assets/memes/66_mood_reply.png",
+      "title": "mood.",
+      "alt": "The duck has his rump in the air and face tucked near the floor on an ugly lime background. Caption: mood.",
+      "tag": "reaction"
+    },
+    {
+      "file": "67_silent_flat_face.png",
+      "src": "assets/memes/67_silent_flat_face.png",
+      "title": "silent flat face.",
+      "alt": "A text-free close-up of the duck face squashed flat to the floor, with two feathered wings over its head, on flat mustard yellow.",
+      "tag": "reaction"
+    },
+    {
+      "file": "68_silent_tiny_duk.png",
+      "src": "assets/memes/68_silent_tiny_duk.png",
+      "title": "silent tiny duk.",
+      "alt": "A tiny awkward white duck stands in the middle of a huge empty lavender field. No text.",
+      "tag": "reaction"
+    },
+    {
+      "file": "69_understood.png",
+      "src": "assets/memes/69_understood.png",
+      "title": "understood.",
+      "alt": "A ridiculously enlarged crop of the duck's mismatched eyes and the top of its bill on flat pale blue. Caption: understood.",
+      "tag": "reaction"
+    },
+    {
+      "file": "70_anyway.png",
+      "src": "assets/memes/70_anyway.png",
+      "title": "anyway.",
+      "alt": "A vacant duck sits on a pink inflatable ring, ignoring everything. Caption: anyway.",
+      "tag": "reaction"
+    },
+    {
+      "file": "71_margin_call.png",
+      "src": "assets/memes/71_margin_call.png",
+      "title": "declined.",
+      "alt": "A huge phone screen says MARGIN CALL while DUK stays rear-up on the floor and declines to answer.",
+      "tag": "market"
+    },
+    {
+      "file": "72_gas_spike.png",
+      "src": "assets/memes/72_gas_spike.png",
+      "title": "too expensive to panic.",
+      "alt": "A crude red gas pump shows a 999 fee. Seen from above, DUK stays down instead of paying it.",
+      "tag": "market"
+    },
+    {
+      "file": "73_airdrop_not_eligible.png",
+      "src": "assets/memes/73_airdrop_not_eligible.png",
+      "title": "eligible for duk.",
+      "alt": "An airdrop checker says not eligible; an enormous duck lies off both edges of the frame below it.",
+      "tag": "market"
+    },
+    {
+      "file": "74_group_chat_panic.png",
+      "src": "assets/memes/74_group_chat_panic.png",
+      "title": "muted.",
+      "alt": "A crowded group chat fills with guys?, it is over, sell???, wake up and why is duk lying down. DUK has muted it from the floor.",
+      "tag": "life"
+    },
+    {
+      "file": "75_landlord.png",
+      "src": "assets/memes/75_landlord.png",
+      "title": "nobody home.",
+      "alt": "The landlord knocks at a brown apartment door while DUK lies motionless on the floor beside it.",
+      "tag": "life"
+    },
+    {
+      "file": "76_boss_email.png",
+      "src": "assets/memes/76_boss_email.png",
+      "title": "out of office.",
+      "alt": "An urgent boss email fills the top of the image. Beneath the desk, DUK is out of office.",
+      "tag": "life"
+    },
+    {
+      "file": "77_quick_question.png",
+      "src": "assets/memes/77_quick_question.png",
+      "title": "left on read.",
+      "alt": "A giant DM bubble says quick question. DUK lies rear-up on the floor and leaves it on read.",
+      "tag": "life"
+    },
+    {
+      "file": "78_course_ad.png",
+      "src": "assets/memes/78_course_ad.png",
+      "title": "skipped the ad.",
+      "alt": "A loud yellow get-rich course ad costs 999 dollars; two stick-figure gurus wave their arms while DUK lies flat beneath it.",
+      "tag": "life"
+    },
+    {
+      "file": "79_withdrawals_paused.png",
+      "src": "assets/memes/79_withdrawals_paused.png",
+      "title": "already paused.",
+      "alt": "A crude exchange-style warning says withdrawals paused. DUK has already paused, face pressed to the floor.",
+      "tag": "market"
+    },
+    {
+      "file": "80_4am_alarm.png",
+      "src": "assets/memes/80_4am_alarm.png",
+      "title": "too early to stand.",
+      "alt": "A red 4:00 am alarm clock rings over a dark bedroom; DUK stays flattened in bed, mostly outside the frame.",
+      "tag": "life"
+    },
+    {
+      "file": "101_risk_department.png",
+      "src": "assets/memes2/101_risk_department.png",
+      "title": "duk has been cast as the risk department.",
+      "alt": "A glossy casting announcement with a signed studio headshot of DUK staring blankly: duk has been cast as the risk department, in the upcoming bear market. no lines, mostly floor work.",
+      "tag": null
+    },
+    {
+      "file": "102_so_mad_liquidity.png",
+      "src": "assets/memes2/102_so_mad_liquidity.png",
+      "title": "i got so mad i checked the liquidity.",
+      "alt": "I got so mad format: DUK stands blank on the floor holding a huge magnifying glass over a small blue puddle labelled pool.",
+      "tag": "pool"
+    },
+    {
+      "file": "103_town_trading.png",
+      "src": "assets/memes2/103_town_trading.png",
+      "title": "in this town everybody goes out trading except me.",
+      "alt": "In this town format: a night city full of lit windows showing red charts, stick figures run down the street staring at phones, and DUK lies alone on the pavement.",
+      "tag": "market"
+    },
+    {
+      "file": "104_two_buttons.png",
+      "src": "assets/memes2/104_two_buttons.png",
+      "title": "neither.",
+      "alt": "Two buttons format: a control panel offers panic sell and panic buy. Under the desk, DUK has already chosen the floor.",
+      "tag": null
+    },
+    {
+      "file": "105_expanding_brain.png",
+      "src": "assets/memes2/105_expanding_brain.png",
+      "title": "become the floor.",
+      "alt": "Expanding brain format, four rows: lower your risk, lower your expectations, lower your body, become the floor. Each picture shows DUK lower, until he is a glowing flat pancake.",
+      "tag": null
+    },
+    {
+      "file": "106_tier_list.png",
+      "src": "assets/memes2/106_tier_list.png",
+      "title": "market events, ranked.",
+      "alt": "A tier list of market and life events where every single tier label just says duk: candles, liquidations, rent, alarms, texts, taxes, rugs, unlocks, and DUK himself in the bottom row.",
+      "tag": null
+    },
+    {
+      "file": "107_starter_pack.png",
+      "src": "assets/memes2/107_starter_pack.png",
+      "title": "the duk trader starter pack.",
+      "alt": "Starter pack format: a floor, one strategy (lying down), notifications off, the stare, a chart he will not open, and receipts instead of adjectives.",
+      "tag": null
+    },
+    {
+      "file": "108_nobody_green.png",
+      "src": "assets/memes2/108_nobody_green.png",
+      "title": "nobody: / the chart: goes up 4% / duk:",
+      "alt": "Nobody format: nobody, the chart goes up 4 percent, and DUK is already flat on the floor under a green arrow, just in case.",
+      "tag": "reaction"
+    },
+    {
+      "file": "109_tweet_exit_strategy.png",
+      "src": "assets/memes2/109_tweet_exit_strategy.png",
+      "title": "they asked for my exit strategy so i lay down.",
+      "alt": "A crude paint tweet from @justdukfun: they asked for my exit strategy so i lay down. The attached photo shows DUK flat on the floor.",
+      "tag": "reaction"
+    },
+    {
+      "file": "110_news_refuses.png",
+      "src": "assets/memes2/110_news_refuses.png",
+      "title": "local duck refuses to panic.",
+      "alt": "A newspaper front page, The Daily Pond: LOCAL DUCK REFUSES TO PANIC, with a photo of DUK standing blankly while red candles fall behind him.",
+      "tag": "market"
+    },
+    {
+      "file": "111_museum_painting.png",
+      "src": "assets/memes2/111_museum_painting.png",
+      "title": "he did not get up for the opening.",
+      "alt": "A museum gallery: DUK lying flat hangs in a gold frame behind velvet ropes, stick-figure visitors stare at it, and the placard reads the duk, 2017 to present, duck on floor.",
+      "tag": null
+    },
+    {
+      "file": "112_wanted.png",
+      "src": "assets/memes2/112_wanted.png",
+      "title": "wanted: for not panicking.",
+      "alt": "An old west wanted poster nailed up on the blue wall: DUK's blank portrait, wanted for not panicking during the dump. reward: duk.",
+      "tag": null
+    },
+    {
+      "file": "113_poster_patience.png",
+      "src": "assets/memes2/113_poster_patience.png",
+      "title": "patience. the floor isn't going anywhere. neither am i.",
+      "alt": "A motivational poster parody on black: red candles fly over DUK lying flat. PATIENCE: the floor isn't going anywhere. neither am i.",
+      "tag": "cult"
+    },
+    {
+      "file": "114_receipt_pool.png",
+      "src": "assets/memes2/114_receipt_pool.png",
+      "title": "receipts, not adjectives.",
+      "alt": "A long till receipt from the DUK pool keeper, after graduation: creator fees claimed, duk bought, paired with sol, added to pool, lp burned, each with a tx line. receipts on duk.fun. not a price floor.",
+      "tag": "pool"
+    },
+    {
+      "file": "115_horoscope.png",
+      "src": "assets/memes2/115_horoscope.png",
+      "title": "your duk season horoscope.",
+      "alt": "A starry horoscope page for duk season: every sign gets duk, except gemini (duk twice), scorpio (duk, tell no one) and pisces (in the pool). A crystal ball at the bottom shows a tiny DUK lying flat.",
+      "tag": "cult"
+    },
+    {
+      "file": "116_forecast_5day.png",
+      "src": "assets/memes2/116_forecast_5day.png",
+      "title": "conditions remain duckable.",
+      "alt": "A TV five-day forecast: monday red candle showers, tuesday liquidation storms, wednesday heavy candles, thursday flying rugs, friday a tiny DUK icon. conditions remain duckable.",
+      "tag": "market"
+    },
+    {
+      "file": "117_sports_scoreboard.png",
+      "src": "assets/memes2/117_sports_scoreboard.png",
+      "title": "undefeated. technically.",
+      "alt": "A stadium scoreboard reads thrown at him 1,204, hits 0, seasons survived 9. Below, DUK lies flat in the middle of a green pitch. undefeated. technically.",
+      "tag": "market"
+    },
+    {
+      "file": "118_nature_senses.png",
+      "src": "assets/memes2/118_nature_senses.png",
+      "title": "the duk senses danger. he will stay like this until it passes.",
+      "alt": "Nature documentary still with yellow subtitles: a red candle circles in the sky like a hawk while DUK lies flat in the grass. the duk senses danger. he will stay like this until it passes.",
+      "tag": null
+    },
+    {
+      "file": "119_manual_assembly.png",
+      "src": "assets/memes2/119_manual_assembly.png",
+      "title": "duk assembly instructions.",
+      "alt": "A flat-pack style instruction sheet in four steps: see the thing coming, lower the head, duk, get up. tools required: none. parts: 1 duck.",
+      "tag": null
+    },
+    {
+      "file": "120_so_mad_face.png",
+      "src": "assets/memes2/120_so_mad_face.png",
+      "title": "i got so mad my face did nothing.",
+      "alt": "I got so mad format: a giant close-up of DUK in front of furious red rays, his expression completely unchanged. i got so mad my face did nothing.",
+      "tag": "reaction"
+    },
+    {
+      "file": "121_full_cast.png",
+      "src": "assets/memes2/121_full_cast.png",
+      "title": "full cast announced.",
+      "alt": "A movie credits card for the dump (2026): the guy who ducked, the floor, the risk department and the stunt double are all played by duk; the chart plays comic relief. DUK lies on the bottom edge.",
+      "tag": null
+    },
+    {
+      "file": "122_tweet_greeting.png",
+      "src": "assets/memes2/122_tweet_greeting.png",
+      "title": "duk. / duk. / duk. / duk.",
+      "alt": "A crude tweet thread: @justdukfun posts duk. and three egg accounts reply duk., duk. and duk. The whole conversation is the greeting.",
+      "tag": "cult"
+    },
+    {
+      "file": "123_news_tv.png",
+      "src": "assets/memes2/123_news_tv.png",
+      "title": "duck asked about the dump. says 'duk.'",
+      "alt": "A crude TV news broadcast: a stick-figure reporter holds a microphone up to DUK. The red BREAKING lower third reads duck asked about the dump, says 'duk.'",
+      "tag": "market"
+    },
+    {
+      "file": "124_missing.png",
+      "src": "assets/memes2/124_missing.png",
+      "title": "have you seen this duck? he's on the floor.",
+      "alt": "A missing poster with tear-off tabs: have you seen this duck? Photo of DUK lying flat. last seen on the floor, answers to duk, if found do not wake.",
+      "tag": "life"
+    },
+    {
+      "file": "125_poster_leadership.png",
+      "src": "assets/memes2/125_poster_leadership.png",
+      "title": "leadership. lie down first.",
+      "alt": "A motivational poster parody: DUK lies flat at the front, and a single-file line of smaller and smaller ducks behind him all copy the pose. LEADERSHIP: lie down first.",
+      "tag": "cult"
+    },
+    {
+      "file": "126_receipt_day.png",
+      "src": "assets/memes2/126_receipt_day.png",
+      "title": "total: still here.",
+      "alt": "DUK stands next to a receipt as tall as the image: red candles, liquidation notice, rent, an ex texting u up, monday and a kol gm, all DUCKED. unduckable: 0. total: still here.",
+      "tag": "life"
+    },
+    {
+      "file": "127_retrograde.png",
+      "src": "assets/memes2/127_retrograde.png",
+      "title": "mercury is in retrograde. duk is in position.",
+      "alt": "A night sky with crude planets; DUK lies flat inside a yellow crescent moon. mercury is in retrograde. duk is in position.",
+      "tag": "cult"
+    },
+    {
+      "file": "128_weather_lows.png",
+      "src": "assets/memes2/128_weather_lows.png",
+      "title": "lows expected. stay low.",
+      "alt": "DUK presents the weather in front of a crude green map covered in red L for low pressure, one wing raised toward it. lows expected. stay low.",
+      "tag": "market"
+    },
+    {
+      "file": "129_sports_replay.png",
+      "src": "assets/memes2/129_sports_replay.png",
+      "title": "look at the form on that.",
+      "alt": "An instant replay with telestrator scribbles: a yellow dashed arc shows a red candle flying right over DUK, who is circled on the floor. look at the form on that.",
+      "tag": "reaction"
+    },
+    {
+      "file": "130_nature_herd.png",
+      "src": "assets/memes2/130_nature_herd.png",
+      "title": "the herd panics. the duk does not.",
+      "alt": "Nature documentary still: a stampede of stick figures kicks up dust as it runs past, and in the foreground DUK lies completely still. the herd panics. the duk does not.",
+      "tag": "market"
+    },
+    {
+      "file": "131_safety_card.png",
+      "src": "assets/memes2/131_safety_card.png",
+      "title": "in case of turbulence: assume the duk position.",
+      "alt": "An airplane safety card: red candles drop from the ceiling like oxygen masks, a diagram shows the duk position with numbered arrows, a crossed-out chart says do not open, and DUK gets up afterwards.",
+      "tag": null
+    },
+    {
+      "file": "132_exam.png",
+      "src": "assets/memes2/132_exam.png",
+      "title": "q7: the market drops 40% overnight. what do you do?",
+      "alt": "A marked test paper: the market drops 40% overnight, what do you do? sell everything, buy more, draw lines on the chart, or duk. The answer duk is circled in red with an A+ and a little DUK doodle in the margin.",
+      "tag": null
+    },
+    {
+      "file": "133_tweet_since_2017.png",
+      "src": "assets/memes2/133_tweet_since_2017.png",
+      "title": "been ducking since 2017. still here.",
+      "alt": "A pinned tweet from @justdukfun: been ducking since 2017. still here. The attached old photo, with an orange 2017 date stamp, shows DUK in the same position.",
+      "tag": "cult"
+    },
+    {
+      "file": "134_news_baffled.png",
+      "src": "assets/memes2/134_news_baffled.png",
+      "title": "scientists baffled: duck still on floor.",
+      "alt": "A screaming tabloid front page: SCIENTISTS BAFFLED, DUCK STILL ON FLOOR, 'he's fine,' says floor, with DUK lying flat inside a red tabloid circle.",
+      "tag": "life"
+    },
+    {
+      "file": "135_museum_fossil.png",
+      "src": "assets/memes2/135_museum_fossil.png",
+      "title": "found exactly where he lay down.",
+      "alt": "A natural history museum display: a stone slab holds a fossil of a duck in THE DUK pose. The label reads ducktus flooris, late bear market, found exactly where he lay down.",
+      "tag": null
+    },
+    {
+      "file": "136_poster_teamwork.png",
+      "src": "assets/memes2/136_poster_teamwork.png",
+      "title": "teamwork. nobody gets hit if nobody stands up.",
+      "alt": "A motivational poster parody: a whole crowd of DUKs, all in THE DUK pose at different sizes. TEAMWORK: nobody gets hit if nobody stands up.",
+      "tag": "cult"
+    },
+    {
+      "file": "137_troubleshooting.png",
+      "src": "assets/memes2/137_troubleshooting.png",
+      "title": "troubleshooting.",
+      "alt": "A manual troubleshooting table: market dumps, rent is due, ex texts u up, kol says gm, the solution is always duk. duk will not get up: wait for the bounce. duk is staring at you: this is normal.",
+      "tag": null
+    },
+    {
+      "file": "138_nature_rare.png",
+      "src": "assets/memes2/138_nature_rare.png",
+      "title": "extremely rare footage: a standing duk.",
+      "alt": "Camcorder footage through the bushes, with REC in the corner: DUK standing upright. extremely rare footage. a standing duk, seen only after the dump.",
+      "tag": "life"
+    },
+    {
+      "file": "139_trail_map.png",
+      "src": "assets/memes2/139_trail_map.png",
+      "title": "you are here.",
+      "alt": "A park trail map shaped like a price chart: the peak is labelled the top (you bought here) and the bottom has a red you are here dot right where DUK is lying.",
+      "tag": "market"
+    },
+    {
+      "file": "140_job_application.png",
+      "src": "assets/memes2/140_job_application.png",
+      "title": "application for employment.",
+      "alt": "A job application on a clipboard with a stapled photo of DUK: position applying for: risk department. experience: ducking since 2017. skills: lying down, staring. references: the floor. why should we hire you: duk.",
+      "tag": null
+    },
+    {
+      "file": "141_dating_profile.png",
+      "src": "assets/memes2/141_dating_profile.png",
+      "title": "duk, 9. looking for someone who won't panic.",
+      "alt": "A dating app profile card: DUK's blank portrait, duk, 9. into: lying down, staring. looking for: someone who won't panic. red flags: none. red candles: many. Buttons for no and yes.",
+      "tag": "life"
+    },
+    {
+      "file": "142_road_sign.png",
+      "src": "assets/memes2/142_road_sign.png",
+      "title": "caution: duck ducking. next 9 cycles.",
+      "alt": "A yellow diamond road sign with a black pictogram of a duck lying flat, wings over its head. The plate underneath reads duck ducking, next 9 cycles.",
+      "tag": "reaction"
+    },
+    {
+      "file": "143_not_responding.png",
+      "src": "assets/memes2/143_not_responding.png",
+      "title": "duk.exe is not responding.",
+      "alt": "A Windows 98 error dialog: duk.exe is not responding. it is lying on the floor on purpose. The buttons are wait and wait. DUK lies under the dialog.",
+      "tag": "reaction"
+    },
+    {
+      "file": "144_venn.png",
+      "src": "assets/memes2/144_venn.png",
+      "title": "venn diagram.",
+      "alt": "A venn diagram: one circle is market problems, the other is life problems, and the overlap in the middle just says duk.",
+      "tag": null
+    },
+    {
+      "file": "145_calendar.png",
+      "src": "assets/memes2/145_calendar.png",
+      "title": "busy month.",
+      "alt": "A wall calendar for the month: almost every square just says duk. One square says get up. busy month.",
+      "tag": "life"
+    },
+    {
+      "file": "146_certificate.png",
+      "src": "assets/memes2/146_certificate.png",
+      "title": "certificate of survival.",
+      "alt": "An official certificate with a gold seal: awarded to duk for ducking every single cycle since 2017. signed by the floor.",
+      "tag": "cult"
+    },
+    {
+      "file": "147_evolution.png",
+      "src": "assets/memes2/147_evolution.png",
+      "title": "peak evolution.",
+      "alt": "The march of progress, redrawn: a hunched stick figure stands up taller and taller, a man checks his phone, then the final, most evolved form is DUK lying flat on the floor.",
+      "tag": "cult"
+    },
+    {
+      "file": "148_no_yes.png",
+      "src": "assets/memes2/148_no_yes.png",
+      "title": "fight the market: no. lie down: yes.",
+      "alt": "The two-panel no / yes format: DUK rejects fighting the market and approves lying down on the floor. His face is identical in both panels.",
+      "tag": "reaction"
+    },
+    {
+      "file": "149_this_is_fine.png",
+      "src": "assets/memes2/149_this_is_fine.png",
+      "title": "this is fine. smoke rises. i do not.",
+      "alt": "A room full of fire made of red candles, smoke along the ceiling. DUK lies flat on the floor below the smoke line. this is fine. smoke rises. i do not.",
+      "tag": "market"
+    },
+    {
+      "file": "150_tweet_quote_bottom.png",
+      "src": "assets/memes2/150_tweet_quote_bottom.png",
+      "title": "duk.",
+      "alt": "A crude quote tweet: @definitelyearly says this is the bottom, loading here. @justdukfun quotes it with one word: duk.",
+      "tag": "reaction"
+    },
+    {
+      "file": "151_q_just_duk.png",
+      "src": "assets/memes2/151_q_just_duk.png",
+      "title": "just duk.",
+      "alt": "Quote card: just duk. in huge lowercase letters, with DUK peeking up from the bottom edge.",
+      "tag": null
+    },
+    {
+      "file": "152_q_market_opened.png",
+      "src": "assets/memes2/152_q_market_opened.png",
+      "title": "market opened. duk.",
+      "alt": "Quote card: market opened. duk. A small DUK lies flat in the bottom corner.",
+      "tag": null
+    },
+    {
+      "file": "153_q_liquidate.png",
+      "src": "assets/memes2/153_q_liquidate.png",
+      "title": "you can't liquidate what's on the floor.",
+      "alt": "Quote card: you can't liquidate what's on the floor. DUK lies flattened along the bottom edge.",
+      "tag": null
+    },
+    {
+      "file": "154_q_same_position.png",
+      "src": "assets/memes2/154_q_same_position.png",
+      "title": "different problems. same position.",
+      "alt": "Quote card: different problems. same position. Three small DUKs lie in the same pose along the bottom.",
+      "tag": null
+    },
+    {
+      "file": "155_q_get_up.png",
+      "src": "assets/memes2/155_q_get_up.png",
+      "title": "down. duk. get up.",
+      "alt": "Quote card: down. duk. get up. A tiny strip shows DUK standing, flat, and standing again.",
+      "tag": null
+    },
+    {
+      "file": "156_q_pool.png",
+      "src": "assets/memes2/156_q_pool.png",
+      "title": "fees go in the pool.",
+      "alt": "Quote card: fees go in the pool. DUK stands knee-deep in a blue pool in the corner, blank as ever.",
+      "tag": null
+    },
+    {
+      "file": "157_q_greeting.png",
+      "src": "assets/memes2/157_q_greeting.png",
+      "title": "duk. / duk.",
+      "alt": "Quote card: two DUKs face each other. One says duk. The other says duk.",
+      "tag": null
+    },
+    {
+      "file": "158_q_coming_at_you.png",
+      "src": "assets/memes2/158_q_coming_at_you.png",
+      "title": "everything's coming at you. just duk.",
+      "alt": "Quote card: everything's coming at you. just duk. Red candles, a rent bill and a phone fly toward a small ducking DUK.",
+      "tag": null
+    },
+    {
+      "file": "159_q_duk_season.png",
+      "src": "assets/memes2/159_q_duk_season.png",
+      "title": "it's duk season.",
+      "alt": "Quote card: it's duk season. Red candles rain down over a small DUK lying flat.",
+      "tag": null
+    },
+    {
+      "file": "160_q_ducked.png",
+      "src": "assets/memes2/160_q_ducked.png",
+      "title": "ducked.",
+      "alt": "Quote card: ducked. A small DUK stands back up in the corner, completely unbothered.",
+      "tag": null
+    },
+    {
+      "file": "151_not_a_turkey.png",
+      "src": "assets/memes3/151_not_a_turkey.png",
+      "title": "not a turkey.",
+      "alt": "Thanksgiving dinner table: DUK lies flat on the serving platter in the duk pose, wings over his head, while a carving knife whooshes just over him. Caption: not a turkey.",
+      "tag": "season"
+    },
+    {
+      "file": "152_one_of_us_sweating.png",
+      "src": "assets/memes3/152_one_of_us_sweating.png",
+      "title": "only one of us is sweating.",
+      "alt": "Thanksgiving morning on the farm. A turkey sweats buckets, eyes darting, next to a fence calendar circled on nov 26. DUK stands beside him with the usual blank stare.",
+      "tag": "season"
+    },
+    {
+      "file": "153_thankful_worksheet.png",
+      "src": "assets/memes3/153_thankful_worksheet.png",
+      "title": "i am thankful for: the floor.",
+      "alt": "A school Thanksgiving worksheet filled in by DUK: name duk, i am thankful for: the floor, in big orange crayon, with a crayon drawing of himself lying flat. The teacher wrote see me in red.",
+      "tag": "season"
+    },
+    {
+      "file": "154_what_do_you_do.png",
+      "src": "assets/memes3/154_what_do_you_do.png",
+      "title": "so what do you do for work?",
+      "alt": "Two panels at Thanksgiving dinner. An aunt asks DUK: so what do you do for work? Next panel, DUK is flat on the floor beside the table in the duk pose and says: this.",
+      "tag": "season"
+    },
+    {
+      "file": "155_uncle_crypto.png",
+      "src": "assets/memes3/155_uncle_crypto.png",
+      "title": "uncle asked about crypto.",
+      "alt": "Thanksgiving dinner: an uncle in a red cap leans over the table asking so is the crypto thing still going? DUK's chair is empty. DUK is lying flat under the table, peeking out from below the tablecloth.",
+      "tag": "season"
+    },
+    {
+      "file": "156_found_my_seat.png",
+      "src": "assets/memes3/156_found_my_seat.png",
+      "title": "found my seat.",
+      "alt": "Thanksgiving table seen up close: folded place cards read mom, uncle and grandma. Down on the wooden floor below the table, DUK lies flat next to his own place card: duk.",
+      "tag": "season"
+    },
+    {
+      "file": "157_pie_chart.png",
+      "src": "assets/memes3/157_pie_chart.png",
+      "title": "where my 2026 went.",
+      "alt": "A pumpkin pie drawn as a pie chart, top view: one huge slice labelled ducking 96%, a thin slice labelled getting up 3% and a sliver labelled staring at you 1%. DUK stands beside it.",
+      "tag": "season"
+    },
+    {
+      "file": "158_leftovers.png",
+      "src": "assets/memes3/158_leftovers.png",
+      "title": "thanksgiving leftovers.",
+      "alt": "An open fridge the day after thanksgiving: leftover turkey, half a pie, cranberry sauce, and on the bottom shelf DUK lying flat with a sticky note: leftover from 2017. still here.",
+      "tag": "season"
+    },
+    {
+      "file": "159_first_in_line.png",
+      "src": "assets/memes3/159_first_in_line.png",
+      "title": "first in line for black friday.",
+      "alt": "Night outside a closed store with a sign reading opens 6am. A line of shoppers waits behind DUK, who lies flat at the very front next to a cardboard sign: in line since 2017.",
+      "tag": "season"
+    },
+    {
+      "file": "160_doorbusters.png",
+      "src": "assets/memes3/160_doorbusters.png",
+      "title": "doorbusters.",
+      "alt": "Black friday at 5:00 am: the store doors burst open and a stampede of panicking stick-figure shoppers runs and leaps right over DUK, who lies flat on the pavement in the duk pose.",
+      "tag": "season"
+    },
+    {
+      "file": "161_black_friday_90.png",
+      "src": "assets/memes3/161_black_friday_90.png",
+      "title": "black friday: everything 90% off. so is the portfolio.",
+      "alt": "A screaming red black friday banner: everything 90% off. Below it DUK stands blankly next to a giant phone showing his portfolio at -90% with a red line falling off the screen.",
+      "tag": "season"
+    },
+    {
+      "file": "162_cyber_cart.png",
+      "src": "assets/memes3/162_cyber_cart.png",
+      "title": "cyber monday. items: 0. ducked.",
+      "alt": "A crude 2006 shopping cart window for cyber monday: your cart, items: 0, status: ducked, with a greyed-out checkout button. DUK lies flat underneath the window.",
+      "tag": "season"
+    },
+    {
+      "file": "163_cyber_popups.png",
+      "src": "assets/memes3/163_cyber_popups.png",
+      "title": "cyber monday popups. duk.",
+      "alt": "Cyber monday pop-up windows fly at DUK with speed lines: 70% OFF, LAST CHANCE, your cart misses you, sale ends in 3:59, wait! 10% off. DUK lies flat underneath them, staring.",
+      "tag": "season"
+    },
+    {
+      "file": "164_december_forecast.png",
+      "src": "assets/memes3/164_december_forecast.png",
+      "title": "december forecast: duk season.",
+      "alt": "A crude TV weather card for december: four weekly forecast tiles show red candles falling with snow, each labelled duk. DUK stands below as the presenter. outlook: duk season, light snow.",
+      "tag": "season"
+    },
+    {
+      "file": "165_advent_calendar.png",
+      "src": "assets/memes3/165_advent_calendar.png",
+      "title": "advent calendar. no spoilers.",
+      "alt": "A red advent calendar with 24 numbered doors. The first four doors are open and every one has DUK lying flat inside. Caption: day 4. no spoilers.",
+      "tag": "season"
+    },
+    {
+      "file": "166_snow_duk.png",
+      "src": "assets/memes3/166_snow_duk.png",
+      "title": "snow angel. snow duk.",
+      "alt": "First snow. On the left a stick-figure kid proudly stands next to a classic snow angel imprint labelled snow angel. On the right DUK lies flat in the snow in the duk pose, labelled snow duk.",
+      "tag": "season"
+    },
+    {
+      "file": "167_holiday_sweater.png",
+      "src": "assets/memes3/167_holiday_sweater.png",
+      "title": "dressed up for the holidays.",
+      "alt": "DUK stands blankly in front of falling snow wearing a red knitted holiday sweater with a green zigzag band, tiny snowflakes and DUK knitted across the chest. His face has not changed.",
+      "tag": "season"
+    },
+    {
+      "file": "168_dear_santa.png",
+      "src": "assets/memes3/168_dear_santa.png",
+      "title": "all i want for christmas is liquidity.",
+      "alt": "A letter to santa in crayon on lined paper: dear santa, all i want for christmas is liquidity. i've been lying down all year. love, duk. p.s. after graduation, creator fees help add to the pool. DUK lies flat at the bottom corner.",
+      "tag": "season"
+    },
+    {
+      "file": "169_the_list.png",
+      "src": "assets/memes3/169_the_list.png",
+      "title": "naughty. nice. on the floor.",
+      "alt": "Santa's list on a long parchment scroll. naughty: panic sold the bottom, said gm then sold, checked the chart 400 times a day. nice: (blank). on the floor: duk. DUK lies flat below the scroll.",
+      "tag": "season"
+    },
+    {
+      "file": "170_secret_santa_mirror.png",
+      "src": "assets/memes3/170_secret_santa_mirror.png",
+      "title": "secret santa got me a mirror.",
+      "alt": "DUK stands next to an opened gift box with torn wrapping paper, holding up a big gold-framed mirror. The reflection is DUK, staring back with the exact same blank face.",
+      "tag": "season"
+    },
+    {
+      "file": "171_under_the_tree.png",
+      "src": "assets/memes3/171_under_the_tree.png",
+      "title": "found under the tree.",
+      "alt": "A living room christmas tree decorated with little red candles. Under it, between wrapped presents, DUK lies flat with a gift tag on him: to: you. from: the floor.",
+      "tag": "season"
+    },
+    {
+      "file": "172_family_card.png",
+      "src": "assets/memes3/172_family_card.png",
+      "title": "season's greetings from the family.",
+      "alt": "A holiday card with a red and green border: season's greetings from the family. Three smiling stick-figure relatives stand with arms up for the photo while DUK lies flat on the floor in front of them. (duk is fine.)",
+      "tag": "season"
+    },
+    {
+      "file": "173_year_in_review.png",
+      "src": "assets/memes3/173_year_in_review.png",
+      "title": "year in review: ducked 365 times.",
+      "alt": "A big year in review card: 2026. times ducked: 365. times unduckable: 0. times got back up: 365. face changed: no. DUK lies flat underneath it.",
+      "tag": "season"
+    },
+    {
+      "file": "174_wrapped_top_move.png",
+      "src": "assets/memes3/174_wrapped_top_move.png",
+      "title": "your top move: the position.",
+      "alt": "A loud year-end wrapped style story card in pink and lime: your 2026, wrapped. your top move: the position. DUK lies flat across the bottom in the duk pose.",
+      "tag": "season"
+    },
+    {
+      "file": "175_photo_dump.png",
+      "src": "assets/memes3/175_photo_dump.png",
+      "title": "2026 photo dump.",
+      "alt": "A 2026 photo dump of twelve polaroids, one per month, from snowy january to summer beach to red candles in the fall. In every single photo DUK is lying flat in the duk pose.",
+      "tag": "season"
+    },
+    {
+      "file": "176_resolution_same.png",
+      "src": "assets/memes3/176_resolution_same.png",
+      "title": "new year's resolution: same.",
+      "alt": "A notebook page titled 2027 resolutions. 1. stop ducking, crossed out. 1. duck less, crossed out. Then in big letters: 1. same. DUK lies flat in the corner of the page.",
+      "tag": "season"
+    },
+    {
+      "file": "177_duk_hour.png",
+      "src": "assets/memes3/177_duk_hour.png",
+      "title": "new year's eve: 11:59 pm. duk hour.",
+      "alt": "A navy and gold new year's eve party schedule: 10:00 pm snacks, 11:00 pm small talk, 11:59 pm duk hour (highlighted), 12:00 am get up. DUK stands beside it, blank.",
+      "tag": "season"
+    },
+    {
+      "file": "178_ball_drop.png",
+      "src": "assets/memes3/178_ball_drop.png",
+      "title": "the ball is dropping. duk.",
+      "alt": "New year's eve at midnight: a giant glittering ball drops down its pole toward the crowd with a countdown board reading 00:00:03. Stick-figure crowd cheers with arms up. DUK lies flat in the front row.",
+      "tag": "season"
+    },
+    {
+      "file": "179_midnight_fireworks.png",
+      "src": "assets/memes3/179_midnight_fireworks.png",
+      "title": "midnight. loud things in the sky. duk.",
+      "alt": "Midnight on a rooftop: fireworks explode in red, yellow, green and white across the night sky while DUK lies flat on the roof in the duk pose, staring. Caption: 12:00 am. duk.",
+      "tag": "season"
+    },
+    {
+      "file": "180_new_year_new_me.png",
+      "src": "assets/memes3/180_new_year_new_me.png",
+      "title": "new year. new me.",
+      "alt": "Two side by side photos labelled 2026 me and 2027 me. In both, DUK is lying flat on the floor in the exact same duk pose with the exact same face. Caption: new year. new me.",
+      "tag": "season"
+    }
+  ],
+  "comics": [
+    {
+      "file": "duk_01_support.png",
+      "src": "assets/comics/duk_01_support.png",
+      "title": "duk #1: support's here.",
+      "alt": "A stick-figure trader points at a whiteboard chart and says support is here. The red line breaks through, so he draws support lower. In the last panel he lies on the floor next to DUK, tapping the floor: support is here.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_02_greeting.png",
+      "src": "assets/comics/duk_02_greeting.png",
+      "title": "duk #2: gm.",
+      "alt": "Two ducks greet each other: duk. duk. In the third panel a black cat-shaped kol silhouette sits between them and says gm frens. Both ducks are already flat on the floor.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_03_pool_floor.png",
+      "src": "assets/comics/duk_03_pool_floor.png",
+      "title": "duk #3: it's a pool.",
+      "alt": "The trader asks DUK, floating in a pool, whether the pool is a price floor. DUK: no, it is a pool. The trader asks what the floor is for, then. Last panel: DUK is out of the water, dripping, lying flat on the floor.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_04_lava.png",
+      "src": "assets/comics/duk_04_lava.png",
+      "title": "duk #4: i live here.",
+      "alt": "The trader stands on a couch shouting the floor is lava. DUK lies flat on the floor. The trader points: you have to get off the floor. DUK, still flat: i live here.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_05_chat_dumping.png",
+      "src": "assets/comics/duk_05_chat_dumping.png",
+      "title": "duk #5: guys??",
+      "alt": "A 2006-style group chat called the pond. The trader posts: guys its dumping, like a lot. Then: guys?? what do we do. The last panel is five duck avatars replying duk. duk. duk. duk. duk.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_06_lesson_one.png",
+      "src": "assets/comics/duk_06_lesson_one.png",
+      "title": "duk #6: he gets it.",
+      "alt": "Lesson one. DUK tells a duckling the market throws stuff at you. Some fight it: a stick figure wrestles a giant red candle. Some try to predict it: he scribbles lines on a chart. Last panel: the duckling is already flat on the floor as a candle flies over, and DUK says ok, he gets it.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_07_elevator.png",
+      "src": "assets/comics/duk_07_elevator.png",
+      "title": "duk #7: my floor.",
+      "alt": "Inside an elevator, the floor display drops from 40 to 12 to B3. The trader gets more and more panicked. In the last panel DUK is lying flat on the elevator floor and says my floor.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_08_drill.png",
+      "src": "assets/comics/duk_08_drill.png",
+      "title": "duk #8: drill passed.",
+      "alt": "Duk drill. An instructor duck tells a row of small ducks: when you hear this is the bottom, you duk. In the third panel the cat-shaped kol walks in saying this is the bottom, and every duck, instructor included, is already flat.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_09_tan.png",
+      "src": "assets/comics/duk_09_tan.png",
+      "title": "duk #9: doing the other side.",
+      "alt": "Saturday. DUK lies on his back on a striped towel in the sun, feet in the air. A phone next to him buzzes: market -30%. Last panel: he has rolled over into THE DUK, face down, and says doing the other side.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_10_lp_campfire.png",
+      "src": "assets/comics/duk_10_lp_campfire.png",
+      "title": "duk #10: burned.",
+      "alt": "The trader asks where the creator fees go; DUK says after graduation they help add duk and sol to the pool. The trader asks about the lp from each add. Last panel: they sit by a small campfire with a big lp token burning in it. Caption: burned. receipts on duk.fun.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_11_its_me.png",
+      "src": "assets/comics/duk_11_its_me.png",
+      "title": "duk #11: it's me.",
+      "alt": "The trader opens a door and says gm. Three ducks are already flat on the floor. He says guys, its me; they stay flat. He tries duk. All three ducks are standing, and one says duk.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_12_so_back.png",
+      "src": "assets/comics/duk_12_so_back.png",
+      "title": "duk #12: nvm.",
+      "alt": "Four panels at a desk. The trader says it's over, then it's so over, while DUK hides under the desk. The chart turns green, the trader cheers we're so back and DUK stands up. Last panel: the chart is red again, DUK is already back under the desk, and the trader just says nvm.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_13_cashier.png",
+      "src": "assets/comics/duk_13_cashier.png",
+      "title": "duk #13: sir.",
+      "alt": "A stick-figure cashier behind a counter says that'll be $84. DUK stares. Second panel: silence, just the till showing $84. Last panel: DUK is flat on the floor in front of the counter and the cashier says sir.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_14_optimistic.png",
+      "src": "assets/comics/duk_14_optimistic.png",
+      "title": "duk #14: the quote was optimistic.",
+      "alt": "Close-up of a phone: on paper the bag is up 400 percent. After slippage the sell shows plus 12 percent. The trader stares at his phone and DUK, beside him, says the quote was optimistic.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_15_therapy.png",
+      "src": "assets/comics/duk_15_therapy.png",
+      "title": "duk #15: same time next week.",
+      "alt": "DUK lies on a green therapy couch. The stick-figure therapist asks how the market makes him feel. DUK stares. Last panel: DUK is flat on the floor in front of the couch, and the therapist says same time next week.",
+      "tag": "comic"
+    },
+    {
+      "file": "duk_16_chat_dip.png",
+      "src": "assets/comics/duk_16_chat_dip.png",
+      "title": "duk #16: welcome.",
+      "alt": "Four group chat panels. The trader asks should i buy the dip: duk. Should i sell: duk. That is not an answer: duk. Finally the trader types duk. and the duck replies welcome.",
+      "tag": "comic"
+    }
+  ],
+  "gifs": [
+    {
+      "title": "duk.",
+      "alt": "DUK stands staring, crouches, and slams flat on the floor in THE DUK pose as a giant \"duk.\" hits the screen, then gets back up like nothing happened.",
+      "tag": "cult",
+      "mp4": "assets/gifs/01_duk_slam.mp4",
+      "gif": "assets/gifs/01_duk_slam.gif",
+      "poster": null
+    },
+    {
+      "title": "slow blink",
+      "alt": "Extreme close-up of DUK staring straight at you. Nothing happens. He blinks once, very slowly.",
+      "tag": "reaction",
+      "mp4": "assets/gifs/02_slow_blink.mp4",
+      "gif": "assets/gifs/02_slow_blink.gif",
+      "poster": null
+    },
+    {
+      "title": "duk (whoosh)",
+      "alt": "A red candle comes flying in at head height; DUK drops flat just in time, it whooshes over him, and he stands back up blank.",
+      "tag": "dodge",
+      "mp4": "assets/gifs/03_whoosh.mp4",
+      "gif": "assets/gifs/03_whoosh.gif",
+      "poster": null
+    },
+    {
+      "title": "get up.",
+      "alt": "DUK lies flat next to a snapped red candle, gets up in three awkward steps, brushes himself off once and stares at you: \"get up.\"",
+      "tag": "cult",
+      "mp4": "assets/gifs/04_get_up.mp4",
+      "gif": "assets/gifs/04_get_up.gif",
+      "poster": null
+    },
+    {
+      "title": "noted.",
+      "alt": "Close-up of DUK nodding twice, slowly, with no expression: \"noted.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs/05_noted.mp4",
+      "gif": "assets/gifs/05_noted.gif",
+      "poster": null
+    },
+    {
+      "title": "no.",
+      "alt": "Close-up of DUK slowly shaking his head side to side, completely blank: \"no.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs/06_no.mp4",
+      "gif": "assets/gifs/06_no.gif",
+      "poster": null
+    },
+    {
+      "title": "ok.",
+      "alt": "DUK holds up a cardboard sign and flips it around to read \"ok.\", then flips it back.",
+      "tag": "reaction",
+      "mp4": "assets/gifs/07_ok_sign.mp4",
+      "gif": "assets/gifs/07_ok_sign.gif",
+      "poster": null
+    },
+    {
+      "title": "sweating",
+      "alt": "A monitor keeps printing red candles. DUK stands next to it staring straight at you while big sweat drops roll off his head.",
+      "tag": "market",
+      "mp4": "assets/gifs/08_sweating.mp4",
+      "gif": "assets/gifs/08_sweating.gif",
+      "poster": null
+    },
+    {
+      "title": "timber",
+      "alt": "DUK stands there, then tips over sideways like a plank, bounces once, lies flat staring, and swings back up.",
+      "tag": "life",
+      "mp4": "assets/gifs/09_fall_over.mp4",
+      "gif": "assets/gifs/09_fall_over.gif",
+      "poster": null
+    },
+    {
+      "title": "anyway.",
+      "alt": "Side view of DUK waddling across the screen and out of frame, tail wagging, not looking back: \"anyway.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs/10_waddle.mp4",
+      "gif": "assets/gifs/10_waddle.gif",
+      "poster": null
+    },
+    {
+      "title": "peek",
+      "alt": "DUK's head slides out from behind a wall, stares at you, blinks once, and slides back behind it.",
+      "tag": "reaction",
+      "mp4": "assets/gifs/11_peek.mp4",
+      "gif": "assets/gifs/11_peek.gif",
+      "poster": null
+    },
+    {
+      "title": "duk. duk.",
+      "alt": "Two DUKs face each other. One bows: \"duk.\" The other bows back: \"duk.\" The greeting.",
+      "tag": "cult",
+      "mp4": "assets/gifs/12_bow.mp4",
+      "gif": "assets/gifs/12_bow.gif",
+      "poster": null
+    },
+    {
+      "title": "popcorn",
+      "alt": "DUK holds a striped popcorn bucket and keeps feeding himself popcorn, staring straight at you like you are the show.",
+      "tag": "reaction",
+      "mp4": "assets/gifs/13_popcorn.mp4",
+      "gif": "assets/gifs/13_popcorn.gif",
+      "poster": null
+    },
+    {
+      "title": "fees go in the pool",
+      "alt": "DUK lies at the bottom of an empty pool. A pipe labelled \"fees\" pours water in, the pool fills up and he floats up to the top, bobbing. Then the view slides over to the next empty pool, where he is lying on the bottom again.",
+      "tag": "pool",
+      "mp4": "assets/gifs/14_pool.mp4",
+      "gif": "assets/gifs/14_pool.gif",
+      "poster": null
+    },
+    {
+      "title": "typing",
+      "alt": "DUK behind a desk hammering a keyboard with both wings, keys flying off, face completely blank.",
+      "tag": "life",
+      "mp4": "assets/gifs/15_typing.mp4",
+      "gif": "assets/gifs/15_typing.gif",
+      "poster": null
+    },
+    {
+      "title": "unbothered",
+      "alt": "Red candles, liquidation notices, rent bills and FUD rain down around DUK while he lies flat in THE DUK pose, staring at you, unbothered.",
+      "tag": "dodge",
+      "mp4": "assets/gifs/16_chaos.mp4",
+      "gif": "assets/gifs/16_chaos.gif",
+      "poster": null
+    },
+    {
+      "title": "gm",
+      "alt": "Half-asleep DUK holds a steaming \"duk\" mug, slowly lifts it to his bill for a long sip, and lowers it again: \"gm\".",
+      "tag": "cult",
+      "mp4": "assets/gifs/17_gm.mp4",
+      "gif": "assets/gifs/17_gm.gif",
+      "poster": null
+    },
+    {
+      "title": "gn",
+      "alt": "DUK reaches up and pulls the cord on a bare light bulb. Lights off; only his eyes are left staring at you in the dark. They close, then slowly open again: \"gn\".",
+      "tag": "cult",
+      "mp4": "assets/gifs/18_gn.mp4",
+      "gif": "assets/gifs/18_gn.gif",
+      "poster": null
+    },
+    {
+      "title": "mind blown",
+      "alt": "Close-up of DUK. The top of his head blasts off in a cartoon explosion while his face stays perfectly blank; then it drops back on.",
+      "tag": "reaction",
+      "mp4": "assets/gifs/19_mind_blown.mp4",
+      "gif": "assets/gifs/19_mind_blown.gif",
+      "poster": null
+    },
+    {
+      "title": "ha.",
+      "alt": "Close-up of DUK. His bill opens exactly once for a single deadpan \"ha.\" and shuts again. Eyes never move.",
+      "tag": "reaction",
+      "mp4": "assets/gifs/20_ha.mp4",
+      "gif": "assets/gifs/20_ha.gif",
+      "poster": null
+    }
+  ],
+  "kit": {
+    "banners": [
+      {
+        "file": "banners/1_incoming.png",
+        "src": "assets/kit/banners/1_incoming.png",
+        "title": "incoming",
+        "alt": "X header: a red candle chart crashes from left to right into DUK lying flat on the right. just duk. in the top left.",
+        "tag": "banner"
+      },
+      {
+        "file": "banners/2_squad.png",
+        "src": "assets/kit/banners/2_squad.png",
+        "title": "duk squad",
+        "alt": "X header: three DUKs lie flat in a row on the right while red candles fall from the sky.",
+        "tag": "banner"
+      },
+      {
+        "file": "banners/3_greeting.png",
+        "src": "assets/kit/banners/3_greeting.png",
+        "title": "duk.",
+        "alt": "X header: the word duk. in the middle and a standing DUK on the right, staring at you.",
+        "tag": "banner"
+      },
+      {
+        "file": "banners/4_duk_season.png",
+        "src": "assets/kit/banners/4_duk_season.png",
+        "title": "duk season",
+        "alt": "X header: duk season in the top left, red candles raining across the sky, DUK lying flat on the right.",
+        "tag": "banner"
+      },
+      {
+        "file": "banners/5_drill.png",
+        "src": "assets/kit/banners/5_drill.png",
+        "title": "duk drill",
+        "alt": "X header: a duk drill notice says when it comes at you, assume the position. DUK demonstrates on the right.",
+        "tag": "banner"
+      },
+      {
+        "file": "banners/6_peeking.png",
+        "src": "assets/kit/banners/6_peeking.png",
+        "title": "peeking",
+        "alt": "X header: three DUK heads peek up from the bottom edge on the right side, staring at you.",
+        "tag": "banner"
+      }
+    ],
+    "pfp": [
+      {
+        "file": "pfp/01_blue_stare.png",
+        "src": "assets/kit/pfp/01_blue_stare.png",
+        "title": "blue / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat blue MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/02_blue_lid.png",
+        "src": "assets/kit/pfp/02_blue_lid.png",
+        "title": "blue / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat blue MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/03_red_stare.png",
+        "src": "assets/kit/pfp/03_red_stare.png",
+        "title": "red / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat red MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/04_red_lid.png",
+        "src": "assets/kit/pfp/04_red_lid.png",
+        "title": "red / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat red MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/05_green_stare.png",
+        "src": "assets/kit/pfp/05_green_stare.png",
+        "title": "green / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat green MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/06_green_lid.png",
+        "src": "assets/kit/pfp/06_green_lid.png",
+        "title": "green / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat green MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/07_yellow_stare.png",
+        "src": "assets/kit/pfp/07_yellow_stare.png",
+        "title": "yellow / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat yellow MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/08_yellow_lid.png",
+        "src": "assets/kit/pfp/08_yellow_lid.png",
+        "title": "yellow / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat yellow MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/09_indigo_stare.png",
+        "src": "assets/kit/pfp/09_indigo_stare.png",
+        "title": "indigo / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat indigo MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/10_indigo_lid.png",
+        "src": "assets/kit/pfp/10_indigo_lid.png",
+        "title": "indigo / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat indigo MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/11_purple_stare.png",
+        "src": "assets/kit/pfp/11_purple_stare.png",
+        "title": "purple / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat purple MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/12_purple_lid.png",
+        "src": "assets/kit/pfp/12_purple_lid.png",
+        "title": "purple / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat purple MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/13_rose_stare.png",
+        "src": "assets/kit/pfp/13_rose_stare.png",
+        "title": "rose / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat rose MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/14_rose_lid.png",
+        "src": "assets/kit/pfp/14_rose_lid.png",
+        "title": "rose / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat rose MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/15_lime_stare.png",
+        "src": "assets/kit/pfp/15_lime_stare.png",
+        "title": "lime / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat lime MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/16_lime_lid.png",
+        "src": "assets/kit/pfp/16_lime_lid.png",
+        "title": "lime / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat lime MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/17_sky_stare.png",
+        "src": "assets/kit/pfp/17_sky_stare.png",
+        "title": "sky / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat sky MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/18_sky_lid.png",
+        "src": "assets/kit/pfp/18_sky_lid.png",
+        "title": "sky / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat sky MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/19_lavender_stare.png",
+        "src": "assets/kit/pfp/19_lavender_stare.png",
+        "title": "lavender / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat lavender MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/20_lavender_lid.png",
+        "src": "assets/kit/pfp/20_lavender_lid.png",
+        "title": "lavender / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat lavender MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/21_gold_stare.png",
+        "src": "assets/kit/pfp/21_gold_stare.png",
+        "title": "gold / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat gold MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/22_gold_lid.png",
+        "src": "assets/kit/pfp/22_gold_lid.png",
+        "title": "gold / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat gold MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/23_grey_stare.png",
+        "src": "assets/kit/pfp/23_grey_stare.png",
+        "title": "grey / blank stare",
+        "alt": "Head-and-shoulders DUK pfp with a blank stare on a flat grey MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/24_grey_lid.png",
+        "src": "assets/kit/pfp/24_grey_lid.png",
+        "title": "grey / half-lidded",
+        "alt": "Head-and-shoulders DUK pfp with a half-lidded on a flat grey MS Paint background.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/25_lying_flat.png",
+        "src": "assets/kit/pfp/25_lying_flat.png",
+        "title": "lying flat",
+        "alt": "DUK lying flat on the floor with a wing over his head, bill resting on the ground, staring at you.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/26_peeking.png",
+        "src": "assets/kit/pfp/26_peeking.png",
+        "title": "peeking",
+        "alt": "Only the top of DUK's head, eyes and a strip of bill peek up from the bottom edge, two wingtips hooked over it.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/27_gn.png",
+        "src": "assets/kit/pfp/27_gn.png",
+        "title": "gn",
+        "alt": "DUK with his eyes closed under a crooked yellow moon and stars. White text says gn.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/28_sweat.png",
+        "src": "assets/kit/pfp/28_sweat.png",
+        "title": "sweat drop",
+        "alt": "The usual blank DUK stare with two pale blue sweat drops sliding off the side of his head.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/29_tiny_sign.png",
+        "src": "assets/kit/pfp/29_tiny_sign.png",
+        "title": "tiny sign",
+        "alt": "DUK stares blankly, holding up a tiny white card at chest height that says duk.",
+        "tag": "pfp"
+      },
+      {
+        "file": "pfp/30_upside_down.png",
+        "src": "assets/kit/pfp/30_upside_down.png",
+        "title": "upside down",
+        "alt": "DUK's head and shoulders hang upside down from the top of the frame, still staring.",
+        "tag": "pfp"
+      }
+    ],
+    "templates": [
+      {
+        "file": "templates/01_sign.png",
+        "src": "assets/kit/templates/01_sign.png",
+        "title": "blank sign",
+        "alt": "DUK stands staring at you, holding a big empty white sign in front of his chest with both stubby wings.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/02_picket.png",
+        "src": "assets/kit/templates/02_picket.png",
+        "title": "protest from the floor",
+        "alt": "DUK lies flat in the duk position, one wing still holding up an empty protest sign on a stick.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/03_billboard.png",
+        "src": "assets/kit/templates/03_billboard.png",
+        "title": "billboard",
+        "alt": "An empty roadside billboard on two wooden posts. Small DUK stands in the grass beside it, staring at you.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/04_speech_bubble.png",
+        "src": "assets/kit/templates/04_speech_bubble.png",
+        "title": "speech bubble",
+        "alt": "DUK stands in the bottom left staring at you with a huge empty speech bubble above him.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/05_reply.png",
+        "src": "assets/kit/templates/05_reply.png",
+        "title": "reply",
+        "alt": "Half-lidded DUK fills the bottom right; an empty speech bubble above him is for the reply.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/06_dialog.png",
+        "src": "assets/kit/templates/06_dialog.png",
+        "title": "two duks talking",
+        "alt": "A standing DUK and a ducking DUK face each other, each with an empty speech bubble.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/07_incoming.png",
+        "src": "assets/kit/templates/07_incoming.png",
+        "title": "incoming",
+        "alt": "A big blank sheet of paper flies at DUK, who is already flat on the floor with a wing over his head. Room for a caption underneath.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/08_incoming_post.png",
+        "src": "assets/kit/templates/08_incoming_post.png",
+        "title": "incoming post",
+        "alt": "An empty social media post card flies at DUK, who presses his whole face flat against the floor.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/09_raining.png",
+        "src": "assets/kit/templates/09_raining.png",
+        "title": "raining",
+        "alt": "Three empty sheets rain down on DUK, who lies flat across the bottom of the frame, too big to fit.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/10_letter.png",
+        "src": "assets/kit/templates/10_letter.png",
+        "title": "letter",
+        "alt": "A giant envelope with an empty address label and a red stamp swoops down at DUK, seen from above, lying flat with wings over his head.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/11_unduckable.png",
+        "src": "assets/kit/templates/11_unduckable.png",
+        "title": "unduckable",
+        "alt": "An empty sign has landed on DUK, who lies flattened underneath with x eyes and feathers floating off. Unduckable.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/12_before_after.png",
+        "src": "assets/kit/templates/12_before_after.png",
+        "title": "before / after",
+        "alt": "Two panels with empty white headers. Left: DUK pressed flat to the floor. Right: DUK standing back up, unbothered.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/13_how_it_started.png",
+        "src": "assets/kit/templates/13_how_it_started.png",
+        "title": "how it started / how it's going",
+        "alt": "Two stacked panels with empty white labels. In both of them DUK is lying flat on the floor.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/14_weather.png",
+        "src": "assets/kit/templates/14_weather.png",
+        "title": "weather report",
+        "alt": "DUK the weatherman points a stubby wing at a crude map board with an empty title strip and an empty forecast box.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/15_five_day.png",
+        "src": "assets/kit/templates/15_five_day.png",
+        "title": "5-day forecast",
+        "alt": "A crude five-day forecast board with empty day labels and empty temperature boxes, rain in every column. DUK ducks underneath.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/16_duk_drill.png",
+        "src": "assets/kit/templates/16_duk_drill.png",
+        "title": "duk drill poster",
+        "alt": "A safety poster titled duk drill in a red header, with empty ruled lines for the instructions and a framed picture of DUK in position.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/17_drill_steps.png",
+        "src": "assets/kit/templates/17_drill_steps.png",
+        "title": "duk drill: steps",
+        "alt": "A three-step duk drill sheet: DUK standing, DUK going down, DUK flat with a wing over his head. Empty lines under each step.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/18_news.png",
+        "src": "assets/kit/templates/18_news.png",
+        "title": "breaking news",
+        "alt": "DUK anchors the news behind a desk. The screen behind him and the lower-third banner are empty, with a blank red tag.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/19_under_desk.png",
+        "src": "assets/kit/templates/19_under_desk.png",
+        "title": "under the desk",
+        "alt": "An empty computer monitor sits on a desk. DUK is underneath it, pressed flat to the floor, staring at you.",
+        "tag": "template"
+      },
+      {
+        "file": "templates/20_labels.png",
+        "src": "assets/kit/templates/20_labels.png",
+        "title": "labels",
+        "alt": "Two empty label boxes with arrows: one points at a red object flying in, one points at DUK lying flat.",
+        "tag": "template"
+      }
+    ],
+    "wallpapers": [
+      {
+        "file": "wallpapers/desktop_1_incoming.png",
+        "src": "assets/kit/wallpapers/desktop_1_incoming.png",
+        "title": "desktop: incoming",
+        "alt": "Desktop wallpaper: a red candle chart crashes across the sky toward DUK, who lies flat in the bottom right corner. just duk.",
+        "tag": "wallpaper"
+      },
+      {
+        "file": "wallpapers/desktop_2_stare.png",
+        "src": "assets/kit/wallpapers/desktop_2_stare.png",
+        "title": "desktop: half-lidded",
+        "alt": "Desktop wallpaper: an enormous half-lidded DUK head and shoulders on the right side of a flat paint-blue screen.",
+        "tag": "wallpaper"
+      },
+      {
+        "file": "wallpapers/desktop_3_pattern.png",
+        "src": "assets/kit/wallpapers/desktop_3_pattern.png",
+        "title": "desktop: pattern",
+        "alt": "Desktop wallpaper: a tiled pattern of little DUKs in every ducking pose on paint blue.",
+        "tag": "wallpaper"
+      },
+      {
+        "file": "wallpapers/desktop_4_duk_season.png",
+        "src": "assets/kit/wallpapers/desktop_4_duk_season.png",
+        "title": "desktop: duk season",
+        "alt": "Desktop wallpaper: red candles rain across a wide blue sky labelled duk season while DUK lies flat on the floor below.",
+        "tag": "wallpaper"
+      },
+      {
+        "file": "wallpapers/phone_1_incoming.png",
+        "src": "assets/kit/wallpapers/phone_1_incoming.png",
+        "title": "phone: incoming",
+        "alt": "Phone wallpaper: empty blue sky up top for the clock, a red candle chart crashing down, DUK flat on the floor. just duk.",
+        "tag": "wallpaper"
+      },
+      {
+        "file": "wallpapers/phone_2_stare.png",
+        "src": "assets/kit/wallpapers/phone_2_stare.png",
+        "title": "phone: stare",
+        "alt": "Phone wallpaper: a huge standing DUK fills the bottom two thirds of a flat paint-blue screen, staring at you.",
+        "tag": "wallpaper"
+      },
+      {
+        "file": "wallpapers/phone_3_pattern.png",
+        "src": "assets/kit/wallpapers/phone_3_pattern.png",
+        "title": "phone: pattern",
+        "alt": "Phone wallpaper: a tiled pattern of little DUKs in every ducking pose on paint blue.",
+        "tag": "wallpaper"
+      },
+      {
+        "file": "wallpapers/phone_4_gn.png",
+        "src": "assets/kit/wallpapers/phone_4_gn.png",
+        "title": "phone: gn",
+        "alt": "Phone wallpaper: night indigo with a crooked moon and stars, DUK asleep with his eyes closed at the bottom. gn.",
+        "tag": "wallpaper"
+      }
+    ],
+    "replies": [
+      {
+        "file": "01_so_over.png",
+        "src": "assets/replies/01_so_over.png",
+        "title": "already down here.",
+        "alt": "A red chart line crashes across a blue MS Paint background. DUK, a crude white duck, is already flat on the floor with his wings over his head, staring at you. Caption: already down here.",
+        "tag": "it's so over"
+      },
+      {
+        "file": "02_so_back.png",
+        "src": "assets/replies/02_so_back.png",
+        "title": "got up.",
+        "alt": "DUK stands back up on the floor with his wings at his sides and the same blank stare. Caption: got up.",
+        "tag": "we're so back"
+      },
+      {
+        "file": "03_gm.png",
+        "src": "assets/replies/03_gm.png",
+        "title": "duk.",
+        "alt": "Close-up of DUK's head: vacant mismatched eyes, huge lumpy orange bill. Next to him, in big letters: duk.",
+        "tag": "gm"
+      },
+      {
+        "file": "04_gm_floor.png",
+        "src": "assets/replies/04_gm_floor.png",
+        "title": "morning. face down.",
+        "alt": "A yellow MS Paint sun rises over the floor line. DUK is already flat on the ground, wings over his head. Caption: morning. face down.",
+        "tag": "gm / morning posts"
+      },
+      {
+        "file": "05_gn.png",
+        "src": "assets/replies/05_gn.png",
+        "title": "gn. same position.",
+        "alt": "Night: a dark blue sky with a crescent moon and yellow stars. DUK lies flat on the floor in the same ducking pose as always. Caption: gn. same position.",
+        "tag": "gn"
+      },
+      {
+        "file": "06_bad_news.png",
+        "src": "assets/replies/06_bad_news.png",
+        "title": "duk.",
+        "alt": "A sheet of paper reading BAD NEWS flies across the frame with speed lines. DUK is flat underneath it, wings over his head. Caption: duk.",
+        "tag": "bad news"
+      },
+      {
+        "file": "07_chart_shill.png",
+        "src": "assets/replies/07_chart_shill.png",
+        "title": "[staring at your chart]",
+        "alt": "A whiteboard covered in a chaotic chart: candles, arrows, triangles and a question mark. DUK stands in front of it, facing it, with the same empty stare. No caption.",
+        "tag": "someone posts their chart"
+      },
+      {
+        "file": "08_wen.png",
+        "src": "assets/replies/08_wen.png",
+        "title": "soon.",
+        "alt": "DUK stands under a wall clock that has no hands. Caption: soon.",
+        "tag": "wen"
+      },
+      {
+        "file": "09_bottom.png",
+        "src": "assets/replies/09_bottom.png",
+        "title": "lower.",
+        "alt": "Cross-section of the ground. A sign on the surface points at the line and says bottom. Below it someone dug a hole, and DUK lies flat at the bottom of it next to a shovel. Caption: lower.",
+        "tag": "\"this is the bottom\""
+      },
+      {
+        "file": "10_liquidated.png",
+        "src": "assets/replies/10_liquidated.png",
+        "title": "ducked.",
+        "alt": "A white notice stamped LIQUIDATED in red flies over DUK, who is flat on the floor with wings over his head. Caption: ducked.",
+        "tag": "liquidation screenshots"
+      },
+      {
+        "file": "11_whats_play.png",
+        "src": "assets/replies/11_whats_play.png",
+        "title": "the position.",
+        "alt": "DUK flat on the floor, wings over his head. A hand-drawn red arrow points at him. Caption: the position.",
+        "tag": "what's the play"
+      },
+      {
+        "file": "12_ser.png",
+        "src": "assets/replies/12_ser.png",
+        "title": "ser.",
+        "alt": "DUK stands at attention and salutes, one wing raised to his brow, staring blankly. Caption: ser.",
+        "tag": "ser"
+      },
+      {
+        "file": "13_probably_nothing.png",
+        "src": "assets/replies/13_probably_nothing.png",
+        "title": "probably nothing.",
+        "alt": "A desk with a monitor showing a red chart falling. DUK lies flat underneath the desk, wings over his head. Caption: probably nothing.",
+        "tag": "probably nothing"
+      },
+      {
+        "file": "14_wagmi.png",
+        "src": "assets/replies/14_wagmi.png",
+        "title": "we're all gonna duk.",
+        "alt": "Three DUKs lie flat in a row on the floor, all with wings over their heads, all staring at you. Caption: we're all gonna duk.",
+        "tag": "wagmi"
+      },
+      {
+        "file": "15_ngmi.png",
+        "src": "assets/replies/15_ngmi.png",
+        "title": "can't fall off the floor.",
+        "alt": "DUK lies flat on the floor, ducking, perfectly calm. Caption: can't fall off the floor.",
+        "tag": "ngmi"
+      },
+      {
+        "file": "16_lfg.png",
+        "src": "assets/replies/16_lfg.png",
+        "title": "going.",
+        "alt": "DUK lies completely still on the floor with speed lines behind him, as if he were moving. He is not. Caption: going.",
+        "tag": "lfg"
+      },
+      {
+        "file": "17_personal_best.png",
+        "src": "assets/replies/17_personal_best.png",
+        "title": "personal best.",
+        "alt": "DUK stands on a small wooden box, which makes him slightly higher than usual. Same blank stare. Caption: personal best.",
+        "tag": "new highs / pnl flex"
+      },
+      {
+        "file": "18_fud.png",
+        "src": "assets/replies/18_fud.png",
+        "title": "duk.",
+        "alt": "A crumpled sheet with FUD written in red flies over DUK, who is flat on the floor. Caption: duk.",
+        "tag": "fud"
+      },
+      {
+        "file": "19_bullish.png",
+        "src": "assets/replies/19_bullish.png",
+        "title": "noted.",
+        "alt": "DUK stands still on the floor, wings at his sides, completely unmoved. Caption: noted.",
+        "tag": "bullish"
+      },
+      {
+        "file": "20_bearish.png",
+        "src": "assets/replies/20_bearish.png",
+        "title": "noted.",
+        "alt": "DUK lies flat on the floor, wings over his head, completely unmoved. Caption: noted.",
+        "tag": "bearish"
+      },
+      {
+        "file": "21_ct_fight.png",
+        "src": "assets/replies/21_ct_fight.png",
+        "title": "duk.",
+        "alt": "Two stick-figure traders yell at each other with panicked faces and speech bubbles full of punctuation. DUK lies flat on the floor between them. Caption: duk.",
+        "tag": "ct arguing / drama"
+      },
+      {
+        "file": "22_dyor.png",
+        "src": "assets/replies/22_dyor.png",
+        "title": "researched the floor.",
+        "alt": "DUK lies flat on the floor with a magnifying glass lying in front of his bill. Caption: researched the floor.",
+        "tag": "dyor"
+      },
+      {
+        "file": "23_nfa.png",
+        "src": "assets/replies/23_nfa.png",
+        "title": "duck advice.",
+        "alt": "DUK stands beside a whiteboard that says: advice. 1. get down. Caption: duck advice.",
+        "tag": "nfa"
+      },
+      {
+        "file": "24_pumping.png",
+        "src": "assets/replies/24_pumping.png",
+        "title": "still down here. just in case.",
+        "alt": "A green chart line climbs behind DUK. He stays flat on the floor anyway. Caption: still down here. just in case.",
+        "tag": "it's pumping"
+      },
+      {
+        "file": "25_dumping.png",
+        "src": "assets/replies/25_dumping.png",
+        "title": "just duk.",
+        "alt": "Three red candles fly across the frame with speed lines. DUK is flat on the floor underneath. Caption: just duk.",
+        "tag": "red candles / dumps"
+      },
+      {
+        "file": "26_monday.png",
+        "src": "assets/replies/26_monday.png",
+        "title": "duk.",
+        "alt": "A calendar page reading MON flies at DUK, who is flat on the floor with his wings over his head. Caption: duk.",
+        "tag": "monday"
+      },
+      {
+        "file": "27_weekend.png",
+        "src": "assets/replies/27_weekend.png",
+        "title": "off duty. still down.",
+        "alt": "DUK lies on his back with his orange feet in the air under a yellow sun, still staring at you. Caption: off duty. still down.",
+        "tag": "weekend"
+      },
+      {
+        "file": "28_fomo.png",
+        "src": "assets/replies/28_fomo.png",
+        "title": "they went that way.",
+        "alt": "Three panicked stick-figure traders sprint off to the right. DUK stays flat on the floor on the left, not moving. Caption: they went that way.",
+        "tag": "fomo / everyone aping"
+      },
+      {
+        "file": "29_still_here.png",
+        "src": "assets/replies/29_still_here.png",
+        "title": "here.",
+        "alt": "DUK stands on the floor with one wing raised like he is answering roll call. Caption: here.",
+        "tag": "who's still here?"
+      },
+      {
+        "file": "30_touch_grass.png",
+        "src": "assets/replies/30_touch_grass.png",
+        "title": "touching grass.",
+        "alt": "DUK lies flat on bright green MS Paint grass, wings over his head. Caption: touching grass.",
+        "tag": "touch grass"
+      },
+      {
+        "file": "31_midcurve.png",
+        "src": "assets/replies/31_midcurve.png",
+        "title": "[midcurve: duk. / but the fibs and the macro / duk.]",
+        "alt": "Bell-curve meme. A black curve; on the low left end DUK lies flat saying duk. In the middle a sweating stick figure says but the fibs and the macro. On the high right end another DUK lies flat saying duk.",
+        "tag": "big-brain takes / overthinking"
+      },
+      {
+        "file": "32_thoughts.png",
+        "src": "assets/replies/32_thoughts.png",
+        "title": "[empty thought bubble]",
+        "alt": "Close-up of DUK's blank face with a thought bubble above him. The thought bubble is completely empty. No caption.",
+        "tag": "thoughts?"
+      },
+      {
+        "file": "33_early.png",
+        "src": "assets/replies/33_early.png",
+        "title": "been down here since the first candle.",
+        "alt": "DUK lies flat in an empty corner with cobwebs above him and dust lines on the floor. Caption: been down here since the first candle.",
+        "tag": "you're early"
+      },
+      {
+        "file": "34_kol_trust.png",
+        "src": "assets/replies/34_kol_trust.png",
+        "title": "duk.",
+        "alt": "A black cat-shaped kol sits with a phone and a speech bubble that says trust me. DUK lies flat on the floor in front of him. Caption: duk.",
+        "tag": "kol shill / \"trust me\""
+      },
+      {
+        "file": "35_forecast.png",
+        "src": "assets/replies/35_forecast.png",
+        "title": "forecast: duk season.",
+        "alt": "Weather-report format. A grey cloud rains red candles onto the floor. DUK stands beside the board pointing at it with one wing. Caption: forecast: duk season.",
+        "tag": "red day"
+      },
+      {
+        "file": "36_green_day.png",
+        "src": "assets/replies/36_green_day.png",
+        "title": "suspicious.",
+        "alt": "A single tall green candle stands on the floor. DUK stands next to it, staring at you, not at the candle. Caption: suspicious.",
+        "tag": "one green candle"
+      },
+      {
+        "file": "37_crab.png",
+        "src": "assets/replies/37_crab.png",
+        "title": "also sideways.",
+        "alt": "A whiteboard shows a flat line going nowhere. DUK lies on his side on the floor underneath it. Caption: also sideways.",
+        "tag": "sideways chop"
+      },
+      {
+        "file": "38_volatility.png",
+        "src": "assets/replies/38_volatility.png",
+        "title": "duk either way.",
+        "alt": "Red candles fly in from the right and green candles fly in from the left. DUK is flat in the middle. Caption: duk either way.",
+        "tag": "chop / volatility"
+      },
+      {
+        "file": "39_three_am.png",
+        "src": "assets/replies/39_three_am.png",
+        "title": "3am. floor's open.",
+        "alt": "Night room: a window with a moon, a monitor glowing on a desk. DUK lies flat on the floor in front of the desk. Caption: 3am. floor's open.",
+        "tag": "3am chart watching"
+      },
+      {
+        "file": "40_stay_safe.png",
+        "src": "assets/replies/40_stay_safe.png",
+        "title": "always.",
+        "alt": "THE DUK pose, large: DUK flat on the floor, wings over his head, staring at you. Caption: always.",
+        "tag": "stay safe / be careful out there"
+      },
+      {
+        "file": "41_what_do.png",
+        "src": "assets/replies/41_what_do.png",
+        "title": "like this.",
+        "alt": "Two-step diagram: DUK standing, an arrow, then DUK flat on the floor in the ducking pose. Caption: like this.",
+        "tag": "what do i do?"
+      },
+      {
+        "file": "42_unduckable.png",
+        "src": "assets/replies/42_unduckable.png",
+        "title": "unduckable.",
+        "alt": "A huge red candle has landed on DUK and squashed him flat, with little stars around. He still stares at you. Caption: unduckable.",
+        "tag": "when it hits anyway"
+      },
+      {
+        "file": "43_welcome.png",
+        "src": "assets/replies/43_welcome.png",
+        "title": "welcome. get down.",
+        "alt": "DUK stands on a doormat that says duk., wings at his sides, blank-faced. Caption: welcome. get down.",
+        "tag": "new here / first post"
+      },
+      {
+        "file": "44_bye.png",
+        "src": "assets/replies/44_bye.png",
+        "title": "see you on the floor.",
+        "alt": "Tiny DUK in the distance waves one wing goodbye on an otherwise empty floor. Caption: see you on the floor.",
+        "tag": "logging off / leaving ct"
+      },
+      {
+        "file": "45_macro.png",
+        "src": "assets/replies/45_macro.png",
+        "title": "duk.",
+        "alt": "Three sheets of paper labelled RATES, DATA and MACRO fly at DUK, who is flat on the floor. Caption: duk.",
+        "tag": "macro news / data days"
+      },
+      {
+        "file": "46_unlock.png",
+        "src": "assets/replies/46_unlock.png",
+        "title": "ducked.",
+        "alt": "A wooden crate labelled UNLOCK flies over DUK with speed lines. He is flat on the floor. Caption: ducked.",
+        "tag": "unlocks / supply news"
+      },
+      {
+        "file": "47_lurking.png",
+        "src": "assets/replies/47_lurking.png",
+        "title": "just watching.",
+        "alt": "DUK lies half out of frame in the bottom corner, only his head and part of his body visible, staring at you. Caption: just watching.",
+        "tag": "lurkers / \"who's watching\""
+      },
+      {
+        "file": "48_zoom_out.png",
+        "src": "assets/replies/48_zoom_out.png",
+        "title": "zoomed out. still ducking.",
+        "alt": "A huge empty blue frame. Far away, a tiny DUK lies flat on a long floor line. Caption: zoomed out. still ducking.",
+        "tag": "zoom out"
+      },
+      {
+        "file": "49_room.png",
+        "src": "assets/replies/49_room.png",
+        "title": "there's room down here.",
+        "alt": "DUK lies flat on the floor on one side of the frame, leaving an empty spot beside him with a small pillow on it. Caption: there's room down here.",
+        "tag": "rough week (not tragedies)"
+      },
+      {
+        "file": "50_up_only.png",
+        "src": "assets/replies/50_up_only.png",
+        "title": "down only.",
+        "alt": "A green arrow points up. DUK is flat on the floor anyway, and a red arrow points down at him. Caption: down only.",
+        "tag": "\"up only\""
+      }
+    ]
+  },
+  "stickerPacks": [
+    {
+      "id": "react",
+      "name": "reactions",
+      "kind": "static",
+      "icon": null,
+      "contact": "assets/stickers/react/contact-sheet.png",
+      "items": [
+        {
+          "src": "assets/stickers/react/01_yes.png",
+          "alt": "yes.",
+          "emoji": "✅",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/02_no.png",
+          "alt": "no.",
+          "emoji": "🙅",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/03_ok.png",
+          "alt": "ok.",
+          "emoji": "👌",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/04_ha.png",
+          "alt": "ha.",
+          "emoji": "😐",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/05_cry.png",
+          "alt": "cry.",
+          "emoji": "🥲",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/06_shocked.png",
+          "alt": "shocked.",
+          "emoji": "😳",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/07_confused.png",
+          "alt": "confused.",
+          "emoji": "❓",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/08_thinking.png",
+          "alt": "thinking.",
+          "emoji": "🤔",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/09_facepalm.png",
+          "alt": "facepalm.",
+          "emoji": "🤦",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/10_thumbs_up.png",
+          "alt": "thumbs up.",
+          "emoji": "👍",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/11_clapping.png",
+          "alt": "clapping.",
+          "emoji": "👏",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/12_love.png",
+          "alt": "love.",
+          "emoji": "❤️",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/13_angry.png",
+          "alt": "angry.",
+          "emoji": "😤",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/14_scared.png",
+          "alt": "scared.",
+          "emoji": "😨",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/15_shrug.png",
+          "alt": "shrug.",
+          "emoji": "🤷",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/16_bruh.png",
+          "alt": "bruh.",
+          "emoji": "😑",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/17_wait_what.png",
+          "alt": "wait what.",
+          "emoji": "🤨",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/18_noted.png",
+          "alt": "noted.",
+          "emoji": "📝",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/19_listening.png",
+          "alt": "listening.",
+          "emoji": "👂",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/20_side_eye.png",
+          "alt": "side eye.",
+          "emoji": "👀",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/21_nervous.png",
+          "alt": "nervous.",
+          "emoji": "😅",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/22_dead.png",
+          "alt": "dead.",
+          "emoji": "💀",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/23_sleepy.png",
+          "alt": "sleepy.",
+          "emoji": "😴",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/24_mind_blown.png",
+          "alt": "mind blown.",
+          "emoji": "🤯",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/25_respect.png",
+          "alt": "respect.",
+          "emoji": "🫡",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/26_thank_you.png",
+          "alt": "thank you.",
+          "emoji": "🙏",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/27_sorry.png",
+          "alt": "sorry.",
+          "emoji": "🥺",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/28_hello.png",
+          "alt": "hello.",
+          "emoji": "👋",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/29_bye.png",
+          "alt": "bye.",
+          "emoji": "👋",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/30_hug.png",
+          "alt": "hug.",
+          "emoji": "🫂",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/31_judging.png",
+          "alt": "judging.",
+          "emoji": "🧐",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/32_not_my_problem.png",
+          "alt": "not my problem.",
+          "emoji": "🙈",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/33_please.png",
+          "alt": "please.",
+          "emoji": "🥺",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/34_proud.png",
+          "alt": "proud.",
+          "emoji": "🏅",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/35_ok_boomer.png",
+          "alt": "ok boomer.",
+          "emoji": "😒",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/36_i_see.png",
+          "alt": "i see.",
+          "emoji": "🧐",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/37_no_comment.png",
+          "alt": "no comment.",
+          "emoji": "🎤",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/38_silence.png",
+          "alt": "silence.",
+          "emoji": "🤐",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/39_popcorn.png",
+          "alt": "popcorn.",
+          "emoji": "🍿",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/react/40_overwhelmed.png",
+          "alt": "overwhelmed.",
+          "emoji": "😵",
+          "type": "png"
+        }
+      ]
+    },
+    {
+      "id": "daily",
+      "name": "daily",
+      "kind": "static",
+      "icon": null,
+      "contact": "assets/stickers/daily/contact-sheet.png",
+      "items": [
+        {
+          "src": "assets/stickers/daily/01_gm.png",
+          "alt": "gm.",
+          "emoji": "☕",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/02_gn.png",
+          "alt": "gn.",
+          "emoji": "😴",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/03_brb.png",
+          "alt": "brb.",
+          "emoji": "🚪",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/04_omw.png",
+          "alt": "omw.",
+          "emoji": "🏃",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/05_here.png",
+          "alt": "here.",
+          "emoji": "🙋",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/06_busy.png",
+          "alt": "busy.",
+          "emoji": "😵‍💫",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/07_at_work.png",
+          "alt": "at work.",
+          "emoji": "💼",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/08_lunch.png",
+          "alt": "lunch.",
+          "emoji": "🍽️",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/09_hungry.png",
+          "alt": "hungry.",
+          "emoji": "🤤",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/10_eating_bread.png",
+          "alt": "eating bread.",
+          "emoji": "🍞",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/11_coffee.png",
+          "alt": "coffee.",
+          "emoji": "☕",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/12_tired.png",
+          "alt": "tired.",
+          "emoji": "🥱",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/13_monday.png",
+          "alt": "monday.",
+          "emoji": "⏰",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/14_friday.png",
+          "alt": "friday.",
+          "emoji": "🎉",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/15_weekend.png",
+          "alt": "weekend.",
+          "emoji": "🛋️",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/16_gaming.png",
+          "alt": "gaming.",
+          "emoji": "🎮",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/17_on_the_phone.png",
+          "alt": "on the phone.",
+          "emoji": "📞",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/18_typing.png",
+          "alt": "typing.",
+          "emoji": "⌨️",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/19_reading.png",
+          "alt": "reading.",
+          "emoji": "📖",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/20_gym.png",
+          "alt": "gym.",
+          "emoji": "🏋️",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/21_shower.png",
+          "alt": "shower.",
+          "emoji": "🚿",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/22_sick.png",
+          "alt": "sick.",
+          "emoji": "🤒",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/23_rain.png",
+          "alt": "rain.",
+          "emoji": "☔",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/24_cold.png",
+          "alt": "cold.",
+          "emoji": "🥶",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/25_hot.png",
+          "alt": "hot.",
+          "emoji": "🥵",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/26_party.png",
+          "alt": "party.",
+          "emoji": "🥳",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/27_birthday.png",
+          "alt": "birthday.",
+          "emoji": "🎂",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/28_congrats.png",
+          "alt": "congrats.",
+          "emoji": "🏆",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/29_good_luck.png",
+          "alt": "good luck.",
+          "emoji": "🍀",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/30_miss_you.png",
+          "alt": "miss you.",
+          "emoji": "🥺",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/31_call_me.png",
+          "alt": "call me.",
+          "emoji": "📲",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/32_where_are_you.png",
+          "alt": "where are you.",
+          "emoji": "👀",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/33_late.png",
+          "alt": "late.",
+          "emoji": "⏰",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/34_bored.png",
+          "alt": "bored.",
+          "emoji": "😐",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/35_dancing.png",
+          "alt": "dancing.",
+          "emoji": "🕺",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/36_chill.png",
+          "alt": "chill.",
+          "emoji": "😎",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/37_vacation.png",
+          "alt": "vacation.",
+          "emoji": "🏖️",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/38_no_money.png",
+          "alt": "no money.",
+          "emoji": "💸",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/39_payday.png",
+          "alt": "payday.",
+          "emoji": "🤑",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/daily/40_gm_coffee_bath.png",
+          "alt": "gm coffee bath.",
+          "emoji": "☕",
+          "type": "png"
+        }
+      ]
+    },
+    {
+      "id": "trench",
+      "name": "trench",
+      "kind": "static",
+      "icon": null,
+      "contact": "assets/stickers/trench/contact-sheet.png",
+      "items": [
+        {
+          "src": "assets/stickers/trench/01_buying.png",
+          "alt": "buying.",
+          "emoji": "🟢",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/02_selling.png",
+          "alt": "selling.",
+          "emoji": "🔴",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/03_aped.png",
+          "alt": "aped.",
+          "emoji": "🍌",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/04_rugged.png",
+          "alt": "rugged.",
+          "emoji": "🧶",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/05_pumped.png",
+          "alt": "pumped.",
+          "emoji": "🎈",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/06_dumping.png",
+          "alt": "dumping.",
+          "emoji": "🪣",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/07_bag_holder.png",
+          "alt": "bag holder.",
+          "emoji": "💰",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/08_ser.png",
+          "alt": "ser.",
+          "emoji": "🎩",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/09_gm_ser.png",
+          "alt": "gm ser.",
+          "emoji": "☕",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/10_wagmi.png",
+          "alt": "wagmi.",
+          "emoji": "🤝",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/11_ngmi.png",
+          "alt": "ngmi.",
+          "emoji": "🗑️",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/12_few_understand.png",
+          "alt": "few understand.",
+          "emoji": "🧠",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/13_probably_nothing.png",
+          "alt": "probably nothing.",
+          "emoji": "👀",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/14_its_over.png",
+          "alt": "its over.",
+          "emoji": "🪦",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/15_were_back.png",
+          "alt": "were back.",
+          "emoji": "🔥",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/16_send_it.png",
+          "alt": "send it.",
+          "emoji": "🚀",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/17_chart_stare.png",
+          "alt": "chart stare.",
+          "emoji": "📈",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/18_green_joy.png",
+          "alt": "green joy.",
+          "emoji": "🟩",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/19_red_duck.png",
+          "alt": "red duck.",
+          "emoji": "🟥",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/20_liquidated.png",
+          "alt": "liquidated.",
+          "emoji": "💀",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/21_leverage.png",
+          "alt": "leverage.",
+          "emoji": "💦",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/22_diamond_wings.png",
+          "alt": "diamond wings.",
+          "emoji": "💎",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/23_paper_wings.png",
+          "alt": "paper wings.",
+          "emoji": "🧻",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/24_exit_liquidity.png",
+          "alt": "exit liquidity.",
+          "emoji": "🏧",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/25_slippage.png",
+          "alt": "slippage.",
+          "emoji": "🛝",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/26_gas_fees.png",
+          "alt": "gas fees.",
+          "emoji": "⛽",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/27_not_eligible.png",
+          "alt": "not eligible.",
+          "emoji": "🪂",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/28_wen.png",
+          "alt": "wen.",
+          "emoji": "⌚",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/29_soon.png",
+          "alt": "soon.",
+          "emoji": "⌛",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/30_dev_cooking.png",
+          "alt": "dev cooking.",
+          "emoji": "🍳",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/31_dev_sold.png",
+          "alt": "dev sold.",
+          "emoji": "💨",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/32_cope.png",
+          "alt": "cope.",
+          "emoji": "🫁",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/33_fomo.png",
+          "alt": "fomo.",
+          "emoji": "🏃",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/34_touch_grass.png",
+          "alt": "touch grass.",
+          "emoji": "🌱",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/35_buy_dip.png",
+          "alt": "buy dip.",
+          "emoji": "🥑",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/36_probably_fine.png",
+          "alt": "probably fine.",
+          "emoji": "🔥",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/37_bullish.png",
+          "alt": "bullish.",
+          "emoji": "🐂",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/38_bearish.png",
+          "alt": "bearish.",
+          "emoji": "🐻",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/39_bottom.png",
+          "alt": "bottom.",
+          "emoji": "🕳️",
+          "type": "png"
+        },
+        {
+          "src": "assets/stickers/trench/40_pool.png",
+          "alt": "pool.",
+          "emoji": "🏊",
+          "type": "png"
+        }
+      ]
+    },
+    {
+      "id": "motion_a",
+      "name": "motion, part one",
+      "kind": "animated",
+      "icon": null,
+      "contact": "assets/stickers/motion_a/contact-sheet.png",
+      "items": [
+        {
+          "src": "assets/stickers/motion_a/01_hello.webm",
+          "alt": "hello.",
+          "emoji": "👋",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a01_hello.mp4",
+          "gif": "assets/gifs/stickers/a01_hello.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/02_yes.webm",
+          "alt": "yes.",
+          "emoji": "👍",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a02_yes.mp4",
+          "gif": "assets/gifs/stickers/a02_yes.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/03_no.webm",
+          "alt": "no.",
+          "emoji": "🙅",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a03_no.mp4",
+          "gif": "assets/gifs/stickers/a03_no.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/04_ha.webm",
+          "alt": "ha.",
+          "emoji": "😂",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a04_ha.mp4",
+          "gif": "assets/gifs/stickers/a04_ha.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/05_cry.webm",
+          "alt": "cry.",
+          "emoji": "😭",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a05_cry.mp4",
+          "gif": "assets/gifs/stickers/a05_cry.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/06_typing.webm",
+          "alt": "typing.",
+          "emoji": "⌨️",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a06_typing.mp4",
+          "gif": "assets/gifs/stickers/a06_typing.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/07_clap.webm",
+          "alt": "clap.",
+          "emoji": "👏",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a07_clap.mp4",
+          "gif": "assets/gifs/stickers/a07_clap.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/08_thumbs_up.webm",
+          "alt": "thumbs up.",
+          "emoji": "👍",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a08_thumbs_up.mp4",
+          "gif": "assets/gifs/stickers/a08_thumbs_up.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/09_shrug.webm",
+          "alt": "shrug.",
+          "emoji": "🤷",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a09_shrug.mp4",
+          "gif": "assets/gifs/stickers/a09_shrug.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/10_facepalm.webm",
+          "alt": "facepalm.",
+          "emoji": "🤦",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a10_facepalm.mp4",
+          "gif": "assets/gifs/stickers/a10_facepalm.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/11_fell_over.webm",
+          "alt": "fell over.",
+          "emoji": "💀",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a11_fell_over.mp4",
+          "gif": "assets/gifs/stickers/a11_fell_over.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/12_spin.webm",
+          "alt": "spin.",
+          "emoji": "🌀",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a12_spin.mp4",
+          "gif": "assets/gifs/stickers/a12_spin.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/13_waddle.webm",
+          "alt": "waddle.",
+          "emoji": "🚶",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a13_waddle.mp4",
+          "gif": "assets/gifs/stickers/a13_waddle.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/14_peek.webm",
+          "alt": "peek.",
+          "emoji": "👀",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a14_peek.mp4",
+          "gif": "assets/gifs/stickers/a14_peek.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/15_mind_blown.webm",
+          "alt": "mind blown.",
+          "emoji": "🤯",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a15_mind_blown.mp4",
+          "gif": "assets/gifs/stickers/a15_mind_blown.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/16_heart.webm",
+          "alt": "heart.",
+          "emoji": "❤️",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a16_heart.mp4",
+          "gif": "assets/gifs/stickers/a16_heart.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/17_nervous.webm",
+          "alt": "nervous.",
+          "emoji": "😅",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a17_nervous.mp4",
+          "gif": "assets/gifs/stickers/a17_nervous.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/18_sleep.webm",
+          "alt": "sleep.",
+          "emoji": "😴",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a18_sleep.mp4",
+          "gif": "assets/gifs/stickers/a18_sleep.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/19_bread.webm",
+          "alt": "bread.",
+          "emoji": "🍞",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a19_bread.mp4",
+          "gif": "assets/gifs/stickers/a19_bread.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/20_dance.webm",
+          "alt": "dance.",
+          "emoji": "💃",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a20_dance.mp4",
+          "gif": "assets/gifs/stickers/a20_dance.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/21_hype.webm",
+          "alt": "hype.",
+          "emoji": "🙌",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a21_hype.mp4",
+          "gif": "assets/gifs/stickers/a21_hype.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/22_sad_rain.webm",
+          "alt": "sad rain.",
+          "emoji": "🌧️",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a22_sad_rain.mp4",
+          "gif": "assets/gifs/stickers/a22_sad_rain.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/23_ok_sign.webm",
+          "alt": "ok sign.",
+          "emoji": "👌",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a23_ok_sign.mp4",
+          "gif": "assets/gifs/stickers/a23_ok_sign.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/24_eyes_widen.webm",
+          "alt": "eyes widen.",
+          "emoji": "😳",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a24_eyes_widen.mp4",
+          "gif": "assets/gifs/stickers/a24_eyes_widen.gif"
+        },
+        {
+          "src": "assets/stickers/motion_a/25_blink.webm",
+          "alt": "blink.",
+          "emoji": "😐",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/a25_blink.mp4",
+          "gif": "assets/gifs/stickers/a25_blink.gif"
+        }
+      ]
+    },
+    {
+      "id": "motion_b",
+      "name": "motion, part two",
+      "kind": "animated",
+      "icon": null,
+      "contact": "assets/stickers/motion_b/contact-sheet.png",
+      "items": [
+        {
+          "src": "assets/stickers/motion_b/01_the_duk.webm",
+          "alt": "the duk.",
+          "emoji": "🦆📉",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b01_the_duk.mp4",
+          "gif": "assets/gifs/stickers/b01_the_duk.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/02_liquidated.webm",
+          "alt": "liquidated.",
+          "emoji": "💀📉",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b02_liquidated.mp4",
+          "gif": "assets/gifs/stickers/b02_liquidated.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/03_rocket_ride.webm",
+          "alt": "rocket ride.",
+          "emoji": "🚀🟩",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b03_rocket_ride.mp4",
+          "gif": "assets/gifs/stickers/b03_rocket_ride.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/04_red_rain.webm",
+          "alt": "red rain.",
+          "emoji": "📉☔",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b04_red_rain.mp4",
+          "gif": "assets/gifs/stickers/b04_red_rain.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/05_chart_stare.webm",
+          "alt": "chart stare.",
+          "emoji": "👀📊",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b05_chart_stare.mp4",
+          "gif": "assets/gifs/stickers/b05_chart_stare.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/06_buying.webm",
+          "alt": "buying.",
+          "emoji": "🟩👊",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b06_buying.mp4",
+          "gif": "assets/gifs/stickers/b06_buying.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/07_selling.webm",
+          "alt": "selling.",
+          "emoji": "🏃📉",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b07_selling.mp4",
+          "gif": "assets/gifs/stickers/b07_selling.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/08_rugged.webm",
+          "alt": "rugged.",
+          "emoji": "🫠🧶",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b08_rugged.mp4",
+          "gif": "assets/gifs/stickers/b08_rugged.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/09_pool_filling.webm",
+          "alt": "pool filling.",
+          "emoji": "🌊🦆",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b09_pool_filling.mp4",
+          "gif": "assets/gifs/stickers/b09_pool_filling.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/10_gm_coffee.webm",
+          "alt": "gm coffee.",
+          "emoji": "☕🌅",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b10_gm_coffee.mp4",
+          "gif": "assets/gifs/stickers/b10_gm_coffee.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/11_gn_blanket.webm",
+          "alt": "gn blanket.",
+          "emoji": "😴🌙",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b11_gn_blanket.mp4",
+          "gif": "assets/gifs/stickers/b11_gn_blanket.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/12_omw.webm",
+          "alt": "omw.",
+          "emoji": "🏃💨",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b12_omw.mp4",
+          "gif": "assets/gifs/stickers/b12_omw.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/13_brb_poof.webm",
+          "alt": "brb poof.",
+          "emoji": "💨🦆",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b13_brb_poof.mp4",
+          "gif": "assets/gifs/stickers/b13_brb_poof.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/14_popcorn.webm",
+          "alt": "popcorn.",
+          "emoji": "🍿👀",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b14_popcorn.mp4",
+          "gif": "assets/gifs/stickers/b14_popcorn.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/15_empty_wallet.webm",
+          "alt": "empty wallet.",
+          "emoji": "💸🥲",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b15_empty_wallet.mp4",
+          "gif": "assets/gifs/stickers/b15_empty_wallet.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/16_wen.webm",
+          "alt": "wen.",
+          "emoji": "⌚👀",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b16_wen.mp4",
+          "gif": "assets/gifs/stickers/b16_wen.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/17_cope.webm",
+          "alt": "cope.",
+          "emoji": "😓🫠",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b17_cope.mp4",
+          "gif": "assets/gifs/stickers/b17_cope.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/18_touch_grass.webm",
+          "alt": "touch grass.",
+          "emoji": "🌱🦆",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b18_touch_grass.mp4",
+          "gif": "assets/gifs/stickers/b18_touch_grass.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/19_diamond_wings.webm",
+          "alt": "diamond wings.",
+          "emoji": "💎✨",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b19_diamond_wings.mp4",
+          "gif": "assets/gifs/stickers/b19_diamond_wings.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/20_duk_slam.webm",
+          "alt": "duk slam.",
+          "emoji": "🦆❗",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b20_duk_slam.mp4",
+          "gif": "assets/gifs/stickers/b20_duk_slam.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/21_feathers.webm",
+          "alt": "feathers.",
+          "emoji": "🪶😶",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b21_feathers.mp4",
+          "gif": "assets/gifs/stickers/b21_feathers.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/22_bread_rain.webm",
+          "alt": "bread rain.",
+          "emoji": "🍞🤤",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b22_bread_rain.mp4",
+          "gif": "assets/gifs/stickers/b22_bread_rain.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/23_banana_slip.webm",
+          "alt": "banana slip.",
+          "emoji": "🍌🫠",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b23_banana_slip.mp4",
+          "gif": "assets/gifs/stickers/b23_banana_slip.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/24_alarm_clock.webm",
+          "alt": "alarm clock.",
+          "emoji": "⏰💥",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b24_alarm_clock.mp4",
+          "gif": "assets/gifs/stickers/b24_alarm_clock.gif"
+        },
+        {
+          "src": "assets/stickers/motion_b/25_under_desk.webm",
+          "alt": "under desk.",
+          "emoji": "🫣💻",
+          "type": "webm",
+          "mp4": "assets/gifs/stickers/b25_under_desk.mp4",
+          "gif": "assets/gifs/stickers/b25_under_desk.gif"
+        }
+      ]
+    }
+  ],
+  "videos": {
+    "trailer": {
+      "src": "assets/videos/duk-trailer.mp4",
+      "poster": "assets/videos/duk-trailer-poster.jpg",
+      "title": "duk. the trailer.",
+      "duration": 29.0,
+      "frames": [
+        "assets/videos/frames/trailer-00.0s.png",
+        "assets/videos/frames/trailer-02.8s.png",
+        "assets/videos/frames/trailer-04.8s.png",
+        "assets/videos/frames/trailer-06.8s.png",
+        "assets/videos/frames/trailer-08.8s.png",
+        "assets/videos/frames/trailer-10.8s.png",
+        "assets/videos/frames/trailer-12.8s.png",
+        "assets/videos/frames/trailer-14.5s.png",
+        "assets/videos/frames/trailer-16.2s.png",
+        "assets/videos/frames/trailer-18.5s.png",
+        "assets/videos/frames/trailer-21.0s.png",
+        "assets/videos/frames/trailer-23.0s.png",
+        "assets/videos/frames/trailer-24.3s.png",
+        "assets/videos/frames/trailer-26.0s.png"
+      ]
+    },
+    "clips": [
+      {
+        "src": "assets/videos/clips/01_candle_duk.mp4",
+        "poster": "assets/videos/clips/01_candle_duk.png",
+        "title": "candle duk.",
+        "duration": 6.0
+      },
+      {
+        "src": "assets/videos/clips/02_liquidated.mp4",
+        "poster": "assets/videos/clips/02_liquidated.png",
+        "title": "liquidated.",
+        "duration": 6.0
+      },
+      {
+        "src": "assets/videos/clips/03_the_pool.mp4",
+        "poster": "assets/videos/clips/03_the_pool.png",
+        "title": "the pool.",
+        "duration": 6.0
+      },
+      {
+        "src": "assets/videos/clips/04_duk_duk.mp4",
+        "poster": "assets/videos/clips/04_duk_duk.png",
+        "title": "duk duk.",
+        "duration": 6.0
+      },
+      {
+        "src": "assets/videos/clips/05_get_up.mp4",
+        "poster": "assets/videos/clips/05_get_up.png",
+        "title": "get up.",
+        "duration": 6.0
+      },
+      {
+        "src": "assets/videos/clips/06_gm_rain.mp4",
+        "poster": "assets/videos/clips/06_gm_rain.png",
+        "title": "gm rain.",
+        "duration": 6.0
+      }
+    ]
+  },
+  "poolSprite": "assets/float.png",
+  "replyLines": [
+    "short replies, grouped by what the post is about. Use a line alone, a picture alone, or both. Numbers in brackets are the matching pictures in this folder. Read RULES.md first.",
+    "lowercase. no emojis. never add a price, a ticker other than $duk, or a link nobody asked for. if a line doesn't fit the post, skip it.",
+    "already down here.",
+    "duk season. assume the position.",
+    "not over. lower.",
+    "floor's open.",
+    "just duk.",
+    "got up.",
+    "standing. not celebrating.",
+    "suspicious. staying low.",
+    "back up. same face.",
+    "duk.",
+    "morning. face down.",
+    "clocked in.",
+    "gn. same position.",
+    "still here. still staring.",
+    "soon.",
+    "soon. lying down until then.",
+    "the clock has no hands.",
+    "lower.",
+    "there's always a lower floor.",
+    "he checked. there's a basement.",
+    "ducked.",
+    "unduckable. it happens.",
+    "you can't liquidate what's on the floor.",
+    "the position.",
+    "get down. stay down. get up.",
+    "not financial advice. duck advice.",
+    "like this.",
+    "ser.",
+    "at attention, ser.",
+    "probably nothing.",
+    "under the desk, just in case.",
+    "we're all gonna duk.",
+    "can't fall off the floor.",
+    "going.",
+    "they went that way.",
+    "still down here. just in case.",
+    "nice line.",
+    "i see it. still lying down.",
+    "also sideways.",
+    "the fibs said duk.",
+    "duk.",
+    "noted. duk.",
+    "incoming. down.",
+    "heard. ducked.",
+    "respectfully, duk.",
+    "trusted. ducked anyway.",
+    "personal best.",
+    "nice. stay low.",
+    "there's room down here.",
+    "lie down a minute. it's fine down here.",
+    "welcome. get down.",
+    "see you on the floor.",
+    "here.",
+    "just watching.",
+    "no thoughts. just duk.",
+    "thinking about the floor.",
+    "off duty. still down.",
+    "touching grass. face first.",
+    "zoomed out. still ducking.",
+    "been down here since the first candle.",
+    "",
+    "asked what $duk is, or about the pool? use the drafts in `x/replies.md` (wording already checked). never say price floor, guaranteed, unruggable, or \"the pool only gets deeper\"."
+  ]
+}

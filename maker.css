@@ -1,0 +1,256 @@
+/* A paint box, not a design app. Everything stays inside the maker. */
+#maker-tool {
+  min-width: 0;
+  font-family: "Comic Sans MS", "Comic Sans", Arial, sans-serif;
+}
+#maker-tool *, #maker-tool *::before, #maker-tool *::after { box-sizing: border-box; }
+#maker-tool [hidden] { display: none !important; }
+#maker-tool .maker-window {
+  border: 3px solid #111;
+  border-radius: 3px 7px 2px 5px;
+  background: #fff9e7;
+}
+#maker-tool .maker-titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 22px;
+  border-bottom: 3px solid #111;
+  background: #ff7f27;
+}
+#maker-tool .maker-titlebar strong { font-size: 23px; letter-spacing: -1px; }
+#maker-tool .maker-titlebar > span { font-size: 13px; text-align: right; }
+#maker-tool .maker-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: 28px;
+  align-items: start;
+  padding: 26px;
+}
+#maker-tool .maker-controls { min-width: 0; }
+#maker-tool .maker-step { min-width: 0; margin: 0 0 26px; padding: 0 0 22px; border: 0; border-bottom: 2px solid #111; }
+#maker-tool .maker-step-title {
+  display: block;
+  margin: 0 0 12px;
+  padding: 0;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: -.5px;
+}
+#maker-tool .maker-fieldset { min-width: 0; margin: 0 0 16px; padding: 0; border: 0; }
+#maker-tool .maker-fieldset:last-child { margin-bottom: 0; }
+#maker-tool .maker-fieldset > legend:not(.maker-step-title),
+#maker-tool .maker-field > label {
+  display: block;
+  padding: 0;
+  margin-bottom: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+#maker-tool .maker-toggle {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 16px;
+  padding: 10px 12px;
+  border: 2px dashed #111;
+  background: #fff;
+  font-size: 15px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+#maker-tool .maker-toggle input { flex: none; width: 20px; height: 20px; margin: 1px 0 0; accent-color: #111; cursor: pointer; }
+#maker-tool .maker-filters { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 10px; }
+#maker-tool .maker-field { min-width: 0; margin-bottom: 12px; }
+#maker-tool input[type="search"], #maker-tool select, #maker-tool textarea {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  border: 2px solid #111;
+  border-radius: 3px 1px 4px 2px;
+  padding: 8px 11px;
+  background: #fff;
+  color: #111;
+  font: inherit;
+  font-size: 16px;
+  line-height: 1.4;
+}
+#maker-tool select { cursor: pointer; }
+#maker-tool textarea { min-height: 76px; resize: vertical; }
+#maker-tool input::placeholder, #maker-tool textarea::placeholder { color: #626262; opacity: 1; }
+#maker-tool .maker-library-status { min-height: 20px; margin: 0 0 10px; font-size: 12px; line-height: 1.5; }
+#maker-tool .maker-bases {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 8px;
+  max-height: 440px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 8px;
+  border: 2px solid #111;
+  background: #fff;
+}
+#maker-tool .maker-card-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+#maker-tool .maker-palette { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+#maker-tool .maker-empty { margin: 12px 0 0; font-size: 14px; }
+#maker-tool .maker-choice { position: relative; min-width: 0; cursor: pointer; }
+#maker-tool .maker-choice > input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+#maker-tool .maker-base-card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 100%;
+  border: 2px solid #111;
+  border-radius: 2px 4px 2px 3px;
+  background: #fff9e7;
+  padding: 5px 4px 7px;
+  text-align: center;
+}
+#maker-tool .maker-base-card img {
+  display: block;
+  width: 100%;
+  height: 66px;
+  margin: 0 0 5px;
+  object-fit: contain;
+}
+#maker-tool .maker-card-title { margin-top: auto; font-size: 11px; line-height: 1.3; overflow-wrap: anywhere; }
+#maker-tool .maker-card-number { font-size: 10px; line-height: 1.3; }
+#maker-tool .maker-choice > input:checked + .maker-base-card { background: #ff7f27; border-width: 3px; padding: 4px 3px 6px; }
+#maker-tool .maker-choice > input:checked + .maker-base-card::after {
+  content: "x";
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 19px;
+  height: 19px;
+  border: 2px solid #111;
+  background: #fff;
+  font: bold 14px/14px Arial, sans-serif;
+  text-align: center;
+}
+#maker-tool .maker-color-chip {
+  display: block;
+  min-height: 63px;
+  border: 2px solid #111;
+  padding: 6px 2px 5px;
+  background: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.2;
+}
+#maker-tool .maker-color-chip::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin: 0 auto 4px;
+  border: 2px solid #111;
+  background: var(--maker-color);
+}
+#maker-tool .maker-choice > input:checked + .maker-color-chip { background: #ff7f27; font-weight: bold; border-style: dashed; }
+#maker-tool .maker-choice:hover .maker-base-card, #maker-tool .maker-choice:hover .maker-color-chip { border-style: dashed; }
+#maker-tool .maker-choice > input:focus-visible + span { outline: 3px dashed #111; outline-offset: 2px; }
+#maker-tool .maker-toggle:has(input:focus-visible) { outline: 3px dashed #111; outline-offset: 3px; }
+#maker-tool input[type="search"]:focus-visible,
+#maker-tool select:focus-visible,
+#maker-tool textarea:focus-visible,
+#maker-tool button:focus-visible,
+#maker-tool a:focus-visible { outline: 3px dashed #111; outline-offset: 4px; }
+#maker-tool .maker-help { margin: 7px 0 0; font-size: 12px; line-height: 1.5; }
+#maker-tool .maker-actions { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 10px; }
+#maker-tool .maker-download, #maker-tool .maker-post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 10px 14px;
+  border: 3px solid #111;
+  border-radius: 3px 1px 5px 2px;
+  color: #111;
+  font: inherit;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+#maker-tool .maker-download { background: #ff7f27; }
+#maker-tool .maker-post { background: #fff; }
+#maker-tool .maker-download:hover:not(:disabled), #maker-tool .maker-post:hover { background: #fff200; }
+#maker-tool .maker-download:active:not(:disabled), #maker-tool .maker-post:active { border-style: dashed; }
+#maker-tool .maker-download:disabled { background: #e5e2d8; color: #555; cursor: not-allowed; }
+#maker-tool .maker-export-status { min-height: 36px; margin: 9px 0 0; font-size: 12px; line-height: 1.5; overflow-wrap: anywhere; }
+#maker-tool .maker-preview { position: sticky; top: 18px; min-width: 0; margin: 0; border: 3px solid #111; background: #fff; }
+#maker-tool .maker-preview-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px 12px;
+  border-bottom: 3px solid #111;
+  font-size: 12px;
+}
+#maker-tool .maker-preview-bar > span:last-child { white-space: nowrap; }
+#maker-tool canvas { display: block; width: 100%; height: auto; aspect-ratio: 1; }
+#maker-tool .maker-preview figcaption { border-top: 3px solid #111; padding: 12px; }
+#maker-tool #maker-load-status { min-height: 22px; margin: 0; font-size: 14px; line-height: 1.5; overflow-wrap: anywhere; }
+#maker-tool .maker-retry {
+  margin-top: 8px;
+  min-height: 40px;
+  padding: 6px 14px;
+  border: 2px solid #111;
+  background: #fff;
+  color: #111;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+#maker-tool .maker-retry:hover { background: #ff7f27; }
+#maker-tool .maker-footnote { margin: 0; padding: 13px 22px; border-top: 2px solid #111; font-size: 12px; line-height: 1.5; }
+
+@media (max-width: 980px) {
+  #maker-tool .maker-workspace { gap: 20px; padding: 20px; }
+  #maker-tool .maker-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #maker-tool .maker-filters, #maker-tool .maker-actions { grid-template-columns: minmax(0, 1fr); gap: 0 10px; }
+  #maker-tool .maker-actions { gap: 10px; }
+}
+@media (max-width: 760px) {
+  #maker-tool .maker-workspace { grid-template-columns: minmax(0, 1fr); }
+  /* on small screens the preview comes first, so changes are visible right away */
+  #maker-tool .maker-preview { position: static; order: -1; width: 100%; }
+  #maker-tool .maker-card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  #maker-tool .maker-filters, #maker-tool .maker-actions { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); }
+  #maker-tool .maker-bases { max-height: 360px; }
+  #maker-tool .maker-export-status { min-height: 18px; }
+}
+@media (max-width: 480px) {
+  #maker-tool .maker-titlebar { padding: 10px 13px; gap: 10px; }
+  #maker-tool .maker-titlebar > span { font-size: 11px; }
+  #maker-tool .maker-workspace { padding: 14px 12px; }
+  #maker-tool .maker-bases { grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 6px; padding: 6px; }
+  #maker-tool .maker-base-card img { height: 56px; }
+  #maker-tool .maker-card-title { font-size: 10px; }
+  #maker-tool .maker-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  #maker-tool .maker-palette { gap: 6px; }
+  #maker-tool .maker-color-chip { font-size: 11px; }
+  #maker-tool .maker-filters, #maker-tool .maker-actions { grid-template-columns: minmax(0, 1fr); }
+  #maker-tool .maker-footnote { padding-inline: 13px; }
+}
+@media (forced-colors: active) {
+  #maker-tool .maker-choice > input:checked + span { outline: 3px solid Highlight; outline-offset: -5px; }
+  #maker-tool .maker-color-chip::before { forced-color-adjust: none; }
+}

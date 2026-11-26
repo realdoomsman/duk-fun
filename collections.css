@@ -1,0 +1,203 @@
+/* comics.html and kit.html. same pen, same blue, more paper. */
+
+/* ---------- duk comics ---------- */
+.comics-page .comics-hero-art { transform: rotate(-3deg); }
+.comics-page .comics-shelf { margin-top: 50px; }
+.comics-page .comics-shelf-bar { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; flex-wrap: wrap; }
+.comics-page .comics-shelf-bar h2 { font-size: 34px; letter-spacing: -1.4px; }
+.comics-page #comics-status { font-size: 15px; transform: rotate(-1.5deg); }
+.comics-page .comics-index { margin-top: 18px; border: 3px solid #111; border-radius: 3px 8px 4px 6px; background: #fff9e7; padding: 18px 22px; }
+.comics-page .comics-index-list { list-style: none; margin: 0; padding: 0; columns: 3 230px; column-gap: 28px; }
+.comics-page .comics-index-list li { break-inside: avoid; border-bottom: 1px solid #111; }
+.comics-page .comics-index-list a { display: block; padding: 9px 2px; text-decoration: none; font-size: 15px; overflow-wrap: anywhere; }
+.comics-page .comics-index-list a:hover { background: #ff7f27; }
+.comics-page .comics-index-list span { font-weight: bold; text-decoration: underline; text-underline-offset: 3px; margin-right: 6px; }
+.comics-page .comics-reading-note { font-size: 13px; margin-top: 12px; }
+
+.comics-page .comics-list { list-style: none; margin: 46px auto 0; padding: 0; }
+.comics-page .comics-list > li + li { margin-top: 84px; }
+.comics-page .comic-strip { scroll-margin-top: 20px; }
+.comics-page .comic-strip:focus { outline: none; }
+.comics-page .comic-head { display: flex; align-items: baseline; gap: 16px; border-bottom: 3px solid #111; padding-bottom: 12px; }
+.comics-page .comic-number { flex: none; border: 2px solid #111; background: #ff7f27; padding: 2px 10px; font-weight: bold; font-size: 15px; transform: rotate(-4deg); }
+.comics-page .comic-strip:nth-of-type(odd) .comic-number { transform: rotate(3deg); }
+.comics-page .comic-head h2 { flex: 1; min-width: 0; font-size: clamp(26px, 3vw, 40px); letter-spacing: -1.4px; overflow-wrap: anywhere; }
+.comics-page .comic-top { flex: none; font-size: 13px; text-underline-offset: 4px; }
+.comics-page .comic-figure { margin-top: 20px; border: 3px solid #111; border-radius: 2px 6px 3px 5px; background: white; }
+.comics-page .comic-open { display: block; position: relative; width: 100%; padding: 0; border: 0; background: transparent; cursor: zoom-in; }
+.comics-page .comic-open img { width: 100%; height: auto; }
+.comics-page .comic-open:focus-visible { outline-offset: -9px; }
+.comics-page .comic-open-hint { position: absolute; right: 12px; bottom: 12px; border: 2px solid #111; background: #ff7f27; padding: 3px 10px; font-size: 13px; transform: rotate(-3deg); opacity: 0; }
+.comics-page .comic-open:hover .comic-open-hint, .comics-page .comic-open:focus-visible .comic-open-hint { opacity: 1; }
+.comics-page .comic-foot { display: flex; justify-content: space-between; align-items: start; gap: 18px 24px; margin-top: 16px; flex-wrap: wrap; }
+.comics-page .comic-transcript { flex: 1 1 300px; min-width: 0; }
+.comics-page .comic-transcript summary { cursor: pointer; font-size: 15px; text-decoration: underline; text-underline-offset: 4px; min-height: 44px; display: flex; align-items: center; width: fit-content; }
+.comics-page .comic-transcript summary:focus-visible { outline: 3px dashed #111; outline-offset: 3px; }
+.comics-page .comic-transcript p { margin-top: 6px; border: 2px solid #111; background: #fff9e7; padding: 14px 16px; font-size: 15px; line-height: 1.55; max-width: 64ch; }
+.comics-page .comic-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
+.comics-page .comic-actions .button { min-height: 44px; }
+.comics-page .comic-permalink { font-size: 13px; text-underline-offset: 4px; padding-block: 12px; }
+
+.comics-page .comics-empty { display: grid; grid-template-columns: 1fr 1.1fr; align-items: center; gap: 30px; border: 3px dashed #111; background: #fff9e7; padding: 34px; margin-top: 40px; border-radius: 4px 1px 7px 3px; }
+.comics-page .comics-empty img { width: 100%; max-height: 260px; object-fit: contain; transform: rotate(-2deg); }
+.comics-page .comics-empty-line { font-size: clamp(28px, 3.8vw, 46px); line-height: 1.15; letter-spacing: -1.5px; margin-bottom: 16px; }
+.comics-page .comics-empty p:not(.comics-empty-line) { font-size: 16px; margin-bottom: 18px; }
+.comics-page .comics-error { border: 2px dashed #111; padding: 24px; margin-top: 30px; font-size: 16px; }
+
+.comics-page .comics-colophon { display: flex; justify-content: space-between; align-items: end; gap: 30px; border-top: 3px solid #111; margin-block: 80px 60px; padding-top: 26px; }
+.comics-page .comics-colophon dl { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; margin: 0; flex: 1; }
+.comics-page .comics-colophon dt { font-weight: bold; font-size: 19px; letter-spacing: -.5px; }
+.comics-page .comics-colophon dd { margin: 6px 0 0; font-size: 14px; }
+.comics-page .comics-colophon .button { flex: none; }
+
+.comics-page .comics-dialog { width: min(1240px, calc(100% - 30px)); overscroll-behavior: contain; }
+.comics-page .comics-dialog-bar { display: flex; justify-content: space-between; align-items: start; gap: 20px; margin-bottom: 14px; }
+.comics-page .comics-dialog-bar h2 { font-size: 21px; align-self: center; overflow-wrap: anywhere; }
+.comics-page .comics-dialog button { border: 2px solid #111; background: white; min-height: 44px; padding: 7px 14px; font-size: 15px; }
+.comics-page .comics-dialog button:hover:not(:disabled) { background: #ff7f27; }
+.comics-page .comics-dialog button:disabled { cursor: default; opacity: .5; }
+.comics-page #comics-close { flex: none; }
+.comics-page .comics-dialog-image { width: 100%; height: min(68dvh, 820px); object-fit: contain; background: white; border: 3px solid #111; }
+.comics-page .comics-dialog-nav { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-block: 14px; }
+.comics-page #comics-dialog-position { font-size: 13px; text-align: center; }
+.comics-page .comics-dialog-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.comics-page .comics-dialog-actions .button { min-height: 44px; }
+.comics-page .comics-dialog-hint { font-size: 11px; margin-top: 12px; }
+.comics-page:has(.comics-dialog[open]) { overflow: hidden; }
+
+/* ---------- the kit ---------- */
+.kit-page .kit-jump { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 14px; margin-top: 30px; font-size: 14px; }
+.kit-page .kit-jump ul { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0; padding: 0; }
+.kit-page .kit-jump a { display: block; border: 2px solid #111; background: #fff9e7; padding: 6px 12px; text-decoration: none; border-radius: 3px 1px 5px 2px; }
+.kit-page .kit-jump a:hover { background: #ff7f27; }
+.kit-page .kit-section { margin-top: 60px; border-top: 3px solid #111; padding-top: 28px; scroll-margin-top: 20px; }
+.kit-page .kit-section-head { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 28px; }
+.kit-page .kit-section-head h2 { font-size: clamp(36px, 4vw, 56px); letter-spacing: -2px; }
+.kit-page .kit-section-head .eyebrow { margin-bottom: 8px; }
+.kit-page .kit-howto { font-size: 17px; max-width: 380px; text-align: right; transform: rotate(-2deg); }
+.kit-page .kit-status { margin-top: 44px; font-size: 15px; }
+
+.kit-page .kit-basics-grid, .kit-page .kit-grid { list-style: none; margin: 0; padding: 0; display: grid; gap: 22px; }
+.kit-page .kit-basics-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.kit-page .kit-card { display: flex; flex-direction: column; min-width: 0; border: 3px solid #111; background: #fff9e7; padding: 14px 14px 16px; border-radius: 3px 8px 4px 6px; }
+.kit-page .kit-card:nth-child(3n + 1) { transform: rotate(-.6deg); }
+.kit-page .kit-card:nth-child(3n + 2) { transform: rotate(.5deg); }
+.kit-page .kit-basics-grid .kit-card-wide { grid-column: span 2; }
+.kit-page .kit-thumb { display: block; border: 2px solid #111; background: #00a2e8; margin-bottom: 14px; }
+.kit-page .kit-thumb img, .kit-page .kit-thumb video { display: block; width: 100%; height: 200px; object-fit: contain; }
+.kit-page a.kit-thumb:hover { border-style: dashed; }
+.kit-page .kit-card h3 { font-size: 22px; letter-spacing: -.7px; overflow-wrap: anywhere; }
+.kit-page .kit-card p { font-size: 14px; margin-top: 6px; }
+.kit-page .kit-card .kit-meta { font-size: 12px; text-decoration: underline; text-underline-offset: 3px; margin-bottom: 14px; }
+.kit-page .kit-save { margin-top: auto; align-self: start; min-height: 44px; }
+.kit-page .kit-empty { border: 2px dashed #111; padding: 26px; font-size: 17px; }
+
+/* thumbs sized by what they're for */
+.kit-page .kit-group-templates .kit-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.kit-page .kit-group-templates .kit-thumb img { height: 300px; }
+.kit-page .kit-group-pfp .kit-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.kit-page .kit-group-pfp .kit-thumb { border: 0; background: transparent; }
+.kit-page .kit-group-pfp .kit-thumb img { height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 3px solid #111; background: #00a2e8; }
+.kit-page .kit-group-pfp .kit-card h3 { font-size: 17px; }
+.kit-page .kit-group-wallpapers .kit-grid { grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); grid-auto-flow: dense; }
+.kit-page .kit-group-wallpapers .kit-card.is-landscape { grid-column: span 2; }
+.kit-page .kit-group-wallpapers .kit-thumb img { height: 380px; }
+.kit-page .kit-group-banners .kit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.kit-page .kit-group-banners .kit-thumb img { height: auto; aspect-ratio: 3 / 1; }
+.kit-page .kit-group-other .kit-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.kit-page .kit-group-replies .kit-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.kit-page .kit-group-replies .kit-thumb img { height: auto; aspect-ratio: 16 / 9; }
+.kit-page .kit-group-replies .kit-card h3 { font-size: 18px; }
+.kit-page .kit-reply-lines { margin-top: 40px; }
+.kit-page .kit-reply-lines h3 { font-size: 30px; letter-spacing: -1px; }
+.kit-page .kit-reply-lines-note { font-size: 15px; margin-block: 6px 16px; }
+.kit-page .kit-reply-lines > .button { margin-top: 6px; min-height: 44px; }
+
+.kit-page .kit-words-list { list-style: none; margin: 0; padding: 0; border: 3px solid #111; background: #fff9e7; border-radius: 4px 1px 7px 3px; }
+.kit-page .kit-words-list li { display: grid; grid-template-columns: 170px minmax(0, 1fr) auto; align-items: center; gap: 16px; padding: 12px 18px; }
+.kit-page .kit-words-list li + li { border-top: 2px solid #111; }
+.kit-page .kit-words-list span { font-size: 13px; }
+.kit-page .kit-words-list code { font-family: inherit; font-size: 20px; font-weight: bold; letter-spacing: -.5px; overflow-wrap: anywhere; }
+.kit-page .kit-lines li { grid-template-columns: minmax(0, 1fr) auto; }
+.kit-page .kit-lines code { font-size: 17px; }
+.kit-page .kit-words-list button { border: 2px solid #111; background: white; min-height: 44px; padding: 6px 16px; font-size: 14px; border-radius: 3px 1px 5px 2px; }
+.kit-page .kit-words-list button:hover { background: #ff7f27; }
+.kit-page .kit-copy-status { font-size: 13px; min-height: 20px; margin-top: 10px; }
+
+.kit-page .kit-outro { display: flex; justify-content: space-between; align-items: center; gap: 20px; border-top: 3px solid #111; margin-block: 70px 60px; padding-top: 26px; }
+.kit-page .kit-outro > p { font-size: 24px; letter-spacing: -.7px; }
+.kit-page .kit-outro strong { font-weight: 400; text-decoration: underline; text-underline-offset: 5px; }
+.kit-page .kit-outro > div { display: flex; flex-wrap: wrap; gap: 10px; }
+
+@media (max-width: 1000px) {
+  .comics-page .comics-colophon { display: block; }
+  .comics-page .comics-colophon dl { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-bottom: 24px; }
+  .kit-page .kit-basics-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .kit-page .kit-group-templates .kit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .kit-page .kit-group-pfp .kit-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .kit-page .kit-group-other .kit-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .kit-page .kit-group-replies .kit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .comics-page .comics-shelf { margin-top: 34px; }
+  .comics-page .comics-shelf-bar h2 { font-size: 28px; }
+  .comics-page #comics-status { font-size: 13px; transform: none; }
+  .comics-page .comics-index { padding: 12px 14px; }
+  .comics-page .comics-index-list a { font-size: 14px; padding-block: 11px; }
+  .comics-page .comics-list { margin-top: 34px; }
+  .comics-page .comics-list > li + li { margin-top: 58px; }
+  .comics-page .comic-head { flex-wrap: wrap; gap: 8px 12px; }
+  .comics-page .comic-head h2 { flex-basis: calc(100% - 90px); font-size: 26px; }
+  .comics-page .comic-top { order: 3; }
+  .comics-page .comic-figure { margin-top: 14px; }
+  .comics-page .comic-open-hint { opacity: 1; font-size: 11px; right: 8px; bottom: 8px; }
+  .comics-page .comic-transcript p { font-size: 14px; padding: 12px; }
+  .comics-page .comic-actions .button { padding: 8px 12px; font-size: 14px; }
+  .comics-page .comics-empty { grid-template-columns: 1fr; padding: 22px; gap: 18px; margin-top: 30px; }
+  .comics-page .comics-empty img { max-height: 170px; }
+  .comics-page .comics-colophon { margin-block: 56px 44px; }
+  .comics-page .comics-colophon dl { gap: 16px; }
+  .comics-page .comics-colophon dt { font-size: 17px; }
+  .comics-page .comics-colophon dd { font-size: 13px; }
+  .comics-page .comics-dialog-bar { gap: 12px; }
+  .comics-page .comics-dialog-bar h2 { font-size: 17px; }
+  .comics-page .comics-dialog button { padding: 6px 10px; font-size: 13px; }
+  .comics-page .comics-dialog-image { height: 55dvh; }
+  .comics-page .comics-dialog-actions .button { padding: 8px 12px; font-size: 13px; }
+
+  .kit-page .kit-jump { margin-top: 22px; font-size: 13px; }
+  .kit-page .kit-jump a { padding: 8px 10px; }
+  .kit-page .kit-section { margin-top: 44px; padding-top: 22px; }
+  .kit-page .kit-section-head { display: block; margin-bottom: 20px; }
+  .kit-page .kit-section-head h2 { font-size: 40px; }
+  .kit-page .kit-howto { text-align: left; transform: none; font-size: 15px; margin-top: 10px; max-width: none; }
+  .kit-page .kit-basics-grid, .kit-page .kit-grid { gap: 14px; }
+  .kit-page .kit-card { padding: 10px 10px 12px; }
+  .kit-page .kit-card:nth-child(n) { transform: none; }
+  .kit-page .kit-thumb img, .kit-page .kit-thumb video { height: 140px; }
+  .kit-page .kit-card h3 { font-size: 18px; }
+  .kit-page .kit-card p { font-size: 13px; }
+  .kit-page .kit-save { padding: 8px 10px; font-size: 13px; }
+  .kit-page .kit-group-templates .kit-thumb img { height: 170px; }
+  .kit-page .kit-group-pfp .kit-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .kit-page .kit-group-pfp .kit-thumb img { height: auto; }
+  .kit-page .kit-group-pfp .kit-card h3 { font-size: 14px; }
+  .kit-page .kit-group-wallpapers .kit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .kit-page .kit-group-wallpapers .kit-thumb img { height: 260px; }
+  .kit-page .kit-group-wallpapers .kit-card.is-landscape .kit-thumb img { height: auto; aspect-ratio: 16 / 9; }
+  .kit-page .kit-group-banners .kit-grid { grid-template-columns: 1fr; }
+  .kit-page .kit-group-banners .kit-thumb img { height: auto; }
+  .kit-page .kit-group-other .kit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .kit-page .kit-group-replies .kit-card h3 { font-size: 15px; }
+  .kit-page .kit-reply-lines h3 { font-size: 24px; }
+  .kit-page .kit-empty { padding: 18px; font-size: 15px; }
+  .kit-page .kit-words-list li { grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; padding: 12px 14px; }
+  .kit-page .kit-words-list span { grid-column: 1 / -1; }
+  .kit-page .kit-words-list code { font-size: 17px; }
+  .kit-page .kit-lines code { font-size: 15px; }
+  .kit-page .kit-outro { display: block; margin-block: 50px 44px; }
+  .kit-page .kit-outro > p { font-size: 21px; margin-bottom: 14px; }
+}
+@media (max-width: 480px) {
+  .kit-page .kit-group-replies .kit-grid { grid-template-columns: 1fr; }
+}

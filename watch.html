@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00a2e8">
+  <title>watch / duk.</title>
+  <meta name="description" content="the duk trailer, its storyboard and short clips you can download. $DUK">
+  <link rel="canonical" href="https://duk.fun/watch.html">
+  <meta property="og:title" content="watch / duk.">
+  <meta property="og:description" content="the duk trailer and clips. just duk.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://duk.fun/watch.html">
+  <meta property="og:image" content="https://duk.fun/assets/og-1200x630.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="watch / duk.">
+  <meta name="twitter:description" content="the duk trailer and clips. just duk.">
+  <meta name="twitter:image" content="https://duk.fun/assets/og-1200x630.png">
+  <link rel="icon" type="image/png" href="assets/memes/pfp.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-pages.css">
+  <script src="assets/config.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="media.js" defer></script>
+</head>
+<body class="watch-page" data-media="watch">
+  <a class="skip-link" href="#main">skip to the page</a>
+  <header class="site-header page-width">
+    <div class="site-header-top"><a class="wordmark" href="./" aria-label="duk home">duk.</a><p class="duk-hour" data-duk-hour>duk hour: 21:00 utc</p><span class="ticker">$DUK</span></div>
+    <nav class="site-tabs" aria-label="main"><a href="./">home</a><a class="tab-pond" href="#" data-pond hidden>the pond ↗</a><a href="memes.html">memes</a><a href="comics.html">comics</a><a href="pool.html">the pool</a><a href="cult.html">the cult</a><a href="stickers.html">stickers</a><a href="watch.html" aria-current="page">watch</a><a href="kit.html">the kit</a><a href="maker.html">make a duk</a><a href="manual.html">manual</a></nav>
+  </header>
+  <main id="main">
+    <section class="page-hero page-width">
+      <div>
+        <p class="eyebrow">duk tv / trailer and clips</p>
+        <h1>a lot happens. he doesn't.</h1>
+        <p class="lead">stuff keeps coming at him.<br>he stays on the floor the whole time.</p>
+      </div>
+      <img class="page-hero-art" src="assets/hit.png" width="900" height="700" alt="duk getting hit by something and keeping the exact same face.">
+    </section>
+    <p class="watch-status page-width" id="watch-status" role="status" aria-live="polite">loading the videos...</p>
+
+    <section class="trailer-section page-width" aria-labelledby="trailer-title">
+      <div class="inline-heading media-heading">
+        <h2 id="trailer-title">duk. the trailer.</h2>
+        <p id="trailer-length" hidden>runtime: <time id="trailer-duration"></time></p>
+      </div>
+      <figure class="trailer-player" id="trailer">
+        <div class="trailer-screen"><video id="trailer-video" controls playsinline preload="none" width="1080" height="1080"></video></div>
+        <figcaption class="trailer-caption">
+          <p id="trailer-note">starts muted and loops. unmute for sound.</p>
+          <a class="button" id="trailer-download" href="assets/videos/duk-trailer.mp4" download>download the trailer</a>
+        </figcaption>
+      </figure>
+      <p class="media-empty" id="trailer-missing" hidden>the trailer isn't up yet.</p>
+      <noscript><p class="media-empty">the player needs javascript. you can still <a href="assets/videos/duk-trailer.mp4" download>download the mp4</a>.</p></noscript>
+    </section>
+
+    <section class="storyboard page-width" id="storyboard" aria-labelledby="storyboard-title">
+      <div class="inline-heading media-heading">
+        <h2 id="storyboard-title">the storyboard.</h2>
+        <p id="storyboard-count"></p>
+      </div>
+      <p class="storyboard-hint">tap a frame to jump there. scroll sideways for the rest.</p>
+      <ol class="storyboard-strip" id="storyboard-strip" tabindex="0" aria-label="trailer frames, scrolls sideways"></ol>
+    </section>
+
+    <section class="clips-section page-width" aria-labelledby="clips-title">
+      <div class="inline-heading media-heading">
+        <h2 id="clips-title">clips.</h2>
+        <p id="clip-count"></p>
+      </div>
+      <p class="clips-intro">short clips for replies. tap to play, download the ones you want.</p>
+      <ul class="clip-grid" id="clip-grid"></ul>
+      <p class="media-empty" id="clip-empty" hidden>no clips yet.</p>
+    </section>
+
+    <section class="watch-credits page-width" aria-labelledby="credits-title">
+      <h2 id="credits-title">credits.</h2>
+      <dl>
+        <div><dt>starring</dt><dd>duk, as himself.</dd></div>
+        <div><dt>sound</dt><dd>made from scratch. no licensed music.</dd></div>
+        <div><dt>art</dt><dd>the same paint sprites as the rest of the site.</dd></div>
+        <div><dt>stunts</dt><dd>none. he ducked.</dd></div>
+      </dl>
+    </section>
+
+    <aside class="media-outro page-width"><img src="assets/ducking.png" alt="" width="1000" height="600" loading="lazy"><p>want something smaller?</p><a class="button" href="stickers.html">get the stickers</a></aside>
+  </main>
+  <footer class="site-footer">
+    <div class="page-width footer-top"><div><p>everything's coming at you.</p><a class="footer-duk" href="./">duk.</a></div><img src="assets/ducking.png" alt="duk. still here." loading="lazy" width="1000" height="600"></div>
+    <div class="page-width footer-bottom"><span>$DUK / just duk.</span><nav class="footer-nav" aria-label="footer"><a href="memes.html">memes</a><a href="comics.html">comics</a><a href="pool.html">the pool</a><a href="cult.html">the cult</a><a href="stickers.html">stickers</a><a href="watch.html">watch</a><a href="kit.html">the kit</a><a href="maker.html">make a duk</a><a href="manual.html">manual</a></nav><div class="social-links" data-links></div><p>it's a meme coin.<br>don't spend your rent on it.</p></div>
+  </footer>
+</body></html>

@@ -1,0 +1,185 @@
+/* stickers.html + watch.html. same pen, same blue, more things to take. */
+
+/* shared bits for both pages */
+.media-heading { flex-wrap: wrap; gap: 10px 24px; margin-bottom: 26px; }
+.media-heading h2 { font-size: clamp(38px, 4.6vw, 62px); letter-spacing: -2.2px; }
+.media-heading > p { font-size: 15px; max-width: 420px; }
+.media-heading > p:empty { display: none; }
+.media-empty { border: 2px dashed #111; border-radius: 3px 8px 2px 6px; padding: 26px 28px; margin-block: 10px; font-size: 17px; background: transparent; }
+.media-empty a { text-underline-offset: 4px; }
+.media-outro { display: flex; align-items: center; gap: 22px; border-top: 3px solid #111; margin-block: 30px 70px; padding-top: 26px; }
+.media-outro img { width: 150px; height: auto; flex: none; object-fit: contain; transform: rotate(-3deg); }
+.media-outro p { font-size: 24px; letter-spacing: -.7px; flex: 1; }
+.loop-toggle { position: absolute; right: 6px; bottom: 6px; min-width: 44px; min-height: 30px; padding: 2px 9px; border: 2px solid #111; border-radius: 2px 5px 2px 4px; background: white; font-size: 12px; line-height: 1; }
+.loop-toggle:hover { background: #ff7f27; }
+
+/* stickers: the how-to card */
+.sticker-howto { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 18px 50px; align-items: start; margin-block: 58px 10px; padding: 28px 32px; border: 3px solid #111; border-radius: 4px 9px 3px 7px; background: #fff9e7; transform: rotate(-.4deg); }
+.sticker-howto h2 { font-size: clamp(30px, 3.2vw, 42px); letter-spacing: -1.4px; }
+.howto-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; counter-reset: duk-step; }
+.howto-steps li { display: flex; gap: 14px; align-items: baseline; counter-increment: duk-step; font-size: 17px; line-height: 1.45; }
+.howto-steps li::before { content: counter(duk-step); flex: none; width: 34px; height: 34px; display: inline-grid; place-items: center; border: 2px solid #111; border-radius: 50% 44% 52% 47%; background: #ff7f27; font-weight: 700; font-size: 16px; transform: translateY(-2px); }
+.howto-steps strong { text-decoration: underline; text-underline-offset: 4px; }
+.howto-note { grid-column: 2; font-size: 14px; transform: rotate(-1.5deg); justify-self: start; }
+
+/* stickers: pack index + packs */
+.sticker-packs-wrap { padding-top: 70px; }
+#sticker-status { font-weight: 700; }
+.pack-index-wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; border-block: 3px solid #111; padding-block: 14px; margin-bottom: 20px; }
+.pack-index-wrap > p { font-size: 14px; }
+.pack-index { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0; padding: 0; }
+.pack-index a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; border: 2px solid #111; border-radius: 3px 1px 5px 2px; padding: 6px 14px; text-decoration: none; font-size: 15px; background: transparent; }
+.pack-index a:hover { background: #ff7f27; }
+.pack-index b { font-size: 12px; border-left: 2px solid #111; padding-left: 8px; }
+.sticker-pack { padding-block: 44px 30px; border-top: 3px solid #111; scroll-margin-top: 20px; }
+.sticker-pack:first-child { border-top: 0; padding-top: 10px; }
+.sticker-pack-head { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 16px 22px; margin-bottom: 28px; }
+.sticker-pack-icon { width: 84px; height: 84px; object-fit: contain; border: 3px solid #111; border-radius: 50% 46% 52% 44%; background: #fff9e7; transform: rotate(-4deg); image-rendering: auto; }
+.sticker-pack-title { min-width: 0; }
+.sticker-pack-head.no-icon { grid-template-columns: minmax(0, 1fr) auto; }
+.sticker-pack-number { font-size: 13px; letter-spacing: .5px; margin-bottom: 4px; }
+.sticker-pack-title h2 { font-size: clamp(30px, 3.6vw, 48px); letter-spacing: -1.6px; overflow-wrap: anywhere; }
+.sticker-pack-meta { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 8px; font-size: 14px; }
+.sticker-pack-meta span:first-child { font-weight: 700; }
+.sticker-kind { border: 2px solid #111; padding: 0 8px; background: white; transform: rotate(2deg); font-size: 12px; line-height: 1.6; }
+.sticker-pack-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; text-align: right; }
+.sticker-use { font-size: 15px; transform: rotate(-2deg); max-width: 260px; }
+.sticker-sheet { background: #ff7f27; min-height: 44px; }
+.sticker-sheet:hover { background: white; }
+.sticker-pack-actions .text-link { display: inline-block; padding-block: 8px; }
+.sticker-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 26px 18px; list-style: none; margin: 0; padding: 0; }
+.sticker-card { min-width: 0; display: flex; flex-direction: column; }
+.sticker-frame { position: relative; border: 3px solid #111; border-radius: 4px 2px 6px 3px; background: #fff9e7; aspect-ratio: 1; padding: 8%; }
+.sticker-card:nth-child(3n + 1) .sticker-frame { transform: rotate(-1.2deg); }
+.sticker-card:nth-child(3n + 2) .sticker-frame { transform: rotate(.8deg); background: white; }
+.sticker-card:nth-child(5n) .sticker-frame { transform: rotate(1.6deg); }
+.sticker-frame.is-export { background: white; }
+.sticker-card:hover .sticker-frame { border-style: dashed; }
+.sticker-art { width: 100%; height: 100%; object-fit: contain; display: block; }
+.sticker-caption { font-size: 14px; line-height: 1.35; margin-top: 10px; overflow-wrap: anywhere; }
+.sticker-downloads { display: flex; flex-wrap: wrap; align-items: center; gap: 0 10px; margin-top: 4px; font-size: 12px; }
+.sticker-download { display: inline-flex; align-items: center; min-height: 32px; font-weight: 700; text-underline-offset: 4px; }
+.sticker-download:hover { background: #ff7f27; }
+.sticker-extra { font-size: 11px; font-weight: 400; }
+.sticker-note { font-size: 12px; margin-top: 2px; }
+
+/* stickers: reaction gifs */
+.gif-section { padding-block: 70px 30px; border-top: 3px solid #111; margin-top: 30px; }
+.gif-intro { font-size: 16px; margin: -12px 0 26px; }
+.gif-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 30px 22px; list-style: none; margin: 0; padding: 0; }
+.gif-card { min-width: 0; }
+.gif-frame { position: relative; border: 3px solid #111; border-radius: 3px 7px 2px 5px; background: white; aspect-ratio: 1; overflow: hidden; }
+.gif-art { width: 100%; height: 100%; object-fit: contain; display: block; }
+.gif-card h3 { font-size: 17px; margin-top: 12px; overflow-wrap: anywhere; }
+.gif-tag { font-size: 12px; text-decoration: underline; text-underline-offset: 3px; margin-top: 2px; }
+.gif-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.gif-actions a, .gif-actions button { display: inline-flex; align-items: center; min-height: 40px; border: 2px solid #111; border-radius: 3px 1px 5px 2px; background: white; padding: 4px 12px; font-size: 13px; font-weight: 700; text-decoration: none; }
+.gif-actions a:hover, .gif-actions button:hover { background: #ff7f27; }
+.gif-status { font-size: 12px; min-height: 18px; margin-top: 6px; overflow-wrap: anywhere; }
+
+/* watch: trailer */
+.watch-status { font-size: 14px; margin-top: 16px; }
+.watch-status:empty { display: none; }
+.trailer-section { padding-top: 60px; }
+#trailer-length { font-size: 18px; transform: rotate(-3deg); border: 2px solid #111; padding: 2px 12px; background: white; }
+.trailer-player { display: grid; grid-template-columns: minmax(0, 640px) minmax(0, 1fr); gap: 34px; align-items: end; }
+.trailer-screen { border: 3px solid #111; border-radius: 6px 3px 8px 4px; background: #111; padding: 10px; transform: rotate(-.6deg); }
+.trailer-screen video { display: block; width: 100%; height: auto; aspect-ratio: 1; background: #111; }
+.trailer-screen video:focus-visible, .clip-video:focus-visible { outline: 3px dashed #111; outline-offset: 6px; }
+.trailer-caption { display: grid; gap: 18px; justify-items: start; padding: 24px; border: 3px solid #111; border-radius: 3px 8px 2px 6px; background: #fff9e7; transform: rotate(1deg); }
+.trailer-caption p { font-size: 16px; line-height: 1.5; }
+.trailer-caption .button { min-height: 44px; background: #ff7f27; }
+.trailer-caption .button:hover { background: white; }
+
+/* watch: storyboard */
+.storyboard { padding-top: 76px; }
+.storyboard-hint { font-size: 14px; margin: -12px 0 16px; }
+.storyboard-strip { display: flex; gap: 12px; list-style: none; margin: 0; padding: 14px 12px 18px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; border: 3px solid #111; border-radius: 3px; background: #111; }
+.storyboard-strip:focus-visible { outline: 3px dashed #111; outline-offset: 5px; }
+.storyboard-strip li { flex: 0 0 132px; scroll-snap-align: start; }
+.storyboard-frame { display: block; width: 100%; padding: 0; border: 2px solid #fff9e7; border-radius: 2px; background: #fff9e7; color: #111; text-align: left; }
+button.storyboard-frame:hover { border-color: #ff7f27; background: #ff7f27; }
+button.storyboard-frame:focus-visible { outline: 3px dashed #fff9e7; outline-offset: 3px; }
+.storyboard-frame img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
+.storyboard-frame span { display: block; padding: 3px 6px; font-size: 12px; font-weight: 700; }
+
+/* watch: clips */
+.clips-section { padding-top: 76px; }
+.clips-intro { font-size: 16px; margin: -12px 0 26px; }
+.clip-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px 26px; list-style: none; margin: 0; padding: 0; }
+.clip-card { min-width: 0; }
+.clip-stage { border: 3px solid #111; border-radius: 4px 2px 6px 3px; background: white; aspect-ratio: 1; overflow: hidden; }
+.clip-card:nth-child(odd) .clip-stage { transform: rotate(-.8deg); }
+.clip-card:nth-child(even) .clip-stage { transform: rotate(.7deg); }
+.clip-play { position: relative; display: block; width: 100%; height: 100%; padding: 0; border: 0; background: white; }
+.clip-play img { width: 100%; height: 100%; object-fit: cover; }
+.clip-play .clip-placeholder { object-fit: contain; padding: 18%; }
+.clip-play-label { position: absolute; left: 12px; bottom: 12px; display: inline-flex; align-items: center; gap: 9px; border: 2px solid #111; border-radius: 3px 1px 5px 2px; background: #ff7f27; padding: 6px 14px 6px 12px; font-size: 15px; font-weight: 700; }
+.clip-play-label::before { content: ""; width: 0; height: 0; border-block: 7px solid transparent; border-left: 11px solid #111; }
+.clip-play:hover .clip-play-label { background: white; }
+.clip-play:focus-visible { outline-offset: -8px; }
+.clip-video { display: block; width: 100%; height: 100%; object-fit: contain; background: #111; }
+.clip-info { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-top: 14px; }
+.clip-info h3 { font-size: 20px; letter-spacing: -.5px; overflow-wrap: anywhere; min-width: 0; }
+.clip-length { flex: none; font-size: 13px; border: 2px solid #111; padding: 0 8px; background: white; transform: rotate(3deg); }
+.clip-download { display: inline-flex; align-items: center; min-height: 36px; font-size: 13px; text-underline-offset: 4px; }
+.clip-download:hover { background: #ff7f27; }
+
+/* watch: credits, rolled by hand */
+.watch-credits { margin-top: 80px; padding: 34px 0 10px; border-top: 3px solid #111; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 20px 50px; }
+.watch-credits h2 { font-size: clamp(32px, 3.4vw, 46px); letter-spacing: -1.5px; }
+.watch-credits dl { margin: 0; display: grid; gap: 12px; }
+.watch-credits dl > div { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 16px; border-bottom: 2px dashed #111; padding-bottom: 10px; }
+.watch-credits dt { font-weight: 700; }
+.watch-credits dd { margin: 0; }
+
+@media (max-width: 1000px) {
+  .sticker-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .gif-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .clip-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .trailer-player { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 24px; }
+  .sticker-howto { grid-template-columns: 1fr; gap: 16px; }
+  .howto-note { grid-column: 1; }
+}
+@media (max-width: 700px) {
+  .media-heading { margin-bottom: 20px; }
+  .media-heading h2 { font-size: 38px; letter-spacing: -1.4px; }
+  .media-heading > p { transform: none; font-size: 14px; }
+  .media-empty { padding: 20px; font-size: 15px; }
+  .media-outro { flex-wrap: wrap; margin-block: 20px 50px; }
+  .media-outro img { width: 110px; }
+  .media-outro p { font-size: 20px; flex-basis: 50%; }
+  .sticker-howto { margin-top: 36px; padding: 20px 18px; transform: none; }
+  .howto-steps li { font-size: 15px; gap: 10px; }
+  .howto-steps li::before { width: 30px; height: 30px; font-size: 14px; }
+  .sticker-packs-wrap { padding-top: 50px; }
+  .sticker-pack { padding-block: 34px 24px; }
+  .sticker-pack-head { grid-template-columns: auto minmax(0, 1fr); gap: 14px; }
+  .sticker-pack-icon { width: 64px; height: 64px; }
+  .sticker-pack-actions { grid-column: 1 / -1; align-items: flex-start; text-align: left; }
+  .sticker-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px 10px; }
+  .sticker-frame { border-width: 2px; }
+  .sticker-caption { font-size: 12px; margin-top: 7px; }
+  .gif-section { padding-top: 50px; }
+  .gif-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 12px; }
+  .gif-card h3 { font-size: 15px; }
+  .gif-actions a, .gif-actions button { padding: 4px 9px; font-size: 12px; }
+  .trailer-section { padding-top: 40px; }
+  .trailer-player { grid-template-columns: 1fr; gap: 18px; }
+  .trailer-screen { padding: 6px; transform: none; }
+  .trailer-caption { padding: 18px; transform: none; }
+  .storyboard, .clips-section { padding-top: 54px; }
+  .storyboard-strip li { flex-basis: 104px; }
+  .clip-grid { gap: 28px 12px; }
+  .clip-info { flex-direction: column; gap: 6px; margin-top: 10px; }
+  .clip-info h3 { font-size: 16px; }
+  .clip-play-label { left: 8px; bottom: 8px; padding: 4px 10px 4px 8px; font-size: 13px; }
+  .watch-credits { grid-template-columns: 1fr; margin-top: 56px; }
+  .watch-credits dl > div { grid-template-columns: 82px minmax(0, 1fr); gap: 10px; font-size: 15px; }
+}
+@media (max-width: 420px) {
+  .clip-grid { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .storyboard-strip { scroll-behavior: auto; }
+}
