@@ -289,7 +289,8 @@
   let lastBottom = '';
 
   function updatePostLink() {
-    const lines = [lastTop, lastBottom].map(text => text.replace(/\s+/g, ' ').trim()).filter(Boolean).join('\n');
+    const blocks = stickers.filter(sticker => sticker.words).map(sticker => sticker.text);
+    const lines = [lastTop, ...blocks, lastBottom].map(text => text.replace(/\s+/g, ' ').trim()).filter(Boolean).join('\n');
     post.href = `https://x.com/intent/post?text=${encodeURIComponent(lines ? `${lines}\n\n${SHARE_TAIL}` : SHARE_TAIL)}`;
   }
 
@@ -757,7 +758,7 @@
       width = Math.max(60, Math.min(sw, (sh * 1.4) / ratio));
     }
     wordCount += 1;
-    const block = { id: `words-${wordCount}`, kind: 'sticker', words: true, name: `words: ${text}`, image, x, y, width, scale: 1, box: null };
+    const block = { id: `words-${wordCount}`, kind: 'sticker', words: true, text, name: `words: ${text}`, image, x, y, width, scale: 1, box: null };
     stickers.push(block);
     selected = block;
     moreWords.value = '';
