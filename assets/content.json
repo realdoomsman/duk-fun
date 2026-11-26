@@ -1,6 +1,51 @@
 {
-  "updated": "2026-11-26T13:24:24Z",
+  "updated": "2026-11-26T14:16:02Z",
   "memes": [
+    {
+      "file": "086_stampede.png",
+      "src": "assets/memes4/086_stampede.png",
+      "thumb": "assets/memes4/thumbs/086_stampede.webp",
+      "title": "the bulls came out running. he has seen this one before. $duk",
+      "alt": "duk reacting to bulls back out running after the rebound. the bulls came out running. he has seen this one before. $duk",
+      "tag": "market",
+      "created": "2026-11-26T14:00:07Z"
+    },
+    {
+      "file": "085_one_colour.png",
+      "src": "assets/memes4/085_one_colour.png",
+      "thumb": "assets/memes4/thumbs/085_one_colour.webp",
+      "title": "nearly every coin on the board went green. he only comes in one colour.",
+      "alt": "duk reacting to the board turns green: nearly every coin up on the rebound. nearly every coin on the board went green. he only comes in one colour.",
+      "tag": "market",
+      "created": "2026-11-26T14:00:07Z"
+    },
+    {
+      "file": "084_still_free.png",
+      "src": "assets/memes4/084_still_free.png",
+      "thumb": "assets/memes4/thumbs/084_still_free.webp",
+      "title": "inflation came in hot again. some things are still free. $duk",
+      "alt": "duk reacting to inflation came in hot again; everything costs more. inflation came in hot again. some things are still free. $duk",
+      "tag": "market",
+      "created": "2026-11-26T14:00:07Z"
+    },
+    {
+      "file": "083_easy_mode.png",
+      "src": "assets/memes4/083_easy_mode.png",
+      "thumb": "assets/memes4/thumbs/083_easy_mode.webp",
+      "title": "everything in crypto keeps getting harder. he found the setting.",
+      "alt": "duk reacting to network difficulty adjusts again; ct says everything in crypto got harder this year. everything in crypto keeps getting harder. he found the setting.",
+      "tag": "market",
+      "created": "2026-11-26T14:00:07Z"
+    },
+    {
+      "file": "082_perpetual.png",
+      "src": "assets/memes4/082_perpetual.png",
+      "thumb": "assets/memes4/thumbs/082_perpetual.webp",
+      "title": "memecoin traders are all moving to perps. he has not moved. $duk",
+      "alt": "duk reacting to memecoin traders piling into perps as meme volume dries up. memecoin traders are all moving to perps. he has not moved. $duk",
+      "tag": "market",
+      "created": "2026-11-26T14:00:07Z"
+    },
     {
       "file": "081_down_stay.png",
       "src": "assets/memes4/081_down_stay.png",
@@ -690,6 +735,78 @@
   ],
   "gifs": [
     {
+      "title": "travel mode. $duk",
+      "alt": "DUK lies flat on a moving conveyor belt in THE DUK pose, staring at you as it carries him along: \"travel mode.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/048_travel_mode.mp4",
+      "gif": "assets/gifs2/048_travel_mode.gif",
+      "poster": "assets/gifs2/posters/048_travel_mode.webp",
+      "created": "2026-11-26T14:15:03Z"
+    },
+    {
+      "title": "music stopped.",
+      "alt": "Three chairs. DUK lies flat on the floor between them: \"music stopped.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/047_music_stopped.mp4",
+      "gif": "assets/gifs2/047_music_stopped.gif",
+      "poster": "assets/gifs2/posters/047_music_stopped.webp",
+      "created": "2026-11-26T14:15:03Z"
+    },
+    {
+      "title": "post your duk.",
+      "alt": "A polaroid of DUK in THE DUK pose wobbles on screen: \"post your duk.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/046_post_your_duk.mp4",
+      "gif": "assets/gifs2/046_post_your_duk.gif",
+      "poster": "assets/gifs2/posters/046_post_your_duk.webp",
+      "created": "2026-11-26T14:15:03Z"
+    },
+    {
+      "title": "ducked.",
+      "alt": "Split frame: left, DUK standing (\"before\"); right, DUK flat in THE DUK pose (\"after\"): \"ducked.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/045_ducked.mp4",
+      "gif": "assets/gifs2/045_ducked.gif",
+      "poster": "assets/gifs2/posters/045_ducked.webp",
+      "created": "2026-11-26T14:15:03Z"
+    },
+    {
+      "title": "round two. same strategy.",
+      "alt": "A ring card reads \"round 2\"; DUK is lying flat in THE DUK pose under it: \"same strategy.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/044_round_two.mp4",
+      "gif": "assets/gifs2/044_round_two.gif",
+      "poster": "assets/gifs2/posters/044_round_two.webp",
+      "created": "2026-11-26T13:45:02Z"
+    },
+    {
+      "title": "not now.",
+      "alt": "A ringing phone flies over DUK, who is flat on the floor staring at you: \"not now.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/043_not_now.mp4",
+      "gif": "assets/gifs2/043_not_now.gif",
+      "poster": "assets/gifs2/posters/043_not_now.webp",
+      "created": "2026-11-26T13:45:02Z"
+    },
+    {
+      "title": "undefeated. $duk",
+      "alt": "A red boxing glove swings at DUK and hits nothing: he is flat on the canvas. \"undefeated.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/042_undefeated.mp4",
+      "gif": "assets/gifs2/042_undefeated.gif",
+      "poster": "assets/gifs2/posters/042_undefeated.webp",
+      "created": "2026-11-26T13:45:02Z"
+    },
+    {
+      "title": "unduckable.",
+      "alt": "A robot vacuum rolls along the floor at DUK, who is already as low as he can go. He hops over it: \"unduckable.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/041_unduckable.mp4",
+      "gif": "assets/gifs2/041_unduckable.gif",
+      "poster": "assets/gifs2/posters/041_unduckable.webp",
+      "created": "2026-11-26T13:45:02Z"
+    },
+    {
       "title": "cascade. $duk",
       "alt": "A row of dominoes falls one into the next and the last one lands on DUK, who is already flat: \"cascade.\"",
       "tag": "reaction",
@@ -814,78 +931,6 @@
       "gif": "assets/gifs2/033_noted.gif",
       "poster": "assets/gifs2/posters/033_noted.webp",
       "created": "2026-11-26T12:45:07Z"
-    },
-    {
-      "title": "travel mode.",
-      "alt": "travel mode.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/048_travel_mode.mp4",
-      "gif": "assets/gifs2/048_travel_mode.gif",
-      "poster": "assets/gifs2/posters/048_travel_mode.webp",
-      "created": "2026-11-26T12:33:19Z"
-    },
-    {
-      "title": "music stopped.",
-      "alt": "music stopped.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/047_music_stopped.mp4",
-      "gif": "assets/gifs2/047_music_stopped.gif",
-      "poster": "assets/gifs2/posters/047_music_stopped.webp",
-      "created": "2026-11-26T12:33:19Z"
-    },
-    {
-      "title": "post your.",
-      "alt": "post your.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/046_post_your_duk.mp4",
-      "gif": "assets/gifs2/046_post_your_duk.gif",
-      "poster": "assets/gifs2/posters/046_post_your_duk.webp",
-      "created": "2026-11-26T12:33:19Z"
-    },
-    {
-      "title": "ducked.",
-      "alt": "ducked.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/045_ducked.mp4",
-      "gif": "assets/gifs2/045_ducked.gif",
-      "poster": "assets/gifs2/posters/045_ducked.webp",
-      "created": "2026-11-26T12:33:18Z"
-    },
-    {
-      "title": "unduckable.",
-      "alt": "unduckable.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/041_unduckable.mp4",
-      "gif": "assets/gifs2/041_unduckable.gif",
-      "poster": "assets/gifs2/posters/041_unduckable.webp",
-      "created": "2026-11-26T12:26:45Z"
-    },
-    {
-      "title": "round two.",
-      "alt": "round two.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/044_round_two.mp4",
-      "gif": "assets/gifs2/044_round_two.gif",
-      "poster": "assets/gifs2/posters/044_round_two.webp",
-      "created": "2026-11-26T12:25:51Z"
-    },
-    {
-      "title": "not now.",
-      "alt": "not now.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/043_not_now.mp4",
-      "gif": "assets/gifs2/043_not_now.gif",
-      "poster": "assets/gifs2/posters/043_not_now.webp",
-      "created": "2026-11-26T12:25:50Z"
-    },
-    {
-      "title": "undefeated.",
-      "alt": "undefeated.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/042_undefeated.mp4",
-      "gif": "assets/gifs2/042_undefeated.gif",
-      "poster": "assets/gifs2/posters/042_undefeated.webp",
-      "created": "2026-11-26T12:25:50Z"
     },
     {
       "title": "gn. duk. $duk",
@@ -1169,6 +1214,66 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/036_musical_chairs.mp4",
+      "poster": "assets/clips2/036_musical_chairs.webp",
+      "title": "musical chairs. he doesn't need a chair. $duk",
+      "alt": "Three chairs, music playing. DUK waddles around them in a circle. The music cuts. Everyone else would grab a chair. He hits the floor between them in THE DUK pose. \"he has never lost musical chairs.\"",
+      "created": "2026-11-26T14:15:03Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/035_post_your_duk.mp4",
+      "poster": "assets/clips2/035_post_your_duk.webp",
+      "title": "post your duk. everyone else already did. $duk",
+      "alt": "A 3x3 grid of photos fills in one by one, every one of them DUK in THE DUK pose. The middle photo is the only one still standing. Everyone else stares at him. He drops: grid complete. \"post your duk.\"",
+      "created": "2026-11-26T14:15:03Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/034_airport_xray.mp4",
+      "poster": "assets/clips2/034_airport_xray.webp",
+      "title": "travel day. he went through security flat. $duk",
+      "alt": "Airport security. DUK lies on the conveyor belt in THE DUK pose and rolls into the x-ray machine. On the scanner screen: his skeleton, also in THE DUK pose, staring. Beep beep beep. \"bag check: one duk. ducking.\" He rolls out the other side exactly the same.",
+      "created": "2026-11-26T14:15:03Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/033_boss_black_friday.mp4",
+      "poster": "assets/clips2/033_boss_black_friday.webp",
+      "title": "boss asked if he can come in for black friday. duk.",
+      "alt": "A phone rings and flies at DUK: \"boss: can you come in tomorrow?\" He hits the floor and it sails over. It comes back around: \"boss: hello?\" Over him again. He stays down: \"he is out of office. he is on the floor.\"",
+      "created": "2026-11-26T13:45:02Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/032_duk_vs_the_market.mp4",
+      "poster": "assets/clips2/032_duk_vs_the_market.webp",
+      "title": "duk vs the market. he has never thrown a punch. undefeated.",
+      "alt": "Wide shot of a boxing ring. A giant red glove labelled \"the market\" swings at DUK again and again over three rounds. Every punch: he is already on the canvas. Final bell. Ring card: \"winner: still lying there.\" \"undefeated.\"",
+      "created": "2026-11-26T13:45:02Z",
+      "duration": 15.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/031_unduckable_roomba.mp4",
+      "poster": "assets/clips2/031_unduckable_roomba.webp",
+      "title": "the one thing he can't duk. $duk",
+      "alt": "DUK is lying flat in THE DUK pose, staring, totally safe. Then a robot vacuum comes buzzing along the floor straight at him. Ground level. Nowhere lower to go. Beep beep. He pops up, it rolls under where he was, he lands back down right behind it: \"unduckable.\"",
+      "created": "2026-11-26T13:45:02Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/030_family_photo.mp4",
       "poster": "assets/clips2/030_family_photo.webp",
       "title": "thanksgiving family photo. he ducked the flash.",
@@ -1197,16 +1302,6 @@
       "duration": 11.0,
       "width": 1080,
       "height": 1080
-    },
-    {
-      "src": "assets/clips2/032_duk_vs_the_market.mp4",
-      "poster": "assets/clips2/032_duk_vs_the_market.webp",
-      "title": "vs the market.",
-      "alt": "vs the market.",
-      "created": "2026-11-26T12:54:29Z",
-      "duration": 15.0,
-      "width": 1280,
-      "height": 720
     },
     {
       "src": "assets/clips2/042_plenty_of_floor.mp4",
@@ -1294,56 +1389,6 @@
       "title": "inflation came in hotter than expected. so did the oven. $duk",
       "alt": "An oven labelled \"inflation\" beeps on thanksgiving. DUK, standing next to it, is already going down as the door drops open and a blast of heat rolls across the room right over him. The door slams shut. He stays flat: \"he'll eat later.\"",
       "created": "2026-11-26T12:45:07Z",
-      "duration": 12.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/034_airport_xray.mp4",
-      "poster": "assets/clips2/034_airport_xray.webp",
-      "title": "airport xray.",
-      "alt": "airport xray.",
-      "created": "2026-11-26T12:33:42Z",
-      "duration": 12.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/036_musical_chairs.mp4",
-      "poster": "assets/clips2/036_musical_chairs.webp",
-      "title": "musical chairs.",
-      "alt": "musical chairs.",
-      "created": "2026-11-26T12:33:18Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/035_post_your_duk.mp4",
-      "poster": "assets/clips2/035_post_your_duk.webp",
-      "title": "post your.",
-      "alt": "post your.",
-      "created": "2026-11-26T12:33:16Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/033_boss_black_friday.mp4",
-      "poster": "assets/clips2/033_boss_black_friday.webp",
-      "title": "boss black friday.",
-      "alt": "boss black friday.",
-      "created": "2026-11-26T12:26:58Z",
-      "duration": 12.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/031_unduckable_roomba.mp4",
-      "poster": "assets/clips2/031_unduckable_roomba.webp",
-      "title": "unduckable roomba.",
-      "alt": "unduckable roomba.",
-      "created": "2026-11-26T12:26:33Z",
       "duration": 12.0,
       "width": 1080,
       "height": 1080
