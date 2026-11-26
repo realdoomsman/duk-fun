@@ -20,10 +20,10 @@
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="style.css?v=5a29f187">
-  <link rel="stylesheet" href="pool.css?v=40e660a2">
+  <link rel="stylesheet" href="pool.css?v=16a505a0">
   <script src="assets/config.js?v=686d2449" defer></script>
   <script src="app.js?v=e6a33344" defer></script>
-  <script src="pool.js?v=6ef0203f" defer></script>
+  <script src="pool.js?v=14bb6f1a" defer></script>
 </head>
 <body class="pool-page">
   <a class="skip-link" href="#main">skip to the page</a>
@@ -131,6 +131,20 @@
         <button type="button" class="button" id="pp-refresh">check again</button>
       </div>
       <p class="pool-note">a deeper pool can mean less slippage. not a price floor.<br><span>totals are what the keeper added. they aren't the current pool balance. other people's lp comes and goes. the waterline is just an illustration on a squashed scale.</span></p>
+
+      <div class="pool-chart" id="pool-chart" hidden>
+        <div class="pool-chart-head">
+          <h3 id="pp-chart-title">every add, over time.</h3>
+          <div class="pool-chart-keys" role="group" aria-label="what the chart counts">
+            <button type="button" data-chart-key="sol" aria-pressed="true">sol</button>
+            <button type="button" data-chart-key="duk" aria-pressed="false">duk</button>
+            <button type="button" data-chart-key="lp" aria-pressed="false">lp burned</button>
+          </div>
+        </div>
+        <p class="pool-receipts-count">the line is the running total the keeper put in, one step per add. the bars under it are each add on its own. point at it, or tab to it and use the arrow keys.</p>
+        <div class="pool-chart-frame"><svg id="pp-chart" class="pool-chart-svg" role="img" tabindex="0" aria-describedby="pp-chart-readout" aria-label="the keeper's adds over time."></svg></div>
+        <p class="pool-chart-readout" id="pp-chart-readout" aria-live="polite"></p>
+      </div>
 
       <div class="pool-receipts" id="pool-receipts">
         <h3 id="pp-receipts-title">receipts.</h3>
