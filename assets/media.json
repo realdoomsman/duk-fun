@@ -1738,6 +1738,42 @@
         "thumb": "assets/kit/formats/thumbs/007_horizontal.webp"
       },
       {
+        "file": "formats/012_seed_phrase.png",
+        "src": "assets/kit/formats/012_seed_phrase.png",
+        "title": "the phone",
+        "alt": "A big phone flies in with an empty title bar and an empty speech bubble on the screen. DUK lies flat below it.",
+        "tag": "template",
+        "spots": [
+          [
+            0.36,
+            0.093,
+            0.273,
+            0.04
+          ],
+          [
+            0.333,
+            0.207,
+            0.333,
+            0.153
+          ],
+          [
+            0.78,
+            0.58,
+            0.1,
+            0.053
+          ],
+          [
+            0.18,
+            0.867,
+            0.64,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/012_seed_phrase.webp"
+      },
+      {
         "file": "formats/018_own_research.png",
         "src": "assets/kit/formats/018_own_research.png",
         "title": "the research board",
@@ -1850,6 +1886,78 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/022_puts_stacked.webp"
+      },
+      {
+        "file": "formats/026_min_effort.png",
+        "src": "assets/kit/formats/026_min_effort.png",
+        "title": "two signs, three people",
+        "alt": "Two empty signs above three shocked stick figures on the left. DUK lies flat on the right.",
+        "tag": "template",
+        "spots": [
+          [
+            0.1,
+            0.073,
+            0.307,
+            0.053
+          ],
+          [
+            0.547,
+            0.073,
+            0.387,
+            0.053
+          ],
+          [
+            0.287,
+            0.733,
+            0.427,
+            0.167
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/026_min_effort.webp"
+      },
+      {
+        "file": "formats/029_macro_expert.png",
+        "src": "assets/kit/formats/029_macro_expert.png",
+        "title": "three experts",
+        "alt": "Three stick figures, one in a red cap, point at three empty chart boards with falling red lines. DUK lies flat in front.",
+        "tag": "template",
+        "spots": [
+          [
+            0.3,
+            0.027,
+            0.4,
+            0.06
+          ],
+          [
+            0.107,
+            0.147,
+            0.12,
+            0.033
+          ],
+          [
+            0.42,
+            0.147,
+            0.16,
+            0.033
+          ],
+          [
+            0.733,
+            0.147,
+            0.2,
+            0.033
+          ],
+          [
+            0.213,
+            0.827,
+            0.573,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/029_macro_expert.webp"
       },
       {
         "file": "formats/034_worst_month.png",
@@ -1990,6 +2098,78 @@
         "thumb": "assets/kit/formats/thumbs/044_friday_pileup.webp"
       },
       {
+        "file": "formats/046_chart_guide.png",
+        "src": "assets/kit/formats/046_chart_guide.png",
+        "title": "four charts",
+        "alt": "Four panels, each an empty whiteboard chart (up, down, flat, blank) with DUK lying flat under it.",
+        "tag": "template",
+        "spots": [
+          [
+            0.047,
+            0.247,
+            0.167,
+            0.047
+          ],
+          [
+            0.36,
+            0.247,
+            0.073,
+            0.04
+          ],
+          [
+            0.533,
+            0.247,
+            0.207,
+            0.04
+          ],
+          [
+            0.84,
+            0.247,
+            0.08,
+            0.04
+          ],
+          [
+            0.713,
+            0.533,
+            0.053,
+            0.08
+          ],
+          [
+            0.047,
+            0.68,
+            0.193,
+            0.04
+          ],
+          [
+            0.36,
+            0.68,
+            0.073,
+            0.04
+          ],
+          [
+            0.533,
+            0.68,
+            0.16,
+            0.04
+          ],
+          [
+            0.84,
+            0.68,
+            0.08,
+            0.04
+          ],
+          [
+            0.213,
+            0.893,
+            0.573,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/046_chart_guide.webp"
+      },
+      {
         "file": "formats/047_not_dead.png",
         "src": "assets/kit/formats/047_not_dead.png",
         "title": "here lies",
@@ -2018,6 +2198,42 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/047_not_dead.webp"
+      },
+      {
+        "file": "formats/052_deleted_call.png",
+        "src": "assets/kit/formats/052_deleted_call.png",
+        "title": "four panels, one call",
+        "alt": "Four panels: an empty note, a falling red line, an empty grey card and an empty bubble, with DUK lying flat in each.",
+        "tag": "template",
+        "spots": [
+          [
+            0.073,
+            0.08,
+            0.247,
+            0.087
+          ],
+          [
+            0.62,
+            0.527,
+            0.24,
+            0.073
+          ],
+          [
+            0.113,
+            0.553,
+            0.28,
+            0.033
+          ],
+          [
+            0.273,
+            0.893,
+            0.453,
+            0.06
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/052_deleted_call.webp"
       },
       {
         "file": "formats/057_bottom_checklist.png",
@@ -2138,6 +2354,30 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/064_matching.webp"
+      },
+      {
+        "file": "formats/065_parade_balloon.png",
+        "src": "assets/kit/formats/065_parade_balloon.png",
+        "title": "the parade balloon",
+        "alt": "Stick figures on a grey street hold the ropes of a giant red balloon. DUK lies flat between them.",
+        "tag": "template",
+        "spots": [
+          [
+            0.173,
+            0.027,
+            0.653,
+            0.08
+          ],
+          [
+            0.28,
+            0.867,
+            0.44,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/065_parade_balloon.webp"
       },
       {
         "file": "formats/071_long_weekend.png",
@@ -2348,6 +2588,48 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/075_wrong_animal.webp"
+      },
+      {
+        "file": "formats/076_layer_zero.png",
+        "src": "assets/kit/formats/076_layer_zero.png",
+        "title": "the layers",
+        "alt": "Two empty stacked layers, light blue on pale yellow, above DUK lying on brown ground with empty labels under the floor.",
+        "tag": "template",
+        "spots": [
+          [
+            0.34,
+            0.027,
+            0.313,
+            0.06
+          ],
+          [
+            0.393,
+            0.16,
+            0.213,
+            0.073
+          ],
+          [
+            0.393,
+            0.347,
+            0.213,
+            0.073
+          ],
+          [
+            0.38,
+            0.667,
+            0.24,
+            0.08
+          ],
+          [
+            0.313,
+            0.767,
+            0.373,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/076_layer_zero.webp"
       }
     ],
     "pfp": [

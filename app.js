@@ -251,7 +251,10 @@
         video.focus();
         video.play().catch(() => { /* controls are right there. */ });
       });
-      return make('li', { class: `fresh-tile is-clip${big ? ' is-big' : ''}` }, play, caption('clip', title));
+      // The caption opens the clip on watch.html (media.js gives every clip card the id clip-<file stem>).
+      const stem = clip.src.split('/').pop().replace(/\.[^.]+$/, '').replace(/[^\w-]+/g, '-');
+      const link = make('a', { href: `watch.html#clip-${stem}`, text: title });
+      return make('li', { class: `fresh-tile is-clip${big ? ' is-big' : ''}` }, play, caption('clip', link));
     };
 
     const ago = (stamp) => {
