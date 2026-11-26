@@ -3,6 +3,9 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **link previews**: every page now carries og:site_name, og:image width/height/alt, twitter:image:alt and twitter:site
+  (@justdukfun); stamp-assets.py also stamps the og/twitter image urls with ?v=<hash> so x, discord and telegram fetch a
+  redrawn card instead of the cached one. Share pages (s/) get og:site_name + twitter:site on the next sync run.
 - **press kit** (press.html, press.css, press.js) for kols, hosts and writers: the story in three lengths with copy buttons
   (one line / one post / one paragraph), the facts (ticker, chain, ca with copy, the pool in the approved wording, the greeting,
   duk hour, links), the main art with downloads, the look (colors, style rules) and "please don't" (no prices, no floor talk,

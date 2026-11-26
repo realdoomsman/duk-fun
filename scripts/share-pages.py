@@ -153,11 +153,13 @@ def page(name: str, title: str, alt: str, target: str, version: str) -> str:
   <meta property="og:image:width" content="{W}">
   <meta property="og:image:height" content="{H}">
   <meta property="og:image:alt" content="{a}">
+  <meta property="og:site_name" content="duk.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{t}">
   <meta name="twitter:description" content="just duk. $DUK">
   <meta name="twitter:image" content="{image}">
   <meta name="twitter:image:alt" content="{a}">
+  <meta name="twitter:site" content="@justdukfun">
   <meta http-equiv="refresh" content="0; url=../{escape(target)}">
   <script>location.replace({json.dumps('../' + target)});</script>
 </head>
