@@ -35,8 +35,9 @@ FOLDERS = {
     'videos/clips2': ASSETS / 'clips2',
 }
 SHARE = SITE / 's'  # scripts/share-pages.py: a page + card per meme and clip, rebuilt after every sync
+DAILY = ASSETS / 'daily.json'  # scripts/daily.py: today's duk, written down once a day
 PUBLISHED = ([MANIFEST.relative_to(SITE).as_posix()] + [path.relative_to(SITE).as_posix() for path in FOLDERS.values()]
-             + [SHARE.relative_to(SITE).as_posix()])
+             + [SHARE.relative_to(SITE).as_posix(), DAILY.relative_to(SITE).as_posix()])
 # Content rule: no prices, dollar amounts, percentages, leverage multipliers, other coins. Listed files and items
 # whose caption/topic/alt/title trip OFF_RULE (or that the producer marked retracted) are never published.
 BLOCKLIST = PROJECT / 'work' / 'state' / 'content-blocklist.txt'
@@ -360,6 +361,7 @@ def main() -> None:
         raise SystemExit(f'broken entries: {missing}')
     summary = ', '.join(f'{len(items)} {kind}' for kind, items in content.items())
     subprocess.run([sys.executable, str(SITE / 'scripts' / 'share-pages.py')], check=True)
+    subprocess.run([sys.executable, str(SITE / 'scripts' / 'daily.py')], check=True)
     print(f"content.json: {summary}{' (updated)' if changed else ' (no change)'}"
           + (f"; pruned {len(removed)} files" if removed else '')
           + (f"; blocked {len(blocked)}: {' '.join(blocked)}" if blocked else ''))

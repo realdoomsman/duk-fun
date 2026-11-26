@@ -1,0 +1,32 @@
+/* duk of the day: today's pick big next to its words, then every day so far */
+.daily-today { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 520px); gap: 50px; align-items: center; padding-block: 60px 70px; border-bottom: 3px solid #111; }
+.daily-today h1 { font-size: clamp(50px, 7vw, 100px); letter-spacing: -4px; line-height: .98; }
+.daily-date { margin-top: 22px; font-size: 18px; }
+.daily-caption { margin-top: 8px; font-size: clamp(24px, 2.6vw, 34px); font-weight: bold; letter-spacing: -1px; line-height: 1.2; max-width: 560px; }
+.daily-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.daily-actions[hidden] { display: none; }
+.daily-next { margin-top: 22px; font-size: 15px; line-height: 1.6; }
+.daily-art { display: block; border: 4px solid #111; border-radius: 3px 8px 2px 6px; background: white; transform: rotate(1.5deg); box-shadow: 8px 8px 0 #111; }
+.daily-art img { display: block; width: 100%; height: auto; }
+.daily-art:hover, .daily-art:focus-visible { transform: rotate(-.5deg); }
+.daily-days { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 26px 20px; }
+.daily-days:empty { display: none; }
+.daily-day { min-width: 0; scroll-margin: 40px; }
+.daily-day.is-linked .daily-day-art { outline: 4px dashed #ff7f27; outline-offset: 5px; }
+.daily-day-art { display: block; border: 3px solid #111; border-radius: 2px 6px 3px 5px; background: white; }
+.daily-day:nth-child(odd) .daily-day-art { transform: rotate(-1deg); }
+.daily-day-art img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
+.daily-day-date { margin-top: 10px; font-size: 13px; }
+.daily-day-title { margin-top: 2px; font-size: 15px; font-weight: bold; line-height: 1.3; overflow-wrap: anywhere; }
+.daily-day-post { display: inline-block; margin-top: 6px; font-size: 13px; text-underline-offset: 4px; }
+.daily-empty { border: 2px dashed #111; border-radius: 3px 8px 2px 6px; padding: 24px 26px; font-size: 18px; }
+
+@media (max-width: 760px) {
+  .daily-today { grid-template-columns: 1fr; gap: 30px; padding-block: 38px 45px; }
+  .daily-today h1 { font-size: 52px; letter-spacing: -2.5px; }
+  .daily-art { box-shadow: 5px 5px 0 #111; }
+  .daily-days { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .daily-art, .daily-art:hover, .daily-day:nth-child(odd) .daily-day-art { transform: none; }
+}

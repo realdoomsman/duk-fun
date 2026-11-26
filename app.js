@@ -40,6 +40,34 @@
     return media;
   };
 
+  // Duk of the day (home clock, daily.html): each day's pick as written down in assets/daily.json by scripts/daily.py
+  // (frozen once recorded). A day the sync hasn't recorded yet gets the pick daily.py will make: the curated archive
+  // (media.json memes, no 'created') minus content-rule breakers, sorted by src, pool[(utc day * 7919) % pool length].
+  // Resolves { days (newest first, today included), today }.
+  const OFF_RULE = /bitcoin|\bbtc\b|\beth\b|\$\d|\d+ ?%|\d+k\b|\d+x\b/i; // same as sync-content.py OFF_RULE
+  let daily = null;
+  window.dukDaily = () => {
+    daily = daily || Promise.all([window.dukMedia(), getJSON('assets/daily.json').catch(() => null)]).then(([index, record]) => {
+      const days = list(record && record.days).filter((day) => day && day.date && day.src);
+      const now = Date.now();
+      const date = new Date(now).toISOString().slice(0, 10);
+      let today = days.find((day) => day.date === date) || null;
+      if (!today) {
+        const pool = list(index.memes)
+          .filter((meme) => meme && meme.src && !meme.created && !OFF_RULE.test(`${meme.title || ''} ${meme.alt || ''}`))
+          .sort((a, b) => (a.src < b.src ? -1 : a.src > b.src ? 1 : 0));
+        if (pool.length) {
+          const pick = pool[(Math.floor(now / 86400000) * 7919) % pool.length];
+          today = { date, src: pick.src, thumb: pick.thumb || pick.src, title: pick.title || 'just duk.', alt: pick.alt || '' };
+          days.push(today);
+        }
+      }
+      days.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+      return { days, today };
+    });
+    return daily;
+  };
+
   const $ = (id) => document.getElementById(id);
   const externalURL = (value) => {
     if (!value) return null;
@@ -188,13 +216,10 @@
     if (clocks.length) {
       tick();
       window.setInterval(tick, 1000);
-      // Today's duk: one meme a day, the same for everyone, picked from the curated archive (media.json, not the
-      // fresh drops, so the pick holds all day) by utc date. "post duk. on x" links its share page during duk hour.
-      window.dukMedia().then((media) => {
-        const memes = (media.memes || []).filter((meme) => meme && meme.src && !meme.created)
-          .sort((a, b) => (a.src < b.src ? -1 : a.src > b.src ? 1 : 0));
-        if (!memes.length) return;
-        const pick = memes[(Math.floor(Date.now() / 86400000) * 7919) % memes.length];
+      // Today's duk (window.dukDaily): one meme a day, the same for everyone; the clock links daily.html.
+      // "post duk. on x" links its share page during duk hour.
+      window.dukDaily().then(({ today: pick }) => {
+        if (!pick) return;
         postHref = postIntent(`duk.\n${window.dukSharePage(pick.src)}`);
         document.querySelectorAll('[data-duk-post]').forEach((link) => { link.href = postHref; });
         clocks.forEach((clock) => {
@@ -202,7 +227,7 @@
           if (!today) return;
           const image = today.querySelector('img');
           Object.assign(image, { src: pick.thumb || pick.src, width: 480, height: 480, alt: '' });
-          today.href = `memes.html#${pick.src.replace(/^assets\//, '')}`;
+          today.href = 'daily.html';
           today.setAttribute('aria-label', `today's duk: ${pick.title || 'just duk.'}`);
           today.classList.add('is-picked');
         });

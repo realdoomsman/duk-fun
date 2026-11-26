@@ -3,6 +3,11 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **duk of the day** (daily.html, daily.js, daily.css): today's pick big (post it / remix it / download, countdown to the next one),
+  then every day so far (daily.html#day-YYYY-MM-DD). `scripts/daily.py` writes each utc day's pick into assets/daily.json once
+  (sync-content.py runs it every pass and publishes daily.json), so past days never change. Pick = curated media.json memes minus
+  content-rule breakers, sorted by src, [(utc day * 7919) % n]; window.dukDaily() in app.js reads daily.json and makes the same pick
+  for a day not recorded yet. The home clock's "today's duk" uses it and links daily.html. Footer link + home directory card (12 now).
 - **wall of fame** (fame.html, fame.js, fame.css): holders' pieces from assets/fame.json, credited (@handle, their post, "post it"
   with a share card s/fame-<id>.html that lands on fame.html#fame-<id>). Add one by hand:
   `python scripts/add-fame.py <png|jpg|webp|gif|mp4> --by <handle> --post <x status url> --caption "..." [--alt "..."] --push`

@@ -39,6 +39,10 @@ PAGES = {
     'fame': ('the wall of fame.', 'stuff the cult made.', [
         ('memes/pfp.png', (690, 60, 250, 250), -6, True),
         ('stand.png', (900, 110, 270, 470), 0, False)]),
+    'daily': ('duk of the day.', 'one a day. same one for everyone.', [
+        ('memes/05_monday.png', (700, 50, 230, 230), -6, True),
+        ('memes/08_capitulation.png', (920, 150, 240, 240), 4, True),
+        ('memes/21_bedtime.png', (730, 320, 240, 240), -2, True)]),
 }
 
 
