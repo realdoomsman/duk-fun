@@ -1,9 +1,10 @@
 """Share pages: python site/scripts/share-pages.py -> site/s/<slug>.html + site/s/img/<slug>.jpg
 
-One tiny page per meme (archive) and clip (watch) with its own 1200x630 card, so a link posted on x shows that
-meme or clip instead of the generic page card. People who open the link land on memes.html#<file> or
-watch.html#clip-<file>. The slug is the asset path under assets/ without its extension, '/' and anything outside
-[A-Za-z0-9_-] turned into '-' (archive.js and media.js build the same slug for their post links).
+One tiny page per meme (archive), clip (watch) and reaction gif (stickers) with its own 1200x630 card, so a link
+posted on x shows that meme, clip or gif instead of the generic page card. People who open the link land on
+memes.html#<folder/file>, watch.html#clip-<file> or stickers.html#gif-<file>. The slug is the asset path under
+assets/ without its extension, '/' and anything outside [A-Za-z0-9_-] turned into '-' (archive.js and media.js
+build the same slug for their post links).
 
 Reads assets/media.json, assets/content.json and the memes in assets/config.js; run after copy-assets.py and
 sync-content.py (both call it). Cards are only redrawn when the art or caption changes; pages and cards for items
@@ -124,7 +125,7 @@ def page(name: str, title: str, alt: str, target: str) -> str:
 
 
 def items() -> list:
-    """(slug, caption, alt, art path, video, target) for every meme and clip the site shows."""
+    """(slug, caption, alt, art path, moving, target) for every meme, clip and reaction gif the site shows."""
     media = json.loads((ASSETS / 'media.json').read_text(encoding='utf-8'))
     content_file = ASSETS / 'content.json'
     fresh = json.loads(content_file.read_text(encoding='utf-8')) if content_file.is_file() else {}
@@ -134,19 +135,22 @@ def items() -> list:
         r"src:\s*'([^']+)',\s*title:\s*'([^']*)',\s*alt:\s*'([^']*)'", block.group(1) if block else '')]
     found, seen = [], set()
 
-    def add(entry: dict, art: str, video: bool, target: str) -> None:
-        src = entry.get('src')
+    def add(src: str, entry: dict, art: str, moving: bool, target: str) -> None:
         if not src or src in seen or not art or not (SITE / art).is_file():
             return
         seen.add(src)
         title = str(entry.get('title') or 'just duk.').strip()
-        found.append((slug(src), title, str(entry.get('alt') or title).strip(), SITE / art, video, target))
+        found.append((slug(src), title, str(entry.get('alt') or title).strip(), SITE / art, moving, target))
 
     for entry in config_memes + list(fresh.get('memes', [])) + list(media.get('memes', [])):
-        add(entry, entry.get('src'), False, f"memes.html#{re.sub(r'^assets/', '', entry.get('src') or '')}")
-    clips = list(fresh.get('clips', [])) + list((media.get('videos') or {}).get('clips', []))
-    for entry in clips:
-        add(entry, entry.get('poster'), True, f"watch.html#{stem_id('clip', entry.get('src') or '')}")
+        src = entry.get('src') or ''
+        add(src, entry, src, False, f"memes.html#{re.sub(r'^assets/', '', src)}")
+    for entry in list(fresh.get('clips', [])) + list((media.get('videos') or {}).get('clips', [])):
+        src = entry.get('src') or ''
+        add(src, entry, entry.get('poster'), True, f"watch.html#{stem_id('clip', src)}")
+    for entry in list(fresh.get('gifs', [])) + list(media.get('gifs', [])):
+        src = entry.get('gif') or entry.get('mp4') or ''
+        add(src, entry, entry.get('poster') or entry.get('gif'), True, f"stickers.html#{stem_id('gif', src)}")
     return found
 
 
