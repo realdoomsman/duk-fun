@@ -1,0 +1,307 @@
+/* the whole art direction: blue, a black pen, and an orange bill. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 28px; }
+body {
+  margin: 0; background: #00a2e8; color: #111;
+  font: 17px/1.5 "Comic Sans MS", "Comic Sans", Arial, sans-serif;
+}
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+button, .button { cursor: pointer; }
+button { color: #111; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px dashed #111; outline-offset: 5px; }
+img { display: block; max-width: 100%; height: auto; }
+h1, h2, h3, p, figure { margin: 0; }
+h1, h2, h3 { font-weight: 700; line-height: 1.12; }
+[hidden] { display: none !important; }
+.page-width { width: min(1240px, calc(100% - 96px)); margin-inline: auto; }
+.eyebrow { font-size: 14px; letter-spacing: .5px; margin-bottom: 18px; }
+.section-space { padding-block: 95px; }
+.section-heading h2, .dictionary h2 { font-size: clamp(42px, 4.8vw, 66px); letter-spacing: -2.5px; }
+.inline-heading { display: flex; justify-content: space-between; align-items: end; margin-bottom: 45px; }
+.inline-heading > p { transform: rotate(-3deg); font-size: 16px; }
+
+/* a very small navigation. the duck does the talking. */
+.site-header { display: flex; align-items: center; justify-content: space-between; min-height: 100px; border-bottom: 3px solid #111; }
+.wordmark { font-size: 43px; font-weight: 700; letter-spacing: -4px; text-decoration: none; transform: rotate(-5deg); }
+.site-header nav { display: flex; gap: 36px; font-size: 16px; }
+.site-header nav a { text-decoration: none; }
+.site-header nav a:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 5px; }
+.ticker { font-weight: bold; border: 2px solid #111; padding: 3px 14px; transform: rotate(4deg); background: #ff7f27; }
+
+/* all threats pass overhead. there is deliberately nothing to play. */
+.hero { display: grid; grid-template-columns: 44% 56%; min-height: 660px; align-items: center; padding-block: 38px 54px; }
+.hero-copy { position: relative; z-index: 1; }
+.hero-logo { width: 385px; height: 160px; object-fit: contain; object-position: left center; margin: 0 0 15px -12px; }
+.hero h1 { font-size: clamp(23px, 2.3vw, 32px); font-weight: 400; line-height: 1.3; letter-spacing: -1.1px; }
+.hero h1 strong { font-weight: 700; font-size: 1.35em; }
+.ca-box { display: flex; align-items: center; gap: 10px; border: 3px solid #111; border-radius: 2px 7px 3px 5px; background: white; width: fit-content; max-width: 100%; padding: 11px 15px; margin-top: 27px; font-size: 16px; min-height: 51px; transform: rotate(-1deg); }
+#ca-field { min-width: 0; flex: 1; }
+#ca { width: 100%; min-width: 0; border: 0; background: transparent; font-size: 13px; outline-offset: 1px; }
+#copy-ca { border: 0; border-left: 2px solid #111; background: transparent; padding: 0 0 0 12px; font-size: 14px; flex: none; }
+.ca-box:has(#ca-field:not([hidden])) { width: 100%; }
+.copy-status { font-size: 13px; min-height: 20px; margin: 4px 0; }
+.social-links { display: flex; flex-wrap: wrap; gap: 10px; }
+.social-links:empty { display: none; }
+.social-links a, .button { display: inline-block; border: 2px solid #111; padding: 8px 17px; background: white; text-decoration: none; font-weight: bold; font-size: 15px; border-radius: 3px 1px 5px 2px; }
+.social-links a:hover, .button:hover { background: #ff7f27; }
+.hero .social-links { margin-bottom: 22px; }
+.text-link { font-size: 15px; text-underline-offset: 5px; }
+.text-link span { font-size: 24px; display: inline-block; margin-left: 9px; }
+.hero-scene { position: relative; height: 520px; align-self: end; }
+.hero-duck { position: absolute; width: 108%; max-width: none; left: -4%; bottom: 28px; z-index: 1; }
+.floor-line { position: absolute; bottom: 102px; width: 95%; left: 2%; height: 3px; background: #111; border-radius: 45%; transform: rotate(-.8deg); }
+.scene-caption { position: absolute; bottom: 55px; left: 39%; font-size: 14px; transform: rotate(-3deg); }
+.flying-object { position: absolute; object-fit: contain; animation: float-past 9s ease-in-out infinite alternate; }
+.flying-candles { width: 190px; height: 150px; top: 8px; left: 3%; transform: rotate(-13deg); }
+.flying-rent { width: 150px; height: 150px; top: 28px; left: 39%; animation-delay: -4s; transform: rotate(12deg); }
+.flying-ex { width: 120px; height: 150px; top: 0; right: 1%; animation-delay: -7s; transform: rotate(-10deg); }
+.scene-note { position: absolute; left: 5%; top: 174px; font-size: 17px; line-height: 1.15; transform: rotate(-8deg); }
+@keyframes float-past { from { translate: -14px 0; rotate: -4deg; } to { translate: 14px 12px; rotate: 5deg; } }
+.mantra-strip { border-block: 3px solid #111; background: #ff7f27; width: 100%; padding: 15px 24px; overflow: hidden; }
+.mantra-strip > div { display: flex; justify-content: center; align-items: center; gap: 22px; white-space: nowrap; font-size: 20px; }
+.mantra-strip span { margin-inline: 6px; }
+
+/* the doctrine */
+.doctrine { padding-bottom: 75px; }
+.doctrine-content { display: grid; grid-template-columns: 1.5fr 1fr; align-items: center; margin-top: 20px; }
+.commandments { list-style: none; counter-reset: commandment; padding: 0; margin: 18px 0; font-size: clamp(21px, 2.4vw, 33px); line-height: 1.6; letter-spacing: -1px; }
+.commandments li { counter-increment: commandment; display: flex; gap: 18px; }
+.commandments li::before { content: counter(commandment) "."; font-weight: 700; min-width: 30px; transform: rotate(-6deg); }
+.commandments li:nth-child(4) { font-weight: 700; text-decoration: underline; text-underline-offset: 6px; }
+.doctrine-duck { position: relative; margin-top: -145px; text-align: center; }
+.doctrine-duck img { height: 410px; width: auto; margin-inline: auto; transform: rotate(3deg); }
+.doctrine-duck figcaption { font-size: 14px; transform: rotate(-3deg); margin-top: 14px; }
+.doctrine-footnote { margin-top: 34px; font-size: 17px; border-top: 2px solid #111; padding-top: 25px; }
+
+/* airline safety card, drawn by somebody who should not operate an airline */
+.how-section { padding-top: 30px; }
+.safety-card { background: #fff9e7; border: 3px solid #111; border-radius: 2px 8px 5px 3px; transform: rotate(.45deg); }
+.safety-heading { display: flex; justify-content: space-between; align-items: center; padding: 30px 34px; border-bottom: 3px solid #111; }
+.safety-heading h2 { font-size: 50px; letter-spacing: -2px; }
+.safety-heading .eyebrow { margin-bottom: 10px; }
+.safety-heading > p { font-size: 15px; transform: rotate(-3deg); }
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); }
+.step { padding: 22px; position: relative; text-align: center; }
+.step + .step { border-left: 2px solid #111; }
+.step-number { position: absolute; top: 15px; left: 17px; border: 2px solid #111; font-size: 27px; width: 43px; height: 43px; line-height: 37px; border-radius: 48% 43% 50% 40%; transform: rotate(-8deg); }
+.step-art { height: 265px; position: relative; display: flex; align-items: end; justify-content: center; margin-bottom: 15px; }
+.step-stand { height: 235px; width: auto; }
+.step-duck { width: 100%; height: auto; margin-bottom: 2px; }
+.step-threat { position: absolute; right: -10px; top: 14px; width: 105px; height: 100px; object-fit: contain; transform: rotate(-12deg); }
+.step:first-child .step-stand { height: 205px; margin-right: 40px; }
+.step h3 { font-size: 23px; letter-spacing: -1px; }
+.step > p { margin-top: 9px; font-size: 15px; }
+.safety-bottom { font-size: 14px; padding: 13px 24px; border-top: 2px solid #111; text-align: center; }
+
+/* things that went over his head */
+.ducked-section { padding-top: 20px; }
+.problems-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 2px solid #111; border-left: 2px solid #111; }
+.problems-grid > figure, .next-problem { padding: 25px 20px 27px; border-right: 2px solid #111; border-bottom: 2px solid #111; }
+.problems-grid img { height: 160px; width: 100%; object-fit: contain; margin-bottom: 20px; }
+.problems-grid h3 { font-size: 23px; letter-spacing: -.7px; }
+.problems-grid figcaption p { font-size: 14px; margin-top: 10px; line-height: 1.5; max-width: 220px; }
+.next-problem { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.next-problem > p { font-size: 30px; line-height: 1.1; transform: rotate(-4deg); font-weight: bold; }
+.next-problem > span { font-size: 14px; margin-top: 20px; }
+.next-problem > strong { font-size: 62px; line-height: 1.2; letter-spacing: -4px; transform: rotate(4deg); }
+
+/* pocket dictionary */
+.dictionary { display: grid; grid-template-columns: 1fr 1.4fr; border-top: 3px solid #111; border-bottom: 3px solid #111; gap: 70px; padding-block: 70px; }
+.dictionary-intro > p:last-child { margin-top: 30px; font-size: 17px; }
+.dictionary dl { margin: 0; }
+.dictionary dl > div { display: grid; grid-template-columns: 145px 1fr; gap: 15px; padding-block: 15px; border-bottom: 1px solid #111; }
+.dictionary dl > div:first-child { padding-top: 0; }
+.dictionary dl > div:last-child { border: 0; padding-bottom: 0; }
+.dictionary dt { font-size: 23px; line-height: 1.3; font-weight: bold; letter-spacing: -.6px; }
+.dictionary dd { margin: 0; font-size: 16px; align-self: center; }
+
+/* the floor shows receipts, never projected numbers. */
+.floor-section { border-bottom: 3px solid #111; }
+.floor-intro { display: grid; grid-template-columns: 1fr 1.3fr; gap: 60px; align-items: end; }
+.floor-intro h2 { font-size: clamp(40px, 4.5vw, 62px); letter-spacing: -2.5px; }
+.floor-intro > p { font-size: 20px; line-height: 1.7; max-width: 610px; }
+.floor-intro > p strong { display: inline-block; margin-top: 15px; font-weight: 400; text-decoration: underline; text-underline-offset: 5px; }
+.floor-counters { display: grid; grid-template-columns: repeat(3, 1fr); border: 2px solid #111; margin-top: 45px; }
+.floor-counters > div { padding: 20px 25px; min-width: 0; }
+.floor-counters > div + div { border-left: 2px solid #111; }
+.floor-counters span { display: block; font-size: 15px; }
+.floor-counters strong { display: block; font-size: clamp(27px, 3.6vw, 48px); overflow-wrap: anywhere; line-height: 1.5; }
+.floor-recent { margin-top: 28px; }
+.floor-recent h3 { font-size: 20px; }
+#floor-state { margin-top: 8px; font-size: 14px; }
+#floor-transactions { list-style: none; padding: 0; margin: 20px 0; }
+#floor-transactions li { display: grid; grid-template-columns: 150px 1fr auto; align-items: center; gap: 15px; padding-block: 15px; border-top: 1px solid #111; font-size: 13px; }
+#floor-transactions a { text-underline-offset: 4px; }
+#floor-transactions time { font-size: 12px; }
+.floor-note { font-size: 13px; margin-top: 30px; }
+@media (max-width: 700px) {
+  .floor-intro { grid-template-columns: 1fr; gap: 25px; }
+  .floor-intro h2 { font-size: 42px; }
+  .floor-intro > p { font-size: 16px; }
+  .floor-counters { margin-top: 28px; }
+  .floor-counters > div { padding: 15px 10px; }
+  .floor-counters span { font-size: 12px; }
+  .floor-counters strong { font-size: 26px; }
+  #floor-transactions li { grid-template-columns: 1fr auto; gap: 8px; font-size: 12px; }
+  #floor-transactions li > span { grid-column: 1 / -1; grid-row: 2; }
+  #floor-transactions time { font-size: 11px; }
+  .floor-note { font-size: 12px; }
+}
+
+/* community property */
+.meme-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px 26px; }
+.meme-item { padding: 0; border: 0; background: transparent; text-align: left; min-width: 0; }
+.meme-item img { width: 100%; border: 3px solid #111; aspect-ratio: 1; object-fit: cover; border-radius: 5px 2px 3px 7px; }
+.meme-item:nth-child(even) { transform: rotate(1deg); }
+.meme-item:nth-child(odd) { transform: rotate(-1deg); }
+.meme-item:hover img { border-style: dashed; }
+.meme-item span { display: flex; justify-content: space-between; gap: 10px; margin-top: 15px; font-size: 14px; }
+.meme-item span b { font-weight: 400; font-size: 12px; text-decoration: underline; text-underline-offset: 4px; flex: none; }
+.site-footer { border-top: 3px solid #111; padding-top: 50px; }
+.footer-top { display: flex; align-items: center; justify-content: space-between; }
+.footer-top p { font-size: 21px; }
+.footer-duk { font-size: 180px; line-height: 1.1; font-weight: 700; letter-spacing: -15px; text-decoration: none; }
+.footer-top img { width: 440px; transform: rotate(-2deg); margin-right: 30px; }
+.footer-bottom { margin-top: 40px; border-top: 2px solid #111; padding-block: 23px 30px; display: flex; justify-content: space-between; align-items: center; gap: 20px; font-size: 14px; }
+.footer-bottom > p { text-align: right; font-size: 12px; }
+.footer-bottom .social-links a { padding: 3px 10px; font-size: 13px; background: transparent; }
+
+/* native dialog supplies keyboard focus containment and escape to close */
+dialog { width: min(780px, calc(100% - 30px)); padding: 18px; border: 3px solid #111; background: #00a2e8; max-height: 94dvh; overflow: auto; }
+dialog::backdrop { background: rgb(0 0 0 / 75%); }
+.lightbox-bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; gap: 20px; }
+.lightbox-bar h2 { font-size: 20px; }
+.lightbox-bar button { border: 2px solid #111; background: white; padding: 5px 12px; flex: none; font-size: 15px; }
+#lightbox-image { max-height: 70dvh; object-fit: contain; margin: 0 auto 15px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.skip-link { position: fixed; top: -100px; left: 12px; z-index: 10; padding: 10px; background: white; }
+.skip-link:focus { top: 12px; }
+
+@media (min-width: 1600px) {
+  .hero { min-height: 740px; }
+  .hero-scene { height: 570px; }
+}
+@media (max-width: 1000px) {
+  .page-width { width: calc(100% - 56px); }
+  .hero { min-height: 600px; grid-template-columns: 46% 54%; padding-block: 35px 45px; }
+  .hero-logo { height: 140px; }
+  .hero-scene { height: 440px; }
+  .hero-duck { bottom: 28px; width: 116%; left: -12%; }
+  .floor-line { bottom: 75px; }
+  .scene-caption { bottom: 32px; }
+  .scene-note { top: 160px; font-size: 15px; }
+  .flying-candles { width: 130px; height: 130px; top: 10px; left: 0; }
+  .flying-rent { width: 110px; height: 130px; top: 5px; }
+  .flying-ex { width: 90px; height: 130px; top: 0; right: -3%; }
+  .site-header nav { gap: 20px; }
+  .mantra-strip > div { gap: 13px; font-size: 16px; }
+  .section-space { padding-block: 65px; }
+  .doctrine-duck img { height: 340px; }
+  .doctrine-duck { margin-top: -100px; }
+  .step { padding: 20px 12px; }
+  .step-art { height: 225px; }
+  .step-stand { height: 200px; }
+  .step:first-child .step-stand { height: 180px; margin-right: 20px; }
+  .step-threat { width: 80px; right: -8px; }
+  .step h3 { font-size: 20px; }
+  .problems-grid { grid-template-columns: repeat(2, 1fr); }
+  .dictionary { gap: 30px; grid-template-columns: 1fr 1.4fr; }
+  .dictionary dl > div { grid-template-columns: 110px 1fr; }
+  .dictionary dt { font-size: 20px; }
+  .dictionary dd { font-size: 14px; }
+  .meme-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-top img { width: 360px; margin: 0; }
+  .footer-duk { font-size: 150px; }
+}
+@media (max-width: 700px) {
+  body { font-size: 16px; }
+  .page-width { width: calc(100% - 36px); }
+  .site-header { min-height: 77px; }
+  .wordmark { font-size: 36px; }
+  .site-header nav { gap: 15px; font-size: 12px; }
+  .site-header nav a:first-child { display: none; }
+  .ticker { font-size: 13px; padding: 2px 8px; }
+  .hero { display: flex; flex-direction: column; align-items: stretch; min-height: 0; padding-block: 28px 27px; }
+  .hero-copy { text-align: center; }
+  .hero .eyebrow { font-size: 12px; margin-bottom: 4px; }
+  .hero-logo { width: 260px; height: 110px; margin: 0 auto 4px; object-position: center; }
+  .hero h1 { font-size: 23px; letter-spacing: -1px; }
+  .ca-box { margin: 20px auto 0; min-height: 45px; padding: 8px 14px; font-size: 14px; }
+  .hero .social-links { justify-content: center; margin-bottom: 15px; }
+  .hero .text-link { font-size: 13px; }
+  .hero-scene { width: 100%; height: 315px; margin-top: 7px; align-self: auto; }
+  .hero-duck { width: 108%; left: -4%; bottom: 9px; }
+  .floor-line { bottom: 49px; left: 0; width: 100%; }
+  .scene-caption { bottom: 0; font-size: 11px; left: 38%; }
+  .scene-note { top: 110px; left: 4%; font-size: 12px; }
+  .flying-candles { width: 104px; height: 95px; top: 0; left: 0; }
+  .flying-rent { width: 95px; height: 100px; top: 5px; left: 37%; }
+  .flying-ex { width: 73px; height: 100px; top: 0; right: 0; }
+  .mantra-strip { padding: 13px 15px; }
+  .mantra-strip > div { gap: 12px; font-size: 15px; justify-content: flex-start; width: max-content; }
+  .mantra-strip span { margin-inline: 2px; }
+  .section-space { padding-block: 50px; }
+  .section-heading h2, .dictionary h2 { font-size: 44px; letter-spacing: -2px; }
+  .eyebrow { font-size: 12px; margin-bottom: 12px; }
+  .doctrine-content { grid-template-columns: 1fr; margin-top: 20px; }
+  .commandments { font-size: 22px; letter-spacing: -.7px; line-height: 1.75; margin: 0; }
+  .commandments li { gap: 10px; }
+  .commandments li::before { min-width: 23px; }
+  .doctrine-duck { margin: 25px auto 0; display: flex; align-items: center; gap: 10px; text-align: left; width: 100%; }
+  .doctrine-duck img { height: 220px; max-width: 48%; margin: 0; transform: rotate(-4deg); }
+  .doctrine-duck figcaption { font-size: 13px; flex: 1; line-height: 1.7; margin: 0; }
+  .doctrine-footnote { font-size: 14px; margin-top: 26px; padding-top: 20px; }
+  .how-section { padding-top: 10px; }
+  .safety-heading { padding: 22px 20px; display: block; }
+  .safety-heading h2 { font-size: 41px; letter-spacing: -2px; }
+  .safety-heading .eyebrow { font-size: 10px; }
+  .safety-heading > p { font-size: 12px; transform: none; margin-top: 10px; }
+  .safety-heading > p br { display: none; }
+  .steps { grid-template-columns: 1fr; }
+  .step { padding: 20px 18px 25px; }
+  .step + .step { border-left: 0; border-top: 2px solid #111; }
+  .step-art { height: 230px; width: 260px; max-width: 100%; margin-inline: auto; margin-bottom: 10px; }
+  .step-stand { height: 220px; }
+  .step:first-child .step-stand { height: 210px; }
+  .step-threat { width: 100px; right: -5px; top: 0; }
+  .step-duck { width: 100%; }
+  .step h3 { font-size: 24px; }
+  .step > p { font-size: 14px; margin-top: 7px; }
+  .safety-bottom { font-size: 11px; padding: 12px; }
+  .inline-heading { margin-bottom: 27px; gap: 15px; }
+  .inline-heading > p { font-size: 12px; max-width: 115px; }
+  .problems-grid > figure, .next-problem { padding: 17px 12px 20px; }
+  .problems-grid img { height: 115px; margin-bottom: 15px; }
+  .problems-grid h3 { font-size: 19px; letter-spacing: -.7px; overflow-wrap: anywhere; }
+  .problems-grid figcaption p { font-size: 12px; margin-top: 8px; }
+  .next-problem > p { font-size: 24px; }
+  .next-problem > span { font-size: 12px; margin-top: 13px; }
+  .next-problem > strong { font-size: 52px; }
+  .dictionary { display: block; padding-block: 40px; }
+  .dictionary-intro > p:last-child { font-size: 14px; margin-top: 18px; }
+  .dictionary dl { margin-top: 30px; }
+  .dictionary dl > div { grid-template-columns: 110px 1fr; padding-block: 15px; gap: 10px; }
+  .dictionary dt { font-size: 20px; }
+  .dictionary dd { font-size: 13px; }
+  .meme-grid { gap: 26px 15px; grid-template-columns: repeat(2, 1fr); }
+  .meme-item:nth-child(even), .meme-item:nth-child(odd) { transform: rotate(-.5deg); }
+  .meme-item span { display: block; font-size: 12px; margin-top: 9px; }
+  .meme-item span b { display: block; font-size: 10px; margin-top: 5px; }
+  .site-footer { padding-top: 35px; }
+  .footer-top { display: block; position: relative; min-height: 210px; }
+  .footer-top p { font-size: 16px; }
+  .footer-duk { font-size: 120px; letter-spacing: -10px; }
+  .footer-top img { position: absolute; width: 195px; right: -5px; bottom: 0; }
+  .footer-bottom { margin-top: 18px; padding-block: 20px; flex-wrap: wrap; gap: 15px; font-size: 12px; }
+  .footer-bottom > p { font-size: 10px; }
+  .footer-bottom .social-links { order: 3; width: 100%; }
+  .lightbox-bar h2 { font-size: 17px; }
+  dialog { padding: 12px; }
+  .lightbox-bar button { font-size: 12px; padding: 5px 9px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .flying-object { animation: none; }
+}
