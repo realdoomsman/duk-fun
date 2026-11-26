@@ -2,7 +2,7 @@
 // Set SITE to the public origin (https://your-domain.example) for absolute social images.
 window.DUK_CONFIG = {
   CA: '',
-  X: '',
+  X: 'https://x.com/justdukfun',
   TG: '',
   PUMP: '',
   DEX: '',
