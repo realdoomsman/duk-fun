@@ -1,6 +1,51 @@
 {
-  "updated": "2026-11-26T12:29:15Z",
+  "updated": "2026-11-26T12:46:02Z",
   "memes": [
+    {
+      "file": "077_still_on_it.png",
+      "src": "assets/memes4/077_still_on_it.png",
+      "thumb": "assets/memes4/thumbs/077_still_on_it.webp",
+      "title": "the market bounced off the lows today. he did not get the memo. $duk",
+      "alt": "duk reacting to oversold bounce: shorts forced to cover, everyone bounces off the lows. the market bounced off the lows today. he did not get the memo. $duk",
+      "tag": "market",
+      "created": "2026-11-26T12:33:41Z"
+    },
+    {
+      "file": "076_layer_zero.png",
+      "src": "assets/memes4/076_layer_zero.png",
+      "thumb": "assets/memes4/thumbs/076_layer_zero.webp",
+      "title": "ct keeps arguing about which layer wins. he skipped to the bottom one.",
+      "alt": "duk reacting to ct arguing over layer 1 vs layer 2 chains. ct keeps arguing about which layer wins. he skipped to the bottom one.",
+      "tag": "market",
+      "created": "2026-11-26T12:33:41Z"
+    },
+    {
+      "file": "075_wrong_animal.png",
+      "src": "assets/memes4/075_wrong_animal.png",
+      "thumb": "assets/memes4/thumbs/075_wrong_animal.webp",
+      "title": "ct is arguing about whether this is a dead cat bounce. wrong animal. $duk",
+      "alt": "duk reacting to ct debating whether the rebound is a dead cat bounce. ct is arguing about whether this is a dead cat bounce. wrong animal. $duk",
+      "tag": "market",
+      "created": "2026-11-26T12:33:41Z"
+    },
+    {
+      "file": "074_streak.png",
+      "src": "assets/memes4/074_streak.png",
+      "thumb": "assets/memes4/thumbs/074_streak.webp",
+      "title": "the losing streak finally snapped. he is on a different streak.",
+      "alt": "duk reacting to crypto snaps a multi-day losing streak with a rebound. the losing streak finally snapped. he is on a different streak.",
+      "tag": "market",
+      "created": "2026-11-26T12:33:41Z"
+    },
+    {
+      "file": "073_not_for_sale.png",
+      "src": "assets/memes4/073_not_for_sale.png",
+      "thumb": "assets/memes4/thumbs/073_not_for_sale.webp",
+      "title": "analysts say everything got oversold. he was lying on the floor the whole time. $duk",
+      "alt": "duk reacting to analysts: market was deeply oversold before today's rebound. analysts say everything got oversold. he was lying on the floor the whole time. $duk",
+      "tag": "market",
+      "created": "2026-11-26T12:33:41Z"
+    },
     {
       "file": "072_potluck.png",
       "src": "assets/memes4/072_potluck.png",
@@ -609,6 +654,78 @@
   ],
   "gifs": [
     {
+      "title": "hotter than expected.",
+      "alt": "DUK lies flat while wavy heat lines roll over him: \"hotter than expected.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/036_hotter_than_expected.mp4",
+      "gif": "assets/gifs2/036_hotter_than_expected.gif",
+      "poster": "assets/gifs2/posters/036_hotter_than_expected.webp",
+      "created": "2026-11-26T12:45:07Z"
+    },
+    {
+      "title": "thankful for the floor.",
+      "alt": "DUK lies flat in THE DUK pose while autumn leaves drift down around him: \"thankful for the floor.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/035_thankful_for_the_floor.mp4",
+      "gif": "assets/gifs2/035_thankful_for_the_floor.gif",
+      "poster": "assets/gifs2/posters/035_thankful_for_the_floor.webp",
+      "created": "2026-11-26T12:45:07Z"
+    },
+    {
+      "title": "muscle memory. $duk",
+      "alt": "A green candle floats toward DUK. He hits the floor anyway and it drifts over him: \"muscle memory.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/034_muscle_memory.mp4",
+      "gif": "assets/gifs2/034_muscle_memory.gif",
+      "poster": "assets/gifs2/posters/034_muscle_memory.webp",
+      "created": "2026-11-26T12:45:07Z"
+    },
+    {
+      "title": "noted.",
+      "alt": "Close-up of DUK staring at you. One slow blink: \"noted.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/033_noted.mp4",
+      "gif": "assets/gifs2/033_noted.gif",
+      "poster": "assets/gifs2/posters/033_noted.webp",
+      "created": "2026-11-26T12:45:07Z"
+    },
+    {
+      "title": "travel mode.",
+      "alt": "travel mode.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/048_travel_mode.mp4",
+      "gif": "assets/gifs2/048_travel_mode.gif",
+      "poster": "assets/gifs2/posters/048_travel_mode.webp",
+      "created": "2026-11-26T12:33:19Z"
+    },
+    {
+      "title": "music stopped.",
+      "alt": "music stopped.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/047_music_stopped.mp4",
+      "gif": "assets/gifs2/047_music_stopped.gif",
+      "poster": "assets/gifs2/posters/047_music_stopped.webp",
+      "created": "2026-11-26T12:33:19Z"
+    },
+    {
+      "title": "post your.",
+      "alt": "post your.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/046_post_your_duk.mp4",
+      "gif": "assets/gifs2/046_post_your_duk.gif",
+      "poster": "assets/gifs2/posters/046_post_your_duk.webp",
+      "created": "2026-11-26T12:33:19Z"
+    },
+    {
+      "title": "ducked.",
+      "alt": "ducked.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/045_ducked.mp4",
+      "gif": "assets/gifs2/045_ducked.gif",
+      "poster": "assets/gifs2/posters/045_ducked.webp",
+      "created": "2026-11-26T12:33:18Z"
+    },
+    {
       "title": "unduckable.",
       "alt": "unduckable.",
       "tag": "reaction",
@@ -679,42 +796,6 @@
       "gif": "assets/gifs2/037_heard.gif",
       "poster": "assets/gifs2/posters/037_heard.webp",
       "created": "2026-11-26T12:23:53Z"
-    },
-    {
-      "title": "muscle memory.",
-      "alt": "muscle memory.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/034_muscle_memory.mp4",
-      "gif": "assets/gifs2/034_muscle_memory.gif",
-      "poster": "assets/gifs2/posters/034_muscle_memory.webp",
-      "created": "2026-11-26T12:22:06Z"
-    },
-    {
-      "title": "hotter than expected.",
-      "alt": "hotter than expected.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/036_hotter_than_expected.mp4",
-      "gif": "assets/gifs2/036_hotter_than_expected.gif",
-      "poster": "assets/gifs2/posters/036_hotter_than_expected.webp",
-      "created": "2026-11-26T12:21:28Z"
-    },
-    {
-      "title": "thankful for the floor.",
-      "alt": "thankful for the floor.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/035_thankful_for_the_floor.mp4",
-      "gif": "assets/gifs2/035_thankful_for_the_floor.gif",
-      "poster": "assets/gifs2/posters/035_thankful_for_the_floor.webp",
-      "created": "2026-11-26T12:21:28Z"
-    },
-    {
-      "title": "noted.",
-      "alt": "noted.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/033_noted.mp4",
-      "gif": "assets/gifs2/033_noted.gif",
-      "poster": "assets/gifs2/posters/033_noted.webp",
-      "created": "2026-11-26T12:21:27Z"
     },
     {
       "title": "gn. duk. $duk",
@@ -989,6 +1070,66 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/027_green_muscle_memory.mp4",
+      "poster": "assets/clips2/027_green_muscle_memory.webp",
+      "title": "almost everything was green today. he ducked the green candle anyway. $duk",
+      "alt": "A green banner: \"everything is green today.\" A big green candle drifts slowly toward DUK. He stares at it for a long time, and at the last second hits the floor anyway. It floats over him. \"muscle memory.\"",
+      "created": "2026-11-26T12:45:07Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/026_tariffs_everywhere.mp4",
+      "poster": "assets/clips2/026_tariffs_everywhere.webp",
+      "title": "new tariffs got proposed on a lot of economies. he's not an economy. he ducked anyway.",
+      "alt": "Wide shot. A counter reads \"tariffs: 0\". DUK goes flat just before cardboard boxes stamped \"tariff\" start flying across the room one after another, right over him, while the counter ticks up. Silence. Caption: \"he's not an economy.\" He stays down anyway.",
+      "created": "2026-11-26T12:45:07Z",
+      "duration": 14.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/025_inflation_came_in_hot.mp4",
+      "poster": "assets/clips2/025_inflation_came_in_hot.webp",
+      "title": "inflation came in hotter than expected. so did the oven. $duk",
+      "alt": "An oven labelled \"inflation\" beeps on thanksgiving. DUK, standing next to it, is already going down as the door drops open and a blast of heat rolls across the room right over him. The door slams shut. He stays flat: \"he'll eat later.\"",
+      "created": "2026-11-26T12:45:07Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/034_airport_xray.mp4",
+      "poster": "assets/clips2/034_airport_xray.webp",
+      "title": "airport xray.",
+      "alt": "airport xray.",
+      "created": "2026-11-26T12:33:42Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/036_musical_chairs.mp4",
+      "poster": "assets/clips2/036_musical_chairs.webp",
+      "title": "musical chairs.",
+      "alt": "musical chairs.",
+      "created": "2026-11-26T12:33:18Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/035_post_your_duk.mp4",
+      "poster": "assets/clips2/035_post_your_duk.webp",
+      "title": "post your.",
+      "alt": "post your.",
+      "created": "2026-11-26T12:33:16Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/033_boss_black_friday.mp4",
       "poster": "assets/clips2/033_boss_black_friday.webp",
       "title": "boss black friday.",
@@ -1045,36 +1186,6 @@
       "alt": "family photo.",
       "created": "2026-11-26T12:23:53Z",
       "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/027_green_muscle_memory.mp4",
-      "poster": "assets/clips2/027_green_muscle_memory.webp",
-      "title": "green muscle memory.",
-      "alt": "green muscle memory.",
-      "created": "2026-11-26T12:22:06Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/026_tariffs_everywhere.mp4",
-      "poster": "assets/clips2/026_tariffs_everywhere.webp",
-      "title": "tariffs everywhere.",
-      "alt": "tariffs everywhere.",
-      "created": "2026-11-26T12:22:04Z",
-      "duration": 14.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/025_inflation_came_in_hot.mp4",
-      "poster": "assets/clips2/025_inflation_came_in_hot.webp",
-      "title": "inflation came in hot.",
-      "alt": "inflation came in hot.",
-      "created": "2026-11-26T12:21:23Z",
-      "duration": 12.0,
       "width": 1080,
       "height": 1080
     },
