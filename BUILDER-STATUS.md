@@ -3,6 +3,8 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **duk hour in your calendar**: assets/duk-hour.ics (daily 21:00-21:10 utc, alarm at start; CRLF kept by .gitattributes
+  `*.ics -text`) linked from the home clock, cult #duk-hour (plus a google calendar template link) and daily.html.
 - **streak** on duk of the day: app.js counts utc days in a row this browser opened the site (localStorage `duk-streak`
   {last, days, best}); daily.html shows "day N in a row." (best so far when it's higher) and a "post your streak" x link
   ("day N of ducking in a row. duk." + daily.html).
