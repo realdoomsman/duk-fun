@@ -3,6 +3,9 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **content rule covers file names**: sync-content.py now runs OFF_RULE over each file's stem too (names show up in urls,
+  share pages and downloads). It caught clips2/022_back_above_60k.mp4, which is off the site until it's renamed
+  (DukVideo asked to rename it).
 - **rss feed**: duk.fun/feed.xml (scripts/feed.py, run by every sync after share-pages): the newest 80 drops from
   content.json plus every duk of the day, each linking its share page with the card as enclosure. Advertised with
   `<link rel="alternate" type="application/rss+xml">` on home, memes, watch, stickers, comics, daily and press (linked there).

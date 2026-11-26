@@ -216,7 +216,8 @@ def sync() -> tuple[dict, set, list]:
     def off_rule(rel: str, entry: dict, title: str) -> bool:
         path = Path(rel)
         ids = {rel, path.name, path.stem}
-        text = ' '.join(str(entry.get(key) or '') for key in ('caption', 'topic', 'alt')) + ' ' + title
+        # the file name is public too (urls, share pages, downloads), so it has to pass the rule like the words do.
+        text = ' '.join(str(entry.get(key) or '') for key in ('caption', 'topic', 'alt')) + f' {title} {path.stem}'
         if ids & names or entry.get('retracted') or (OFF_RULE.search(text) and not ids & allowed):
             blocked.append(rel)
             return True
