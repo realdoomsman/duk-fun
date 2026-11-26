@@ -39,7 +39,8 @@
     let current = 0;
     let backdropPress = false;
 
-    const linkFor = (strip) => `${site}/comics.html#${strip.id}`;
+    // Each strip has a share page with its own card (scripts/share-pages.py): s/<path under assets/, '/' -> '-'>.html
+    const linkFor = (strip) => `${site}/s/${strip.src.replace(/^assets\//, '').replace(/\.[^./]+$/, '').replace(/\//g, '-').replace(/[^\w-]/g, '-')}.html`;
     const postFor = (strip) => postURL(`${strip.title}\njust duk. $DUK\n${linkFor(strip)}`);
     const downloadName = (strip) => `duk-comic-${strip.number}-${baseName(strip.src)}`;
 
