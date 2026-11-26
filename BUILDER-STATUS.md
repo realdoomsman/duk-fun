@@ -3,6 +3,12 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **sitemap dates**: scripts/sitemap.py writes sitemap.xml with a `<lastmod>` per page (newest of the page's last commit,
+  incl. the css/js it loads, and the newest drop it shows: content.json kinds, daily.json, fame.json); every sync runs it
+  after feed.py and publishes sitemap.xml. Written only on change.
+- **pool card goes live**: the home "the pool." card shows "N adds today (utc). newest X min ago." from the keeper's
+  `/log?limit=0` (daily row for today + newest `recent` timestamp), refreshed every two minutes; hidden while the keeper
+  restarts or isn't adding.
 - **pool chart v2**: pool.js now polls `/log?limit=0` every two minutes (~3 KB gzip instead of the whole ledger) and
   charts the keeper's `hourly` (last 48 hours, starting at the first add) and `daily` summaries: running total + each
   hour's/day's amount, toggles for span and sol/duk/lp. While the keeper restarts (`last_run` null, it reports zeros
