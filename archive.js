@@ -24,7 +24,9 @@
   const byKey = new Map();
   const site = (typeof config.SITE === 'string' && config.SITE.trim() ? config.SITE : 'https://duk.fun').replace(/\/+$/, '');
   const requestedTag = new URLSearchParams(window.location.search).get('tag');
-  let filter = tags.has(requestedTag) ? requestedTag : 'all';
+  // 'new' is a filter, not a tag: memes the sync script published in the last day (content.json 'created').
+  const FRESH_MS = 24 * 60 * 60 * 1000;
+  let filter = tags.has(requestedTag) || requestedTag === 'new' ? requestedTag : 'all';
   let visible = [];
   let current = 0;
   let opener = null;
@@ -66,6 +68,7 @@
       caption,
       alt: typeof entry.alt === 'string' && entry.alt.trim() ? entry.alt : caption,
       tag,
+      fresh: typeof entry.created === 'string' && Date.now() - Date.parse(entry.created) < FRESH_MS,
       card: null,
       button: null
     };
@@ -94,6 +97,12 @@
     const tag = document.createElement('span');
     tag.className = 'archive-card-tag';
     button.append(thumbnail, caption, tag);
+    if (item.fresh) {
+      const stamp = document.createElement('span');
+      stamp.className = 'archive-card-new';
+      stamp.textContent = 'new';
+      button.append(stamp);
+    }
     button.addEventListener('click', () => openItem(item, button));
     card.append(button);
     item.card = card;
@@ -102,10 +111,11 @@
   }
 
   function render() {
-    visible = filter === 'all' ? items : items.filter(item => item.tag === filter);
-    const totals = { all: items.length };
+    visible = filter === 'all' ? items : filter === 'new' ? items.filter(item => item.fresh) : items.filter(item => item.tag === filter);
+    const totals = { all: items.length, new: 0 };
     for (const item of items) {
       if (item.tag) totals[item.tag] = (totals[item.tag] || 0) + 1;
+      if (item.fresh) totals.new += 1;
     }
     const fragment = document.createDocumentFragment();
     for (const item of visible) {
@@ -248,7 +258,7 @@
       note.textContent = 'some memes didn\'t load. reload to try again.';
     } finally {
       loading = false;
-      if (filter !== 'all' && !items.some(item => item.tag === filter)) {
+      if (filter !== 'all' && !items.some(item => (filter === 'new' ? item.fresh : item.tag === filter))) {
         filter = 'all';
         const url = new URL(window.location.href);
         url.searchParams.delete('tag');
