@@ -8,8 +8,8 @@
   const shortDate = (date) => new Date(`${date}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }).toLowerCase();
   const archiveHref = (src) => `memes.html#${src.replace(/^assets\//, '')}`;
   // "duk of the day, nov 26." + its caption, linking the day's own card (or the meme's before the sync records the day).
-  const postHref = (day) => `https://x.com/intent/post?text=${encodeURIComponent(
-    `duk of the day, ${shortDate(day.date)}.\n${String(day.title || 'just duk.').replace(/\s*\$duk\s*$/i, '')}\n\njust duk. $DUK\n${window.dukDailyShare(day)}`)}`;
+  const postText = (day) => `duk of the day, ${shortDate(day.date)}.\n${String(day.title || 'just duk.').replace(/\s*\$duk\s*$/i, '')}\n\njust duk. $DUK\n${window.dukDailyShare(day)}`;
+  const postHref = (day) => `https://x.com/intent/post?text=${encodeURIComponent(postText(day))}`;
 
   const next = $('[data-daily-next]');
   const countdown = () => {
@@ -70,6 +70,8 @@
       download.href = today.src;
       download.setAttribute('download', `duk-of-the-day-${today.date}.${today.src.split('.').pop()}`);
       $('[data-daily-actions]').hidden = false;
+      window.dukPictureButtons($('[data-daily-share]'), $('[data-daily-copy]'),
+        () => ({ src: today.src, name: `duk-of-the-day-${today.date}`, text: postText(today) }))(today.src);
     } else {
       $('[data-daily-caption]').textContent = 'no duk today. he ducked.';
     }

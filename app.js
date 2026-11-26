@@ -115,6 +115,63 @@
   // dukPostText is the words (the share sheet takes them with the picture); dukPostHref is the x draft.
   window.dukPostText = (caption, src) => `${String(caption || 'just duk.').replace(/\s*\$duk\s*$/i, '')}\n\njust duk. $DUK\n${window.dukSharePage(src)}`;
   window.dukPostHref = (caption, src) => `https://x.com/intent/post?text=${encodeURIComponent(window.dukPostText(caption, src))}`;
+  // The picture itself into a post: touch screens hand it to the share sheet (x, telegram, messages) with the post
+  // words; mouse screens copy it to paste into the post. One of the two buttons shows, whichever this browser can do.
+  // piece() returns { src, name (file name, no extension), text } for what's on screen; the returned prepare(src)
+  // fetches that png ahead (the share sheet needs the file right after the tap).
+  window.dukPictureButtons = (shareButton, copyButton, piece) => {
+    const canShareFiles = (() => {
+      try { return Boolean(navigator.canShare && navigator.canShare({ files: [new File([''], 'duk.png', { type: 'image/png' })] })); } catch { return false; }
+    })();
+    const canCopyImage = Boolean(window.isSecureContext && navigator.clipboard && navigator.clipboard.write && window.ClipboardItem);
+    shareButton.hidden = !canShareFiles || (!window.matchMedia('(pointer: coarse)').matches && canCopyImage);
+    copyButton.hidden = !canCopyImage || !shareButton.hidden;
+    // clipboards only take png; other formats are redrawn.
+    const pngOf = (src) => fetch(src).then((response) => {
+      if (!response.ok) throw new Error(`${src} ${response.status}`);
+      return response.blob();
+    }).then(async (blob) => {
+      if (blob.type === 'image/png') return blob;
+      const bitmap = await createImageBitmap(blob);
+      const canvas = Object.assign(document.createElement('canvas'), { width: bitmap.width, height: bitmap.height });
+      canvas.getContext('2d').drawImage(bitmap, 0, 0);
+      return new Promise((resolve, reject) => canvas.toBlob((png) => (png ? resolve(png) : reject(new Error('no png'))), 'image/png'));
+    });
+    const say = (button, text) => {
+      button.dataset.label = button.dataset.label || button.textContent;
+      button.textContent = text;
+      window.clearTimeout(Number(button.dataset.timer));
+      button.dataset.timer = String(window.setTimeout(() => { button.textContent = button.dataset.label; }, 2600));
+    };
+    let prepared = { src: '', png: null };
+    const prepare = (src) => {
+      if (canShareFiles && src && prepared.src !== src) prepared = { src, png: pngOf(src).catch(() => null) };
+    };
+    shareButton.addEventListener('click', async () => {
+      const { src, name, text } = piece() || {};
+      if (!src) return;
+      prepare(src);
+      const png = await prepared.png;
+      if (!png) { say(shareButton, "couldn't load it. try download"); return; }
+      try {
+        await navigator.share({ files: [new File([png], `${name || 'duk'}.png`, { type: 'image/png' })], text });
+      } catch (error) {
+        if (error && error.name !== 'AbortError') say(shareButton, "couldn't share. try download");
+      }
+    });
+    copyButton.addEventListener('click', async () => {
+      const { src } = piece() || {};
+      if (!src) return;
+      try {
+        // a promise inside the ClipboardItem keeps safari's tap permission while the png loads.
+        await navigator.clipboard.write([new window.ClipboardItem({ 'image/png': pngOf(src) })]);
+        say(copyButton, 'copied. paste it in your post');
+      } catch {
+        say(copyButton, "couldn't copy. try download");
+      }
+    });
+    return prepare;
+  };
   // A recorded duk of the day has its own card (s/daily-<date>.html); one not recorded yet uses its meme's.
   window.dukDailyShare = (day) => (day.recorded ? `${site.replace(/\/+$/, '')}/s/daily-${day.date}.html` : window.dukSharePage(day.src));
 
