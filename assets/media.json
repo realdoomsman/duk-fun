@@ -2978,6 +2978,180 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/086_stampede.webp"
+      },
+      {
+        "file": "formats/087_no_rescue.png",
+        "src": "assets/kit/formats/087_no_rescue.png",
+        "title": "the island",
+        "alt": "Two stick figures throw their arms up on a small sand island with a palm tree while a plane flies off. DUK lies flat on the sand. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.173,
+            0.027,
+            0.653,
+            0.08
+          ],
+          [
+            0.393,
+            0.713,
+            0.147,
+            0.073
+          ],
+          [
+            0.213,
+            0.88,
+            0.08,
+            0.067
+          ],
+          [
+            0.327,
+            0.88,
+            0.447,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/087_no_rescue.webp"
+      },
+      {
+        "file": "formats/088_roadmap.png",
+        "src": "assets/kit/formats/088_roadmap.png",
+        "title": "the roadmap",
+        "alt": "A big pale yellow board with four empty lines, three ticked and the last box empty. DUK lies flat on the floor under it.",
+        "tag": "template",
+        "spots": [
+          [
+            0.233,
+            0.027,
+            0.533,
+            0.08
+          ],
+          [
+            0.227,
+            0.167,
+            0.46,
+            0.06
+          ],
+          [
+            0.227,
+            0.28,
+            0.653,
+            0.06
+          ],
+          [
+            0.227,
+            0.393,
+            0.573,
+            0.06
+          ],
+          [
+            0.227,
+            0.5,
+            0.553,
+            0.067
+          ],
+          [
+            0.287,
+            0.86,
+            0.413,
+            0.06
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/088_roadmap.webp"
+      },
+      {
+        "file": "formats/089_the_swing.png",
+        "src": "assets/kit/formats/089_the_swing.png",
+        "title": "the swing",
+        "alt": "A stick figure on a red swing at the top of its arc, an empty label at each end of the swing. DUK lies flat on the grass at the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.253,
+            0.027,
+            0.493,
+            0.073
+          ],
+          [
+            0.027,
+            0.633,
+            0.32,
+            0.04
+          ],
+          [
+            0.78,
+            0.633,
+            0.193,
+            0.04
+          ],
+          [
+            0.093,
+            0.867,
+            0.127,
+            0.06
+          ],
+          [
+            0.253,
+            0.867,
+            0.647,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/089_the_swing.webp"
+      },
+      {
+        "file": "formats/090_diversified.png",
+        "src": "assets/kit/formats/090_diversified.png",
+        "title": "four of him",
+        "alt": "Four white panels with an empty label in each, DUK lying flat in every one. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.24,
+            0.027,
+            0.52,
+            0.08
+          ],
+          [
+            0.207,
+            0.147,
+            0.12,
+            0.047
+          ],
+          [
+            0.68,
+            0.147,
+            0.107,
+            0.04
+          ],
+          [
+            0.207,
+            0.48,
+            0.12,
+            0.047
+          ],
+          [
+            0.68,
+            0.48,
+            0.107,
+            0.04
+          ],
+          [
+            0.06,
+            0.84,
+            0.873,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/090_diversified.webp"
       }
     ],
     "pfp": [
