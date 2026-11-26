@@ -9,7 +9,8 @@
     if (typeof config.KEEPER_URL !== 'string' || !config.KEEPER_URL.trim()) return null;
     try {
       const url = new URL(config.KEEPER_URL.trim());
-      return ['https:', 'http:'].includes(url.protocol) ? `${url.href.replace(/\/+$/, '')}/log` : null;
+      // limit=0: no transaction list; totals, recent receipts, curve buys and the hourly/daily add summaries are all we use.
+      return ['https:', 'http:'].includes(url.protocol) ? `${url.href.replace(/\/+$/, '')}/log?limit=0` : null;
     } catch { return null; }
   })();
 
@@ -124,14 +125,21 @@
       : [emptyRow(data ? '— no curve buys.' : "— the keeper didn't answer. try again in a minute.", 4)]));
   };
 
-  /* ---------- every add, over time ----------
-     /log 'transactions' holds the keeper's whole ledger; each 'deposit' is one add to the pool with raw amounts
-     (quote = lamports, base = duk at 6 decimals, lp at 9, the same decimals the keeper uses for its totals).
-     The chart is a running total, one step per add, with each add's own size as a bar along the bottom. */
+  /* ---------- the adds, over time ----------
+     /log 'hourly' (the last 48 utc hours) and 'daily' (every utc day since the first add) count the keeper's adds:
+     { hour | day, timestamp (bucket start, unix s), adds, solAdded, dukAdded, lpBurned }, oldest first, zero-filled.
+     The chart is the running total (a step per bucket) with each bucket's own amount as a bar underneath. The hourly
+     window starts after the first add, so its running total starts at whatever came before (totals minus the window). */
   const CHART = {
-    sol: { field: 'quote', decimals: 9, total: 'solAdded', unit: 'sol', format: new Intl.NumberFormat('en-US', { maximumFractionDigits: 3 }) },
-    duk: { field: 'base', decimals: 6, total: 'dukAdded', unit: 'duk', format: wholeNumbers },
-    lp: { field: 'lp', decimals: 9, total: 'lpBurned', unit: 'lp burned', format: new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }) },
+    sol: { field: 'solAdded', unit: 'sol', format: new Intl.NumberFormat('en-US', { maximumFractionDigits: 3 }) },
+    duk: { field: 'dukAdded', unit: 'duk', format: wholeNumbers },
+    lp: { field: 'lpBurned', unit: 'lp burned', format: new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }) },
+  };
+  const SPANS = {
+    hourly: { seconds: 3600, words: 'per hour, the last 48 hours',
+      label: (t) => new Date(t * 1000).toLocaleString(undefined, { month: 'short', day: 'numeric', hour: 'numeric' }) },
+    daily: { seconds: 86400, words: 'per day, since the first add',
+      label: (t) => new Date(t * 1000).toLocaleDateString(undefined, { month: 'short', day: 'numeric', timeZone: 'UTC' }) },
   };
   // axis labels stay short: 40m, 2.5k, 20.
   const compactNumbers = new Intl.NumberFormat('en-US', { notation: 'compact', maximumFractionDigits: 1 });
@@ -143,54 +151,57 @@
     if (text !== undefined) node.textContent = text;
     return node;
   };
-  const chartState = { adds: [], key: 'sol', pick: -1 };
+  const chartState = { rows: { hourly: [], daily: [] }, span: 'hourly', key: 'sol', pick: -1 };
+  const chartRows = () => chartState.rows[chartState.span];
   // Smallest of 1, 2, 2.5, 5 x 10^n at or above the value, so the top line reads as a round number.
   const niceTop = (value) => {
     if (!(value > 0)) return 1;
     const power = 10 ** Math.floor(Math.log10(value));
     return [1, 2, 2.5, 5, 10].map((step) => step * power).find((step) => step >= value);
   };
-  const dayTime = (seconds) => new Date(seconds * 1000).toLocaleString(undefined, { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
+  const plural = (count, word) => `${count} ${word}${count === 1 ? '' : 's'}`;
 
   const chartReadout = () => {
-    const { adds, key, pick } = chartState;
+    const rows = chartRows();
     const readout = $('pp-chart-readout');
-    if (!adds.length) { readout.replaceChildren(); return; }
-    const index = pick >= 0 ? pick : adds.length - 1;
-    const add = adds[index];
+    if (!rows.length) { readout.replaceChildren(); return; }
+    const { pick, key, span } = chartState;
+    const row = rows[pick >= 0 ? pick : rows.length - 1];
     const { unit, format } = CHART[key];
-    const link = document.createElement('a');
-    link.href = `https://solscan.io/tx/${encodeURIComponent(add.signature)}`;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    link.textContent = 'receipt ↗';
-    readout.replaceChildren(`${pick >= 0 ? `add ${index + 1} of ${adds.length}` : 'last add'}, ${dayTime(add.t)}: +${format.format(add[key])} ${unit}. running total ${format.format(add.total[key])} ${unit}. `, link);
+    const when = SPANS[span].label(row.t);
+    readout.textContent = `${pick >= 0 ? when : `${span === 'hourly' ? 'this hour' : 'today'} (${when})`}: ${plural(row.adds, 'add')}, `
+      + `+${format.format(row[key])} ${unit}. running total ${format.format(row.total[key])} ${unit}.`;
   };
 
   const drawChart = () => {
     const svg = $('pp-chart');
-    const { adds, key, pick } = chartState;
-    if (!adds.length || !svg.parentElement.clientWidth) return;
+    const rows = chartRows();
+    if (!rows.length || !svg.parentElement.clientWidth) return;
+    const { key, pick, span } = chartState;
     const { unit, format } = CHART[key];
+    const { seconds, words } = SPANS[span];
     const width = svg.parentElement.clientWidth;
     const narrow = width < 560;
-    // the running total on top, a strip of each add's own size under its axis, then the time labels.
+    // the running total on top, a strip of each bucket's own amount under its axis, then the time labels.
     const strip = narrow ? 30 : 40;
     const height = narrow ? 260 : 330;
     const pad = { left: narrow ? 46 : 62, right: 16, top: 18, bottom: 30 + strip + 12 };
-    const start = adds[0].t;
-    const end = Math.max(Date.now() / 1000, adds[adds.length - 1].t + 600);
-    const top = niceTop(adds[adds.length - 1].total[key]);
-    const biggest = Math.max(...adds.map((add) => add[key])) || 1;
+    const start = rows[0].t;
+    const end = rows[rows.length - 1].t + seconds;
+    const last = rows[rows.length - 1];
+    const top = niceTop(last.total[key]);
+    const biggest = Math.max(...rows.map((row) => row[key])) || 1;
     const x = (t) => pad.left + ((t - start) / (end - start)) * (width - pad.left - pad.right);
     const y = (v) => height - pad.bottom - (v / top) * (height - pad.top - pad.bottom);
     const floor = Math.round(y(0));
     const stripBase = floor + 12 + strip;
+    const slot = (width - pad.left - pad.right) / rows.length;
     svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
     svg.setAttribute('width', width);
     svg.setAttribute('height', height);
-    const last = adds[adds.length - 1];
-    svg.setAttribute('aria-label', `running total of ${unit} the keeper added to the pool: ${adds.length} adds from ${dayTime(start)} to ${dayTime(last.t)}, ${format.format(last.total[key])} ${unit} so far. use the arrow keys to step through the adds.`);
+    const adds = rows.reduce((sum, row) => sum + row.adds, 0);
+    svg.setAttribute('aria-label', `running total of ${unit} the keeper added to the pool, ${words}: ${plural(adds, 'add')} in that time, `
+      + `${format.format(last.total[key])} ${unit} so far. use the arrow keys to step through them.`);
 
     const parts = [];
     // gridlines + y labels at 0, half, top.
@@ -198,105 +209,107 @@
       parts.push(svgNode('line', { class: 'chart-grid', x1: pad.left, x2: width - pad.right, y1: Math.round(y(value)), y2: Math.round(y(value)) }));
       parts.push(svgNode('text', { class: 'chart-label', x: pad.left - 8, y: Math.round(y(value)) + 4, 'text-anchor': 'end' }, compact(value)));
     });
-    // x ticks every 1/2/3/6/12/24/48 hours, at most about six of them.
-    const hours = (end - start) / 3600;
-    const step = [1, 2, 3, 6, 12, 24, 48, 168].find((h) => hours / h <= (narrow ? 4 : 6)) || 336;
-    const longSpan = hours > 36;
-    for (let t = Math.ceil(start / (step * 3600)) * step * 3600; t <= end; t += step * 3600) {
-      const at = Math.round(x(t));
-      const when = new Date(t * 1000);
+    // x labels: every 1/2/3/6/12 hours (local time), or every n days (utc, like the buckets), at most about six.
+    const target = narrow ? 4 : 6;
+    const every = span === 'hourly' ? [1, 2, 3, 6, 12].find((n) => rows.length / n <= target) || 12 : Math.max(1, Math.ceil(rows.length / target));
+    rows.forEach((row, i) => {
+      if ((rows.length - 1 - i) % every) return;
+      const at = Math.round(x(row.t + seconds / 2));
+      const label = span === 'hourly'
+        ? new Date(row.t * 1000).toLocaleTimeString(undefined, { hour: 'numeric' })
+        : SPANS.daily.label(row.t);
       parts.push(svgNode('line', { class: 'chart-tick', x1: at, x2: at, y1: stripBase, y2: stripBase + 6 }));
-      parts.push(svgNode('text', { class: 'chart-label', x: at, y: height - 8, 'text-anchor': 'middle' },
-        longSpan ? when.toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) : when.toLocaleTimeString(undefined, { hour: 'numeric' })));
-    }
-    // each add's own size (square-root scale so small adds still show), in the strip under the total.
-    parts.push(svgNode('text', { class: 'chart-label', x: pad.left - 8, y: stripBase - 4, 'text-anchor': 'end' }, 'each'));
-    parts.push(svgNode('line', { class: 'chart-axis', x1: pad.left, x2: width - pad.right, y1: stripBase, y2: stripBase }));
-    adds.forEach((add) => {
-      const h = Math.max(3, Math.round(Math.sqrt(add[key] / biggest) * strip));
-      parts.push(svgNode('rect', { class: 'chart-bar', x: Math.round(x(add.t)) - 1, y: stripBase - h, width: 3, height: h }));
+      parts.push(svgNode('text', { class: 'chart-label', x: at, y: height - 8, 'text-anchor': 'middle' }, label));
     });
-    // running total: a step up at every add, flat until now. It starts above zero when /log only lists the later adds.
-    const first = adds[0];
+    // each bucket's own amount, in the strip under the total.
+    parts.push(svgNode('text', { class: 'chart-label', x: pad.left - 8, y: stripBase - 4, 'text-anchor': 'end' }, span === 'hourly' ? 'hour' : 'day'));
+    parts.push(svgNode('line', { class: 'chart-axis', x1: pad.left, x2: width - pad.right, y1: stripBase, y2: stripBase }));
+    const barWidth = Math.max(2, Math.min(40, Math.floor(slot) - 2));
+    rows.forEach((row) => {
+      if (!(row[key] > 0)) return;
+      const h = Math.max(2, Math.round((row[key] / biggest) * strip));
+      parts.push(svgNode('rect', { class: 'chart-bar', x: Math.round(x(row.t + seconds / 2) - barWidth / 2), y: stripBase - h, width: barWidth, height: h }));
+    });
+    // running total: a step at every bucket with adds, flat otherwise.
     const left = Math.round(x(start));
-    const startY = Math.round(y(first.total[key] - first[key]));
-    const steps = adds.map((add) => `H${Math.round(x(add.t))}V${Math.round(y(add.total[key]))}`).join('') + `H${Math.round(x(end))}`;
+    const startY = Math.round(y(rows[0].total[key] - rows[0][key]));
+    const steps = rows.map((row) => `H${Math.round(x(row.t))}V${Math.round(y(row.total[key]))}`).join('') + `H${Math.round(x(end))}`;
     parts.push(svgNode('path', { class: 'chart-water', d: `M${left} ${floor}V${startY}${steps}V${floor}Z` }));
     parts.push(svgNode('path', { class: 'chart-line', d: `M${left} ${startY}${steps}` }));
-    parts.push(svgNode('line', { class: 'chart-axis', x1: pad.left, x2: width - pad.right, y1: Math.round(floor), y2: Math.round(floor) }));
+    parts.push(svgNode('line', { class: 'chart-axis', x1: pad.left, x2: width - pad.right, y1: floor, y2: floor }));
     if (pick >= 0) {
-      const add = adds[pick];
-      const at = Math.round(x(add.t));
+      const row = rows[pick];
+      const at = Math.round(x(row.t + seconds / 2));
       parts.push(svgNode('line', { class: 'chart-pick', x1: at, x2: at, y1: pad.top, y2: stripBase }));
-      parts.push(svgNode('circle', { class: 'chart-dot', cx: at, cy: Math.round(y(add.total[key])), r: 6 }));
+      parts.push(svgNode('circle', { class: 'chart-dot', cx: at, cy: Math.round(y(row.total[key])), r: 6 }));
     }
     svg.replaceChildren(...parts);
     chartReadout();
   };
 
-  // Returns how many adds the ledger lists (0 when it has none or isn't there). If /log ever lists only the later adds,
-  // the totals cover what's missing: the running total starts at the difference, so it still ends at the real total.
-  const drawAdds = (transactions, totals = {}) => {
-    const raw = (Array.isArray(transactions) ? transactions : [])
-      .filter((entry) => entry && entry.kind === 'deposit' && typeof entry.signature === 'string' && isAmount(entry.timestamp))
-      .sort((a, b) => a.timestamp - b.timestamp);
-    const amountOf = (entry, { field, decimals }) => {
-      const value = Number(entry[field]) / 10 ** decimals;
-      return Number.isFinite(value) && value > 0 ? value : 0;
-    };
-    const running = {};
-    Object.entries(CHART).forEach(([key, spec]) => {
-      const listed = raw.reduce((sum, entry) => sum + amountOf(entry, spec), 0);
-      const missing = isAmount(totals[spec.total]) ? totals[spec.total] - listed : 0;
-      running[key] = missing > listed * 0.001 ? missing : 0;
-    });
-    const adds = raw.map((entry) => {
-      const add = { t: entry.timestamp, signature: entry.signature };
-      Object.entries(CHART).forEach(([key, spec]) => {
-        add[key] = amountOf(entry, spec);
-        running[key] += add[key];
+  // Takes /log; returns the total number of adds (0 when there are none or the summaries are missing).
+  const drawAdds = (data) => {
+    const totals = data.totals || {};
+    const bucketed = (list) => {
+      const rows = (Array.isArray(list) ? list : [])
+        .filter((row) => row && isAmount(row.timestamp))
+        .sort((a, b) => a.timestamp - b.timestamp)
+        .map((row) => ({ t: row.timestamp, adds: isAmount(row.adds) ? row.adds : 0,
+          ...Object.fromEntries(Object.entries(CHART).map(([key, { field }]) => [key, isAmount(row[field]) ? row[field] : 0])) }));
+      const running = Object.fromEntries(Object.entries(CHART).map(([key, { field }]) => {
+        const listed = rows.reduce((sum, row) => sum + row[key], 0);
+        const before = isAmount(totals[field]) ? totals[field] - listed : 0;
+        return [key, before > listed * 0.001 ? before : 0];
+      }));
+      return rows.map((row) => {
+        Object.keys(CHART).forEach((key) => { running[key] += row[key]; });
+        return { ...row, total: { ...running } };
       });
-      add.total = { ...running };
-      return add;
-    });
-    // a refresh that brings a new add drops the picked one, so the readout shows the newest.
-    if (adds.length !== chartState.adds.length) chartState.pick = -1;
-    chartState.adds = adds;
-    $('pool-chart').hidden = !adds.length;
+    };
+    const daily = bucketed(data.daily);
+    // hours before the very first add (nothing before them either) are dropped, keeping one empty hour as a lead-in.
+    const hours = bucketed(data.hourly);
+    const firstAdd = hours.findIndex((row) => row.total.sol > 0 || row.adds > 0);
+    const hourly = hours.slice(Math.max(0, firstAdd - 1));
+    // a refresh that adds a bucket drops the picked one, so the readout shows the newest.
+    if (hourly.length !== chartState.rows.hourly.length || daily.length !== chartState.rows.daily.length) chartState.pick = -1;
+    chartState.rows = { hourly, daily };
+    const adds = daily.reduce((sum, row) => sum + row.adds, 0);
+    $('pool-chart').hidden = !adds;
     drawChart();
-    return adds.length;
+    return adds;
   };
 
-  document.querySelectorAll('[data-chart-key]').forEach((button) => {
+  const chartButtons = (attribute, apply) => document.querySelectorAll(`[${attribute}]`).forEach((button) => {
     button.addEventListener('click', () => {
-      chartState.key = button.dataset.chartKey;
-      document.querySelectorAll('[data-chart-key]').forEach((other) => other.setAttribute('aria-pressed', String(other === button)));
+      apply(button);
+      document.querySelectorAll(`[${attribute}]`).forEach((other) => other.setAttribute('aria-pressed', String(other === button)));
       drawChart();
     });
   });
+  chartButtons('data-chart-key', (button) => { chartState.key = button.dataset.chartKey; });
+  chartButtons('data-chart-span', (button) => { chartState.span = button.dataset.chartSpan; chartState.pick = -1; });
   const chartSvg = $('pp-chart');
   const pickAt = (clientX) => {
-    const { adds } = chartState;
-    if (!adds.length) return;
+    const rows = chartRows();
+    const width = Number(chartSvg.getAttribute('width'));
+    if (!rows.length || !width) return;
     const box = chartSvg.getBoundingClientRect();
-    const width = Number(chartSvg.getAttribute('width')) || box.width;
+    const left = width < 560 ? 46 : 62; // drawChart's pad.left
     const at = ((clientX - box.left) / box.width) * width;
-    // nearest add by its x position, read back from the bars.
-    const bars = [...chartSvg.querySelectorAll('.chart-bar')].map((bar) => Number(bar.getAttribute('x')) + 1);
-    let best = 0;
-    bars.forEach((bx, i) => { if (Math.abs(bx - at) < Math.abs(bars[best] - at)) best = i; });
-    if (best !== chartState.pick) { chartState.pick = best; drawChart(); }
+    const index = Math.min(rows.length - 1, Math.max(0, Math.floor(((at - left) / (width - left - 16)) * rows.length)));
+    if (index !== chartState.pick) { chartState.pick = index; drawChart(); }
   };
   chartSvg.addEventListener('pointermove', (event) => pickAt(event.clientX));
   chartSvg.addEventListener('pointerdown', (event) => pickAt(event.clientX));
   chartSvg.addEventListener('keydown', (event) => {
-    const { adds } = chartState;
-    if (!adds.length) return;
-    const from = chartState.pick >= 0 ? chartState.pick : adds.length - 1;
-    const to = { ArrowLeft: from - 1, ArrowRight: from + 1, Home: 0, End: adds.length - 1 }[event.key];
+    const rows = chartRows();
+    if (!rows.length) return;
+    const from = chartState.pick >= 0 ? chartState.pick : rows.length - 1;
+    const to = { ArrowLeft: from - 1, ArrowRight: from + 1, Home: 0, End: rows.length - 1 }[event.key];
     if (to === undefined) return;
     event.preventDefault();
-    chartState.pick = Math.min(adds.length - 1, Math.max(0, to));
+    chartState.pick = Math.min(rows.length - 1, Math.max(0, to));
     drawChart();
   });
   if ('ResizeObserver' in window) {
@@ -317,7 +330,7 @@
     const level = Math.min(64, 18 + Math.log10(1 + sol) * 22);
     setLevel(level, sol > 0 ? `${amount(sol)} sol added so far.` : 'pool found. no adds yet.');
     const recent = newestFirst(data.recent);
-    const adds = drawAdds(data.transactions, totals);
+    const adds = drawAdds(data);
     $('pp-state-text').textContent = recent.length
       ? `running. last checked ${clock(new Date())}.`
       : `running. waiting for enough fees for the first add. last checked ${clock(new Date())}.`;
@@ -330,6 +343,8 @@
   };
 
   let busy = false;
+  let lastShown = 0; // when a real answer last went on the page (0: not yet)
+  let retry = 0; // the one pending 30 s recheck while the keeper restarts
   const update = async () => {
     if (!keeperURL) { showPending('not connected yet.'); showWallet(null); return; }
     if (busy) return;
@@ -341,9 +356,20 @@
       const response = await fetch(keeperURL, { signal: controller.signal, cache: 'no-store' });
       if (!response.ok) throw new Error('keeper unavailable');
       const data = await response.json();
+      if (data && data.last_run === null) {
+        // just restarted: it rebuilds its ledger from the chain (about a minute) and reports zeros until then.
+        // Keep whatever is on the page and look again in 30 seconds.
+        const note = 'restarting. counting the receipts again from the chain, back in about a minute.';
+        if (lastShown) $('pp-state-text').textContent = `${note} the numbers here are from ${clock(new Date(lastShown))}.`;
+        else showPending(note);
+        window.clearTimeout(retry);
+        retry = window.setTimeout(update, 30000);
+        return;
+      }
       showWallet(data);
       if (data && data.state === 'active') showActive(data);
       else showPending(waitingLabel(data));
+      lastShown = Date.now();
     } catch {
       showWallet(null);
       showPending("didn't answer this time. counters stay blank until it does.");

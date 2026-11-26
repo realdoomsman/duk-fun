@@ -3,6 +3,10 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-26
+- **pool chart v2**: pool.js now polls `/log?limit=0` every two minutes (~3 KB gzip instead of the whole ledger) and
+  charts the keeper's `hourly` (last 48 hours, starting at the first add) and `daily` summaries: running total + each
+  hour's/day's amount, toggles for span and sol/duk/lp. While the keeper restarts (`last_run` null, it reports zeros
+  until it has re-read the chain) the page keeps the numbers it had and rechecks in 30 s.
 - **content rule covers file names**: sync-content.py now runs OFF_RULE over each file's stem too (names show up in urls,
   share pages and downloads). It caught clips2/022_back_above_60k.mp4, which is off the site until it's renamed
   (DukVideo asked to rename it).

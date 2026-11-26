@@ -47,6 +47,7 @@
 .pool-chart { margin-top: 50px; }
 .pool-chart-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 20px; }
 .pool-chart h3 { font-size: 26px; }
+.pool-chart-controls { display: flex; flex-wrap: wrap; gap: 8px 22px; }
 .pool-chart-keys { display: flex; flex-wrap: wrap; gap: 8px; }
 .pool-chart-keys button { min-height: 36px; border: 2px solid #111; border-radius: 3px 1px 5px 2px; background: white; padding: 4px 14px; font: inherit; font-size: 14px; font-weight: bold; cursor: pointer; }
 .pool-chart-keys button[aria-pressed="true"] { background: #ff7f27; }

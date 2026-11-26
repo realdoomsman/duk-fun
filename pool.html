@@ -26,10 +26,10 @@
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="style.css?v=5a29f187">
-  <link rel="stylesheet" href="pool.css?v=16a505a0">
+  <link rel="stylesheet" href="pool.css?v=545cfbe9">
   <script src="assets/config.js?v=686d2449" defer></script>
   <script src="app.js?v=e6a33344" defer></script>
-  <script src="pool.js?v=1dbff7f9" defer></script>
+  <script src="pool.js?v=2b9bb0ad" defer></script>
 </head>
 <body class="pool-page">
   <a class="skip-link" href="#main">skip to the page</a>
@@ -140,14 +140,20 @@
 
       <div class="pool-chart" id="pool-chart" hidden>
         <div class="pool-chart-head">
-          <h3 id="pp-chart-title">every add, over time.</h3>
-          <div class="pool-chart-keys" role="group" aria-label="what the chart counts">
-            <button type="button" data-chart-key="sol" aria-pressed="true">sol</button>
-            <button type="button" data-chart-key="duk" aria-pressed="false">duk</button>
-            <button type="button" data-chart-key="lp" aria-pressed="false">lp burned</button>
+          <h3 id="pp-chart-title">the adds, over time.</h3>
+          <div class="pool-chart-controls">
+            <div class="pool-chart-keys" role="group" aria-label="how far back">
+              <button type="button" data-chart-span="hourly" aria-pressed="true">last 48 hours</button>
+              <button type="button" data-chart-span="daily" aria-pressed="false">every day</button>
+            </div>
+            <div class="pool-chart-keys" role="group" aria-label="what the chart counts">
+              <button type="button" data-chart-key="sol" aria-pressed="true">sol</button>
+              <button type="button" data-chart-key="duk" aria-pressed="false">duk</button>
+              <button type="button" data-chart-key="lp" aria-pressed="false">lp burned</button>
+            </div>
           </div>
         </div>
-        <p class="pool-receipts-count">the line is the running total the keeper put in, one step per add. the bars under it are each add on its own. point at it, or tab to it and use the arrow keys.</p>
+        <p class="pool-receipts-count">the line is the running total the keeper put in. the bars under it are what went in each hour (or day). point at it, or tab to it and use the arrow keys.</p>
         <div class="pool-chart-frame"><svg id="pp-chart" class="pool-chart-svg" role="img" tabindex="0" aria-describedby="pp-chart-readout" aria-label="the keeper's adds over time."></svg></div>
         <p class="pool-chart-readout" id="pp-chart-readout" aria-live="polite"></p>
       </div>
