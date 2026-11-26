@@ -103,19 +103,26 @@
   }
 
   // Duk hour: one daily moment (UTC) when everyone says "duk." for ten minutes.
+  // [data-duk-hour] is the header line (minute steps); [data-duk-clock] is the home page clock (second steps).
   const hourSlots = document.querySelectorAll('[data-duk-hour]');
+  const clocks = document.querySelectorAll('[data-duk-clock]');
   const [hourText, minuteText] = String(config.DUK_HOUR_UTC || '21:00').split(':');
   const dukHour = Number(hourText);
   const dukMinute = Number(minuteText) || 0;
-  if (hourSlots.length && Number.isInteger(dukHour) && dukHour >= 0 && dukHour < 24) {
+  if ((hourSlots.length || clocks.length) && Number.isInteger(dukHour) && dukHour >= 0 && dukHour < 24) {
     const windowMs = 10 * 60 * 1000;
     const postHref = `https://x.com/intent/post?text=${encodeURIComponent(`duk.\n${site}`)}`;
-    const render = () => {
+    const pad = (value) => String(value).padStart(2, '0');
+    const utcLabel = `${pad(dukHour)}:${pad(dukMinute)} utc`;
+    const moment = () => {
       const now = Date.now();
       const today = new Date(now);
       const start = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate(), dukHour, dukMinute);
       const live = now >= start && now < start + windowMs;
-      const next = now < start ? start : start + 24 * 60 * 60 * 1000;
+      return { now, start, live, next: now < start ? start : start + 24 * 60 * 60 * 1000 };
+    };
+    const render = () => {
+      const { now, live, next } = moment();
       hourSlots.forEach((slot) => {
         slot.classList.toggle('is-live', live);
         if (live) {
@@ -135,11 +142,41 @@
         const remainder = minutes % 60;
         const wait = hours ? `${hours}h ${remainder}m` : `${remainder}m`;
         slot.replaceChildren(document.createTextNode(`next duk hour in ${wait}`));
-        slot.title = `duk hour is ${String(dukHour).padStart(2, '0')}:${String(dukMinute).padStart(2, '0')} utc daily`;
+        slot.title = `duk hour is ${utcLabel} daily`;
       });
     };
+    const tick = () => {
+      const { now, start, live, next } = moment();
+      const seconds = Math.max(0, Math.ceil(((live ? start + windowMs : next) - now) / 1000));
+      const face = `${pad(Math.floor(seconds / 3600))}:${pad(Math.floor(seconds / 60) % 60)}:${pad(seconds % 60)}`;
+      clocks.forEach((clock) => {
+        clock.classList.toggle('is-live', live);
+        const state = live ? 'live' : 'waiting';
+        if (clock.dataset.state !== state) {
+          clock.dataset.state = state;
+          clock.querySelector('[data-duk-clock-label]').textContent = live ? 'duk hour is on. it ends in' : 'next duk hour in';
+          const action = clock.querySelector('[data-duk-clock-action]');
+          action.textContent = live ? 'post duk. on x' : 'make a duk for it';
+          action.href = live ? postHref : 'maker.html';
+          action.target = live ? '_blank' : '';
+          action.rel = live ? 'noopener noreferrer' : '';
+        }
+        clock.querySelector('[data-duk-clock-face]').textContent = face;
+      });
+    };
+    clocks.forEach((clock) => {
+      const local = clock.querySelector('[data-duk-clock-local]');
+      if (local) {
+        const at = new Date(Date.UTC(2000, 0, 1, dukHour, dukMinute));
+        local.textContent = `that's ${at.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }).toLowerCase()} where you are.`;
+      }
+    });
     render();
     window.setInterval(render, 15000);
+    if (clocks.length) {
+      tick();
+      window.setInterval(tick, 1000);
+    }
   }
 
   // Home directory: live counts of what the copier and the sync script published.
