@@ -19,7 +19,24 @@
     <p class="eyebrow">404</p>
     <h1 style="font-size:clamp(34px,6vw,80px);letter-spacing:-2px;line-height:1.1">this page isn't here.<br><strong>he ducked anyway.</strong></h1>
     <img src="/assets/ducking.png" alt="duk flat on the floor, wings over his head, staring at you" width="1000" height="600" style="display:block;width:min(560px,100%);height:auto;margin:40px 0">
+    <p data-moved hidden></p>
     <p><a class="button" href="/">go home</a> <a class="button" href="/memes.html">the memes</a> <a class="button" href="/maker.html">make a duk</a></p>
+    <script>
+      // A share link (s/<folder>-<file>.html) whose piece left the site: point at the page that piece lived on.
+      (() => {
+        const name = (location.pathname.match(/^\/s\/([\w-]+?)(?:\.html)?$/) || [])[1];
+        if (!name) return;
+        const homes = [[/^(clips2|videos-clips)-/, '/watch.html', 'the clips'], [/^(gifs2|gifs)-/, '/stickers.html#gifs', 'the reaction gifs'],
+          [/^(comics2?)-/, '/comics.html', 'the comics'], [/^daily-/, '/daily.html', 'duk of the day'], [/^fame-/, '/fame.html', 'the wall of fame'], [/./, '/memes.html', 'the memes']];
+        const [, href, label] = homes.find(([test]) => test.test(name));
+        const note = document.querySelector('[data-moved]');
+        const link = document.createElement('a');
+        link.href = href;
+        link.textContent = label;
+        note.append('that one got taken down. the rest are in ', link, '.');
+        note.hidden = false;
+      })();
+    </script>
   </main>
 </body>
 </html>
