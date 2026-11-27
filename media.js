@@ -171,6 +171,11 @@
     if (pack.contact) {
       actions.append(el('a', { class: 'button sticker-sheet', href: pack.contact, download: fileName(pack.contact), text: 'download the sheet', 'aria-label': `download the contact sheet for ${name} (${extension(pack.contact)})` }));
     }
+    // the matching telegram pack (config TELEGRAM_STICKERS via app.js); the two motion packs share one.
+    const telegram = (window.dukTelegramPacks || []).find((tg) => Array.isArray(tg.packs) && tg.packs.includes(pack.id));
+    if (telegram) {
+      actions.append(el('a', { class: 'button sticker-telegram', href: telegram.url, target: '_blank', rel: 'noopener noreferrer', text: 'add to telegram', 'aria-describedby': headingId }));
+    }
     head.append(actions);
     section.append(head);
 

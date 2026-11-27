@@ -64,7 +64,10 @@ def story() -> str:
     parser.feed((SITE / 'press.html').read_text(encoding='utf-8'))
     if not parser.blocks or not parser.ca:
         raise SystemExit('press.html: no [data-press-text] blocks or no #ca-soon')
-    parts = ['duk. press kit\nhttps://duk.fun/press.html\n', f'ticker: $DUK\nchain: solana\nca: {parser.ca}\nx: https://x.com/justdukfun\n']
+    parts = ['duk. press kit\nhttps://duk.fun/press.html\n', f'ticker: $DUK\nchain: solana\nca: {parser.ca}\nx: https://x.com/justdukfun\n'
+             'instagram: https://www.instagram.com/justdukfun/\n'
+             'telegram stickers: https://t.me/addstickers/justduk https://t.me/addstickers/dukdaily '
+             'https://t.me/addstickers/duktrench https://t.me/addstickers/dukmoves\n']
     parts += [f'{name}:\n{text}\n' for name, text in parser.blocks]
     return '\n'.join(parts).replace('\r\n', '\n')
 

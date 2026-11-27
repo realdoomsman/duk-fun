@@ -224,19 +224,37 @@
     if (loopStill.matches) document.querySelectorAll('video[loop]').forEach((video) => video.pause());
   });
 
-  const links = [['PUMP', 'pump.fun'], ['DEX', 'dexscreener'], ['X', 'x / twitter'], ['X_LIST', 'the list (x)']];
+  const links = [['PUMP', 'pump.fun'], ['DEX', 'dexscreener'], ['X', 'x / twitter'], ['INSTAGRAM', 'instagram'], ['X_LIST', 'the list (x)']];
+  const outLink = (href, label) => {
+    const link = document.createElement('a');
+    link.href = href;
+    link.textContent = label;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    return link;
+  };
   document.querySelectorAll('[data-links]').forEach((container) => {
     links.forEach(([key, label]) => {
       const href = externalURL(config[key]);
-      if (!href) return;
-      const link = document.createElement('a');
-      link.href = href;
-      link.textContent = label;
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-      container.append(link);
+      if (href) container.append(outLink(href, label));
     });
   });
+
+  // Telegram sticker packs: one line under the footer links, and wherever a page asks with [data-telegram] (kit).
+  window.dukTelegramPacks = (Array.isArray(config.TELEGRAM_STICKERS) ? config.TELEGRAM_STICKERS : [])
+    .filter((pack) => pack && pack.name && externalURL(pack.url));
+  if (window.dukTelegramPacks.length) {
+    document.querySelectorAll('.site-footer .footer-bottom').forEach((row) => {
+      const line = document.createElement('p');
+      line.className = 'page-width telegram-line';
+      line.dataset.telegram = '';
+      row.after(line);
+    });
+    document.querySelectorAll('[data-telegram]').forEach((line) => {
+      line.replaceChildren('telegram stickers: ');
+      window.dukTelegramPacks.forEach((pack, i) => line.append(i ? ' · ' : '', outLink(externalURL(pack.url), pack.name)));
+    });
+  }
 
   // The pond is optional: its tab and sections stay hidden until config.POND is set.
   const pond = externalURL(config.POND);

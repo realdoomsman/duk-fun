@@ -75,6 +75,8 @@
 .kit-page .kit-section-head h2 { font-size: clamp(36px, 4vw, 56px); letter-spacing: -2px; }
 .kit-page .kit-section-head .eyebrow { margin-bottom: 8px; }
 .kit-page .kit-howto { font-size: 17px; max-width: 380px; text-align: right; transform: rotate(-2deg); }
+.kit-page .kit-telegram { margin-top: 28px; font-size: 17px; }
+.kit-page .kit-telegram:empty { display: none; }
 .kit-page .kit-status { margin-top: 44px; font-size: 15px; }
 
 .kit-page .kit-basics-grid, .kit-page .kit-grid { list-style: none; margin: 0; padding: 0; display: grid; gap: 22px; }

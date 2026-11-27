@@ -3,7 +3,15 @@
 window.DUK_CONFIG = {
   CA: 'DG2EJSEtPBge5F7zBCTZG78p27LTCiq8tUkJ39qupump',
   X: 'https://x.com/justdukfun',
+  INSTAGRAM: 'https://www.instagram.com/justdukfun/',
   X_LIST: '', // x list of members curated by @justdukfun; hidden when empty
+  // telegram sticker packs (stickers2/TELEGRAM.md). 'packs' = the stickers.html pack ids each one holds.
+  TELEGRAM_STICKERS: [
+    { name: 'just duk.', url: 'https://t.me/addstickers/justduk', packs: ['react'] },
+    { name: 'duk daily.', url: 'https://t.me/addstickers/dukdaily', packs: ['daily'] },
+    { name: 'duk trenches.', url: 'https://t.me/addstickers/duktrench', packs: ['trench'] },
+    { name: 'duk moves (animated)', url: 'https://t.me/addstickers/dukmoves', packs: ['motion_a', 'motion_b'] }
+  ],
   POND: '', // community site (on hold). when set, the pond tab and [data-pond-only] sections appear
   CULT_API: '', // pond read api (on hold); nothing on the site reads it yet
   DUK_HOUR_UTC: '21:00', // daily ritual; header countdown flips to "duk hour. say duk." for 10 minutes
