@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T15:01:04Z",
+  "updated": "2026-11-27T15:46:04Z",
   "memes": [
+    {
+      "file": "154_one_signal.png",
+      "src": "assets/memes4/154_one_signal.png",
+      "thumb": "assets/memes4/thumbs/154_one_signal.webp",
+      "title": "the signal groups are busy again. he only ever had one signal.",
+      "alt": "duk reacting to paid trading signal groups busy again. the signal groups are busy again. he only ever had one signal.",
+      "tag": "market",
+      "created": "2026-11-27T15:30:18Z"
+    },
+    {
+      "file": "153_always_on.png",
+      "src": "assets/memes4/153_always_on.png",
+      "thumb": "assets/memes4/thumbs/153_always_on.webp",
+      "title": "the ai trading agents run all day and all night. so does he, in a different way.",
+      "alt": "duk reacting to ai agent trading bots running nonstop. the ai trading agents run all day and all night. so does he, in a different way.",
+      "tag": "market",
+      "created": "2026-11-27T15:30:18Z"
+    },
+    {
+      "file": "152_still_v1.png",
+      "src": "assets/memes4/152_still_v1.png",
+      "thumb": "assets/memes4/thumbs/152_still_v1.webp",
+      "title": "every project is relaunching as a v2. he shipped once and lay down.",
+      "alt": "duk reacting to projects relaunching as \"v2\" after the red month. every project is relaunching as a v2. he shipped once and lay down.",
+      "tag": "market",
+      "created": "2026-11-27T15:30:18Z"
+    },
+    {
+      "file": "151_green_too.png",
+      "src": "assets/memes4/151_green_too.png",
+      "thumb": "assets/memes4/thumbs/151_green_too.webp",
+      "title": "the squeeze threw a green candle at everyone. he does not discriminate. $duk",
+      "alt": "duk reacting to a short squeeze throws a quick green candle at the market. the squeeze threw a green candle at everyone. he does not discriminate. $duk",
+      "tag": "market",
+      "created": "2026-11-27T15:30:18Z"
+    },
     {
       "file": "150_frozen.png",
       "src": "assets/memes4/150_frozen.png",
@@ -1284,6 +1320,78 @@
   ],
   "gifs": [
     {
+      "title": "not running.",
+      "alt": "not running.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/109_not_running.mp4",
+      "gif": "assets/gifs2/109_not_running.gif",
+      "poster": "assets/gifs2/posters/109_not_running.webp",
+      "created": "2026-11-27T15:25:47Z"
+    },
+    {
+      "title": "stopped watching.",
+      "alt": "stopped watching.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/108_stopped_watching.mp4",
+      "gif": "assets/gifs2/108_stopped_watching.gif",
+      "poster": "assets/gifs2/posters/108_stopped_watching.webp",
+      "created": "2026-11-27T15:25:47Z"
+    },
+    {
+      "title": "don't pop up.",
+      "alt": "A red candle pops out of a whack-a-mole hole and gets bonked by a mallet while DUK lies flat in THE DUK pose: \"don't pop up.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/101_dont_pop_up.mp4",
+      "gif": "assets/gifs2/101_dont_pop_up.gif",
+      "poster": "assets/gifs2/posters/101_dont_pop_up.webp",
+      "created": "2026-11-27T15:20:09Z"
+    },
+    {
+      "title": "not falling for it.",
+      "alt": "DUK lies in THE DUK pose next to a mousetrap baited with a sparkling green candle. The trap snaps, the candle flies off and turns red: \"not falling for it.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/100_not_falling_for_it.mp4",
+      "gif": "assets/gifs2/100_not_falling_for_it.gif",
+      "poster": "assets/gifs2/posters/100_not_falling_for_it.webp",
+      "created": "2026-11-27T15:20:09Z"
+    },
+    {
+      "title": "not moving.",
+      "alt": "not moving.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/107_not_moving.mp4",
+      "gif": "assets/gifs2/107_not_moving.gif",
+      "poster": "assets/gifs2/posters/107_not_moving.webp",
+      "created": "2026-11-27T15:10:47Z"
+    },
+    {
+      "title": "below the lasers.",
+      "alt": "below the lasers.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/106_below_the_lasers.mp4",
+      "gif": "assets/gifs2/106_below_the_lasers.gif",
+      "poster": "assets/gifs2/posters/106_below_the_lasers.webp",
+      "created": "2026-11-27T15:10:06Z"
+    },
+    {
+      "title": "visibility low.",
+      "alt": "visibility low.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/105_visibility_low.mp4",
+      "gif": "assets/gifs2/105_visibility_low.gif",
+      "poster": "assets/gifs2/posters/105_visibility_low.webp",
+      "created": "2026-11-27T15:02:59Z"
+    },
+    {
+      "title": "lie flat.",
+      "alt": "lie flat.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/104_lie_flat.mp4",
+      "gif": "assets/gifs2/104_lie_flat.gif",
+      "poster": "assets/gifs2/posters/104_lie_flat.webp",
+      "created": "2026-11-27T15:02:59Z"
+    },
+    {
       "title": "never in it.",
       "alt": "never in it.",
       "tag": "reaction",
@@ -1300,24 +1408,6 @@
       "gif": "assets/gifs2/102_out_of_office.gif",
       "poster": "assets/gifs2/posters/102_out_of_office.webp",
       "created": "2026-11-27T14:56:02Z"
-    },
-    {
-      "title": "not falling for it.",
-      "alt": "not falling for it.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/100_not_falling_for_it.mp4",
-      "gif": "assets/gifs2/100_not_falling_for_it.gif",
-      "poster": "assets/gifs2/posters/100_not_falling_for_it.webp",
-      "created": "2026-11-27T14:53:39Z"
-    },
-    {
-      "title": "dont pop up.",
-      "alt": "dont pop up.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/101_dont_pop_up.mp4",
-      "gif": "assets/gifs2/101_dont_pop_up.gif",
-      "poster": "assets/gifs2/posters/101_dont_pop_up.webp",
-      "created": "2026-11-27T14:53:16Z"
     },
     {
       "title": "too flat.",
@@ -2204,6 +2294,86 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/092_the_treadmill.mp4",
+      "poster": "assets/clips2/092_the_treadmill.webp",
+      "title": "the treadmill.",
+      "alt": "the treadmill.",
+      "created": "2026-11-27T15:26:17Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/091_scary_movie.mp4",
+      "poster": "assets/clips2/091_scary_movie.webp",
+      "title": "scary movie.",
+      "alt": "scary movie.",
+      "created": "2026-11-27T15:26:16Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/084_dont_pop_up.mp4",
+      "poster": "assets/clips2/084_dont_pop_up.webp",
+      "title": "every bounce gets bonked. rule one: don't pop up. $duk",
+      "alt": "An arcade whack-a-mole board. Red candles pop out of the holes one after another and a big mallet bonks each one straight back down. DUK lies flat in THE DUK pose between the holes. The mallet hovers over him, finds nothing sticking up and leaves. \"if it pops up, it gets bonked.\" \"rule one.\" \"don't pop up.\"",
+      "created": "2026-11-27T15:20:09Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/083_small_green_candle.mp4",
+      "poster": "assets/clips2/083_small_green_candle.webp",
+      "title": "small green candle. he's seen this one before. duk.",
+      "alt": "A mousetrap sits on the ground baited with a small sparkling green candle. \"small green candle.\" DUK looks at it, blinks and drops into THE DUK pose instead. The trap snaps shut on its own, the candle flies up, turns red and lands with a thud. \"he's seen this one before.\" \"duk.\"",
+      "created": "2026-11-27T15:20:09Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/090_shakeout.mp4",
+      "poster": "assets/clips2/090_shakeout.webp",
+      "title": "shakeout.",
+      "alt": "shakeout.",
+      "created": "2026-11-27T15:10:46Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/089_laser_grid.mp4",
+      "poster": "assets/clips2/089_laser_grid.webp",
+      "title": "laser grid.",
+      "alt": "laser grid.",
+      "created": "2026-11-27T15:09:55Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/088_low_visibility.mp4",
+      "poster": "assets/clips2/088_low_visibility.webp",
+      "title": "low visibility.",
+      "alt": "low visibility.",
+      "created": "2026-11-27T15:02:58Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/087_thin_ice.mp4",
+      "poster": "assets/clips2/087_thin_ice.webp",
+      "title": "thin ice.",
+      "alt": "thin ice.",
+      "created": "2026-11-27T15:02:56Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/086_house_of_cards.mp4",
       "poster": "assets/clips2/086_house_of_cards.webp",
       "title": "house of cards.",
@@ -2220,26 +2390,6 @@
       "alt": "friday afternoon.",
       "created": "2026-11-27T14:55:58Z",
       "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/083_small_green_candle.mp4",
-      "poster": "assets/clips2/083_small_green_candle.webp",
-      "title": "small green candle.",
-      "alt": "small green candle.",
-      "created": "2026-11-27T14:53:38Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/084_dont_pop_up.mp4",
-      "poster": "assets/clips2/084_dont_pop_up.webp",
-      "title": "dont pop up.",
-      "alt": "dont pop up.",
-      "created": "2026-11-27T14:53:15Z",
-      "duration": 12.0,
       "width": 1080,
       "height": 1080
     },
