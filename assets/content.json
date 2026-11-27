@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T18:01:03Z",
+  "updated": "2026-11-27T18:46:05Z",
   "memes": [
+    {
+      "file": "184_escape_room.png",
+      "src": "assets/memes4/184_escape_room.png",
+      "thumb": "assets/memes4/thumbs/184_escape_room.webp",
+      "title": "everyone wants to know if crypto can escape the november sell-off. he never tried the door.",
+      "alt": "duk reacting to ct asking whether crypto can escape the november sell-off. everyone wants to know if crypto can escape the november sell-off. he never tried the door.",
+      "tag": "market",
+      "created": "2026-11-27T18:30:15Z"
+    },
+    {
+      "file": "183_trade_setup.png",
+      "src": "assets/memes4/183_trade_setup.png",
+      "thumb": "assets/memes4/thumbs/183_trade_setup.webp",
+      "title": "ct is posting trade setups with entries, targets and stops again. his setup has not changed. $duk",
+      "alt": "duk reacting to ct posting trade setups with entries, targets and stop losses. ct is posting trade setups with entries, targets and stops again. his setup has not changed. $duk",
+      "tag": "market",
+      "created": "2026-11-27T18:30:15Z"
+    },
+    {
+      "file": "172_braced.png",
+      "src": "assets/memes4/172_braced.png",
+      "thumb": "assets/memes4/thumbs/172_braced.webp",
+      "title": "ct says buckle up, more turbulence ahead. he has been in the brace position since day one.",
+      "alt": "duk reacting to ct telling everyone to buckle up for more turbulence. ct says buckle up, more turbulence ahead. he has been in the brace position since day one.",
+      "tag": "market",
+      "created": "2026-11-27T18:30:15Z"
+    },
+    {
+      "file": "170_witness.png",
+      "src": "assets/memes4/170_witness.png",
+      "thumb": "assets/memes4/thumbs/170_witness.webp",
+      "title": "ct committed another chart crime. the only witness was lying down at the time. $duk",
+      "alt": "duk reacting to ct drawing wild lines and arrows all over the chart. ct committed another chart crime. the only witness was lying down at the time. $duk",
+      "tag": "market",
+      "created": "2026-11-27T18:30:15Z"
+    },
     {
       "file": "182_missed_bus.png",
       "src": "assets/memes4/182_missed_bus.png",
@@ -1437,6 +1473,69 @@
   ],
   "gifs": [
     {
+      "title": "x marks the spot.",
+      "alt": "x marks the spot.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/117_x_marks_the_spot.mp4",
+      "gif": "assets/gifs2/117_x_marks_the_spot.gif",
+      "poster": "assets/gifs2/posters/117_x_marks_the_spot.webp",
+      "created": "2026-11-27T18:23:40Z"
+    },
+    {
+      "title": "lights out.",
+      "alt": "lights out.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/118_lights_out.mp4",
+      "gif": "assets/gifs2/118_lights_out.gif",
+      "poster": "assets/gifs2/posters/118_lights_out.webp",
+      "created": "2026-11-27T18:23:12Z"
+    },
+    {
+      "title": "not jumping in.",
+      "alt": "not jumping in.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/114_not_jumping_in.mp4",
+      "gif": "assets/gifs2/114_not_jumping_in.gif",
+      "poster": "assets/gifs2/posters/114_not_jumping_in.webp",
+      "created": "2026-11-27T18:21:42Z"
+    },
+    {
+      "title": "in the gutter.",
+      "alt": "in the gutter.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/113_in_the_gutter.mp4",
+      "gif": "assets/gifs2/113_in_the_gutter.gif",
+      "poster": "assets/gifs2/posters/113_in_the_gutter.webp",
+      "created": "2026-11-27T18:21:41Z"
+    },
+    {
+      "title": "doorbuster.",
+      "alt": "doorbuster.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/112_doorbuster.mp4",
+      "gif": "assets/gifs2/112_doorbuster.gif",
+      "poster": "assets/gifs2/posters/112_doorbuster.webp",
+      "created": "2026-11-27T18:21:41Z"
+    },
+    {
+      "title": "not running.",
+      "alt": "A red candle runs in place on a treadmill, going nowhere, while DUK lies flat on the floor next to it: \"not running.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/109_not_running.mp4",
+      "gif": "assets/gifs2/109_not_running.gif",
+      "poster": "assets/gifs2/posters/109_not_running.webp",
+      "created": "2026-11-27T18:20:12Z"
+    },
+    {
+      "title": "stopped watching.",
+      "alt": "A TV plays a red line creeping down next to DUK lying in THE DUK pose in front of a couch: \"stopped watching.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/108_stopped_watching.mp4",
+      "gif": "assets/gifs2/108_stopped_watching.gif",
+      "poster": "assets/gifs2/posters/108_stopped_watching.webp",
+      "created": "2026-11-27T18:20:12Z"
+    },
+    {
       "title": "shake it all you want.",
       "alt": "A snow globe with DUK flat inside gets shaken, snow swirling around him: \"shake it all you want.\"",
       "tag": "reaction",
@@ -1491,33 +1590,6 @@
       "created": "2026-11-27T16:24:22Z"
     },
     {
-      "title": "not jumping in.",
-      "alt": "not jumping in.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/114_not_jumping_in.mp4",
-      "gif": "assets/gifs2/114_not_jumping_in.gif",
-      "poster": "assets/gifs2/posters/114_not_jumping_in.webp",
-      "created": "2026-11-27T16:18:13Z"
-    },
-    {
-      "title": "in the gutter.",
-      "alt": "in the gutter.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/113_in_the_gutter.mp4",
-      "gif": "assets/gifs2/113_in_the_gutter.gif",
-      "poster": "assets/gifs2/posters/113_in_the_gutter.webp",
-      "created": "2026-11-27T16:18:13Z"
-    },
-    {
-      "title": "doorbuster.",
-      "alt": "doorbuster.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/112_doorbuster.mp4",
-      "gif": "assets/gifs2/112_doorbuster.gif",
-      "poster": "assets/gifs2/posters/112_doorbuster.webp",
-      "created": "2026-11-27T16:18:13Z"
-    },
-    {
       "title": "delayed.",
       "alt": "delayed.",
       "tag": "reaction",
@@ -1552,24 +1624,6 @@
       "gif": "assets/gifs2/102_out_of_office.gif",
       "poster": "assets/gifs2/posters/102_out_of_office.webp",
       "created": "2026-11-27T16:05:04Z"
-    },
-    {
-      "title": "not running.",
-      "alt": "not running.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/109_not_running.mp4",
-      "gif": "assets/gifs2/109_not_running.gif",
-      "poster": "assets/gifs2/posters/109_not_running.webp",
-      "created": "2026-11-27T15:25:47Z"
-    },
-    {
-      "title": "stopped watching.",
-      "alt": "stopped watching.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/108_stopped_watching.mp4",
-      "gif": "assets/gifs2/108_stopped_watching.gif",
-      "poster": "assets/gifs2/posters/108_stopped_watching.webp",
-      "created": "2026-11-27T15:25:47Z"
     },
     {
       "title": "don't pop up.",
@@ -2474,6 +2528,66 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/099_x_marks_the_spot.mp4",
+      "poster": "assets/clips2/099_x_marks_the_spot.webp",
+      "title": "x marks the spot.",
+      "alt": "x marks the spot.",
+      "created": "2026-11-27T18:23:35Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/100_still_here_lights_out.mp4",
+      "poster": "assets/clips2/100_still_here_lights_out.webp",
+      "title": "still here lights out.",
+      "alt": "still here lights out.",
+      "created": "2026-11-27T18:23:11Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/096_the_gutter.mp4",
+      "poster": "assets/clips2/096_the_gutter.webp",
+      "title": "the gutter.",
+      "alt": "the gutter.",
+      "created": "2026-11-27T18:21:41Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/095_doorbusters.mp4",
+      "poster": "assets/clips2/095_doorbusters.webp",
+      "title": "doorbusters.",
+      "alt": "doorbusters.",
+      "created": "2026-11-27T18:21:39Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/092_the_treadmill.mp4",
+      "poster": "assets/clips2/092_the_treadmill.webp",
+      "title": "everyone's running. nobody's going anywhere. he got off. $duk",
+      "alt": "Wide shot of a running treadmill with a red candle jogging in place at the front. DUK stands on the moving belt and drops into THE DUK pose; the belt carries him backwards and he slides right off the end onto the floor, still flat, while the candle keeps running. \"everyone's running.\" \"nobody's going anywhere.\" \"he got off.\" \"duk.\"",
+      "created": "2026-11-27T18:20:12Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/091_scary_movie.mp4",
+      "poster": "assets/clips2/091_scary_movie.webp",
+      "title": "weeks of extreme fear. he stopped watching. duk.",
+      "alt": "Movie night. A TV plays a red line creeping down while spooky music builds. DUK drops into THE DUK pose in front of the couch. Jump scare: the screen flashes a giant candle, a popcorn bucket flies off the couch and popcorn rains down around him. He doesn't flinch. \"weeks of extreme fear.\" \"he stopped watching.\" \"duk.\"",
+      "created": "2026-11-27T18:20:12Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/090_shakeout.mp4",
       "poster": "assets/clips2/090_shakeout.webp",
       "title": "shake it all you want. he's not moving. $duk",
@@ -2534,26 +2648,6 @@
       "height": 1080
     },
     {
-      "src": "assets/clips2/096_the_gutter.mp4",
-      "poster": "assets/clips2/096_the_gutter.webp",
-      "title": "the gutter.",
-      "alt": "the gutter.",
-      "created": "2026-11-27T16:18:12Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/095_doorbusters.mp4",
-      "poster": "assets/clips2/095_doorbusters.webp",
-      "title": "doorbusters.",
-      "alt": "doorbusters.",
-      "created": "2026-11-27T16:18:11Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
       "src": "assets/clips2/094_everything_delayed.mp4",
       "poster": "assets/clips2/094_everything_delayed.webp",
       "title": "everything delayed.",
@@ -2590,26 +2684,6 @@
       "alt": "Office on a friday afternoon. DUK stands by a desk, then drops into THE DUK pose as paper planes fly over him: \"quick call?\" \"circling back\" \"one more thing\" \"per my last email\" \"urgent\". An \"out of office.\" sign drops onto his back. \"he's out of office.\" \"duk.\"",
       "created": "2026-11-27T16:05:04Z",
       "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/092_the_treadmill.mp4",
-      "poster": "assets/clips2/092_the_treadmill.webp",
-      "title": "the treadmill.",
-      "alt": "the treadmill.",
-      "created": "2026-11-27T15:26:17Z",
-      "duration": 11.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/091_scary_movie.mp4",
-      "poster": "assets/clips2/091_scary_movie.webp",
-      "title": "scary movie.",
-      "alt": "scary movie.",
-      "created": "2026-11-27T15:26:16Z",
-      "duration": 10.0,
       "width": 1080,
       "height": 1080
     },

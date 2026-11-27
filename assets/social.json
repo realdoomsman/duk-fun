@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "duk-reel-033",
+      "platform": "instagram",
+      "kind": "reel",
+      "url": "https://www.instagram.com/reel/DgQVi1oPB5N/",
+      "caption": "boss asked if he can come in for black friday. duk.",
+      "ts": "2026-11-27T18:35:55Z",
+      "thumb": "assets/social/duk-reel-033.webp",
+      "width": 400,
+      "height": 711
+    },
+    {
       "id": "duk-still-001",
       "platform": "instagram",
       "kind": "post",
