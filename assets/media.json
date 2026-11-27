@@ -3590,6 +3590,234 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/107_fomo_fud.webp"
+      },
+      {
+        "file": "formats/119_hold_still.png",
+        "src": "assets/kit/formats/119_hold_still.png",
+        "title": "what they said, what he heard",
+        "alt": "Two panels split by a line, each with an empty pale yellow note: a stick figure under the left one, DUK lying flat under the right one. Empty labels on top, empty lines below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.087,
+            0.033,
+            0.327,
+            0.047
+          ],
+          [
+            0.56,
+            0.033,
+            0.38,
+            0.047
+          ],
+          [
+            0.107,
+            0.193,
+            0.287,
+            0.087
+          ],
+          [
+            0.667,
+            0.153,
+            0.167,
+            0.167
+          ],
+          [
+            0.327,
+            0.78,
+            0.22,
+            0.073
+          ],
+          [
+            0.58,
+            0.787,
+            0.087,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/119_hold_still.webp"
+      },
+      {
+        "file": "formats/123_down_good.png",
+        "src": "assets/kit/formats/123_down_good.png",
+        "title": "the two panels",
+        "alt": "Two tall white panels side by side: a stick figure lying knocked out on the left, DUK lying flat on the right. Empty headers on both, an empty line below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.107,
+            0.06,
+            0.16,
+            0.06
+          ],
+          [
+            0.3,
+            0.06,
+            0.12,
+            0.06
+          ],
+          [
+            0.567,
+            0.06,
+            0.34,
+            0.08
+          ],
+          [
+            0.1,
+            0.8,
+            0.793,
+            0.053
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/123_down_good.webp"
+      },
+      {
+        "file": "formats/129_cycle_wheel.png",
+        "src": "assets/kit/formats/129_cycle_wheel.png",
+        "title": "the wheel",
+        "alt": "A pale blue wheel with arrows going round and four empty colored tags on it, green, yellow, red and blue. DUK lies flat in the middle. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.347,
+            0.027,
+            0.307,
+            0.08
+          ],
+          [
+            0.447,
+            0.187,
+            0.107,
+            0.04
+          ],
+          [
+            0.173,
+            0.44,
+            0.153,
+            0.047
+          ],
+          [
+            0.66,
+            0.44,
+            0.18,
+            0.047
+          ],
+          [
+            0.453,
+            0.687,
+            0.093,
+            0.04
+          ],
+          [
+            0.213,
+            0.827,
+            0.093,
+            0.06
+          ],
+          [
+            0.587,
+            0.84,
+            0.193,
+            0.047
+          ],
+          [
+            0.34,
+            0.827,
+            0.213,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/129_cycle_wheel.webp"
+      },
+      {
+        "file": "formats/132_alert_feed.png",
+        "src": "assets/kit/formats/132_alert_feed.png",
+        "title": "the alert feed",
+        "alt": "An old computer window of four empty alert rows, the last one pale yellow. DUK lies flat on the floor under it.",
+        "tag": "template",
+        "spots": [
+          [
+            0.087,
+            0.047,
+            0.213,
+            0.027
+          ],
+          [
+            0.893,
+            0.04,
+            0.02,
+            0.02
+          ],
+          [
+            0.113,
+            0.12,
+            0.387,
+            0.08
+          ],
+          [
+            0.113,
+            0.247,
+            0.427,
+            0.08
+          ],
+          [
+            0.113,
+            0.367,
+            0.467,
+            0.087
+          ],
+          [
+            0.12,
+            0.493,
+            0.58,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/132_alert_feed.webp"
+      },
+      {
+        "file": "formats/134_the_vows.png",
+        "src": "assets/kit/formats/134_the_vows.png",
+        "title": "the vows",
+        "alt": "A white wedding arch with pink flowers and an empty sign on top. A stick figure stands under it next to DUK, who lies flat. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.353,
+            0.027,
+            0.287,
+            0.06
+          ],
+          [
+            0.28,
+            0.193,
+            0.433,
+            0.047
+          ],
+          [
+            0.333,
+            0.8,
+            0.087,
+            0.067
+          ],
+          [
+            0.46,
+            0.8,
+            0.2,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/134_the_vows.webp"
       }
     ],
     "pfp": [
