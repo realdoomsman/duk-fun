@@ -5054,6 +5054,84 @@
         "thumb": "assets/kit/formats/thumbs/175_lost_found.webp"
       },
       {
+        "file": "formats/177_grounded.png",
+        "src": "assets/kit/formats/177_grounded.png",
+        "title": "the departures board",
+        "alt": "A black airport departures board with an empty title and four rows of empty destinations, each with an empty status on the right. DUK lies flat on the ground under it. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.347,
+            0.047,
+            0.307,
+            0.06
+          ],
+          [
+            0.12,
+            0.167,
+            0.167,
+            0.04
+          ],
+          [
+            0.707,
+            0.167,
+            0.173,
+            0.047
+          ],
+          [
+            0.12,
+            0.267,
+            0.227,
+            0.04
+          ],
+          [
+            0.667,
+            0.267,
+            0.213,
+            0.04
+          ],
+          [
+            0.12,
+            0.367,
+            0.193,
+            0.04
+          ],
+          [
+            0.707,
+            0.367,
+            0.173,
+            0.047
+          ],
+          [
+            0.12,
+            0.467,
+            0.08,
+            0.04
+          ],
+          [
+            0.667,
+            0.467,
+            0.213,
+            0.047
+          ],
+          [
+            0.247,
+            0.82,
+            0.093,
+            0.053
+          ],
+          [
+            0.373,
+            0.8,
+            0.367,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/177_grounded.webp"
+      },
+      {
         "file": "formats/179_one_page.png",
         "src": "assets/kit/formats/179_one_page.png",
         "title": "the bookshelf",
@@ -5610,6 +5688,168 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/193_screen_time.webp"
+      },
+      {
+        "file": "formats/195_canary.png",
+        "src": "assets/kit/formats/195_canary.png",
+        "title": "the coal mine",
+        "alt": "A dark brown mine shaft with a yellow canary in a cage shouting into an empty speech bubble, under an empty title. DUK lies flat on the mine floor. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.12,
+            0.02,
+            0.753,
+            0.067
+          ],
+          [
+            0.467,
+            0.253,
+            0.193,
+            0.047
+          ],
+          [
+            0.533,
+            0.793,
+            0.24,
+            0.067
+          ],
+          [
+            0.213,
+            0.793,
+            0.287,
+            0.087
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/195_canary.webp"
+      },
+      {
+        "file": "formats/196_reflex_test.png",
+        "src": "assets/kit/formats/196_reflex_test.png",
+        "title": "the reflex test",
+        "alt": "A doctor stick figure tapping a patient stick figure on the knee with a little hammer, under an empty title, with an empty sign on a post beside them. DUK lies flat on the ground under the sign. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.127,
+            0.027,
+            0.747,
+            0.067
+          ],
+          [
+            0.64,
+            0.273,
+            0.26,
+            0.047
+          ],
+          [
+            0.227,
+            0.273,
+            0.027,
+            0.06
+          ],
+          [
+            0.267,
+            0.8,
+            0.087,
+            0.047
+          ],
+          [
+            0.387,
+            0.78,
+            0.333,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/196_reflex_test.webp"
+      },
+      {
+        "file": "formats/198_bell_curve.png",
+        "src": "assets/kit/formats/198_bell_curve.png",
+        "title": "the bell curve",
+        "alt": "The bell curve meme: a stick figure in the middle of a pale blue hill with a big empty speech bubble, DUK lying flat at the low end and a hooded figure at the high end, each with a small empty bubble. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.32,
+            0.133,
+            0.36,
+            0.147
+          ],
+          [
+            0.747,
+            0.427,
+            0.187,
+            0.053
+          ],
+          [
+            0.107,
+            0.52,
+            0.1,
+            0.053
+          ],
+          [
+            0.06,
+            0.827,
+            0.88,
+            0.053
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/198_bell_curve.webp"
+      },
+      {
+        "file": "formats/202_change_my_mind.png",
+        "src": "assets/kit/formats/202_change_my_mind.png",
+        "title": "the table",
+        "alt": "The change my mind meme: DUK lies flat on the grass under a folding table with an empty two-line sign on it, a stick figure on each side with an empty speech bubble. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.787,
+            0.093,
+            0.113,
+            0.073
+          ],
+          [
+            0.013,
+            0.16,
+            0.287,
+            0.073
+          ],
+          [
+            0.44,
+            0.3,
+            0.22,
+            0.053
+          ],
+          [
+            0.38,
+            0.38,
+            0.333,
+            0.053
+          ],
+          [
+            0.167,
+            0.8,
+            0.2,
+            0.073
+          ],
+          [
+            0.407,
+            0.8,
+            0.42,
+            0.087
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/202_change_my_mind.webp"
       }
     ],
     "pfp": [

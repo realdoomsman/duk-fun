@@ -13,12 +13,13 @@ Owner: DukSiteBuilder. Newest first.
 - **duk, in your feed** (home, after the wall of fame): the 4 newest instagram/tiktok posts from DukSocials' social/post-log.jsonl
   (stories left out: they only link the profile). `scripts/social.py` -> assets/social.json + assets/social/<id>.webp (400px, first
   picture or a reel frame), content rule applied to captions/names; sync-content.py runs it every pass and publishes both.
-- **formats 86**: + the returns desk, the board and the sign, the vault, the inbox, the river bank (memes4 135/136/138/140/142),
+- **formats 91**: + the returns desk, the board and the sign, the vault, the inbox, the river bank (memes4 135/136/138/140/142),
   the door, the screen, the decoys, the two boards, the ice (143/146/148/149/150), the four signs, the robots, the traffic light
   (152-154), the balloons, the dictionary, the two windows (155/156/158), the podium, the support group, the shelves, the list,
   the bus (160/161/163/167/182), the brace position, the setup card, the escape room (172/183/184), the lava, the hot potato,
   the roll call, the lost and found, the poster, the two lists, the hedge (164/169/171/175/185/186/187), the tug of war,
-  the bookshelf, the thin ice, the yearbook (174/179/189/190), the press podium, the phone screen (192/193).
+  the bookshelf, the thin ice, the yearbook (174/179/189/190), the press podium, the phone screen (192/193), the departures board,
+  the coal mine, the reflex test, the bell curve, the table (177/195/196/198/202).
 - **maker spot ink**: with ink on auto, a "more words" block that lands on a format spot samples the blank art under the spot and
   picks dark or white ink (white on the black motivational poster, dark on signs and notes).
 - **home pool line**: "newest N min ago" only while the newest add is under 30 min old; after that just "N adds today (utc)."
