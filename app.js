@@ -558,6 +558,49 @@
     }).catch(() => { /* no strip. */ });
   }
 
+  // Home: the newest instagram/tiktok posts (assets/social.json, scripts/social.py from DukSocials' post log);
+  // hidden while there are none. Each tile opens the post itself.
+  const socialStrip = document.querySelector('[data-social]');
+  if (socialStrip) {
+    const POST = /^https:\/\/(www\.)?(instagram\.com|tiktok\.com)\//;
+    const KIND = { reel: 'reel', carousel: 'swipe', still: 'post', video: 'video', post: 'post' };
+    getJSON('assets/social.json').then((social) => {
+      const posts = list(social && social.posts)
+        .filter((post) => post && POST.test(post.url || '') && /^assets\/social\/[\w-]+\.webp$/.test(post.thumb || '')).slice(0, 4);
+      if (!posts.length) return;
+      const where = [...new Set(posts.map((post) => post.platform))].sort().join(' + ');
+      socialStrip.querySelector('[data-social-where]').textContent = `on ${where}`;
+      const follow = [['INSTAGRAM', 'instagram'], ['TIKTOK', 'tiktok']]
+        .map(([key, label]) => [externalURL(config[key]), label]).filter(([href]) => href);
+      socialStrip.querySelector('[data-social-follow]').replaceChildren(...follow.flatMap(([href, label], index) => {
+        const link = outLink(href, `${label} @justdukfun`);
+        link.className = 'text-link';
+        return index ? [' / ', link] : [link];
+      }));
+      socialStrip.querySelector('[data-social-grid]').replaceChildren(...posts.map((post) => {
+        const kind = KIND[post.kind] || 'post';
+        const tile = document.createElement('li');
+        tile.className = 'fresh-tile';
+        const link = outLink(post.url, '');
+        link.className = 'fresh-frame';
+        link.setAttribute('aria-label', `${post.caption || 'just duk.'} (${post.platform} ${kind})`);
+        const image = document.createElement('img');
+        image.loading = 'lazy';
+        Object.assign(image, { src: post.thumb, alt: '', width: post.width || 400, height: post.height || 500, decoding: 'async' });
+        link.append(image);
+        const caption = document.createElement('p');
+        caption.className = 'fresh-cap';
+        const tag = document.createElement('span');
+        tag.className = 'fresh-kind';
+        tag.textContent = post.platform === 'tiktok' ? 'tiktok' : kind;
+        caption.append(tag, post.caption || 'just duk.');
+        tile.append(link, caption);
+        return tile;
+      }));
+      socialStrip.hidden = false;
+    }).catch(() => { /* no strip. */ });
+  }
+
   // Home pool card: today's add count (utc) and how long ago the newest one landed, from the keeper's /log
   // (limit=0 = summaries only, a few kb). Hidden when the keeper isn't set, isn't adding or is restarting (zeros).
   const poolToday = document.querySelector('[data-pool-today]');

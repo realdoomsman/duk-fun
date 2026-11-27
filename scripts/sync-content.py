@@ -38,8 +38,9 @@ SHARE = SITE / 's'  # scripts/share-pages.py: a page + card per meme and clip, r
 DAILY = ASSETS / 'daily.json'  # scripts/daily.py: today's duk, written down once a day
 FEED = SITE / 'feed.xml'  # scripts/feed.py: rss of the fresh drops + duk of the day, rebuilt after every sync
 SITEMAP = SITE / 'sitemap.xml'  # scripts/sitemap.py: each page's lastmod from its newest drop or commit
+SOCIAL = (ASSETS / 'social.json', ASSETS / 'social')  # scripts/social.py: newest instagram/tiktok posts for home
 PUBLISHED = ([MANIFEST.relative_to(SITE).as_posix()] + [path.relative_to(SITE).as_posix() for path in FOLDERS.values()]
-             + [path.relative_to(SITE).as_posix() for path in (SHARE, DAILY, FEED, SITEMAP)])
+             + [path.relative_to(SITE).as_posix() for path in (SHARE, DAILY, FEED, SITEMAP, *SOCIAL)])
 # Content rule: no prices, dollar amounts, percentages, leverage multipliers, other coins. Listed files and items
 # whose caption/topic/alt/title trip OFF_RULE (or that the producer marked retracted) are never published.
 BLOCKLIST = PROJECT / 'work' / 'state' / 'content-blocklist.txt'
@@ -369,6 +370,8 @@ def main() -> None:
     subprocess.run([sys.executable, str(SITE / 'scripts' / 'share-pages.py')], check=True)
     subprocess.run([sys.executable, str(SITE / 'scripts' / 'feed.py')], check=True)
     subprocess.run([sys.executable, str(SITE / 'scripts' / 'sitemap.py')], check=True)
+    # the home page's instagram/tiktok strip; DukSocials' log is outside the site, so a bad line there never stops a sync.
+    subprocess.run([sys.executable, str(SITE / 'scripts' / 'social.py')])
     print(f"content.json: {summary}{' (updated)' if changed else ' (no change)'}"
           + (f"; pruned {len(removed)} files" if removed else '')
           + (f"; blocked {len(blocked)}: {' '.join(blocked)}" if blocked else ''))

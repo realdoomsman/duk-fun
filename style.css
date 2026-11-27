@@ -268,9 +268,10 @@ a.fresh-frame:hover, .fresh-play:hover { border-color: #ff7f27; }
 .fresh-cap a { text-underline-offset: 3px; }
 .fresh-cap a:hover { background: #ff7f27; }
 .fresh-more { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 34px; }
+.social-grid .fresh-frame { aspect-ratio: 4 / 5; }
 @media (max-width: 700px) {
-  .fresh-wall .inline-heading { display: block; margin-bottom: 26px; }
-  .fresh-wall .inline-heading > p { margin-top: 8px; font-size: 13px; }
+  .fresh-wall .inline-heading, .social-strip .inline-heading { display: block; margin-bottom: 26px; }
+  .fresh-wall .inline-heading > p, .social-strip .inline-heading > p { margin-top: 8px; font-size: 13px; }
   .fresh-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 12px; }
   .fresh-kind { font-size: 10px; padding: 0 4px; margin-right: 5px; }
   .fresh-cap { font-size: 13px; margin-top: 7px; }
