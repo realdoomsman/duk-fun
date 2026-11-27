@@ -4026,6 +4026,180 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/142_river_bank.webp"
+      },
+      {
+        "file": "formats/143_guest_list.png",
+        "src": "assets/kit/formats/143_guest_list.png",
+        "title": "the door",
+        "alt": "A dark doorway in a blue wall with an empty sign over it, and a stick figure beside it holding a list with a red line through it. DUK lies flat on the ground by the door. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.193,
+            0.127,
+            0.24,
+            0.053
+          ],
+          [
+            0.767,
+            0.327,
+            0.133,
+            0.033
+          ],
+          [
+            0.5,
+            0.767,
+            0.427,
+            0.113
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/143_guest_list.webp"
+      },
+      {
+        "file": "formats/146_holding_down.png",
+        "src": "assets/kit/formats/146_holding_down.png",
+        "title": "the screen",
+        "alt": "An old computer window with an empty speech bubble in it. DUK lies flat on the ground under it. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.413,
+            0.093,
+            0.173,
+            0.04
+          ],
+          [
+            0.367,
+            0.227,
+            0.267,
+            0.113
+          ],
+          [
+            0.24,
+            0.813,
+            0.267,
+            0.093
+          ],
+          [
+            0.54,
+            0.813,
+            0.207,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/146_holding_down.webp"
+      },
+      {
+        "file": "formats/148_decoys.png",
+        "src": "assets/kit/formats/148_decoys.png",
+        "title": "the decoys",
+        "alt": "Three wooden decoy ducks in a pale blue marsh with an empty label pointing at them. DUK lies flat in the grass at the end of the row. Empty lines above and along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.22,
+            0.027,
+            0.56,
+            0.08
+          ],
+          [
+            0.26,
+            0.347,
+            0.18,
+            0.067
+          ],
+          [
+            0.06,
+            0.813,
+            0.127,
+            0.053
+          ],
+          [
+            0.22,
+            0.813,
+            0.713,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/148_decoys.webp"
+      },
+      {
+        "file": "formats/149_pay_later.png",
+        "src": "assets/kit/formats/149_pay_later.png",
+        "title": "the two boards",
+        "alt": "An empty yellow board and an empty white board over two stick figures with their arms up and red boxes at their feet. DUK lies flat beside them. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.127,
+            0.087,
+            0.273,
+            0.14
+          ],
+          [
+            0.553,
+            0.087,
+            0.36,
+            0.14
+          ],
+          [
+            0.613,
+            0.8,
+            0.273,
+            0.06
+          ],
+          [
+            0.1,
+            0.8,
+            0.48,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/149_pay_later.webp"
+      },
+      {
+        "file": "formats/150_frozen.png",
+        "src": "assets/kit/formats/150_frozen.png",
+        "title": "the ice",
+        "alt": "An empty white sign over DUK, who lies flat frozen in a pale blue block of ice. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.273,
+            0.073,
+            0.447,
+            0.12
+          ],
+          [
+            0.207,
+            0.8,
+            0.093,
+            0.067
+          ],
+          [
+            0.333,
+            0.8,
+            0.207,
+            0.073
+          ],
+          [
+            0.573,
+            0.8,
+            0.207,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/150_frozen.webp"
       }
     ],
     "pfp": [
