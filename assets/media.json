@@ -4958,6 +4958,48 @@
         "thumb": "assets/kit/formats/thumbs/172_braced.webp"
       },
       {
+        "file": "formats/174_tug_of_war.png",
+        "src": "assets/kit/formats/174_tug_of_war.png",
+        "title": "the tug of war",
+        "alt": "A brown bull and a brown bear pulling a rope in opposite directions under an empty title. DUK lies flat on the ground below the rope. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.333,
+            0.027,
+            0.327,
+            0.073
+          ],
+          [
+            0.213,
+            0.8,
+            0.12,
+            0.06
+          ],
+          [
+            0.367,
+            0.813,
+            0.087,
+            0.047
+          ],
+          [
+            0.487,
+            0.813,
+            0.047,
+            0.047
+          ],
+          [
+            0.56,
+            0.8,
+            0.22,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/174_tug_of_war.webp"
+      },
+      {
         "file": "formats/175_lost_found.png",
         "src": "assets/kit/formats/175_lost_found.png",
         "title": "the lost and found",
@@ -5010,6 +5052,72 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/175_lost_found.webp"
+      },
+      {
+        "file": "formats/179_one_page.png",
+        "src": "assets/kit/formats/179_one_page.png",
+        "title": "the bookshelf",
+        "alt": "A stack of five colored book spines, each with an empty title, and a small white note beside it with an empty heading and one empty line. DUK lies flat on the ground under them. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.2,
+            0.073,
+            0.3,
+            0.033
+          ],
+          [
+            0.2,
+            0.153,
+            0.293,
+            0.033
+          ],
+          [
+            0.713,
+            0.147,
+            0.16,
+            0.08
+          ],
+          [
+            0.2,
+            0.24,
+            0.3,
+            0.033
+          ],
+          [
+            0.267,
+            0.32,
+            0.167,
+            0.033
+          ],
+          [
+            0.713,
+            0.3,
+            0.147,
+            0.067
+          ],
+          [
+            0.233,
+            0.407,
+            0.227,
+            0.033
+          ],
+          [
+            0.267,
+            0.8,
+            0.213,
+            0.073
+          ],
+          [
+            0.513,
+            0.8,
+            0.213,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/179_one_page.webp"
       },
       {
         "file": "formats/182_missed_bus.png",
@@ -5310,6 +5418,90 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/187_hedge.webp"
+      },
+      {
+        "file": "formats/189_thin_ice.png",
+        "src": "assets/kit/formats/189_thin_ice.png",
+        "title": "the thin ice",
+        "alt": "Two stick figures standing on cracking pale blue ice with an empty sign on a post between them, under an empty title. DUK lies flat on the ice. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.24,
+            0.033,
+            0.52,
+            0.067
+          ],
+          [
+            0.413,
+            0.173,
+            0.173,
+            0.04
+          ],
+          [
+            0.113,
+            0.8,
+            0.227,
+            0.08
+          ],
+          [
+            0.373,
+            0.8,
+            0.507,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/189_thin_ice.webp"
+      },
+      {
+        "file": "formats/190_yearbook.png",
+        "src": "assets/kit/formats/190_yearbook.png",
+        "title": "the yearbook",
+        "alt": "A white yearbook page with an empty title, three stick figure photos with an empty caption under each, and a wide photo of DUK lying flat with an empty caption under it. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.287,
+            0.04,
+            0.427,
+            0.053
+          ],
+          [
+            0.1,
+            0.387,
+            0.18,
+            0.067
+          ],
+          [
+            0.393,
+            0.387,
+            0.213,
+            0.06
+          ],
+          [
+            0.7,
+            0.387,
+            0.207,
+            0.067
+          ],
+          [
+            0.22,
+            0.673,
+            0.56,
+            0.04
+          ],
+          [
+            0.287,
+            0.8,
+            0.42,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/190_yearbook.webp"
       }
     ],
     "pfp": [

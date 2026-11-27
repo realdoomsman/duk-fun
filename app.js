@@ -637,9 +637,11 @@
         const today = new Date().toISOString().slice(0, 10);
         const row = list(log.daily).find((day) => day && day.day === today);
         const adds = row && Number.isInteger(row.adds) ? row.adds : 0;
-        poolToday.textContent = adds
-          ? `${adds} ${adds === 1 ? 'add' : 'adds'} today (utc). newest ${ago(newest)}.`
-          : `no adds yet today (utc). newest ${ago(newest)}.`;
+        // the age only shows while adds are recent (30 min); after that the line is just today's count.
+        const fresh = Date.now() / 1000 - newest < 1800;
+        if (!adds && !fresh) { poolToday.hidden = true; return; }
+        const count = adds ? `${adds} ${adds === 1 ? 'add' : 'adds'} today (utc).` : 'no adds yet today (utc).';
+        poolToday.textContent = fresh ? `${count} newest ${ago(newest)}.` : count;
         poolToday.hidden = false;
       })
       .catch(() => { /* the card keeps its last line. */ });
