@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T21:01:05Z",
+  "updated": "2026-11-27T21:46:05Z",
   "memes": [
+    {
+      "file": "193_screen_time.png",
+      "src": "assets/memes4/193_screen_time.png",
+      "thumb": "assets/memes4/thumbs/193_screen_time.webp",
+      "title": "ct checked its screen time after this month. he has been busy elsewhere. $duk",
+      "alt": "duk reacting to traders glued to charts and alerts through a crypto confidence crisis. ct checked its screen time after this month. he has been busy elsewhere. $duk",
+      "tag": "market",
+      "created": "2026-11-27T21:30:16Z"
+    },
+    {
+      "file": "192_blackout.png",
+      "src": "assets/memes4/192_blackout.png",
+      "thumb": "assets/memes4/thumbs/192_blackout.webp",
+      "title": "the fed goes quiet before the next meeting. he has had no comment since the first candle. $duk",
+      "alt": "duk reacting to the fed going into its quiet period before the next meeting, no more comments. the fed goes quiet before the next meeting. he has had no comment since the first candle. $duk",
+      "tag": "market",
+      "created": "2026-11-27T21:30:16Z"
+    },
+    {
+      "file": "191_rainbow.png",
+      "src": "assets/memes4/191_rainbow.png",
+      "thumb": "assets/memes4/thumbs/191_rainbow.webp",
+      "title": "ct is posting the rainbow chart again. he lives in the band they never print. $duk",
+      "alt": "duk reacting to ct posting the rainbow chart with the market sitting in the lowest bands. ct is posting the rainbow chart again. he lives in the band they never print. $duk",
+      "tag": "market",
+      "created": "2026-11-27T21:30:16Z"
+    },
+    {
+      "file": "176_bottom_row.png",
+      "src": "assets/memes4/176_bottom_row.png",
+      "thumb": "assets/memes4/thumbs/176_bottom_row.webp",
+      "title": "everyone is trying to time the bottom. he slotted in a long time ago.",
+      "alt": "duk reacting to everyone trying to time the bottom of the red month. everyone is trying to time the bottom. he slotted in a long time ago.",
+      "tag": "market",
+      "created": "2026-11-27T21:30:16Z"
+    },
     {
       "file": "190_yearbook.png",
       "src": "assets/memes4/190_yearbook.png",
@@ -1581,13 +1617,67 @@
   ],
   "gifs": [
     {
-      "title": "it pops.",
-      "alt": "it pops.",
+      "title": "already lying down.",
+      "alt": "already lying down.",
       "tag": "reaction",
-      "mp4": "assets/gifs2/120_it_pops.mp4",
-      "gif": "assets/gifs2/120_it_pops.gif",
-      "poster": "assets/gifs2/posters/120_it_pops.webp",
-      "created": "2026-11-27T20:36:16Z"
+      "mp4": "assets/gifs2/124_already_lying_down.mp4",
+      "gif": "assets/gifs2/124_already_lying_down.gif",
+      "poster": "assets/gifs2/posters/124_already_lying_down.webp",
+      "created": "2026-11-27T21:27:13Z"
+    },
+    {
+      "title": "low clearance.",
+      "alt": "low clearance.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/123_low_clearance.mp4",
+      "gif": "assets/gifs2/123_low_clearance.gif",
+      "poster": "assets/gifs2/posters/123_low_clearance.webp",
+      "created": "2026-11-27T21:27:13Z"
+    },
+    {
+      "title": "boing.",
+      "alt": "boing.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/120_boing.mp4",
+      "gif": "assets/gifs2/120_boing.gif",
+      "poster": "assets/gifs2/posters/120_boing.webp",
+      "created": "2026-11-27T21:22:40Z"
+    },
+    {
+      "title": "took itself out.",
+      "alt": "took itself out.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/122_took_itself_out.mp4",
+      "gif": "assets/gifs2/122_took_itself_out.gif",
+      "poster": "assets/gifs2/posters/122_took_itself_out.webp",
+      "created": "2026-11-27T21:21:40Z"
+    },
+    {
+      "title": "not riding.",
+      "alt": "not riding.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/121_not_riding.mp4",
+      "gif": "assets/gifs2/121_not_riding.gif",
+      "poster": "assets/gifs2/posters/121_not_riding.webp",
+      "created": "2026-11-27T21:21:40Z"
+    },
+    {
+      "title": "still here.",
+      "alt": "The lights go out in a room with a green exit sign, and DUK is still lying there in THE DUK pose: \"still here.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/118_lights_out.mp4",
+      "gif": "assets/gifs2/118_lights_out.gif",
+      "poster": "assets/gifs2/posters/118_lights_out.webp",
+      "created": "2026-11-27T21:20:06Z"
+    },
+    {
+      "title": "x marks the spot.",
+      "alt": "DUK lies flat in THE DUK pose on a big red treasure-map X with a dotted trail leading to it: \"x marks the spot.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/117_x_marks_the_spot.mp4",
+      "gif": "assets/gifs2/117_x_marks_the_spot.gif",
+      "poster": "assets/gifs2/posters/117_x_marks_the_spot.webp",
+      "created": "2026-11-27T21:20:06Z"
     },
     {
       "title": "staying in.",
@@ -1599,15 +1689,6 @@
       "created": "2026-11-27T20:36:15Z"
     },
     {
-      "title": "went under.",
-      "alt": "Hurdles slide over DUK lying flat on a running track: \"went under.\"",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/116_went_under.mp4",
-      "gif": "assets/gifs2/116_went_under.gif",
-      "poster": "assets/gifs2/posters/116_went_under.webp",
-      "created": "2026-11-27T20:35:14Z"
-    },
-    {
       "title": "closed.",
       "alt": "A shop sign spins from \"open.\" to \"closed.\" and DUK is already flat in THE DUK pose next to it: \"closed.\"",
       "tag": "reaction",
@@ -1615,42 +1696,6 @@
       "gif": "assets/gifs2/115_closed.gif",
       "poster": "assets/gifs2/posters/115_closed.webp",
       "created": "2026-11-27T20:35:14Z"
-    },
-    {
-      "title": "not riding.",
-      "alt": "not riding.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/121_not_riding.mp4",
-      "gif": "assets/gifs2/121_not_riding.gif",
-      "poster": "assets/gifs2/posters/121_not_riding.webp",
-      "created": "2026-11-27T19:54:11Z"
-    },
-    {
-      "title": "took itself out.",
-      "alt": "took itself out.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/122_took_itself_out.mp4",
-      "gif": "assets/gifs2/122_took_itself_out.gif",
-      "poster": "assets/gifs2/posters/122_took_itself_out.webp",
-      "created": "2026-11-27T19:53:52Z"
-    },
-    {
-      "title": "lights out.",
-      "alt": "lights out.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/118_lights_out.mp4",
-      "gif": "assets/gifs2/118_lights_out.gif",
-      "poster": "assets/gifs2/posters/118_lights_out.webp",
-      "created": "2026-11-27T19:51:21Z"
-    },
-    {
-      "title": "x marks the spot.",
-      "alt": "x marks the spot.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/117_x_marks_the_spot.mp4",
-      "gif": "assets/gifs2/117_x_marks_the_spot.gif",
-      "poster": "assets/gifs2/posters/117_x_marks_the_spot.webp",
-      "created": "2026-11-27T19:51:21Z"
     },
     {
       "title": "not jumping in.",
@@ -2672,11 +2717,71 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/105_low_clearance.mp4",
+      "poster": "assets/clips2/105_low_clearance.webp",
+      "title": "low clearance.",
+      "alt": "low clearance.",
+      "created": "2026-11-27T21:41:12Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/106_already_lying_down.mp4",
+      "poster": "assets/clips2/106_already_lying_down.webp",
+      "title": "already lying down.",
+      "alt": "already lying down.",
+      "created": "2026-11-27T21:27:12Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/102_jack_in_the_box.mp4",
       "poster": "assets/clips2/102_jack_in_the_box.webp",
       "title": "jack in the box.",
       "alt": "jack in the box.",
-      "created": "2026-11-27T20:36:15Z",
+      "created": "2026-11-27T21:22:39Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/104_took_itself_out.mp4",
+      "poster": "assets/clips2/104_took_itself_out.webp",
+      "title": "took itself out.",
+      "alt": "took itself out.",
+      "created": "2026-11-27T21:21:39Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/103_not_riding.mp4",
+      "poster": "assets/clips2/103_not_riding.webp",
+      "title": "not riding.",
+      "alt": "not riding.",
+      "created": "2026-11-27T21:21:38Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/100_still_here_lights_out.mp4",
+      "poster": "assets/clips2/100_still_here_lights_out.webp",
+      "title": "everyone's leaving. someone turned off the lights. he's still here. $duk",
+      "alt": "DUK lies flat in THE DUK pose in a room while a line of red candles walks past, steps over him and leaves through a green \"exit.\" door. The last one switches the lights off. In the dark, DUK is still there staring. \"everyone's leaving.\" \"he's still here.\" \"duk.\"",
+      "created": "2026-11-27T21:20:06Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/099_x_marks_the_spot.mp4",
+      "poster": "assets/clips2/099_x_marks_the_spot.webp",
+      "title": "death cross. x marks the spot. he was already lying on it. duk.",
+      "alt": "Two chart lines draw across the sky and cross right above DUK, who is lying flat in THE DUK pose. A big red X drops out of the crossing and lands flat on the ground under him like a treasure map, and a dotted trail leads to it. \"death cross.\" \"x marks the spot.\" \"he was already lying on it.\" \"duk.\"",
+      "created": "2026-11-27T21:20:06Z",
       "duration": 10.0,
       "width": 1080,
       "height": 1080
@@ -2692,10 +2797,10 @@
       "height": 720
     },
     {
-      "src": "assets/clips2/098_went_under.mp4",
-      "poster": "assets/clips2/098_went_under.webp",
-      "title": "everyone's jumping. he went under. $duk",
-      "alt": "A running track with hurdles sliding past. A red candle hops every hurdle, then clips one and faceplants. DUK stays flat in THE DUK pose and every hurdle passes right over him. \"everyone's jumping.\" \"he went under.\" \"duk.\"",
+      "src": "assets/clips2/098_stays_low.mp4",
+      "poster": "assets/clips2/098_stays_low.webp",
+      "title": "everyone's jumping. he stays low. $duk",
+      "alt": "A running track with hurdles sliding past. A red candle hops every hurdle, then clips one and faceplants. DUK stays flat in THE DUK pose and every hurdle passes right over him. \"everyone's jumping.\" \"he stays low.\" \"duk.\"",
       "created": "2026-11-27T20:35:14Z",
       "duration": 10.0,
       "width": 1280,
@@ -2707,46 +2812,6 @@
       "title": "the market never closes. he does. duk.",
       "alt": "DUK stands next to a shop sign that says \"open.\", stares, and the sign spins round to \"closed.\". He drops into THE DUK pose and red candles start whizzing over him from both sides. \"the market never closes.\" \"he does.\" \"duk.\"",
       "created": "2026-11-27T20:35:14Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/103_not_riding.mp4",
-      "poster": "assets/clips2/103_not_riding.webp",
-      "title": "not riding.",
-      "alt": "not riding.",
-      "created": "2026-11-27T19:54:10Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/104_took_itself_out.mp4",
-      "poster": "assets/clips2/104_took_itself_out.webp",
-      "title": "took itself out.",
-      "alt": "took itself out.",
-      "created": "2026-11-27T19:53:51Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/100_still_here_lights_out.mp4",
-      "poster": "assets/clips2/100_still_here_lights_out.webp",
-      "title": "still here lights out.",
-      "alt": "still here lights out.",
-      "created": "2026-11-27T19:51:20Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/099_x_marks_the_spot.mp4",
-      "poster": "assets/clips2/099_x_marks_the_spot.webp",
-      "title": "x marks the spot.",
-      "alt": "x marks the spot.",
-      "created": "2026-11-27T19:51:18Z",
       "duration": 10.0,
       "width": 1080,
       "height": 1080
