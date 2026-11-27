@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T12:46:04Z",
+  "updated": "2026-11-27T13:31:03Z",
   "memes": [
+    {
+      "file": "142_river_bank.png",
+      "src": "assets/memes4/142_river_bank.png",
+      "thumb": "assets/memes4/thumbs/142_river_bank.webp",
+      "title": "banks keep adding crypto to their apps. he has been at the bank the whole time. $duk",
+      "alt": "duk reacting to banks adding crypto trading to their apps. banks keep adding crypto to their apps. he has been at the bank the whole time. $duk",
+      "tag": "market",
+      "created": "2026-11-27T13:15:19Z"
+    },
+    {
+      "file": "141_both_legs.png",
+      "src": "assets/memes4/141_both_legs.png",
+      "thumb": "assets/memes4/thumbs/141_both_legs.webp",
+      "title": "ct keeps calling for one more leg down. he is ahead of schedule.",
+      "alt": "duk reacting to ct calling for \"one more leg down\". ct keeps calling for one more leg down. he is ahead of schedule.",
+      "tag": "market",
+      "created": "2026-11-27T13:15:19Z"
+    },
+    {
+      "file": "140_reply_all.png",
+      "src": "assets/memes4/140_reply_all.png",
+      "thumb": "assets/memes4/thumbs/140_reply_all.webp",
+      "title": "the black friday emails will not stop. he answered every single one.",
+      "alt": "duk reacting to black friday promo emails flooding every inbox. the black friday emails will not stop. he answered every single one.",
+      "tag": "market",
+      "created": "2026-11-27T13:15:19Z"
+    },
+    {
+      "file": "139_plank.png",
+      "src": "assets/memes4/139_plank.png",
+      "thumb": "assets/memes4/thumbs/139_plank.webp",
+      "title": "everyone is doing planks to work off the holiday. he never got up from his. $duk",
+      "alt": "duk reacting to everyone doing planks and workouts after the holiday. everyone is doing planks to work off the holiday. he never got up from his. $duk",
+      "tag": "market",
+      "created": "2026-11-27T13:15:19Z"
+    },
     {
       "file": "138_self_custody.png",
       "src": "assets/memes4/138_self_custody.png",
@@ -1176,6 +1212,78 @@
   ],
   "gifs": [
     {
+      "title": "too flat.",
+      "alt": "too flat.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/099_too_flat.mp4",
+      "gif": "assets/gifs2/099_too_flat.gif",
+      "poster": "assets/gifs2/posters/099_too_flat.webp",
+      "created": "2026-11-27T13:21:28Z"
+    },
+    {
+      "title": "not trading.",
+      "alt": "not trading.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/098_not_trading.mp4",
+      "gif": "assets/gifs2/098_not_trading.gif",
+      "poster": "assets/gifs2/posters/098_not_trading.webp",
+      "created": "2026-11-27T13:21:28Z"
+    },
+    {
+      "title": "still dry.",
+      "alt": "A red wave curls over DUK lying in THE DUK pose, foam flying, and never touches him: \"still dry.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/091_still_dry.mp4",
+      "gif": "assets/gifs2/091_still_dry.gif",
+      "poster": "assets/gifs2/posters/091_still_dry.webp",
+      "created": "2026-11-27T13:20:00Z"
+    },
+    {
+      "title": "one pose.",
+      "alt": "A photo booth strip with four photos, all of DUK flat in THE DUK pose, with a flash: \"one pose.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/090_one_pose.mp4",
+      "gif": "assets/gifs2/090_one_pose.gif",
+      "poster": "assets/gifs2/posters/090_one_pose.webp",
+      "created": "2026-11-27T13:20:00Z"
+    },
+    {
+      "title": "weekend mode.",
+      "alt": "Weekday pages fly over DUK lying in THE DUK pose under a \"weekend.\" page like a blanket: \"weekend mode.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/089_weekend_mode.mp4",
+      "gif": "assets/gifs2/089_weekend_mode.gif",
+      "poster": "assets/gifs2/posters/089_weekend_mode.webp",
+      "created": "2026-11-27T13:20:00Z"
+    },
+    {
+      "title": "bless you.",
+      "alt": "A giant nose sneezes a cloud of drops right over DUK lying in THE DUK pose: \"bless you.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/088_bless_you.mp4",
+      "gif": "assets/gifs2/088_bless_you.gif",
+      "poster": "assets/gifs2/posters/088_bless_you.webp",
+      "created": "2026-11-27T12:50:04Z"
+    },
+    {
+      "title": "staying down for the winter.",
+      "alt": "A V of geese flies over DUK lying in THE DUK pose: \"staying down for the winter.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/087_staying_down_for_winter.mp4",
+      "gif": "assets/gifs2/087_staying_down_for_winter.gif",
+      "poster": "assets/gifs2/posters/087_staying_down_for_winter.webp",
+      "created": "2026-11-27T12:50:04Z"
+    },
+    {
+      "title": "it always comes back.",
+      "alt": "A boomerang labeled \"fud.\" loops over DUK lying in THE DUK pose, again and again: \"it always comes back.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/086_it_always_comes_back.mp4",
+      "gif": "assets/gifs2/086_it_always_comes_back.gif",
+      "poster": "assets/gifs2/posters/086_it_always_comes_back.webp",
+      "created": "2026-11-27T12:50:04Z"
+    },
+    {
       "title": "swing and a miss.",
       "alt": "A wrecking ball labeled \"weekly close.\" swings back and forth an inch over DUK lying in THE DUK pose: \"swing and a miss.\"",
       "tag": "reaction",
@@ -1255,60 +1363,6 @@
       "gif": "assets/gifs2/094_swinging_blind.gif",
       "poster": "assets/gifs2/posters/094_swinging_blind.webp",
       "created": "2026-11-27T11:59:48Z"
-    },
-    {
-      "title": "still dry.",
-      "alt": "still dry.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/091_still_dry.mp4",
-      "gif": "assets/gifs2/091_still_dry.gif",
-      "poster": "assets/gifs2/posters/091_still_dry.webp",
-      "created": "2026-11-27T11:57:41Z"
-    },
-    {
-      "title": "one pose.",
-      "alt": "one pose.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/090_one_pose.mp4",
-      "gif": "assets/gifs2/090_one_pose.gif",
-      "poster": "assets/gifs2/posters/090_one_pose.webp",
-      "created": "2026-11-27T11:57:41Z"
-    },
-    {
-      "title": "weekend mode.",
-      "alt": "weekend mode.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/089_weekend_mode.mp4",
-      "gif": "assets/gifs2/089_weekend_mode.gif",
-      "poster": "assets/gifs2/posters/089_weekend_mode.webp",
-      "created": "2026-11-27T11:56:37Z"
-    },
-    {
-      "title": "staying down for winter.",
-      "alt": "staying down for winter.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/087_staying_down_for_winter.mp4",
-      "gif": "assets/gifs2/087_staying_down_for_winter.gif",
-      "poster": "assets/gifs2/posters/087_staying_down_for_winter.webp",
-      "created": "2026-11-27T11:54:12Z"
-    },
-    {
-      "title": "bless you.",
-      "alt": "bless you.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/088_bless_you.mp4",
-      "gif": "assets/gifs2/088_bless_you.gif",
-      "poster": "assets/gifs2/posters/088_bless_you.webp",
-      "created": "2026-11-27T11:53:59Z"
-    },
-    {
-      "title": "it always comes back.",
-      "alt": "it always comes back.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/086_it_always_comes_back.mp4",
-      "gif": "assets/gifs2/086_it_always_comes_back.gif",
-      "poster": "assets/gifs2/posters/086_it_always_comes_back.webp",
-      "created": "2026-11-27T11:53:59Z"
     },
     {
       "title": "snow day. duk.",
@@ -2042,6 +2096,86 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/082_too_flat.mp4",
+      "poster": "assets/clips2/082_too_flat.webp",
+      "title": "too flat.",
+      "alt": "too flat.",
+      "created": "2026-11-27T13:21:27Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/081_everyone_is_trading.mp4",
+      "poster": "assets/clips2/081_everyone_is_trading.webp",
+      "title": "everyone is trading.",
+      "alt": "everyone is trading.",
+      "created": "2026-11-27T13:21:26Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/074_red_wave.mp4",
+      "poster": "assets/clips2/074_red_wave.webp",
+      "title": "red wave. he stayed dry. duk.",
+      "alt": "Wide shot. A giant red wave with white foam rolls in from the right. DUK drops into THE DUK pose; the wave curls over and swallows the whole frame, then rolls off the left edge. He is still lying there, dry, staring. \"red wave.\" \"still dry.\"",
+      "created": "2026-11-27T13:20:00Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/073_photo_booth.mp4",
+      "poster": "assets/clips2/073_photo_booth.webp",
+      "title": "photo booth. he only knows one pose. $duk",
+      "alt": "Inside a photo booth. \"smile.\" Beep beep, flash: DUK drops into THE DUK pose right as it fires, then stands back up. Four times. The photo strip slides out: four photos, all of him flat in THE DUK pose. \"four photos.\" \"one pose.\"",
+      "created": "2026-11-27T13:20:00Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/072_made_it_to_the_weekend.mp4",
+      "poster": "assets/clips2/072_made_it_to_the_weekend.webp",
+      "title": "made it to the weekend. duk.",
+      "alt": "Pages fly at DUK one after another: \"monday.\" \"tuesday.\" \"wednesday.\" \"thursday.\" \"friday.\" He drops into THE DUK pose and every day of the week sails over him. Then a soft \"weekend.\" page floats down and settles on his back like a blanket. \"made it to the weekend.\" \"duk.\"",
+      "created": "2026-11-27T13:20:00Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/071_flu_season.mp4",
+      "poster": "assets/clips2/071_flu_season.webp",
+      "title": "flu season. duk.",
+      "alt": "A giant pink nose pokes in from the right: \"ah...\" \"ah...\" DUK drops into THE DUK pose a split second before \"achoo.\" and a cloud of drops blasts over him. All clear. \"flu season.\" \"duk.\"",
+      "created": "2026-11-27T12:50:04Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/070_flying_south.mp4",
+      "poster": "assets/clips2/070_flying_south.webp",
+      "title": "everyone flew south for the winter. he stayed down. $duk",
+      "alt": "Wide shot. A big V of geese flies in low from the right, honking, flapping straight at DUK. He drops into THE DUK pose and the whole flock passes over him and away. \"everyone flew south.\" \"he stayed down.\"",
+      "created": "2026-11-27T12:50:04Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/069_the_boomerang.mp4",
+      "poster": "assets/clips2/069_the_boomerang.webp",
+      "title": "fud always comes back. so does the duk. $duk",
+      "alt": "A boomerang labeled \"fud.\" spins in from the right. DUK drops into THE DUK pose; it whips over him, loops off the left edge, comes back over him, and does it all again. It finally spins away. \"it always comes back.\" \"duk.\"",
+      "created": "2026-11-27T12:50:04Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/068_wrecking_ball.mp4",
       "poster": "assets/clips2/068_wrecking_ball.webp",
       "title": "weekly close swinging in. duk.",
@@ -2127,66 +2261,6 @@
       "title": "swinging blind.",
       "alt": "swinging blind.",
       "created": "2026-11-27T11:59:48Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/074_red_wave.mp4",
-      "poster": "assets/clips2/074_red_wave.webp",
-      "title": "red wave.",
-      "alt": "red wave.",
-      "created": "2026-11-27T11:57:57Z",
-      "duration": 11.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/073_photo_booth.mp4",
-      "poster": "assets/clips2/073_photo_booth.webp",
-      "title": "photo booth.",
-      "alt": "photo booth.",
-      "created": "2026-11-27T11:56:41Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/072_made_it_to_the_weekend.mp4",
-      "poster": "assets/clips2/072_made_it_to_the_weekend.webp",
-      "title": "made it to the weekend.",
-      "alt": "made it to the weekend.",
-      "created": "2026-11-27T11:56:38Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/071_flu_season.mp4",
-      "poster": "assets/clips2/071_flu_season.webp",
-      "title": "flu season.",
-      "alt": "flu season.",
-      "created": "2026-11-27T11:53:58Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/070_flying_south.mp4",
-      "poster": "assets/clips2/070_flying_south.webp",
-      "title": "flying south.",
-      "alt": "flying south.",
-      "created": "2026-11-27T11:53:57Z",
-      "duration": 12.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/069_the_boomerang.mp4",
-      "poster": "assets/clips2/069_the_boomerang.webp",
-      "title": "the boomerang.",
-      "alt": "the boomerang.",
-      "created": "2026-11-27T11:53:55Z",
       "duration": 11.0,
       "width": 1080,
       "height": 1080
