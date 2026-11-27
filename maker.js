@@ -741,6 +741,31 @@
     return [...spots.filter(spot => !edge(spot)), ...spots.filter(edge)];
   }
 
+  // A block dropped on a spot takes its ink from the paper under it: dark on signs and notes, white on a dark poster.
+  function spotInk([sx, sy, sw, sh]) {
+    const image = state.loaded && state.loaded.images[0];
+    if (!image) return '#111111';
+    const probe = document.createElement('canvas');
+    probe.width = 8;
+    probe.height = 8;
+    const pen = probe.getContext('2d');
+    const { naturalWidth: w, naturalHeight: h } = image;
+    pen.drawImage(image, sx * w, sy * h, sw * w, sh * h, 0, 0, 8, 8);
+    let data;
+    try {
+      ({ data } = pen.getImageData(0, 0, 8, 8));
+    } catch {
+      return '#111111';
+    }
+    const sum = [0, 0, 0];
+    for (let i = 0; i < data.length; i += 4) {
+      sum[0] += data[i];
+      sum[1] += data[i + 1];
+      sum[2] += data[i + 2];
+    }
+    return textColor(`#${sum.map(value => Math.round(value / 64).toString(16).padStart(2, '0')).join('')}`);
+  }
+
   async function addWords() {
     const text = normalizeCaption(moreWords.value).replace(/\n/g, ' ');
     if (!text) {
@@ -753,7 +778,9 @@
       return;
     }
     const spots = wordSpots();
-    const ink = state.ink !== 'auto' ? state.ink : spots.length ? '#111111' : isTemplate() ? 'outline' : textColor(state.background);
+    const placed = stickers.filter(sticker => sticker.words).length;
+    const spot = spots.length ? spots[placed % spots.length] : null;
+    const ink = state.ink !== 'auto' ? state.ink : spot ? spotInk(spot) : isTemplate() ? 'outline' : textColor(state.background);
     await fontReady;
     let image;
     try {
@@ -763,12 +790,11 @@
       return;
     }
     const ratio = image.naturalHeight / image.naturalWidth;
-    const placed = stickers.filter(sticker => sticker.words).length;
     let x = SIZE / 2 + ((placed % 5) - 2) * 40;
     let y = SIZE / 2 + ((placed % 5) - 2) * 40;
     let width = Math.min(SIZE * 0.6, image.naturalWidth);
-    if (spots.length) {
-      const [sx, sy, sw, sh] = spots[placed % spots.length].map(value => value * SIZE);
+    if (spot) {
+      const [sx, sy, sw, sh] = spot.map(value => value * SIZE);
       x = sx + sw / 2;
       y = sy + sh / 2;
       width = Math.max(60, Math.min(sw, (sh * 1.4) / ratio));

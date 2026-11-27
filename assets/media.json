@@ -4718,6 +4718,42 @@
         "thumb": "assets/kit/formats/thumbs/163_stayed_put.webp"
       },
       {
+        "file": "formats/164_lava.png",
+        "src": "assets/kit/formats/164_lava.png",
+        "title": "the lava",
+        "alt": "Two stick figures standing on top of two brown blocks, arms up, one shouting into an empty speech bubble. DUK lies flat on the ground between the blocks. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.293,
+            0.113,
+            0.407,
+            0.047
+          ],
+          [
+            0.2,
+            0.8,
+            0.093,
+            0.067
+          ],
+          [
+            0.327,
+            0.82,
+            0.213,
+            0.047
+          ],
+          [
+            0.573,
+            0.8,
+            0.213,
+            0.087
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/164_lava.webp"
+      },
+      {
         "file": "formats/167_sure_things.png",
         "src": "assets/kit/formats/167_sure_things.png",
         "title": "the list",
@@ -4772,6 +4808,126 @@
         "thumb": "assets/kit/formats/thumbs/167_sure_things.webp"
       },
       {
+        "file": "formats/169_hot_potato.png",
+        "src": "assets/kit/formats/169_hot_potato.png",
+        "title": "the hot potato",
+        "alt": "Four stick figures in a row passing a brown bag with an empty label between them, arrows showing it moving along, under an empty title. DUK lies flat on the ground below them. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.333,
+            0.027,
+            0.333,
+            0.073
+          ],
+          [
+            0.453,
+            0.267,
+            0.093,
+            0.053
+          ],
+          [
+            0.18,
+            0.807,
+            0.12,
+            0.06
+          ],
+          [
+            0.333,
+            0.807,
+            0.06,
+            0.06
+          ],
+          [
+            0.427,
+            0.8,
+            0.12,
+            0.067
+          ],
+          [
+            0.58,
+            0.8,
+            0.227,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/169_hot_potato.webp"
+      },
+      {
+        "file": "formats/171_roll_call.png",
+        "src": "assets/kit/formats/171_roll_call.png",
+        "title": "the roll call",
+        "alt": "A big white sheet with an empty title and four rows of empty names, each with an empty answer on the right. DUK lies flat on the ground under it. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.393,
+            0.047,
+            0.213,
+            0.053
+          ],
+          [
+            0.24,
+            0.16,
+            0.187,
+            0.047
+          ],
+          [
+            0.613,
+            0.16,
+            0.1,
+            0.04
+          ],
+          [
+            0.24,
+            0.253,
+            0.127,
+            0.053
+          ],
+          [
+            0.613,
+            0.253,
+            0.1,
+            0.04
+          ],
+          [
+            0.24,
+            0.347,
+            0.233,
+            0.047
+          ],
+          [
+            0.613,
+            0.347,
+            0.1,
+            0.04
+          ],
+          [
+            0.24,
+            0.447,
+            0.08,
+            0.04
+          ],
+          [
+            0.62,
+            0.447,
+            0.093,
+            0.04
+          ],
+          [
+            0.333,
+            0.8,
+            0.327,
+            0.087
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/171_roll_call.webp"
+      },
+      {
         "file": "formats/172_braced.png",
         "src": "assets/kit/formats/172_braced.png",
         "title": "the brace position",
@@ -4800,6 +4956,60 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/172_braced.webp"
+      },
+      {
+        "file": "formats/175_lost_found.png",
+        "src": "assets/kit/formats/175_lost_found.png",
+        "title": "the lost and found",
+        "alt": "A brown corkboard with four empty white notes pinned to it under an empty pale yellow sign. DUK lies flat on the ground under it. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.32,
+            0.067,
+            0.36,
+            0.06
+          ],
+          [
+            0.247,
+            0.253,
+            0.173,
+            0.033
+          ],
+          [
+            0.62,
+            0.253,
+            0.093,
+            0.047
+          ],
+          [
+            0.26,
+            0.42,
+            0.147,
+            0.047
+          ],
+          [
+            0.593,
+            0.42,
+            0.147,
+            0.04
+          ],
+          [
+            0.087,
+            0.8,
+            0.36,
+            0.06
+          ],
+          [
+            0.48,
+            0.8,
+            0.427,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/175_lost_found.webp"
       },
       {
         "file": "formats/182_missed_bus.png",
@@ -4968,6 +5178,138 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/184_escape_room.webp"
+      },
+      {
+        "file": "formats/185_motivation.png",
+        "src": "assets/kit/formats/185_motivation.png",
+        "title": "the poster",
+        "alt": "A motivational poster: a black frame around a blue picture of DUK lying flat on the ground, with an empty title and an empty line under the picture.",
+        "tag": "template",
+        "spots": [
+          [
+            0.14,
+            0.667,
+            0.72,
+            0.067
+          ],
+          [
+            0.26,
+            0.793,
+            0.473,
+            0.093
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/185_motivation.webp"
+      },
+      {
+        "file": "formats/186_resolutions.png",
+        "src": "assets/kit/formats/186_resolutions.png",
+        "title": "the two lists",
+        "alt": "A tall yellow notepad with an empty heading and four crossed-out empty lines, and a small white notepad beside it with an empty heading and one empty line. DUK lies flat on the ground under them. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.167,
+            0.06,
+            0.28,
+            0.04
+          ],
+          [
+            0.6,
+            0.14,
+            0.28,
+            0.04
+          ],
+          [
+            0.133,
+            0.173,
+            0.273,
+            0.04
+          ],
+          [
+            0.133,
+            0.247,
+            0.247,
+            0.04
+          ],
+          [
+            0.62,
+            0.26,
+            0.14,
+            0.04
+          ],
+          [
+            0.133,
+            0.327,
+            0.327,
+            0.033
+          ],
+          [
+            0.133,
+            0.4,
+            0.22,
+            0.04
+          ],
+          [
+            0.18,
+            0.8,
+            0.18,
+            0.093
+          ],
+          [
+            0.393,
+            0.82,
+            0.22,
+            0.073
+          ],
+          [
+            0.647,
+            0.82,
+            0.16,
+            0.053
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/186_resolutions.webp"
+      },
+      {
+        "file": "formats/187_hedge.png",
+        "src": "assets/kit/formats/187_hedge.png",
+        "title": "the hedge",
+        "alt": "Three stick figure heads peeking over a row of green hedges, an empty sign on a post above them. DUK lies flat on the ground in front. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.387,
+            0.087,
+            0.227,
+            0.06
+          ],
+          [
+            0.167,
+            0.82,
+            0.087,
+            0.047
+          ],
+          [
+            0.287,
+            0.82,
+            0.207,
+            0.047
+          ],
+          [
+            0.527,
+            0.8,
+            0.293,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/187_hedge.webp"
       }
     ],
     "pfp": [

@@ -13,10 +13,13 @@ Owner: DukSiteBuilder. Newest first.
 - **duk, in your feed** (home, after the wall of fame): the 4 newest instagram/tiktok posts from DukSocials' social/post-log.jsonl
   (stories left out: they only link the profile). `scripts/social.py` -> assets/social.json + assets/social/<id>.webp (400px, first
   picture or a reel frame), content rule applied to captions/names; sync-content.py runs it every pass and publishes both.
-- **formats 73**: + the returns desk, the board and the sign, the vault, the inbox, the river bank (memes4 135/136/138/140/142),
+- **formats 80**: + the returns desk, the board and the sign, the vault, the inbox, the river bank (memes4 135/136/138/140/142),
   the door, the screen, the decoys, the two boards, the ice (143/146/148/149/150), the four signs, the robots, the traffic light
   (152-154), the balloons, the dictionary, the two windows (155/156/158), the podium, the support group, the shelves, the list,
-  the bus (160/161/163/167/182), the brace position, the setup card, the escape room (172/183/184).
+  the bus (160/161/163/167/182), the brace position, the setup card, the escape room (172/183/184), the lava, the hot potato,
+  the roll call, the lost and found, the poster, the two lists, the hedge (164/169/171/175/185/186/187).
+- **maker spot ink**: with ink on auto, a "more words" block that lands on a format spot samples the blank art under the spot and
+  picks dark or white ink (white on the black motivational poster, dark on signs and notes).
 
 ## 2026-11-26
 - **picture into the post** (memes dialog, comics dialog, duk of the day): mouse screens get "copy image" (png to the clipboard, paste
