@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T18:46:05Z",
+  "updated": "2026-11-27T19:31:04Z",
   "memes": [
+    {
+      "file": "186_resolutions.png",
+      "src": "assets/memes4/186_resolutions.png",
+      "thumb": "assets/memes4/thumbs/186_resolutions.webp",
+      "title": "november is almost over and ct is writing resolutions. he is keeping last month's.",
+      "alt": "duk reacting to traders writing new-month resolutions as november ends. november is almost over and ct is writing resolutions. he is keeping last month's.",
+      "tag": "market",
+      "created": "2026-11-27T19:15:16Z"
+    },
+    {
+      "file": "185_motivation.png",
+      "src": "assets/memes4/185_motivation.png",
+      "thumb": "assets/memes4/thumbs/185_motivation.webp",
+      "title": "the trading motivation accounts are posting through it. he has stayed motivated the same way for years. $duk",
+      "alt": "duk reacting to trading motivation accounts posting through the red month. the trading motivation accounts are posting through it. he has stayed motivated the same way for years. $duk",
+      "tag": "market",
+      "created": "2026-11-27T19:15:16Z"
+    },
+    {
+      "file": "171_roll_call.png",
+      "src": "assets/memes4/171_roll_call.png",
+      "thumb": "assets/memes4/thumbs/171_roll_call.webp",
+      "title": "roll call after the red month. same answer as always. $duk",
+      "alt": "duk reacting to checking who is still around after a red month of extreme fear. roll call after the red month. same answer as always. $duk",
+      "tag": "market",
+      "created": "2026-11-27T19:15:16Z"
+    },
+    {
+      "file": "169_hot_potato.png",
+      "src": "assets/memes4/169_hot_potato.png",
+      "thumb": "assets/memes4/thumbs/169_hot_potato.webp",
+      "title": "everyone keeps passing the same bag around. he sat out the circle.",
+      "alt": "duk reacting to the same bags getting passed from trader to trader in a weak market. everyone keeps passing the same bag around. he sat out the circle.",
+      "tag": "market",
+      "created": "2026-11-27T19:15:16Z"
+    },
     {
       "file": "184_escape_room.png",
       "src": "assets/memes4/184_escape_room.png",
@@ -1473,6 +1509,60 @@
   ],
   "gifs": [
     {
+      "title": "it pops.",
+      "alt": "it pops.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/120_it_pops.mp4",
+      "gif": "assets/gifs2/120_it_pops.gif",
+      "poster": "assets/gifs2/posters/120_it_pops.webp",
+      "created": "2026-11-27T19:09:15Z"
+    },
+    {
+      "title": "staying in.",
+      "alt": "staying in.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/119_staying_in.mp4",
+      "gif": "assets/gifs2/119_staying_in.gif",
+      "poster": "assets/gifs2/posters/119_staying_in.webp",
+      "created": "2026-11-27T19:08:51Z"
+    },
+    {
+      "title": "went under.",
+      "alt": "went under.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/116_went_under.mp4",
+      "gif": "assets/gifs2/116_went_under.gif",
+      "poster": "assets/gifs2/posters/116_went_under.webp",
+      "created": "2026-11-27T19:06:27Z"
+    },
+    {
+      "title": "closed.",
+      "alt": "closed.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/115_closed.mp4",
+      "gif": "assets/gifs2/115_closed.gif",
+      "poster": "assets/gifs2/posters/115_closed.webp",
+      "created": "2026-11-27T19:06:27Z"
+    },
+    {
+      "title": "delayed.",
+      "alt": "A departures board flips to \"recovery delayed\" and \"the bottom delayed\" while DUK lies flat by his suitcase: \"delayed.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/111_delayed.mp4",
+      "gif": "assets/gifs2/111_delayed.gif",
+      "poster": "assets/gifs2/posters/111_delayed.webp",
+      "created": "2026-11-27T19:05:12Z"
+    },
+    {
+      "title": "didn't wait.",
+      "alt": "DUK is already flat in THE DUK pose as a giant red candle slams into the ground next to him: \"didn't wait.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/110_didnt_wait.mp4",
+      "gif": "assets/gifs2/110_didnt_wait.gif",
+      "poster": "assets/gifs2/posters/110_didnt_wait.webp",
+      "created": "2026-11-27T19:05:12Z"
+    },
+    {
       "title": "x marks the spot.",
       "alt": "x marks the spot.",
       "tag": "reaction",
@@ -1570,42 +1660,6 @@
       "gif": "assets/gifs2/104_lie_flat.gif",
       "poster": "assets/gifs2/posters/104_lie_flat.webp",
       "created": "2026-11-27T16:50:10Z"
-    },
-    {
-      "title": "went under.",
-      "alt": "went under.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/116_went_under.mp4",
-      "gif": "assets/gifs2/116_went_under.gif",
-      "poster": "assets/gifs2/posters/116_went_under.webp",
-      "created": "2026-11-27T16:24:50Z"
-    },
-    {
-      "title": "closed.",
-      "alt": "closed.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/115_closed.mp4",
-      "gif": "assets/gifs2/115_closed.gif",
-      "poster": "assets/gifs2/posters/115_closed.webp",
-      "created": "2026-11-27T16:24:22Z"
-    },
-    {
-      "title": "delayed.",
-      "alt": "delayed.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/111_delayed.mp4",
-      "gif": "assets/gifs2/111_delayed.gif",
-      "poster": "assets/gifs2/posters/111_delayed.webp",
-      "created": "2026-11-27T16:08:14Z"
-    },
-    {
-      "title": "didnt wait.",
-      "alt": "didnt wait.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/110_didnt_wait.mp4",
-      "gif": "assets/gifs2/110_didnt_wait.gif",
-      "poster": "assets/gifs2/posters/110_didnt_wait.webp",
-      "created": "2026-11-27T16:06:19Z"
     },
     {
       "title": "never in it.",
@@ -2528,6 +2582,66 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/102_jack_in_the_box.mp4",
+      "poster": "assets/clips2/102_jack_in_the_box.webp",
+      "title": "jack in the box.",
+      "alt": "jack in the box.",
+      "created": "2026-11-27T19:09:14Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/101_pillow_fort.mp4",
+      "poster": "assets/clips2/101_pillow_fort.webp",
+      "title": "pillow fort.",
+      "alt": "pillow fort.",
+      "created": "2026-11-27T19:09:13Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/098_went_under.mp4",
+      "poster": "assets/clips2/098_went_under.webp",
+      "title": "went under.",
+      "alt": "went under.",
+      "created": "2026-11-27T19:06:26Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/097_he_does.mp4",
+      "poster": "assets/clips2/097_he_does.webp",
+      "title": "he does.",
+      "alt": "he does.",
+      "created": "2026-11-27T19:06:25Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/094_everything_delayed.mp4",
+      "poster": "assets/clips2/094_everything_delayed.webp",
+      "title": "everything's delayed. he's comfortable. $duk",
+      "alt": "Wide shot of an airport departures board flipping: \"recovery delayed\", \"the bottom delayed\", \"the pump cancelled\", \"the weekend delayed\". DUK, standing by his suitcase, lies down on the floor in THE DUK pose like a stranded traveller. \"everything's delayed.\" \"he's comfortable.\" \"duk.\"",
+      "created": "2026-11-27T19:05:12Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/093_friday.mp4",
+      "poster": "assets/clips2/093_friday.webp",
+      "title": "it's friday. he didn't wait. duk.",
+      "alt": "The wall calendar flips from \"thursday.\" to \"friday.\" and DUK drops into THE DUK pose instantly, before anything happens. A whistle, a growing shadow, and a giant red candle slams into the ground right where he was standing. He stares. \"he didn't wait.\" \"duk.\"",
+      "created": "2026-11-27T19:05:12Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/099_x_marks_the_spot.mp4",
       "poster": "assets/clips2/099_x_marks_the_spot.webp",
       "title": "x marks the spot.",
@@ -2624,46 +2738,6 @@
       "alt": "A frozen pond. DUK stands on the ice and it creaks and cracks under his feet, so he drops into THE DUK pose. Red candles standing on the ice nearby crack through one by one and sink with bubbles; one hops over and goes straight through too. DUK stays flat. \"thin ice.\" \"on thin ice, you lie flat.\" \"duk.\"",
       "created": "2026-11-27T16:50:10Z",
       "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/098_went_under.mp4",
-      "poster": "assets/clips2/098_went_under.webp",
-      "title": "went under.",
-      "alt": "went under.",
-      "created": "2026-11-27T16:24:49Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/097_he_does.mp4",
-      "poster": "assets/clips2/097_he_does.webp",
-      "title": "he does.",
-      "alt": "he does.",
-      "created": "2026-11-27T16:24:20Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/094_everything_delayed.mp4",
-      "poster": "assets/clips2/094_everything_delayed.webp",
-      "title": "everything delayed.",
-      "alt": "everything delayed.",
-      "created": "2026-11-27T16:08:13Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/093_friday.mp4",
-      "poster": "assets/clips2/093_friday.webp",
-      "title": "friday.",
-      "alt": "friday.",
-      "created": "2026-11-27T16:06:45Z",
-      "duration": 10.0,
       "width": 1080,
       "height": 1080
     },
