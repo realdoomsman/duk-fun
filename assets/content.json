@@ -1,6 +1,51 @@
 {
-  "updated": "2026-11-27T16:31:05Z",
+  "updated": "2026-11-27T17:16:03Z",
   "memes": [
+    {
+      "file": "163_stayed_put.png",
+      "src": "assets/memes4/163_stayed_put.png",
+      "thumb": "assets/memes4/thumbs/163_stayed_put.webp",
+      "title": "black friday cleared every shelf in the store. he stayed exactly where he was.",
+      "alt": "duk reacting to black friday shoppers clearing out every store shelf. black friday cleared every shelf in the store. he stayed exactly where he was.",
+      "tag": "market",
+      "created": "2026-11-27T17:00:15Z"
+    },
+    {
+      "file": "162_no_takers.png",
+      "src": "assets/memes4/162_no_takers.png",
+      "thumb": "assets/memes4/thumbs/162_no_takers.webp",
+      "title": "you can bet on anything now. almost anything. $duk",
+      "alt": "duk reacting to prediction markets taking bets on every market move. you can bet on anything now. almost anything. $duk",
+      "tag": "market",
+      "created": "2026-11-27T17:00:15Z"
+    },
+    {
+      "file": "161_support_group.png",
+      "src": "assets/memes4/161_support_group.png",
+      "thumb": "assets/memes4/thumbs/161_support_group.webp",
+      "title": "the red month support group meets daily now. he keeps his share short. $duk",
+      "alt": "duk reacting to traders leaning on each other after a red month of extreme fear. the red month support group meets daily now. he keeps his share short. $duk",
+      "tag": "market",
+      "created": "2026-11-27T17:00:15Z"
+    },
+    {
+      "file": "160_no_medal.png",
+      "src": "assets/memes4/160_no_medal.png",
+      "thumb": "assets/memes4/thumbs/160_no_medal.webp",
+      "title": "the dollar won the month while stocks, gold and crypto all slumped. he never signed up for the race.",
+      "alt": "duk reacting to the dollar on a long winning streak while stocks, gold and crypto all slumped this month. the dollar won the month while stocks, gold and crypto all slumped. he never signed up for the race.",
+      "tag": "market",
+      "created": "2026-11-27T17:00:15Z"
+    },
+    {
+      "file": "159_x_marks.png",
+      "src": "assets/memes4/159_x_marks.png",
+      "thumb": "assets/memes4/thumbs/159_x_marks.webp",
+      "title": "ct keeps warning about the death cross. he already found his spot under it. $duk",
+      "alt": "duk reacting to ct warning that a death cross is forming on the chart. ct keeps warning about the death cross. he already found his spot under it. $duk",
+      "tag": "market",
+      "created": "2026-11-27T17:00:15Z"
+    },
     {
       "file": "158_confirmed.png",
       "src": "assets/memes4/158_confirmed.png",
@@ -1356,6 +1401,24 @@
   ],
   "gifs": [
     {
+      "title": "visibility: low.",
+      "alt": "Fog drifts over DUK lying in THE DUK pose in the clear air below it: \"visibility: low.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/105_visibility_low.mp4",
+      "gif": "assets/gifs2/105_visibility_low.gif",
+      "poster": "assets/gifs2/posters/105_visibility_low.webp",
+      "created": "2026-11-27T16:50:10Z"
+    },
+    {
+      "title": "lie flat.",
+      "alt": "DUK lies in THE DUK pose on cracking thin ice while a red candle next to him breaks through and sinks: \"lie flat.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/104_lie_flat.mp4",
+      "gif": "assets/gifs2/104_lie_flat.gif",
+      "poster": "assets/gifs2/posters/104_lie_flat.webp",
+      "created": "2026-11-27T16:50:10Z"
+    },
+    {
       "title": "went under.",
       "alt": "went under.",
       "tag": "reaction",
@@ -1489,24 +1552,6 @@
       "gif": "assets/gifs2/106_below_the_lasers.gif",
       "poster": "assets/gifs2/posters/106_below_the_lasers.webp",
       "created": "2026-11-27T15:10:06Z"
-    },
-    {
-      "title": "visibility low.",
-      "alt": "visibility low.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/105_visibility_low.mp4",
-      "gif": "assets/gifs2/105_visibility_low.gif",
-      "poster": "assets/gifs2/posters/105_visibility_low.webp",
-      "created": "2026-11-27T15:02:59Z"
-    },
-    {
-      "title": "lie flat.",
-      "alt": "lie flat.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/104_lie_flat.mp4",
-      "gif": "assets/gifs2/104_lie_flat.gif",
-      "poster": "assets/gifs2/posters/104_lie_flat.webp",
-      "created": "2026-11-27T15:02:59Z"
     },
     {
       "title": "too flat.",
@@ -2393,6 +2438,26 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/088_low_visibility.mp4",
+      "poster": "assets/clips2/088_low_visibility.webp",
+      "title": "nobody can see where this goes. visibility's better down here. duk.",
+      "alt": "Wide shot. A thick fog bank rolls in and swallows the top of the frame, faint candle shapes drifting inside it. DUK drops into THE DUK pose under it, in the clear air. \"nobody can see where this goes.\" \"visibility's better down here.\" He stands up, his head vanishes into the fog, and he drops right back down. \"duk.\"",
+      "created": "2026-11-27T16:50:10Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/087_thin_ice.mp4",
+      "poster": "assets/clips2/087_thin_ice.webp",
+      "title": "thin ice everywhere. spread out. lie flat. $duk",
+      "alt": "A frozen pond. DUK stands on the ice and it creaks and cracks under his feet, so he drops into THE DUK pose. Red candles standing on the ice nearby crack through one by one and sink with bubbles; one hops over and goes straight through too. DUK stays flat. \"thin ice.\" \"on thin ice, you lie flat.\" \"duk.\"",
+      "created": "2026-11-27T16:50:10Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/098_went_under.mp4",
       "poster": "assets/clips2/098_went_under.webp",
       "title": "went under.",
@@ -2439,16 +2504,6 @@
       "alt": "everything delayed.",
       "created": "2026-11-27T16:08:13Z",
       "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/088_low_visibility.mp4",
-      "poster": "assets/clips2/088_low_visibility.webp",
-      "title": "low visibility.",
-      "alt": "low visibility.",
-      "created": "2026-11-27T16:08:11Z",
-      "duration": 12.0,
       "width": 1280,
       "height": 720
     },
@@ -2541,16 +2596,6 @@
       "duration": 11.0,
       "width": 1280,
       "height": 720
-    },
-    {
-      "src": "assets/clips2/087_thin_ice.mp4",
-      "poster": "assets/clips2/087_thin_ice.webp",
-      "title": "thin ice.",
-      "alt": "thin ice.",
-      "created": "2026-11-27T15:02:56Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
     },
     {
       "src": "assets/clips2/082_too_flat.mp4",
