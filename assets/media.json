@@ -4200,6 +4200,144 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/150_frozen.webp"
+      },
+      {
+        "file": "formats/152_still_v1.png",
+        "src": "assets/kit/formats/152_still_v1.png",
+        "title": "the four signs",
+        "alt": "Four empty signs stacked over DUK, two white ones on top, one white one in the middle and a pale yellow one on a post right over him. DUK lies flat on the ground. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.087,
+            0.093,
+            0.353,
+            0.047
+          ],
+          [
+            0.607,
+            0.093,
+            0.247,
+            0.033
+          ],
+          [
+            0.373,
+            0.273,
+            0.247,
+            0.033
+          ],
+          [
+            0.36,
+            0.467,
+            0.28,
+            0.04
+          ],
+          [
+            0.147,
+            0.8,
+            0.387,
+            0.087
+          ],
+          [
+            0.567,
+            0.8,
+            0.28,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/152_still_v1.webp"
+      },
+      {
+        "file": "formats/153_always_on.png",
+        "src": "assets/kit/formats/153_always_on.png",
+        "title": "the robots",
+        "alt": "Two grey robots with blue screen faces and an empty label on each chest, an empty sign beside them. DUK lies flat on the ground at the right. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.667,
+            0.28,
+            0.247,
+            0.047
+          ],
+          [
+            0.18,
+            0.367,
+            0.067,
+            0.04
+          ],
+          [
+            0.433,
+            0.367,
+            0.067,
+            0.04
+          ],
+          [
+            0.18,
+            0.56,
+            0.32,
+            0.047
+          ],
+          [
+            0.287,
+            0.8,
+            0.173,
+            0.073
+          ],
+          [
+            0.493,
+            0.8,
+            0.213,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/153_always_on.webp"
+      },
+      {
+        "file": "formats/154_one_signal.png",
+        "src": "assets/kit/formats/154_one_signal.png",
+        "title": "the traffic light",
+        "alt": "A tall traffic light with red, yellow and green off and the bottom light glowing white, an empty label beside each light. DUK lies flat on the ground next to it. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.667,
+            0.093,
+            0.08,
+            0.047
+          ],
+          [
+            0.667,
+            0.253,
+            0.107,
+            0.047
+          ],
+          [
+            0.667,
+            0.413,
+            0.087,
+            0.06
+          ],
+          [
+            0.667,
+            0.573,
+            0.087,
+            0.047
+          ],
+          [
+            0.1,
+            0.8,
+            0.793,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/154_one_signal.webp"
       }
     ],
     "pfp": [
