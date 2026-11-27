@@ -4772,6 +4772,36 @@
         "thumb": "assets/kit/formats/thumbs/167_sure_things.webp"
       },
       {
+        "file": "formats/172_braced.png",
+        "src": "assets/kit/formats/172_braced.png",
+        "title": "the brace position",
+        "alt": "A plane cabin with an empty seatbelt sign up top, two oxygen masks dropping and two stick figures standing with their arms up between blue seats. DUK lies flat on the floor between them. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.367,
+            0.06,
+            0.267,
+            0.033
+          ],
+          [
+            0.193,
+            0.8,
+            0.287,
+            0.087
+          ],
+          [
+            0.513,
+            0.8,
+            0.287,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/172_braced.webp"
+      },
+      {
         "file": "formats/182_missed_bus.png",
         "src": "assets/kit/formats/182_missed_bus.png",
         "title": "the bus",
@@ -4812,6 +4842,132 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/182_missed_bus.webp"
+      },
+      {
+        "file": "formats/183_trade_setup.png",
+        "src": "assets/kit/formats/183_trade_setup.png",
+        "title": "the setup card",
+        "alt": "A big white card with an empty title and four rows of empty labels and empty answers. DUK lies flat on the ground under it. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.347,
+            0.047,
+            0.307,
+            0.06
+          ],
+          [
+            0.18,
+            0.167,
+            0.127,
+            0.047
+          ],
+          [
+            0.467,
+            0.167,
+            0.18,
+            0.04
+          ],
+          [
+            0.18,
+            0.267,
+            0.147,
+            0.047
+          ],
+          [
+            0.467,
+            0.267,
+            0.18,
+            0.04
+          ],
+          [
+            0.18,
+            0.367,
+            0.193,
+            0.047
+          ],
+          [
+            0.467,
+            0.367,
+            0.307,
+            0.047
+          ],
+          [
+            0.187,
+            0.467,
+            0.233,
+            0.04
+          ],
+          [
+            0.467,
+            0.467,
+            0.093,
+            0.027
+          ],
+          [
+            0.22,
+            0.8,
+            0.147,
+            0.073
+          ],
+          [
+            0.407,
+            0.8,
+            0.367,
+            0.093
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/183_trade_setup.webp"
+      },
+      {
+        "file": "formats/184_escape_room.png",
+        "src": "assets/kit/formats/184_escape_room.png",
+        "title": "the escape room",
+        "alt": "A purple room with an empty pale yellow sign up top, a stick figure with an empty speech bubble, another stick figure with its arms up, and a brown door with an empty green sign above it. DUK lies flat on the floor between them. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.227,
+            0.047,
+            0.54,
+            0.04
+          ],
+          [
+            0.787,
+            0.18,
+            0.06,
+            0.033
+          ],
+          [
+            0.127,
+            0.253,
+            0.3,
+            0.04
+          ],
+          [
+            0.133,
+            0.807,
+            0.367,
+            0.08
+          ],
+          [
+            0.533,
+            0.807,
+            0.08,
+            0.06
+          ],
+          [
+            0.647,
+            0.8,
+            0.207,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/184_escape_room.webp"
       }
     ],
     "pfp": [
