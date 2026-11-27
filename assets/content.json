@@ -1,6 +1,33 @@
 {
-  "updated": "2026-11-27T19:31:04Z",
+  "updated": "2026-11-27T20:16:05Z",
   "memes": [
+    {
+      "file": "187_hedge.png",
+      "src": "assets/memes4/187_hedge.png",
+      "thumb": "assets/memes4/thumbs/187_hedge.webp",
+      "title": "everyone is hedging before the weekend. he stays low enough without one. $duk",
+      "alt": "duk reacting to traders hedging against more downside ahead of the weekend. everyone is hedging before the weekend. he stays low enough without one. $duk",
+      "tag": "market",
+      "created": "2026-11-27T20:00:15Z"
+    },
+    {
+      "file": "175_lost_found.png",
+      "src": "assets/memes4/175_lost_found.png",
+      "thumb": "assets/memes4/thumbs/175_lost_found.webp",
+      "title": "the lost and found is overflowing after this month. one thing nobody had to look for. $duk",
+      "alt": "duk reacting to traders losing conviction, sleep and gains during the red month. the lost and found is overflowing after this month. one thing nobody had to look for. $duk",
+      "tag": "market",
+      "created": "2026-11-27T20:00:15Z"
+    },
+    {
+      "file": "164_lava.png",
+      "src": "assets/memes4/164_lava.png",
+      "thumb": "assets/memes4/thumbs/164_lava.webp",
+      "title": "ct decided the floor is lava again. he has lived down there the whole time. $duk",
+      "alt": "duk reacting to ct jumping between rallies and dumps, everyone scrambling off the lows. ct decided the floor is lava again. he has lived down there the whole time. $duk",
+      "tag": "market",
+      "created": "2026-11-27T20:00:15Z"
+    },
     {
       "file": "186_resolutions.png",
       "src": "assets/memes4/186_resolutions.png",
@@ -1435,6 +1462,15 @@
   ],
   "comics": [
     {
+      "file": "duk4_188_one_more.png",
+      "src": "assets/comics2/duk4_188_one_more.png",
+      "thumb": "assets/comics2/thumbs/duk4_188_one_more.webp",
+      "title": "one more trade before the weekend. they always end up down here eventually. $duk",
+      "alt": "duk reacting to traders squeezing in one more trade before the weekend. one more trade before the weekend. they always end up down here eventually. $duk",
+      "tag": null,
+      "created": "2026-11-27T20:00:15Z"
+    },
+    {
       "file": "duk4_114_trust_fall.png",
       "src": "assets/comics2/duk4_114_trust_fall.png",
       "thumb": "assets/comics2/thumbs/duk4_114_trust_fall.webp",
@@ -1509,6 +1545,69 @@
   ],
   "gifs": [
     {
+      "title": "not riding.",
+      "alt": "not riding.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/121_not_riding.mp4",
+      "gif": "assets/gifs2/121_not_riding.gif",
+      "poster": "assets/gifs2/posters/121_not_riding.webp",
+      "created": "2026-11-27T19:54:11Z"
+    },
+    {
+      "title": "took itself out.",
+      "alt": "took itself out.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/122_took_itself_out.mp4",
+      "gif": "assets/gifs2/122_took_itself_out.gif",
+      "poster": "assets/gifs2/posters/122_took_itself_out.webp",
+      "created": "2026-11-27T19:53:52Z"
+    },
+    {
+      "title": "lights out.",
+      "alt": "lights out.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/118_lights_out.mp4",
+      "gif": "assets/gifs2/118_lights_out.gif",
+      "poster": "assets/gifs2/posters/118_lights_out.webp",
+      "created": "2026-11-27T19:51:21Z"
+    },
+    {
+      "title": "x marks the spot.",
+      "alt": "x marks the spot.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/117_x_marks_the_spot.mp4",
+      "gif": "assets/gifs2/117_x_marks_the_spot.gif",
+      "poster": "assets/gifs2/posters/117_x_marks_the_spot.webp",
+      "created": "2026-11-27T19:51:21Z"
+    },
+    {
+      "title": "not jumping in.",
+      "alt": "Two red candles swing a double dutch rope; it slaps the floor and arcs over DUK, who lies flat in THE DUK pose in the middle: \"not jumping in.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/114_not_jumping_in.mp4",
+      "gif": "assets/gifs2/114_not_jumping_in.gif",
+      "poster": "assets/gifs2/posters/114_not_jumping_in.webp",
+      "created": "2026-11-27T19:50:12Z"
+    },
+    {
+      "title": "in the gutter.",
+      "alt": "A bowling ball rolls down the lane and every pin flies into the air while DUK lies flat in the gutter: \"in the gutter.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/113_in_the_gutter.mp4",
+      "gif": "assets/gifs2/113_in_the_gutter.gif",
+      "poster": "assets/gifs2/posters/113_in_the_gutter.webp",
+      "created": "2026-11-27T19:50:12Z"
+    },
+    {
+      "title": "doorbuster.",
+      "alt": "DUK lies flat in THE DUK pose outside a shop as a glass door with a \"doorbuster.\" sign bursts off its hinges and flies over him: \"doorbuster.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/112_doorbuster.mp4",
+      "gif": "assets/gifs2/112_doorbuster.gif",
+      "poster": "assets/gifs2/posters/112_doorbuster.webp",
+      "created": "2026-11-27T19:50:12Z"
+    },
+    {
       "title": "it pops.",
       "alt": "it pops.",
       "tag": "reaction",
@@ -1561,51 +1660,6 @@
       "gif": "assets/gifs2/110_didnt_wait.gif",
       "poster": "assets/gifs2/posters/110_didnt_wait.webp",
       "created": "2026-11-27T19:05:12Z"
-    },
-    {
-      "title": "x marks the spot.",
-      "alt": "x marks the spot.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/117_x_marks_the_spot.mp4",
-      "gif": "assets/gifs2/117_x_marks_the_spot.gif",
-      "poster": "assets/gifs2/posters/117_x_marks_the_spot.webp",
-      "created": "2026-11-27T18:23:40Z"
-    },
-    {
-      "title": "lights out.",
-      "alt": "lights out.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/118_lights_out.mp4",
-      "gif": "assets/gifs2/118_lights_out.gif",
-      "poster": "assets/gifs2/posters/118_lights_out.webp",
-      "created": "2026-11-27T18:23:12Z"
-    },
-    {
-      "title": "not jumping in.",
-      "alt": "not jumping in.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/114_not_jumping_in.mp4",
-      "gif": "assets/gifs2/114_not_jumping_in.gif",
-      "poster": "assets/gifs2/posters/114_not_jumping_in.webp",
-      "created": "2026-11-27T18:21:42Z"
-    },
-    {
-      "title": "in the gutter.",
-      "alt": "in the gutter.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/113_in_the_gutter.mp4",
-      "gif": "assets/gifs2/113_in_the_gutter.gif",
-      "poster": "assets/gifs2/posters/113_in_the_gutter.webp",
-      "created": "2026-11-27T18:21:41Z"
-    },
-    {
-      "title": "doorbuster.",
-      "alt": "doorbuster.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/112_doorbuster.mp4",
-      "gif": "assets/gifs2/112_doorbuster.gif",
-      "poster": "assets/gifs2/posters/112_doorbuster.webp",
-      "created": "2026-11-27T18:21:41Z"
     },
     {
       "title": "not running.",
@@ -2582,6 +2636,66 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/103_not_riding.mp4",
+      "poster": "assets/clips2/103_not_riding.webp",
+      "title": "not riding.",
+      "alt": "not riding.",
+      "created": "2026-11-27T19:54:10Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/104_took_itself_out.mp4",
+      "poster": "assets/clips2/104_took_itself_out.webp",
+      "title": "took itself out.",
+      "alt": "took itself out.",
+      "created": "2026-11-27T19:53:51Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/100_still_here_lights_out.mp4",
+      "poster": "assets/clips2/100_still_here_lights_out.webp",
+      "title": "still here lights out.",
+      "alt": "still here lights out.",
+      "created": "2026-11-27T19:51:20Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/099_x_marks_the_spot.mp4",
+      "poster": "assets/clips2/099_x_marks_the_spot.webp",
+      "title": "x marks the spot.",
+      "alt": "x marks the spot.",
+      "created": "2026-11-27T19:51:18Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/096_the_gutter.mp4",
+      "poster": "assets/clips2/096_the_gutter.webp",
+      "title": "strike. everyone went down. he was in the gutter the whole time. $duk",
+      "alt": "A bowling lane seen from the foul line. DUK stands in the left gutter, then lies down in THE DUK pose. A heavy ball rolls down the middle and every pin explodes into the air. \"strike.\" \"everyone went down.\" \"he was in the gutter the whole time.\" \"duk.\"",
+      "created": "2026-11-27T19:50:12Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/095_doorbusters.mp4",
+      "poster": "assets/clips2/095_doorbusters.webp",
+      "title": "black friday doorbusters. he ducked. duk.",
+      "alt": "DUK stands outside a shop with a \"black friday.\" sign while the glass doors rattle and bang. He drops into THE DUK pose, and both doors, each with a \"doorbuster.\" sign taped on, burst off their hinges and fly over him toward the camera. \"black friday doorbusters.\" \"he ducked. duk.\"",
+      "created": "2026-11-27T19:50:12Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/102_jack_in_the_box.mp4",
       "poster": "assets/clips2/102_jack_in_the_box.webp",
       "title": "jack in the box.",
@@ -2637,46 +2751,6 @@
       "title": "it's friday. he didn't wait. duk.",
       "alt": "The wall calendar flips from \"thursday.\" to \"friday.\" and DUK drops into THE DUK pose instantly, before anything happens. A whistle, a growing shadow, and a giant red candle slams into the ground right where he was standing. He stares. \"he didn't wait.\" \"duk.\"",
       "created": "2026-11-27T19:05:12Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/099_x_marks_the_spot.mp4",
-      "poster": "assets/clips2/099_x_marks_the_spot.webp",
-      "title": "x marks the spot.",
-      "alt": "x marks the spot.",
-      "created": "2026-11-27T18:23:35Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/100_still_here_lights_out.mp4",
-      "poster": "assets/clips2/100_still_here_lights_out.webp",
-      "title": "still here lights out.",
-      "alt": "still here lights out.",
-      "created": "2026-11-27T18:23:11Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/096_the_gutter.mp4",
-      "poster": "assets/clips2/096_the_gutter.webp",
-      "title": "the gutter.",
-      "alt": "the gutter.",
-      "created": "2026-11-27T18:21:41Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/095_doorbusters.mp4",
-      "poster": "assets/clips2/095_doorbusters.webp",
-      "title": "doorbusters.",
-      "alt": "doorbusters.",
-      "created": "2026-11-27T18:21:39Z",
       "duration": 10.0,
       "width": 1080,
       "height": 1080
