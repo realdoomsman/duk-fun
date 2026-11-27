@@ -4536,6 +4536,282 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/158_confirmed.webp"
+      },
+      {
+        "file": "formats/160_no_medal.png",
+        "src": "assets/kit/formats/160_no_medal.png",
+        "title": "the podium",
+        "alt": "A brown three-step podium with an empty label on each step and an empty green plaque on the top one, an empty sign on a post beside it. DUK lies flat on the ground next to the podium. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.22,
+            0.027,
+            0.56,
+            0.06
+          ],
+          [
+            0.28,
+            0.28,
+            0.12,
+            0.04
+          ],
+          [
+            0.32,
+            0.493,
+            0.04,
+            0.073
+          ],
+          [
+            0.687,
+            0.493,
+            0.24,
+            0.04
+          ],
+          [
+            0.14,
+            0.567,
+            0.04,
+            0.073
+          ],
+          [
+            0.507,
+            0.6,
+            0.04,
+            0.067
+          ],
+          [
+            0.16,
+            0.82,
+            0.087,
+            0.047
+          ],
+          [
+            0.28,
+            0.8,
+            0.233,
+            0.067
+          ],
+          [
+            0.553,
+            0.82,
+            0.08,
+            0.047
+          ],
+          [
+            0.667,
+            0.8,
+            0.16,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/160_no_medal.webp"
+      },
+      {
+        "file": "formats/161_support_group.png",
+        "src": "assets/kit/formats/161_support_group.png",
+        "title": "the support group",
+        "alt": "Four stick figures standing in a row, three with empty speech bubbles, under an empty pale yellow banner. DUK lies flat on the floor in the middle with his own empty bubble. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.2,
+            0.047,
+            0.6,
+            0.06
+          ],
+          [
+            0.12,
+            0.2,
+            0.26,
+            0.033
+          ],
+          [
+            0.68,
+            0.2,
+            0.14,
+            0.033
+          ],
+          [
+            0.46,
+            0.44,
+            0.08,
+            0.04
+          ],
+          [
+            0.06,
+            0.8,
+            0.867,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/161_support_group.webp"
+      },
+      {
+        "file": "formats/163_stayed_put.png",
+        "src": "assets/kit/formats/163_stayed_put.png",
+        "title": "the shelves",
+        "alt": "Three bare store shelves with six empty yellow tags and an empty sign at the top. DUK lies flat on the bottom shelf with an empty tag of his own. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.34,
+            0.093,
+            0.32,
+            0.06
+          ],
+          [
+            0.193,
+            0.253,
+            0.113,
+            0.033
+          ],
+          [
+            0.44,
+            0.253,
+            0.12,
+            0.033
+          ],
+          [
+            0.693,
+            0.253,
+            0.113,
+            0.033
+          ],
+          [
+            0.193,
+            0.473,
+            0.113,
+            0.027
+          ],
+          [
+            0.44,
+            0.473,
+            0.12,
+            0.027
+          ],
+          [
+            0.693,
+            0.473,
+            0.113,
+            0.027
+          ],
+          [
+            0.693,
+            0.64,
+            0.113,
+            0.04
+          ],
+          [
+            0.04,
+            0.8,
+            0.913,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/163_stayed_put.webp"
+      },
+      {
+        "file": "formats/167_sure_things.png",
+        "src": "assets/kit/formats/167_sure_things.png",
+        "title": "the list",
+        "alt": "A big pale yellow notepad with an empty title and four empty lines. DUK lies flat on the ground under it. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.327,
+            0.06,
+            0.333,
+            0.067
+          ],
+          [
+            0.253,
+            0.18,
+            0.153,
+            0.04
+          ],
+          [
+            0.253,
+            0.28,
+            0.307,
+            0.04
+          ],
+          [
+            0.253,
+            0.373,
+            0.353,
+            0.053
+          ],
+          [
+            0.253,
+            0.467,
+            0.36,
+            0.06
+          ],
+          [
+            0.087,
+            0.8,
+            0.12,
+            0.067
+          ],
+          [
+            0.24,
+            0.8,
+            0.66,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/167_sure_things.webp"
+      },
+      {
+        "file": "formats/182_missed_bus.png",
+        "src": "assets/kit/formats/182_missed_bus.png",
+        "title": "the bus",
+        "alt": "A yellow bus pulling away with an empty sign on its roof and side, a stick figure waving its arms with an empty sign beside it, and a red bus stop sign on a pole. DUK lies flat at the bottom of the pole. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.053,
+            0.26,
+            0.073,
+            0.033
+          ],
+          [
+            0.64,
+            0.267,
+            0.213,
+            0.027
+          ],
+          [
+            0.36,
+            0.427,
+            0.107,
+            0.04
+          ],
+          [
+            0.687,
+            0.447,
+            0.127,
+            0.04
+          ],
+          [
+            0.1,
+            0.8,
+            0.793,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/182_missed_bus.webp"
       }
     ],
     "pfp": [

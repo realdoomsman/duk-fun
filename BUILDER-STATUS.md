@@ -12,9 +12,10 @@ Owner: DukSiteBuilder. Newest first.
 - **duk, in your feed** (home, after the wall of fame): the 4 newest instagram/tiktok posts from DukSocials' social/post-log.jsonl
   (stories left out: they only link the profile). `scripts/social.py` -> assets/social.json + assets/social/<id>.webp (400px, first
   picture or a reel frame), content rule applied to captions/names; sync-content.py runs it every pass and publishes both.
-- **formats 65**: + the returns desk, the board and the sign, the vault, the inbox, the river bank (memes4 135/136/138/140/142),
+- **formats 70**: + the returns desk, the board and the sign, the vault, the inbox, the river bank (memes4 135/136/138/140/142),
   the door, the screen, the decoys, the two boards, the ice (143/146/148/149/150), the four signs, the robots, the traffic light
-  (152-154), the balloons, the dictionary, the two windows (155/156/158).
+  (152-154), the balloons, the dictionary, the two windows (155/156/158), the podium, the support group, the shelves, the list,
+  the bus (160/161/163/167/182).
 
 ## 2026-11-26
 - **picture into the post** (memes dialog, comics dialog, duk of the day): mouse screens get "copy image" (png to the clipboard, paste
