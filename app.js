@@ -98,6 +98,16 @@
     window.dukStreak = { days, best };
   } catch { /* private mode: no streak. */ }
 
+  // github pages sometimes answers a burst of thumbs with a 503: every lazy picture on the site (meme, sticker,
+  // gif and clip grids, the wall, fame) tries once more. 'error' doesn't bubble, so this listens in the capture phase.
+  document.addEventListener('error', ({ target }) => {
+    if (!(target instanceof HTMLImageElement) || target.loading !== 'lazy' || target.dataset.retried) return;
+    const src = target.getAttribute('src');
+    if (!src || src.startsWith('data:')) return;
+    target.dataset.retried = 'true';
+    window.setTimeout(() => { target.src = `${src}${src.includes('?') ? '&' : '?'}retry=1`; }, 1500);
+  }, true);
+
   const $ = (id) => document.getElementById(id);
   const externalURL = (value) => {
     if (!value) return null;

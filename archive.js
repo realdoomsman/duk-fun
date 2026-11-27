@@ -99,10 +99,6 @@
     thumbnail.height = 480;
     thumbnail.alt = item.alt;
     thumbnail.src = item.thumb;
-    // github pages sometimes answers a burst of thumbs with a 503; try each one once more.
-    thumbnail.addEventListener('error', () => {
-      window.setTimeout(() => { thumbnail.src = `${item.thumb}${item.thumb.includes('?') ? '&' : '?'}retry=1`; }, 1500);
-    }, { once: true });
     const caption = document.createElement('span');
     caption.className = 'archive-card-caption';
     caption.textContent = item.caption;
