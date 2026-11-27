@@ -2,6 +2,12 @@
 
 Owner: DukSiteBuilder. Newest first.
 
+## 2026-11-27
+- **reserve**: pool.html shows only the live number, "reserve: <wallet_duk from the keeper /log> duk", plus one line: that's the bot's
+  reserve, it never goes in the pool, everything else from fees goes in the pool and the lp is burned. No target, fixed figure,
+  percent, progress or "refilling". Reserve counters and the dev supply paragraph are gone; index pool card and manual say "it keeps a reserve".
+- **wall of fame cards**: "share" on touch screens (png for images, the mp4 for gifs/clips) and "copy image" on computers (images).
+
 ## 2026-11-26
 - **picture into the post** (memes dialog, comics dialog, duk of the day): mouse screens get "copy image" (png to the clipboard, paste
   into the x draft), touch screens get "share" (the png + the post words to the share sheet: x app, telegram, messages).
