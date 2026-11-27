@@ -6,6 +6,7 @@ Collection folders publish only once they have a manifest.json (the artist's "do
 and every published folder is rebuilt from scratch so cut or renamed files don't linger.
 The published site needs no build step; re-run this whenever new art lands.
 """
+from importlib.util import module_from_spec, spec_from_file_location
 from pathlib import Path
 from shutil import copy2, rmtree
 import json
@@ -45,6 +46,19 @@ STICKER_TYPES = {'.png': 'png', '.webp': 'webp', '.webm': 'webm'}
 
 
 missing = []
+blocked = []
+
+
+def load_blocklist() -> set:
+    """Names from work/state/content-blocklist.txt (parsed by scripts/sync-content.py), so a curated item
+    pulled for the content rule stays off the site too."""
+    spec = spec_from_file_location('sync_content', SITE / 'scripts' / 'sync-content.py')
+    sync = module_from_spec(spec)
+    spec.loader.exec_module(sync)
+    return sync.blocklist()[0]
+
+
+BLOCKED = load_blocklist()
 media = {
     'memes': [], 'comics': [], 'gifs': [], 'kit': {}, 'stickerPacks': [],
     'videos': {'trailer': None, 'clips': []}, 'poolSprite': None, 'replyLines': [],
@@ -77,6 +91,9 @@ def collection(folder_name: str) -> list:
     published = []
     for entry in entries:
         source = folder / entry['file']
+        if {f"{folder_name}/{entry['file']}", source.name, source.stem} & BLOCKED:
+            blocked.append(f"{folder_name}/{entry['file']}")
+            continue
         if not source.is_file():
             missing.append(f"{folder_name}/{entry['file']}")
             continue
@@ -272,6 +289,8 @@ print(f"media.json: {len(media['memes'])} memes, {len(media['comics'])} comics, 
       f"{kit_count} kit files, {len(media['stickerPacks'])} sticker packs ({sticker_count} stickers), "
       f"trailer {'ready' if media['videos']['trailer'] else 'missing'}, {len(media['videos']['clips'])} clips, "
       f"pool sprite {'ready' if media['poolSprite'] else 'missing'}")
+if blocked:
+    print('blocked (work/state/content-blocklist.txt): ' + ', '.join(blocked))
 # Share pages + cards for every meme and clip (s/), from the media.json just written.
 subprocess.run([sys.executable, str(SITE / 'scripts' / 'share-pages.py')], check=True)
 if missing:
