@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "duk-still-001",
+      "platform": "instagram",
+      "kind": "post",
+      "url": "https://www.instagram.com/p/DgQHt-PPmKM/",
+      "caption": "just duk.",
+      "ts": "2026-11-27T16:34:56Z",
+      "thumb": "assets/social/duk-still-001.webp",
+      "width": 400,
+      "height": 500
+    },
+    {
       "id": "duk-reel-014",
       "platform": "instagram",
       "kind": "reel",

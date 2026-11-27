@@ -4338,6 +4338,204 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/154_one_signal.webp"
+      },
+      {
+        "file": "formats/155_no_strings.png",
+        "src": "assets/kit/formats/155_no_strings.png",
+        "title": "the balloons",
+        "alt": "A grey box held up by four yellow balloons on strings, an empty label on each balloon and on the box. DUK lies flat on the ground beside it. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.367,
+            0.173,
+            0.033,
+            0.04
+          ],
+          [
+            0.1,
+            0.193,
+            0.033,
+            0.033
+          ],
+          [
+            0.233,
+            0.273,
+            0.033,
+            0.04
+          ],
+          [
+            0.453,
+            0.327,
+            0.027,
+            0.033
+          ],
+          [
+            0.7,
+            0.493,
+            0.167,
+            0.12
+          ],
+          [
+            0.127,
+            0.82,
+            0.08,
+            0.047
+          ],
+          [
+            0.24,
+            0.8,
+            0.62,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/155_no_strings.webp"
+      },
+      {
+        "file": "formats/156_dictionary.png",
+        "src": "assets/kit/formats/156_dictionary.png",
+        "title": "the dictionary",
+        "alt": "A big white board with an empty heading over a line and two empty columns of five rows each. DUK lies flat on the ground under it. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.34,
+            0.047,
+            0.32,
+            0.053
+          ],
+          [
+            0.153,
+            0.147,
+            0.213,
+            0.047
+          ],
+          [
+            0.5,
+            0.147,
+            0.147,
+            0.047
+          ],
+          [
+            0.153,
+            0.227,
+            0.287,
+            0.047
+          ],
+          [
+            0.5,
+            0.233,
+            0.133,
+            0.033
+          ],
+          [
+            0.147,
+            0.313,
+            0.247,
+            0.047
+          ],
+          [
+            0.5,
+            0.313,
+            0.227,
+            0.047
+          ],
+          [
+            0.147,
+            0.393,
+            0.287,
+            0.047
+          ],
+          [
+            0.5,
+            0.4,
+            0.34,
+            0.047
+          ],
+          [
+            0.147,
+            0.48,
+            0.073,
+            0.033
+          ],
+          [
+            0.5,
+            0.48,
+            0.1,
+            0.04
+          ],
+          [
+            0.1,
+            0.8,
+            0.287,
+            0.08
+          ],
+          [
+            0.42,
+            0.8,
+            0.473,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/156_dictionary.webp"
+      },
+      {
+        "file": "formats/158_confirmed.png",
+        "src": "assets/kit/formats/158_confirmed.png",
+        "title": "the two windows",
+        "alt": "Two old computer windows side by side with an empty label in each, a loading circle in the left one and a green tick in the right one. DUK lies flat on the ground under them. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.067,
+            0.06,
+            0.16,
+            0.027
+          ],
+          [
+            0.44,
+            0.06,
+            0.02,
+            0.02
+          ],
+          [
+            0.533,
+            0.06,
+            0.06,
+            0.033
+          ],
+          [
+            0.907,
+            0.06,
+            0.02,
+            0.02
+          ],
+          [
+            0.167,
+            0.133,
+            0.2,
+            0.107
+          ],
+          [
+            0.62,
+            0.133,
+            0.227,
+            0.1
+          ],
+          [
+            0.113,
+            0.8,
+            0.767,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/158_confirmed.webp"
       }
     ],
     "pfp": [
