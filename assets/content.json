@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T13:31:03Z",
+  "updated": "2026-11-27T14:16:03Z",
   "memes": [
+    {
+      "file": "146_holding_down.png",
+      "src": "assets/memes4/146_holding_down.png",
+      "thumb": "assets/memes4/thumbs/146_holding_down.webp",
+      "title": "everyone on ct keeps asking how everyone is holding up. wrong direction. $duk",
+      "alt": "duk reacting to ct checking in on each other: \"how are you holding up?\". everyone on ct keeps asking how everyone is holding up. wrong direction. $duk",
+      "tag": "market",
+      "created": "2026-11-27T14:00:18Z"
+    },
+    {
+      "file": "145_limbo.png",
+      "src": "assets/memes4/145_limbo.png",
+      "thumb": "assets/memes4/thumbs/145_limbo.webp",
+      "title": "the market keeps asking how low it can go. he has been winning this game for years. $duk",
+      "alt": "duk reacting to ct asking \"how low can it go\" as the market keeps sliding. the market keeps asking how low it can go. he has been winning this game for years. $duk",
+      "tag": "market",
+      "created": "2026-11-27T14:00:18Z"
+    },
+    {
+      "file": "144_cart_traffic.png",
+      "src": "assets/memes4/144_cart_traffic.png",
+      "thumb": "assets/memes4/thumbs/144_cart_traffic.webp",
+      "title": "black friday at the store. just duk.",
+      "alt": "duk reacting to black friday store aisles full of runaway shopping carts. black friday at the store. just duk.",
+      "tag": "market",
+      "created": "2026-11-27T14:00:18Z"
+    },
+    {
+      "file": "143_guest_list.png",
+      "src": "assets/memes4/143_guest_list.png",
+      "thumb": "assets/memes4/thumbs/143_guest_list.webp",
+      "title": "the index providers keep dropping names from the list. he was never on it. $duk",
+      "alt": "duk reacting to index providers dropping names from their lists. the index providers keep dropping names from the list. he was never on it. $duk",
+      "tag": "market",
+      "created": "2026-11-27T14:00:18Z"
+    },
     {
       "file": "142_river_bank.png",
       "src": "assets/memes4/142_river_bank.png",
@@ -1212,6 +1248,33 @@
   ],
   "gifs": [
     {
+      "title": "swinging blind.",
+      "alt": "A bat swings over DUK lying in THE DUK pose at a different height every pass: \"swinging blind.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/094_swinging_blind.mp4",
+      "gif": "assets/gifs2/094_swinging_blind.gif",
+      "poster": "assets/gifs2/posters/094_swinging_blind.webp",
+      "created": "2026-11-27T13:50:06Z"
+    },
+    {
+      "title": "already down.",
+      "alt": "A golf ball skims over DUK, who was lying flat in THE DUK pose before anyone yelled: \"already down.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/093_already_down.mp4",
+      "gif": "assets/gifs2/093_already_down.gif",
+      "poster": "assets/gifs2/posters/093_already_down.webp",
+      "created": "2026-11-27T13:50:06Z"
+    },
+    {
+      "title": "taking shots.",
+      "alt": "Darts fly over DUK lying in THE DUK pose and thunk into a dartboard behind him: \"taking shots.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/092_taking_shots.mp4",
+      "gif": "assets/gifs2/092_taking_shots.gif",
+      "poster": "assets/gifs2/posters/092_taking_shots.webp",
+      "created": "2026-11-27T13:50:06Z"
+    },
+    {
       "title": "too flat.",
       "alt": "too flat.",
       "tag": "reaction",
@@ -1336,33 +1399,6 @@
       "gif": "assets/gifs2/095_not_the_goalie.gif",
       "poster": "assets/gifs2/posters/095_not_the_goalie.webp",
       "created": "2026-11-27T12:01:50Z"
-    },
-    {
-      "title": "already down.",
-      "alt": "already down.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/093_already_down.mp4",
-      "gif": "assets/gifs2/093_already_down.gif",
-      "poster": "assets/gifs2/posters/093_already_down.webp",
-      "created": "2026-11-27T12:00:13Z"
-    },
-    {
-      "title": "taking shots.",
-      "alt": "taking shots.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/092_taking_shots.mp4",
-      "gif": "assets/gifs2/092_taking_shots.gif",
-      "poster": "assets/gifs2/posters/092_taking_shots.webp",
-      "created": "2026-11-27T12:00:13Z"
-    },
-    {
-      "title": "swinging blind.",
-      "alt": "swinging blind.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/094_swinging_blind.mp4",
-      "gif": "assets/gifs2/094_swinging_blind.gif",
-      "poster": "assets/gifs2/posters/094_swinging_blind.webp",
-      "created": "2026-11-27T11:59:48Z"
     },
     {
       "title": "snow day. duk.",
@@ -2096,6 +2132,36 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/077_swinging_blind.mp4",
+      "poster": "assets/clips2/077_swinging_blind.webp",
+      "title": "everyone's swinging blind. duk.",
+      "alt": "A star pinata hangs on a rope. A bat swings in from the left, blind, at random heights: high, low, middle. DUK drops into THE DUK pose and every swing whooshes over him. Nobody even hits the pinata. \"everyone's swinging blind.\" \"duk.\"",
+      "created": "2026-11-27T13:50:06Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/076_fore.mp4",
+      "poster": "assets/clips2/076_fore.webp",
+      "title": "they yelled fore. he was already down. $duk",
+      "alt": "Wide shot of a fairway with a red flag. DUK is already lying flat in THE DUK pose. Thwack off-screen: a golf ball screams in low from the left, skims right over his back and rolls into the hole. Only then a small, late \"fore.\" drifts in from the left edge. \"they yelled fore.\" \"he was already down.\"",
+      "created": "2026-11-27T13:50:06Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/075_taking_shots.mp4",
+      "poster": "assets/clips2/075_taking_shots.webp",
+      "title": "everyone's taking shots. duk.",
+      "alt": "A dartboard on the wall behind DUK. Darts fly in from the right, straight at him. He drops into THE DUK pose; every dart sails over him and thunks into the board. The last one hits the bullseye right where his head was. \"everyone's taking shots.\" \"duk.\"",
+      "created": "2026-11-27T13:50:06Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/082_too_flat.mp4",
       "poster": "assets/clips2/082_too_flat.webp",
       "title": "too flat.",
@@ -2232,36 +2298,6 @@
       "alt": "not the goalie.",
       "created": "2026-11-27T12:01:52Z",
       "duration": 9.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/076_fore.mp4",
-      "poster": "assets/clips2/076_fore.webp",
-      "title": "fore.",
-      "alt": "fore.",
-      "created": "2026-11-27T12:00:12Z",
-      "duration": 11.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/075_taking_shots.mp4",
-      "poster": "assets/clips2/075_taking_shots.webp",
-      "title": "taking shots.",
-      "alt": "taking shots.",
-      "created": "2026-11-27T12:00:11Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/077_swinging_blind.mp4",
-      "poster": "assets/clips2/077_swinging_blind.webp",
-      "title": "swinging blind.",
-      "alt": "swinging blind.",
-      "created": "2026-11-27T11:59:48Z",
-      "duration": 11.0,
       "width": 1080,
       "height": 1080
     },
