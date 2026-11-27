@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T20:16:05Z",
+  "updated": "2026-11-27T21:01:05Z",
   "memes": [
+    {
+      "file": "190_yearbook.png",
+      "src": "assets/memes4/190_yearbook.png",
+      "thumb": "assets/memes4/thumbs/190_yearbook.webp",
+      "title": "the november yearbook came out. he won his category again.",
+      "alt": "duk reacting to traders looking back on a brutal november as the month ends. the november yearbook came out. he won his category again.",
+      "tag": "market",
+      "created": "2026-11-27T20:45:15Z"
+    },
+    {
+      "file": "189_thin_ice.png",
+      "src": "assets/memes4/189_thin_ice.png",
+      "thumb": "assets/memes4/thumbs/189_thin_ice.webp",
+      "title": "weekend liquidity is thin ice again. he knows the safe way across. $duk",
+      "alt": "duk reacting to thin weekend liquidity after a volatile friday. weekend liquidity is thin ice again. he knows the safe way across. $duk",
+      "tag": "market",
+      "created": "2026-11-27T20:45:15Z"
+    },
+    {
+      "file": "179_one_page.png",
+      "src": "assets/memes4/179_one_page.png",
+      "thumb": "assets/memes4/thumbs/179_one_page.webp",
+      "title": "ct is reading trading books again. his strategy fits on one page. $duk",
+      "alt": "duk reacting to traders buying trading psychology books after a bad month. ct is reading trading books again. his strategy fits on one page. $duk",
+      "tag": "market",
+      "created": "2026-11-27T20:45:15Z"
+    },
+    {
+      "file": "174_tug_of_war.png",
+      "src": "assets/memes4/174_tug_of_war.png",
+      "thumb": "assets/memes4/thumbs/174_tug_of_war.webp",
+      "title": "bulls and bears are still pulling in opposite directions. nobody asked him to pick a side.",
+      "alt": "duk reacting to bulls and bears fighting over direction in a choppy market. bulls and bears are still pulling in opposite directions. nobody asked him to pick a side.",
+      "tag": "market",
+      "created": "2026-11-27T20:45:15Z"
+    },
     {
       "file": "187_hedge.png",
       "src": "assets/memes4/187_hedge.png",
@@ -1545,6 +1581,42 @@
   ],
   "gifs": [
     {
+      "title": "it pops.",
+      "alt": "it pops.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/120_it_pops.mp4",
+      "gif": "assets/gifs2/120_it_pops.gif",
+      "poster": "assets/gifs2/posters/120_it_pops.webp",
+      "created": "2026-11-27T20:36:16Z"
+    },
+    {
+      "title": "staying in.",
+      "alt": "staying in.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/119_staying_in.mp4",
+      "gif": "assets/gifs2/119_staying_in.gif",
+      "poster": "assets/gifs2/posters/119_staying_in.webp",
+      "created": "2026-11-27T20:36:15Z"
+    },
+    {
+      "title": "went under.",
+      "alt": "Hurdles slide over DUK lying flat on a running track: \"went under.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/116_went_under.mp4",
+      "gif": "assets/gifs2/116_went_under.gif",
+      "poster": "assets/gifs2/posters/116_went_under.webp",
+      "created": "2026-11-27T20:35:14Z"
+    },
+    {
+      "title": "closed.",
+      "alt": "A shop sign spins from \"open.\" to \"closed.\" and DUK is already flat in THE DUK pose next to it: \"closed.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/115_closed.mp4",
+      "gif": "assets/gifs2/115_closed.gif",
+      "poster": "assets/gifs2/posters/115_closed.webp",
+      "created": "2026-11-27T20:35:14Z"
+    },
+    {
       "title": "not riding.",
       "alt": "not riding.",
       "tag": "reaction",
@@ -1606,42 +1678,6 @@
       "gif": "assets/gifs2/112_doorbuster.gif",
       "poster": "assets/gifs2/posters/112_doorbuster.webp",
       "created": "2026-11-27T19:50:12Z"
-    },
-    {
-      "title": "it pops.",
-      "alt": "it pops.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/120_it_pops.mp4",
-      "gif": "assets/gifs2/120_it_pops.gif",
-      "poster": "assets/gifs2/posters/120_it_pops.webp",
-      "created": "2026-11-27T19:09:15Z"
-    },
-    {
-      "title": "staying in.",
-      "alt": "staying in.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/119_staying_in.mp4",
-      "gif": "assets/gifs2/119_staying_in.gif",
-      "poster": "assets/gifs2/posters/119_staying_in.webp",
-      "created": "2026-11-27T19:08:51Z"
-    },
-    {
-      "title": "went under.",
-      "alt": "went under.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/116_went_under.mp4",
-      "gif": "assets/gifs2/116_went_under.gif",
-      "poster": "assets/gifs2/posters/116_went_under.webp",
-      "created": "2026-11-27T19:06:27Z"
-    },
-    {
-      "title": "closed.",
-      "alt": "closed.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/115_closed.mp4",
-      "gif": "assets/gifs2/115_closed.gif",
-      "poster": "assets/gifs2/posters/115_closed.webp",
-      "created": "2026-11-27T19:06:27Z"
     },
     {
       "title": "delayed.",
@@ -2636,6 +2672,46 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/102_jack_in_the_box.mp4",
+      "poster": "assets/clips2/102_jack_in_the_box.webp",
+      "title": "jack in the box.",
+      "alt": "jack in the box.",
+      "created": "2026-11-27T20:36:15Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/101_pillow_fort.mp4",
+      "poster": "assets/clips2/101_pillow_fort.webp",
+      "title": "pillow fort.",
+      "alt": "pillow fort.",
+      "created": "2026-11-27T20:36:13Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/098_went_under.mp4",
+      "poster": "assets/clips2/098_went_under.webp",
+      "title": "everyone's jumping. he went under. $duk",
+      "alt": "A running track with hurdles sliding past. A red candle hops every hurdle, then clips one and faceplants. DUK stays flat in THE DUK pose and every hurdle passes right over him. \"everyone's jumping.\" \"he went under.\" \"duk.\"",
+      "created": "2026-11-27T20:35:14Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/097_he_does.mp4",
+      "poster": "assets/clips2/097_he_does.webp",
+      "title": "the market never closes. he does. duk.",
+      "alt": "DUK stands next to a shop sign that says \"open.\", stares, and the sign spins round to \"closed.\". He drops into THE DUK pose and red candles start whizzing over him from both sides. \"the market never closes.\" \"he does.\" \"duk.\"",
+      "created": "2026-11-27T20:35:14Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/103_not_riding.mp4",
       "poster": "assets/clips2/103_not_riding.webp",
       "title": "not riding.",
@@ -2691,46 +2767,6 @@
       "title": "black friday doorbusters. he ducked. duk.",
       "alt": "DUK stands outside a shop with a \"black friday.\" sign while the glass doors rattle and bang. He drops into THE DUK pose, and both doors, each with a \"doorbuster.\" sign taped on, burst off their hinges and fly over him toward the camera. \"black friday doorbusters.\" \"he ducked. duk.\"",
       "created": "2026-11-27T19:50:12Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/102_jack_in_the_box.mp4",
-      "poster": "assets/clips2/102_jack_in_the_box.webp",
-      "title": "jack in the box.",
-      "alt": "jack in the box.",
-      "created": "2026-11-27T19:09:14Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/101_pillow_fort.mp4",
-      "poster": "assets/clips2/101_pillow_fort.webp",
-      "title": "pillow fort.",
-      "alt": "pillow fort.",
-      "created": "2026-11-27T19:09:13Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/098_went_under.mp4",
-      "poster": "assets/clips2/098_went_under.webp",
-      "title": "went under.",
-      "alt": "went under.",
-      "created": "2026-11-27T19:06:26Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/097_he_does.mp4",
-      "poster": "assets/clips2/097_he_does.webp",
-      "title": "he does.",
-      "alt": "he does.",
-      "created": "2026-11-27T19:06:25Z",
       "duration": 10.0,
       "width": 1080,
       "height": 1080
