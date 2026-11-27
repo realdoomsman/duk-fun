@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T12:01:06Z",
+  "updated": "2026-11-27T12:46:04Z",
   "memes": [
+    {
+      "file": "138_self_custody.png",
+      "src": "assets/memes4/138_self_custody.png",
+      "thumb": "assets/memes4/thumbs/138_self_custody.webp",
+      "title": "another custodian reported a breach. he has always kept himself in self custody.",
+      "alt": "duk reacting to a crypto custodian reports a security breach. another custodian reported a breach. he has always kept himself in self custody.",
+      "tag": "market",
+      "created": "2026-11-27T12:29:45Z"
+    },
+    {
+      "file": "137_below_average.png",
+      "src": "assets/memes4/137_below_average.png",
+      "thumb": "assets/memes4/thumbs/137_below_average.webp",
+      "title": "ct is upset the chart closed under its long-term average. he has never once been above it. $duk",
+      "alt": "duk reacting to the chart closing under its long-term moving average. ct is upset the chart closed under its long-term average. he has never once been above it. $duk",
+      "tag": "market",
+      "created": "2026-11-27T12:29:45Z"
+    },
+    {
+      "file": "136_days_without.png",
+      "src": "assets/memes4/136_days_without.png",
+      "thumb": "assets/memes4/thumbs/136_days_without.webp",
+      "title": "the fear index has been stuck on extreme for weeks. he has a streak too.",
+      "alt": "duk reacting to the fear index stuck on extreme fear for weeks straight. the fear index has been stuck on extreme for weeks. he has a streak too.",
+      "tag": "market",
+      "created": "2026-11-27T12:29:45Z"
+    },
+    {
+      "file": "135_returns_desk.png",
+      "src": "assets/memes4/135_returns_desk.png",
+      "thumb": "assets/memes4/thumbs/135_returns_desk.webp",
+      "title": "the black friday line moved to the returns desk. he never got in that line. $duk",
+      "alt": "duk reacting to black friday shoppers lining up at the returns desk. the black friday line moved to the returns desk. he never got in that line. $duk",
+      "tag": "market",
+      "created": "2026-11-27T12:29:45Z"
+    },
     {
       "file": "134_the_vows.png",
       "src": "assets/memes4/134_the_vows.png",
@@ -1140,6 +1176,87 @@
   ],
   "gifs": [
     {
+      "title": "swing and a miss.",
+      "alt": "A wrecking ball labeled \"weekly close.\" swings back and forth an inch over DUK lying in THE DUK pose: \"swing and a miss.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/085_swing_and_a_miss.mp4",
+      "gif": "assets/gifs2/085_swing_and_a_miss.gif",
+      "poster": "assets/gifs2/posters/085_swing_and_a_miss.webp",
+      "created": "2026-11-27T12:20:03Z"
+    },
+    {
+      "title": "seen worse.",
+      "alt": "Night. Ghosts labeled \"fear.\" drift over DUK lying in THE DUK pose: \"seen worse.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/084_seen_worse.mp4",
+      "gif": "assets/gifs2/084_seen_worse.gif",
+      "poster": "assets/gifs2/posters/084_seen_worse.webp",
+      "created": "2026-11-27T12:20:03Z"
+    },
+    {
+      "title": "market went sideways. so did he.",
+      "alt": "A choppy red chart line slides sideways back and forth over DUK lying in THE DUK pose: \"market went sideways. so did he.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/083_so_did_he.mp4",
+      "gif": "assets/gifs2/083_so_did_he.gif",
+      "poster": "assets/gifs2/posters/083_so_did_he.webp",
+      "created": "2026-11-27T12:20:03Z"
+    },
+    {
+      "title": "not my party.",
+      "alt": "not my party.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/097_not_my_party.mp4",
+      "gif": "assets/gifs2/097_not_my_party.gif",
+      "poster": "assets/gifs2/posters/097_not_my_party.webp",
+      "created": "2026-11-27T12:02:35Z"
+    },
+    {
+      "title": "rapid fire.",
+      "alt": "rapid fire.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/096_rapid_fire.mp4",
+      "gif": "assets/gifs2/096_rapid_fire.gif",
+      "poster": "assets/gifs2/posters/096_rapid_fire.webp",
+      "created": "2026-11-27T12:01:55Z"
+    },
+    {
+      "title": "not the goalie.",
+      "alt": "not the goalie.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/095_not_the_goalie.mp4",
+      "gif": "assets/gifs2/095_not_the_goalie.gif",
+      "poster": "assets/gifs2/posters/095_not_the_goalie.webp",
+      "created": "2026-11-27T12:01:50Z"
+    },
+    {
+      "title": "already down.",
+      "alt": "already down.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/093_already_down.mp4",
+      "gif": "assets/gifs2/093_already_down.gif",
+      "poster": "assets/gifs2/posters/093_already_down.webp",
+      "created": "2026-11-27T12:00:13Z"
+    },
+    {
+      "title": "taking shots.",
+      "alt": "taking shots.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/092_taking_shots.mp4",
+      "gif": "assets/gifs2/092_taking_shots.gif",
+      "poster": "assets/gifs2/posters/092_taking_shots.webp",
+      "created": "2026-11-27T12:00:13Z"
+    },
+    {
+      "title": "swinging blind.",
+      "alt": "swinging blind.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/094_swinging_blind.mp4",
+      "gif": "assets/gifs2/094_swinging_blind.gif",
+      "poster": "assets/gifs2/posters/094_swinging_blind.webp",
+      "created": "2026-11-27T11:59:48Z"
+    },
+    {
       "title": "still dry.",
       "alt": "still dry.",
       "tag": "reaction",
@@ -1192,33 +1309,6 @@
       "gif": "assets/gifs2/086_it_always_comes_back.gif",
       "poster": "assets/gifs2/posters/086_it_always_comes_back.webp",
       "created": "2026-11-27T11:53:59Z"
-    },
-    {
-      "title": "swing and a miss.",
-      "alt": "swing and a miss.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/085_swing_and_a_miss.mp4",
-      "gif": "assets/gifs2/085_swing_and_a_miss.gif",
-      "poster": "assets/gifs2/posters/085_swing_and_a_miss.webp",
-      "created": "2026-11-27T11:51:25Z"
-    },
-    {
-      "title": "seen worse.",
-      "alt": "seen worse.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/084_seen_worse.mp4",
-      "gif": "assets/gifs2/084_seen_worse.gif",
-      "poster": "assets/gifs2/posters/084_seen_worse.webp",
-      "created": "2026-11-27T11:51:25Z"
-    },
-    {
-      "title": "so did he.",
-      "alt": "so did he.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/083_so_did_he.mp4",
-      "gif": "assets/gifs2/083_so_did_he.gif",
-      "poster": "assets/gifs2/posters/083_so_did_he.webp",
-      "created": "2026-11-27T11:50:50Z"
     },
     {
       "title": "snow day. duk.",
@@ -1952,6 +2042,96 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/068_wrecking_ball.mp4",
+      "poster": "assets/clips2/068_wrecking_ball.webp",
+      "title": "weekly close swinging in. duk.",
+      "alt": "A wrecking ball labeled \"weekly close.\" hangs high on the right. It lets go and swings down; DUK drops into THE DUK pose and it whooshes an inch over his back, smashes a \"bulls.\" sign off the screen and keeps swinging over him, smaller each time. \"swing and a miss.\" \"duk.\"",
+      "created": "2026-11-27T12:20:03Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/067_extreme_fear_again.mp4",
+      "poster": "assets/clips2/067_extreme_fear_again.webp",
+      "title": "extreme fear again. he has seen worse. $duk",
+      "alt": "Night. Stars and a moon. Ghosts float in one after another: \"fear.\" \"more fear.\" \"extreme fear.\" DUK drops into THE DUK pose and they all drift over him and away. Quiet: \"extreme fear.\" \"again.\" \"he's seen worse.\"",
+      "created": "2026-11-27T12:20:03Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/066_market_went_sideways.mp4",
+      "poster": "assets/clips2/066_market_went_sideways.webp",
+      "title": "market went sideways. so did he. $duk",
+      "alt": "Wide shot. A long choppy red chart line slides in flat at head height, sweeps all the way left, then all the way right, then left again. DUK lies flat in THE DUK pose under every pass. It leaves. \"market went sideways.\" \"so did he.\"",
+      "created": "2026-11-27T12:20:03Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/080_sideways_fireworks.mp4",
+      "poster": "assets/clips2/080_sideways_fireworks.webp",
+      "title": "sideways fireworks.",
+      "alt": "sideways fireworks.",
+      "created": "2026-11-27T12:02:23Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/079_rapid_fire.mp4",
+      "poster": "assets/clips2/079_rapid_fire.webp",
+      "title": "rapid fire.",
+      "alt": "rapid fire.",
+      "created": "2026-11-27T12:01:53Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/078_not_the_goalie.mp4",
+      "poster": "assets/clips2/078_not_the_goalie.webp",
+      "title": "not the goalie.",
+      "alt": "not the goalie.",
+      "created": "2026-11-27T12:01:52Z",
+      "duration": 9.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/076_fore.mp4",
+      "poster": "assets/clips2/076_fore.webp",
+      "title": "fore.",
+      "alt": "fore.",
+      "created": "2026-11-27T12:00:12Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/075_taking_shots.mp4",
+      "poster": "assets/clips2/075_taking_shots.webp",
+      "title": "taking shots.",
+      "alt": "taking shots.",
+      "created": "2026-11-27T12:00:11Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/077_swinging_blind.mp4",
+      "poster": "assets/clips2/077_swinging_blind.webp",
+      "title": "swinging blind.",
+      "alt": "swinging blind.",
+      "created": "2026-11-27T11:59:48Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/074_red_wave.mp4",
       "poster": "assets/clips2/074_red_wave.webp",
       "title": "red wave.",
@@ -2010,36 +2190,6 @@
       "duration": 11.0,
       "width": 1080,
       "height": 1080
-    },
-    {
-      "src": "assets/clips2/068_wrecking_ball.mp4",
-      "poster": "assets/clips2/068_wrecking_ball.webp",
-      "title": "wrecking ball.",
-      "alt": "wrecking ball.",
-      "created": "2026-11-27T11:51:24Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/067_extreme_fear_again.mp4",
-      "poster": "assets/clips2/067_extreme_fear_again.webp",
-      "title": "extreme fear again.",
-      "alt": "extreme fear again.",
-      "created": "2026-11-27T11:51:22Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/066_market_went_sideways.mp4",
-      "poster": "assets/clips2/066_market_went_sideways.webp",
-      "title": "market went sideways.",
-      "alt": "market went sideways.",
-      "created": "2026-11-27T11:50:46Z",
-      "duration": 11.0,
-      "width": 1280,
-      "height": 720
     },
     {
       "src": "assets/clips2/065_first_snow.mp4",
