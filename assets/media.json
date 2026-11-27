@@ -5502,6 +5502,114 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/190_yearbook.webp"
+      },
+      {
+        "file": "formats/192_blackout.png",
+        "src": "assets/kit/formats/192_blackout.png",
+        "title": "the press podium",
+        "alt": "A brown press podium with four microphones and an empty label on its front, an empty sign on a post beside it, under an empty title. DUK lies flat on the ground next to the sign. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.18,
+            0.027,
+            0.64,
+            0.073
+          ],
+          [
+            0.6,
+            0.3,
+            0.26,
+            0.053
+          ],
+          [
+            0.18,
+            0.5,
+            0.187,
+            0.073
+          ],
+          [
+            0.08,
+            0.773,
+            0.833,
+            0.06
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/192_blackout.webp"
+      },
+      {
+        "file": "formats/193_screen_time.png",
+        "src": "assets/kit/formats/193_screen_time.png",
+        "title": "the phone screen",
+        "alt": "A big black phone showing a white screen with an empty title and four empty labels, each over a red bar. An empty sign on a post beside it, DUK lying flat on the ground under the sign. An empty line along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.187,
+            0.113,
+            0.287,
+            0.1
+          ],
+          [
+            0.173,
+            0.247,
+            0.107,
+            0.033
+          ],
+          [
+            0.647,
+            0.273,
+            0.233,
+            0.047
+          ],
+          [
+            0.173,
+            0.36,
+            0.033,
+            0.033
+          ],
+          [
+            0.173,
+            0.473,
+            0.093,
+            0.033
+          ],
+          [
+            0.173,
+            0.587,
+            0.08,
+            0.04
+          ],
+          [
+            0.14,
+            0.8,
+            0.087,
+            0.067
+          ],
+          [
+            0.26,
+            0.82,
+            0.14,
+            0.053
+          ],
+          [
+            0.433,
+            0.8,
+            0.173,
+            0.073
+          ],
+          [
+            0.64,
+            0.8,
+            0.213,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/193_screen_time.webp"
       }
     ],
     "pfp": [
