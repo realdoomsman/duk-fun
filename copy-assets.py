@@ -22,6 +22,19 @@ MEMES = ASSETS / 'memes'
 STICKERS = ASSETS / 'stickers'
 VIDEOS = ASSETS / 'videos'
 REBUILT = ('memes', 'memes2', 'memes3', 'comics', 'gifs', 'kit', 'replies', 'stickers', 'videos')
+
+
+def load_blocklist() -> set:
+    """Names from work/state/content-blocklist.txt (parsed by scripts/sync-content.py), so a curated item
+    pulled for the content rule stays off the site too."""
+    spec = spec_from_file_location('sync_content', SITE / 'scripts' / 'sync-content.py')
+    sync = module_from_spec(spec)
+    spec.loader.exec_module(sync)
+    return sync.blocklist()[0]
+
+
+# loaded before the rmtree below: a failing load must not leave the asset folders wiped.
+BLOCKED = load_blocklist()
 ASSETS.mkdir(exist_ok=True)
 for name in REBUILT:
     rmtree(ASSETS / name, ignore_errors=True)
@@ -47,18 +60,6 @@ STICKER_TYPES = {'.png': 'png', '.webp': 'webp', '.webm': 'webm'}
 
 missing = []
 blocked = []
-
-
-def load_blocklist() -> set:
-    """Names from work/state/content-blocklist.txt (parsed by scripts/sync-content.py), so a curated item
-    pulled for the content rule stays off the site too."""
-    spec = spec_from_file_location('sync_content', SITE / 'scripts' / 'sync-content.py')
-    sync = module_from_spec(spec)
-    spec.loader.exec_module(sync)
-    return sync.blocklist()[0]
-
-
-BLOCKED = load_blocklist()
 media = {
     'memes': [], 'comics': [], 'gifs': [], 'kit': {}, 'stickerPacks': [],
     'videos': {'trailer': None, 'clips': []}, 'poolSprite': None, 'replyLines': [],
