@@ -1,6 +1,60 @@
 {
-  "updated": "2026-11-27T21:46:05Z",
+  "updated": "2026-11-27T22:31:04Z",
   "memes": [
+    {
+      "file": "198_bell_curve.png",
+      "src": "assets/memes4/198_bell_curve.png",
+      "thumb": "assets/memes4/thumbs/198_bell_curve.webp",
+      "title": "ct is measuring its fear in standard deviations now. some analysis stays simple. $duk",
+      "alt": "duk reacting to crypto sentiment measured in standard deviations below normal, ct overthinking every signal. ct is measuring its fear in standard deviations now. some analysis stays simple. $duk",
+      "tag": "market",
+      "created": "2026-11-27T22:15:16Z"
+    },
+    {
+      "file": "196_reflex_test.png",
+      "src": "assets/memes4/196_reflex_test.png",
+      "thumb": "assets/memes4/thumbs/196_reflex_test.webp",
+      "title": "analysts are ranking everything by downside sensitivity. he tested flat. $duk",
+      "alt": "duk reacting to analysts ranking tokens by how hard they react to downside. analysts are ranking everything by downside sensitivity. he tested flat. $duk",
+      "tag": "market",
+      "created": "2026-11-27T22:15:16Z"
+    },
+    {
+      "file": "195_canary.png",
+      "src": "assets/memes4/195_canary.png",
+      "thumb": "assets/memes4/thumbs/195_canary.webp",
+      "title": "the analysts found their canary in the coal mine. he never needed the warning. $duk",
+      "alt": "duk reacting to analysts calling the latest capitulation data the canary in the coal mine. the analysts found their canary in the coal mine. he never needed the warning. $duk",
+      "tag": "market",
+      "created": "2026-11-27T22:15:16Z"
+    },
+    {
+      "file": "194_slow_dump.png",
+      "src": "assets/memes4/194_slow_dump.png",
+      "thumb": "assets/memes4/thumbs/194_slow_dump.webp",
+      "title": "the sell-off is finally slowing down. he ducks at any speed. $duk",
+      "alt": "duk reacting to the crypto sell-off slowing down after weeks of losses. the sell-off is finally slowing down. he ducks at any speed. $duk",
+      "tag": "market",
+      "created": "2026-11-27T22:15:16Z"
+    },
+    {
+      "file": "178_square_one.png",
+      "src": "assets/memes4/178_square_one.png",
+      "thumb": "assets/memes4/thumbs/178_square_one.webp",
+      "title": "the month was all snakes and no ladders. he never rolled the dice.",
+      "alt": "duk reacting to traders sliding back down after every rally in the red month. the month was all snakes and no ladders. he never rolled the dice.",
+      "tag": "market",
+      "created": "2026-11-27T22:15:16Z"
+    },
+    {
+      "file": "177_grounded.png",
+      "src": "assets/memes4/177_grounded.png",
+      "thumb": "assets/memes4/thumbs/177_grounded.webp",
+      "title": "every flight out of the red month got pushed back. he never booked one. $duk",
+      "alt": "duk reacting to every hoped-for rally and season getting pushed back again. every flight out of the red month got pushed back. he never booked one. $duk",
+      "tag": "market",
+      "created": "2026-11-27T22:15:16Z"
+    },
     {
       "file": "193_screen_time.png",
       "src": "assets/memes4/193_screen_time.png",
@@ -1617,6 +1671,24 @@
   ],
   "gifs": [
     {
+      "title": "boing.",
+      "alt": "A jack-in-the-box springs open and a red candle on a spring wobbles over DUK lying flat: \"boing.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/120_boing.mp4",
+      "gif": "assets/gifs2/120_boing.gif",
+      "poster": "assets/gifs2/posters/120_boing.webp",
+      "created": "2026-11-27T22:05:00Z"
+    },
+    {
+      "title": "staying in.",
+      "alt": "A red candle bounces off the wall of a pillow fort with DUK lying flat inside: \"staying in.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/119_staying_in.mp4",
+      "gif": "assets/gifs2/119_staying_in.gif",
+      "poster": "assets/gifs2/posters/119_staying_in.webp",
+      "created": "2026-11-27T22:05:00Z"
+    },
+    {
       "title": "already lying down.",
       "alt": "already lying down.",
       "tag": "reaction",
@@ -1633,15 +1705,6 @@
       "gif": "assets/gifs2/123_low_clearance.gif",
       "poster": "assets/gifs2/posters/123_low_clearance.webp",
       "created": "2026-11-27T21:27:13Z"
-    },
-    {
-      "title": "boing.",
-      "alt": "boing.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/120_boing.mp4",
-      "gif": "assets/gifs2/120_boing.gif",
-      "poster": "assets/gifs2/posters/120_boing.webp",
-      "created": "2026-11-27T21:22:40Z"
     },
     {
       "title": "took itself out.",
@@ -1678,15 +1741,6 @@
       "gif": "assets/gifs2/117_x_marks_the_spot.gif",
       "poster": "assets/gifs2/posters/117_x_marks_the_spot.webp",
       "created": "2026-11-27T21:20:06Z"
-    },
-    {
-      "title": "staying in.",
-      "alt": "staying in.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/119_staying_in.mp4",
-      "gif": "assets/gifs2/119_staying_in.gif",
-      "poster": "assets/gifs2/posters/119_staying_in.webp",
-      "created": "2026-11-27T20:36:15Z"
     },
     {
       "title": "closed.",
@@ -2717,6 +2771,26 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/102_jack_in_the_box.mp4",
+      "poster": "assets/clips2/102_jack_in_the_box.webp",
+      "title": "you know how the song ends. he's not waiting to find out. $duk",
+      "alt": "A jack-in-the-box cranks out its tune next to DUK, who stands staring. One beat before the end he drops into THE DUK pose; the lid flies open and a red candle on a spring shoots out right over him and wobbles there. \"you know how the song ends.\" \"he's not waiting to find out.\" \"duk.\"",
+      "created": "2026-11-27T22:05:00Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/101_pillow_fort.mp4",
+      "poster": "assets/clips2/101_pillow_fort.webp",
+      "title": "weekend plans. staying in. duk.",
+      "alt": "DUK drops into THE DUK pose and pillows land around him one by one, then a blanket roof: a pillow fort. Red candles fly in from both sides and bounce straight off the walls. \"weekend plans.\" \"staying in.\" \"duk.\"",
+      "created": "2026-11-27T22:05:00Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
       "src": "assets/clips2/105_low_clearance.mp4",
       "poster": "assets/clips2/105_low_clearance.webp",
       "title": "low clearance.",
@@ -2732,16 +2806,6 @@
       "title": "already lying down.",
       "alt": "already lying down.",
       "created": "2026-11-27T21:27:12Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/102_jack_in_the_box.mp4",
-      "poster": "assets/clips2/102_jack_in_the_box.webp",
-      "title": "jack in the box.",
-      "alt": "jack in the box.",
-      "created": "2026-11-27T21:22:39Z",
       "duration": 10.0,
       "width": 1080,
       "height": 1080
@@ -2785,16 +2849,6 @@
       "duration": 10.0,
       "width": 1080,
       "height": 1080
-    },
-    {
-      "src": "assets/clips2/101_pillow_fort.mp4",
-      "poster": "assets/clips2/101_pillow_fort.webp",
-      "title": "pillow fort.",
-      "alt": "pillow fort.",
-      "created": "2026-11-27T20:36:13Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
     },
     {
       "src": "assets/clips2/098_stays_low.mp4",
