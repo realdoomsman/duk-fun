@@ -1,6 +1,19 @@
 {
   "entries": [
     {
+      "id": "ikazaki88-1",
+      "kind": "image",
+      "src": "assets/fame/ikazaki88-1.jpg",
+      "thumb": "assets/fame/thumbs/ikazaki88-1.webp",
+      "width": 1000,
+      "height": 1000,
+      "by": "ikazaki88",
+      "post": "https://x.com/ikazaki88/status/2126401715855601963",
+      "caption": "here we go again.",
+      "alt": "a duk made by @ikazaki88",
+      "added": "2026-11-27"
+    },
+    {
       "id": "gfinest23-1",
       "kind": "image",
       "src": "assets/fame/gfinest23-1.png",
