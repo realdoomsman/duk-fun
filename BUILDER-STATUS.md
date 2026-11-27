@@ -3,9 +3,9 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-27
-- **reserve**: pool.html shows only the live number, "reserve: <wallet_duk from the keeper /log> duk", plus one line: that's the bot's
-  reserve, it never goes in the pool, everything else from fees goes in the pool and the lp is burned. No target, fixed figure,
-  percent, progress or "refilling". Reserve counters and the dev supply paragraph are gone; index pool card and manual say "it keeps a reserve".
+- **no holdings claims** (Main, 16:00 EST): nothing on the site says what the bot or dev wallet holds. Gone: the live reserve number
+  (#pp-reserve / wallet_duk), "it never sells duk", "it never goes in the pool", "it keeps a reserve". pool.html and manual describe the
+  reserve only as a step in the fee flow ("part of the fees is set aside as a reserve before the add"); add/burn receipts and curve buys stay.
 - **wall of fame cards**: "share" on touch screens (png for images, the mp4 for gifs/clips) and "copy image" on computers (images).
 - **thumb retry**: any lazy picture that fails to load (github pages burst 503s) tries once more after 1.5 s: one capture-phase
   listener in app.js covers the meme, sticker, gif and clip grids, the wall and fame. Video posters (gif grids, home wall gifs,

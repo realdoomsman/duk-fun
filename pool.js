@@ -107,11 +107,10 @@
     .sort((a, b) => (isAmount(b.timestamp) ? b.timestamp : 0) - (isAmount(a.timestamp) ? a.timestamp : 0));
   const receiptRow = (entry) => txRow(entry, [['solAdded', 'sol'], ['dukAdded', 'duk'], ['lpBurned', 'lp burned']]);
 
-  // Fees claimed, the bot's reserve (wallet_duk) and the launch-day curve buys. Missing fields show '—'.
+  // Fees claimed and the launch-day curve buys. Missing fields show '—'.
   const showWallet = (data) => {
     const totals = (data && data.totals) || {};
     $('pp-claimed').textContent = amount(totals.solClaimed);
-    $('pp-reserve').textContent = `reserve: ${whole(data && data.wallet_duk)} duk`;
     const buys = newestFirst(data && data.curve_buys).slice(0, 20);
     $('pp-curve-count').textContent = buys.length
       ? `${buys.length} ${buys.length === 1 ? 'buy' : 'buys'} on launch day, newest first. the bot doesn't buy on the curve anymore.`

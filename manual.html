@@ -230,7 +230,7 @@
                 <li><b>burn the lp from that add.</b> it burns the lp tokens it gets back. burned lp can't be redeemed, so nobody can withdraw that liquidity, us included.</li>
               </ol>
               <h3>the reserve</h3>
-              <p>the bot keeps a reserve. it never goes in the pool. everything else from fees goes in the pool and the lp is burned. <a href="pool.html#pool-now">the pool page</a> shows what's in it.</p>
+              <p>part of the fees is set aside as a reserve before the add. the rest goes in the pool and the lp is burned. every add and burn is on <a href="pool.html#pool-receipts">the pool page</a>.</p>
               <h3>the small print, at normal size</h3>
               <ul class="plain-list">
                 <li>it only adds anything if there are creator fees to claim, the keeper is running and the transactions go through. running costs come out first.</li>
@@ -373,7 +373,7 @@
                 </div>
                 <div>
                   <dt>who's the dev? what does the dev do?</dt>
-                  <dd>the creator fees go to a separate wallet that only the keeper, a small bot, uses. every batch it claims the fees, buys a slice of duk, adds duk and sol to the pool and burns the lp it gets back. it keeps a reserve that never goes in the pool. everything else from fees goes in the pool and the lp is burned. every add and burn shows up on <a href="pool.html">the pool page</a> with the transaction. the wallet's keys stay private.</dd>
+                  <dd>the creator fees go to a separate wallet that only the keeper, a small bot, uses. every batch it claims the fees, buys a slice of duk, adds duk and sol to the pool and burns the lp it gets back. every add and burn shows up on <a href="pool.html">the pool page</a> with the transaction. the wallet's keys stay private.</dd>
                 </div>
                 <div>
                   <dt>what about liquidity?</dt>

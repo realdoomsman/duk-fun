@@ -26,10 +26,10 @@
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="style.css?v=c09cd88d">
-  <link rel="stylesheet" href="pool.css?v=fd4d9a24">
+  <link rel="stylesheet" href="pool.css?v=e689f757">
   <script src="assets/config.js?v=4f90962a" defer></script>
   <script src="app.js?v=33c04755" defer></script>
-  <script src="pool.js?v=9d791f94" defer></script>
+  <script src="pool.js?v=16ea4d90" defer></script>
 </head>
 <body class="pool-page">
   <a class="skip-link" href="#main">skip to the page</a>
@@ -42,7 +42,7 @@
       <div>
         <p class="eyebrow">the pool / where the fees go</p>
         <h1 id="pool-title">fees go<br>in the pool.</h1>
-        <p class="lead">every batch the bot claims creator fees, buys a slice of duk with them, adds duk and sol to the pool and burns the lp. it never sells duk. receipts below.<br><strong class="pool-hero-flat">a deeper pool can mean less slippage. not a price floor.</strong></p>
+        <p class="lead">every batch the bot claims creator fees, buys a slice of duk with them, adds duk and sol to the pool and burns the lp. receipts below.<br><strong class="pool-hero-flat">a deeper pool can mean less slippage. not a price floor.</strong></p>
         <p class="pool-hero-jump"><a class="button" href="#pool-live">see the water</a> <a class="text-link" href="#pool-receipts">skip to the receipts <span aria-hidden="true">↓</span></a></p>
       </div>
       <img class="page-hero-art" id="pool-hero-art" src="assets/stand.png" width="800" height="1000" alt="duk. standing at the edge of the pool.">
@@ -81,8 +81,8 @@
       <div class="pool-fineprint">
         <h3>the fine print, in big letters.</h3>
         <ul>
-          <li><strong>it runs every batch.</strong> duk graduated to pumpswap on nov 26. since then every batch goes in: fees claimed, a slice buys duk, duk and sol added, lp burned. it never sells duk.</li>
-          <li><strong>the reserve.</strong> the bot keeps a reserve. it never goes in the pool. everything else from fees goes in the pool and the lp is burned. <a class="text-link" href="#pool-now">the reserve, live</a>.</li>
+          <li><strong>it runs every batch.</strong> duk graduated to pumpswap on nov 26. since then every batch goes in: fees claimed, a slice buys duk, duk and sol added, lp burned.</li>
+          <li><strong>the reserve.</strong> part of the fees is set aside as a reserve before the add. the rest goes in the pool and the lp is burned.</li>
           <li><strong>a keeper does it.</strong> a small bot on a server. it checks on a timer and works in batches. thresholds and a small sol reserve apply.</li>
           <li><strong>operating costs come out before the split.</strong> network fees and running costs first. then the reserve, then the slice that buys duk, then the add.</li>
           <li><strong>additions depend on fees, the keeper and execution.</strong> no trades means no fees, and no fees means nothing to add. if the keeper is down, nothing gets added either.</li>
@@ -100,8 +100,6 @@
       <div class="pool-now" id="pool-now" aria-labelledby="pp-now-title">
         <h3 id="pp-now-title">what the bot is doing now</h3>
         <p class="pool-now-lead">every batch it claims creator fees, a slice of the sol buys duk, duk and sol go in the pool, and the lp is burned. receipts below.</p>
-        <p class="pool-reserve" id="pp-reserve">reserve: — duk</p>
-        <p class="pool-now-lead">that's the bot's reserve. it never goes in the pool. everything else from fees goes in the pool and the lp is burned.</p>
         <div class="pool-counters" role="group" aria-labelledby="pp-now-counter-title">
           <h3 id="pp-now-counter-title">so far</h3>
           <div><span>fees claimed (sol)</span><strong id="pp-claimed">—</strong></div>
