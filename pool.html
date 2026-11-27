@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#00a2e8">
   <title>the pool / duk.</title>
-  <meta name="description" content="fees go in the pool. every batch the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. it keeps 4% of supply in its wallet and never sells duk. receipts here. not a price floor. $DUK">
+  <meta name="description" content="fees go in the pool. every batch the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. receipts here. not a price floor. $DUK">
   <link rel="canonical" href="https://duk.fun/pool.html">
   <meta property="og:title" content="the pool / duk.">
   <meta property="og:description" content="every batch the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. every add links to its transaction. $DUK">
@@ -26,10 +26,10 @@
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="style.css?v=397a36d4">
-  <link rel="stylesheet" href="pool.css?v=03540288">
+  <link rel="stylesheet" href="pool.css?v=fd4d9a24">
   <script src="assets/config.js?v=686d2449" defer></script>
   <script src="app.js?v=50863abf" defer></script>
-  <script src="pool.js?v=0b0e5409" defer></script>
+  <script src="pool.js?v=9d791f94" defer></script>
 </head>
 <body class="pool-page">
   <a class="skip-link" href="#main">skip to the page</a>
@@ -82,9 +82,9 @@
         <h3>the fine print, in big letters.</h3>
         <ul>
           <li><strong>it runs every batch.</strong> duk graduated to pumpswap on nov 26. since then every batch goes in: fees claimed, a slice buys duk, duk and sol added, lp burned. it never sells duk.</li>
-          <li><strong>4% stays in the wallet.</strong> the bot keeps 4% of supply (40m duk) as a reserve. it never sells it and never puts it in the pool. <a class="text-link" href="#pool-now">the reserve, live</a>.</li>
+          <li><strong>the reserve.</strong> the bot keeps a reserve. it never goes in the pool. everything else from fees goes in the pool and the lp is burned. <a class="text-link" href="#pool-now">the reserve, live</a>.</li>
           <li><strong>a keeper does it.</strong> a small bot on a server. it checks on a timer and works in batches. thresholds and a small sol reserve apply.</li>
-          <li><strong>operating costs come out before the split.</strong> network fees and running costs first. then the reserve refill if it's below 4%, then the slice that buys duk, then the add.</li>
+          <li><strong>operating costs come out before the split.</strong> network fees and running costs first. then the reserve, then the slice that buys duk, then the add.</li>
           <li><strong>additions depend on fees, the keeper and execution.</strong> no trades means no fees, and no fees means nothing to add. if the keeper is down, nothing gets added either.</li>
           <li><strong>other people's lp is separate.</strong> we burn the lp from our adds. everyone else's lp is theirs.</li>
         </ul>
@@ -100,15 +100,12 @@
       <div class="pool-now" id="pool-now" aria-labelledby="pp-now-title">
         <h3 id="pp-now-title">what the bot is doing now</h3>
         <p class="pool-now-lead">every batch it claims creator fees, a slice of the sol buys duk, duk and sol go in the pool, and the lp is burned. receipts below.</p>
-        <p class="pool-now-lead">the bot keeps 4% of supply (40m duk) in its wallet. it never sells it and never puts it in the pool. <span id="pp-reserve-status">it's below that right now, so a quarter of each batch buys duk back toward 4%. the rest goes in the pool every time.</span></p>
-        <p class="pool-reserve" id="pp-reserve">reserve: — / 40,000,000 duk</p>
+        <p class="pool-reserve" id="pp-reserve">reserve: — duk</p>
+        <p class="pool-now-lead">that's the bot's reserve. it never goes in the pool. everything else from fees goes in the pool and the lp is burned.</p>
         <div class="pool-counters" role="group" aria-labelledby="pp-now-counter-title">
           <h3 id="pp-now-counter-title">so far</h3>
           <div><span>fees claimed (sol)</span><strong id="pp-claimed">—</strong></div>
-          <div><span>duk in reserve</span><strong id="pp-held">—</strong></div>
-          <div><span>duk bought back for the reserve</span><strong id="pp-refilled">—</strong></div>
         </div>
-        <p class="pool-receipts-wallet pool-dev-supply">the dev supply (51,095,238 duk) went to the bot wallet, along with the duk from the launch-day curve buys. part of it has already gone into the pool, with the lp burned. the rest is the reserve. <a class="text-link" href="https://solscan.io/tx/53YStF5M7mo3BoS9rPB6Jn8Ma9e8DQY5XQWPSaufNFo1Nd4ccgyngHQ6kuBgMDndBmarweroReeP7u7n6WpmkUHA" target="_blank" rel="noopener noreferrer">see the dev supply transfer ↗</a></p>
         <h4 class="pool-now-table-title" id="pp-curve-title">curve buys (launch day, now stopped)</h4>
         <p class="pool-receipts-count" id="pp-curve-count">each buy links to its transaction on solscan.</p>
         <div class="pool-table-wrap" tabindex="0" role="region" aria-labelledby="pp-curve-title">
@@ -212,7 +209,7 @@
             <li>a price floor. price can still go down.</li>
             <li>a guarantee of anything.</li>
             <li>control over other people's lp.</li>
-            <li>a burn of duk tokens. the duk it buys goes into the pool, or into the 4% reserve while that's refilling. only the lp tokens get burned.</li>
+            <li>a burn of duk tokens. the duk it buys goes into the pool or the reserve. only the lp tokens get burned.</li>
             <li>a reason to wash trade. buying and selling with yourself to make fees just costs you the fees.</li>
           </ul>
         </div>
@@ -231,7 +228,7 @@
         </details>
         <details>
           <summary>does this pump the price?</summary>
-          <p>it isn't built to. each batch buys some duk and puts it back in the pool next to sol. while the reserve is below 4%, part of the batch buys duk that stays in the wallet. the point is depth: a deeper pool can mean less slippage. price can still go down. it's not a price floor.</p>
+          <p>it isn't built to. each batch buys some duk and puts it back in the pool next to sol. the point is depth: a deeper pool can mean less slippage. price can still go down. it's not a price floor.</p>
         </details>
         <details>
           <summary>what if nobody trades?</summary>

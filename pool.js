@@ -26,13 +26,6 @@
     ? 'running, but no coin to watch yet.'
     : 'running, but not adding right now.');
 
-  // Share of each batch that refills the reserve, in words.
-  const refillShare = (bps) => {
-    if (bps === 2500) return 'a quarter';
-    if (bps === 5000) return 'half';
-    return isAmount(bps) ? `${bps / 100}%` : 'part';
-  };
-
   const setLevel = (level, caption) => {
     $('pp-illustration').style.setProperty('--pool-level', `${level}%`);
     $('pp-caption').textContent = caption;
@@ -114,23 +107,11 @@
     .sort((a, b) => (isAmount(b.timestamp) ? b.timestamp : 0) - (isAmount(a.timestamp) ? a.timestamp : 0));
   const receiptRow = (entry) => txRow(entry, [['solAdded', 'sol'], ['dukAdded', 'duk'], ['lpBurned', 'lp burned']]);
 
-  // Fees claimed, the 4% duk reserve the bot keeps in its wallet, and the launch-day curve buys. Missing fields show '—'.
+  // Fees claimed, the bot's reserve (wallet_duk) and the launch-day curve buys. Missing fields show '—'.
   const showWallet = (data) => {
     const totals = (data && data.totals) || {};
     $('pp-claimed').textContent = amount(totals.solClaimed);
-    $('pp-held').textContent = whole(data && data.wallet_duk);
-    $('pp-refilled').textContent = whole(totals.dukBoughtForReserve);
-    if (data && isAmount(data.wallet_duk) && isAmount(data.duk_reserve)) {
-      const pct = isAmount(data.reserve_pct) ? ` (${data.reserve_pct}%)` : '';
-      $('pp-reserve').textContent = `reserve: ${whole(data.wallet_duk)} / ${whole(data.duk_reserve)} duk${pct}${data.reserve_refilling === true ? ' · refilling' : ''}`;
-    } else {
-      $('pp-reserve').textContent = 'reserve: — / 40,000,000 duk';
-    }
-    if (data && data.reserve_refilling === true) {
-      $('pp-reserve-status').textContent = `it's below that right now, so ${refillShare(data.reserve_refill_bps)} of each batch buys duk back toward 4%. the rest goes in the pool every time.`;
-    } else if (data && data.reserve_refilling === false) {
-      $('pp-reserve-status').textContent = "it's at 4% now, so the refill is off and all of each batch goes in the pool.";
-    }
+    $('pp-reserve').textContent = `reserve: ${whole(data && data.wallet_duk)} duk`;
     const buys = newestFirst(data && data.curve_buys).slice(0, 20);
     $('pp-curve-count').textContent = buys.length
       ? `${buys.length} ${buys.length === 1 ? 'buy' : 'buys'} on launch day, newest first. the bot doesn't buy on the curve anymore.`

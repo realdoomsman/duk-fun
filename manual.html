@@ -229,8 +229,8 @@
                 <li><b>add.</b> both go into the duk/sol pumpswap pool.</li>
                 <li><b>burn the lp from that add.</b> it burns the lp tokens it gets back. burned lp can't be redeemed, so nobody can withdraw that liquidity, us included.</li>
               </ol>
-              <h3>the 4% reserve</h3>
-              <p>the bot keeps 4% of supply (40m duk) in its wallet. it never sells it and never puts it in the pool. when it's below that, a quarter of each batch buys duk back toward 4% and the rest goes in the pool. at 4% the refill stops and all of it goes in the pool. the dev supply (51,095,238 duk) and two launch-day curve buys went to the bot wallet. part of that has already gone into the pool, with the lp burned. the rest is the reserve. <a href="pool.html#pool-now">the pool page</a> shows the numbers.</p>
+              <h3>the reserve</h3>
+              <p>the bot keeps a reserve. it never goes in the pool. everything else from fees goes in the pool and the lp is burned. <a href="pool.html#pool-now">the pool page</a> shows what's in it.</p>
               <h3>the small print, at normal size</h3>
               <ul class="plain-list">
                 <li>it only adds anything if there are creator fees to claim, the keeper is running and the transactions go through. running costs come out first.</li>
@@ -373,7 +373,7 @@
                 </div>
                 <div>
                   <dt>who's the dev? what does the dev do?</dt>
-                  <dd>the creator fees go to a separate wallet that only the keeper, a small bot, uses. every batch it claims the fees, buys a slice of duk, adds duk and sol to the pool and burns the lp it gets back. it keeps 4% of supply (40m duk) in that wallet as a reserve and never sells duk. every add and burn shows up on <a href="pool.html">the pool page</a> with the transaction. the wallet's keys stay private.</dd>
+                  <dd>the creator fees go to a separate wallet that only the keeper, a small bot, uses. every batch it claims the fees, buys a slice of duk, adds duk and sol to the pool and burns the lp it gets back. it keeps a reserve that never goes in the pool. everything else from fees goes in the pool and the lp is burned. every add and burn shows up on <a href="pool.html">the pool page</a> with the transaction. the wallet's keys stay private.</dd>
                 </div>
                 <div>
                   <dt>what about liquidity?</dt>
