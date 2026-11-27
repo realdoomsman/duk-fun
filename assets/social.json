@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "duk-reel-014",
+      "platform": "instagram",
+      "kind": "reel",
+      "url": "https://www.instagram.com/reel/DgP5129gyIh/",
+      "caption": "black friday. same strategy as every other day.",
+      "ts": "2026-11-27T14:33:55Z",
+      "thumb": "assets/social/duk-reel-014.webp",
+      "width": 400,
+      "height": 711
+    },
+    {
       "id": "duk-carousel-015",
       "platform": "instagram",
       "kind": "carousel",

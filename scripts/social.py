@@ -1,9 +1,10 @@
 """The newest instagram/tiktok posts for the home page: python site/scripts/social.py -> site/assets/social.json.
 
 Reads social/post-log.jsonl (DukSocials appends one line per post: ts, platform, kind, id, media, caption, url).
-Keeps the newest posts that have their own link (stories only link the profile, so they're left out), skips any
-whose caption or media name breaks the content rule, and gives each a 400px-wide webp of its first picture or a
-frame of its reel (assets/social/<id>.webp). sync-content.py runs it every pass. Writes only on change.
+Keeps the newest posts of their own (reels, carousels, stills, videos: stories only link the profile and replies are
+comments, so both are left out), skips any whose caption or media name breaks the content rule, and gives each a
+400px-wide webp of its first picture or a frame of its reel (assets/social/<id>.webp). sync-content.py runs it every
+pass. Writes only on change.
 """
 from importlib.util import module_from_spec, spec_from_file_location
 from pathlib import Path
@@ -20,6 +21,7 @@ THUMBS = SITE / 'assets' / 'social'
 KEEP = 8
 WIDTH = 400
 POST_URL = re.compile(r'^https://(www\.)?(instagram\.com/(p|reel|reels)/|tiktok\.com/@[\w.]+/video/)[\w/-]+$')
+POSTS = {'reel', 'carousel', 'still', 'post', 'video'}
 
 _spec = spec_from_file_location('sync_content', SITE / 'scripts' / 'sync-content.py')
 sync = module_from_spec(_spec)
@@ -71,7 +73,8 @@ def posts() -> list:
     newest, seen = [], set()
     for entry in sorted(lines, key=lambda entry: entry.get('ts') or '', reverse=True):
         url = entry.get('url') or ''
-        if entry.get('platform') not in ('instagram', 'tiktok') or not POST_URL.match(url) or url in seen:
+        if (entry.get('platform') not in ('instagram', 'tiktok') or (entry.get('kind') or 'post') not in POSTS
+                or not POST_URL.match(url) or url in seen):
             continue
         media = entry.get('media')
         first = media[0] if isinstance(media, list) and media else media
