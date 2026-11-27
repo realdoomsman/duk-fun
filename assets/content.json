@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T14:16:03Z",
+  "updated": "2026-11-27T15:01:04Z",
   "memes": [
+    {
+      "file": "150_frozen.png",
+      "src": "assets/memes4/150_frozen.png",
+      "thumb": "assets/memes4/thumbs/150_frozen.webp",
+      "title": "regulators keep getting new powers to freeze accounts. he freezes on his own.",
+      "alt": "duk reacting to regulators getting new powers to freeze crypto accounts. regulators keep getting new powers to freeze accounts. he freezes on his own.",
+      "tag": "market",
+      "created": "2026-11-27T14:45:19Z"
+    },
+    {
+      "file": "149_pay_later.png",
+      "src": "assets/memes4/149_pay_later.png",
+      "thumb": "assets/memes4/thumbs/149_pay_later.webp",
+      "title": "buy now, pay later is everywhere this black friday. he has his own plan.",
+      "alt": "duk reacting to buy now, pay later everywhere on black friday. buy now, pay later is everywhere this black friday. he has his own plan.",
+      "tag": "market",
+      "created": "2026-11-27T14:45:19Z"
+    },
+    {
+      "file": "148_decoys.png",
+      "src": "assets/memes4/148_decoys.png",
+      "thumb": "assets/memes4/thumbs/148_decoys.webp",
+      "title": "the marsh is full of decoys this time of year. he is not one of them. $duk",
+      "alt": "duk reacting to ct full of fake accounts and copycats; hunters setting out decoys in the marshes. the marsh is full of decoys this time of year. he is not one of them. $duk",
+      "tag": "market",
+      "created": "2026-11-27T14:45:19Z"
+    },
+    {
+      "file": "147_no_statement.png",
+      "src": "assets/memes4/147_no_statement.png",
+      "thumb": "assets/memes4/thumbs/147_no_statement.webp",
+      "title": "another \"my wallet got hacked\" post right after a dump. he has never needed a statement.",
+      "alt": "duk reacting to big accounts posting \"my wallet got hacked\" right after a dump. another \"my wallet got hacked\" post right after a dump. he has never needed a statement.",
+      "tag": "market",
+      "created": "2026-11-27T14:45:19Z"
+    },
     {
       "file": "146_holding_down.png",
       "src": "assets/memes4/146_holding_down.png",
@@ -1248,6 +1284,87 @@
   ],
   "gifs": [
     {
+      "title": "never in it.",
+      "alt": "never in it.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/103_never_in_it.mp4",
+      "gif": "assets/gifs2/103_never_in_it.gif",
+      "poster": "assets/gifs2/posters/103_never_in_it.webp",
+      "created": "2026-11-27T14:56:02Z"
+    },
+    {
+      "title": "out of office.",
+      "alt": "out of office.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/102_out_of_office.mp4",
+      "gif": "assets/gifs2/102_out_of_office.gif",
+      "poster": "assets/gifs2/posters/102_out_of_office.webp",
+      "created": "2026-11-27T14:56:02Z"
+    },
+    {
+      "title": "not falling for it.",
+      "alt": "not falling for it.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/100_not_falling_for_it.mp4",
+      "gif": "assets/gifs2/100_not_falling_for_it.gif",
+      "poster": "assets/gifs2/posters/100_not_falling_for_it.webp",
+      "created": "2026-11-27T14:53:39Z"
+    },
+    {
+      "title": "dont pop up.",
+      "alt": "dont pop up.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/101_dont_pop_up.mp4",
+      "gif": "assets/gifs2/101_dont_pop_up.gif",
+      "poster": "assets/gifs2/posters/101_dont_pop_up.webp",
+      "created": "2026-11-27T14:53:16Z"
+    },
+    {
+      "title": "too flat.",
+      "alt": "Night. A flying saucer beams red candles up past DUK lying in THE DUK pose, who stays put: \"too flat.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/099_too_flat.mp4",
+      "gif": "assets/gifs2/099_too_flat.gif",
+      "poster": "assets/gifs2/posters/099_too_flat.webp",
+      "created": "2026-11-27T14:50:20Z"
+    },
+    {
+      "title": "not trading.",
+      "alt": "A tennis rally flies back and forth over DUK lying in THE DUK pose: \"not trading.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/098_not_trading.mp4",
+      "gif": "assets/gifs2/098_not_trading.gif",
+      "poster": "assets/gifs2/posters/098_not_trading.webp",
+      "created": "2026-11-27T14:50:20Z"
+    },
+    {
+      "title": "not my party.",
+      "alt": "Night. Sideways rockets zip over DUK lying in THE DUK pose and burst behind him: \"not my party.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/097_not_my_party.mp4",
+      "gif": "assets/gifs2/097_not_my_party.gif",
+      "poster": "assets/gifs2/posters/097_not_my_party.webp",
+      "created": "2026-11-27T14:20:03Z"
+    },
+    {
+      "title": "rapid fire.",
+      "alt": "A ball machine fires yellow balls over DUK lying in THE DUK pose onto a growing pile: \"rapid fire.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/096_rapid_fire.mp4",
+      "gif": "assets/gifs2/096_rapid_fire.gif",
+      "poster": "assets/gifs2/posters/096_rapid_fire.webp",
+      "created": "2026-11-27T14:20:03Z"
+    },
+    {
+      "title": "not the goalie.",
+      "alt": "Pucks skim over DUK lying in THE DUK pose and into a hockey net behind him: \"not the goalie.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/095_not_the_goalie.mp4",
+      "gif": "assets/gifs2/095_not_the_goalie.gif",
+      "poster": "assets/gifs2/posters/095_not_the_goalie.webp",
+      "created": "2026-11-27T14:20:03Z"
+    },
+    {
       "title": "swinging blind.",
       "alt": "A bat swings over DUK lying in THE DUK pose at a different height every pass: \"swinging blind.\"",
       "tag": "reaction",
@@ -1273,24 +1390,6 @@
       "gif": "assets/gifs2/092_taking_shots.gif",
       "poster": "assets/gifs2/posters/092_taking_shots.webp",
       "created": "2026-11-27T13:50:06Z"
-    },
-    {
-      "title": "too flat.",
-      "alt": "too flat.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/099_too_flat.mp4",
-      "gif": "assets/gifs2/099_too_flat.gif",
-      "poster": "assets/gifs2/posters/099_too_flat.webp",
-      "created": "2026-11-27T13:21:28Z"
-    },
-    {
-      "title": "not trading.",
-      "alt": "not trading.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/098_not_trading.mp4",
-      "gif": "assets/gifs2/098_not_trading.gif",
-      "poster": "assets/gifs2/posters/098_not_trading.webp",
-      "created": "2026-11-27T13:21:28Z"
     },
     {
       "title": "still dry.",
@@ -1372,33 +1471,6 @@
       "gif": "assets/gifs2/083_so_did_he.gif",
       "poster": "assets/gifs2/posters/083_so_did_he.webp",
       "created": "2026-11-27T12:20:03Z"
-    },
-    {
-      "title": "not my party.",
-      "alt": "not my party.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/097_not_my_party.mp4",
-      "gif": "assets/gifs2/097_not_my_party.gif",
-      "poster": "assets/gifs2/posters/097_not_my_party.webp",
-      "created": "2026-11-27T12:02:35Z"
-    },
-    {
-      "title": "rapid fire.",
-      "alt": "rapid fire.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/096_rapid_fire.mp4",
-      "gif": "assets/gifs2/096_rapid_fire.gif",
-      "poster": "assets/gifs2/posters/096_rapid_fire.webp",
-      "created": "2026-11-27T12:01:55Z"
-    },
-    {
-      "title": "not the goalie.",
-      "alt": "not the goalie.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/095_not_the_goalie.mp4",
-      "gif": "assets/gifs2/095_not_the_goalie.gif",
-      "poster": "assets/gifs2/posters/095_not_the_goalie.webp",
-      "created": "2026-11-27T12:01:50Z"
     },
     {
       "title": "snow day. duk.",
@@ -2132,6 +2204,96 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/086_house_of_cards.mp4",
+      "poster": "assets/clips2/086_house_of_cards.webp",
+      "title": "house of cards.",
+      "alt": "house of cards.",
+      "created": "2026-11-27T14:56:01Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/085_friday_afternoon.mp4",
+      "poster": "assets/clips2/085_friday_afternoon.webp",
+      "title": "friday afternoon.",
+      "alt": "friday afternoon.",
+      "created": "2026-11-27T14:55:58Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/083_small_green_candle.mp4",
+      "poster": "assets/clips2/083_small_green_candle.webp",
+      "title": "small green candle.",
+      "alt": "small green candle.",
+      "created": "2026-11-27T14:53:38Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/084_dont_pop_up.mp4",
+      "poster": "assets/clips2/084_dont_pop_up.webp",
+      "title": "dont pop up.",
+      "alt": "dont pop up.",
+      "created": "2026-11-27T14:53:15Z",
+      "duration": 12.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/082_too_flat.mp4",
+      "poster": "assets/clips2/082_too_flat.webp",
+      "title": "they tried to beam him up. too flat. duk.",
+      "alt": "Night. A flying saucer hovers and switches on its tractor beam. DUK drops into THE DUK pose. Red candles lying around get sucked up into the saucer one by one. The beam turns on him, strains, and gives up. The saucer zips off. \"they tried to beam him up.\" \"too flat.\"",
+      "created": "2026-11-27T14:50:20Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/081_everyone_is_trading.mp4",
+      "poster": "assets/clips2/081_everyone_is_trading.webp",
+      "title": "everyone's trading. he's lying down. $duk",
+      "alt": "Wide shot of a tennis court. Two rackets rally a ball back and forth across the frame. DUK drops into THE DUK pose right in the middle and the ball flies over him every single time. \"everyone's trading.\" \"he's not.\"",
+      "created": "2026-11-27T14:50:20Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/080_sideways_fireworks.mp4",
+      "poster": "assets/clips2/080_sideways_fireworks.webp",
+      "title": "someone lit the fireworks sideways. duk.",
+      "alt": "Wide night shot. Rockets come screaming in sideways from the right, trailing sparks, straight at DUK. He drops into THE DUK pose; each rocket zips over him and bursts into a big colored firework behind him. \"someone lit them sideways.\" \"duk.\"",
+      "created": "2026-11-27T14:20:03Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/079_rapid_fire.mp4",
+      "poster": "assets/clips2/079_rapid_fire.webp",
+      "title": "the market's on rapid fire today. duk.",
+      "alt": "A ball machine labeled \"the market.\" starts firing yellow balls at DUK, faster and faster. He drops into THE DUK pose; every ball whips over him and piles up behind him. The machine runs dry. \"rapid fire.\" \"duk.\"",
+      "created": "2026-11-27T14:20:03Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/078_not_the_goalie.mp4",
+      "poster": "assets/clips2/078_not_the_goalie.webp",
+      "title": "he's not the goalie. duk.",
+      "alt": "An ice rink with a red hockey net behind DUK. Slapshots: pucks rip in from the right, straight at him. He drops into THE DUK pose; every puck skims over him and into the net: \"goal.\" \"goal.\" \"goal.\" \"he's not the goalie.\" \"duk.\"",
+      "created": "2026-11-27T14:20:03Z",
+      "duration": 9.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/077_swinging_blind.mp4",
       "poster": "assets/clips2/077_swinging_blind.webp",
       "title": "everyone's swinging blind. duk.",
@@ -2160,26 +2322,6 @@
       "duration": 11.0,
       "width": 1080,
       "height": 1080
-    },
-    {
-      "src": "assets/clips2/082_too_flat.mp4",
-      "poster": "assets/clips2/082_too_flat.webp",
-      "title": "too flat.",
-      "alt": "too flat.",
-      "created": "2026-11-27T13:21:27Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/081_everyone_is_trading.mp4",
-      "poster": "assets/clips2/081_everyone_is_trading.webp",
-      "title": "everyone is trading.",
-      "alt": "everyone is trading.",
-      "created": "2026-11-27T13:21:26Z",
-      "duration": 12.0,
-      "width": 1280,
-      "height": 720
     },
     {
       "src": "assets/clips2/074_red_wave.mp4",
@@ -2270,36 +2412,6 @@
       "duration": 11.0,
       "width": 1280,
       "height": 720
-    },
-    {
-      "src": "assets/clips2/080_sideways_fireworks.mp4",
-      "poster": "assets/clips2/080_sideways_fireworks.webp",
-      "title": "sideways fireworks.",
-      "alt": "sideways fireworks.",
-      "created": "2026-11-27T12:02:23Z",
-      "duration": 11.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/079_rapid_fire.mp4",
-      "poster": "assets/clips2/079_rapid_fire.webp",
-      "title": "rapid fire.",
-      "alt": "rapid fire.",
-      "created": "2026-11-27T12:01:53Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/078_not_the_goalie.mp4",
-      "poster": "assets/clips2/078_not_the_goalie.webp",
-      "title": "not the goalie.",
-      "alt": "not the goalie.",
-      "created": "2026-11-27T12:01:52Z",
-      "duration": 9.0,
-      "width": 1080,
-      "height": 1080
     },
     {
       "src": "assets/clips2/065_first_snow.mp4",
