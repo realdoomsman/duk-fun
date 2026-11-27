@@ -12,6 +12,7 @@ Owner: DukSiteBuilder. Newest first.
 - **duk, in your feed** (home, after the wall of fame): the 4 newest instagram/tiktok posts from DukSocials' social/post-log.jsonl
   (stories left out: they only link the profile). `scripts/social.py` -> assets/social.json + assets/social/<id>.webp (400px, first
   picture or a reel frame), content rule applied to captions/names; sync-content.py runs it every pass and publishes both.
+- **formats 54**: + the returns desk, the board and the sign, the vault, the inbox, the river bank (memes4 135/136/138/140/142).
 
 ## 2026-11-26
 - **picture into the post** (memes dialog, comics dialog, duk of the day): mouse screens get "copy image" (png to the clipboard, paste

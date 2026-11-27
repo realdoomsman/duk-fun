@@ -3810,6 +3810,222 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/134_the_vows.webp"
+      },
+      {
+        "file": "formats/135_returns_desk.png",
+        "src": "assets/kit/formats/135_returns_desk.png",
+        "title": "the returns desk",
+        "alt": "An empty yellow sign hangs over a brown desk with an empty label, three stick figures with shopping bags queue in front of it. DUK lies flat at the end of the line. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.34,
+            0.06,
+            0.32,
+            0.08
+          ],
+          [
+            0.107,
+            0.533,
+            0.107,
+            0.04
+          ],
+          [
+            0.153,
+            0.82,
+            0.18,
+            0.04
+          ],
+          [
+            0.367,
+            0.8,
+            0.473,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/135_returns_desk.webp"
+      },
+      {
+        "file": "formats/136_days_without.png",
+        "src": "assets/kit/formats/136_days_without.png",
+        "title": "the board and the sign",
+        "alt": "A big white board with a pale yellow note and an empty line, and a smaller empty sign on a post. DUK lies flat on the ground under them. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.253,
+            0.067,
+            0.493,
+            0.173
+          ],
+          [
+            0.187,
+            0.3,
+            0.62,
+            0.047
+          ],
+          [
+            0.547,
+            0.513,
+            0.34,
+            0.12
+          ],
+          [
+            0.153,
+            0.833,
+            0.433,
+            0.06
+          ],
+          [
+            0.62,
+            0.84,
+            0.22,
+            0.053
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/136_days_without.webp"
+      },
+      {
+        "file": "formats/138_self_custody.png",
+        "src": "assets/kit/formats/138_self_custody.png",
+        "title": "the vault",
+        "alt": "A grey vault door with a round wheel and an empty label, and an empty sign on a post beside it. DUK lies flat on the ground under the sign. Empty lines above and below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.373,
+            0.027,
+            0.253,
+            0.073
+          ],
+          [
+            0.153,
+            0.18,
+            0.227,
+            0.087
+          ],
+          [
+            0.613,
+            0.427,
+            0.28,
+            0.053
+          ],
+          [
+            0.06,
+            0.793,
+            0.873,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/138_self_custody.webp"
+      },
+      {
+        "file": "formats/140_reply_all.png",
+        "src": "assets/kit/formats/140_reply_all.png",
+        "title": "the inbox",
+        "alt": "An old computer window with five empty rows, each with a blue dot. DUK lies flat on the floor under it. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.087,
+            0.047,
+            0.08,
+            0.027
+          ],
+          [
+            0.893,
+            0.04,
+            0.02,
+            0.02
+          ],
+          [
+            0.167,
+            0.12,
+            0.553,
+            0.04
+          ],
+          [
+            0.167,
+            0.213,
+            0.467,
+            0.047
+          ],
+          [
+            0.167,
+            0.307,
+            0.26,
+            0.047
+          ],
+          [
+            0.167,
+            0.4,
+            0.38,
+            0.047
+          ],
+          [
+            0.167,
+            0.493,
+            0.507,
+            0.04
+          ],
+          [
+            0.227,
+            0.813,
+            0.193,
+            0.087
+          ],
+          [
+            0.453,
+            0.813,
+            0.113,
+            0.067
+          ],
+          [
+            0.607,
+            0.813,
+            0.16,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/140_reply_all.webp"
+      },
+      {
+        "file": "formats/142_river_bank.png",
+        "src": "assets/kit/formats/142_river_bank.png",
+        "title": "the river bank",
+        "alt": "An empty brown sign on a post by a pale blue river. DUK lies flat on the green grass. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.2,
+            0.327,
+            0.167,
+            0.067
+          ],
+          [
+            0.327,
+            0.813,
+            0.1,
+            0.073
+          ],
+          [
+            0.467,
+            0.813,
+            0.2,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/142_river_bank.webp"
       }
     ],
     "pfp": [
