@@ -1,3 +1,17 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "id": "gfinest23-1",
+      "kind": "image",
+      "src": "assets/fame/gfinest23-1.png",
+      "thumb": "assets/fame/thumbs/gfinest23-1.webp",
+      "width": 1000,
+      "height": 1000,
+      "by": "GFinest23",
+      "post": "https://x.com/GFinest23/status/2126266404747849840",
+      "caption": "just duk.",
+      "alt": "duk lying flat under falling red candles, captioned just duk",
+      "added": "2026-11-27"
+    }
+  ]
 }
