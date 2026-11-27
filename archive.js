@@ -169,6 +169,12 @@
     const item = visible[current];
     if (!item) return;
     title.textContent = item.caption;
+    if (item.fresh) {
+      const stamp = document.createElement('span');
+      stamp.className = 'archive-card-new';
+      stamp.textContent = 'new';
+      title.append(' ', stamp);
+    }
     image.src = item.src;
     image.alt = item.alt;
     position.textContent = `${current + 1} / ${visible.length} in ${filter}`;
