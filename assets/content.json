@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T17:16:03Z",
+  "updated": "2026-11-27T18:01:03Z",
   "memes": [
+    {
+      "file": "182_missed_bus.png",
+      "src": "assets/memes4/182_missed_bus.png",
+      "thumb": "assets/memes4/thumbs/182_missed_bus.webp",
+      "title": "stocks caught the rebound. crypto missed the bus. he was never at the stop for it.",
+      "alt": "duk reacting to crypto lagging behind the stock market rebound. stocks caught the rebound. crypto missed the bus. he was never at the stop for it.",
+      "tag": "market",
+      "created": "2026-11-27T17:45:16Z"
+    },
+    {
+      "file": "181_correlated.png",
+      "src": "assets/memes4/181_correlated.png",
+      "thumb": "assets/memes4/thumbs/181_correlated.webp",
+      "title": "ct says crypto and gold have never moved this closely together. he found his match years ago. $duk",
+      "alt": "duk reacting to crypto and gold correlation hitting a record high. ct says crypto and gold have never moved this closely together. he found his match years ago. $duk",
+      "tag": "market",
+      "created": "2026-11-27T17:45:16Z"
+    },
+    {
+      "file": "167_sure_things.png",
+      "src": "assets/memes4/167_sure_things.png",
+      "thumb": "assets/memes4/thumbs/167_sure_things.webp",
+      "title": "ct calls the next hike a sure thing. there was always another one on the list. $duk",
+      "alt": "duk reacting to ct calling the next rate hike a sure thing after a hot inflation print. ct calls the next hike a sure thing. there was always another one on the list. $duk",
+      "tag": "market",
+      "created": "2026-11-27T17:45:16Z"
+    },
+    {
+      "file": "166_ground_floor.png",
+      "src": "assets/memes4/166_ground_floor.png",
+      "thumb": "assets/memes4/thumbs/166_ground_floor.webp",
+      "title": "up takes the stairs. down takes the elevator. he never left the ground floor. $duk",
+      "alt": "duk reacting to the old saying that markets take the stairs up and the elevator down. up takes the stairs. down takes the elevator. he never left the ground floor. $duk",
+      "tag": "market",
+      "created": "2026-11-27T17:45:16Z"
+    },
     {
       "file": "163_stayed_put.png",
       "src": "assets/memes4/163_stayed_put.png",
@@ -1401,6 +1437,24 @@
   ],
   "gifs": [
     {
+      "title": "shake it all you want.",
+      "alt": "A snow globe with DUK flat inside gets shaken, snow swirling around him: \"shake it all you want.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/107_not_moving.mp4",
+      "gif": "assets/gifs2/107_not_moving.gif",
+      "poster": "assets/gifs2/posters/107_not_moving.webp",
+      "created": "2026-11-27T17:35:10Z"
+    },
+    {
+      "title": "below the lasers.",
+      "alt": "Red security lasers sweep back and forth just over DUK lying in THE DUK pose: \"below the lasers.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/106_below_the_lasers.mp4",
+      "gif": "assets/gifs2/106_below_the_lasers.gif",
+      "poster": "assets/gifs2/posters/106_below_the_lasers.webp",
+      "created": "2026-11-27T17:35:10Z"
+    },
+    {
       "title": "visibility: low.",
       "alt": "Fog drifts over DUK lying in THE DUK pose in the clear air below it: \"visibility: low.\"",
       "tag": "reaction",
@@ -1534,24 +1588,6 @@
       "gif": "assets/gifs2/100_not_falling_for_it.gif",
       "poster": "assets/gifs2/posters/100_not_falling_for_it.webp",
       "created": "2026-11-27T15:20:09Z"
-    },
-    {
-      "title": "not moving.",
-      "alt": "not moving.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/107_not_moving.mp4",
-      "gif": "assets/gifs2/107_not_moving.gif",
-      "poster": "assets/gifs2/posters/107_not_moving.webp",
-      "created": "2026-11-27T15:10:47Z"
-    },
-    {
-      "title": "below the lasers.",
-      "alt": "below the lasers.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/106_below_the_lasers.mp4",
-      "gif": "assets/gifs2/106_below_the_lasers.gif",
-      "poster": "assets/gifs2/posters/106_below_the_lasers.webp",
-      "created": "2026-11-27T15:10:06Z"
     },
     {
       "title": "too flat.",
@@ -2438,6 +2474,26 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/090_shakeout.mp4",
+      "poster": "assets/clips2/090_shakeout.webp",
+      "title": "shake it all you want. he's not moving. $duk",
+      "alt": "A snow globe with DUK inside. He drops into THE DUK pose, then the whole globe gets shaken hard twice. Snow and little red candles swirl around him and slowly settle. He never moves. \"shakeout.\" \"shake it all you want.\" \"he's not moving.\"",
+      "created": "2026-11-27T17:35:10Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/089_laser_grid.mp4",
+      "poster": "assets/clips2/089_laser_grid.webp",
+      "title": "the market's a laser grid. he never trips it. duk.",
+      "alt": "Wide shot of a dark room crossed by sweeping red security lasers. DUK drops into THE DUK pose and the beams sweep back and forth just over him. A tall red candle slides in, gets crossed by a beam, the alarm flashes and it topples over. DUK never moves. \"the market's a laser grid.\" \"he never trips it.\" \"duk.\"",
+      "created": "2026-11-27T17:35:10Z",
+      "duration": 11.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
       "src": "assets/clips2/088_low_visibility.mp4",
       "poster": "assets/clips2/088_low_visibility.webp",
       "title": "nobody can see where this goes. visibility's better down here. duk.",
@@ -2576,26 +2632,6 @@
       "duration": 11.0,
       "width": 1080,
       "height": 1080
-    },
-    {
-      "src": "assets/clips2/090_shakeout.mp4",
-      "poster": "assets/clips2/090_shakeout.webp",
-      "title": "shakeout.",
-      "alt": "shakeout.",
-      "created": "2026-11-27T15:10:46Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/089_laser_grid.mp4",
-      "poster": "assets/clips2/089_laser_grid.webp",
-      "title": "laser grid.",
-      "alt": "laser grid.",
-      "created": "2026-11-27T15:09:55Z",
-      "duration": 11.0,
-      "width": 1280,
-      "height": 720
     },
     {
       "src": "assets/clips2/082_too_flat.mp4",
