@@ -6,12 +6,21 @@
     <atom:link href="https://duk.fun/feed.xml" rel="self" type="application/rss+xml"/>
     <description>new duk memes, clips, reaction gifs, comics and the duk of the day, as they land. just duk. $DUK</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 18:45:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://duk.fun/assets/icons/icon-192.png</url>
       <title>duk. fresh drops</title>
       <link>https://duk.fun/</link>
     </image>
+    <item>
+      <title>duk of the day, nov 27. no thoughts.</title>
+      <link>https://duk.fun/s/daily-2026-11-27.html</link>
+      <guid isPermaLink="true">https://duk.fun/s/daily-2026-11-27.html</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <category>duk of the day</category>
+      <description>&lt;p&gt;&lt;img src=&quot;https://duk.fun/assets/memes/thumbs/64_no_thoughts.webp&quot; alt=&quot;A completely empty white thought bubble floats over a blank duck. Caption: no thoughts.&quot;&gt;&lt;/p&gt;&lt;p&gt;A completely empty white thought bubble floats over a blank duck. Caption: no thoughts.&lt;/p&gt;</description>
+      <enclosure url="https://duk.fun/s/img/daily-2026-11-27.jpg" length="54600" type="image/jpeg"/>
+    </item>
     <item>
       <title>bulls vs bears tug of war. he is lying under the rope. $duk</title>
       <link>https://duk.fun/s/clips2-062_tug_of_war.html</link>

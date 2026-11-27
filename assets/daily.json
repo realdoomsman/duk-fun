@@ -1,6 +1,13 @@
 {
   "days": [
     {
+      "date": "2026-11-27",
+      "src": "assets/memes/64_no_thoughts.png",
+      "thumb": "assets/memes/thumbs/64_no_thoughts.webp",
+      "title": "no thoughts.",
+      "alt": "A completely empty white thought bubble floats over a blank duck. Caption: no thoughts."
+    },
+    {
       "date": "2026-11-26",
       "src": "assets/memes/08_capitulation.png",
       "thumb": "assets/memes/thumbs/08_capitulation.webp",
