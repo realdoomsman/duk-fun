@@ -8,7 +8,8 @@ Owner: DukSiteBuilder. Newest first.
   percent, progress or "refilling". Reserve counters and the dev supply paragraph are gone; index pool card and manual say "it keeps a reserve".
 - **wall of fame cards**: "share" on touch screens (png for images, the mp4 for gifs/clips) and "copy image" on computers (images).
 - **thumb retry**: any lazy picture that fails to load (github pages burst 503s) tries once more after 1.5 s: one capture-phase
-  listener in app.js covers the meme, sticker, gif and clip grids, the wall and fame. (video posters aren't covered.)
+  listener in app.js covers the meme, sticker, gif and clip grids, the wall and fame. Video posters (gif grids, home wall gifs,
+  fame videos) load through `window.dukPoster(video, src)`: an Image with the same single retry, then set as the poster.
 - **duk, in your feed** (home, after the wall of fame): the 4 newest instagram/tiktok posts from DukSocials' social/post-log.jsonl
   (stories left out: they only link the profile). `scripts/social.py` -> assets/social.json + assets/social/<id>.webp (400px, first
   picture or a reel frame), content rule applied to captions/names; sync-content.py runs it every pass and publishes both.
