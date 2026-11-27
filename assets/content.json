@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T15:46:04Z",
+  "updated": "2026-11-27T16:31:05Z",
   "memes": [
+    {
+      "file": "158_confirmed.png",
+      "src": "assets/memes4/158_confirmed.png",
+      "thumb": "assets/memes4/thumbs/158_confirmed.webp",
+      "title": "ct is waiting for confirmation before calling anything. he confirmed on his own. $duk",
+      "alt": "duk reacting to ct \"waiting for confirmation\" before calling anything. ct is waiting for confirmation before calling anything. he confirmed on his own. $duk",
+      "tag": "market",
+      "created": "2026-11-27T16:15:19Z"
+    },
+    {
+      "file": "157_fractal.png",
+      "src": "assets/memes4/157_fractal.png",
+      "thumb": "assets/memes4/thumbs/157_fractal.webp",
+      "title": "ct found another fractal. he has been repeating the same pattern since day one.",
+      "alt": "duk reacting to ct posting fractals that say the chart is repeating an old pattern. ct found another fractal. he has been repeating the same pattern since day one.",
+      "tag": "market",
+      "created": "2026-11-27T16:15:19Z"
+    },
+    {
+      "file": "156_dictionary.png",
+      "src": "assets/memes4/156_dictionary.png",
+      "thumb": "assets/memes4/thumbs/156_dictionary.webp",
+      "title": "ct has a nicer word for everything this month. his word means exactly what it says. $duk",
+      "alt": "duk reacting to ct euphemisms during the red month: \"rebalancing\", \"long-term hold\". ct has a nicer word for everything this month. his word means exactly what it says. $duk",
+      "tag": "market",
+      "created": "2026-11-27T16:15:19Z"
+    },
+    {
+      "file": "155_no_strings.png",
+      "src": "assets/memes4/155_no_strings.png",
+      "thumb": "assets/memes4/thumbs/155_no_strings.webp",
+      "title": "the tech selloff dragged everything down with it. he was never tied to anything.",
+      "alt": "duk reacting to a tech stock selloff dragging crypto down with it. the tech selloff dragged everything down with it. he was never tied to anything.",
+      "tag": "market",
+      "created": "2026-11-27T16:15:19Z"
+    },
     {
       "file": "154_one_signal.png",
       "src": "assets/memes4/154_one_signal.png",
@@ -1320,6 +1356,87 @@
   ],
   "gifs": [
     {
+      "title": "went under.",
+      "alt": "went under.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/116_went_under.mp4",
+      "gif": "assets/gifs2/116_went_under.gif",
+      "poster": "assets/gifs2/posters/116_went_under.webp",
+      "created": "2026-11-27T16:24:50Z"
+    },
+    {
+      "title": "closed.",
+      "alt": "closed.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/115_closed.mp4",
+      "gif": "assets/gifs2/115_closed.gif",
+      "poster": "assets/gifs2/posters/115_closed.webp",
+      "created": "2026-11-27T16:24:22Z"
+    },
+    {
+      "title": "not jumping in.",
+      "alt": "not jumping in.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/114_not_jumping_in.mp4",
+      "gif": "assets/gifs2/114_not_jumping_in.gif",
+      "poster": "assets/gifs2/posters/114_not_jumping_in.webp",
+      "created": "2026-11-27T16:18:13Z"
+    },
+    {
+      "title": "in the gutter.",
+      "alt": "in the gutter.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/113_in_the_gutter.mp4",
+      "gif": "assets/gifs2/113_in_the_gutter.gif",
+      "poster": "assets/gifs2/posters/113_in_the_gutter.webp",
+      "created": "2026-11-27T16:18:13Z"
+    },
+    {
+      "title": "doorbuster.",
+      "alt": "doorbuster.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/112_doorbuster.mp4",
+      "gif": "assets/gifs2/112_doorbuster.gif",
+      "poster": "assets/gifs2/posters/112_doorbuster.webp",
+      "created": "2026-11-27T16:18:13Z"
+    },
+    {
+      "title": "delayed.",
+      "alt": "delayed.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/111_delayed.mp4",
+      "gif": "assets/gifs2/111_delayed.gif",
+      "poster": "assets/gifs2/posters/111_delayed.webp",
+      "created": "2026-11-27T16:08:14Z"
+    },
+    {
+      "title": "didnt wait.",
+      "alt": "didnt wait.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/110_didnt_wait.mp4",
+      "gif": "assets/gifs2/110_didnt_wait.gif",
+      "poster": "assets/gifs2/posters/110_didnt_wait.webp",
+      "created": "2026-11-27T16:06:19Z"
+    },
+    {
+      "title": "never in it.",
+      "alt": "A house of cards collapses and scatters over DUK lying in THE DUK pose: \"never in it.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/103_never_in_it.mp4",
+      "gif": "assets/gifs2/103_never_in_it.gif",
+      "poster": "assets/gifs2/posters/103_never_in_it.webp",
+      "created": "2026-11-27T16:05:04Z"
+    },
+    {
+      "title": "friday mode.",
+      "alt": "DUK lies in THE DUK pose with an \"out of office.\" sign leaning on his back while a \"quick call?\" paper plane flies over: \"friday mode.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/102_out_of_office.mp4",
+      "gif": "assets/gifs2/102_out_of_office.gif",
+      "poster": "assets/gifs2/posters/102_out_of_office.webp",
+      "created": "2026-11-27T16:05:04Z"
+    },
+    {
       "title": "not running.",
       "alt": "not running.",
       "tag": "reaction",
@@ -1390,24 +1507,6 @@
       "gif": "assets/gifs2/104_lie_flat.gif",
       "poster": "assets/gifs2/posters/104_lie_flat.webp",
       "created": "2026-11-27T15:02:59Z"
-    },
-    {
-      "title": "never in it.",
-      "alt": "never in it.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/103_never_in_it.mp4",
-      "gif": "assets/gifs2/103_never_in_it.gif",
-      "poster": "assets/gifs2/posters/103_never_in_it.webp",
-      "created": "2026-11-27T14:56:02Z"
-    },
-    {
-      "title": "out of office.",
-      "alt": "out of office.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/102_out_of_office.mp4",
-      "gif": "assets/gifs2/102_out_of_office.gif",
-      "poster": "assets/gifs2/posters/102_out_of_office.webp",
-      "created": "2026-11-27T14:56:02Z"
     },
     {
       "title": "too flat.",
@@ -2294,6 +2393,96 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/098_went_under.mp4",
+      "poster": "assets/clips2/098_went_under.webp",
+      "title": "went under.",
+      "alt": "went under.",
+      "created": "2026-11-27T16:24:49Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/097_he_does.mp4",
+      "poster": "assets/clips2/097_he_does.webp",
+      "title": "he does.",
+      "alt": "he does.",
+      "created": "2026-11-27T16:24:20Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/096_the_gutter.mp4",
+      "poster": "assets/clips2/096_the_gutter.webp",
+      "title": "the gutter.",
+      "alt": "the gutter.",
+      "created": "2026-11-27T16:18:12Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/095_doorbusters.mp4",
+      "poster": "assets/clips2/095_doorbusters.webp",
+      "title": "doorbusters.",
+      "alt": "doorbusters.",
+      "created": "2026-11-27T16:18:11Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/094_everything_delayed.mp4",
+      "poster": "assets/clips2/094_everything_delayed.webp",
+      "title": "everything delayed.",
+      "alt": "everything delayed.",
+      "created": "2026-11-27T16:08:13Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/088_low_visibility.mp4",
+      "poster": "assets/clips2/088_low_visibility.webp",
+      "title": "low visibility.",
+      "alt": "low visibility.",
+      "created": "2026-11-27T16:08:11Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/093_friday.mp4",
+      "poster": "assets/clips2/093_friday.webp",
+      "title": "friday.",
+      "alt": "friday.",
+      "created": "2026-11-27T16:06:45Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/086_house_of_cards.mp4",
+      "poster": "assets/clips2/086_house_of_cards.webp",
+      "title": "house of cards. he was never in it. $duk",
+      "alt": "Wide shot. A tall house of cards stands next to DUK. He drops into THE DUK pose. The tower wobbles, one card slips and the whole thing collapses, cards flying over him and scattering across the floor. \"house of cards.\" \"he was never in it.\" He gets back up among the cards. \"duk.\"",
+      "created": "2026-11-27T16:05:04Z",
+      "duration": 12.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/085_friday_afternoon.mp4",
+      "poster": "assets/clips2/085_friday_afternoon.webp",
+      "title": "friday afternoon. he's out of office. duk.",
+      "alt": "Office on a friday afternoon. DUK stands by a desk, then drops into THE DUK pose as paper planes fly over him: \"quick call?\" \"circling back\" \"one more thing\" \"per my last email\" \"urgent\". An \"out of office.\" sign drops onto his back. \"he's out of office.\" \"duk.\"",
+      "created": "2026-11-27T16:05:04Z",
+      "duration": 11.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/092_the_treadmill.mp4",
       "poster": "assets/clips2/092_the_treadmill.webp",
       "title": "the treadmill.",
@@ -2354,41 +2543,11 @@
       "height": 720
     },
     {
-      "src": "assets/clips2/088_low_visibility.mp4",
-      "poster": "assets/clips2/088_low_visibility.webp",
-      "title": "low visibility.",
-      "alt": "low visibility.",
-      "created": "2026-11-27T15:02:58Z",
-      "duration": 12.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
       "src": "assets/clips2/087_thin_ice.mp4",
       "poster": "assets/clips2/087_thin_ice.webp",
       "title": "thin ice.",
       "alt": "thin ice.",
       "created": "2026-11-27T15:02:56Z",
-      "duration": 11.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/086_house_of_cards.mp4",
-      "poster": "assets/clips2/086_house_of_cards.webp",
-      "title": "house of cards.",
-      "alt": "house of cards.",
-      "created": "2026-11-27T14:56:01Z",
-      "duration": 12.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/085_friday_afternoon.mp4",
-      "poster": "assets/clips2/085_friday_afternoon.webp",
-      "title": "friday afternoon.",
-      "alt": "friday afternoon.",
-      "created": "2026-11-27T14:55:58Z",
       "duration": 11.0,
       "width": 1080,
       "height": 1080
