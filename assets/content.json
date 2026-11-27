@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-27T22:31:04Z",
+  "updated": "2026-11-27T23:16:06Z",
   "memes": [
+    {
+      "file": "202_change_my_mind.png",
+      "src": "assets/memes4/202_change_my_mind.png",
+      "thumb": "assets/memes4/thumbs/202_change_my_mind.webp",
+      "title": "ct has been arguing about the bottom all week. he set up a table instead. $duk",
+      "alt": "duk reacting to ct arguing all week about whether the bottom is in. ct has been arguing about the bottom all week. he set up a table instead. $duk",
+      "tag": "market",
+      "created": "2026-11-27T23:00:16Z"
+    },
+    {
+      "file": "201_seasonality.png",
+      "src": "assets/memes4/201_seasonality.png",
+      "thumb": "assets/memes4/thumbs/201_seasonality.webp",
+      "title": "the seasonality tables are out ahead of december. he only has one setting. $duk",
+      "alt": "duk reacting to ct posting monthly seasonality tables ahead of december. the seasonality tables are out ahead of december. he only has one setting. $duk",
+      "tag": "market",
+      "created": "2026-11-27T23:00:16Z"
+    },
+    {
+      "file": "200_mind_the_gap.png",
+      "src": "assets/memes4/200_mind_the_gap.png",
+      "thumb": "assets/memes4/thumbs/200_mind_the_gap.webp",
+      "title": "ct is circling every gap on the chart again. he knows exactly where to lie down. $duk",
+      "alt": "duk reacting to ct circling open gaps on the chart while the futures market is closed. ct is circling every gap on the chart again. he knows exactly where to lie down. $duk",
+      "tag": "market",
+      "created": "2026-11-27T23:00:16Z"
+    },
+    {
+      "file": "199_headwinds.png",
+      "src": "assets/memes4/199_headwinds.png",
+      "thumb": "assets/memes4/thumbs/199_headwinds.webp",
+      "title": "analysts say the macro headwinds are still blowing. he has the lowest profile in the market. $duk",
+      "alt": "duk reacting to analysts saying macro headwinds are still blowing against crypto. analysts say the macro headwinds are still blowing. he has the lowest profile in the market. $duk",
+      "tag": "market",
+      "created": "2026-11-27T23:00:16Z"
+    },
     {
       "file": "198_bell_curve.png",
       "src": "assets/memes4/198_bell_curve.png",
@@ -1671,6 +1707,42 @@
   ],
   "gifs": [
     {
+      "title": "one pose.",
+      "alt": "one pose.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/126_one_pose.mp4",
+      "gif": "assets/gifs2/126_one_pose.gif",
+      "poster": "assets/gifs2/posters/126_one_pose.webp",
+      "created": "2026-11-27T22:53:04Z"
+    },
+    {
+      "title": "three seats.",
+      "alt": "three seats.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/125_three_seats.mp4",
+      "gif": "assets/gifs2/125_three_seats.gif",
+      "poster": "assets/gifs2/posters/125_three_seats.webp",
+      "created": "2026-11-27T22:53:04Z"
+    },
+    {
+      "title": "took itself out.",
+      "alt": "A huge red candle charges, trips over DUK lying flat and flies out of the sumo ring: \"took itself out.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/122_took_itself_out.mp4",
+      "gif": "assets/gifs2/122_took_itself_out.gif",
+      "poster": "assets/gifs2/posters/122_took_itself_out.webp",
+      "created": "2026-11-27T22:50:04Z"
+    },
+    {
+      "title": "not riding.",
+      "alt": "A rollercoaster full of red candles screams through a dip right over DUK lying flat under the track: \"not riding.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/121_not_riding.mp4",
+      "gif": "assets/gifs2/121_not_riding.gif",
+      "poster": "assets/gifs2/posters/121_not_riding.webp",
+      "created": "2026-11-27T22:50:04Z"
+    },
+    {
       "title": "boing.",
       "alt": "A jack-in-the-box springs open and a red candle on a spring wobbles over DUK lying flat: \"boing.\"",
       "tag": "reaction",
@@ -1705,24 +1777,6 @@
       "gif": "assets/gifs2/123_low_clearance.gif",
       "poster": "assets/gifs2/posters/123_low_clearance.webp",
       "created": "2026-11-27T21:27:13Z"
-    },
-    {
-      "title": "took itself out.",
-      "alt": "took itself out.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/122_took_itself_out.mp4",
-      "gif": "assets/gifs2/122_took_itself_out.gif",
-      "poster": "assets/gifs2/posters/122_took_itself_out.webp",
-      "created": "2026-11-27T21:21:40Z"
-    },
-    {
-      "title": "not riding.",
-      "alt": "not riding.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/121_not_riding.mp4",
-      "gif": "assets/gifs2/121_not_riding.gif",
-      "poster": "assets/gifs2/posters/121_not_riding.webp",
-      "created": "2026-11-27T21:21:40Z"
     },
     {
       "title": "still here.",
@@ -2771,6 +2825,46 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/108_one_pose.mp4",
+      "poster": "assets/clips2/108_one_pose.webp",
+      "title": "one pose.",
+      "alt": "one pose.",
+      "created": "2026-11-27T22:53:03Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/107_three_seats.mp4",
+      "poster": "assets/clips2/107_three_seats.webp",
+      "title": "three seats.",
+      "alt": "three seats.",
+      "created": "2026-11-27T22:53:00Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/104_took_itself_out.mp4",
+      "poster": "assets/clips2/104_took_itself_out.webp",
+      "title": "it came at him full force. it took itself out. duk.",
+      "alt": "A sumo ring. A huge red candle stomps, then charges at DUK full force; he drops into THE DUK pose and the candle trips straight over him and flies out of the ring. \"it came at him full force.\" \"it took itself out.\" \"duk.\"",
+      "created": "2026-11-27T22:50:04Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/103_not_riding.mp4",
+      "poster": "assets/clips2/103_not_riding.webp",
+      "title": "everyone's on the ride. he's under it. $duk",
+      "alt": "A rollercoaster full of red candles clanks up a big climb, then screams down the drop and through a dip right over DUK, who lies flat in THE DUK pose under the track. \"everyone's on the ride.\" \"he's under it.\" \"duk.\"",
+      "created": "2026-11-27T22:50:04Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
       "src": "assets/clips2/102_jack_in_the_box.mp4",
       "poster": "assets/clips2/102_jack_in_the_box.webp",
       "title": "you know how the song ends. he's not waiting to find out. $duk",
@@ -2809,26 +2903,6 @@
       "duration": 10.0,
       "width": 1080,
       "height": 1080
-    },
-    {
-      "src": "assets/clips2/104_took_itself_out.mp4",
-      "poster": "assets/clips2/104_took_itself_out.webp",
-      "title": "took itself out.",
-      "alt": "took itself out.",
-      "created": "2026-11-27T21:21:39Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/103_not_riding.mp4",
-      "poster": "assets/clips2/103_not_riding.webp",
-      "title": "not riding.",
-      "alt": "not riding.",
-      "created": "2026-11-27T21:21:38Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
     },
     {
       "src": "assets/clips2/100_still_here_lights_out.mp4",
