@@ -107,6 +107,19 @@
     target.dataset.retried = 'true';
     window.setTimeout(() => { target.src = `${src}${src.includes('?') ? '&' : '?'}retry=1`; }, 1500);
   }, true);
+  // <video poster> has no error event, so a poster caught in one of those 503 bursts would stay blank. Posters load
+  // through an Image first (one retry, same as above) and go on the video once that image is in the cache.
+  window.dukPoster = (video, src) => {
+    if (!src) return;
+    const probe = new Image();
+    probe.addEventListener('load', () => { video.poster = probe.src; });
+    probe.addEventListener('error', () => {
+      if (probe.dataset.retried) return;
+      probe.dataset.retried = 'true';
+      window.setTimeout(() => { probe.src = `${src}${src.includes('?') ? '&' : '?'}retry=1`; }, 1500);
+    });
+    probe.src = src;
+  };
 
   const $ = (id) => document.getElementById(id);
   const externalURL = (value) => {
@@ -445,11 +458,12 @@
 
     const gifTile = (gif) => {
       const art = gif.mp4
-        ? make('video', { muted: true, loop: true, playsInline: true, preload: 'none', poster: gif.poster, src: gif.mp4, width: 480, height: 480, 'aria-label': gif.alt || gif.title })
+        ? make('video', { muted: true, loop: true, playsInline: true, preload: 'none', src: gif.mp4, width: 480, height: 480, 'aria-label': gif.alt || gif.title })
         : make('img', { src: gif.gif, alt: gif.alt || gif.title || '', width: 480, height: 480, loading: 'lazy', decoding: 'async' });
       let toggle = null;
       if (gif.mp4) {
         art.defaultMuted = true;
+        window.dukPoster(art, gif.poster);
         if (window.dukWatchLoop(art)) toggle = window.dukLoopToggle(art, gif.title || 'reaction gif');
       }
       // The button sits beside the link (a button inside a link is invalid), over the frame's corner.

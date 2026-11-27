@@ -32,8 +32,9 @@
         el('img', { loading: 'lazy', src: entry.thumb || entry.src, alt: entry.alt || `a duk made by @${entry.by}`, decoding: 'async', ...size }),
         el('span', { className: 'sr-only', text: ' (full size, opens in a new tab)' }));
     }
-    const video = el('video', { className: 'fame-video', src: entry.src, poster: entry.thumb, preload: 'none', playsinline: '', ...size,
+    const video = el('video', { className: 'fame-video', src: entry.src, preload: 'none', playsinline: '', ...size,
       'aria-label': entry.alt || `a duk clip made by @${entry.by}` });
+    window.dukPoster(video, entry.thumb);
     video.playsInline = true;
     if (entry.kind === 'gif') {
       video.muted = true;

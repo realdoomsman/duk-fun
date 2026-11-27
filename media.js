@@ -61,13 +61,13 @@
     entries.forEach(({ target, isIntersecting }) => {
       if (!isIntersecting) return;
       posterObserver.unobserve(target);
-      target.poster = target.dataset.poster;
+      window.dukPoster(target, target.dataset.poster);
     });
   }, { rootMargin: '1000px' }) : null;
   const lazyPoster = (video, poster) => {
     if (!poster) return;
     if (!posterObserver) {
-      video.poster = poster;
+      window.dukPoster(video, poster);
       return;
     }
     video.dataset.poster = poster;
