@@ -48,15 +48,26 @@
 
   const card = (entry, number) => {
     const by = el('a', { href: `https://x.com/${entry.by}`, ...external, text: `@${entry.by}` });
+    const postText = `${entry.caption || 'on the duk wall of fame.'} by @${entry.by}`;
+    const byId = `fame-${entry.id}-by`;
+    // the piece itself: share sheet on a phone (png, or the mp4 for gifs/clips), copy image on a computer (images only).
+    const type = entry.kind === 'image' ? 'image/png' : 'video/mp4';
+    const share = el('button', { type: 'button', text: 'share', hidden: true, 'aria-describedby': byId });
+    const copy = entry.kind === 'image' ? el('button', { type: 'button', text: 'copy image', hidden: true, 'aria-describedby': byId }) : null;
+    if (window.dukPictureButtons) {
+      const prepare = window.dukPictureButtons(share, copy, () => ({ src: entry.src, name: `duk-${entry.id}`, text: window.dukPostText(postText, entry.src) }), type);
+      share.addEventListener('pointerdown', () => prepare(entry.src));
+    }
     const links = el('p', { className: 'fame-links' },
       postOk(entry.post) ? el('a', { href: entry.post, ...external, text: 'their post' }) : null,
-      el('a', { href: window.dukPostHref ? window.dukPostHref(`${entry.caption || 'on the duk wall of fame.'} by @${entry.by}`, entry.src) : '#', ...external, text: 'post it' }));
+      el('a', { href: window.dukPostHref ? window.dukPostHref(postText, entry.src) : '#', ...external, text: 'post it' }),
+      share, copy);
     return el('article', { className: 'fame-card', id: `fame-${entry.id}` },
       el('span', { className: 'fame-number', text: `no. ${number}` }),
       art(entry),
       el('div', { className: 'fame-body' },
         entry.caption ? el('p', { className: 'fame-caption', text: entry.caption }) : null,
-        el('p', { className: 'fame-by' }, 'by ', by, entry.added ? el('time', { datetime: entry.added, text: ` / ${entry.added}` }) : null),
+        el('p', { className: 'fame-by', id: byId }, 'by ', by, entry.added ? el('time', { datetime: entry.added, text: ` / ${entry.added}` }) : null),
         links));
   };
 

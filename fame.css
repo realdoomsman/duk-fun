@@ -15,8 +15,9 @@
 .fame-by { margin-top: 6px; font-size: 14px; }
 .fame-by a { font-weight: bold; text-underline-offset: 3px; }
 .fame-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-.fame-links a { display: inline-block; border: 2px solid #111; padding: 5px 12px; background: white; font-size: 14px; font-weight: bold; text-decoration: none; border-radius: 3px 1px 5px 2px; }
-.fame-links a:hover, .fame-links a:focus-visible { background: #ff7f27; }
+.fame-links a, .fame-links button { display: inline-block; border: 2px solid #111; padding: 5px 12px; background: white; color: #111; font: inherit; font-size: 14px; font-weight: bold; text-decoration: none; border-radius: 3px 1px 5px 2px; cursor: pointer; }
+.fame-links button[hidden] { display: none; }
+.fame-links a:hover, .fame-links a:focus-visible, .fame-links button:hover, .fame-links button:focus-visible { background: #ff7f27; }
 .fame-empty { border: 2px dashed #111; border-radius: 3px 8px 2px 6px; padding: 26px 28px; font-size: 18px; }
 .fame-empty p + p { margin-top: 16px; }
 .fame-howto { border: 3px solid #111; border-radius: 4px 1px 7px 3px; background: white; padding: 30px 34px 32px; max-width: 900px; transform: rotate(-.4deg); }
@@ -31,8 +32,8 @@
   .fame-grid { grid-template-columns: 1fr 1fr; gap: 22px 14px; }
   .fame-card { padding: 8px 8px 12px; }
   .fame-caption { font-size: 15px; }
-  .fame-by, .fame-links a { font-size: 12px; }
-  .fame-links a { padding: 4px 8px; }
+  .fame-by, .fame-links a, .fame-links button { font-size: 12px; }
+  .fame-links a, .fame-links button { padding: 4px 8px; }
   .fame-number { top: -11px; left: -6px; font-size: 11px; }
   .fame-howto { padding: 22px 20px 24px; }
   .fame-steps li { font-size: 15px; }
