@@ -6113,6 +6113,132 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/210_leapfrog.webp"
+      },
+      {
+        "file": "formats/212_they_dont_know.png",
+        "src": "assets/kit/formats/212_they_dont_know.png",
+        "title": "the meetup",
+        "alt": "Three stick figures holding red cups at a meetup, each with an empty speech bubble. DUK lies flat in the corner on the brown floor with an empty thought bubble.",
+        "tag": "template",
+        "spots": [
+          [
+            0.567,
+            0.153,
+            0.193,
+            0.027
+          ],
+          [
+            0.353,
+            0.26,
+            0.16,
+            0.027
+          ],
+          [
+            0.733,
+            0.267,
+            0.2,
+            0.027
+          ],
+          [
+            0.093,
+            0.353,
+            0.313,
+            0.08
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/212_they_dont_know.webp"
+      },
+      {
+        "file": "formats/213_anniversary.png",
+        "src": "assets/kit/formats/213_anniversary.png",
+        "title": "the anniversary",
+        "alt": "A big three-tier birthday cake with a row of red candles on a long table under party bunting. DUK lies flat on the table next to the cake while a stick figure in a red cap peeks over the edge. Empty title on top, empty caption below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.167,
+            0.027,
+            0.667,
+            0.06
+          ],
+          [
+            0.133,
+            0.927,
+            0.66,
+            0.06
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/213_anniversary.webp"
+      },
+      {
+        "file": "formats/214_the_chad.png",
+        "src": "assets/kit/formats/214_the_chad.png",
+        "title": "the two columns",
+        "alt": "Two columns. Left: a sweating stick figure holding a phone with empty labels and arrows pointing at him. Right, on a lighter background: DUK lying flat with empty labels above and below him. Empty headings on both.",
+        "tag": "template",
+        "spots": [
+          [
+            0.073,
+            0.027,
+            0.353,
+            0.053
+          ],
+          [
+            0.653,
+            0.027,
+            0.193,
+            0.053
+          ],
+          [
+            0.087,
+            0.127,
+            0.327,
+            0.033
+          ],
+          [
+            0.68,
+            0.167,
+            0.14,
+            0.033
+          ],
+          [
+            0.653,
+            0.233,
+            0.187,
+            0.033
+          ],
+          [
+            0.013,
+            0.273,
+            0.207,
+            0.073
+          ],
+          [
+            0.28,
+            0.593,
+            0.187,
+            0.067
+          ],
+          [
+            0.573,
+            0.747,
+            0.353,
+            0.107
+          ],
+          [
+            0.153,
+            0.88,
+            0.193,
+            0.033
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/214_the_chad.webp"
       }
     ],
     "pfp": [
