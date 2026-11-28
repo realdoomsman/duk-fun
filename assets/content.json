@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-28T02:16:05Z",
+  "updated": "2026-11-28T03:46:05Z",
   "memes": [
+    {
+      "file": "218_find_him.png",
+      "src": "assets/memes4/218_find_him.png",
+      "thumb": "assets/memes4/thumbs/218_find_him.webp",
+      "title": "the timeline is packed with hot takes. he is in there somewhere. $duk",
+      "alt": "duk reacting to timeline packed with hot takes on a slow market; he is somewhere in the crowd. the timeline is packed with hot takes. he is in there somewhere. $duk",
+      "tag": "market",
+      "created": "2026-11-28T03:30:15Z"
+    },
+    {
+      "file": "217_virtual_pet.png",
+      "src": "assets/memes4/217_virtual_pet.png",
+      "thumb": "assets/memes4/thumbs/217_virtual_pet.webp",
+      "title": "everything on the timeline needs feeding every hour. he only needs the floor.",
+      "alt": "duk reacting to memecoin traders burning out from coins that need attention every minute. everything on the timeline needs feeding every hour. he only needs the floor.",
+      "tag": "market",
+      "created": "2026-11-28T03:30:15Z"
+    },
+    {
+      "file": "216_once_again.png",
+      "src": "assets/memes4/216_once_again.png",
+      "thumb": "assets/memes4/thumbs/216_once_again.webp",
+      "title": "ct is asking the chart for one green week again. he has never asked the chart for anything.",
+      "alt": "duk reacting to ct hoping the long weekly losing streak finally breaks with one green week. ct is asking the chart for one green week again. he has never asked the chart for anything.",
+      "tag": "market",
+      "created": "2026-11-28T03:30:15Z"
+    },
+    {
+      "file": "215_drake.png",
+      "src": "assets/memes4/215_drake.png",
+      "thumb": "assets/memes4/thumbs/215_drake.webp",
+      "title": "the skeptics are out poking at everyone again. he has nothing to reply with.",
+      "alt": "duk reacting to a famous skeptic poking at crypto holders again; ct arguing back all night. the skeptics are out poking at everyone again. he has nothing to reply with.",
+      "tag": "market",
+      "created": "2026-11-28T03:30:15Z"
+    },
     {
       "file": "214_the_chad.png",
       "src": "assets/memes4/214_the_chad.png",
@@ -1815,6 +1851,24 @@
   ],
   "gifs": [
     {
+      "title": "watching clouds.",
+      "alt": "Red candle kites nosedive into the grass around DUK, who lies flat watching the clouds: \"watching clouds.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/128_watching_clouds.mp4",
+      "gif": "assets/gifs2/128_watching_clouds.gif",
+      "poster": "assets/gifs2/posters/128_watching_clouds.webp",
+      "created": "2026-11-28T03:20:18Z"
+    },
+    {
+      "title": "flat as a pancake.",
+      "alt": "A frying pan flips a red candle like a pancake right over DUK, who lies flat on a plate with butter on his head: \"flat as a pancake.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/127_flat_as_a_pancake.mp4",
+      "gif": "assets/gifs2/127_flat_as_a_pancake.gif",
+      "poster": "assets/gifs2/posters/127_flat_as_a_pancake.webp",
+      "created": "2026-11-28T03:20:18Z"
+    },
+    {
       "title": "one pose.",
       "alt": "Red candles wobble and topple over on their yoga mats while DUK lies flat in THE DUK pose: \"one pose.\"",
       "tag": "reaction",
@@ -1849,24 +1903,6 @@
       "gif": "assets/gifs2/129_spin_cycle.gif",
       "poster": "assets/gifs2/posters/129_spin_cycle.webp",
       "created": "2026-11-28T00:24:29Z"
-    },
-    {
-      "title": "watching clouds.",
-      "alt": "watching clouds.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/128_watching_clouds.mp4",
-      "gif": "assets/gifs2/128_watching_clouds.gif",
-      "poster": "assets/gifs2/posters/128_watching_clouds.webp",
-      "created": "2026-11-28T00:23:48Z"
-    },
-    {
-      "title": "flat as a pancake.",
-      "alt": "flat as a pancake.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/127_flat_as_a_pancake.mp4",
-      "gif": "assets/gifs2/127_flat_as_a_pancake.gif",
-      "poster": "assets/gifs2/posters/127_flat_as_a_pancake.webp",
-      "created": "2026-11-28T00:23:30Z"
     },
     {
       "title": "already lying down.",
@@ -2969,6 +3005,26 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/110_watching_clouds.mp4",
+      "poster": "assets/clips2/110_watching_clouds.webp",
+      "title": "everyone's flying kites. he's watching clouds. duk.",
+      "alt": "Saturday in the park. Red candle kites whip around in the wind on long strings while DUK lies flat on the grass in THE DUK pose. One by one the kites nosedive into the grass next to him. Clouds drift by. \"everyone's flying kites.\" \"he's watching clouds.\" \"duk.\"",
+      "created": "2026-11-28T03:20:18Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/109_stays_flat.mp4",
+      "poster": "assets/clips2/109_stays_flat.webp",
+      "title": "saturday pancakes. he stays flat. $duk",
+      "alt": "A kitchen counter on saturday morning. DUK lies down flat on a plate in THE DUK pose while a frying pan flips a red candle like a pancake, twice, and the third flip sails right over him and off the counter. A pat of butter lands on his head. \"saturday pancakes.\" \"he stays flat.\" \"duk.\"",
+      "created": "2026-11-28T03:20:18Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/108_one_pose.mp4",
       "poster": "assets/clips2/108_one_pose.webp",
       "title": "saturday yoga. he only knows one pose. duk.",
@@ -3004,26 +3060,6 @@
       "title": "air drying.",
       "alt": "air drying.",
       "created": "2026-11-28T00:24:26Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/110_watching_clouds.mp4",
-      "poster": "assets/clips2/110_watching_clouds.webp",
-      "title": "watching clouds.",
-      "alt": "watching clouds.",
-      "created": "2026-11-28T00:23:48Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/109_stays_flat.mp4",
-      "poster": "assets/clips2/109_stays_flat.webp",
-      "title": "stays flat.",
-      "alt": "stays flat.",
-      "created": "2026-11-28T00:23:25Z",
       "duration": 10.0,
       "width": 1080,
       "height": 1080
