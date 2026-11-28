@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T06:46:05Z",
+  "updated": "2026-11-28T08:16:05Z",
   "memes": [
     {
       "file": "226_loading_tip.png",
@@ -1923,6 +1923,24 @@
   ],
   "gifs": [
     {
+      "title": "twister.",
+      "alt": "Three red candles playing twister topple over like dominoes while DUK lies flat on the mat: \"twister.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/134_twister.mp4",
+      "gif": "assets/gifs2/134_twister.gif",
+      "poster": "assets/gifs2/posters/134_twister.webp",
+      "created": "2026-11-28T07:50:19Z"
+    },
+    {
+      "title": "off the top.",
+      "alt": "Buzzing clippers skim just over DUK lying flat and trim another piece off a red candle in a barber chair: \"off the top.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/133_off_the_top.mp4",
+      "gif": "assets/gifs2/133_off_the_top.gif",
+      "poster": "assets/gifs2/posters/133_off_the_top.webp",
+      "created": "2026-11-28T07:50:19Z"
+    },
+    {
       "title": "bounces flat.",
       "alt": "A red candle flips on a trampoline while DUK bounces up and down beside it, perfectly flat: \"bounces flat.\"",
       "tag": "reaction",
@@ -1939,24 +1957,6 @@
       "gif": "assets/gifs2/131_saturday_cartoons.gif",
       "poster": "assets/gifs2/posters/131_saturday_cartoons.webp",
       "created": "2026-11-28T06:20:09Z"
-    },
-    {
-      "title": "twister.",
-      "alt": "twister.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/134_twister.mp4",
-      "gif": "assets/gifs2/134_twister.gif",
-      "poster": "assets/gifs2/posters/134_twister.webp",
-      "created": "2026-11-28T04:53:46Z"
-    },
-    {
-      "title": "off the top.",
-      "alt": "off the top.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/133_off_the_top.mp4",
-      "gif": "assets/gifs2/133_off_the_top.gif",
-      "poster": "assets/gifs2/posters/133_off_the_top.webp",
-      "created": "2026-11-28T04:53:45Z"
     },
     {
       "title": "snow angel.",
@@ -3113,6 +3113,26 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/116_started_on_the_floor.mp4",
+      "poster": "assets/clips2/116_started_on_the_floor.webp",
+      "title": "twister. everyone fell over. he started on the floor. $duk",
+      "alt": "Game of twister in the living room. A spinner calls out moves and three red candles lean further and further until they topple over like dominoes. DUK lies flat across the mat in THE DUK pose the whole time. \"twister.\" \"everyone fell over.\" \"he started on the floor.\" \"duk.\"",
+      "created": "2026-11-28T07:50:19Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/115_nothing_to_trim.mp4",
+      "poster": "assets/clips2/115_nothing_to_trim.webp",
+      "title": "just a little off the top. nothing to trim. duk.",
+      "alt": "A barber shop. Buzzing clippers sweep across at lower and lower heights and trim a red candle in the barber chair down to a stub, pieces flying. DUK lies flat on the floor in THE DUK pose; the last pass skims right over him. \"just a little off the top.\" \"nothing to trim.\" \"duk.\"",
+      "created": "2026-11-28T07:50:19Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/114_bounces_flat.mp4",
       "poster": "assets/clips2/114_bounces_flat.webp",
       "title": "everyone's bouncing. he bounces flat. $duk",
@@ -3128,26 +3148,6 @@
       "title": "saturday cartoons. he's already on the floor. duk.",
       "alt": "Saturday morning. DUK flops onto the rug in front of the TV in THE DUK pose. On screen a cartoon red candle runs off a cliff, keeps running on air, looks down and falls, shrinking into a tiny puff. \"saturday cartoons.\" \"he's already on the floor.\" \"duk.\"",
       "created": "2026-11-28T06:20:09Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/116_started_on_the_floor.mp4",
-      "poster": "assets/clips2/116_started_on_the_floor.webp",
-      "title": "started on the floor.",
-      "alt": "started on the floor.",
-      "created": "2026-11-28T04:53:45Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/115_nothing_to_trim.mp4",
-      "poster": "assets/clips2/115_nothing_to_trim.webp",
-      "title": "nothing to trim.",
-      "alt": "nothing to trim.",
-      "created": "2026-11-28T04:53:41Z",
       "duration": 10.0,
       "width": 1080,
       "height": 1080
