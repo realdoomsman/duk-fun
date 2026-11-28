@@ -1,6 +1,13 @@
 {
   "days": [
     {
+      "date": "2026-11-28",
+      "src": "assets/memes/45_pool_rules.png",
+      "thumb": "assets/memes/thumbs/45_pool_rules.webp",
+      "title": "pool rules.",
+      "alt": "A no-chasing sign stands beside a burning LP receipt while DUK floats calmly in the pool."
+    },
+    {
       "date": "2026-11-27",
       "src": "assets/memes/64_no_thoughts.png",
       "thumb": "assets/memes/thumbs/64_no_thoughts.webp",

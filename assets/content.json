@@ -1,6 +1,78 @@
 {
-  "updated": "2026-11-27T23:16:06Z",
+  "updated": "2026-11-28T00:40:10Z",
   "memes": [
+    {
+      "file": "210_leapfrog.png",
+      "src": "assets/memes4/210_leapfrog.png",
+      "thumb": "assets/memes4/thumbs/210_leapfrog.webp",
+      "title": "every headline is asking if the worst is over. he has been the leapfrog all month.",
+      "alt": "duk reacting to headlines asking if the worst is over after the holiday bounce. every headline is asking if the worst is over. he has been the leapfrog all month.",
+      "tag": "market",
+      "created": "2026-11-28T00:30:15Z"
+    },
+    {
+      "file": "209_panik_kalm.png",
+      "src": "assets/memes4/209_panik_kalm.png",
+      "thumb": "assets/memes4/thumbs/209_panik_kalm.webp",
+      "title": "ct has two moods and both of them are panik. $duk has the other one.",
+      "alt": "duk reacting to ct panicking on red candles and panicking again on green candles. ct has two moods and both of them are panik. $duk has the other one.",
+      "tag": "market",
+      "created": "2026-11-28T00:30:15Z"
+    },
+    {
+      "file": "208_trade_offer.png",
+      "src": "assets/memes4/208_trade_offer.png",
+      "thumb": "assets/memes4/thumbs/208_trade_offer.webp",
+      "title": "every account is posting a trade this week. he has one offer and it never changes.",
+      "alt": "duk reacting to everyone posting trade ideas and setups while the market drifts in extreme fear. every account is posting a trade this week. he has one offer and it never changes.",
+      "tag": "market",
+      "created": "2026-11-28T00:30:15Z"
+    },
+    {
+      "file": "207_distracted.png",
+      "src": "assets/memes4/207_distracted.png",
+      "thumb": "assets/memes4/thumbs/207_distracted.webp",
+      "title": "ct has been looking at the floor all week. the chart noticed.",
+      "alt": "duk reacting to ct glancing away from the chart toward just lying down while extreme fear drags on. ct has been looking at the floor all week. the chart noticed.",
+      "tag": "market",
+      "created": "2026-11-28T00:30:15Z"
+    },
+    {
+      "file": "206_deleted_app.png",
+      "src": "assets/memes4/206_deleted_app.png",
+      "thumb": "assets/memes4/thumbs/206_deleted_app.webp",
+      "title": "ct is deleting the app again. it will be back on the home screen by the next candle.",
+      "alt": "duk reacting to traders deleting their trading apps in extreme fear, then reinstalling them. ct is deleting the app again. it will be back on the home screen by the next candle.",
+      "tag": "market",
+      "created": "2026-11-27T23:45:16Z"
+    },
+    {
+      "file": "205_yelling.png",
+      "src": "assets/memes4/205_yelling.png",
+      "thumb": "assets/memes4/thumbs/205_yelling.webp",
+      "title": "ct has a new headline to scream about every hour. he stays at the table. $duk",
+      "alt": "duk reacting to ct screaming at every new headline: rate hike odds, outflow streaks, expiry. ct has a new headline to scream about every hour. he stays at the table. $duk",
+      "tag": "market",
+      "created": "2026-11-27T23:45:16Z"
+    },
+    {
+      "file": "204_draw_25.png",
+      "src": "assets/memes4/204_draw_25.png",
+      "thumb": "assets/memes4/thumbs/204_draw_25.webp",
+      "title": "ct would rather draw 25 than stop checking the chart. he read the card. $duk",
+      "alt": "duk reacting to traders who would rather do anything than stop checking the chart in extreme fear. ct would rather draw 25 than stop checking the chart. he read the card. $duk",
+      "tag": "market",
+      "created": "2026-11-27T23:45:16Z"
+    },
+    {
+      "file": "203_always_has_been.png",
+      "src": "assets/memes4/203_always_has_been.png",
+      "thumb": "assets/memes4/thumbs/203_always_has_been.webp",
+      "title": "ct is looking back at the whole month. some of us knew from the first candle. $duk",
+      "alt": "duk reacting to ct looking back on the red month and realizing it was all dodging dumps. ct is looking back at the whole month. some of us knew from the first candle. $duk",
+      "tag": "market",
+      "created": "2026-11-27T23:45:16Z"
+    },
     {
       "file": "202_change_my_mind.png",
       "src": "assets/memes4/202_change_my_mind.png",
@@ -1707,6 +1779,60 @@
   ],
   "gifs": [
     {
+      "title": "snow angel.",
+      "alt": "snow angel.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/130_snow_angel.mp4",
+      "gif": "assets/gifs2/130_snow_angel.gif",
+      "poster": "assets/gifs2/posters/130_snow_angel.webp",
+      "created": "2026-11-28T00:24:29Z"
+    },
+    {
+      "title": "spin cycle.",
+      "alt": "spin cycle.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/129_spin_cycle.mp4",
+      "gif": "assets/gifs2/129_spin_cycle.gif",
+      "poster": "assets/gifs2/posters/129_spin_cycle.webp",
+      "created": "2026-11-28T00:24:29Z"
+    },
+    {
+      "title": "watching clouds.",
+      "alt": "watching clouds.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/128_watching_clouds.mp4",
+      "gif": "assets/gifs2/128_watching_clouds.gif",
+      "poster": "assets/gifs2/posters/128_watching_clouds.webp",
+      "created": "2026-11-28T00:23:48Z"
+    },
+    {
+      "title": "flat as a pancake.",
+      "alt": "flat as a pancake.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/127_flat_as_a_pancake.mp4",
+      "gif": "assets/gifs2/127_flat_as_a_pancake.gif",
+      "poster": "assets/gifs2/posters/127_flat_as_a_pancake.webp",
+      "created": "2026-11-28T00:23:30Z"
+    },
+    {
+      "title": "already lying down.",
+      "alt": "Rain and wind; the orange tent rips loose and blows away while DUK lies flat on the ground: \"already lying down.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/124_already_lying_down.mp4",
+      "gif": "assets/gifs2/124_already_lying_down.gif",
+      "poster": "assets/gifs2/posters/124_already_lying_down.webp",
+      "created": "2026-11-28T00:20:07Z"
+    },
+    {
+      "title": "low clearance.",
+      "alt": "A red candle on a little boat bonks a low stone bridge and splashes into the river while DUK glides under, flat: \"low clearance.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/123_low_clearance.mp4",
+      "gif": "assets/gifs2/123_low_clearance.gif",
+      "poster": "assets/gifs2/posters/123_low_clearance.webp",
+      "created": "2026-11-28T00:20:07Z"
+    },
+    {
       "title": "one pose.",
       "alt": "one pose.",
       "tag": "reaction",
@@ -1759,24 +1885,6 @@
       "gif": "assets/gifs2/119_staying_in.gif",
       "poster": "assets/gifs2/posters/119_staying_in.webp",
       "created": "2026-11-27T22:05:00Z"
-    },
-    {
-      "title": "already lying down.",
-      "alt": "already lying down.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/124_already_lying_down.mp4",
-      "gif": "assets/gifs2/124_already_lying_down.gif",
-      "poster": "assets/gifs2/posters/124_already_lying_down.webp",
-      "created": "2026-11-27T21:27:13Z"
-    },
-    {
-      "title": "low clearance.",
-      "alt": "low clearance.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/123_low_clearance.mp4",
-      "gif": "assets/gifs2/123_low_clearance.gif",
-      "poster": "assets/gifs2/posters/123_low_clearance.webp",
-      "created": "2026-11-27T21:27:13Z"
     },
     {
       "title": "still here.",
@@ -2825,6 +2933,66 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/112_snow_angel.mp4",
+      "poster": "assets/clips2/112_snow_angel.webp",
+      "title": "snow angel.",
+      "alt": "snow angel.",
+      "created": "2026-11-28T00:24:28Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/111_air_drying.mp4",
+      "poster": "assets/clips2/111_air_drying.webp",
+      "title": "air drying.",
+      "alt": "air drying.",
+      "created": "2026-11-28T00:24:26Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/110_watching_clouds.mp4",
+      "poster": "assets/clips2/110_watching_clouds.webp",
+      "title": "watching clouds.",
+      "alt": "watching clouds.",
+      "created": "2026-11-28T00:23:48Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/109_stays_flat.mp4",
+      "poster": "assets/clips2/109_stays_flat.webp",
+      "title": "stays flat.",
+      "alt": "stays flat.",
+      "created": "2026-11-28T00:23:25Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/106_already_lying_down.mp4",
+      "poster": "assets/clips2/106_already_lying_down.webp",
+      "title": "windy out there. he was already lying down. duk.",
+      "alt": "A camping night: rain and wind pick up around DUK and his orange tent. He drops into THE DUK pose, the tent rips loose and flies away, red candles tumble past in the wind over him. Then it calms. \"windy out there.\" \"he was already lying down.\" \"duk.\"",
+      "created": "2026-11-28T00:20:07Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/105_low_clearance.mp4",
+      "poster": "assets/clips2/105_low_clearance.webp",
+      "title": "low clearance. he read the sign. $duk",
+      "alt": "A little boat carrying three tall red candles and DUK floats toward a stone bridge with a yellow \"low clearance.\" sign. DUK reads it and drops into THE DUK pose on the deck; one by one the candles bonk the bridge and splash into the river while DUK glides under. \"low clearance.\" \"he read the sign.\" \"duk.\"",
+      "created": "2026-11-28T00:20:07Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
       "src": "assets/clips2/108_one_pose.mp4",
       "poster": "assets/clips2/108_one_pose.webp",
       "title": "one pose.",
@@ -2883,26 +3051,6 @@
       "duration": 10.0,
       "width": 1280,
       "height": 720
-    },
-    {
-      "src": "assets/clips2/105_low_clearance.mp4",
-      "poster": "assets/clips2/105_low_clearance.webp",
-      "title": "low clearance.",
-      "alt": "low clearance.",
-      "created": "2026-11-27T21:41:12Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/106_already_lying_down.mp4",
-      "poster": "assets/clips2/106_already_lying_down.webp",
-      "title": "already lying down.",
-      "alt": "already lying down.",
-      "created": "2026-11-27T21:27:12Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
     },
     {
       "src": "assets/clips2/100_still_here_lights_out.mp4",
