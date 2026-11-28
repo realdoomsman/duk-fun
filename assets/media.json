@@ -6239,6 +6239,234 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/214_the_chad.webp"
+      },
+      {
+        "file": "formats/215_drake.png",
+        "src": "assets/kit/formats/215_drake.png",
+        "title": "the drake",
+        "alt": "The drake meme, duk version: two rows on a yellow strip. Top, DUK turns away; bottom, DUK lies flat and stares. Each row has an empty white box for the words.",
+        "tag": "template",
+        "spots": [
+          [
+            0.587,
+            0.18,
+            0.32,
+            0.127
+          ],
+          [
+            0.6,
+            0.713,
+            0.3,
+            0.073
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/215_drake.webp"
+      },
+      {
+        "file": "formats/216_once_again.png",
+        "src": "assets/kit/formats/216_once_again.png",
+        "title": "once again asking",
+        "alt": "The once again asking meme: a stick figure in a brown coat stands with his hands out, DUK lies flat next to an empty white sign. Empty title on top, empty caption below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.127,
+            0.027,
+            0.747,
+            0.073
+          ],
+          [
+            0.673,
+            0.527,
+            0.173,
+            0.08
+          ],
+          [
+            0.22,
+            0.873,
+            0.553,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/216_once_again.webp"
+      },
+      {
+        "file": "formats/217_virtual_pet.png",
+        "src": "assets/kit/formats/217_virtual_pet.png",
+        "title": "the virtual pet",
+        "alt": "A pink virtual pet toy with a green screen where DUK lies flat. The screen and the three yellow buttons have empty labels, with an empty caption below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.393,
+            0.267,
+            0.213,
+            0.107
+          ],
+          [
+            0.347,
+            0.733,
+            0.06,
+            0.027
+          ],
+          [
+            0.473,
+            0.733,
+            0.053,
+            0.027
+          ],
+          [
+            0.593,
+            0.733,
+            0.067,
+            0.027
+          ],
+          [
+            0.107,
+            0.94,
+            0.787,
+            0.047
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/217_virtual_pet.webp"
+      },
+      {
+        "file": "formats/218_find_him.png",
+        "src": "assets/kit/formats/218_find_him.png",
+        "title": "find him",
+        "alt": "A crowd of stick figures in three rows, each with an empty speech bubble. DUK is tiny, lying flat on the floor in the bottom row. Empty title on top.",
+        "tag": "template",
+        "spots": [
+          [
+            0.36,
+            0.013,
+            0.28,
+            0.073
+          ],
+          [
+            0.02,
+            0.153,
+            0.107,
+            0.02
+          ],
+          [
+            0.18,
+            0.153,
+            0.08,
+            0.02
+          ],
+          [
+            0.347,
+            0.153,
+            0.04,
+            0.013
+          ],
+          [
+            0.493,
+            0.153,
+            0.04,
+            0.02
+          ],
+          [
+            0.76,
+            0.153,
+            0.08,
+            0.02
+          ],
+          [
+            0.613,
+            0.153,
+            0.087,
+            0.027
+          ],
+          [
+            0.927,
+            0.153,
+            0.047,
+            0.027
+          ],
+          [
+            0.107,
+            0.393,
+            0.067,
+            0.027
+          ],
+          [
+            0.267,
+            0.393,
+            0.04,
+            0.02
+          ],
+          [
+            0.4,
+            0.393,
+            0.067,
+            0.027
+          ],
+          [
+            0.52,
+            0.393,
+            0.12,
+            0.027
+          ],
+          [
+            0.687,
+            0.393,
+            0.073,
+            0.02
+          ],
+          [
+            0.833,
+            0.393,
+            0.073,
+            0.027
+          ],
+          [
+            0.04,
+            0.64,
+            0.067,
+            0.027
+          ],
+          [
+            0.207,
+            0.64,
+            0.027,
+            0.027
+          ],
+          [
+            0.32,
+            0.647,
+            0.087,
+            0.013
+          ],
+          [
+            0.633,
+            0.64,
+            0.047,
+            0.027
+          ],
+          [
+            0.753,
+            0.647,
+            0.1,
+            0.02
+          ],
+          [
+            0.9,
+            0.64,
+            0.087,
+            0.033
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/218_find_him.webp"
       }
     ],
     "pfp": [
