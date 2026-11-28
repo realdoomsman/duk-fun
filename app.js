@@ -634,7 +634,11 @@
     const showAdded = (log) => {
       const sol = log && log.last_run && log.totals ? Number(log.totals.solAdded) : 0;
       if (!(sol > 0)) return;
-      const words = `the bot has added ${solFormat.format(sol)} sol to the pool and burned the lp from every add.`;
+      // "every add" only while no burn is still pending (an add lands a moment before its burn).
+      const burnsPending = Array.isArray(log.pending_burns) && log.pending_burns.length > 0;
+      const words = burnsPending
+        ? `the bot has added ${solFormat.format(sol)} sol to the pool.`
+        : `the bot has added ${solFormat.format(sol)} sol to the pool and burned the lp from every add.`;
       poolAdded.forEach((line) => { line.textContent = words; });
     };
     const showToday = (log) => {
