@@ -329,14 +329,6 @@
       "thumb": "assets/memes/thumbs/41_deeper_same_face.webp"
     },
     {
-      "file": "42_fees_in_pool.png",
-      "src": "assets/memes/42_fees_in_pool.png",
-      "title": "fees go in the pool.",
-      "alt": "A crude diagram shows creator fees buying DUK, pairing DUK with SOL into the pool, and burning the LP receipt; the duck floats below.",
-      "tag": "pool",
-      "thumb": "assets/memes/thumbs/42_fees_in_pool.webp"
-    },
-    {
       "file": "43_not_a_price_floor.png",
       "src": "assets/memes/43_not_a_price_floor.png",
       "title": "deeper pool. not a price floor.",
@@ -1073,14 +1065,6 @@
       "thumb": "assets/memes2/thumbs/155_q_get_up.webp"
     },
     {
-      "file": "156_q_pool.png",
-      "src": "assets/memes2/156_q_pool.png",
-      "title": "fees go in the pool.",
-      "alt": "Quote card: fees go in the pool. DUK stands knee-deep in a blue pool in the corner, blank as ever.",
-      "tag": null,
-      "thumb": "assets/memes2/thumbs/156_q_pool.webp"
-    },
-    {
       "file": "157_q_greeting.png",
       "src": "assets/memes2/157_q_greeting.png",
       "title": "duk. / duk.",
@@ -1415,13 +1399,6 @@
       "src": "assets/comics/duk_09_tan.png",
       "title": "duk #9: doing the other side.",
       "alt": "Saturday. DUK lies on his back on a striped towel in the sun, feet in the air. A phone next to him buzzes: market -30%. Last panel: he has rolled over into THE DUK, face down, and says doing the other side.",
-      "tag": "comic"
-    },
-    {
-      "file": "duk_10_lp_campfire.png",
-      "src": "assets/comics/duk_10_lp_campfire.png",
-      "title": "duk #10: burned.",
-      "alt": "The trader asks where the creator fees go; DUK says after graduation they help add duk and sol to the pool. The trader asks about the lp from each add. Last panel: they sit by a small campfire with a big lp token burning in it. Caption: burned. receipts on duk.fun.",
       "tag": "comic"
     },
     {
