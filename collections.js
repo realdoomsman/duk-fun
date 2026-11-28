@@ -303,6 +303,8 @@
             const thumb = localAsset(item.thumb) ? item.thumb : null;
             return { src: item.src, thumb, width: item.width, height: item.height, title, alt: text(item.alt, title) };
           });
+        // formats are numbered by the meme they came from: newest first, so this week's are on top.
+        if (group === 'formats') items.reverse();
         total += items.length;
         return kitSection(group, items, group === 'replies' ? lines : []);
       });
