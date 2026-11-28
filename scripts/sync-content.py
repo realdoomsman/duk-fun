@@ -41,10 +41,12 @@ SITEMAP = SITE / 'sitemap.xml'  # scripts/sitemap.py: each page's lastmod from i
 SOCIAL = (ASSETS / 'social.json', ASSETS / 'social')  # scripts/social.py: newest instagram/tiktok posts for home
 PUBLISHED = ([MANIFEST.relative_to(SITE).as_posix()] + [path.relative_to(SITE).as_posix() for path in FOLDERS.values()]
              + [path.relative_to(SITE).as_posix() for path in (SHARE, DAILY, FEED, SITEMAP, *SOCIAL)])
-# Content rule: no prices, dollar amounts, percentages, leverage multipliers, other coins. Listed files and items
-# whose caption/topic/alt/title trip OFF_RULE (or that the producer marked retracted) are never published.
+# Content rule: no prices, dollar amounts, percentages, leverage multipliers, other coins, and no claims about what a
+# wallet holds or sells (Main). Listed files and items whose caption/topic/alt/title trip OFF_RULE (or that the producer
+# marked retracted) are never published.
 BLOCKLIST = PROJECT / 'work' / 'state' / 'content-blocklist.txt'
-OFF_RULE = re.compile(r'bitcoin|\bbtc\b|\beth\b|\$\d|\d+ ?%|\d+k\b|\d+x\b', re.IGNORECASE)
+OFF_RULE = re.compile(r'bitcoin|\bbtc\b|\beth\b|\$\d|\d+ ?%|\d+k\b|\d+x\b'
+                      r'|\bnever sells?\b|\bdev (?:wallet )?holds\b|\bholds? (?:0|zero|nothing)\b|\bwallet holds\b', re.IGNORECASE)
 
 
 def ffmpeg() -> str:

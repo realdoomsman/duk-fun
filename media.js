@@ -296,7 +296,7 @@
     const title = trailer.title || 'duk. the trailer.';
     $('trailer-title').textContent = title;
     video.setAttribute('aria-label', title);
-    if (trailer.poster) video.poster = trailer.poster;
+    window.dukPoster(video, trailer.poster);
     const length = clock(trailer.duration);
     if (length) {
       const time = $('trailer-duration');
