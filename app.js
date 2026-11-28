@@ -615,11 +615,14 @@
     }).catch(() => { /* no strip. */ });
   }
 
-  // Home pool card: today's add count (utc) and how long ago the newest one landed, from the keeper's /log
-  // (limit=0 = summaries only, a few kb). Hidden when the keeper isn't set, isn't adding or is restarting (zeros).
+  // Pool lines from the keeper's /log (limit=0 = summaries only, a few kb), every two minutes:
+  // - [data-pool-added] (pool hero, home card, manual): receipt-backed past tense with the live total
+  //   ("the bot has added 52.73 sol ..."); the static fallback text stays while the keeper is unset, down or restarting (zeros).
+  // - [data-pool-today] (home card): today's add count (utc) and how long ago the newest one landed; hidden when not adding.
   const poolToday = document.querySelector('[data-pool-today]');
+  const poolAdded = document.querySelectorAll('[data-pool-added]');
   const keeper = typeof config.KEEPER_URL === 'string' ? config.KEEPER_URL.trim().replace(/\/+$/, '') : '';
-  if (poolToday && /^https?:\/\//.test(keeper)) {
+  if ((poolToday || poolAdded.length) && /^https?:\/\//.test(keeper)) {
     const ago = (seconds) => {
       const minutes = Math.floor(Math.max(0, Date.now() / 1000 - seconds) / 60);
       if (minutes < 1) return 'just now';
@@ -627,26 +630,37 @@
       const hours = Math.floor(minutes / 60);
       return hours < 48 ? `${hours} h ago` : `${Math.floor(hours / 24)} days ago`;
     };
-    const showPoolToday = () => fetch(`${keeper}/log?limit=0`, { cache: 'no-store' })
+    const solFormat = new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 });
+    const showAdded = (log) => {
+      const sol = log && log.last_run && log.totals ? Number(log.totals.solAdded) : 0;
+      if (!(sol > 0)) return;
+      const words = `the bot has added ${solFormat.format(sol)} sol to the pool and burned the lp from every add.`;
+      poolAdded.forEach((line) => { line.textContent = words; });
+    };
+    const showToday = (log) => {
+      const newest = log && log.state === 'active' && log.last_run
+        ? list(log.recent).reduce((max, add) => Math.max(max, Number(add && add.timestamp) || 0), 0) : 0;
+      // not adding, restarting or no adds yet: no line (a stale "newest 2 min ago" would lie).
+      if (!newest) { poolToday.hidden = true; return; }
+      const today = new Date().toISOString().slice(0, 10);
+      const row = list(log.daily).find((day) => day && day.day === today);
+      const adds = row && Number.isInteger(row.adds) ? row.adds : 0;
+      // the age only shows while adds are recent (30 min); after that the line is just today's count.
+      const fresh = Date.now() / 1000 - newest < 1800;
+      if (!adds && !fresh) { poolToday.hidden = true; return; }
+      const count = adds ? `${adds} ${adds === 1 ? 'add' : 'adds'} today (utc).` : 'no adds yet today (utc).';
+      poolToday.textContent = fresh ? `${count} newest ${ago(newest)}.` : count;
+      poolToday.hidden = false;
+    };
+    const showPool = () => fetch(`${keeper}/log?limit=0`, { cache: 'no-store' })
       .then((response) => (response.ok ? response.json() : null))
       .then((log) => {
-        const newest = log && log.state === 'active' && log.last_run
-          ? list(log.recent).reduce((max, add) => Math.max(max, Number(add && add.timestamp) || 0), 0) : 0;
-        // not adding, restarting or no adds yet: no line (a stale "newest 2 min ago" would lie).
-        if (!newest) { poolToday.hidden = true; return; }
-        const today = new Date().toISOString().slice(0, 10);
-        const row = list(log.daily).find((day) => day && day.day === today);
-        const adds = row && Number.isInteger(row.adds) ? row.adds : 0;
-        // the age only shows while adds are recent (30 min); after that the line is just today's count.
-        const fresh = Date.now() / 1000 - newest < 1800;
-        if (!adds && !fresh) { poolToday.hidden = true; return; }
-        const count = adds ? `${adds} ${adds === 1 ? 'add' : 'adds'} today (utc).` : 'no adds yet today (utc).';
-        poolToday.textContent = fresh ? `${count} newest ${ago(newest)}.` : count;
-        poolToday.hidden = false;
+        if (poolAdded.length) showAdded(log);
+        if (poolToday) showToday(log);
       })
-      .catch(() => { /* the card keeps its last line. */ });
-    showPoolToday();
-    window.setInterval(() => { if (!document.hidden) showPoolToday(); }, 120000);
+      .catch(() => { /* the lines keep what they last said. */ });
+    showPool();
+    window.setInterval(() => { if (!document.hidden) showPool(); }, 120000);
   }
 
   // "put duk on your home screen": shown only when the browser offers an install (manifest.webmanifest).

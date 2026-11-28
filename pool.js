@@ -61,7 +61,7 @@
       : `${adds} ${adds === 1 ? 'add' : 'adds'} so far.`;
     const page = `${(typeof config.SITE === 'string' && /^https:\/\//.test(config.SITE) ? config.SITE : 'https://duk.fun').replace(/\/+$/, '')}/pool.html`;
     $('pp-post').href = `https://x.com/intent/post?text=${encodeURIComponent(
-      `fees go in the pool.\n${count} the lp from each one gets burned.\nreceipts: ${page}\n\njust duk. $DUK`)}`;
+      `fees went in the pool.\n${count} the lp from every add got burned.\nreceipts: ${page}\n\njust duk. $DUK`)}`;
     $('pp-post').hidden = !adds;
   };
 

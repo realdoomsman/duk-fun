@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="style.css?v=c09cd88d">
   <link rel="stylesheet" href="manual.css?v=e2186b79">
   <script src="assets/config.js?v=4f90962a" defer></script>
-  <script src="app.js?v=e9706fc8" defer></script>
+  <script src="app.js?v=a1ea5574" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">skip to the page</a>
@@ -220,8 +220,8 @@
           </header>
           <div class="chapter-body">
             <div class="chapter-text">
-              <p class="chapter-lead">how a pool add works.</p>
-              <p>duk graduated to pumpswap on nov 26. for each add, a bot we call the keeper does this:</p>
+              <p class="chapter-lead">how a pool add works, when the bot adds.</p>
+              <p>duk graduated to pumpswap on nov 26. when it adds, a bot we call the keeper does this:</p>
               <ol class="pool-flow" aria-label="what happens in a pool add">
                 <li><b>claim.</b> the keeper claims duk's creator fees.</li>
                 <li><b>buy duk.</b> a slice of the sol buys duk on the pool.</li>
@@ -232,7 +232,7 @@
               <h3>the small print, at normal size</h3>
               <ul class="plain-list">
                 <li>it only adds anything if there are creator fees to claim, the keeper is running and the transactions go through.</li>
-                <li>this is how we set the keeper up. no smart contract forces it, so until there are transactions to show, it's a plan.</li>
+                <li>this is how we set the keeper up. no smart contract forces it. the receipts are what counts.</li>
                 <li>only the lp from the keeper's own adds gets burned. anyone else's lp is theirs.</li>
                 <li>burning lp doesn't burn any duk supply. lp tokens are the claim on the liquidity. the duk in the pool stays there.</li>
                 <li>selling can still take sol out of the pool, so it can still get shallower.</li>
@@ -240,7 +240,7 @@
               <h3>what it does</h3>
               <p>a deeper pool can mean less slippage. <strong>not a price floor.</strong> the price can still go down, a lot. he's seen it.</p>
               <h3>receipts</h3>
-              <p>every add and burn is listed on <a href="pool.html">the pool page</a> with a link to the transaction, so you don't have to take our word for it. the counter there shows what's been added to the pool so far, which isn't the same as what's in the pool right now. if the keeper is waiting or stopped, the page says that too.</p>
+              <p><span data-pool-added>the bot has added sol to the pool and burned the lp from every add.</span> every add and burn is listed on <a href="pool.html">the pool page</a> with a link to the transaction, so you don't have to take our word for it. the counter there shows what's been added to the pool so far, which isn't the same as what's in the pool right now. if the keeper is waiting or stopped, the page says that too.</p>
               <p><a class="button" href="pool.html">go to the pool page</a></p>
             </div>
             <div class="chapter-margin" role="note" aria-label="margin notes, chapter 4">
@@ -370,11 +370,11 @@
                 </div>
                 <div>
                   <dt>who's the dev? what does the dev do?</dt>
-                  <dd>the dev runs the keeper, a small bot. for each pool add it claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp it gets back. every add and burn shows up on <a href="pool.html">the pool page</a> with the transaction.</dd>
+                  <dd>the dev runs the keeper, a small bot. when it adds, it claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp it gets back. every add and burn shows up on <a href="pool.html">the pool page</a> with the transaction.</dd>
                 </div>
                 <div>
                   <dt>what about liquidity?</dt>
-                  <dd>for each pool add the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool, and the lp from each of the keeper's adds gets burned. a deeper pool can mean less slippage. not a price floor. selling can still take sol out of the pool. the counter shows what's been added so far, which isn't what's in the pool now. more in <a href="#the-pool">chapter 4</a>.</dd>
+                  <dd>when the bot adds, it claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp from that add. a deeper pool can mean less slippage. not a price floor. selling can still take sol out of the pool. the counter shows what's been added so far, which isn't what's in the pool now. more in <a href="#the-pool">chapter 4</a>.</dd>
                 </div>
                 <div>
                   <dt>where's the ca?</dt>

@@ -21,7 +21,7 @@ PAGES = {
         ('memes/14_duk_stare.png', (920, 180, 250, 250), -5, True),
         ('memes/23_candle_rain.png', (720, 330, 250, 250), -3, True)]),
     'comics': ('duk comics.', 'something bad happens. he lies down.', [('hit.png', (680, 190, 500, 420), 0, False)]),
-    'pool': ('the pool.', 'fees in. lp burned. he floats.', [('float.png', (600, 150, 560, 380), 0, False)]),
+    'pool': ('the pool.', 'fees went in. lp burned. he floats.', [('float.png', (600, 150, 560, 380), 0, False)]),
     'cult': ('the cult.', 'say duk back.', [('stand.png', (760, 60, 380, 520), 0, False)]),
     'stickers': ('stickers.', 'for replying to people.', [
         ('stickers/react/18_noted.png', (620, 60, 280, 280), -6, False),

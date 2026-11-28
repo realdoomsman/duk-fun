@@ -5,22 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#00a2e8">
   <title>the pool / duk.</title>
-  <meta name="description" content="fees go in the pool. a pool add: the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. receipts here. not a price floor. $DUK">
+  <meta name="description" content="fees went in the pool. the bot has added duk + sol to the pool and burned the lp from every add. receipts here. not a price floor. $DUK">
   <link rel="canonical" href="https://duk.fun/pool.html">
   <meta property="og:title" content="the pool / duk.">
-  <meta property="og:description" content="a pool add: the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. every add links to its transaction. $DUK">
+  <meta property="og:description" content="the bot has added duk + sol to the pool and burned the lp from every add. every add links to its transaction. $DUK">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://duk.fun/pool.html">
-  <meta property="og:image" content="https://duk.fun/assets/og/pool.png?v=6c07bb58">
+  <meta property="og:image" content="https://duk.fun/assets/og/pool.png?v=4b24f398">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="the pool. fees in. lp burned. he floats. duk floating on his back.">
+  <meta property="og:image:alt" content="the pool. fees went in. lp burned. he floats. duk floating on his back.">
   <meta property="og:site_name" content="duk.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="the pool / duk.">
-  <meta name="twitter:description" content="a pool add: the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. every add links to its transaction. $DUK">
-  <meta name="twitter:image" content="https://duk.fun/assets/og/pool.png?v=6c07bb58">
-  <meta name="twitter:image:alt" content="the pool. fees in. lp burned. he floats. duk floating on his back.">
+  <meta name="twitter:description" content="the bot has added duk + sol to the pool and burned the lp from every add. every add links to its transaction. $DUK">
+  <meta name="twitter:image" content="https://duk.fun/assets/og/pool.png?v=4b24f398">
+  <meta name="twitter:image:alt" content="the pool. fees went in. lp burned. he floats. duk floating on his back.">
   <meta name="twitter:site" content="@justdukfun">
   <link rel="icon" type="image/png" href="assets/memes/pfp.png">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
@@ -28,8 +28,8 @@
   <link rel="stylesheet" href="style.css?v=c09cd88d">
   <link rel="stylesheet" href="pool.css?v=e689f757">
   <script src="assets/config.js?v=4f90962a" defer></script>
-  <script src="app.js?v=e9706fc8" defer></script>
-  <script src="pool.js?v=91ebfe99" defer></script>
+  <script src="app.js?v=a1ea5574" defer></script>
+  <script src="pool.js?v=e0f2d941" defer></script>
 </head>
 <body class="pool-page">
   <a class="skip-link" href="#main">skip to the page</a>
@@ -40,9 +40,9 @@
   <main id="main">
     <section class="page-hero page-width" aria-labelledby="pool-title">
       <div>
-        <p class="eyebrow">the pool / where the fees go</p>
-        <h1 id="pool-title">fees go<br>in the pool.</h1>
-        <p class="lead">here's a pool add: the bot claims creator fees, buys a slice of duk with them, adds duk and sol to the pool and burns the lp. receipts below.<br><strong class="pool-hero-flat">a deeper pool can mean less slippage. not a price floor.</strong></p>
+        <p class="eyebrow">the pool / where the fees went</p>
+        <h1 id="pool-title">fees went<br>in the pool.</h1>
+        <p class="lead"><span data-pool-added>the bot has added sol to the pool and burned the lp from every add.</span> receipts below.<br><strong class="pool-hero-flat">a deeper pool can mean less slippage. not a price floor.</strong></p>
         <p class="pool-hero-jump"><a class="button" href="#pool-live">see the water</a> <a class="text-link" href="#pool-receipts">skip to the receipts <span aria-hidden="true">↓</span></a></p>
       </div>
       <img class="page-hero-art" id="pool-hero-art" src="assets/stand.png" width="800" height="1000" alt="duk. standing at the edge of the pool.">
@@ -63,13 +63,13 @@
         <li class="has-art"><strong>"exit liquidity."</strong><span>someone needed a buyer so they could sell. it was you.</span><img src="assets/obj_liq.png" width="500" height="280" alt="" loading="lazy"></li>
         <li><strong>"graduated. still needs supervision."</strong><span>the coin left the bonding curve and landed in a tiny pool.</span></li>
       </ol>
-      <p class="pool-shrug">duk can't fix any of that.<br><strong>he can put his creator fees in the pool.</strong></p>
+      <p class="pool-shrug">duk can't fix any of that.<br><strong>he put his creator fees in the pool.</strong></p>
     </section>
 
     <section class="pool-block page-width section-space" id="pool-how" aria-labelledby="pool-how-title">
       <div class="section-heading inline-heading">
-        <div><p class="eyebrow">02 / the plumbing</p><h2 id="pool-how-title">how duk's<br>pool works.</h2></div>
-        <p>five steps.<br>a bot does them.</p>
+        <div><p class="eyebrow">02 / the plumbing</p><h2 id="pool-how-title">how an add<br>works.</h2></div>
+        <p>five steps.<br>this is how it goes when the bot adds.</p>
       </div>
       <ol class="pool-flow">
         <li><b>1</b><strong>creator fees claimed</strong><span>the keeper claims duk's creator fees into the fee wallet.</span></li>
@@ -81,9 +81,9 @@
       <div class="pool-fineprint">
         <h3>the fine print, in big letters.</h3>
         <ul>
-          <li><strong>a keeper does it.</strong> a small bot on a server runs each add: fees claimed, a slice buys duk, duk and sol added, lp burned.</li>
+          <li><strong>a keeper does it.</strong> each add is run by a small bot on a server: fees claimed, a slice buys duk, duk and sol added, lp burned.</li>
           <li><strong>additions depend on fees, the keeper and execution.</strong> no trades means no fees, and no fees means nothing to add. if the keeper is down, nothing gets added either.</li>
-          <li><strong>other people's lp is separate.</strong> we burn the lp from our adds. everyone else's lp is theirs.</li>
+          <li><strong>other people's lp is separate.</strong> we burned the lp from our adds. everyone else's lp is theirs.</li>
         </ul>
       </div>
     </section>
@@ -95,8 +95,8 @@
       </div>
 
       <div class="pool-now" id="pool-now" aria-labelledby="pp-now-title">
-        <h3 id="pp-now-title">what the bot is doing now</h3>
-        <p class="pool-now-lead">a pool add: the bot claims creator fees, a slice of the sol buys duk, duk and sol go in the pool, and the lp is burned. receipts below.</p>
+        <h3 id="pp-now-title">what the bot has done</h3>
+        <p class="pool-now-lead">straight from the bot's log: the fees it has claimed, its launch-day curve buys and every add, each with a receipt.</p>
         <div class="pool-counters" role="group" aria-labelledby="pp-now-counter-title">
           <h3 id="pp-now-counter-title">so far</h3>
           <div><span>fees claimed (sol)</span><strong id="pp-claimed">—</strong></div>
@@ -168,8 +168,8 @@
       <div class="pool-wallet">
         <div>
           <p class="eyebrow">04 / the fee wallet</p>
-          <h2 id="pool-wallet-title">where the<br>fees land.</h2>
-          <p class="pool-wallet-lead">creator fees land here and the keeper spends from here. it's a public wallet, so anyone can look it up.</p>
+          <h2 id="pool-wallet-title">the fee<br>wallet.</h2>
+          <p class="pool-wallet-lead">the keeper's fee wallet. it's a public wallet, so anyone can look it up.</p>
         </div>
         <div class="pool-wallet-box">
           <label for="pp-wallet">fee wallet (solana)</label>
@@ -193,7 +193,7 @@
         <div class="pool-is">
           <h3>it is</h3>
           <ul>
-            <li>creator fees helping deepen the pool.</li>
+            <li>creator fees the bot has put in the pool.</li>
             <li>the lp from each add, burned.</li>
             <li>receipts in public. every add links to its transaction.</li>
           </ul>
@@ -219,7 +219,7 @@
       <div class="pool-faq">
         <details>
           <summary>why burn the lp?</summary>
-          <p>lp tokens are the claim ticket to take liquidity back out. the keeper burns the lp from the bot's adds. burned lp can't be redeemed, so nobody can withdraw that liquidity, us included. selling can still take sol out of the pool.</p>
+          <p>lp tokens are the claim ticket to take liquidity back out. the keeper burned the lp from every one of the bot's adds. burned lp can't be redeemed, so nobody can withdraw that liquidity, us included. selling can still take sol out of the pool.</p>
         </details>
         <details>
           <summary>does this pump the price?</summary>
@@ -231,7 +231,7 @@
         </details>
         <details>
           <summary>who runs the keeper?</summary>
-          <p>the dev runs it: a small automated service on a server. it claims creator fees, does the swap, the add and the burn, and writes the log this page reads.</p>
+          <p>the dev runs it: a small automated service on a server. when it adds, it claims creator fees, does the swap, the add and the burn. it writes the log this page reads.</p>
         </details>
         <details>
           <summary>can you stop it?</summary>
