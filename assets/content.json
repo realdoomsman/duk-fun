@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-28T05:16:06Z",
+  "updated": "2026-11-28T06:46:05Z",
   "memes": [
+    {
+      "file": "226_loading_tip.png",
+      "src": "assets/memes4/226_loading_tip.png",
+      "thumb": "assets/memes4/thumbs/226_loading_tip.webp",
+      "title": "the market has been on the loading screen for weeks. $duk read the tip.",
+      "alt": "duk reacting to the market stuck sideways for weeks like a loading screen. the market has been on the loading screen for weeks. $duk read the tip.",
+      "tag": "market",
+      "created": "2026-11-28T06:30:15Z"
+    },
+    {
+      "file": "225_wet_paint.png",
+      "src": "assets/memes4/225_wet_paint.png",
+      "thumb": "assets/memes4/thumbs/225_wet_paint.webp",
+      "title": "ct painted the week green a little early. he stayed off the fresh paint.",
+      "alt": "duk reacting to ct celebrating a green week before the week was over, then the chart slipping back. ct painted the week green a little early. he stayed off the fresh paint.",
+      "tag": "market",
+      "created": "2026-11-28T06:30:15Z"
+    },
+    {
+      "file": "224_whack_a_mole.png",
+      "src": "assets/memes4/224_whack_a_mole.png",
+      "thumb": "assets/memes4/thumbs/224_whack_a_mole.webp",
+      "title": "every little rally pops its head up and gets bonked. he learned the game early.",
+      "alt": "duk reacting to every small rally attempt getting knocked back down. every little rally pops its head up and gets bonked. he learned the game early.",
+      "tag": "market",
+      "created": "2026-11-28T06:30:15Z"
+    },
+    {
+      "file": "223_claw_machine.png",
+      "src": "assets/memes4/223_claw_machine.png",
+      "thumb": "assets/memes4/thumbs/223_claw_machine.webp",
+      "title": "the green week was right there in the claw. he is the one prize nobody can lift.",
+      "alt": "duk reacting to the first green week in two months slipping away at the last minute. the green week was right there in the claw. he is the one prize nobody can lift.",
+      "tag": "market",
+      "created": "2026-11-28T06:30:15Z"
+    },
     {
       "file": "222_cha_cha.png",
       "src": "assets/memes4/222_cha_cha.png",
@@ -1887,6 +1923,24 @@
   ],
   "gifs": [
     {
+      "title": "bounces flat.",
+      "alt": "A red candle flips on a trampoline while DUK bounces up and down beside it, perfectly flat: \"bounces flat.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/132_bounces_flat.mp4",
+      "gif": "assets/gifs2/132_bounces_flat.gif",
+      "poster": "assets/gifs2/posters/132_bounces_flat.webp",
+      "created": "2026-11-28T06:20:09Z"
+    },
+    {
+      "title": "saturday cartoons.",
+      "alt": "On a TV a cartoon red candle hangs in the air past a cliff edge, then falls and shrinks into a tiny puff, while DUK lies flat on the rug in front of it: \"saturday cartoons.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/131_saturday_cartoons.mp4",
+      "gif": "assets/gifs2/131_saturday_cartoons.gif",
+      "poster": "assets/gifs2/posters/131_saturday_cartoons.webp",
+      "created": "2026-11-28T06:20:09Z"
+    },
+    {
       "title": "twister.",
       "alt": "twister.",
       "tag": "reaction",
@@ -1903,24 +1957,6 @@
       "gif": "assets/gifs2/133_off_the_top.gif",
       "poster": "assets/gifs2/posters/133_off_the_top.webp",
       "created": "2026-11-28T04:53:45Z"
-    },
-    {
-      "title": "bounces flat.",
-      "alt": "bounces flat.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/132_bounces_flat.mp4",
-      "gif": "assets/gifs2/132_bounces_flat.gif",
-      "poster": "assets/gifs2/posters/132_bounces_flat.webp",
-      "created": "2026-11-28T04:53:15Z"
-    },
-    {
-      "title": "saturday cartoons.",
-      "alt": "saturday cartoons.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/131_saturday_cartoons.mp4",
-      "gif": "assets/gifs2/131_saturday_cartoons.gif",
-      "poster": "assets/gifs2/posters/131_saturday_cartoons.webp",
-      "created": "2026-11-28T04:53:15Z"
     },
     {
       "title": "snow angel.",
@@ -3077,6 +3113,26 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/114_bounces_flat.mp4",
+      "poster": "assets/clips2/114_bounces_flat.webp",
+      "title": "everyone's bouncing. he bounces flat. $duk",
+      "alt": "A backyard trampoline. Red candles bounce higher and higher, flipping in the air, and one gets flung off the side. DUK lies on the mat in THE DUK pose and bounces up and down perfectly flat, like a plank. \"everyone's bouncing.\" \"he bounces flat.\" \"duk.\"",
+      "created": "2026-11-28T06:20:09Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/113_saturday_cartoons.mp4",
+      "poster": "assets/clips2/113_saturday_cartoons.webp",
+      "title": "saturday cartoons. he's already on the floor. duk.",
+      "alt": "Saturday morning. DUK flops onto the rug in front of the TV in THE DUK pose. On screen a cartoon red candle runs off a cliff, keeps running on air, looks down and falls, shrinking into a tiny puff. \"saturday cartoons.\" \"he's already on the floor.\" \"duk.\"",
+      "created": "2026-11-28T06:20:09Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/116_started_on_the_floor.mp4",
       "poster": "assets/clips2/116_started_on_the_floor.webp",
       "title": "started on the floor.",
@@ -3092,26 +3148,6 @@
       "title": "nothing to trim.",
       "alt": "nothing to trim.",
       "created": "2026-11-28T04:53:41Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
-    },
-    {
-      "src": "assets/clips2/114_bounces_flat.mp4",
-      "poster": "assets/clips2/114_bounces_flat.webp",
-      "title": "bounces flat.",
-      "alt": "bounces flat.",
-      "created": "2026-11-28T04:53:14Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/113_saturday_cartoons.mp4",
-      "poster": "assets/clips2/113_saturday_cartoons.webp",
-      "title": "saturday cartoons.",
-      "alt": "saturday cartoons.",
-      "created": "2026-11-28T04:53:09Z",
       "duration": 10.0,
       "width": 1080,
       "height": 1080
