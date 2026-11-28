@@ -5917,6 +5917,42 @@
         "thumb": "assets/kit/formats/thumbs/205_yelling.webp"
       },
       {
+        "file": "formats/206_deleted_app.png",
+        "src": "assets/kit/formats/206_deleted_app.png",
+        "title": "the deleted app",
+        "alt": "A big phone home screen full of colored app squares, one empty dashed slot with an empty label. A stick figure in a red cap stands next to it with an empty speech bubble, DUK lying flat on the floor beside him.",
+        "tag": "template",
+        "spots": [
+          [
+            0.547,
+            0.167,
+            0.24,
+            0.047
+          ],
+          [
+            0.247,
+            0.36,
+            0.08,
+            0.027
+          ],
+          [
+            0.573,
+            0.793,
+            0.267,
+            0.067
+          ],
+          [
+            0.153,
+            0.793,
+            0.387,
+            0.087
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/206_deleted_app.webp"
+      },
+      {
         "file": "formats/207_distracted.png",
         "src": "assets/kit/formats/207_distracted.png",
         "title": "the distracted one",
@@ -6035,6 +6071,48 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/209_panik_kalm.webp"
+      },
+      {
+        "file": "formats/210_leapfrog.png",
+        "src": "assets/kit/formats/210_leapfrog.png",
+        "title": "the leapfrog",
+        "alt": "A stick figure holding an empty red sign leaps in a dashed arc right over DUK, who lies flat on the floor. Empty title on top, empty caption below.",
+        "tag": "template",
+        "spots": [
+          [
+            0.207,
+            0.027,
+            0.587,
+            0.127
+          ],
+          [
+            0.12,
+            0.8,
+            0.173,
+            0.06
+          ],
+          [
+            0.72,
+            0.793,
+            0.147,
+            0.067
+          ],
+          [
+            0.327,
+            0.793,
+            0.173,
+            0.08
+          ],
+          [
+            0.533,
+            0.813,
+            0.153,
+            0.047
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/210_leapfrog.webp"
       }
     ],
     "pfp": [
