@@ -1,6 +1,42 @@
 {
-  "updated": "2026-11-28T03:46:05Z",
+  "updated": "2026-11-28T05:16:06Z",
   "memes": [
+    {
+      "file": "222_cha_cha.png",
+      "src": "assets/memes4/222_cha_cha.png",
+      "thumb": "assets/memes4/thumbs/222_cha_cha.webp",
+      "title": "the chart keeps doing the same little dance. he never learned the steps.",
+      "alt": "duk reacting to the chart doing the same small back-and-forth dance after the bounce. the chart keeps doing the same little dance. he never learned the steps.",
+      "tag": "market",
+      "created": "2026-11-28T05:00:15Z"
+    },
+    {
+      "file": "221_chance_card.png",
+      "src": "assets/memes4/221_chance_card.png",
+      "thumb": "assets/memes4/thumbs/221_chance_card.webp",
+      "title": "the chart drew the same card again. $duk was already on the square.",
+      "alt": "duk reacting to the chart slipping back down after the holiday bounce, same as every time. the chart drew the same card again. $duk was already on the square.",
+      "tag": "market",
+      "created": "2026-11-28T05:00:15Z"
+    },
+    {
+      "file": "220_safe_haven.png",
+      "src": "assets/memes4/220_safe_haven.png",
+      "thumb": "assets/memes4/thumbs/220_safe_haven.webp",
+      "title": "everyone is shopping for a safe haven again. he has been on the doormat the whole time.",
+      "alt": "duk reacting to markets running out of safe havens as everything slides together. everyone is shopping for a safe haven again. he has been on the doormat the whole time.",
+      "tag": "market",
+      "created": "2026-11-28T05:00:15Z"
+    },
+    {
+      "file": "219_promotion.png",
+      "src": "assets/memes4/219_promotion.png",
+      "thumb": "assets/memes4/thumbs/219_promotion.webp",
+      "title": "the sentiment index finally moved up a level. he is happy where he is.",
+      "alt": "duk reacting to sentiment index moving up from extreme fear to fear after weeks at the bottom. the sentiment index finally moved up a level. he is happy where he is.",
+      "tag": "market",
+      "created": "2026-11-28T05:00:15Z"
+    },
     {
       "file": "218_find_him.png",
       "src": "assets/memes4/218_find_him.png",
@@ -1851,6 +1887,60 @@
   ],
   "gifs": [
     {
+      "title": "twister.",
+      "alt": "twister.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/134_twister.mp4",
+      "gif": "assets/gifs2/134_twister.gif",
+      "poster": "assets/gifs2/posters/134_twister.webp",
+      "created": "2026-11-28T04:53:46Z"
+    },
+    {
+      "title": "off the top.",
+      "alt": "off the top.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/133_off_the_top.mp4",
+      "gif": "assets/gifs2/133_off_the_top.gif",
+      "poster": "assets/gifs2/posters/133_off_the_top.webp",
+      "created": "2026-11-28T04:53:45Z"
+    },
+    {
+      "title": "bounces flat.",
+      "alt": "bounces flat.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/132_bounces_flat.mp4",
+      "gif": "assets/gifs2/132_bounces_flat.gif",
+      "poster": "assets/gifs2/posters/132_bounces_flat.webp",
+      "created": "2026-11-28T04:53:15Z"
+    },
+    {
+      "title": "saturday cartoons.",
+      "alt": "saturday cartoons.",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/131_saturday_cartoons.mp4",
+      "gif": "assets/gifs2/131_saturday_cartoons.gif",
+      "poster": "assets/gifs2/posters/131_saturday_cartoons.webp",
+      "created": "2026-11-28T04:53:15Z"
+    },
+    {
+      "title": "snow angel.",
+      "alt": "A red candle skier hits a mogul and wipes out while DUK lies flat making a snow angel: \"snow angel.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/130_snow_angel.mp4",
+      "gif": "assets/gifs2/130_snow_angel.gif",
+      "poster": "assets/gifs2/posters/130_snow_angel.webp",
+      "created": "2026-11-28T04:50:01Z"
+    },
+    {
+      "title": "spin cycle.",
+      "alt": "Red candles tumble in a rattling washing machine on spin while DUK lies flat on a towel: \"spin cycle.\"",
+      "tag": "reaction",
+      "mp4": "assets/gifs2/129_spin_cycle.mp4",
+      "gif": "assets/gifs2/129_spin_cycle.gif",
+      "poster": "assets/gifs2/posters/129_spin_cycle.webp",
+      "created": "2026-11-28T04:50:01Z"
+    },
+    {
       "title": "watching clouds.",
       "alt": "Red candle kites nosedive into the grass around DUK, who lies flat watching the clouds: \"watching clouds.\"",
       "tag": "reaction",
@@ -1885,24 +1975,6 @@
       "gif": "assets/gifs2/125_three_seats.gif",
       "poster": "assets/gifs2/posters/125_three_seats.webp",
       "created": "2026-11-28T01:50:16Z"
-    },
-    {
-      "title": "snow angel.",
-      "alt": "snow angel.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/130_snow_angel.mp4",
-      "gif": "assets/gifs2/130_snow_angel.gif",
-      "poster": "assets/gifs2/posters/130_snow_angel.webp",
-      "created": "2026-11-28T00:24:29Z"
-    },
-    {
-      "title": "spin cycle.",
-      "alt": "spin cycle.",
-      "tag": "reaction",
-      "mp4": "assets/gifs2/129_spin_cycle.mp4",
-      "gif": "assets/gifs2/129_spin_cycle.gif",
-      "poster": "assets/gifs2/posters/129_spin_cycle.webp",
-      "created": "2026-11-28T00:24:29Z"
     },
     {
       "title": "already lying down.",
@@ -3005,6 +3077,66 @@
   ],
   "clips": [
     {
+      "src": "assets/clips2/116_started_on_the_floor.mp4",
+      "poster": "assets/clips2/116_started_on_the_floor.webp",
+      "title": "started on the floor.",
+      "alt": "started on the floor.",
+      "created": "2026-11-28T04:53:45Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/115_nothing_to_trim.mp4",
+      "poster": "assets/clips2/115_nothing_to_trim.webp",
+      "title": "nothing to trim.",
+      "alt": "nothing to trim.",
+      "created": "2026-11-28T04:53:41Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/114_bounces_flat.mp4",
+      "poster": "assets/clips2/114_bounces_flat.webp",
+      "title": "bounces flat.",
+      "alt": "bounces flat.",
+      "created": "2026-11-28T04:53:14Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/113_saturday_cartoons.mp4",
+      "poster": "assets/clips2/113_saturday_cartoons.webp",
+      "title": "saturday cartoons.",
+      "alt": "saturday cartoons.",
+      "created": "2026-11-28T04:53:09Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/clips2/112_snow_angel.mp4",
+      "poster": "assets/clips2/112_snow_angel.webp",
+      "title": "snow day. he's making a snow angel. $duk",
+      "alt": "A snowy slope. DUK lies flat in THE DUK pose and makes a snow angel while red candles on skis race down past him, hit a mogul and wipe out in puffs of snow. \"snow day.\" \"he's making a snow angel.\" \"duk.\"",
+      "created": "2026-11-28T04:50:01Z",
+      "duration": 10.0,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "assets/clips2/111_air_drying.mp4",
+      "poster": "assets/clips2/111_air_drying.webp",
+      "title": "spin cycle. he's air drying. duk.",
+      "alt": "Saturday laundry. Red candles tumble in a washing machine that speeds into a violent spin cycle and rattles across the floor. DUK lies flat on a towel next to it in THE DUK pose. \"spin cycle.\" \"he's air drying.\" \"duk.\"",
+      "created": "2026-11-28T04:50:01Z",
+      "duration": 10.0,
+      "width": 1080,
+      "height": 1080
+    },
+    {
       "src": "assets/clips2/110_watching_clouds.mp4",
       "poster": "assets/clips2/110_watching_clouds.webp",
       "title": "everyone's flying kites. he's watching clouds. duk.",
@@ -3043,26 +3175,6 @@
       "duration": 10.0,
       "width": 1280,
       "height": 720
-    },
-    {
-      "src": "assets/clips2/112_snow_angel.mp4",
-      "poster": "assets/clips2/112_snow_angel.webp",
-      "title": "snow angel.",
-      "alt": "snow angel.",
-      "created": "2026-11-28T00:24:28Z",
-      "duration": 10.0,
-      "width": 1280,
-      "height": 720
-    },
-    {
-      "src": "assets/clips2/111_air_drying.mp4",
-      "poster": "assets/clips2/111_air_drying.webp",
-      "title": "air drying.",
-      "alt": "air drying.",
-      "created": "2026-11-28T00:24:26Z",
-      "duration": 10.0,
-      "width": 1080,
-      "height": 1080
     },
     {
       "src": "assets/clips2/106_already_lying_down.mp4",
