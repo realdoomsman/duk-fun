@@ -220,21 +220,18 @@
           </header>
           <div class="chapter-body">
             <div class="chapter-text">
-              <p class="chapter-lead">the creator fees don't go to the dev. they go back into the pool.</p>
-              <p>duk graduated to pumpswap on nov 26. every batch, a bot we call the keeper does this:</p>
-              <ol class="pool-flow" aria-label="what happens to creator fees every batch">
-                <li><b>claim.</b> the creator fees go to a separate wallet that only the keeper uses. it claims them.</li>
+              <p class="chapter-lead">how a pool add works.</p>
+              <p>duk graduated to pumpswap on nov 26. for each add, a bot we call the keeper does this:</p>
+              <ol class="pool-flow" aria-label="what happens in a pool add">
+                <li><b>claim.</b> the keeper claims duk's creator fees.</li>
                 <li><b>buy duk.</b> a slice of the sol buys duk on the pool.</li>
                 <li><b>pair with sol.</b> it pairs that duk with the sol it didn't spend.</li>
                 <li><b>add.</b> both go into the duk/sol pumpswap pool.</li>
                 <li><b>burn the lp from that add.</b> it burns the lp tokens it gets back. burned lp can't be redeemed, so nobody can withdraw that liquidity, us included.</li>
               </ol>
-              <h3>the reserve</h3>
-              <p>part of the fees is set aside as a reserve before the add. the rest goes in the pool and the lp is burned. every add and burn is on <a href="pool.html#pool-receipts">the pool page</a>.</p>
               <h3>the small print, at normal size</h3>
               <ul class="plain-list">
-                <li>it only adds anything if there are creator fees to claim, the keeper is running and the transactions go through. running costs come out first.</li>
-                <li>it runs in batches and keeps a small sol reserve, so fees don't turn into an add straight away.</li>
+                <li>it only adds anything if there are creator fees to claim, the keeper is running and the transactions go through.</li>
                 <li>this is how we set the keeper up. no smart contract forces it, so until there are transactions to show, it's a plan.</li>
                 <li>only the lp from the keeper's own adds gets burned. anyone else's lp is theirs.</li>
                 <li>burning lp doesn't burn any duk supply. lp tokens are the claim on the liquidity. the duk in the pool stays there.</li>
@@ -373,11 +370,11 @@
                 </div>
                 <div>
                   <dt>who's the dev? what does the dev do?</dt>
-                  <dd>the creator fees go to a separate wallet that only the keeper, a small bot, uses. every batch it claims the fees, buys a slice of duk, adds duk and sol to the pool and burns the lp it gets back. every add and burn shows up on <a href="pool.html">the pool page</a> with the transaction. the wallet's keys stay private.</dd>
+                  <dd>the dev runs the keeper, a small bot. for each pool add it claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp it gets back. every add and burn shows up on <a href="pool.html">the pool page</a> with the transaction.</dd>
                 </div>
                 <div>
                   <dt>what about liquidity?</dt>
-                  <dd>every batch the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool, and the lp from each of the keeper's adds gets burned. a deeper pool can mean less slippage. not a price floor. selling can still take sol out of the pool. the counter shows what's been added so far, which isn't what's in the pool now. more in <a href="#the-pool">chapter 4</a>.</dd>
+                  <dd>for each pool add the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool, and the lp from each of the keeper's adds gets burned. a deeper pool can mean less slippage. not a price floor. selling can still take sol out of the pool. the counter shows what's been added so far, which isn't what's in the pool now. more in <a href="#the-pool">chapter 4</a>.</dd>
                 </div>
                 <div>
                   <dt>where's the ca?</dt>

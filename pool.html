@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#00a2e8">
   <title>the pool / duk.</title>
-  <meta name="description" content="fees go in the pool. every batch the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. receipts here. not a price floor. $DUK">
+  <meta name="description" content="fees go in the pool. a pool add: the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. receipts here. not a price floor. $DUK">
   <link rel="canonical" href="https://duk.fun/pool.html">
   <meta property="og:title" content="the pool / duk.">
-  <meta property="og:description" content="every batch the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. every add links to its transaction. $DUK">
+  <meta property="og:description" content="a pool add: the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. every add links to its transaction. $DUK">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://duk.fun/pool.html">
   <meta property="og:image" content="https://duk.fun/assets/og/pool.png?v=6c07bb58">
@@ -18,7 +18,7 @@
   <meta property="og:site_name" content="duk.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="the pool / duk.">
-  <meta name="twitter:description" content="every batch the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. every add links to its transaction. $DUK">
+  <meta name="twitter:description" content="a pool add: the bot claims creator fees, buys a slice of duk, adds duk and sol to the pool and burns the lp. every add links to its transaction. $DUK">
   <meta name="twitter:image" content="https://duk.fun/assets/og/pool.png?v=6c07bb58">
   <meta name="twitter:image:alt" content="the pool. fees in. lp burned. he floats. duk floating on his back.">
   <meta name="twitter:site" content="@justdukfun">
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="pool.css?v=e689f757">
   <script src="assets/config.js?v=4f90962a" defer></script>
   <script src="app.js?v=e9706fc8" defer></script>
-  <script src="pool.js?v=16ea4d90" defer></script>
+  <script src="pool.js?v=91ebfe99" defer></script>
 </head>
 <body class="pool-page">
   <a class="skip-link" href="#main">skip to the page</a>
@@ -42,7 +42,7 @@
       <div>
         <p class="eyebrow">the pool / where the fees go</p>
         <h1 id="pool-title">fees go<br>in the pool.</h1>
-        <p class="lead">every batch the bot claims creator fees, buys a slice of duk with them, adds duk and sol to the pool and burns the lp. receipts below.<br><strong class="pool-hero-flat">a deeper pool can mean less slippage. not a price floor.</strong></p>
+        <p class="lead">here's a pool add: the bot claims creator fees, buys a slice of duk with them, adds duk and sol to the pool and burns the lp. receipts below.<br><strong class="pool-hero-flat">a deeper pool can mean less slippage. not a price floor.</strong></p>
         <p class="pool-hero-jump"><a class="button" href="#pool-live">see the water</a> <a class="text-link" href="#pool-receipts">skip to the receipts <span aria-hidden="true">↓</span></a></p>
       </div>
       <img class="page-hero-art" id="pool-hero-art" src="assets/stand.png" width="800" height="1000" alt="duk. standing at the edge of the pool.">
@@ -81,10 +81,7 @@
       <div class="pool-fineprint">
         <h3>the fine print, in big letters.</h3>
         <ul>
-          <li><strong>it runs every batch.</strong> duk graduated to pumpswap on nov 26. since then every batch goes in: fees claimed, a slice buys duk, duk and sol added, lp burned.</li>
-          <li><strong>the reserve.</strong> part of the fees is set aside as a reserve before the add. the rest goes in the pool and the lp is burned.</li>
-          <li><strong>a keeper does it.</strong> a small bot on a server. it checks on a timer and works in batches. thresholds and a small sol reserve apply.</li>
-          <li><strong>operating costs come out before the split.</strong> network fees and running costs first. then the reserve, then the slice that buys duk, then the add.</li>
+          <li><strong>a keeper does it.</strong> a small bot on a server runs each add: fees claimed, a slice buys duk, duk and sol added, lp burned.</li>
           <li><strong>additions depend on fees, the keeper and execution.</strong> no trades means no fees, and no fees means nothing to add. if the keeper is down, nothing gets added either.</li>
           <li><strong>other people's lp is separate.</strong> we burn the lp from our adds. everyone else's lp is theirs.</li>
         </ul>
@@ -99,7 +96,7 @@
 
       <div class="pool-now" id="pool-now" aria-labelledby="pp-now-title">
         <h3 id="pp-now-title">what the bot is doing now</h3>
-        <p class="pool-now-lead">every batch it claims creator fees, a slice of the sol buys duk, duk and sol go in the pool, and the lp is burned. receipts below.</p>
+        <p class="pool-now-lead">a pool add: the bot claims creator fees, a slice of the sol buys duk, duk and sol go in the pool, and the lp is burned. receipts below.</p>
         <div class="pool-counters" role="group" aria-labelledby="pp-now-counter-title">
           <h3 id="pp-now-counter-title">so far</h3>
           <div><span>fees claimed (sol)</span><strong id="pp-claimed">—</strong></div>
@@ -207,7 +204,7 @@
             <li>a price floor. price can still go down.</li>
             <li>a guarantee of anything.</li>
             <li>control over other people's lp.</li>
-            <li>a burn of duk tokens. the duk it buys goes into the pool or the reserve. only the lp tokens get burned.</li>
+            <li>a burn of duk tokens. only the lp tokens from an add get burned.</li>
             <li>a reason to wash trade. buying and selling with yourself to make fees just costs you the fees.</li>
           </ul>
         </div>
@@ -226,7 +223,7 @@
         </details>
         <details>
           <summary>does this pump the price?</summary>
-          <p>it isn't built to. each batch buys some duk and puts it back in the pool next to sol. the point is depth: a deeper pool can mean less slippage. price can still go down. it's not a price floor.</p>
+          <p>it isn't built to. an add buys some duk and puts it in the pool next to sol. the point is depth: a deeper pool can mean less slippage. price can still go down. it's not a price floor.</p>
         </details>
         <details>
           <summary>what if nobody trades?</summary>

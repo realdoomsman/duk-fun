@@ -2,7 +2,7 @@
   'use strict';
   const config = window.DUK_CONFIG || {};
   const $ = (id) => document.getElementById(id);
-  const REFRESH_MS = 120000; // /log carries the keeper's ledger; every two minutes is plenty (it adds every ~5 min)
+  const REFRESH_MS = 120000; // /log carries the keeper's ledger; every two minutes is plenty
   const TIMEOUT_MS = 8000;
 
   const keeperURL = (() => {

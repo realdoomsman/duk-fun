@@ -3,9 +3,11 @@
 Owner: DukSiteBuilder. Newest first.
 
 ## 2026-11-27
-- **no holdings claims** (Main, 16:00 EST): nothing on the site says what the bot or dev wallet holds. Gone: the live reserve number
-  (#pp-reserve / wallet_duk), "it never sells duk", "it never goes in the pool", "it keeps a reserve". pool.html and manual describe the
-  reserve only as a step in the fee flow ("part of the fees is set aside as a reserve before the add"); add/burn receipts and curve buys stay.
+- **no wallet claims, no reserve, no schedule** (Main, 20:10 EST): nothing on the site says what the bot or dev wallet holds or sells,
+  and the reserve is not mentioned anywhere (live number, fee-flow step, faq all gone). Pool page, manual and the home pool card describe
+  only how a pool add works (claim fees, buy duk, add duk + sol, burn the lp) with no "every batch"/timer wording; receipts and chart stay.
+- **sync task runs hidden** (20:10 EST): duk-site-sync action is now `conhost.exe --headless cmd.exe /c work\site-sync.bat` (the visible
+  console window that popped up every 45 min could be closed or ^C'd: the 19:01 run died with 0xC000013A).
 - **wall of fame cards**: "share" on touch screens (png for images, the mp4 for gifs/clips) and "copy image" on computers (images).
 - **thumb retry**: any lazy picture that fails to load (github pages burst 503s) tries once more after 1.5 s: one capture-phase
   listener in app.js covers the meme, sticker, gif and clip grids, the wall and fame. Video posters (gif grids, home wall gifs,
