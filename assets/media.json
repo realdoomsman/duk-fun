@@ -5850,6 +5850,222 @@
         "width": 1200,
         "height": 1200,
         "thumb": "assets/kit/formats/thumbs/202_change_my_mind.webp"
+      },
+      {
+        "file": "formats/203_always_has_been.png",
+        "src": "assets/kit/formats/203_always_has_been.png",
+        "title": "always has been",
+        "alt": "The always has been meme: a stick figure astronaut looking down at a pale blue planet with an empty speech bubble, DUK floating behind him in space with his own empty bubble. An empty label on the planet.",
+        "tag": "template",
+        "spots": [
+          [
+            0.647,
+            0.113,
+            0.307,
+            0.047
+          ],
+          [
+            0.26,
+            0.167,
+            0.273,
+            0.107
+          ],
+          [
+            0.233,
+            0.913,
+            0.233,
+            0.047
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/203_always_has_been.webp"
+      },
+      {
+        "file": "formats/204_draw_25.png",
+        "src": "assets/kit/formats/204_draw_25.png",
+        "title": "draw 25",
+        "alt": "The draw 25 meme: a red card with an empty two-line choice on it, DUK lying flat under it, and a stick figure holding up a fan of cards with empty labels. Empty lines along the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.147,
+            0.227,
+            0.213,
+            0.1
+          ],
+          [
+            0.54,
+            0.333,
+            0.367,
+            0.04
+          ],
+          [
+            0.147,
+            0.353,
+            0.213,
+            0.047
+          ],
+          [
+            0.093,
+            0.793,
+            0.307,
+            0.073
+          ],
+          [
+            0.433,
+            0.793,
+            0.467,
+            0.06
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/204_draw_25.webp"
+      },
+      {
+        "file": "formats/205_yelling.png",
+        "src": "assets/kit/formats/205_yelling.png",
+        "title": "the yelling",
+        "alt": "The yelling at the table meme, split in two: two stick figures yelling into one big empty speech bubble on the left, DUK lying flat on a dinner table with a small empty bubble on the right.",
+        "tag": "template",
+        "spots": [
+          [
+            0.06,
+            0.127,
+            0.38,
+            0.207
+          ],
+          [
+            0.68,
+            0.26,
+            0.14,
+            0.067
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/205_yelling.webp"
+      },
+      {
+        "file": "formats/207_distracted.png",
+        "src": "assets/kit/formats/207_distracted.png",
+        "title": "the distracted one",
+        "alt": "The distracted boyfriend meme on a road: a stick figure looking back at DUK lying flat on the ground while another stick figure stares at him, each with an empty label.",
+        "tag": "template",
+        "spots": [
+          [
+            0.707,
+            0.133,
+            0.213,
+            0.087
+          ],
+          [
+            0.507,
+            0.207,
+            0.053,
+            0.047
+          ],
+          [
+            0.1,
+            0.48,
+            0.22,
+            0.053
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/207_distracted.webp"
+      },
+      {
+        "file": "formats/208_trade_offer.png",
+        "src": "assets/kit/formats/208_trade_offer.png",
+        "title": "trade offer",
+        "alt": "The trade offer meme: an empty title over two empty white cards, each with an empty heading and an empty line, and a big DUK face staring out from the bottom.",
+        "tag": "template",
+        "spots": [
+          [
+            0.247,
+            0.027,
+            0.5,
+            0.087
+          ],
+          [
+            0.14,
+            0.193,
+            0.227,
+            0.04
+          ],
+          [
+            0.587,
+            0.193,
+            0.3,
+            0.053
+          ],
+          [
+            0.113,
+            0.3,
+            0.287,
+            0.06
+          ],
+          [
+            0.62,
+            0.3,
+            0.24,
+            0.053
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/208_trade_offer.webp"
+      },
+      {
+        "file": "formats/209_panik_kalm.png",
+        "src": "assets/kit/formats/209_panik_kalm.png",
+        "title": "panik kalm",
+        "alt": "The panik kalm meme in three rows: two stick figures sweating next to a falling red arrow and a rising green arrow, then DUK lying flat on the last row. Every label is empty.",
+        "tag": "template",
+        "spots": [
+          [
+            0.073,
+            0.027,
+            0.353,
+            0.053
+          ],
+          [
+            0.76,
+            0.127,
+            0.167,
+            0.06
+          ],
+          [
+            0.1,
+            0.36,
+            0.3,
+            0.053
+          ],
+          [
+            0.76,
+            0.46,
+            0.167,
+            0.06
+          ],
+          [
+            0.133,
+            0.693,
+            0.233,
+            0.053
+          ],
+          [
+            0.647,
+            0.767,
+            0.207,
+            0.087
+          ]
+        ],
+        "width": 1200,
+        "height": 1200,
+        "thumb": "assets/kit/formats/thumbs/209_panik_kalm.webp"
       }
     ],
     "pfp": [
